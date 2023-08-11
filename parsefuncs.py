@@ -369,7 +369,8 @@ def add_to_frags(
 
                 # Validate bounds
                 fclip_start = 0 if fclip_start < 0 else fclip_start
-                clipped_regions.append((fclip_start, fstart))  # clipped region to left
+                # clipped region to left
+                clipped_regions.append((fclip_start, fstart))
 
             if cig_list[-1] == "S":  # clipped end
                 clip_len = cig_list[-2]
@@ -377,9 +378,11 @@ def add_to_frags(
 
                 # Validate bounds
                 rclip_end = (
-                    len(frag_array) if rclip_end > len(frag_array) else rclip_end
+                    len(frag_array) if rclip_end > len(
+                        frag_array) else rclip_end
                 )
-                clipped_regions.append((rend, rclip_end))  # clipped region to right
+                # clipped region to right
+                clipped_regions.append((rend, rclip_end))
 
     elif orientation == "FR" or orientation == "EQ":
         fread, revread = readtup
@@ -416,7 +419,8 @@ def add_to_frags(
 
                 # Validate bounds
                 fclip_start = 0 if fclip_start < 0 else fclip_start
-                clipped_regions.append((fclip_start, fstart))  # clipped region to left
+                # clipped region to left
+                clipped_regions.append((fclip_start, fstart))
 
             if rcigs[-1] == "S":
                 clip_len = rcigs[-2]
@@ -424,9 +428,11 @@ def add_to_frags(
 
                 # Validate bounds
                 rclip_end = (
-                    len(frag_array) if rclip_end > len(frag_array) else rclip_end
+                    len(frag_array) if rclip_end > len(
+                        frag_array) else rclip_end
                 )
-                clipped_regions.append((rend, rclip_end))  # clipped region to right
+                # clipped region to right
+                clipped_regions.append((rend, rclip_end))
 
     # Add actual read coverage
     for start, end in read_regions:
@@ -535,8 +541,10 @@ def generate_plot_data(
 
             # There's no functional difference between "FR" and "EQ" orientations
             elif orientation == "FR" or orientation == "EQ":
-                fProcessed = process_read_ends(fread, "F", frag_ends, allowSoftClips)
-                rProcessed = process_read_ends(revread, "R", frag_ends, allowSoftClips)
+                fProcessed = process_read_ends(
+                    fread, "F", frag_ends, allowSoftClips)
+                rProcessed = process_read_ends(
+                    revread, "R", frag_ends, allowSoftClips)
 
                 if fProcessed and rProcessed:
                     add_to_frags(
@@ -582,7 +590,7 @@ def bin_counts(alignTup: tuple, bin_size: int = 1):
 
         binned_ends[i] = sum(ends[bstart:bend])
 
-    binned_ends[numbins - 1] = sum(ends[bin_pos[numbins - 1] :])
+    binned_ends[numbins - 1] = sum(ends[bin_pos[numbins - 1]:])
 
     return (cov, binned_ends, (switch_start, switch_end)), bin_pos
 
@@ -616,7 +624,8 @@ def plot_gen(
     bin_x = bin_ax if bin_size > 1 else x
 
     # Use reasonable x ticks
-    xticks = bin_ax if bin_size >= 10 else [i for i in range(0, len(readcov), 10)]
+    xticks = bin_ax if bin_size >= 10 else [
+        i for i in range(0, len(readcov), 10)]
 
     fig, ax = plt.subplots(
         2, 1, sharex=True, figsize=(20, 10), dpi=100, constrained_layout=True
@@ -636,11 +645,12 @@ def plot_gen(
     xticks = (
         xticks[buffstart_bin:buffend_bin]
         if bin_size >= 10
-        else xticks[buffstart // 10 : ceil(buffend / 10)]
+        else xticks[buffstart // 10: ceil(buffend / 10)]
     )
 
     # Add the coverage panel ----------------------------------------
-    coverage_counts = {"Read": readcov, "Inferred": infercov, "Clipped": clipcov}
+    coverage_counts = {"Read": readcov,
+                       "Inferred": infercov, "Clipped": clipcov}
     coverage_colours = {
         "Read": "slateblue",
         "Inferred": "crimson",
