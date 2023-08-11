@@ -45,43 +45,58 @@ else:
 worker_list = total_files[start:stop]
 
 # %%
+maxTries = 5
 for sra in worker_list:
-    retries = 0
+    i = 0
     failed = True
-    while retries < 5 and failed:
-        try:
-            c1 = run(
-                [
-                    "prefetch",
-                    f"{sra}",
-                    "-O",
-                    "SRAs/"
-                ],
-                stdout=PIPE,
-                stderr=PIPE,
-                check=True)
+    while i < maxTries and failed:
+        c1 = run(["prefetch", f"{sra}", "-O", "SRAs/"], stdout=PIPE, stderr=PIPE)
+        failed = False
 
-            c2 = run(
-                [
-                    "fasterq-dump",
-                    f"SRAs/{sra}/{sra}.sra",
-                    "--split-files",
-                    "--outdir",
-                    f"{save_dir}"
-                ],
-                stdout=PIPE,
-                stderr=PIPE,
-                check=True
-            )
-            failed = False
-            print(f"Success: {sra} ")
+        if c1.returncode:
+            print(f"Retrying {sra} fetch ({i})")
+            print(c1.stderr)
 
-        except CalledProcessError as e:
-            retries += 1
+            i += 1
             failed = True
-            print(f"Failed to process {sra}. Retrying {retries+1}...")
-            print(f"{sra}: {e.stderr}")
 
-            if retries == 5:
-                print(f"Skipping {sra}")
+    i = 0
+    failed = True
+    while i < maxTries and failed:
+        c2 = run(
+            [
+                "fasterq-dump",
+                f"SRAs/{sra}/{sra}.sra",
+                "--split-files",
+                "--outdir",
+                f"{save_dir}",
+            ],
+            stdout=PIPE,
+            stderr=PIPE,
+        )
+        failed = False
 
+        if c2.returncode:
+            print(f"Retrying {sra} fastq dump ({i})")
+            print(c2.stderr)
+
+            i += 1
+            failed = True
+
+    i = 0
+    failed = True
+    while i < maxTries and failed:
+        c3 = run(
+            [
+                "gzip",
+                "--best",
+                f"{sra}_1.fastq",
+                f"{sra}_2.fastq",
+            ],
+            stdout=None,
+            stderr=None,
+        )
+
+        failed = False
+
+    print(f"Success: {sra}")
