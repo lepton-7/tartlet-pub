@@ -90,8 +90,8 @@ for sra in worker_list:
             [
                 "gzip",
                 "--best",
-                f"{sra}_1.fastq",
-                f"{sra}_2.fastq",
+                f"{save_dir}/{sra}_1.fastq",
+                f"{save_dir}/{sra}_2.fastq",
             ],
             stdout=None,
             stderr=None,
