@@ -318,3 +318,142 @@ export CONDA_PYTHON_EXE='\''/apps/miniconda3/4.10.3-py37/bin/python'\'''
 + echo 'Downloading sequences from e_coli_sastry2019_acc.txt into e_coli/'
 Downloading sequences from e_coli_sastry2019_acc.txt into e_coli/
 + mpiexec python -u download_SRAs.py /users/PDS0325/sachitk26/packages/tart/validation/rna_seq/e_coli_sastry2019_acc.txt /users/PDS0325/sachitk26/packages/tart/validation/rna_seq/e_coli
+Success: SRR8164486
+Success: SRR7154645
+Success: SRR7154639
+Success: SRR7154637
+Success: SRR7154631
+Success: SRR8173221
+Success: SRR7154624
+Success: SRR7154643
+Success: SRR7154641
+Success: SRR8164487
+Success: SRR7154628
+Success: SRR7154626
+Success: SRR7154633
+Success: SRR7154635
+Success: SRR8164484
+Success: SRR8173215
+Success: SRR8173218
+Success: SRR8173212
+Success: SRR8173222
+Success: SRR8173209
+Success: SRR8164482
+Success: SRR7154646
+Success: SRR7154629
+Success: SRR7154638
+Success: SRR7154640
+Success: SRR7154632
+Success: SRR7154642
+Success: SRR7154627
+Success: SRR7154634
+Success: SRR7154636
+Success: SRR7154625
+Success: SRR7154644
+Success: SRR8164485
+Success: SRR8164480
+Success: SRR8173216
+Success: SRR8164478
+Success: SRR8164476
+Success: SRR8173213
+Success: SRR8218067
+Success: SRR8218071
+Success: SRR8173219
+Success: SRR8218073
+Success: SRR8173210
+Success: SRR8218069
+Success: SRR8173249
+Success: SRR8173217
+Success: SRR8164483
+Success: SRR8173220
+Success: SRR8173214
+Success: SRR8218075
+Success: SRR8218065
+Success: SRR8218063
+Success: SRR8173211
+Success: SRR8164477
+Success: SRR9204649
+Success: SRR8218077
+Success: SRR9204650
+Success: SRR8164481
+Success: SRR8173237
+Success: SRR8173231
+Success: SRR8173234
+Success: SRR8173240
+Success: SRR8173228
+Success: SRR8164479
+Success: SRR8218072
+Success: SRR8173243
+Success: SRR8173246
+Success: SRR8218070
+Success: SRR8218068
+Success: SRR8218074
+Success: SRR8173227
+Success: SRR8173250
+Success: SRR9204651
+Success: SRR8218076
+Success: SRR8218064
+Success: SRR8173235
+Success: SRR8218078
+Success: SRR8218066
+Success: SRR9204652
+Success: SRR8173241
+Success: SRR8173229
+Success: SRR8173238
+Success: SRR8173232
+Success: SRR9204653
+Success: SRR9204648
+Success: SRR8173236
+Success: SRR8173244
+Retrying SRR8173245 fetch (0)
+b"2023-08-11T22:13:57 prefetch.3.0.2: Current preference is set to retrieve SRA Normalized Format files with full base quality scores.\n2023-08-11T22:13:57 prefetch.3.0.2: 1) Downloading 'SRR8173245'...\n2023-08-11T22:13:57 prefetch.3.0.2 warn: lock exists while copying file - Lock file /users/PDS0325/sachitk26/packages/tart/validation/rna_seq/SRAs/SRR8173245/SRR8173245.sra.lock exists: download canceled\n2023-08-11T22:13:57 prefetch.3.0.2: 1) failed to download 'SRR8173245': RC(rcExe,rcFile,rcCopying,rcLock,rcExists)\n"
+Retrying SRR8173245 fetch (1)
+b"2023-08-11T22:13:58 prefetch.3.0.2: Current preference is set to retrieve SRA Normalized Format files with full base quality scores.\n2023-08-11T22:13:58 prefetch.3.0.2: 1) Downloading 'SRR8173245'...\n2023-08-11T22:13:58 prefetch.3.0.2 warn: lock exists while copying file - Lock file /users/PDS0325/sachitk26/packages/tart/validation/rna_seq/SRAs/SRR8173245/SRR8173245.sra.lock exists: download canceled\n2023-08-11T22:13:58 prefetch.3.0.2: 1) failed to download 'SRR8173245': RC(rcExe,rcFile,rcCopying,rcLock,rcExists)\n"
+Retrying SRR8173245 fetch (2)
+b"2023-08-11T22:13:59 prefetch.3.0.2: Current preference is set to retrieve SRA Normalized Format files with full base quality scores.\n2023-08-11T22:13:59 prefetch.3.0.2: 1) Downloading 'SRR8173245'...\n2023-08-11T22:13:59 prefetch.3.0.2 warn: lock exists while copying file - Lock file /users/PDS0325/sachitk26/packages/tart/validation/rna_seq/SRAs/SRR8173245/SRR8173245.sra.lock exists: download canceled\n2023-08-11T22:13:59 prefetch.3.0.2: 1) failed to download 'SRR8173245': RC(rcExe,rcFile,rcCopying,rcLock,rcExists)\n"
+Retrying SRR8173245 fetch (3)
+b"2023-08-11T22:13:59 prefetch.3.0.2: Current preference is set to retrieve SRA Normalized Format files with full base quality scores.\n2023-08-11T22:14:00 prefetch.3.0.2: 1) Downloading 'SRR8173245'...\n2023-08-11T22:14:00 prefetch.3.0.2 warn: lock exists while copying file - Lock file /users/PDS0325/sachitk26/packages/tart/validation/rna_seq/SRAs/SRR8173245/SRR8173245.sra.lock exists: download canceled\n2023-08-11T22:14:00 prefetch.3.0.2: 1) failed to download 'SRR8173245': RC(rcExe,rcFile,rcCopying,rcLock,rcExists)\n"
+Retrying SRR8173245 fetch (4)
+b"2023-08-11T22:14:00 prefetch.3.0.2: Current preference is set to retrieve SRA Normalized Format files with full base quality scores.\n2023-08-11T22:14:00 prefetch.3.0.2: 1) Downloading 'SRR8173245'...\n2023-08-11T22:14:00 prefetch.3.0.2 warn: lock exists while copying file - Lock file /users/PDS0325/sachitk26/packages/tart/validation/rna_seq/SRAs/SRR8173245/SRR8173245.sra.lock exists: download canceled\n2023-08-11T22:14:00 prefetch.3.0.2: 1) failed to download 'SRR8173245': RC(rcExe,rcFile,rcCopying,rcLock,rcExists)\n"
+Retrying SRR8173245 fastq dump (0)
+b"2023-08-11T22:14:01 fasterq-dump.3.0.2 err: name not found while resolving query within virtual file system module - failed to resolve accession 'SRAs/SRR8173245/SRR8173245.sra' - Cannot resolve accession ( 404 )\nfasterq-dump quit with error code 3\n"
+Retrying SRR8173245 fastq dump (1)
+b"2023-08-11T22:14:02 fasterq-dump.3.0.2 err: name not found while resolving query within virtual file system module - failed to resolve accession 'SRAs/SRR8173245/SRR8173245.sra' - Cannot resolve accession ( 404 )\nfasterq-dump quit with error code 3\n"
+Retrying SRR8173245 fastq dump (2)
+b"2023-08-11T22:14:03 fasterq-dump.3.0.2 err: name not found while resolving query within virtual file system module - failed to resolve accession 'SRAs/SRR8173245/SRR8173245.sra' - Cannot resolve accession ( 404 )\nfasterq-dump quit with error code 3\n"
+Retrying SRR8173245 fastq dump (3)
+b"2023-08-11T22:14:03 fasterq-dump.3.0.2 err: name not found while resolving query within virtual file system module - failed to resolve accession 'SRAs/SRR8173245/SRR8173245.sra' - Cannot resolve accession ( 404 )\nfasterq-dump quit with error code 3\n"
+Retrying SRR8173245 fastq dump (4)
+b"2023-08-11T22:14:04 fasterq-dump.3.0.2 err: name not found while resolving query within virtual file system module - failed to resolve accession 'SRAs/SRR8173245/SRR8173245.sra' - Cannot resolve accession ( 404 )\nfasterq-dump quit with error code 3\n"
+gzip: /users/PDS0325/sachitk26/packages/tart/validation/rna_seq/e_coli/SRR8173245_1.fastq: No such file or directory
+gzip: /users/PDS0325/sachitk26/packages/tart/validation/rna_seq/e_coli/SRR8173245_2.fastq: No such file or directory
+Success: SRR8173245
+Success: SRR8173247
+Retrying SRR8173248 fetch (0)
+b"2023-08-11T22:15:48 prefetch.3.0.2: Current preference is set to retrieve SRA Normalized Format files with full base quality scores.\n2023-08-11T22:15:48 prefetch.3.0.2: 1) Downloading 'SRR8173248'...\n2023-08-11T22:15:48 prefetch.3.0.2 warn: lock exists while copying file - Lock file /users/PDS0325/sachitk26/packages/tart/validation/rna_seq/SRAs/SRR8173248/SRR8173248.sra.lock exists: download canceled\n2023-08-11T22:15:48 prefetch.3.0.2: 1) failed to download 'SRR8173248': RC(rcExe,rcFile,rcCopying,rcLock,rcExists)\n"
+Retrying SRR8173248 fetch (1)
+b"2023-08-11T22:15:49 prefetch.3.0.2: Current preference is set to retrieve SRA Normalized Format files with full base quality scores.\n2023-08-11T22:15:49 prefetch.3.0.2: 1) Downloading 'SRR8173248'...\n2023-08-11T22:15:49 prefetch.3.0.2 warn: lock exists while copying file - Lock file /users/PDS0325/sachitk26/packages/tart/validation/rna_seq/SRAs/SRR8173248/SRR8173248.sra.lock exists: download canceled\n2023-08-11T22:15:49 prefetch.3.0.2: 1) failed to download 'SRR8173248': RC(rcExe,rcFile,rcCopying,rcLock,rcExists)\n"
+Retrying SRR8173248 fetch (2)
+b"2023-08-11T22:15:50 prefetch.3.0.2: Current preference is set to retrieve SRA Normalized Format files with full base quality scores.\n2023-08-11T22:15:50 prefetch.3.0.2: 1) Downloading 'SRR8173248'...\n2023-08-11T22:15:50 prefetch.3.0.2 warn: lock exists while copying file - Lock file /users/PDS0325/sachitk26/packages/tart/validation/rna_seq/SRAs/SRR8173248/SRR8173248.sra.lock exists: download canceled\n2023-08-11T22:15:50 prefetch.3.0.2: 1) failed to download 'SRR8173248': RC(rcExe,rcFile,rcCopying,rcLock,rcExists)\n"
+Retrying SRR8173248 fetch (3)
+b"2023-08-11T22:15:51 prefetch.3.0.2: Current preference is set to retrieve SRA Normalized Format files with full base quality scores.\n2023-08-11T22:15:51 prefetch.3.0.2: 1) Downloading 'SRR8173248'...\n2023-08-11T22:15:51 prefetch.3.0.2 warn: lock exists while copying file - Lock file /users/PDS0325/sachitk26/packages/tart/validation/rna_seq/SRAs/SRR8173248/SRR8173248.sra.lock exists: download canceled\n2023-08-11T22:15:51 prefetch.3.0.2: 1) failed to download 'SRR8173248': RC(rcExe,rcFile,rcCopying,rcLock,rcExists)\n"
+Retrying SRR8173248 fetch (4)
+b"2023-08-11T22:15:52 prefetch.3.0.2: Current preference is set to retrieve SRA Normalized Format files with full base quality scores.\n2023-08-11T22:15:52 prefetch.3.0.2: 1) Downloading 'SRR8173248'...\n2023-08-11T22:15:52 prefetch.3.0.2 warn: lock exists while copying file - Lock file /users/PDS0325/sachitk26/packages/tart/validation/rna_seq/SRAs/SRR8173248/SRR8173248.sra.lock exists: download canceled\n2023-08-11T22:15:52 prefetch.3.0.2: 1) failed to download 'SRR8173248': RC(rcExe,rcFile,rcCopying,rcLock,rcExists)\n"
+Retrying SRR8173248 fastq dump (0)
+b"2023-08-11T22:15:52 fasterq-dump.3.0.2 err: name not found while resolving query within virtual file system module - failed to resolve accession 'SRAs/SRR8173248/SRR8173248.sra' - Cannot resolve accession ( 404 )\nfasterq-dump quit with error code 3\n"
+Retrying SRR8173248 fastq dump (1)
+b"2023-08-11T22:15:53 fasterq-dump.3.0.2 err: name not found while resolving query within virtual file system module - failed to resolve accession 'SRAs/SRR8173248/SRR8173248.sra' - Cannot resolve accession ( 404 )\nfasterq-dump quit with error code 3\n"
+Retrying SRR8173248 fastq dump (2)
+b"2023-08-11T22:15:54 fasterq-dump.3.0.2 err: name not found while resolving query within virtual file system module - failed to resolve accession 'SRAs/SRR8173248/SRR8173248.sra' - Cannot resolve accession ( 404 )\nfasterq-dump quit with error code 3\n"
+Retrying SRR8173248 fastq dump (3)
+b"2023-08-11T22:15:55 fasterq-dump.3.0.2 err: name not found while resolving query within virtual file system module - failed to resolve accession 'SRAs/SRR8173248/SRR8173248.sra' - Cannot resolve accession ( 404 )\nfasterq-dump quit with error code 3\n"
+Retrying SRR8173248 fastq dump (4)
+b"2023-08-11T22:15:55 fasterq-dump.3.0.2 err: name not found while resolving query within virtual file system module - failed to resolve accession 'SRAs/SRR8173248/SRR8173248.sra' - Cannot resolve accession ( 404 )\nfasterq-dump quit with error code 3\n"
+gzip: /users/PDS0325/sachitk26/packages/tart/validation/rna_seq/e_coli/SRR8173248_1.fastq: No such file or directory
+gzip: /users/PDS0325/sachitk26/packages/tart/validation/rna_seq/e_coli/SRR8173248_2.fastq: No such file or directory
+Success: SRR8173248
+Success: SRR8173242
+Success: SRR8173230
+Success: SRR8173239
+Success: SRR8173233
++ wait

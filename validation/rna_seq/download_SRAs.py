@@ -9,11 +9,6 @@ from pathlib import Path
 acc_file = Path(argv[1])
 save_dir = argv[2]
 
-# save_dir = "/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/e_coli"
-# acc_file = "/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/e_coli_sastry2019_acc.txt"
-
-# sra = "SRR8164486"
-
 # Read in the list
 with open(acc_file, "r") as f:
     acc_list = [x for x in f.read().splitlines()]
@@ -96,7 +91,6 @@ for sra in worker_list:
             stdout=None,
             stderr=None,
         )
-
         failed = False
 
     print(f"Success: {sra}")
