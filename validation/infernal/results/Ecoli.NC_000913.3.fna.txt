@@ -1,0 +1,20 @@
+#target name         accession query name           accession mdl mdl from   mdl to seq from   seq to strand trunc pass   gc  bias  score   E-value inc description of target
+#------------------- --------- -------------------- --------- --- -------- -------- -------- -------- ------ ----- ---- ---- ----- ------ --------- --- ---------------------
+Lysine               RF00168   NC_000913.3          -          cm        1      183  4233521  4233325      -    no    1 0.60   0.0  126.5   2.4e-32 !   Lysine riboswitch
+FMN                  RF00050   NC_000913.3          -          cm        1      140  3184718  3184570      -    no    1 0.58   0.0  125.6   8.2e-30 !   FMN riboswitch (RFN element)
+Mg_sensor            RF01056   NC_000913.3          -          cm        1      115  4467416  4467531      +    no    1 0.53   0.0  125.9   3.1e-25 !   Magnesium Sensor
+Cobalamin            RF00174   NC_000913.3          -          cm        1      190  4163384  4163573      +    no    1 0.54   0.0   96.4     1e-23 !   Cobalamin riboswitch
+MOCO_RNA_motif       RF01055   NC_000913.3          -          cm        1      135   816912   817056      +    no    1 0.50   0.0   97.8   1.4e-23 !   Moco (molybdenum cofactor) riboswitch
+TPP                  RF00059   NC_000913.3          -          cm        1      105  4196280  4196180      -    no    1 0.49   0.0   74.0   2.2e-12 !   TPP riboswitch (THI element)
+TPP                  RF00059   NC_000913.3          -          cm        1      105  2185432  2185336      -    no    1 0.57   0.0   69.9   2.1e-11 !   TPP riboswitch (THI element)
+TPP                  RF00059   NC_000913.3          -          cm        1      105    75610    75511      -    no    1 0.59   0.0   67.4   8.4e-11 !   TPP riboswitch (THI element)
+#
+# Program:         cmscan
+# Version:         1.1.4 (Dec 2020)
+# Pipeline mode:   SCAN
+# Query file:      /users/PDS0325/sachitk26/packages/tart/validation/genomes/Ecoli.NC_000913.3.fna
+# Target file:     /users/PDS0325/sachitk26/cm/riboswitches/riboswitches.cm
+# Option settings: cmscan --tblout /users/PDS0325/sachitk26/packages/tart/validation/infernal/results/Ecoli.NC_000913.3.fna.txt --noali --cut_ga --rfam --nohmmonly /users/PDS0325/sachitk26/cm/riboswitches/riboswitches.cm /users/PDS0325/sachitk26/packages/tart/validation/genomes/Ecoli.NC_000913.3.fna 
+# Current dir:     /users/PDS0325/sachitk26/packages/tart/validation/infernal
+# Date:            Sun Aug 13 21:43:48 2023
+# [ok]
