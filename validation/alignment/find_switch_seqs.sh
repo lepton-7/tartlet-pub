@@ -15,5 +15,12 @@ set echo on
 module load miniconda3
 source activate local
 
-mpiexec python -u find_switch_seqs.py ../complete_tax_downstream.csv $HOME/Emerge_MAGs_v1/Derep95 &&
+RT="$HOME/packages/tart"
+TABLE="$RT/validation/tables/inf_results.csv"
+GENOMES="$RT/validation/genomes"
+
+DELTA=500
+DSET="Genome"
+
+mpiexec python -u find_switch_seqs.py $TABLE $GENOMES $DELTA $DSET &&
     wait
