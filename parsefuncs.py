@@ -791,9 +791,9 @@ def is_interesting(
     kernel_size = 51
     kernel_stdev = 5
 
-    minReadDrop = 0.4
+    minReadDrop = 0.3
 
-    peakHeightTol = 0.25
+    peakHeightTol = 0.15
     peakWidthMarg = 4
     # -------------------------------------------------------------------------
 

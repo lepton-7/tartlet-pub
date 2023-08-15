@@ -1,0 +1,25 @@
+#!/bin/bash
+
+#SBATCH --time=00:20:00
+#SBATCH --nodes=10 --cpus-per-task=1
+
+#SBATCH --account=PDS0325
+#SBATCH --mail-type=BEGIN,END,FAIL
+
+# RUN THIS TO LAUNCH JOB
+## sbatch --output=jobs/parse_BAMs.out.$(date +"%Y-%m-%d_%H-%M-%S").%j parse_BAMs.sh
+
+set -x
+set echo on
+
+RT="$HOME/packages/tart"
+
+BAM_DIR="$RT/validation/alignment/switch_seqs_delta500/alignments_2023-08-14_11-02-43"
+SAVE_ROOT="$RT/validation/alignment/plots/picks"
+
+module load miniconda3
+module load samtools
+source activate local
+
+mpiexec python parse_BAMs.py $BAM_DIR $SAVE_ROOT &&
+    wait
