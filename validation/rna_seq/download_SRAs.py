@@ -1,6 +1,6 @@
 # Download sequence data using sra-tools
 # %%
-from subprocess import run, PIPE, CalledProcessError
+from subprocess import run, PIPE
 from mpi4py import MPI
 from sys import argv
 from pathlib import Path
