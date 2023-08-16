@@ -2,14 +2,16 @@
 # and returns a dict for indices of the full switch + buffer sequences in the contig
 
 # %%
-from collections import defaultdict
 import pandas as pd
+import os
+import json
+
+from collections import defaultdict
 from mpi4py import MPI
 from Bio import SeqIO, Seq
 from sys import argv
 from glob import glob
-import os
-import json
+from pathlib import Path
 
 # %%
 # Expects complete_tax_downstream.csv or
@@ -25,6 +27,9 @@ MAG_dir = argv[2]
 delta = int(argv[3])
 
 dset = argv[4]
+
+# Where to put the json dictionary
+out_dir = argv[5]
 
 # Read in the results table
 table = pd.read_csv(riboswitches_table_path)
@@ -135,10 +140,8 @@ if not skip:
         print(seqs_local)
 
 seqs_arr = None
-
 seqs_arr = comm.gather(seqs_local, root=0)
 
-# print(f"Completed gather: {rank}")
 
 # %%
 
@@ -151,7 +154,9 @@ if rank == 0:
     for instance_dict in seqs_arr:
         seqs_ledger.update(instance_dict)
 
-    with open("rowid_to_bounds.json", "w") as f:
+    Path(f"{out_dir}").mkdir(parents=True, exist_ok=True)
+
+    with open(f"{out_dir}/rowid_to_bounds.json", "w") as f:
         json.dump(seqs_ledger, f)
 
 else:

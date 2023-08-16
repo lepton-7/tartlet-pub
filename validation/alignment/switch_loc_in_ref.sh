@@ -20,7 +20,9 @@ TABLE="$RT/validation/tables/inf_results.csv"
 GENOMES="$RT/validation/genomes"
 
 DELTA=500
-DSET="Genome"
+DSET="s_elon"
 
-mpiexec python -u switch_loc_in_ref.py $TABLE $GENOMES $DELTA $DSET &&
+OUT_DIR="$RT/validation/alignment/outputs/$DSET"
+
+mpiexec python -u switch_loc_in_ref.py $TABLE $GENOMES $DELTA $DSET $OUT_DIR &&
     wait

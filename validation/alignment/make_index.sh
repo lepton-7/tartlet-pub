@@ -14,8 +14,10 @@ set echo on
 
 module load hisat2
 
+DSET="s_elon"
+
 RT="$HOME/packages/tart"
-REF_DIR="$RT/validation/alignment/switch_seqs_delta500"
+REF_DIR="$RT/validation/alignment/outputs/$DSET/switch_seqs_delta500"
 
 cd $REF_DIR
 

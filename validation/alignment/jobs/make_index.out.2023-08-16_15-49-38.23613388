@@ -1,0 +1,980 @@
+Settings:
+  Output files: "Cobalamin_index/Cobalamin_index.*.ht2"
+  Line rate: 6 (line is 64 bytes)
+  Lines per side: 1 (side is 64 bytes)
+  Offset rate: 4 (one in 16)
+  FTable chars: 10
+  Strings: unpacked
+  Local offset rate: 3 (one in 8)
+  Local fTable chars: 6
+  Local sequence length: 57344
+  Local sequence overlap between two consecutive indexes: 1024
+  Endianness: little
+  Actual local endianness: little
+  Sanity checking: disabled
+  Assertions: disabled
+  Random seed: 0
+  Sizeofs: void*:8, int:4, long:8, size_t:8
+Input files DNA, FASTA:
+  Cobalamin.fna
+Reading reference sizes
+  Time reading reference sizes: 00:00:00
+Calculating joined length
+Writing header
+Reserving space for joined string
+Joining reference sequences
+  Time to join reference sequences: 00:00:00
+  Time to read SNPs and splice sites: 00:00:00
+Using parameters --bmax 437 --dcv 1024
+  Doing ahead-of-time memory usage test
+  Passed!  Constructing with these parameters: --bmax 437 --dcv 1024
+Constructing suffix-array element generator
+Building DifferenceCoverSample
+  Building sPrime
+  Building sPrimeOrder
+  V-Sorting samples
+  V-Sorting samples time: 00:00:00
+  Allocating rank array
+  Ranking v-sort output
+  Ranking v-sort output time: 00:00:00
+  Invoking Larsson-Sadakane on ranks
+  Invoking Larsson-Sadakane on ranks time: 00:00:00
+  Sanity-checking and returning
+Building samples
+Reserving space for 12 sample suffixes
+Generating random suffixes
+QSorting 12 sample offsets, eliminating duplicates
+QSorting sample offsets, eliminating duplicates time: 00:00:00
+Multikey QSorting 12 samples
+  (Using difference cover)
+  Multikey QSorting samples time: 00:00:00
+Calculating bucket sizes
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Split 2, merged 8; iterating...
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Split 1, merged 0; iterating...
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Avg bucket size: 290.375 (target: 436)
+Converting suffix-array elements to index image
+Allocating ftab, absorbFtab
+Entering GFM loop
+Getting block 1 of 8
+  Reserving size (437) for bucket 1
+  Calculating Z arrays for bucket 1
+Getting block 2 of 8
+Getting block 3 of 8
+  Reserving size (437) for bucket 3
+Getting block 4 of 8
+Getting block 5 of 8
+Getting block 6 of 8
+  Reserving size (437) for bucket 6
+  Entering block accumulator loop for bucket 1:
+  Reserving size (437) for bucket 5
+Getting block 7 of 8
+  Reserving size (437) for bucket 7
+  Calculating Z arrays for bucket 3
+  Reserving size (437) for bucket 4
+  Calculating Z arrays for bucket 5
+  bucket 1: 10%
+  Calculating Z arrays for bucket 6
+  Reserving size (437) for bucket 2
+  Calculating Z arrays for bucket 7
+  Calculating Z arrays for bucket 2
+  Calculating Z arrays for bucket 4
+  bucket 1: 20%
+Getting block 8 of 8
+  Reserving size (437) for bucket 8
+  Entering block accumulator loop for bucket 4:
+  bucket 1: 30%
+  Entering block accumulator loop for bucket 7:
+  bucket 4: 10%
+  bucket 1: 40%
+  Entering block accumulator loop for bucket 6:
+  bucket 1: 50%
+  bucket 4: 20%
+  Entering block accumulator loop for bucket 3:
+  bucket 1: 60%
+  bucket 4: 30%
+  bucket 6: 10%
+  Entering block accumulator loop for bucket 5:
+  bucket 1: 70%
+  bucket 4: 40%
+  Calculating Z arrays for bucket 8
+  bucket 1: 80%
+  bucket 6: 20%
+  bucket 4: 50%
+  bucket 7: 10%
+  bucket 6: 30%
+  bucket 4: 60%
+  bucket 5: 10%
+  bucket 6: 40%
+  bucket 1: 90%
+  bucket 7: 20%
+  bucket 4: 70%
+  Entering block accumulator loop for bucket 8:
+  bucket 6: 50%
+  bucket 7: 30%
+  bucket 4: 80%
+  bucket 3: 10%
+  Entering block accumulator loop for bucket 2:
+  bucket 8: 10%
+  bucket 3: 20%
+  bucket 6: 60%
+  bucket 8: 20%
+  bucket 3: 30%
+  bucket 5: 20%
+  bucket 8: 30%
+  bucket 3: 40%
+  bucket 1: 100%
+  bucket 8: 40%
+  Sorting block of length 134 for bucket 1
+  (Using difference cover)
+  bucket 7: 40%
+  bucket 3: 50%
+  bucket 4: 90%
+  bucket 6: 70%
+  bucket 3: 60%
+  bucket 8: 50%
+  bucket 7: 50%
+  bucket 4: 100%
+  bucket 6: 80%
+  bucket 5: 30%
+  bucket 3: 70%
+  bucket 7: 60%
+  bucket 5: 40%
+  Sorting block of length 380 for bucket 4
+  bucket 5: 50%
+  (Using difference cover)
+  bucket 3: 80%
+  bucket 8: 60%
+  bucket 6: 90%
+  bucket 7: 70%
+  bucket 5: 60%
+  bucket 6: 100%
+  bucket 7: 80%
+  bucket 3: 90%
+  bucket 5: 70%
+  bucket 7: 90%
+  bucket 3: 100%
+  Sorting block of length 162 for bucket 3
+  (Using difference cover)
+  Sorting block of length 234 for bucket 6
+  (Using difference cover)
+  bucket 2: 10%
+  bucket 8: 70%
+  bucket 7: 100%
+  bucket 8: 80%
+  Sorting block of length 368 for bucket 7
+  (Using difference cover)
+  bucket 2: 20%
+  bucket 5: 80%
+  bucket 8: 90%
+  bucket 2: 30%
+  bucket 5: 90%
+  bucket 2: 40%
+  bucket 8: 100%
+  Sorting block of length 412 for bucket 8
+  (Using difference cover)
+  bucket 2: 50%
+  bucket 5: 100%
+  bucket 2: 60%
+  Sorting block of length 286 for bucket 5
+  (Using difference cover)
+  bucket 2: 70%
+  bucket 2: 80%
+  bucket 2: 90%
+  bucket 2: 100%
+  Sorting block of length 347 for bucket 2
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 135 for bucket 1
+  Sorting block time: 00:00:00
+Returning block of 163 for bucket 3
+  Sorting block time: 00:00:00
+  Sorting block time: 00:00:00
+  Sorting block time: 00:00:00
+  Sorting block time: 00:00:00
+Returning block of 381 for bucket 4
+  Sorting block time: 00:00:00
+Returning block of 369 for bucket 7
+Returning block of 413 for bucket 8
+Returning block of 235 for bucket 6
+Returning block of 287 for bucket 5
+  Sorting block time: 00:00:00
+Returning block of 348 for bucket 2
+Exited GFM loop
+fchr[A]: 0
+fchr[C]: 566
+fchr[G]: 1151
+fchr[T]: 1750
+fchr[$]: 2330
+Exiting GFM::buildToDisk()
+Returning from initFromVector
+Wrote 4195411 bytes to primary GFM file: Cobalamin_index/Cobalamin_index.1.ht2
+Wrote 588 bytes to secondary GFM file: Cobalamin_index/Cobalamin_index.2.ht2
+Re-opening _in1 and _in2 as input streams
+Returning from GFM constructor
+Returning from initFromVector
+Wrote 17325 bytes to primary GFM file: Cobalamin_index/Cobalamin_index.5.ht2
+Wrote 588 bytes to secondary GFM file: Cobalamin_index/Cobalamin_index.6.ht2
+Re-opening _in5 and _in5 as input streams
+Returning from HierEbwt constructor
+Headers:
+    len: 2330
+    gbwtLen: 2331
+    nodes: 2331
+    sz: 583
+    gbwtSz: 583
+    lineRate: 6
+    offRate: 4
+    offMask: 0xfffffff0
+    ftabChars: 10
+    eftabLen: 0
+    eftabSz: 0
+    ftabLen: 1048577
+    ftabSz: 4194308
+    offsLen: 146
+    offsSz: 584
+    lineSz: 64
+    sideSz: 64
+    sideGbwtSz: 48
+    sideGbwtLen: 192
+    numSides: 13
+    numLines: 13
+    gbwtTotLen: 832
+    gbwtTotSz: 832
+    reverse: 0
+    linearFM: Yes
+Total time for call to driver() for forward index: 00:00:00
+Settings:
+  Output files: "Fluoride_index/Fluoride_index.*.ht2"
+  Line rate: 6 (line is 64 bytes)
+  Lines per side: 1 (side is 64 bytes)
+  Offset rate: 4 (one in 16)
+  FTable chars: 10
+  Strings: unpacked
+  Local offset rate: 3 (one in 8)
+  Local fTable chars: 6
+  Local sequence length: 57344
+  Local sequence overlap between two consecutive indexes: 1024
+  Endianness: little
+  Actual local endianness: little
+  Sanity checking: disabled
+  Assertions: disabled
+  Random seed: 0
+  Sizeofs: void*:8, int:4, long:8, size_t:8
+Input files DNA, FASTA:
+  Fluoride.fna
+Reading reference sizes
+  Time reading reference sizes: 00:00:00
+Calculating joined length
+Writing header
+Reserving space for joined string
+Joining reference sequences
+  Time to join reference sequences: 00:00:00
+  Time to read SNPs and splice sites: 00:00:00
+Using parameters --bmax 201 --dcv 1024
+  Doing ahead-of-time memory usage test
+  Passed!  Constructing with these parameters: --bmax 201 --dcv 1024
+Constructing suffix-array element generator
+Building DifferenceCoverSample
+  Building sPrime
+  Building sPrimeOrder
+  V-Sorting samples
+  V-Sorting samples time: 00:00:00
+  Allocating rank array
+  Ranking v-sort output
+  Ranking v-sort output time: 00:00:00
+  Invoking Larsson-Sadakane on ranks
+  Invoking Larsson-Sadakane on ranks time: 00:00:00
+  Sanity-checking and returning
+Building samples
+Reserving space for 12 sample suffixes
+Generating random suffixes
+QSorting 12 sample offsets, eliminating duplicates
+QSorting sample offsets, eliminating duplicates time: 00:00:00
+Multikey QSorting 12 samples
+  (Using difference cover)
+  Multikey QSorting samples time: 00:00:00
+Calculating bucket sizes
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Split 2, merged 5; iterating...
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Split 1, merged 2; iterating...
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Split 1, merged 1; iterating...
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Avg bucket size: 133.25 (target: 200)
+Converting suffix-array elements to index image
+Allocating ftab, absorbFtab
+Entering GFM loop
+Getting block 1 of 8
+Getting block 3 of 8
+  Reserving size (201) for bucket 3
+Getting block 4 of 8
+  Reserving size (201) for bucket 4
+Getting block 5 of 8
+  Reserving size (201) for bucket 5
+Getting block 6 of 8
+  Reserving size (201) for bucket 6
+  Reserving size (201) for bucket 1
+  Calculating Z arrays for bucket 4
+Getting block 7 of 8
+  Calculating Z arrays for bucket 1
+  Calculating Z arrays for bucket 3
+Getting block 8 of 8
+  Reserving size (201) for bucket 8
+  Entering block accumulator loop for bucket 1:
+  Reserving size (201) for bucket 7
+  Entering block accumulator loop for bucket 3:
+  Calculating Z arrays for bucket 8
+  Calculating Z arrays for bucket 5
+  Entering block accumulator loop for bucket 4:
+  bucket 3: 10%
+  Calculating Z arrays for bucket 6
+  Calculating Z arrays for bucket 7
+  bucket 3: 20%
+  bucket 1: 10%
+  Entering block accumulator loop for bucket 5:
+  Entering block accumulator loop for bucket 7:
+  bucket 1: 20%
+  Entering block accumulator loop for bucket 8:
+  Entering block accumulator loop for bucket 6:
+  bucket 3: 30%
+  bucket 7: 10%
+  bucket 4: 10%
+  bucket 1: 30%
+  bucket 5: 10%
+  bucket 3: 40%
+Getting block 2 of 8
+  Reserving size (201) for bucket 2
+  bucket 3: 50%
+  bucket 8: 10%
+  bucket 6: 10%
+  bucket 7: 20%
+  bucket 3: 60%
+  Calculating Z arrays for bucket 2
+  bucket 8: 20%
+  bucket 3: 70%
+  bucket 8: 30%
+  bucket 4: 20%
+  bucket 3: 80%
+  bucket 8: 40%
+  bucket 6: 20%
+  Entering block accumulator loop for bucket 2:
+  bucket 5: 20%
+  bucket 8: 50%
+  bucket 1: 40%
+  bucket 5: 30%
+  bucket 3: 90%
+  bucket 2: 10%
+  bucket 7: 30%
+  bucket 5: 40%
+  bucket 3: 100%
+  bucket 1: 50%
+  bucket 7: 40%
+  bucket 6: 30%
+  bucket 8: 60%
+  Sorting block of length 142 for bucket 3
+  (Using difference cover)
+  bucket 8: 70%
+  bucket 5: 50%
+  bucket 7: 50%
+  bucket 4: 30%
+  bucket 7: 60%
+  bucket 5: 60%
+  bucket 4: 40%
+  bucket 8: 80%
+  bucket 6: 40%
+  bucket 7: 70%
+  bucket 8: 90%
+  bucket 7: 80%
+  bucket 8: 100%
+  bucket 5: 70%
+  bucket 7: 90%
+  bucket 5: 80%
+  bucket 6: 50%
+  Sorting block of length 74 for bucket 8
+  (Using difference cover)
+  bucket 4: 50%
+  bucket 2: 20%
+  bucket 7: 100%
+  bucket 2: 30%
+  bucket 5: 90%
+  bucket 2: 40%
+  Sorting block of length 167 for bucket 7
+  bucket 1: 60%
+  bucket 6: 60%
+  bucket 4: 60%
+  bucket 1: 70%
+  (Using difference cover)
+  bucket 2: 50%
+  bucket 4: 70%
+  bucket 5: 100%
+  Sorting block of length 75 for bucket 5
+  bucket 2: 60%
+  bucket 1: 80%
+  bucket 2: 70%
+  (Using difference cover)
+  bucket 6: 70%
+  bucket 4: 80%
+  bucket 1: 90%
+  bucket 6: 80%
+  bucket 2: 80%
+  bucket 4: 90%
+  bucket 1: 100%
+  bucket 6: 90%
+  Sorting block of length 139 for bucket 1
+  (Using difference cover)
+  bucket 6: 100%
+  bucket 4: 100%
+  Sorting block of length 136 for bucket 6
+  (Using difference cover)
+  bucket 2: 90%
+  Sorting block of length 142 for bucket 4
+  bucket 2: 100%
+  (Using difference cover)
+  Sorting block of length 191 for bucket 2
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 75 for bucket 8
+  Sorting block time: 00:00:00
+Returning block of 143 for bucket 3
+  Sorting block time: 00:00:00
+  Sorting block time: 00:00:00
+  Sorting block time: 00:00:00
+Returning block of 143 for bucket 4
+  Sorting block time: 00:00:00
+Returning block of 140 for bucket 1
+Returning block of 76 for bucket 5
+Returning block of 137 for bucket 6
+  Sorting block time: 00:00:00
+  Sorting block time: 00:00:00
+Returning block of 168 for bucket 7
+Returning block of 192 for bucket 2
+Exited GFM loop
+fchr[A]: 0
+fchr[C]: 192
+fchr[G]: 482
+fchr[T]: 800
+fchr[$]: 1073
+Exiting GFM::buildToDisk()
+Returning from initFromVector
+Wrote 4194907 bytes to primary GFM file: Fluoride_index/Fluoride_index.1.ht2
+Wrote 276 bytes to secondary GFM file: Fluoride_index/Fluoride_index.2.ht2
+Re-opening _in1 and _in2 as input streams
+Returning from GFM constructor
+Returning from initFromVector
+Wrote 8613 bytes to primary GFM file: Fluoride_index/Fluoride_index.5.ht2
+Wrote 274 bytes to secondary GFM file: Fluoride_index/Fluoride_index.6.ht2
+Re-opening _in5 and _in5 as input streams
+Returning from HierEbwt constructor
+Headers:
+    len: 1073
+    gbwtLen: 1074
+    nodes: 1074
+    sz: 269
+    gbwtSz: 269
+    lineRate: 6
+    offRate: 4
+    offMask: 0xfffffff0
+    ftabChars: 10
+    eftabLen: 0
+    eftabSz: 0
+    ftabLen: 1048577
+    ftabSz: 4194308
+    offsLen: 68
+    offsSz: 272
+    lineSz: 64
+    sideSz: 64
+    sideGbwtSz: 48
+    sideGbwtLen: 192
+    numSides: 6
+    numLines: 6
+    gbwtTotLen: 384
+    gbwtTotSz: 384
+    reverse: 0
+    linearFM: Yes
+Total time for call to driver() for forward index: 00:00:00
+Settings:
+  Output files: "glnA_index/glnA_index.*.ht2"
+  Line rate: 6 (line is 64 bytes)
+  Lines per side: 1 (side is 64 bytes)
+  Offset rate: 4 (one in 16)
+  FTable chars: 10
+  Strings: unpacked
+  Local offset rate: 3 (one in 8)
+  Local fTable chars: 6
+  Local sequence length: 57344
+  Local sequence overlap between two consecutive indexes: 1024
+  Endianness: little
+  Actual local endianness: little
+  Sanity checking: disabled
+  Assertions: disabled
+  Random seed: 0
+  Sizeofs: void*:8, int:4, long:8, size_t:8
+Input files DNA, FASTA:
+  glnA.fna
+Reading reference sizes
+  Time reading reference sizes: 00:00:00
+Calculating joined length
+Writing header
+Reserving space for joined string
+Joining reference sequences
+  Time to join reference sequences: 00:00:00
+  Time to read SNPs and splice sites: 00:00:00
+Using parameters --bmax 198 --dcv 1024
+  Doing ahead-of-time memory usage test
+  Passed!  Constructing with these parameters: --bmax 198 --dcv 1024
+Constructing suffix-array element generator
+Building DifferenceCoverSample
+  Building sPrime
+  Building sPrimeOrder
+  V-Sorting samples
+  V-Sorting samples time: 00:00:00
+  Allocating rank array
+  Ranking v-sort output
+  Ranking v-sort output time: 00:00:00
+  Invoking Larsson-Sadakane on ranks
+  Invoking Larsson-Sadakane on ranks time: 00:00:00
+  Sanity-checking and returning
+Building samples
+Reserving space for 12 sample suffixes
+Generating random suffixes
+QSorting 12 sample offsets, eliminating duplicates
+QSorting sample offsets, eliminating duplicates time: 00:00:00
+Multikey QSorting 11 samples
+  (Using difference cover)
+  Multikey QSorting samples time: 00:00:00
+Calculating bucket sizes
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Avg bucket size: 131.125 (target: 197)
+Converting suffix-array elements to index image
+Allocating ftab, absorbFtab
+Entering GFM loop
+Getting block 1 of 8
+  Reserving size (198) for bucket 1
+  Calculating Z arrays for bucket 1
+Getting block 2 of 8
+  Reserving size (198) for bucket 2
+Getting block 4 of 8
+  Calculating Z arrays for bucket 2
+  Entering block accumulator loop for bucket 1:
+Getting block 5 of 8
+  Reserving size (198) for bucket 5
+  Reserving size (198) for bucket 4
+Getting block 6 of 8
+  Reserving size (198) for bucket 6
+  Calculating Z arrays for bucket 5
+Getting block 3 of 8
+  Entering block accumulator loop for bucket 2:
+  Reserving size (198) for bucket 3
+  bucket 2: 10%
+  Calculating Z arrays for bucket 6
+  bucket 1: 10%
+  Calculating Z arrays for bucket 4
+  Calculating Z arrays for bucket 3
+  Entering block accumulator loop for bucket 5:
+Getting block 8 of 8
+  Entering block accumulator loop for bucket 4:
+  bucket 5: 10%
+  Entering block accumulator loop for bucket 3:
+  bucket 1: 20%
+  Entering block accumulator loop for bucket 6:
+  bucket 2: 20%
+Getting block 7 of 8
+  bucket 4: 10%
+  bucket 6: 10%
+  Reserving size (198) for bucket 7
+  bucket 5: 20%
+  Calculating Z arrays for bucket 7
+  bucket 1: 30%
+  bucket 2: 30%
+  bucket 5: 30%
+  bucket 6: 20%
+  bucket 5: 40%
+  bucket 2: 40%
+  bucket 5: 50%
+  bucket 4: 20%
+  bucket 3: 10%
+  bucket 1: 40%
+  Entering block accumulator loop for bucket 7:
+  Reserving size (198) for bucket 8
+  bucket 1: 50%
+  bucket 4: 30%
+  bucket 5: 60%
+  Calculating Z arrays for bucket 8
+  bucket 7: 10%
+  bucket 2: 50%
+  bucket 3: 20%
+  bucket 4: 40%
+  bucket 1: 60%
+  bucket 7: 20%
+  bucket 3: 30%
+  bucket 5: 70%
+  bucket 3: 40%
+  Entering block accumulator loop for bucket 8:
+  bucket 2: 60%
+  bucket 4: 50%
+  bucket 7: 30%
+  bucket 1: 70%
+  bucket 5: 80%
+  bucket 3: 50%
+  bucket 6: 30%
+  bucket 4: 60%
+  bucket 8: 10%
+  bucket 2: 70%
+  bucket 7: 40%
+  bucket 6: 40%
+  bucket 2: 80%
+  bucket 5: 90%
+  bucket 1: 80%
+  bucket 2: 90%
+  bucket 3: 60%
+  bucket 8: 20%
+  bucket 3: 70%
+  bucket 7: 50%
+  bucket 6: 50%
+  bucket 2: 100%
+  bucket 8: 30%
+  bucket 4: 70%
+  bucket 3: 80%
+  bucket 7: 60%
+  bucket 6: 60%
+  bucket 1: 90%
+  bucket 3: 90%
+  bucket 4: 80%
+  bucket 1: 100%
+  bucket 8: 40%
+  Sorting block of length 192 for bucket 2
+  (Using difference cover)
+  bucket 3: 100%
+  Sorting block of length 148 for bucket 1
+  (Using difference cover)
+  bucket 6: 70%
+  bucket 4: 90%
+  bucket 8: 50%
+  bucket 4: 100%
+  bucket 7: 70%
+  Sorting block of length 118 for bucket 3
+  (Using difference cover)
+  bucket 7: 80%
+  bucket 5: 100%
+  bucket 8: 60%
+  Sorting block of length 120 for bucket 5
+  (Using difference cover)
+  bucket 6: 80%
+  bucket 8: 70%
+  bucket 7: 90%
+  Sorting block of length 82 for bucket 4
+  (Using difference cover)
+  bucket 7: 100%
+  bucket 6: 90%
+  Sorting block of length 179 for bucket 7
+  (Using difference cover)
+  bucket 8: 80%
+  bucket 6: 100%
+  bucket 8: 90%
+  Sorting block of length 138 for bucket 6
+  (Using difference cover)
+  bucket 8: 100%
+  Sorting block of length 72 for bucket 8
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 193 for bucket 2
+  Sorting block time: 00:00:00
+  Sorting block time: 00:00:00
+Returning block of 83 for bucket 4
+  Sorting block time: 00:00:00
+  Sorting block time: 00:00:00
+  Sorting block time: 00:00:00
+Returning block of 139 for bucket 6
+Returning block of 121 for bucket 5
+Returning block of 73 for bucket 8
+Returning block of 149 for bucket 1
+  Sorting block time: 00:00:00
+  Sorting block time: 00:00:00
+Returning block of 180 for bucket 7
+Returning block of 119 for bucket 3
+Exited GFM loop
+fchr[A]: 0
+fchr[C]: 267
+fchr[G]: 543
+fchr[T]: 823
+fchr[$]: 1056
+Exiting GFM::buildToDisk()
+Returning from initFromVector
+Wrote 4194903 bytes to primary GFM file: glnA_index/glnA_index.1.ht2
+Wrote 272 bytes to secondary GFM file: glnA_index/glnA_index.2.ht2
+Re-opening _in1 and _in2 as input streams
+Returning from GFM constructor
+Returning from initFromVector
+Wrote 8613 bytes to primary GFM file: glnA_index/glnA_index.5.ht2
+Wrote 270 bytes to secondary GFM file: glnA_index/glnA_index.6.ht2
+Re-opening _in5 and _in5 as input streams
+Returning from HierEbwt constructor
+Headers:
+    len: 1056
+    gbwtLen: 1057
+    nodes: 1057
+    sz: 264
+    gbwtSz: 265
+    lineRate: 6
+    offRate: 4
+    offMask: 0xfffffff0
+    ftabChars: 10
+    eftabLen: 0
+    eftabSz: 0
+    ftabLen: 1048577
+    ftabSz: 4194308
+    offsLen: 67
+    offsSz: 268
+    lineSz: 64
+    sideSz: 64
+    sideGbwtSz: 48
+    sideGbwtLen: 192
+    numSides: 6
+    numLines: 6
+    gbwtTotLen: 384
+    gbwtTotSz: 384
+    reverse: 0
+    linearFM: Yes
+Total time for call to driver() for forward index: 00:00:01
+Settings:
+  Output files: "TPP_index/TPP_index.*.ht2"
+  Line rate: 6 (line is 64 bytes)
+  Lines per side: 1 (side is 64 bytes)
+  Offset rate: 4 (one in 16)
+  FTable chars: 10
+  Strings: unpacked
+  Local offset rate: 3 (one in 8)
+  Local fTable chars: 6
+  Local sequence length: 57344
+  Local sequence overlap between two consecutive indexes: 1024
+  Endianness: little
+  Actual local endianness: little
+  Sanity checking: disabled
+  Assertions: disabled
+  Random seed: 0
+  Sizeofs: void*:8, int:4, long:8, size_t:8
+Input files DNA, FASTA:
+  TPP.fna
+Reading reference sizes
+  Time reading reference sizes: 00:00:00
+Calculating joined length
+Writing header
+Reserving space for joined string
+Joining reference sequences
+  Time to join reference sequences: 00:00:00
+  Time to read SNPs and splice sites: 00:00:00
+Using parameters --bmax 206 --dcv 1024
+  Doing ahead-of-time memory usage test
+  Passed!  Constructing with these parameters: --bmax 206 --dcv 1024
+Constructing suffix-array element generator
+Building DifferenceCoverSample
+  Building sPrime
+  Building sPrimeOrder
+  V-Sorting samples
+  V-Sorting samples time: 00:00:00
+  Allocating rank array
+  Ranking v-sort output
+  Ranking v-sort output time: 00:00:00
+  Invoking Larsson-Sadakane on ranks
+  Invoking Larsson-Sadakane on ranks time: 00:00:00
+  Sanity-checking and returning
+Building samples
+Reserving space for 12 sample suffixes
+Generating random suffixes
+QSorting 12 sample offsets, eliminating duplicates
+QSorting sample offsets, eliminating duplicates time: 00:00:00
+Multikey QSorting 12 samples
+  (Using difference cover)
+  Multikey QSorting samples time: 00:00:00
+Calculating bucket sizes
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Split 1, merged 6; iterating...
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Avg bucket size: 155.857 (target: 205)
+Converting suffix-array elements to index image
+Allocating ftab, absorbFtab
+Entering GFM loop
+Getting block 1 of 7
+  Reserving size (206) for bucket 1
+Getting block 2 of 7
+  Reserving size (206) for bucket 2
+Getting block 3 of 7
+  Reserving size (206) for bucket 3
+  Calculating Z arrays for bucket 2
+Getting block 5 of 7
+  Calculating Z arrays for bucket 3
+Getting block 4 of 7
+  Reserving size (206) for bucket 4
+  Entering block accumulator loop for bucket 2:
+  Entering block accumulator loop for bucket 3:
+Getting block 6 of 7
+  Reserving size (206) for bucket 6
+  Reserving size (206) for bucket 5
+  Calculating Z arrays for bucket 5
+Getting block 7 of 7
+  Calculating Z arrays for bucket 1
+  Reserving size (206) for bucket 7
+  Calculating Z arrays for bucket 4
+  bucket 3: 10%
+  Entering block accumulator loop for bucket 5:
+  Calculating Z arrays for bucket 7
+  bucket 3: 20%
+  bucket 2: 10%
+  Entering block accumulator loop for bucket 1:
+  bucket 3: 30%
+  Entering block accumulator loop for bucket 7:
+  bucket 2: 20%
+  Calculating Z arrays for bucket 6
+  bucket 3: 40%
+  bucket 5: 10%
+  bucket 7: 10%
+  bucket 3: 50%
+  bucket 2: 30%
+  bucket 3: 60%
+  bucket 7: 20%
+  Entering block accumulator loop for bucket 4:
+  bucket 2: 40%
+  Entering block accumulator loop for bucket 6:
+  bucket 7: 30%
+  bucket 5: 20%
+  bucket 2: 50%
+  bucket 3: 70%
+  bucket 6: 10%
+  bucket 7: 40%
+  bucket 5: 30%
+  bucket 3: 80%
+  bucket 2: 60%
+  bucket 1: 10%
+  bucket 7: 50%
+  bucket 4: 10%
+  bucket 5: 40%
+  bucket 1: 20%
+  bucket 2: 70%
+  bucket 6: 20%
+  bucket 4: 20%
+  bucket 5: 50%
+  bucket 6: 30%
+  bucket 7: 60%
+  bucket 5: 60%
+  bucket 1: 30%
+  bucket 5: 70%
+  bucket 1: 40%
+  bucket 4: 30%
+  bucket 3: 90%
+  bucket 4: 40%
+  bucket 5: 80%
+  bucket 7: 70%
+  bucket 1: 50%
+  bucket 6: 40%
+  bucket 3: 100%
+  bucket 5: 90%
+  Sorting block of length 162 for bucket 3
+  (Using difference cover)
+  bucket 6: 50%
+  bucket 7: 80%
+  bucket 4: 50%
+  bucket 2: 80%
+  bucket 7: 90%
+  bucket 5: 100%
+  bucket 2: 90%
+  bucket 6: 60%
+  bucket 1: 60%
+  Sorting block of length 190 for bucket 5
+  (Using difference cover)
+  bucket 2: 100%
+  bucket 6: 70%
+  bucket 4: 60%
+  bucket 6: 80%
+  Sorting block of length 167 for bucket 2
+  (Using difference cover)
+  bucket 1: 70%
+  bucket 7: 100%
+  bucket 6: 90%
+  Sorting block of length 179 for bucket 7
+  (Using difference cover)
+  bucket 4: 70%
+  bucket 6: 100%
+  Sorting block of length 136 for bucket 6
+  (Using difference cover)
+  bucket 1: 80%
+  bucket 4: 80%
+  bucket 1: 90%
+  bucket 4: 90%
+  bucket 1: 100%
+  bucket 4: 100%
+  Sorting block of length 147 for bucket 4
+  (Using difference cover)
+  Sorting block of length 110 for bucket 1
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 163 for bucket 3
+  Sorting block time: 00:00:00
+Returning block of 168 for bucket 2
+  Sorting block time: 00:00:00
+  Sorting block time: 00:00:00
+  Sorting block time: 00:00:00
+Returning block of 191 for bucket 5
+Returning block of 137 for bucket 6
+  Sorting block time: 00:00:00
+Returning block of 148 for bucket 4
+Returning block of 180 for bucket 7
+  Sorting block time: 00:00:00
+Returning block of 111 for bucket 1
+Exited GFM loop
+fchr[A]: 0
+fchr[C]: 240
+fchr[G]: 546
+fchr[T]: 873
+fchr[$]: 1097
+Exiting GFM::buildToDisk()
+Returning from initFromVector
+Wrote 4194902 bytes to primary GFM file: TPP_index/TPP_index.1.ht2
+Wrote 280 bytes to secondary GFM file: TPP_index/TPP_index.2.ht2
+Re-opening _in1 and _in2 as input streams
+Returning from GFM constructor
+Returning from initFromVector
+Wrote 8613 bytes to primary GFM file: TPP_index/TPP_index.5.ht2
+Wrote 280 bytes to secondary GFM file: TPP_index/TPP_index.6.ht2
+Re-opening _in5 and _in5 as input streams
+Returning from HierEbwt constructor
+Headers:
+    len: 1097
+    gbwtLen: 1098
+    nodes: 1098
+    sz: 275
+    gbwtSz: 275
+    lineRate: 6
+    offRate: 4
+    offMask: 0xfffffff0
+    ftabChars: 10
+    eftabLen: 0
+    eftabSz: 0
+    ftabLen: 1048577
+    ftabSz: 4194308
+    offsLen: 69
+    offsSz: 276
+    lineSz: 64
+    sideSz: 64
+    sideGbwtSz: 48
+    sideGbwtLen: 192
+    numSides: 6
+    numLines: 6
+    gbwtTotLen: 384
+    gbwtTotSz: 384
+    reverse: 0
+    linearFM: Yes
+Total time for call to driver() for forward index: 00:00:00
