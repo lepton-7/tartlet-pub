@@ -9,11 +9,11 @@
 # RUN THIS TO LAUNCH JOB
 ## sbatch --output=jobs/download_SRAs.out.$(date +"%Y-%m-%d_%H-%M-%S").%j download_SRAs.sh
 
-set -x
+# set -x
 set echo on
 
-DUMP_DIR="/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/e_coli"
-ACC_LIST="/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/e_coli_sastry2019_acc.txt"
+DUMP_DIR="/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/b_sub_168"
+ACC_LIST="/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/b_sub_tilburg2022_acc.txt"
 
 module reset
 
