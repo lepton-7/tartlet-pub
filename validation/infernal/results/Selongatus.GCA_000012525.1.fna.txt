@@ -1,0 +1,17 @@
+#target name         accession query name           accession mdl mdl from   mdl to seq from   seq to strand trunc pass   gc  bias  score   E-value inc description of target
+#------------------- --------- -------------------- --------- --- -------- -------- -------- -------- ------ ----- ---- ---- ----- ------ --------- --- ---------------------
+Cobalamin            RF00174   CP000100.1           -          cm        1      190  1414147  1414004      -    no    1 0.51   0.0   59.5   4.9e-13 !   Cobalamin riboswitch
+TPP                  RF00059   CP000100.1           -          cm        1      105  1114939  1114842      -    no    1 0.56   0.0   60.3   2.4e-09 !   TPP riboswitch (THI element)
+glnA                 RF01739   CP000100.1           -          cm        1       63  2611130  2611074      -    no    1 0.54   0.0   44.6   5.2e-07 !   Glutamine riboswitch
+Fluoride             RF01734   CP000100.1           -          cm        1       65  2263916  2263989      +    no    1 0.59   0.0   45.9   1.2e-06 !   Fluoride riboswitch
+Cobalamin            RF00174   CP000100.1           -          cm        1      190  1919127  1919314      +    no    1 0.47   0.0   36.2     4e-06 !   Cobalamin riboswitch
+#
+# Program:         cmscan
+# Version:         1.1.4 (Dec 2020)
+# Pipeline mode:   SCAN
+# Query file:      /users/PDS0325/sachitk26/packages/tart/validation/genomes/Selongatus.GCA_000012525.1.fna
+# Target file:     /users/PDS0325/sachitk26/cm/riboswitches/riboswitches.cm
+# Option settings: cmscan --tblout /users/PDS0325/sachitk26/packages/tart/validation/infernal/results/Selongatus.GCA_000012525.1.fna.txt --noali --cut_ga --rfam --nohmmonly /users/PDS0325/sachitk26/cm/riboswitches/riboswitches.cm /users/PDS0325/sachitk26/packages/tart/validation/genomes/Selongatus.GCA_000012525.1.fna 
+# Current dir:     /users/PDS0325/sachitk26/packages/tart/validation/infernal
+# Date:            Wed Aug 16 00:31:25 2023
+# [ok]

@@ -1,0 +1,150 @@
+#target name         accession query name           accession mdl mdl from   mdl to seq from   seq to strand trunc pass   gc  bias  score   E-value inc description of target
+#------------------- --------- -------------------- --------- --- -------- -------- -------- -------- ------ ----- ---- ---- ----- ------ --------- --- ---------------------
+Lysine               RF00168   NC_000964.3          -          cm        1      183  2911051  2910872      -    no    1 0.44   0.0  132.4   4.1e-34 !   Lysine riboswitch
+glmS                 RF00234   NC_000964.3          -          cm        1      171   200017   200187      +    no    1 0.49   0.0  140.4   8.1e-34 !   glmS glucosamine-6-phosphate activated ribozyme
+M-box                RF00380   NC_000964.3          -          cm        1      169  1395616  1395781      +    no    1 0.47   0.0  144.3   9.4e-33 !   M-box riboswitch (ykoK leader)
+Lysine               RF00168   NC_000964.3          -          cm        1      183  3421348  3421169      -    no    1 0.53   0.0  112.0     4e-28 !   Lysine riboswitch
+FMN                  RF00050   NC_000964.3          -          cm        1      140  2410877  2410743      -    no    1 0.56   0.0  118.7   6.3e-28 !   FMN riboswitch (RFN element)
+ydaO-yuaA            RF00379   NC_000964.3          -          cm        1      136   486092   486235      +    no    1 0.48   0.0  102.8   1.5e-23 !   ydaO/yuaA leader
+SAM                  RF00162   NC_000964.3          -          cm        1      108  1180802  1180685      -    no    1 0.50   0.0   99.5   4.3e-23 !   SAM riboswitch (S box leader)
+FMN                  RF00050   NC_000964.3          -          cm        1      140  2431617  2431473      -    no    1 0.53   0.0  100.6   6.7e-23 !   FMN riboswitch (RFN element)
+SAM                  RF00162   NC_000964.3          -          cm        1      108  1258304  1258424      +    no    1 0.46   0.0   95.2   7.7e-22 !   SAM riboswitch (S box leader)
+SAM                  RF00162   NC_000964.3          -          cm        1      108  3364503  3364397      -    no    1 0.49   0.0   93.4   2.5e-21 !   SAM riboswitch (S box leader)
+SAM                  RF00162   NC_000964.3          -          cm        1      108  3997775  3997881      +    no    1 0.49   0.0   92.0   6.2e-21 !   SAM riboswitch (S box leader)
+ydaO-yuaA            RF00379   NC_000964.3          -          cm        1      136  3188193  3188341      +    no    1 0.46   0.0   90.1     5e-20 !   ydaO/yuaA leader
+SAM                  RF00162   NC_000964.3          -          cm        1      108  2025251  2025160      -    no    1 0.48   0.0   87.2   1.5e-19 !   SAM riboswitch (S box leader)
+SAM                  RF00162   NC_000964.3          -          cm        1      108  3999166  3999272      +    no    1 0.48   0.0   85.0   6.8e-19 !   SAM riboswitch (S box leader)
+Cobalamin            RF00174   NC_000964.3          -          cm        1      190  3404681  3404543      -    no    1 0.55   0.0   79.3   1.1e-18 !   Cobalamin riboswitch
+ykkC-yxkD            RF00442   NC_000964.3          -          cm        1      108  1376328  1376439      +    no    1 0.48   0.0   99.3   1.2e-17 !   Guanidine-I riboswitch
+SAM                  RF00162   NC_000964.3          -          cm        1      108  1630115  1630220      +    no    1 0.45   0.0   79.0   3.7e-17 !   SAM riboswitch (S box leader)
+SAM                  RF00162   NC_000964.3          -          cm        1      108  1426876  1426976      +    no    1 0.51   0.0   78.8   4.5e-17 !   SAM riboswitch (S box leader)
+SAM                  RF00162   NC_000964.3          -          cm        1      108  3129333  3129195      -    no    1 0.48   0.0   73.4   1.6e-15 !   SAM riboswitch (S box leader)
+Purine               RF00167   NC_000964.3          -          cm        1      102   698369   698470      +    no    1 0.42   0.0   87.2   4.8e-15 !   Purine riboswitch
+Purine               RF00167   NC_000964.3          -          cm        1      102   694425   694526      +    no    1 0.38   0.0   85.6   1.2e-14 !   Purine riboswitch
+Purine               RF00167   NC_000964.3          -          cm        1      102  4005523  4005624      +    no    1 0.28   0.5   85.2   1.5e-14 !   Purine riboswitch
+SAM                  RF00162   NC_000964.3          -          cm        1      108  1385891  1385736      -    no    1 0.51   0.0   69.1   2.9e-14 !   SAM riboswitch (S box leader)
+Purine               RF00167   NC_000964.3          -          cm        1      102  2320213  2320114      -    no    1 0.46   0.0   81.7   1.1e-13 !   Purine riboswitch
+TPP                  RF00059   NC_000964.3          -          cm        1      105  1242262  1242370      +    no    1 0.45   0.0   79.3   1.1e-13 !   TPP riboswitch (THI element)
+TPP                  RF00059   NC_000964.3          -          cm        1      105   955655   955762      +    no    1 0.51   0.0   76.3   5.8e-13 !   TPP riboswitch (THI element)
+TPP                  RF00059   NC_000964.3          -          cm        1      105  1391851  1391739      -    no    1 0.52   0.0   73.4   2.8e-12 !   TPP riboswitch (THI element)
+Glycine              RF00504   NC_000964.3          -          cm        1       94  2549606  2549505      -    no    1 0.55   0.0   67.4   3.7e-12 !   Glycine riboswitch
+ykkC-yxkD            RF00442   NC_000964.3          -          cm        1      108  3988942  3988840      -    no    1 0.48   0.0   73.6   9.2e-12 !   Guanidine-I riboswitch
+Purine               RF00167   NC_000964.3          -          cm        1      102   626446   626347      -    no    1 0.30   0.1   73.6   1.1e-11 !   Purine riboswitch
+SAM                  RF00162   NC_000964.3          -          cm        1      108  1424683  1424527      -    no    1 0.49   0.0   59.1   2.4e-11 !   SAM riboswitch (S box leader)
+TPP                  RF00059   NC_000964.3          -          cm        1      105  1607367  1607468      +    no    1 0.53   0.0   69.0   3.1e-11 !   TPP riboswitch (THI element)
+TPP                  RF00059   NC_000964.3          -          cm        1      105  3179105  3179206      +    no    1 0.49   0.0   61.7   1.7e-09 !   TPP riboswitch (THI element)
+PreQ1                RF00522   NC_000964.3          -          cm        1       45  1439274  1439318      +    no    1 0.47   0.0   39.8   5.2e-05 !   PreQ1 riboswitch
+#
+# Program:         cmscan
+# Version:         1.1.4 (Dec 2020)
+# Pipeline mode:   SCAN
+# Query file:      /users/PDS0325/sachitk26/packages/tart/validation/genomes/Bsubtilis168.GCF_000009045.1.fna
+# Target file:     /users/PDS0325/sachitk26/cm/riboswitches/riboswitches.cm
+# Option settings: cmscan --tblout /users/PDS0325/sachitk26/packages/tart/validation/infernal/results/Bsubtilis168.GCF_000009045.1.fna.txt --noali --cut_ga --rfam --nohmmonly /users/PDS0325/sachitk26/cm/riboswitches/riboswitches.cm /users/PDS0325/sachitk26/packages/tart/validation/genomes/Bsubtilis168.GCF_000009045.1.fna 
+# Current dir:     /users/PDS0325/sachitk26/packages/tart/validation/infernal
+# Date:            Wed Aug 16 00:28:41 2023
+# [ok]
+#target name         accession query name           accession mdl mdl from   mdl to seq from   seq to strand trunc pass   gc  bias  score   E-value inc description of target
+#------------------- --------- -------------------- --------- --- -------- -------- -------- -------- ------ ----- ---- ---- ----- ------ --------- --- ---------------------
+Lysine               RF00168   NC_000913.3          -          cm        1      183  4233521  4233325      -    no    1 0.60   0.0  126.5   2.4e-32 !   Lysine riboswitch
+FMN                  RF00050   NC_000913.3          -          cm        1      140  3184718  3184570      -    no    1 0.58   0.0  125.6   8.2e-30 !   FMN riboswitch (RFN element)
+Mg_sensor            RF01056   NC_000913.3          -          cm        1      115  4467416  4467531      +    no    1 0.53   0.0  125.9   3.1e-25 !   Magnesium Sensor
+Cobalamin            RF00174   NC_000913.3          -          cm        1      190  4163384  4163573      +    no    1 0.54   0.0   96.4     1e-23 !   Cobalamin riboswitch
+MOCO_RNA_motif       RF01055   NC_000913.3          -          cm        1      135   816912   817056      +    no    1 0.50   0.0   97.8   1.4e-23 !   Moco (molybdenum cofactor) riboswitch
+TPP                  RF00059   NC_000913.3          -          cm        1      105  4196280  4196180      -    no    1 0.49   0.0   74.0   2.2e-12 !   TPP riboswitch (THI element)
+TPP                  RF00059   NC_000913.3          -          cm        1      105  2185432  2185336      -    no    1 0.57   0.0   69.9   2.1e-11 !   TPP riboswitch (THI element)
+TPP                  RF00059   NC_000913.3          -          cm        1      105    75610    75511      -    no    1 0.59   0.0   67.4   8.4e-11 !   TPP riboswitch (THI element)
+#
+# Program:         cmscan
+# Version:         1.1.4 (Dec 2020)
+# Pipeline mode:   SCAN
+# Query file:      /users/PDS0325/sachitk26/packages/tart/validation/genomes/Ecoli.NC_000913.3.fna
+# Target file:     /users/PDS0325/sachitk26/cm/riboswitches/riboswitches.cm
+# Option settings: cmscan --tblout /users/PDS0325/sachitk26/packages/tart/validation/infernal/results/Ecoli.NC_000913.3.fna.txt --noali --cut_ga --rfam --nohmmonly /users/PDS0325/sachitk26/cm/riboswitches/riboswitches.cm /users/PDS0325/sachitk26/packages/tart/validation/genomes/Ecoli.NC_000913.3.fna 
+# Current dir:     /users/PDS0325/sachitk26/packages/tart/validation/infernal
+# Date:            Wed Aug 16 00:28:57 2023
+# [ok]
+#target name         accession query name           accession mdl mdl from   mdl to seq from   seq to strand trunc pass   gc  bias  score   E-value inc description of target
+#------------------- --------- -------------------- --------- --- -------- -------- -------- -------- ------ ----- ---- ---- ----- ------ --------- --- ---------------------
+M-box                RF00380   AL123456.3           -          cm        1      169  1735509  1735678      +    no    1 0.63   0.0  144.2   1.1e-32 !   M-box riboswitch (ykoK leader)
+M-box                RF00380   AL123456.3           -          cm        1      169  2047595  2047769      +    no    1 0.63   0.0  137.0   8.2e-31 !   M-box riboswitch (ykoK leader)
+Cobalamin            RF00174   AL123456.3           -          cm        1      190  1261697  1261480      -    no    1 0.66   5.8   95.5   1.8e-23 !   Cobalamin riboswitch
+Cobalamin            RF00174   AL123456.3           -          cm        1      190   309858   309686      -    no    1 0.65   0.4   89.7   9.1e-22 !   Cobalamin riboswitch
+SAM-IV               RF00634   AL123456.3           -          cm        1      116  3725971  3726090      +    no    1 0.72   1.5  116.6   1.1e-20 !   S-adenosyl methionine (SAM) riboswitch,
+ydaO-yuaA            RF00379   AL123456.3           -          cm        1      136   965767   965545      -    no    1 0.66   2.7   77.1   2.1e-16 !   ydaO/yuaA leader
+Glycine              RF00504   AL123456.3           -          cm        1       94  2075613  2075710      +    no    1 0.63   0.0   60.0   3.5e-10 !   Glycine riboswitch
+Glycine              RF00504   AL123456.3           -          cm        1       94    79294    79204      -    no    1 0.63   0.0   57.0   2.2e-09 !   Glycine riboswitch
+TPP                  RF00059   AL123456.3           -          cm        1      105   510326   510216      -    no    1 0.67   0.1   60.6   3.4e-09 !   TPP riboswitch (THI element)
+TPP                  RF00059   AL123456.3           -          cm        1      105   501047   501157      +    no    1 0.68   0.0   57.6   1.8e-08 !   TPP riboswitch (THI element)
+#
+# Program:         cmscan
+# Version:         1.1.4 (Dec 2020)
+# Pipeline mode:   SCAN
+# Query file:      /users/PDS0325/sachitk26/packages/tart/validation/genomes/MtuberculosisH37Rv.GCA_000195955.2.fna
+# Target file:     /users/PDS0325/sachitk26/cm/riboswitches/riboswitches.cm
+# Option settings: cmscan --tblout /users/PDS0325/sachitk26/packages/tart/validation/infernal/results/MtuberculosisH37Rv.GCA_000195955.2.fna.txt --noali --cut_ga --rfam --nohmmonly /users/PDS0325/sachitk26/cm/riboswitches/riboswitches.cm /users/PDS0325/sachitk26/packages/tart/validation/genomes/MtuberculosisH37Rv.GCA_000195955.2.fna 
+# Current dir:     /users/PDS0325/sachitk26/packages/tart/validation/infernal
+# Date:            Wed Aug 16 00:31:15 2023
+# [ok]
+#target name         accession query name           accession mdl mdl from   mdl to seq from   seq to strand trunc pass   gc  bias  score   E-value inc description of target
+#------------------- --------- -------------------- --------- --- -------- -------- -------- -------- ------ ----- ---- ---- ----- ------ --------- --- ---------------------
+Cobalamin            RF00174   AE004091.2           -          cm        1      190  3265544  3265748      +    no    1 0.67   2.8  125.3   3.8e-32 !   Cobalamin riboswitch
+Cobalamin            RF00174   AE004091.2           -          cm        1      190  3305801  3305611      -    no    1 0.70   7.9  111.3   5.4e-28 !   Cobalamin riboswitch
+Cobalamin            RF00174   AE004091.2           -          cm        1      190  3261436  3261186      -    no    1 0.68   7.6  101.2   5.3e-25 !   Cobalamin riboswitch
+FMN                  RF00050   AE004091.2           -          cm        1      140  4536839  4536677      -    no    1 0.67   2.1  106.7     2e-24 !   FMN riboswitch (RFN element)
+Cobalamin            RF00174   AE004091.2           -          cm        1      190  1381500  1381707      +    no    1 0.69   8.4   98.8   2.7e-24 !   Cobalamin riboswitch
+Cobalamin            RF00174   AE004091.2           -          cm        1      190  3305860  3306009      +    no    1 0.69   1.4   86.3   1.4e-20 !   Cobalamin riboswitch
+yybP-ykoY            RF00080   AE004091.2           -          cm        1      175  3265386  3265221      -    no    1 0.65   0.1   54.1   4.2e-11 !   yybP-ykoY manganese riboswitch
+SAH_riboswitch       RF01057   AE004091.2           -          cm        1       78   484243   484138      -    no    1 0.71   0.3   69.4   2.8e-10 !   S-adenosyl-L-homocysteine riboswitch
+TPP                  RF00059   AE004091.2           -          cm        1      105  5583871  5583735      -    no    1 0.64   0.0   65.8   2.8e-10 !   TPP riboswitch (THI element)
+Fluoride             RF01734   AE004091.2           -          cm        1       65  4914637  4914575      -    no    1 0.59   0.0   57.4   2.9e-09 !   Fluoride riboswitch
+yybP-ykoY            RF00080   AE004091.2           -          cm        1      175  5196972  5197095      +    no    1 0.72   4.0   45.6   1.2e-08 !   yybP-ykoY manganese riboswitch
+#
+# Program:         cmscan
+# Version:         1.1.4 (Dec 2020)
+# Pipeline mode:   SCAN
+# Query file:      /users/PDS0325/sachitk26/packages/tart/validation/genomes/Paeruginosa.GCA_000006765.1.fna
+# Target file:     /users/PDS0325/sachitk26/cm/riboswitches/riboswitches.cm
+# Option settings: cmscan --tblout /users/PDS0325/sachitk26/packages/tart/validation/infernal/results/Paeruginosa.GCA_000006765.1.fna.txt --noali --cut_ga --rfam --nohmmonly /users/PDS0325/sachitk26/cm/riboswitches/riboswitches.cm /users/PDS0325/sachitk26/packages/tart/validation/genomes/Paeruginosa.GCA_000006765.1.fna 
+# Current dir:     /users/PDS0325/sachitk26/packages/tart/validation/infernal
+# Date:            Wed Aug 16 00:30:51 2023
+# [ok]
+#target name         accession query name           accession mdl mdl from   mdl to seq from   seq to strand trunc pass   gc  bias  score   E-value inc description of target
+#------------------- --------- -------------------- --------- --- -------- -------- -------- -------- ------ ----- ---- ---- ----- ------ --------- --- ---------------------
+Cobalamin            RF00174   LT907842.1           -          cm        1      190  4869716  4869504      -    no    1 0.61   0.0  122.5   2.7e-31 !   Cobalamin riboswitch
+Cobalamin            RF00174   LT907842.1           -          cm        1      190    40189    40382      +    no    1 0.63   0.4  118.9   3.2e-30 !   Cobalamin riboswitch
+Cobalamin            RF00174   LT907842.1           -          cm        1      190   344471   344220      -    no    1 0.62   0.0  112.8     2e-28 !   Cobalamin riboswitch
+Cobalamin            RF00174   LT907842.1           -          cm        1      190  4870645  4870844      +    no    1 0.63   0.0  112.7   2.1e-28 !   Cobalamin riboswitch
+FMN                  RF00050   LT907842.1           -          cm        1      140   671420   671589      +    no    1 0.64   0.0  110.3   2.1e-25 !   FMN riboswitch (RFN element)
+ykkC-yxkD            RF00442   LT907842.1           -          cm        1      108  3921310  3921209      -    no    1 0.62   0.0   93.2   4.7e-16 !   Guanidine-I riboswitch
+TPP                  RF00059   LT907842.1           -          cm        1      105  2782974  2783079      +    no    1 0.54   0.0   86.0   4.2e-15 !   TPP riboswitch (THI element)
+yybP-ykoY            RF00080   LT907842.1           -          cm        1      175  3372595  3372476      -    no    1 0.62   0.0   54.3   3.8e-11 !   yybP-ykoY manganese riboswitch
+SAH_riboswitch       RF01057   LT907842.1           -          cm        1       78  1687737  1687843      +    no    1 0.64   0.0   68.4   4.9e-10 !   S-adenosyl-L-homocysteine riboswitch
+yybP-ykoY            RF00080   LT907842.1           -          cm        1      175  6018128  6018297      +    no    1 0.56   0.0   46.3   7.9e-09 !   yybP-ykoY manganese riboswitch
+#
+# Program:         cmscan
+# Version:         1.1.4 (Dec 2020)
+# Pipeline mode:   SCAN
+# Query file:      /users/PDS0325/sachitk26/packages/tart/validation/genomes/Pfluorescens.GCA_900215245.1.fna
+# Target file:     /users/PDS0325/sachitk26/cm/riboswitches/riboswitches.cm
+# Option settings: cmscan --tblout /users/PDS0325/sachitk26/packages/tart/validation/infernal/results/Pfluorescens.GCA_900215245.1.fna.txt --noali --cut_ga --rfam --nohmmonly /users/PDS0325/sachitk26/cm/riboswitches/riboswitches.cm /users/PDS0325/sachitk26/packages/tart/validation/genomes/Pfluorescens.GCA_900215245.1.fna 
+# Current dir:     /users/PDS0325/sachitk26/packages/tart/validation/infernal
+# Date:            Wed Aug 16 00:29:34 2023
+# [ok]
+#target name         accession query name           accession mdl mdl from   mdl to seq from   seq to strand trunc pass   gc  bias  score   E-value inc description of target
+#------------------- --------- -------------------- --------- --- -------- -------- -------- -------- ------ ----- ---- ---- ----- ------ --------- --- ---------------------
+Cobalamin            RF00174   CP000100.1           -          cm        1      190  1414147  1414004      -    no    1 0.51   0.0   59.5   4.9e-13 !   Cobalamin riboswitch
+TPP                  RF00059   CP000100.1           -          cm        1      105  1114939  1114842      -    no    1 0.56   0.0   60.3   2.4e-09 !   TPP riboswitch (THI element)
+glnA                 RF01739   CP000100.1           -          cm        1       63  2611130  2611074      -    no    1 0.54   0.0   44.6   5.2e-07 !   Glutamine riboswitch
+Fluoride             RF01734   CP000100.1           -          cm        1       65  2263916  2263989      +    no    1 0.59   0.0   45.9   1.2e-06 !   Fluoride riboswitch
+Cobalamin            RF00174   CP000100.1           -          cm        1      190  1919127  1919314      +    no    1 0.47   0.0   36.2     4e-06 !   Cobalamin riboswitch
+#
+# Program:         cmscan
+# Version:         1.1.4 (Dec 2020)
+# Pipeline mode:   SCAN
+# Query file:      /users/PDS0325/sachitk26/packages/tart/validation/genomes/Selongatus.GCA_000012525.1.fna
+# Target file:     /users/PDS0325/sachitk26/cm/riboswitches/riboswitches.cm
+# Option settings: cmscan --tblout /users/PDS0325/sachitk26/packages/tart/validation/infernal/results/Selongatus.GCA_000012525.1.fna.txt --noali --cut_ga --rfam --nohmmonly /users/PDS0325/sachitk26/cm/riboswitches/riboswitches.cm /users/PDS0325/sachitk26/packages/tart/validation/genomes/Selongatus.GCA_000012525.1.fna 
+# Current dir:     /users/PDS0325/sachitk26/packages/tart/validation/infernal
+# Date:            Wed Aug 16 00:31:25 2023
+# [ok]

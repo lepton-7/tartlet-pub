@@ -1,0 +1,22 @@
+#target name         accession query name           accession mdl mdl from   mdl to seq from   seq to strand trunc pass   gc  bias  score   E-value inc description of target
+#------------------- --------- -------------------- --------- --- -------- -------- -------- -------- ------ ----- ---- ---- ----- ------ --------- --- ---------------------
+M-box                RF00380   AL123456.3           -          cm        1      169  1735509  1735678      +    no    1 0.63   0.0  144.2   1.1e-32 !   M-box riboswitch (ykoK leader)
+M-box                RF00380   AL123456.3           -          cm        1      169  2047595  2047769      +    no    1 0.63   0.0  137.0   8.2e-31 !   M-box riboswitch (ykoK leader)
+Cobalamin            RF00174   AL123456.3           -          cm        1      190  1261697  1261480      -    no    1 0.66   5.8   95.5   1.8e-23 !   Cobalamin riboswitch
+Cobalamin            RF00174   AL123456.3           -          cm        1      190   309858   309686      -    no    1 0.65   0.4   89.7   9.1e-22 !   Cobalamin riboswitch
+SAM-IV               RF00634   AL123456.3           -          cm        1      116  3725971  3726090      +    no    1 0.72   1.5  116.6   1.1e-20 !   S-adenosyl methionine (SAM) riboswitch,
+ydaO-yuaA            RF00379   AL123456.3           -          cm        1      136   965767   965545      -    no    1 0.66   2.7   77.1   2.1e-16 !   ydaO/yuaA leader
+Glycine              RF00504   AL123456.3           -          cm        1       94  2075613  2075710      +    no    1 0.63   0.0   60.0   3.5e-10 !   Glycine riboswitch
+Glycine              RF00504   AL123456.3           -          cm        1       94    79294    79204      -    no    1 0.63   0.0   57.0   2.2e-09 !   Glycine riboswitch
+TPP                  RF00059   AL123456.3           -          cm        1      105   510326   510216      -    no    1 0.67   0.1   60.6   3.4e-09 !   TPP riboswitch (THI element)
+TPP                  RF00059   AL123456.3           -          cm        1      105   501047   501157      +    no    1 0.68   0.0   57.6   1.8e-08 !   TPP riboswitch (THI element)
+#
+# Program:         cmscan
+# Version:         1.1.4 (Dec 2020)
+# Pipeline mode:   SCAN
+# Query file:      /users/PDS0325/sachitk26/packages/tart/validation/genomes/MtuberculosisH37Rv.GCA_000195955.2.fna
+# Target file:     /users/PDS0325/sachitk26/cm/riboswitches/riboswitches.cm
+# Option settings: cmscan --tblout /users/PDS0325/sachitk26/packages/tart/validation/infernal/results/MtuberculosisH37Rv.GCA_000195955.2.fna.txt --noali --cut_ga --rfam --nohmmonly /users/PDS0325/sachitk26/cm/riboswitches/riboswitches.cm /users/PDS0325/sachitk26/packages/tart/validation/genomes/MtuberculosisH37Rv.GCA_000195955.2.fna 
+# Current dir:     /users/PDS0325/sachitk26/packages/tart/validation/infernal
+# Date:            Wed Aug 16 00:31:15 2023
+# [ok]

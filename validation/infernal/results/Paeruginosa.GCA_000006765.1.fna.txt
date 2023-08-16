@@ -1,0 +1,23 @@
+#target name         accession query name           accession mdl mdl from   mdl to seq from   seq to strand trunc pass   gc  bias  score   E-value inc description of target
+#------------------- --------- -------------------- --------- --- -------- -------- -------- -------- ------ ----- ---- ---- ----- ------ --------- --- ---------------------
+Cobalamin            RF00174   AE004091.2           -          cm        1      190  3265544  3265748      +    no    1 0.67   2.8  125.3   3.8e-32 !   Cobalamin riboswitch
+Cobalamin            RF00174   AE004091.2           -          cm        1      190  3305801  3305611      -    no    1 0.70   7.9  111.3   5.4e-28 !   Cobalamin riboswitch
+Cobalamin            RF00174   AE004091.2           -          cm        1      190  3261436  3261186      -    no    1 0.68   7.6  101.2   5.3e-25 !   Cobalamin riboswitch
+FMN                  RF00050   AE004091.2           -          cm        1      140  4536839  4536677      -    no    1 0.67   2.1  106.7     2e-24 !   FMN riboswitch (RFN element)
+Cobalamin            RF00174   AE004091.2           -          cm        1      190  1381500  1381707      +    no    1 0.69   8.4   98.8   2.7e-24 !   Cobalamin riboswitch
+Cobalamin            RF00174   AE004091.2           -          cm        1      190  3305860  3306009      +    no    1 0.69   1.4   86.3   1.4e-20 !   Cobalamin riboswitch
+yybP-ykoY            RF00080   AE004091.2           -          cm        1      175  3265386  3265221      -    no    1 0.65   0.1   54.1   4.2e-11 !   yybP-ykoY manganese riboswitch
+SAH_riboswitch       RF01057   AE004091.2           -          cm        1       78   484243   484138      -    no    1 0.71   0.3   69.4   2.8e-10 !   S-adenosyl-L-homocysteine riboswitch
+TPP                  RF00059   AE004091.2           -          cm        1      105  5583871  5583735      -    no    1 0.64   0.0   65.8   2.8e-10 !   TPP riboswitch (THI element)
+Fluoride             RF01734   AE004091.2           -          cm        1       65  4914637  4914575      -    no    1 0.59   0.0   57.4   2.9e-09 !   Fluoride riboswitch
+yybP-ykoY            RF00080   AE004091.2           -          cm        1      175  5196972  5197095      +    no    1 0.72   4.0   45.6   1.2e-08 !   yybP-ykoY manganese riboswitch
+#
+# Program:         cmscan
+# Version:         1.1.4 (Dec 2020)
+# Pipeline mode:   SCAN
+# Query file:      /users/PDS0325/sachitk26/packages/tart/validation/genomes/Paeruginosa.GCA_000006765.1.fna
+# Target file:     /users/PDS0325/sachitk26/cm/riboswitches/riboswitches.cm
+# Option settings: cmscan --tblout /users/PDS0325/sachitk26/packages/tart/validation/infernal/results/Paeruginosa.GCA_000006765.1.fna.txt --noali --cut_ga --rfam --nohmmonly /users/PDS0325/sachitk26/cm/riboswitches/riboswitches.cm /users/PDS0325/sachitk26/packages/tart/validation/genomes/Paeruginosa.GCA_000006765.1.fna 
+# Current dir:     /users/PDS0325/sachitk26/packages/tart/validation/infernal
+# Date:            Wed Aug 16 00:30:51 2023
+# [ok]

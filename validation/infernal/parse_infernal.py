@@ -7,7 +7,7 @@ tax_cache = {}
 # %%
 # infernal output tables and dataset identifiers
 files = {
-    "ecoli": (r"./results/Ecoli.NC_000913.3.fna.txt", "Genome"),
+    "ecoli": (r"./results/compile.txt", "Genome"),
 }
 
 
