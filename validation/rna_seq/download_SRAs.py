@@ -93,20 +93,6 @@ for sra in worker_list:
             i += 1
             failed = True
 
-    try:
-        delrun = run(
-            [
-                "rm",
-                "-r",
-                f"{temp_dir}/SRAs/{sra}",
-            ],
-            stdout=PIPE,
-            stderr=PIPE,
-        )
-
-    except:
-        print(f"rm failed: \n{delrun.stderr}")
-
     i = 0
     failed = True
     while i < maxTries and failed:
@@ -135,5 +121,19 @@ for sra in worker_list:
         )
     except:
         print(f"mv failed for {sra}: \n{movrun.stderr}")
+
+    try:
+        delrun = run(
+            [
+                "rm",
+                "-r",
+                f"{temp_dir}/SRAs/{sra}",
+            ],
+            stdout=PIPE,
+            stderr=PIPE,
+        )
+
+    except:
+        print(f"rm failed: \n{delrun.stderr}")
 
     print(f"Success: {sra}")
