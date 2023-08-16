@@ -1,4 +1,5 @@
-# Download sequence data using sra-tools
+# Download sequence data using sra-tools.
+# Utilises fs/scratch directory for temps
 # %%
 from subprocess import run, PIPE
 from mpi4py import MPI
@@ -8,6 +9,11 @@ from pathlib import Path
 # %%
 acc_file = Path(argv[1])
 save_dir = argv[2]
+temp_dir = argv[3]
+
+# Make sure dirs exist
+Path(save_dir).mkdir(parents=True, exist_ok=True)
+Path(temp_dir).mkdir(parents=True, exist_ok=True)
 
 # Read in the list
 with open(acc_file, "r") as f:
@@ -40,12 +46,21 @@ else:
 worker_list = total_files[start:stop]
 
 # %%
-maxTries = 5
+maxTries = 3
 for sra in worker_list:
     i = 0
     failed = True
     while i < maxTries and failed:
-        c1 = run(["prefetch", f"{sra}", "-O", "SRAs/"], stdout=PIPE, stderr=PIPE)
+        c1 = run(
+            [
+                "prefetch",
+                f"{sra}",
+                "-O",
+                f"{temp_dir}/SRAs/",
+            ],
+            stdout=PIPE,
+            stderr=PIPE,
+        )
         failed = False
 
         if c1.returncode:
@@ -61,10 +76,10 @@ for sra in worker_list:
         c2 = run(
             [
                 "fasterq-dump",
-                f"SRAs/{sra}/{sra}.sra",
+                f"{temp_dir}/SRAs/{sra}/{sra}.sra",
                 "--split-files",
                 "--outdir",
-                f"{save_dir}",
+                f"{temp_dir}",
             ],
             stdout=PIPE,
             stderr=PIPE,
@@ -83,14 +98,14 @@ for sra in worker_list:
             [
                 "rm",
                 "-r",
-                f"SRAs/{sra}",
+                f"{temp_dir}/SRAs/{sra}",
             ],
             stdout=PIPE,
             stderr=PIPE,
         )
 
     except:
-        print(delrun.stderr)
+        print(f"rm failed: \n{delrun.stderr}")
 
     i = 0
     failed = True
@@ -99,12 +114,26 @@ for sra in worker_list:
             [
                 "gzip",
                 "--best",
-                f"{save_dir}/{sra}_1.fastq",
-                f"{save_dir}/{sra}_2.fastq",
+                f"{temp_dir}/{sra}_1.fastq",
+                f"{temp_dir}/{sra}_2.fastq",
             ],
             stdout=None,
             stderr=None,
         )
         failed = False
+
+    try:  # Move the compressed archives back from temp
+        movrun = run(
+            [
+                "mv",
+                f"{temp_dir}/{sra}_1.fastq",
+                f"{temp_dir}/{sra}_2.fastq",
+                f"{save_dir}/",
+            ],
+            stdout=PIPE,
+            stderr=PIPE,
+        )
+    except:
+        print(f"mv failed for {sra}: \n{movrun.stderr}")
 
     print(f"Success: {sra}")

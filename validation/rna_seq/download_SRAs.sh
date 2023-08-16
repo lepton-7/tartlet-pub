@@ -12,8 +12,9 @@
 # set -x
 set echo on
 
-DUMP_DIR="/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru"
-ACC_LIST="/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/acc_lists/p_aeru_wiesmann2022_acc.txt"
+DUMP_DIR="/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/m_tuber"
+TEMP_DIR="/fs/scratch/PDS0325/m_tuber_temp"
+ACC_LIST="/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/acc_lists/m_tuber_H37Rv_martini2023_acc.txt"
 
 module reset
 
@@ -23,7 +24,7 @@ module load sratoolkit/3.0.2
 source activate local
 
 echo "Downloading sequences from $(basename $ACC_LIST) into $(basename $DUMP_DIR)/"
-mpiexec python -u download_SRAs.py $ACC_LIST $DUMP_DIR &&
+mpiexec python -u download_SRAs.py $ACC_LIST $DUMP_DIR $TEMP_DIR &&
     wait
 
 echo "Done"
