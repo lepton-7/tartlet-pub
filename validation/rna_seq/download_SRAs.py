@@ -78,6 +78,20 @@ for sra in worker_list:
             i += 1
             failed = True
 
+    try:
+        delrun = run(
+            [
+                "rm",
+                "-r",
+                f"SRAs/{sra}",
+            ],
+            stdout=PIPE,
+            stderr=PIPE,
+        )
+
+    except:
+        print(delrun.stderr)
+
     i = 0
     failed = True
     while i < maxTries and failed:

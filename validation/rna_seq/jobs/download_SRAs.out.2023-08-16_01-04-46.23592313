@@ -1,0 +1,122 @@
+Resetting modules to system default
+Downloading sequences from p_aeru_wiesmann2022_acc.txt into p_aeru/
+Retrying SRR17167876 fastq dump (0)
+b"2023-08-16T05:05:07 fasterq-dump.3.0.2 err: fasterq-dump.c fastdump_csra() checking ouput-file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167876.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)\nfasterq-dump quit with error code 3\n"
+Retrying SRR17167874 fastq dump (0)
+b"2023-08-16T05:05:07 fasterq-dump.3.0.2 err: fasterq-dump.c fastdump_csra() checking ouput-file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167874.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)\nfasterq-dump quit with error code 3\n"
+Retrying SRR17167877 fastq dump (0)
+b"2023-08-16T05:05:07 fasterq-dump.3.0.2 err: fasterq-dump.c fastdump_csra() checking ouput-file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167877.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)\nfasterq-dump quit with error code 3\n"
+Retrying SRR17167868 fastq dump (0)
+b"2023-08-16T05:05:07 fasterq-dump.3.0.2 err: fasterq-dump.c fastdump_csra() checking ouput-file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167868.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)\nfasterq-dump quit with error code 3\n"
+Retrying SRR17167871 fastq dump (0)
+b"2023-08-16T05:05:07 fasterq-dump.3.0.2 err: fasterq-dump.c fastdump_csra() checking ouput-file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167871.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)\nfasterq-dump quit with error code 3\n"
+Retrying SRR17167867 fastq dump (0)
+b"2023-08-16T05:05:07 fasterq-dump.3.0.2 err: fasterq-dump.c fastdump_csra() checking ouput-file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167867.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)\nfasterq-dump quit with error code 3\n"
+Retrying SRR17167870 fastq dump (0)
+b"2023-08-16T05:05:07 fasterq-dump.3.0.2 err: fasterq-dump.c fastdump_csra() checking ouput-file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167870.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)\nfasterq-dump quit with error code 3\n"
+Retrying SRR17167875 fastq dump (0)
+b"2023-08-16T05:05:08 fasterq-dump.3.0.2 err: fasterq-dump.c fastdump_csra() checking ouput-file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167875.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)\nfasterq-dump quit with error code 3\n"
+Retrying SRR17167873 fastq dump (0)
+b"2023-08-16T05:05:08 fasterq-dump.3.0.2 err: fasterq-dump.c fastdump_csra() checking ouput-file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167873.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)\nfasterq-dump quit with error code 3\n"
+Retrying SRR17167869 fastq dump (0)
+Retrying SRR17167872 fastq dump (0)
+b"2023-08-16T05:05:08 fasterq-dump.3.0.2 err: fasterq-dump.c fastdump_csra() checking ouput-file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167872.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)\nfasterq-dump quit with error code 3\n"
+b"2023-08-16T05:05:08 fasterq-dump.3.0.2 err: fasterq-dump.c fastdump_csra() checking ouput-file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167869.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)\nfasterq-dump quit with error code 3\n"
+Retrying SRR17167866 fastq dump (0)
+b"2023-08-16T05:05:08 fasterq-dump.3.0.2 err: fasterq-dump.c fastdump_csra() checking ouput-file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167866.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)\nfasterq-dump quit with error code 3\n"
+Retrying SRR17167876 fastq dump (1)
+b"2023-08-16T05:05:08 fasterq-dump.3.0.2 err: fasterq-dump.c fastdump_csra() checking ouput-file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167876.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)\nfasterq-dump quit with error code 3\n"
+Retrying SRR17167877 fastq dump (1)
+b"2023-08-16T05:05:08 fasterq-dump.3.0.2 err: fasterq-dump.c fastdump_csra() checking ouput-file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167877.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)\nfasterq-dump quit with error code 3\n"
+Retrying SRR17167874 fastq dump (1)
+b"2023-08-16T05:05:08 fasterq-dump.3.0.2 err: fasterq-dump.c fastdump_csra() checking ouput-file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167874.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)\nfasterq-dump quit with error code 3\n"
+Retrying SRR17167868 fastq dump (1)
+b"2023-08-16T05:05:08 fasterq-dump.3.0.2 err: fasterq-dump.c fastdump_csra() checking ouput-file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167868.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)\nfasterq-dump quit with error code 3\n"
+Retrying SRR17167871 fastq dump (1)
+b"2023-08-16T05:05:08 fasterq-dump.3.0.2 err: fasterq-dump.c fastdump_csra() checking ouput-file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167871.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)\nfasterq-dump quit with error code 3\n"
+Retrying SRR17167870 fastq dump (1)
+b"2023-08-16T05:05:08 fasterq-dump.3.0.2 err: fasterq-dump.c fastdump_csra() checking ouput-file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167870.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)\nfasterq-dump quit with error code 3\n"
+Retrying SRR17167867 fastq dump (1)
+b"2023-08-16T05:05:08 fasterq-dump.3.0.2 err: fasterq-dump.c fastdump_csra() checking ouput-file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167867.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)\nfasterq-dump quit with error code 3\n"
+Retrying SRR17167873 fastq dump (1)
+b"2023-08-16T05:05:08 fasterq-dump.3.0.2 err: fasterq-dump.c fastdump_csra() checking ouput-file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167873.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)\nfasterq-dump quit with error code 3\n"
+Retrying SRR17167875 fastq dump (1)
+b"2023-08-16T05:05:08 fasterq-dump.3.0.2 err: fasterq-dump.c fastdump_csra() checking ouput-file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167875.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)\nfasterq-dump quit with error code 3\n"
+Retrying SRR17167872 fastq dump (1)
+b"2023-08-16T05:05:08 fasterq-dump.3.0.2 err: fasterq-dump.c fastdump_csra() checking ouput-file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167872.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)\nfasterq-dump quit with error code 3\n"
+Retrying SRR17167869 fastq dump (1)
+b"2023-08-16T05:05:08 fasterq-dump.3.0.2 err: fasterq-dump.c fastdump_csra() checking ouput-file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167869.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)\nfasterq-dump quit with error code 3\n"
+Retrying SRR17167866 fastq dump (1)
+b"2023-08-16T05:05:09 fasterq-dump.3.0.2 err: fasterq-dump.c fastdump_csra() checking ouput-file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167866.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)\nfasterq-dump quit with error code 3\n"
+Retrying SRR17167876 fastq dump (2)
+b"2023-08-16T05:05:09 fasterq-dump.3.0.2 err: fasterq-dump.c fastdump_csra() checking ouput-file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167876.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)\nfasterq-dump quit with error code 3\n"
+Retrying SRR17167877 fastq dump (2)
+b"2023-08-16T05:05:09 fasterq-dump.3.0.2 err: fasterq-dump.c fastdump_csra() checking ouput-file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167877.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)\nfasterq-dump quit with error code 3\n"
+Retrying SRR17167874 fastq dump (2)
+b"2023-08-16T05:05:09 fasterq-dump.3.0.2 err: fasterq-dump.c fastdump_csra() checking ouput-file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167874.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)\nfasterq-dump quit with error code 3\n"
+Retrying SRR17167868 fastq dump (2)
+b"2023-08-16T05:05:09 fasterq-dump.3.0.2 err: fasterq-dump.c fastdump_csra() checking ouput-file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167868.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)\nfasterq-dump quit with error code 3\n"
+Retrying SRR17167871 fastq dump (2)
+b"2023-08-16T05:05:09 fasterq-dump.3.0.2 err: fasterq-dump.c fastdump_csra() checking ouput-file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167871.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)\nfasterq-dump quit with error code 3\n"
+Retrying SRR17167870 fastq dump (2)
+b"2023-08-16T05:05:09 fasterq-dump.3.0.2 err: fasterq-dump.c fastdump_csra() checking ouput-file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167870.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)\nfasterq-dump quit with error code 3\n"
+Retrying SRR17167867 fastq dump (2)
+b"2023-08-16T05:05:09 fasterq-dump.3.0.2 err: fasterq-dump.c fastdump_csra() checking ouput-file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167867.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)\nfasterq-dump quit with error code 3\n"
+Retrying SRR17167875 fastq dump (2)
+b"2023-08-16T05:05:09 fasterq-dump.3.0.2 err: fasterq-dump.c fastdump_csra() checking ouput-file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167875.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)\nfasterq-dump quit with error code 3\n"
+Retrying SRR17167873 fastq dump (2)
+b"2023-08-16T05:05:09 fasterq-dump.3.0.2 err: fasterq-dump.c fastdump_csra() checking ouput-file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167873.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)\nfasterq-dump quit with error code 3\n"
+Retrying SRR17167872 fastq dump (2)
+b"2023-08-16T05:05:09 fasterq-dump.3.0.2 err: fasterq-dump.c fastdump_csra() checking ouput-file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167872.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)\nfasterq-dump quit with error code 3\n"
+Retrying SRR17167869 fastq dump (2)
+b"2023-08-16T05:05:09 fasterq-dump.3.0.2 err: fasterq-dump.c fastdump_csra() checking ouput-file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167869.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)\nfasterq-dump quit with error code 3\n"
+Retrying SRR17167877 fastq dump (3)
+b"2023-08-16T05:05:10 fasterq-dump.3.0.2 err: fasterq-dump.c fastdump_csra() checking ouput-file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167877.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)\nfasterq-dump quit with error code 3\n"
+Retrying SRR17167876 fastq dump (3)
+b"2023-08-16T05:05:10 fasterq-dump.3.0.2 err: fasterq-dump.c fastdump_csra() checking ouput-file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167876.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)\nfasterq-dump quit with error code 3\n"
+Retrying SRR17167873 fastq dump (3)
+b"2023-08-16T05:05:10 fasterq-dump.3.0.2 err: fasterq-dump.c fastdump_csra() checking ouput-file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167873.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)\nfasterq-dump quit with error code 3\n"
+Retrying SRR17167875 fastq dump (3)
+b"2023-08-16T05:05:10 fasterq-dump.3.0.2 err: fasterq-dump.c fastdump_csra() checking ouput-file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167875.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)\nfasterq-dump quit with error code 3\n"
+Retrying SRR17167874 fastq dump (3)
+b"2023-08-16T05:05:10 fasterq-dump.3.0.2 err: fasterq-dump.c fastdump_csra() checking ouput-file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167874.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)\nfasterq-dump quit with error code 3\n"
+Retrying SRR17167871 fastq dump (3)
+b"2023-08-16T05:05:10 fasterq-dump.3.0.2 err: fasterq-dump.c fastdump_csra() checking ouput-file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167871.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)\nfasterq-dump quit with error code 3\n"
+Retrying SRR17167870 fastq dump (3)
+b"2023-08-16T05:05:10 fasterq-dump.3.0.2 err: fasterq-dump.c fastdump_csra() checking ouput-file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167870.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)\nfasterq-dump quit with error code 3\n"
+Retrying SRR17167869 fastq dump (3)
+b"2023-08-16T05:05:10 fasterq-dump.3.0.2 err: fasterq-dump.c fastdump_csra() checking ouput-file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167869.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)\nfasterq-dump quit with error code 3\n"
+Retrying SRR17167872 fastq dump (3)
+b"2023-08-16T05:05:10 fasterq-dump.3.0.2 err: fasterq-dump.c fastdump_csra() checking ouput-file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167872.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)\nfasterq-dump quit with error code 3\n"
+Retrying SRR17167868 fastq dump (3)
+b"2023-08-16T05:05:10 fasterq-dump.3.0.2 err: fasterq-dump.c fastdump_csra() checking ouput-file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167868.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)\nfasterq-dump quit with error code 3\n"
+Retrying SRR17167867 fastq dump (3)
+b"2023-08-16T05:05:10 fasterq-dump.3.0.2 err: fasterq-dump.c fastdump_csra() checking ouput-file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167867.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)\nfasterq-dump quit with error code 3\n"
+Retrying SRR17167866 fastq dump (2)
+b"2023-08-16T05:05:10 fasterq-dump.3.0.2 err: fasterq-dump.c fastdump_csra() checking ouput-file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167866.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)\nfasterq-dump quit with error code 3\n"
+Retrying SRR17167877 fastq dump (4)
+b"2023-08-16T05:05:10 fasterq-dump.3.0.2 err: fasterq-dump.c fastdump_csra() checking ouput-file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167877.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)\nfasterq-dump quit with error code 3\n"
+Retrying SRR17167874 fastq dump (4)
+b"2023-08-16T05:05:10 fasterq-dump.3.0.2 err: fasterq-dump.c fastdump_csra() checking ouput-file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167874.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)\nfasterq-dump quit with error code 3\n"
+Retrying SRR17167873 fastq dump (4)
+b"2023-08-16T05:05:10 fasterq-dump.3.0.2 err: fasterq-dump.c fastdump_csra() checking ouput-file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167873.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)\nfasterq-dump quit with error code 3\n"
+Retrying SRR17167875 fastq dump (4)
+b"2023-08-16T05:05:10 fasterq-dump.3.0.2 err: fasterq-dump.c fastdump_csra() checking ouput-file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167875.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)\nfasterq-dump quit with error code 3\n"
+Retrying SRR17167876 fastq dump (4)
+b"2023-08-16T05:05:10 fasterq-dump.3.0.2 err: fasterq-dump.c fastdump_csra() checking ouput-file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167876.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)\nfasterq-dump quit with error code 3\n"
+Retrying SRR17167871 fastq dump (4)
+b"2023-08-16T05:05:10 fasterq-dump.3.0.2 err: fasterq-dump.c fastdump_csra() checking ouput-file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167871.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)\nfasterq-dump quit with error code 3\n"
+Retrying SRR17167872 fastq dump (4)
+b"2023-08-16T05:05:10 fasterq-dump.3.0.2 err: fasterq-dump.c fastdump_csra() checking ouput-file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167872.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)\nfasterq-dump quit with error code 3\n"
+Retrying SRR17167870 fastq dump (4)
+b"2023-08-16T05:05:10 fasterq-dump.3.0.2 err: fasterq-dump.c fastdump_csra() checking ouput-file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167870.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)\nfasterq-dump quit with error code 3\n"
+Retrying SRR17167869 fastq dump (4)
+b"2023-08-16T05:05:10 fasterq-dump.3.0.2 err: fasterq-dump.c fastdump_csra() checking ouput-file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167869.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)\nfasterq-dump quit with error code 3\n"
+Retrying SRR17167868 fastq dump (4)
+b"2023-08-16T05:05:10 fasterq-dump.3.0.2 err: fasterq-dump.c fastdump_csra() checking ouput-file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167868.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)\nfasterq-dump quit with error code 3\n"
+Retrying SRR17167867 fastq dump (4)
+b"2023-08-16T05:05:10 fasterq-dump.3.0.2 err: fasterq-dump.c fastdump_csra() checking ouput-file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167867.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)\nfasterq-dump quit with error code 3\n"
+Retrying SRR17167866 fastq dump (3)
+b"2023-08-16T05:05:10 fasterq-dump.3.0.2 err: fasterq-dump.c fastdump_csra() checking ouput-file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167866.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)\nfasterq-dump quit with error code 3\n"
+Retrying SRR17167866 fastq dump (4)
+b"2023-08-16T05:05:11 fasterq-dump.3.0.2 err: fasterq-dump.c fastdump_csra() checking ouput-file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167866.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)\nfasterq-dump quit with error code 3\n"

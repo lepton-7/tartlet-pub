@@ -1,0 +1,38 @@
+Resetting modules to system default
+Downloading sequences from p_aeru_wiesmann2022_acc.txt into p_aeru/
+
+gzip: /users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167867_1.fastq.gz: Disk quota exceeded
+Success: SRR17167867
+
+gzip: /users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167868_1.fastq.gz: Disk quota exceeded
+
+gzip: /users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167869_1.fastq.gz: Disk quota exceeded
+Success: SRR17167868
+Success: SRR17167869
+
+gzip: /users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167875_1.fastq.gz: Disk quota exceeded
+
+gzip: /users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167873_1.fastq.gz: Disk quota exceeded
+
+gzip: /users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167877_1.fastq.gz: Disk quota exceeded
+
+gzip: /users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167874_1.fastq.gz: Disk quota exceeded
+Success: SRR17167875
+Success: SRR17167873
+Success: SRR17167877
+Success: SRR17167874
+
+gzip: /users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167876_1.fastq.gz: Disk quota exceeded
+Success: SRR17167876
+
+gzip: /users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167872_1.fastq.gz: Disk quota exceeded
+Success: SRR17167872
+
+gzip: /users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167866_1.fastq.gz: Disk quota exceeded
+
+gzip: /users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167870_1.fastq.gz: Disk quota exceeded
+Success: SRR17167870
+Success: SRR17167866
+
+gzip: /users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru/SRR17167871_1.fastq.gz: Disk quota exceeded
+Success: SRR17167871

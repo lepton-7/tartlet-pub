@@ -12,8 +12,8 @@
 # set -x
 set echo on
 
-DUMP_DIR="/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_fluor"
-ACC_LIST="/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/acc_lists/p_fluor_wiesmann2022_acc.txt"
+DUMP_DIR="/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru"
+ACC_LIST="/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/acc_lists/p_aeru_wiesmann2022_acc.txt"
 
 module reset
 
@@ -25,3 +25,5 @@ source activate local
 echo "Downloading sequences from $(basename $ACC_LIST) into $(basename $DUMP_DIR)/"
 mpiexec python -u download_SRAs.py $ACC_LIST $DUMP_DIR &&
     wait
+
+echo "Done"
