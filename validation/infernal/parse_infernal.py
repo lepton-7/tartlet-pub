@@ -7,8 +7,15 @@ tax_cache = {}
 # %%
 # infernal output tables and dataset identifiers
 files = {
-    "ecoli": (r"./results/compile.txt", "Genome"),
+    "ecoli": (r"./results/Ecoli.NC_000913.3.fna.txt", "e_coli"),
+    "bsub": (r"./results/Bsubtilis168.GCF_000009045.1.fna.txt", "b_sub_168"),
+    "pfluor": (r"./results/Pfluorescens.GCA_900215245.1.fna.txt", "p_fluor"),
+    "paeru": (r"./results/Paeruginosa.GCA_000006765.1.fna.txt", "p_aeru"),
+    "mtuber": (r"./results/MtuberculosisH37Rv.GCA_000195955.2.fna.txt", "m_tuber"),
+    "selon": (r"./results/Selongatus.GCA_000012525.1.fna.txt", "s_elon"),
 }
+
+table_dir = "/users/PDS0325/sachitk26/packages/tart/validation/tables"
 
 
 def parse_infernal(process_file, name):
@@ -170,7 +177,7 @@ for dataset in files:
 filename = "inf_results"
 cumulative = pd.concat(dfs, ignore_index=True)
 cumulative.to_csv(
-    "/users/PDS0325/sachitk26/packages/tart/validation/tables/{}.csv".format(filename),
+    f"{table_dir}/{filename}.csv",
     index=False,
 )
 
