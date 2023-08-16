@@ -78,6 +78,8 @@ for sra in worker_list:
                 "fasterq-dump",
                 f"{temp_dir}/SRAs/{sra}/{sra}.sra",
                 "--split-files",
+                "--temp",
+                f"{temp_dir}",
                 "--outdir",
                 f"{temp_dir}",
             ],
