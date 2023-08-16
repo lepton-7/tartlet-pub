@@ -64,7 +64,7 @@ for sra in worker_list:
         failed = False
 
         if c1.returncode:
-            print(f"Retrying {sra} fetch ({i})")
+            print(f"Retrying {sra} fetch ({i}); Error code ({c1.returncode})")
             print(c1.stderr)
 
             i += 1
@@ -114,8 +114,8 @@ for sra in worker_list:
         movrun = run(
             [
                 "mv",
-                f"{temp_dir}/{sra}_1.fastq",
-                f"{temp_dir}/{sra}_2.fastq",
+                f"{temp_dir}/{sra}_1.fastq.gz",
+                f"{temp_dir}/{sra}_2.fastq.gz",
                 f"{save_dir}/",
             ],
             stdout=PIPE,
