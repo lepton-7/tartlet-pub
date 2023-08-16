@@ -1,4 +1,4 @@
-# Goes through all the derep95 MAGs and records riboswitch nucleotide
+# Goes through genomes in the given dset and records riboswitch nucleotide
 # sequences to files categorised by riboswitch target_name
 
 # %%
@@ -22,6 +22,9 @@ MAG_dir = argv[2]
 delta = int(argv[3])
 
 dset = argv[4]
+
+# Where to put the alignment reference fastas
+out_dir = argv[5]
 
 # Read in the results table
 table = pd.read_csv(riboswitches_table_path)
@@ -138,15 +141,8 @@ if not skip:
 
             seqs_local[classname].update({rowid: switch})
 
-# print(f"Local on rank {rank}: ", seqs_local)
-# sleep(1)
-
 seqs_arr = None
-# print(f"Starting gather: {rank}")
-
 seqs_arr = comm.gather(seqs_local, root=0)
-
-# print(f"Completed gather: {rank}")
 
 # %%
 
@@ -160,8 +156,8 @@ if rank == 0:
         for switchclass, seqs in instance_dict.items():
             seqs_ledger[switchclass].update(seqs)
 
-    # Make a directory to save sequences in fasta format
-    Path("./switch_seqs_delta{}".format(delta)).mkdir(parents=True, exist_ok=True)
+    # Make the sub directory to save sequences in fasta format
+    Path(f"{out_dir}/switch_seqs_delta{delta}").mkdir(parents=True, exist_ok=True)
 
     num_switch_classes = len(seqs_ledger)
 else:
@@ -206,7 +202,7 @@ for idx in range(num_switch_classes):
 # Write riboswitch sequences to disk
 
 if rank > 0:
-    fpath = "./switch_seqs_delta{}/{}.fna".format(delta, classname)
+    fpath = f"{out_dir}/switch_seqs_delta{delta}/{classname}.fna"
 
     with open(fpath, "w") as f:
         for key, val in sub_d.items():
