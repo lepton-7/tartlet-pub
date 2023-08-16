@@ -1,0 +1,52 @@
+Instance 5 starting alignment for p_aeru from /users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru reads
+
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Error: Read SRR17167871.1561055 GWNJ-1012:333:GW200620621st:1:1202:21676:30859 length=150 has more read characters than quality values.
+terminate called after throwing an instance of 'int'
+(ERR): hisat2-align died with signal 6 (ABRT) (core dumped)
+
+---------------------------------------------------------------------
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Error: Read SRR17167871.1561055 GWNJ-1012:333:GW200620621st:1:1202:21676:30859 length=150 has more read characters than quality values.
+terminate called after throwing an instance of 'int'
+(ERR): hisat2-align died with signal 6 (ABRT) (core dumped)
+
+---------------------------------------------------------------------
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Error: Read SRR17167871.1561055 GWNJ-1012:333:GW200620621st:1:1202:21676:30859 length=150 has more read characters than quality values.
+terminate called after throwing an instance of 'int'
+(ERR): hisat2-align died with signal 6 (ABRT) (core dumped)
+
+---------------------------------------------------------------------
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Error: Read SRR17167871.1561055 GWNJ-1012:333:GW200620621st:1:1202:21676:30859 length=150 has more read characters than quality values.
+terminate called after throwing an instance of 'int'
+(ERR): hisat2-align died with signal 6 (ABRT) (core dumped)
+
+---------------------------------------------------------------------
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Error: Read SRR17167871.1561055 GWNJ-1012:333:GW200620621st:1:1202:21676:30859 length=150 has more read characters than quality values.
+terminate called after throwing an instance of 'int'
+(ERR): hisat2-align died with signal 6 (ABRT) (core dumped)
+
+---------------------------------------------------------------------
+
+Time loading forward index: 00:00:01
+Time loading reference: 00:00:00
+Error: Read SRR17167871.1561055 GWNJ-1012:333:GW200620621st:1:1202:21676:30859 length=150 has more read characters than quality values.
+terminate called after throwing an instance of 'int'
+(ERR): hisat2-align died with signal 6 (ABRT) (core dumped)
+
+---------------------------------------------------------------------
+
+Done

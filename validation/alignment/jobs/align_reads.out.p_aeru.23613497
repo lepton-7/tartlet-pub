@@ -1,0 +1,52 @@
+Instance 0 starting alignment for p_aeru from /users/PDS0325/sachitk26/packages/tart/validation/rna_seq/p_aeru reads
+
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Saw ASCII character 0 but expected 33-based Phred qual.
+terminate called after throwing an instance of 'int'
+(ERR): hisat2-align died with signal 6 (ABRT) (core dumped)
+
+---------------------------------------------------------------------
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Saw ASCII character 0 but expected 33-based Phred qual.
+terminate called after throwing an instance of 'int'
+(ERR): hisat2-align died with signal 6 (ABRT) (core dumped)
+
+---------------------------------------------------------------------
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Saw ASCII character 0 but expected 33-based Phred qual.
+terminate called after throwing an instance of 'int'
+(ERR): hisat2-align died with signal 6 (ABRT) (core dumped)
+
+---------------------------------------------------------------------
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Saw ASCII character 0 but expected 33-based Phred qual.
+terminate called after throwing an instance of 'int'
+(ERR): hisat2-align died with signal 6 (ABRT) (core dumped)
+
+---------------------------------------------------------------------
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Saw ASCII character 0 but expected 33-based Phred qual.
+terminate called after throwing an instance of 'int'
+(ERR): hisat2-align died with signal 6 (ABRT) (core dumped)
+
+---------------------------------------------------------------------
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Saw ASCII character 0 but expected 33-based Phred qual.
+terminate called after throwing an instance of 'int'
+(ERR): hisat2-align died with signal 6 (ABRT) (core dumped)
+
+---------------------------------------------------------------------
+
+Done

@@ -6,25 +6,28 @@
 #SBATCH --account=PDS0325
 #SBATCH --mail-type=BEGIN,END,FAIL
 
-# There are 92 pairs of readsets
-#SBATCH --array=0-92
+# --------------------------------
+# There are 24 pairs of readsets
+#SBATCH --array=0-24
+# --------------------------------
 
 # RUN THIS TO LAUNCH JOB
-## DATECODE="$(date +"%Y-%m-%d_%H-%M-%S")"; sbatch --output=jobs/align_reads.out.$DATECODE.%j align_reads.sh
+## DATECODE="$(date +"%Y-%m-%d_%H-%M-%S")"; sbatch --output=jobs/align_reads.out.s_elon.$DATECODE.%j align_reads.sh
 
 # set -x
 set echo on
 
 module load hisat2
 
-DATECODE="2023-08-14_11-02-43"
-
 IDX=$((SLURM_ARRAY_TASK_ID))
+
+DATECODE="2023-08-16_15-51-44"
+DSET="s_elon"
 
 RT="$HOME/packages/tart"
 
-REF_DIR="$RT/validation/alignment/switch_seqs_delta500"
-SEQ_DIR="$RT/validation/rna_seq/e_coli"
+REF_DIR="$RT/validation/alignment/outputs/$DSET/switch_seqs_delta500"
+SEQ_DIR="$RT/validation/rna_seq/$DSET"
 
 mkdir -p $REF_DIR
 
@@ -39,8 +42,11 @@ FQ_FILES=(*_1.fastq.gz)
 SEQ_FILE="$SEQ_DIR/${FQ_FILES[$IDX]:0:-11}"
 
 cd $REF_DIR
-
 REFS=(*.fna)
+
+echo "Instance $IDX starting alignment for $DSET from $SEQ_DIR reads"
+echo
+echo
 
 # Iterate over each riboswitch class reference file
 for Q in ${REFS[@]}; do
@@ -62,3 +68,5 @@ for Q in ${REFS[@]}; do
     echo "---------------------------------------------------------------------"
     echo
 done
+
+echo "Done"
