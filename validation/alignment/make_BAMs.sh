@@ -13,8 +13,12 @@ set -x
 set echo on
 
 RT="$HOME/packages/tart"
-REF_DIR="$RT/validation/alignment/switch_seqs_delta500"
-SAM_DIR="$REF_DIR/alignments_2023-08-14_11-02-43"
+
+DSET="s_elon"
+
+REF_DIR="$RT/validation/alignment/outputs/$DSET/switch_seqs_delta500"
+
+SAM_DIR="$REF_DIR/alignments_2023-08-16_15-51-44"
 
 module load miniconda3
 module load samtools
