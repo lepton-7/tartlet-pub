@@ -14,7 +14,7 @@ set echo on
 
 RT="$HOME/packages/tart"
 
-DSET="s_elon"
+DSET="p_fluor"
 
 REF_DIR="$RT/validation/alignment/outputs/$DSET/switch_seqs_delta500"
 

@@ -14,8 +14,12 @@ set echo on
 
 RT="$HOME/packages/tart"
 
-PICKLE_ROOT="$RT/validation/alignment/plots/picks"
-SAVE_ROOT="$RT/validation/alignment/plots/filtered"
+DSET="b_sub_168"
+
+D_ROOT="$RT/validation/alignment/outputs/$DSET"
+
+PICKLE_ROOT="$D_ROOT/plots/picks"
+SAVE_ROOT="$D_ROOT/plots/filtered"
 
 module load miniconda3
 source activate local

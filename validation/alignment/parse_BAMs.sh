@@ -14,12 +14,15 @@ set echo on
 
 RT="$HOME/packages/tart"
 
-BAM_DIR="$RT/validation/alignment/switch_seqs_delta500/alignments_2023-08-14_11-02-43"
-SAVE_ROOT="$RT/validation/alignment/plots/picks"
+DSET="s_elon"
+
+BAM_DIR="$RT/validation/alignment/outputs/$DSET/switch_seqs_delta500/alignments_2023-08-16_15-51-44"
+SAVE_ROOT="$RT/validation/alignment/outputs/$DSET/plots/picks"
+BOUNDS_DIR="$RT/validation/alignment/outputs/$DSET"
 
 module load miniconda3
 module load samtools
 source activate local
 
-mpiexec python parse_BAMs.py $BAM_DIR $SAVE_ROOT &&
+mpiexec python parse_BAMs.py $BAM_DIR $SAVE_ROOT $BOUNDS_DIR &&
     wait

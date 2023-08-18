@@ -14,6 +14,8 @@ bam_dir = argv[1]
 save_root = Path(argv[2])
 save_root.mkdir(parents=True, exist_ok=True)
 
+bounds_dir = argv[3]
+
 # Set these to determine outputs ----------------------------------------------
 minfragcov = 8
 
@@ -22,7 +24,7 @@ outPickles = True
 # -----------------------------------------------------------------------------
 
 # Import the dict that stores MAG contig positions of the alignment references
-with open("./rowid_to_bounds.json", "r") as f:
+with open(f"{bounds_dir}/rowid_to_bounds.json", "r") as f:
     refBounds = json.load(f)
 
 # %%
