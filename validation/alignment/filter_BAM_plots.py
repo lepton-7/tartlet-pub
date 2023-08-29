@@ -76,9 +76,9 @@ for pick_file in worker_list:
     ref = Path(pick_file[:-2]).name
 
     core_sample = Path(pick_file).parts[-2]
-    save_root = save_root.joinpath(passfaildir)
-    save_root.mkdir(exist_ok=True, parents=True)
-    save_path = save_root.joinpath(f"{core_sample}#{ref}.png")
+    save_path = save_root.joinpath(passfaildir, f"{core_sample}#{ref}.png")
+
+    save_path.parent.mkdir(exist_ok=True, parents=True)
 
     alignTup, bin_ax = bin_counts(alignTup, bin_size=bin_size)
 
