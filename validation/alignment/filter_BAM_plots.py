@@ -63,18 +63,27 @@ for pick_file in worker_list:
     # convalignTup = (cov, conv_ends, (switch_start, switch_end))
     alignTup = (cov, ends, (switch_start, switch_end))
 
+    # Check whether there are enough reads to proceed.
+    # This needs to be done to avoid clutter in the results
+    # that failed the filer
+    if max(readcov) < 50:
+        continue
+
+    isActive = is_interesting(alignTup, windowfrac=0.2, threshtol=0.2)
+    passfaildir = "pass" if isActive else "fail"
+
+    # Save path formation
     ref = Path(pick_file[:-2]).name
 
     core_sample = Path(pick_file).parts[-2]
-    save_path = save_root.joinpath(f"{core_sample}#{ref}.png")
+    save_path = save_root.joinpath(passfaildir, f"{core_sample}#{ref}.png")
 
-    if is_interesting(alignTup, windowfrac=0.2, threshtol=0.2):
-        alignTup, bin_ax = bin_counts(alignTup, bin_size=bin_size)
+    alignTup, bin_ax = bin_counts(alignTup, bin_size=bin_size)
 
-        plot_gen(
-            ref,
-            alignTup,
-            str(save_path),
-            bin_size=bin_size,
-            bin_ax=bin_ax,
-        )
+    plot_gen(
+        ref,
+        alignTup,
+        str(save_path),
+        bin_size=bin_size,
+        bin_ax=bin_ax,
+    )
