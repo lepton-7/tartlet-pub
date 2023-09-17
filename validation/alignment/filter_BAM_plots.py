@@ -1,10 +1,12 @@
 # %%
 import pickle
+import pandas as pd
 
-from pathlib import Path
+from sys import argv
 from glob import glob
 from mpi4py import MPI
-from sys import argv
+from pathlib import Path
+from collections import defaultdict
 from tart.parsefuncs import plot_gen, is_interesting, bin_counts, gen_kernel
 
 # %%
@@ -52,6 +54,10 @@ save_root = Path(save_root)
 save_root.mkdir(parents=True, exist_ok=True)
 
 bin_size = 10
+
+# Keeps track of which plots filtered through
+pass_rate_local = defaultdict(list)
+
 for pick_file in worker_list:
     with open(pick_file, "rb") as f:
         # ([read cov, inferred frag cov, clipped cov], ends, (swtch start, end))
@@ -75,6 +81,12 @@ for pick_file in worker_list:
     # Save path formation
     ref = Path(pick_file[:-2]).name
 
+    # Riboswitch class name
+    targetname = Path(pick_file).parts[-3]
+
+    # Tally pass vs fail
+    pass_rate_local[targetname].append(isActive)
+
     core_sample = Path(pick_file).parts[-2]
     save_path = save_root.joinpath(passfaildir, f"{core_sample}#{ref}.png")
 
@@ -89,3 +101,23 @@ for pick_file in worker_list:
         bin_size=bin_size,
         bin_ax=bin_ax,
     )
+
+pass_rate_arr = comm.gather(pass_rate_local, root=0)
+
+if rank == 0:
+    pass_rates = defaultdict(list)
+    for instance_dict in pass_rate_arr:
+        for key, val in instance_dict.items():
+            pass_rates[key].extend(val)
+
+    print(pass_rates)
+
+    # Output pass rates to file
+    classes = []
+    rates = []
+    for key, val in pass_rates.items():
+        classes.append(key)
+        rates.append(sum(val) / len(val))
+
+    df = pd.DataFrame({"target_name": classes, "pass_rate": rates})
+    df.to_csv(f"{save_root}/pass_rates.csv", index=False)
