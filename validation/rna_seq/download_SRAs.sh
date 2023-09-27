@@ -12,9 +12,12 @@
 # set -x
 set echo on
 
-DUMP_DIR="/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/s_elon"
-TEMP_DIR="/fs/scratch/PDS0325/s_elon_temp"
-ACC_LIST="/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/acc_lists/s_elon_lu2023_acc.txt"
+LISTNAME="a_fischeri_ES114_griend2023_acc"
+TAX="a_fischeri_ES114"
+
+DUMP_DIR="/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/$TAX"
+TEMP_DIR="/fs/scratch/PDS0325/${TAX}_temp"
+ACC_LIST="/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/acc_lists/$LISTNAME.txt"
 
 module reset
 

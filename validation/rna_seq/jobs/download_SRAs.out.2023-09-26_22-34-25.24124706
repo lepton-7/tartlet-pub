@@ -1,0 +1,63 @@
+Resetting modules to system default
+Downloading sequences from a_fischeri_ES114_thompson2016_acc.txt into a_fischeri_ES114/
+gzip: /fs/scratch/PDS0325/a_fischeri_ES114_temp/SRR3436842_1.fastq: No such file or directory
+gzip: /fs/scratch/PDS0325/a_fischeri_ES114_temp/SRR3436842_2.fastq: No such file or directory
+Success: SRR3436842
+gzip: /fs/scratch/PDS0325/a_fischeri_ES114_temp/SRR3436855_1.fastq: No such file or directory
+gzip: /fs/scratch/PDS0325/a_fischeri_ES114_temp/SRR3436855_2.fastq: No such file or directory
+Success: SRR3436855
+gzip: /fs/scratch/PDS0325/a_fischeri_ES114_temp/SRR3436856_1.fastq: No such file or directory
+gzip: /fs/scratch/PDS0325/a_fischeri_ES114_temp/SRR3436856_2.fastq: No such file or directory
+Success: SRR3436856
+gzip: /fs/scratch/PDS0325/a_fischeri_ES114_temp/SRR3436840_1.fastq: No such file or directory
+gzip: /fs/scratch/PDS0325/a_fischeri_ES114_temp/SRR3436840_2.fastq: No such file or directory
+Success: SRR3436840
+gzip: /fs/scratch/PDS0325/a_fischeri_ES114_temp/SRR3436849_1.fastq: No such file or directory
+gzip: /fs/scratch/PDS0325/a_fischeri_ES114_temp/SRR3436849_2.fastq: No such file or directory
+Success: SRR3436849
+gzip: /fs/scratch/PDS0325/a_fischeri_ES114_temp/SRR3436839_1.fastq: No such file or directory
+gzip: /fs/scratch/PDS0325/a_fischeri_ES114_temp/SRR3436839_2.fastq: No such file or directory
+Success: SRR3436839
+gzip: /fs/scratch/PDS0325/a_fischeri_ES114_temp/SRR3436843_1.fastq: No such file or directory
+gzip: /fs/scratch/PDS0325/a_fischeri_ES114_temp/SRR3436843_2.fastq: No such file or directory
+Success: SRR3436843
+gzip: /fs/scratch/PDS0325/a_fischeri_ES114_temp/SRR3436847_1.fastq: No such file or directory
+gzip: /fs/scratch/PDS0325/a_fischeri_ES114_temp/SRR3436847_2.fastq: No such file or directory
+Success: SRR3436847
+gzip: /fs/scratch/PDS0325/a_fischeri_ES114_temp/SRR3436846_1.fastq: No such file or directory
+gzip: /fs/scratch/PDS0325/a_fischeri_ES114_temp/SRR3436846_2.fastq: No such file or directory
+Success: SRR3436846
+gzip: /fs/scratch/PDS0325/a_fischeri_ES114_temp/SRR3436848_1.fastq: No such file or directory
+gzip: /fs/scratch/PDS0325/a_fischeri_ES114_temp/SRR3436848_2.fastq: No such file or directory
+Success: SRR3436848
+gzip: /fs/scratch/PDS0325/a_fischeri_ES114_temp/SRR3436841_1.fastq: No such file or directory
+gzip: /fs/scratch/PDS0325/a_fischeri_ES114_temp/SRR3436841_2.fastq: No such file or directory
+Success: SRR3436841
+gzip: /fs/scratch/PDS0325/a_fischeri_ES114_temp/SRR3436851_1.fastq: No such file or directory
+gzip: /fs/scratch/PDS0325/a_fischeri_ES114_temp/SRR3436851_2.fastq: No such file or directory
+Success: SRR3436851
+gzip: /fs/scratch/PDS0325/a_fischeri_ES114_temp/SRR3436850_1.fastq: No such file or directory
+gzip: /fs/scratch/PDS0325/a_fischeri_ES114_temp/SRR3436850_2.fastq: No such file or directory
+Success: SRR3436850
+gzip: /fs/scratch/PDS0325/a_fischeri_ES114_temp/SRR3436858_1.fastq: No such file or directory
+gzip: /fs/scratch/PDS0325/a_fischeri_ES114_temp/SRR3436858_2.fastq: No such file or directory
+Success: SRR3436858
+gzip: /fs/scratch/PDS0325/a_fischeri_ES114_temp/SRR3436853_1.fastq: No such file or directory
+gzip: /fs/scratch/PDS0325/a_fischeri_ES114_temp/SRR3436853_2.fastq: No such file or directory
+Success: SRR3436853
+gzip: /fs/scratch/PDS0325/a_fischeri_ES114_temp/SRR3436854_1.fastq: No such file or directory
+gzip: /fs/scratch/PDS0325/a_fischeri_ES114_temp/SRR3436854_2.fastq: No such file or directory
+Success: SRR3436854
+gzip: /fs/scratch/PDS0325/a_fischeri_ES114_temp/SRR3436852_1.fastq: No such file or directory
+gzip: /fs/scratch/PDS0325/a_fischeri_ES114_temp/SRR3436852_2.fastq: No such file or directory
+Success: SRR3436852
+gzip: /fs/scratch/PDS0325/a_fischeri_ES114_temp/SRR3436857_1.fastq: No such file or directory
+gzip: /fs/scratch/PDS0325/a_fischeri_ES114_temp/SRR3436857_2.fastq: No such file or directory
+Success: SRR3436857
+gzip: /fs/scratch/PDS0325/a_fischeri_ES114_temp/SRR3436844_1.fastq: No such file or directory
+gzip: /fs/scratch/PDS0325/a_fischeri_ES114_temp/SRR3436844_2.fastq: No such file or directory
+Success: SRR3436844
+gzip: /fs/scratch/PDS0325/a_fischeri_ES114_temp/SRR3436845_1.fastq: No such file or directory
+gzip: /fs/scratch/PDS0325/a_fischeri_ES114_temp/SRR3436845_2.fastq: No such file or directory
+Success: SRR3436845
+slurmstepd: error: *** JOB 24124706 ON p0029 CANCELLED AT 2023-09-26T22:37:21 ***

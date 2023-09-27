@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #SBATCH --time=00:05:00
-#SBATCH --nodes=1 --cpus-per-task=44
+#SBATCH --nodes=1 --cpus-per-task=40
 
 #SBATCH --account=PDS0325
 #SBATCH --mail-type=BEGIN,END,FAIL
@@ -14,20 +14,23 @@ set echo on
 
 module load hisat2
 
-DSET="s_elon"
+DSETS=("a_fischeri_ES114" "a_rabiei" "b_theta" "c_vibrioides" "s_coelicolor" "s_spcc6803")
 
-RT="$HOME/packages/tart"
-REF_DIR="$RT/validation/alignment/outputs/$DSET/switch_seqs_delta500"
+for DSET in ${DSETS[@]}; do
 
-cd $REF_DIR
+    RT="$HOME/packages/tart"
+    REF_DIR="$RT/validation/alignment/outputs/$DSET/switch_seqs_delta500"
 
-arr=(*.fna)
+    cd $REF_DIR
 
-for i in ${arr[@]}; do
+    arr=(*.fna)
 
-    iPATH="${i:0:-4}_index"
+    for i in ${arr[@]}; do
 
-    mkdir -p $iPATH
+        iPATH="${i:0:-4}_index"
 
-    hisat2-build -p 44 $i $iPATH/${i:0:-4}_index
+        mkdir -p $iPATH
+
+        hisat2-build -p 44 $i $iPATH/${i:0:-4}_index
+    done
 done
