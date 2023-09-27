@@ -13,6 +13,12 @@ files = {
     "paeru": (r"./results/Paeruginosa.GCA_000006765.1.fna.txt", "p_aeru"),
     "mtuber": (r"./results/MtuberculosisH37Rv.GCA_000195955.2.fna.txt", "m_tuber"),
     "selon": (r"./results/Selongatus.GCA_000012525.1.fna.txt", "s_elon"),
+    "afischeri_ES114":(r"./results/AfischeriES114.GCA_000020845.1_ASM2084v1_genomic.fna.txt", "a_fischeri_ES114"),
+    "arabiei":(r"./results/Arabiei.GCA_004011695.2_ASM401169v2_genomic.fna.txt", "a_rabiei"),
+    "btheta":(r"./results/Bthetaiotaomicron.GCA_014131755.1_ASM1413175v1_genomic.fna.txt", "b_theta"),
+    "cvibrioides":(r"./results/Cvibrioides.GCA_000022005.1_ASM2200v1_genomic.fna.txt", "c_vibrioides"),
+    "scoelicolor":(r"./results/Scoelicolor.GCA_008931305.1_ASM893130v1_genomic.fna.txt", "s_coelicolor"),
+    "sspcc6803":(r"./results/Spcc6803.GCA_018845095.1_ASM1884509v1_genomic.fna.txt", "s_spcc6803"),
 }
 
 table_dir = "/users/PDS0325/sachitk26/packages/tart/validation/tables"
