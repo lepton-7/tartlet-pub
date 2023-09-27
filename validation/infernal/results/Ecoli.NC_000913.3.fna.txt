@@ -16,5 +16,5 @@ TPP                  RF00059   NC_000913.3          -          cm        1      
 # Target file:     /users/PDS0325/sachitk26/cm/riboswitches/riboswitches.cm
 # Option settings: cmscan --tblout /users/PDS0325/sachitk26/packages/tart/validation/infernal/results/Ecoli.NC_000913.3.fna.txt --noali --cut_ga --rfam --nohmmonly /users/PDS0325/sachitk26/cm/riboswitches/riboswitches.cm /users/PDS0325/sachitk26/packages/tart/validation/genomes/Ecoli.NC_000913.3.fna 
 # Current dir:     /users/PDS0325/sachitk26/packages/tart/validation/infernal
-# Date:            Wed Aug 16 00:28:57 2023
+# Date:            Tue Sep 26 22:05:48 2023
 # [ok]

@@ -19,5 +19,5 @@ yybP-ykoY            RF00080   AE004091.2           -          cm        1      
 # Target file:     /users/PDS0325/sachitk26/cm/riboswitches/riboswitches.cm
 # Option settings: cmscan --tblout /users/PDS0325/sachitk26/packages/tart/validation/infernal/results/Paeruginosa.GCA_000006765.1.fna.txt --noali --cut_ga --rfam --nohmmonly /users/PDS0325/sachitk26/cm/riboswitches/riboswitches.cm /users/PDS0325/sachitk26/packages/tart/validation/genomes/Paeruginosa.GCA_000006765.1.fna 
 # Current dir:     /users/PDS0325/sachitk26/packages/tart/validation/infernal
-# Date:            Wed Aug 16 00:30:51 2023
+# Date:            Tue Sep 26 22:07:41 2023
 # [ok]

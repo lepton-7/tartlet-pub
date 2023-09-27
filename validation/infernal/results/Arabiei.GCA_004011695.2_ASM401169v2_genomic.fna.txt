@@ -1,0 +1,15 @@
+#target name         accession query name           accession mdl mdl from   mdl to seq from   seq to strand trunc pass   gc  bias  score   E-value inc description of target
+#------------------- --------- -------------------- --------- --- -------- -------- -------- -------- ------ ----- ---- ---- ----- ------ --------- --- ---------------------
+TPP                  RF00059   CP095291.1           -          cm        1      105   343696   343786      +    no    1 0.51   0.0   42.5   4.1e-05 !   TPP riboswitch (THI element)
+TPP                  RF00059   CP095292.1           -          cm        1      105  1097039  1096943      -    no    1 0.45   0.0   51.2   3.2e-07 !   TPP riboswitch (THI element)
+TPP                  RF00059   CP095293.1           -          cm        1      105  1897211  1897349      +    no    1 0.49   0.0   48.5   1.2e-06 !   TPP riboswitch (THI element)
+#
+# Program:         cmscan
+# Version:         1.1.4 (Dec 2020)
+# Pipeline mode:   SCAN
+# Query file:      /users/PDS0325/sachitk26/packages/tart/validation/genomes/Arabiei.GCA_004011695.2_ASM401169v2_genomic.fna
+# Target file:     /users/PDS0325/sachitk26/cm/riboswitches/riboswitches.cm
+# Option settings: cmscan --tblout /users/PDS0325/sachitk26/packages/tart/validation/infernal/results/Arabiei.GCA_004011695.2_ASM401169v2_genomic.fna.txt --noali --cut_ga --rfam --nohmmonly /users/PDS0325/sachitk26/cm/riboswitches/riboswitches.cm /users/PDS0325/sachitk26/packages/tart/validation/genomes/Arabiei.GCA_004011695.2_ASM401169v2_genomic.fna 
+# Current dir:     /users/PDS0325/sachitk26/packages/tart/validation/infernal
+# Date:            Tue Sep 26 22:09:36 2023
+# [ok]
