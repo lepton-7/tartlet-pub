@@ -7,8 +7,8 @@
 #SBATCH --mail-type=BEGIN,END,FAIL
 
 # --------------------------------
-# There are 15 pairs of readsets
-#SBATCH --array=0-15
+# There are 40 pairs of readsets
+#SBATCH --array=0-40
 # --------------------------------
 
 # RUN THIS TO LAUNCH JOB
