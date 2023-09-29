@@ -14,11 +14,11 @@ set echo on
 
 RT="$HOME/packages/tart"
 
-DSET="p_fluor"
+DSET="a_fischeri_ES114"
 
 REF_DIR="$RT/validation/alignment/outputs/$DSET/switch_seqs_delta500"
 
-SAM_DIR="$REF_DIR/alignments_2023-08-16_15-51-44"
+SAM_DIR="$REF_DIR/alignments_2023-09-29_00-47-50"
 
 module load miniconda3
 module load samtools

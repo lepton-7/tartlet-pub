@@ -3,3 +3,163 @@ Instance 9 starting alignment for a_fischeri_ES114 from /users/PDS0325/sachitk26
 
 Time loading forward index: 00:00:00
 Time loading reference: 00:00:00
+Multiseed full-index search: 00:05:23
+17992478 reads; of these:
+  17992478 (100.00%) were paired; of these:
+    17991193 (99.99%) aligned concordantly 0 times
+    1285 (0.01%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    17991193 pairs aligned concordantly 0 times; of these:
+      22 (0.00%) aligned discordantly 1 time
+    ----
+    17991171 pairs aligned 0 times concordantly or discordantly; of these:
+      35982342 mates make up the pairs; of these:
+        35981160 (100.00%) aligned 0 times
+        1178 (0.00%) aligned exactly 1 time
+        4 (0.00%) aligned >1 times
+0.01% overall alignment rate
+Time searching: 00:05:23
+Overall time: 00:05:23
+
+---------------------------------------------------------------------
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:05:29
+17992478 reads; of these:
+  17992478 (100.00%) were paired; of these:
+    17987374 (99.97%) aligned concordantly 0 times
+    5104 (0.03%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    17987374 pairs aligned concordantly 0 times; of these:
+      63 (0.00%) aligned discordantly 1 time
+    ----
+    17987311 pairs aligned 0 times concordantly or discordantly; of these:
+      35974622 mates make up the pairs; of these:
+        35972812 (99.99%) aligned 0 times
+        1810 (0.01%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.03% overall alignment rate
+Time searching: 00:05:29
+Overall time: 00:05:29
+
+---------------------------------------------------------------------
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:05:32
+17992478 reads; of these:
+  17992478 (100.00%) were paired; of these:
+    17987992 (99.98%) aligned concordantly 0 times
+    4486 (0.02%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    17987992 pairs aligned concordantly 0 times; of these:
+      47 (0.00%) aligned discordantly 1 time
+    ----
+    17987945 pairs aligned 0 times concordantly or discordantly; of these:
+      35975890 mates make up the pairs; of these:
+        35973796 (99.99%) aligned 0 times
+        2094 (0.01%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.03% overall alignment rate
+Time searching: 00:05:32
+Overall time: 00:05:32
+
+---------------------------------------------------------------------
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:05:29
+17992478 reads; of these:
+  17992478 (100.00%) were paired; of these:
+    17986286 (99.97%) aligned concordantly 0 times
+    6189 (0.03%) aligned concordantly exactly 1 time
+    3 (0.00%) aligned concordantly >1 times
+    ----
+    17986286 pairs aligned concordantly 0 times; of these:
+      46 (0.00%) aligned discordantly 1 time
+    ----
+    17986240 pairs aligned 0 times concordantly or discordantly; of these:
+      35972480 mates make up the pairs; of these:
+        35970017 (99.99%) aligned 0 times
+        2463 (0.01%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.04% overall alignment rate
+Time searching: 00:05:29
+Overall time: 00:05:29
+
+---------------------------------------------------------------------
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:05:26
+17992478 reads; of these:
+  17992478 (100.00%) were paired; of these:
+    17986716 (99.97%) aligned concordantly 0 times
+    5762 (0.03%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    17986716 pairs aligned concordantly 0 times; of these:
+      35 (0.00%) aligned discordantly 1 time
+    ----
+    17986681 pairs aligned 0 times concordantly or discordantly; of these:
+      35973362 mates make up the pairs; of these:
+        35968991 (99.99%) aligned 0 times
+        4371 (0.01%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.04% overall alignment rate
+Time searching: 00:05:26
+Overall time: 00:05:26
+
+---------------------------------------------------------------------
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:05:57
+17992478 reads; of these:
+  17992478 (100.00%) were paired; of these:
+    17985731 (99.96%) aligned concordantly 0 times
+    6725 (0.04%) aligned concordantly exactly 1 time
+    22 (0.00%) aligned concordantly >1 times
+    ----
+    17985731 pairs aligned concordantly 0 times; of these:
+      45 (0.00%) aligned discordantly 1 time
+    ----
+    17985686 pairs aligned 0 times concordantly or discordantly; of these:
+      35971372 mates make up the pairs; of these:
+        35967551 (99.99%) aligned 0 times
+        3821 (0.01%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.05% overall alignment rate
+Time searching: 00:05:57
+Overall time: 00:05:57
+
+---------------------------------------------------------------------
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:05:21
+17992478 reads; of these:
+  17992478 (100.00%) were paired; of these:
+    17991491 (99.99%) aligned concordantly 0 times
+    987 (0.01%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    17991491 pairs aligned concordantly 0 times; of these:
+      3 (0.00%) aligned discordantly 1 time
+    ----
+    17991488 pairs aligned 0 times concordantly or discordantly; of these:
+      35982976 mates make up the pairs; of these:
+        35982488 (100.00%) aligned 0 times
+        488 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.01% overall alignment rate
+Time searching: 00:05:21
+Overall time: 00:05:21
+
+---------------------------------------------------------------------
+
+Done
