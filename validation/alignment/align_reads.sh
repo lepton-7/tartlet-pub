@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --time=01:30:00
+#SBATCH --time=02:30:00
 #SBATCH --nodes=1 --cpus-per-task=44
 
 #SBATCH --account=PDS0325
@@ -12,7 +12,7 @@
 # --------------------------------
 
 # RUN THIS TO LAUNCH JOB
-## DATECODE="$(date +"%Y-%m-%d_%H-%M-%S")"; sbatch --output=jobs/align_reads.out.a_fischeri_ES114.$DATECODE.%j align_reads.sh
+## DATECODE="$(date +"%Y-%m-%d_%H-%M-%S")"; sbatch --output=jobs/align_reads.out.p_fluor.$DATECODE.%j align_reads.sh
 
 # set -x
 set echo on
@@ -22,7 +22,7 @@ module load hisat2
 IDX=$((SLURM_ARRAY_TASK_ID))
 
 DATECODE="2023-09-29_00-47-50"
-DSET="a_fischeri_ES114"
+DSET="p_fluor"
 
 RT="$HOME/packages/tart"
 
