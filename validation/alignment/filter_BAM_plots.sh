@@ -14,7 +14,7 @@ set echo on
 
 RT="$HOME/packages/tart"
 
-DSET="a_fischeri_ES114"
+DSET="p_fluor"
 
 D_ROOT="$RT/validation/alignment/outputs/$DSET"
 

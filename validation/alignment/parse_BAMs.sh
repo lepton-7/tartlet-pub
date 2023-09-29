@@ -14,7 +14,7 @@ set echo on
 
 RT="$HOME/packages/tart"
 
-DSET="a_fischeri_ES114"
+DSET="p_fluor"
 
 BAM_DIR="$RT/validation/alignment/outputs/$DSET/switch_seqs_delta500/alignments_2023-09-29_00-47-50"
 SAVE_ROOT="$RT/validation/alignment/outputs/$DSET/plots/picks"
