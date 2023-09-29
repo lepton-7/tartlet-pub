@@ -1,0 +1,47 @@
+Resetting modules to system default
+Downloading sequences from p_fluor_hasnain2023_acc.txt into p_fluor/
+Retrying SRR18759973 fetch (0); Error code (3)
+b'2023-09-29T05:48:19 prefetch.3.0.2: Current preference is set to retrieve SRA Normalized Format files with full base quality scores.\n'
+Retrying SRR18759951 fetch (0); Error code (3)
+b'2023-09-29T05:48:19 prefetch.3.0.2: Current preference is set to retrieve SRA Normalized Format files with full base quality scores.\n'
+Success: SRR18759963
+Success: SRR18759983
+Success: SRR18759951
+Success: SRR18759949
+Success: SRR18759981
+Success: SRR18759975
+Success: SRR18759971
+Success: SRR18759947
+Success: SRR18759973
+Success: SRR18759961
+Success: SRR18759969
+Success: SRR18759955
+Success: SRR18759974
+Success: SRR18759985
+Success: SRR18759979
+Success: SRR18759962
+Success: SRR18759984
+Success: SRR18759986
+Success: SRR18759964
+Success: SRR18759980
+Success: SRR18759970
+Success: SRR18759978
+Success: SRR18759977
+Success: SRR18759965
+Success: SRR18759976
+Success: SRR18759966
+Success: SRR18759952
+Success: SRR18759950
+Success: SRR18759967
+Success: SRR18759968
+Success: SRR18759953
+Success: SRR18759972
+Success: SRR18759959
+Success: SRR18759948
+Success: SRR18759956
+Success: SRR18759957
+Success: SRR18759982
+Success: SRR18759960
+Success: SRR18759954
+Success: SRR18759958
+Done
