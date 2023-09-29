@@ -14,9 +14,9 @@ set echo on
 
 RT="$HOME/packages/tart"
 
-DSET="s_elon"
+DSET="a_fischeri_ES114"
 
-BAM_DIR="$RT/validation/alignment/outputs/$DSET/switch_seqs_delta500/alignments_2023-08-16_15-51-44"
+BAM_DIR="$RT/validation/alignment/outputs/$DSET/switch_seqs_delta500/alignments_2023-09-29_00-47-50"
 SAVE_ROOT="$RT/validation/alignment/outputs/$DSET/plots/picks"
 BOUNDS_DIR="$RT/validation/alignment/outputs/$DSET"
 

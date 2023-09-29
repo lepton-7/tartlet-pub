@@ -14,7 +14,7 @@ set echo on
 
 RT="$HOME/packages/tart"
 
-DSET="s_elon"
+DSET="a_fischeri_ES114"
 
 D_ROOT="$RT/validation/alignment/outputs/$DSET"
 
