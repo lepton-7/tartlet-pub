@@ -14,7 +14,7 @@ set echo on
 
 RT="$HOME/packages/tart"
 
-DSET="p_fluor"
+DSET="b_sub_168"
 
 D_ROOT="$RT/validation/alignment/outputs/$DSET"
 
