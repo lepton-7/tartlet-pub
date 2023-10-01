@@ -85,7 +85,7 @@ for pick_file in worker_list:
     targetname = Path(pick_file).parts[-3]
 
     # Tally pass vs fail
-    pass_rate_local[targetname].append(isActive)
+    pass_rate_local[ref].append(isActive)    
 
     core_sample = Path(pick_file).parts[-2]
     save_path = save_root.joinpath(passfaildir, f"{core_sample}#{ref}.png")
@@ -109,8 +109,6 @@ if rank == 0:
     for instance_dict in pass_rate_arr:
         for key, val in instance_dict.items():
             pass_rates[key].extend(val)
-
-    print(pass_rates)
 
     # Output pass rates to file
     classes = []
