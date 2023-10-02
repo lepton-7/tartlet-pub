@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #SBATCH --time=00:20:00
-#SBATCH --nodes=10 --cpus-per-task=1
+#SBATCH --nodes=5 --cpus-per-task=1
 
 #SBATCH --account=PDS0325
 #SBATCH --mail-type=BEGIN,END,FAIL
@@ -14,7 +14,7 @@ set echo on
 
 RT="$HOME/packages/tart"
 
-DSET="p_fluor"
+DSET="b_theta"
 
 BAM_DIR="$RT/validation/alignment/outputs/$DSET/switch_seqs_delta500/alignments_2023-09-29_00-47-50"
 SAVE_ROOT="$RT/validation/alignment/outputs/$DSET/plots/picks"

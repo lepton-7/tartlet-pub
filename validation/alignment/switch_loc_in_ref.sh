@@ -20,7 +20,7 @@ TABLE="$RT/validation/tables/inf_results.csv"
 GENOMES="$RT/validation/genomes"
 
 DELTA=500
-DSET="a_fischeri_ES114"
+DSET="b_theta"
 
 OUT_DIR="$RT/validation/alignment/outputs/$DSET"
 
