@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #SBATCH --time=04:00:00
-#SBATCH --nodes=5 --cpus-per-task=6
+#SBATCH --nodes=7 --cpus-per-task=6
 
 #SBATCH --account=PDS0325
 #SBATCH --mail-type=BEGIN,END,FAIL
@@ -12,8 +12,8 @@
 # set -x
 set echo on
 
-LISTNAME="a_rabiei_snrc2015_acc"
-TAX="a_rabiei"
+LISTNAME="b_theta_lewis2023_acc"
+TAX="b_theta"
 
 DUMP_DIR="/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/$TAX"
 TEMP_DIR="/fs/scratch/PDS0325/${TAX}_temp"

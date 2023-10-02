@@ -7,12 +7,12 @@
 #SBATCH --mail-type=BEGIN,END,FAIL
 
 # --------------------------------
-# There are 40 pairs of readsets
-#SBATCH --array=0-40
+# There are 10 pairs of readsets
+#SBATCH --array=0-10
 # --------------------------------
 
 # RUN THIS TO LAUNCH JOB
-## DATECODE="$(date +"%Y-%m-%d_%H-%M-%S")"; sbatch --output=jobs/align_reads.out.p_fluor.$DATECODE.%j align_reads.sh
+## DATECODE="$(date +"%Y-%m-%d_%H-%M-%S")"; sbatch --output=jobs/align_reads.out.a_rabiei.$DATECODE.%j align_reads.sh
 
 # set -x
 set echo on
