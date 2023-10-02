@@ -20,7 +20,7 @@ TABLE="$RT/validation/tables/inf_results.csv"
 GENOMES="$RT/validation/genomes"
 
 DELTA=500
-DSET="b_theta"
+DSET="s_coelicolor"
 
 OUT_DIR="$RT/validation/alignment/outputs/$DSET"
 

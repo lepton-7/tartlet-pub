@@ -14,9 +14,10 @@ set echo on
 
 RT="$HOME/packages/tart"
 
-DSET="b_theta"
+DATECODE="2023-09-29_00-47-50"
+DSET="s_spcc6803"
 
-BAM_DIR="$RT/validation/alignment/outputs/$DSET/switch_seqs_delta500/alignments_2023-09-29_00-47-50"
+BAM_DIR="$RT/validation/alignment/outputs/$DSET/switch_seqs_delta500/alignments_$DATECODE"
 SAVE_ROOT="$RT/validation/alignment/outputs/$DSET/plots/picks"
 BOUNDS_DIR="$RT/validation/alignment/outputs/$DSET"
 
