@@ -7,12 +7,12 @@
 #SBATCH --mail-type=BEGIN,END,FAIL
 
 # --------------------------------
-# There are 22 pairs of readsets
-#SBATCH --array=0-22
+# There are 63 pairs of readsets
+#SBATCH --array=0-63
 # --------------------------------
 
 # RUN THIS TO LAUNCH JOB
-## DATECODE="$(date +"%Y-%m-%d_%H-%M-%S")"; sbatch --output=jobs/align_reads.out.b_theta.$DATECODE.%j align_reads.sh
+## DATECODE="$(date +"%Y-%m-%d_%H-%M-%S")"; sbatch --output=jobs/align_reads.out.c_vibrioides.$DATECODE.%j align_reads.sh
 
 # set -x
 set echo on
@@ -22,7 +22,7 @@ module load hisat2
 IDX=$((SLURM_ARRAY_TASK_ID))
 
 DATECODE="2023-09-29_00-47-50"
-DSET="b_theta"
+DSET="c_vibrioides"
 
 RT="$HOME/packages/tart"
 
