@@ -14,7 +14,7 @@ set echo on
 
 RT="$HOME/packages/tart"
 
-DSET="b_theta"
+DSET="c_vibrioides"
 
 D_ROOT="$RT/validation/alignment/outputs/$DSET"
 
