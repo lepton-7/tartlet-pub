@@ -22,7 +22,7 @@ module load hisat2
 IDX=$((SLURM_ARRAY_TASK_ID))
 
 DATECODE="2023-09-29_00-47-50"
-DSET="p_fluor"
+DSET="a_rabiei"
 
 RT="$HOME/packages/tart"
 

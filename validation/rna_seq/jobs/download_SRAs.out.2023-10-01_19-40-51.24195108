@@ -1,0 +1,43 @@
+Resetting modules to system default
+Downloading sequences from a_rabiei_snrc2015_acc.txt into a_rabiei/
+gzip: /fs/scratch/PDS0325/a_rabiei_temp/SRR2086526_1.fastq: No such file or directory
+gzip: /fs/scratch/PDS0325/a_rabiei_temp/SRR2086524_1.fastq: No such file or directory
+gzip: /fs/scratch/PDS0325/a_rabiei_temp/SRR2086532_1.fastq: No such file or directory
+gzip: /fs/scratch/PDS0325/a_rabiei_temp/SRR2086522_1.fastq: No such file or directory
+gzip: /fs/scratch/PDS0325/a_rabiei_temp/SRR2086528_1.fastq: No such file or directory
+gzip: /fs/scratch/PDS0325/a_rabiei_temp/SRR2086530_1.fastq: No such file or directory
+gzip: /fs/scratch/PDS0325/a_rabiei_temp/SRR2086534_1.fastq: No such file or directory
+gzip: /fs/scratch/PDS0325/a_rabiei_temp/SRR2086538_1.fastq: No such file or directory
+gzip: /fs/scratch/PDS0325/a_rabiei_temp/SRR2086536_1.fastq: No such file or directory
+Success: SRR2086524
+gzip: /fs/scratch/PDS0325/a_rabiei_temp/SRR2086523_2.fastq: No such file or directory
+Success: SRR2086523
+Success: SRR2086522
+Success: SRR2086526
+Success: SRR2086528
+Success: SRR2086532
+gzip: /fs/scratch/PDS0325/a_rabiei_temp/SRR2086527_2.fastq: No such file or directory
+Success: SRR2086527
+gzip: /fs/scratch/PDS0325/a_rabiei_temp/SRR2086521_2.fastq: No such file or directory
+gzip: /fs/scratch/PDS0325/a_rabiei_temp/SRR2086531_2.fastq: No such file or directory
+Success: SRR2086521
+Success: SRR2086531
+Success: SRR2086530
+gzip: /fs/scratch/PDS0325/a_rabiei_temp/SRR2086525_2.fastq: No such file or directory
+Success: SRR2086525
+gzip: /fs/scratch/PDS0325/a_rabiei_temp/SRR2086535_2.fastq: No such file or directory
+Success: SRR2086535
+gzip: /fs/scratch/PDS0325/a_rabiei_temp/SRR2086529_2.fastq: No such file or directory
+Success: SRR2086529
+gzip: /fs/scratch/PDS0325/a_rabiei_temp/SRR2086533_2.fastq: No such file or directory
+Success: SRR2086533
+Success: SRR2086534
+Success: SRR2086536
+Success: SRR2086538
+gzip: /fs/scratch/PDS0325/a_rabiei_temp/SRR2086537_2.fastq: No such file or directory
+Success: SRR2086537
+gzip: /fs/scratch/PDS0325/a_rabiei_temp/SRR2086542_1.fastq: No such file or directory
+gzip: /fs/scratch/PDS0325/a_rabiei_temp/SRR2086541_2.fastq: No such file or directory
+Success: SRR2086541
+Success: SRR2086542
+Done
