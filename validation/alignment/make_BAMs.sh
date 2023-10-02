@@ -14,7 +14,7 @@ set echo on
 
 RT="$HOME/packages/tart"
 
-DSET="b_theta"
+DSET="s_spcc6803"
 
 REF_DIR="$RT/validation/alignment/outputs/$DSET/switch_seqs_delta500"
 
