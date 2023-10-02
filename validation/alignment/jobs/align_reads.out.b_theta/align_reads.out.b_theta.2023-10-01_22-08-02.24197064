@@ -1,0 +1,73 @@
+Instance 16 starting alignment for b_theta from /users/PDS0325/sachitk26/packages/tart/validation/rna_seq/b_theta reads
+
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:08:40
+36663381 reads; of these:
+  36663381 (100.00%) were paired; of these:
+    36640217 (99.94%) aligned concordantly 0 times
+    23164 (0.06%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    36640217 pairs aligned concordantly 0 times; of these:
+      9 (0.00%) aligned discordantly 1 time
+    ----
+    36640208 pairs aligned 0 times concordantly or discordantly; of these:
+      73280416 mates make up the pairs; of these:
+        73277435 (100.00%) aligned 0 times
+        2981 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.07% overall alignment rate
+Time searching: 00:08:40
+Overall time: 00:08:40
+
+---------------------------------------------------------------------
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:08:53
+36663381 reads; of these:
+  36663381 (100.00%) were paired; of these:
+    36662812 (100.00%) aligned concordantly 0 times
+    569 (0.00%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    36662812 pairs aligned concordantly 0 times; of these:
+      1 (0.00%) aligned discordantly 1 time
+    ----
+    36662811 pairs aligned 0 times concordantly or discordantly; of these:
+      73325622 mates make up the pairs; of these:
+        73325426 (100.00%) aligned 0 times
+        196 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.00% overall alignment rate
+Time searching: 00:08:53
+Overall time: 00:08:53
+
+---------------------------------------------------------------------
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:08:54
+36663381 reads; of these:
+  36663381 (100.00%) were paired; of these:
+    36653617 (99.97%) aligned concordantly 0 times
+    9764 (0.03%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    36653617 pairs aligned concordantly 0 times; of these:
+      4 (0.00%) aligned discordantly 1 time
+    ----
+    36653613 pairs aligned 0 times concordantly or discordantly; of these:
+      73307226 mates make up the pairs; of these:
+        73304031 (100.00%) aligned 0 times
+        3195 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.03% overall alignment rate
+Time searching: 00:08:54
+Overall time: 00:08:54
+
+---------------------------------------------------------------------
+
+Done
