@@ -142,3 +142,4 @@ export CONDA_PYTHON_EXE='\''/apps/miniconda3/4.10.3-py37/bin/python'\'''
 ++ '[' -n '' ']'
 ++ hash -r
 + mpiexec python filter_BAM_plots.py /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/s_spcc6803/plots/picks /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/s_spcc6803/plots/filtered
+slurmstepd: error: *** JOB 24205594 ON p0237 CANCELLED AT 2023-10-02T14:05:37 ***

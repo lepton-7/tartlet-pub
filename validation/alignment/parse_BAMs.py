@@ -6,7 +6,7 @@ from glob import glob
 from mpi4py import MPI
 from sys import argv
 from pathlib import Path
-from tart.parsefuncs import generate_plot_data, plot_gen
+from tart.utils.parsefuncs import generate_plot_data, plot_gen
 
 # %%
 bam_dir = argv[1]

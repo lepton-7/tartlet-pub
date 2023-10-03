@@ -7,17 +7,19 @@ from glob import glob
 from mpi4py import MPI
 from pathlib import Path
 from collections import defaultdict
-from tart.parsefuncs import plot_gen, is_interesting, bin_counts, gen_kernel
+from tart.utils.mpi_context import BasicMPIContext
+from tart.utils.parsefuncs import plot_gen, is_interesting, bin_counts, gen_kernel
 
 # %%
 pickle_root = argv[1]
 save_root = Path(argv[2])
 
 # %%
-# MPI setup
-comm = MPI.COMM_WORLD
-size = comm.Get_size()
-rank = comm.Get_rank()
+# Determine MPI context
+mp_con = BasicMPIContext()
+comm = mp_con.comm
+size = mp_con.size
+rank = mp_con.rank
 
 # List of all pickled plots
 if rank == 0:
@@ -28,22 +30,8 @@ else:
 
 total_files = comm.bcast(total_files, root=0)
 
-# If more processes than necessary are started, exit the script
-if rank >= len(total_files):
-    raise SystemExit(0)
-
-# Determine the subset processed by one instance
-count = len(total_files) // size
-rem = len(total_files) % size
-
-if rank < rem:
-    start = rank * (count + 1)
-    stop = start + (count + 1)
-else:
-    start = rank * count + rem
-    stop = start + count
-
-worker_list = total_files[start:stop]
+mp_con.set_full_list(total_files)
+worker_list = mp_con.generate_worker_list()
 
 
 # %%
@@ -85,7 +73,7 @@ for pick_file in worker_list:
     targetname = Path(pick_file).parts[-3]
 
     # Tally pass vs fail
-    pass_rate_local[ref].append(isActive)    
+    pass_rate_local[ref].append(isActive)
 
     core_sample = Path(pick_file).parts[-2]
     save_path = save_root.joinpath(passfaildir, f"{core_sample}#{ref}.png")
