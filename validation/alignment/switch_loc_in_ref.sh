@@ -9,6 +9,15 @@
 # RUN THIS TO LAUNCH JOB
 ## sbatch --output=jobs/switch_loc_in_ref.out.$(date +"%Y-%m-%d_%H-%M-%S").%j switch_loc_in_ref.sh
 
+
+#
+#
+#
+# Target script reworked to targeted/switch_loc_in_ref.py; REFACTOR SCRIPT
+#
+#
+#
+
 set -x
 set echo on
 

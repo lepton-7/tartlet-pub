@@ -5,7 +5,6 @@ import os
 import click
 import pandas as pd
 
-from sys import argv
 from glob import glob
 from pathlib import Path
 from Bio import SeqIO, Seq
@@ -43,30 +42,16 @@ from tart.utils.mpi_context import BasicMPIContext
     "pre_delta",
     default=500,
     show_default=True,
-    help="Number of nucleotides upstream of riboswitches to capture int the generated reference sequence.",
+    help="Number of nucleotides upstream of riboswitches to capture in the generated reference sequence.",
 )
 @click.option(
     "--post-del",
     "post_delta",
     default=500,
     show_default=True,
-    help="Number of nucleotides downstream of riboswitches to capture int the generated reference sequence.",
+    help="Number of nucleotides downstream of riboswitches to capture in the generated reference sequence.",
 )
 def main(ledger_path, out_dir, genome_dir, dset, pre_delta, post_delta):
-    # Expects complete_tax_downstream.csv or
-    # complete_tax_downstream_mappedT_sum.csv
-    # ledger_path = argv[1]
-
-    # genome_dir = argv[2]
-
-    # num nucleotides to capture before and after the switch
-    # delta = int(argv[3])
-
-    # dset = argv[4]
-
-    # Where to put the alignment reference fastas
-    # out_dir = argv[5]
-
     # Read in the results table
     table = pd.read_csv(ledger_path)
 
