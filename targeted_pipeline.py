@@ -1,4 +1,5 @@
 import click
+
 from targeted import (
     align_reads,
     filter_BAM_plots,
@@ -11,14 +12,17 @@ from targeted import (
 
 
 @click.group()
-def main():
+def cli():
     pass
 
 
-main.add_command(align_reads.main)
-main.add_command(filter_BAM_plots.main)
-main.add_command(make_BAMs.main)
-main.add_command(make_indexes.main)
-main.add_command(make_reference_sequences.main)
-main.add_command(parse_BAMs.main)
-main.add_command(switch_loc_in_ref.main)
+cli.add_command(align_reads.main, name="align")
+cli.add_command(filter_BAM_plots.main, name="filter")
+cli.add_command(make_BAMs.main, name="convert_sam")
+cli.add_command(make_indexes.main, name="index")
+cli.add_command(make_reference_sequences.main, name="reference_gen")
+cli.add_command(parse_BAMs.main, name="parse_bam")
+cli.add_command(switch_loc_in_ref.main, name="bounds")
+
+if __name__ == "__main__":
+    cli()

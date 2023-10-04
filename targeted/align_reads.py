@@ -7,6 +7,7 @@ from tart.utils.helpers import print
 
 
 @click.command(context_settings={"ignore_unknown_options": True})
+# @click.command()
 @click.option(
     "-i",
     "--ref-dir",
@@ -30,9 +31,9 @@ from tart.utils.helpers import print
 @click.argument(
     "hisat2",
     nargs=-1,
-    help="Options to pass through to the HISAT2 invocation. Must be valid as they will be passed as is.",
 )
 def main(ref_dir, m1, m2, out_dir, readpair_name, hisat2):
+    """Pass options to the HISAT2 invocation."""
     refs = glob(f"{ref_dir}/*.fna")
 
     if readpair_name is None:
