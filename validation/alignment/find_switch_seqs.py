@@ -3,7 +3,6 @@
 
 # %%
 import os
-import click
 import pandas as pd
 
 from sys import argv

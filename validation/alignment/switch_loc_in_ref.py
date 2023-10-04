@@ -8,7 +8,6 @@ import json
 
 from sys import argv
 from glob import glob
-from mpi4py import MPI
 from pathlib import Path
 from Bio import SeqIO, Seq
 from collections import defaultdict
