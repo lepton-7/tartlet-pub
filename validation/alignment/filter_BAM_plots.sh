@@ -9,6 +9,14 @@
 # RUN THIS TO LAUNCH JOB
 ## sbatch --output=jobs/filter_BAM_plots.out.$(date +"%Y-%m-%d_%H-%M-%S").%j filter_BAM_plots.sh
 
+#
+#
+#
+# Target script reworked to targeted/filter_BAM_plots.py; REFACTOR SCRIPT
+#
+#
+#
+
 set -x
 set echo on
 
