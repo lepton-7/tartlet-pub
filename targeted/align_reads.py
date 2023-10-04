@@ -18,7 +18,7 @@ from tart.utils.helpers import print
 @click.option(
     "--out-dir",
     required=True,
-    help="Directory to place SAM output. SAM files will be organised into further subdirectories.",
+    help="Directory to place SAM output. SAM files will be further organised into subdirectories.",
 )
 @click.option(
     "--readset-name",
