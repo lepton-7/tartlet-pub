@@ -23,6 +23,3 @@ cli.add_command(make_indexes.main, name="index")
 cli.add_command(make_reference_sequences.main, name="reference_gen")
 cli.add_command(parse_BAMs.main, name="parse_bam")
 cli.add_command(switch_loc_in_ref.main, name="bounds")
-
-if __name__ == "__main__":
-    cli()
