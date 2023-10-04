@@ -14,6 +14,14 @@
 # RUN THIS TO LAUNCH JOB
 ## DATECODE="$(date +"%Y-%m-%d_%H-%M-%S")"; sbatch --output=jobs/align_reads.out.c_vibrioides.$DATECODE.%j align_reads.sh
 
+#
+#
+#
+# REFACTOR SCRIPT to use targeted/align_reads.py instead.
+#
+#
+#
+
 # set -x
 set echo on
 

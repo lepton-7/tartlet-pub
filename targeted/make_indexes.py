@@ -18,7 +18,7 @@ from tart.utils.helpers import print
     "--threads",
     default=4,
     show_default=True,
-    help="Number of threads to run hisat2-build with.",
+    help="Number of hisat2-build threads to launch.",
 )
 def main(ref_dir, threads):
     arr = glob(f"{ref_dir}/*.fna")
@@ -38,19 +38,19 @@ def main(ref_dir, threads):
 
         print(f"Generating index for {fasta}")
 
-        try:
-            call = run(
-                [
-                    "hisat2-build",
-                    "-p",
-                    f"{threads}",
-                    f"{fasta}",
-                    f"{index_dir}/{fasta_name}_index",
-                ],
-                stdout=PIPE,
-                stderr=PIPE,
-            )
-            print("Success")
-
-        except:
-            print("Failed: ", call.stderr)
+        call = run(
+            [
+                "hisat2-build",
+                "-p",
+                f"{threads}",
+                f"{fasta}",
+                f"{index_dir}/{fasta_name}_index",
+            ],
+            stdout=PIPE,
+            stderr=PIPE,
+        )
+    if call.returncode:
+        print("Failed:\n", call.stderr.decode("utf-8"))
+    else:
+        print("Success")
+        print(call.stdout.decode("utf-8"))
