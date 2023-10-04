@@ -9,6 +9,14 @@
 # RUN THIS TO LAUNCH JOB
 ## sbatch --output=jobs/parse_BAMs.out.$(date +"%Y-%m-%d_%H-%M-%S").%j parse_BAMs.sh
 
+#
+#
+#
+# Target script reworked to targeted/parse_BAMs.py; REFACTOR SCRIPT
+#
+#
+#
+
 set -x
 set echo on
 
