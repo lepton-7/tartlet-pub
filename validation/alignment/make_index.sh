@@ -9,6 +9,14 @@
 # RUN THIS TO LAUNCH JOB
 ## sbatch --output=jobs/make_index.out.$(date +"%Y-%m-%d_%H-%M-%S").%j make_index.sh
 
+#
+#
+#
+# REFACTOR SCRIPT to use targeted/make_indexes.py instead of calling hisat2-build here.
+#
+#
+#
+
 # set -x
 set echo on
 
