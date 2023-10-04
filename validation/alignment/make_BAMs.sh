@@ -9,6 +9,14 @@
 # RUN THIS TO LAUNCH JOB
 ## sbatch --output=jobs/make_BAMs.out.$(date +"%Y-%m-%d_%H-%M-%S").%j make_BAMs.sh
 
+#
+#
+#
+# REFACTOR SCRIPT to call targeted/make_BAMs.py instead.
+#
+#
+#
+
 set -x
 set echo on
 
