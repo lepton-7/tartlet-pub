@@ -24,7 +24,7 @@ from tart.utils.mpi_context import BasicMPIContext
 @click.option(
     "--out-dir",
     required=True,
-    help="Creates a subdirectory here to dump alignment reference sequences in fasta format.",
+    help="Dump alignment reference sequences in fasta format to this directory. Will be created if it does not exist.",
 )
 @click.option(
     "--genome",
@@ -52,7 +52,7 @@ from tart.utils.mpi_context import BasicMPIContext
     show_default=True,
     help="Number of nucleotides downstream of riboswitches to capture int the generated reference sequence.",
 )
-def main(ledger_path, genome_dir, pre_delta, post_delta, dset, out_dir):
+def main(ledger_path, out_dir, genome_dir, dset, pre_delta, post_delta):
     # Expects complete_tax_downstream.csv or
     # complete_tax_downstream_mappedT_sum.csv
     # ledger_path = argv[1]
@@ -180,9 +180,7 @@ def main(ledger_path, genome_dir, pre_delta, post_delta, dset, out_dir):
                 seqs_ledger[switchclass].update(seqs)
 
         # Make the sub directory to save sequences in fasta format
-        Path(f"{out_dir}/switch_seqs_delta{pre_delta}-{post_delta}").mkdir(
-            parents=True, exist_ok=True
-        )
+        Path(f"{out_dir}").mkdir(parents=True, exist_ok=True)
 
         num_switch_classes = len(seqs_ledger)
     else:
@@ -195,9 +193,7 @@ def main(ledger_path, genome_dir, pre_delta, post_delta, dset, out_dir):
     def write_step(classname, sub_d):
         # Write riboswitch sequences to disk
         if rank > 0:
-            fpath = (
-                f"{out_dir}/switch_seqs_delta{pre_delta}-{post_delta}/{classname}.fna"
-            )
+            fpath = f"{out_dir}/{classname}.fna"
 
             with open(fpath, "w") as f:
                 for key, val in sub_d.items():
