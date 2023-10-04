@@ -1,9 +1,8 @@
 # %%
 import pysam
 import json, pickle
-from glob import glob
 
-from mpi4py import MPI
+from glob import glob
 from sys import argv
 from pathlib import Path
 from tart.utils.mpi_context import BasicMPIContext
