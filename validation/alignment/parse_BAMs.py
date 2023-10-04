@@ -6,6 +6,7 @@ from glob import glob
 from mpi4py import MPI
 from sys import argv
 from pathlib import Path
+from tart.utils.mpi_context import BasicMPIContext
 from tart.utils.parsefuncs import generate_plot_data, plot_gen
 
 # %%
@@ -28,30 +29,12 @@ with open(f"{bounds_dir}/rowid_to_bounds.json", "r") as f:
     refBounds = json.load(f)
 
 # %%
-# MPI setup
-comm = MPI.COMM_WORLD
-size = comm.Get_size()
-rank = comm.Get_rank()
-
 # List of all sorted BAMS to process
 total_files = glob(f"{bam_dir}/**/*.sorted.bam")
 
-# If more processes than necessary are started, exit the script
-if rank >= len(total_files):
-    raise SystemExit(0)
-
-# Determine the subset processed by one instance
-count = len(total_files) // size
-rem = len(total_files) % size
-
-if rank < rem:
-    start = rank * (count + 1)
-    stop = start + (count + 1)
-else:
-    start = rank * count + rem
-    stop = start + count
-
-worker_list = total_files[start:stop]
+# MPI setup
+mp_con = BasicMPIContext(total_files)
+worker_list = mp_con.generate_worker_list()
 
 # %%
 for bam_path in worker_list:

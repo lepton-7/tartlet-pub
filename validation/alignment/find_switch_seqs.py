@@ -2,14 +2,22 @@
 # sequences to files categorised by riboswitch target_name
 
 # %%
-from collections import defaultdict
+import os
+import click
 import pandas as pd
-from mpi4py import MPI
-from Bio import SeqIO, Seq
+
 from sys import argv
 from glob import glob
+from mpi4py import MPI
 from pathlib import Path
-import os
+from Bio import SeqIO, Seq
+from collections import defaultdict
+from tart.utils.mpi_context import BasicMPIContext
+
+
+def print(obj):
+    click.echo(obj)
+
 
 # %%
 # Expects complete_tax_downstream.csv or
@@ -44,40 +52,18 @@ table = table[
 ]
 table = table[table["Dataset"] == dset]
 
-MAG_paths = glob("{}/*.fna".format(MAG_dir))
+MAG_paths = glob(f"{MAG_dir}/*.fna")
 # %%
 # Setup MPI to parse switch sequences
-
-comm = MPI.COMM_WORLD
-size = comm.Get_size()
-rank = comm.Get_rank()
+mp_con = BasicMPIContext(MAG_paths)
+comm = mp_con.comm
+size = mp_con.size
+rank = mp_con.rank
 
 if rank == 0:
     print("Started {} instances".format(size))
 
-# number of derep95 MAGs
-n_records = len(MAG_paths)
-
-
-# If more processes than necessary are started, exit the script
-skip = False
-if rank >= n_records:
-    # raise SystemExit(0)
-    skip = True
-
-count = n_records // size
-rem = n_records % size
-
-# Determine the subset of MAGs that will be processed by one instance
-if rank < rem:
-    startMPI = rank * (count + 1)
-    stopMPI = startMPI + (count + 1)
-else:
-    startMPI = rank * count + rem
-    stopMPI = startMPI + count
-
-
-local_path_list = MAG_paths[startMPI:stopMPI]
+local_path_list = mp_con.generate_worker_list()
 
 # %%
 # Setup the local dictionary that stores the sequences
@@ -91,7 +77,7 @@ local_path_list = MAG_paths[startMPI:stopMPI]
 seqs_local = defaultdict(dict)
 # seqs_local = {str(rank) : rank * 50}
 
-if not skip:
+if mp_con.is_active:
     for MAG_path in local_path_list:  # iterate over derep95 MAGs
         MAGDict = {x.id: str(x.seq) for x in SeqIO.parse(MAG_path, "fasta")}
         subset = table[table["MAG_accession"] == os.path.split(MAG_path)[-1][:-4]]
@@ -141,7 +127,6 @@ if not skip:
 
             seqs_local[classname].update({rowid: switch})
 
-seqs_arr = None
 seqs_arr = comm.gather(seqs_local, root=0)
 
 # %%
@@ -168,43 +153,63 @@ else:
 # so the extra threads can exit
 num_switch_classes = comm.bcast(num_switch_classes, root=0)
 
+
+# %%
+def write_step(classname, sub_d):
+    # Write riboswitch sequences to disk
+    if rank > 0:
+        fpath = f"{out_dir}/switch_seqs_delta{delta}/{classname}.fna"
+
+        with open(fpath, "w") as f:
+            for key, val in sub_d.items():
+                f.write(">{}\n".format(key))
+                f.write("{}\n".format(val))
+
+
+def multithreaded_writeout(num_switch_classes, seqs_ledger):
+    # Setup a dummy list to be able to subscript in the for loop and
+    # send each switch class to one worker thread
+    if not rank:
+        dummy_ledger = [(key, val) for key, val in seqs_ledger.items()]
+
+    # Iterate over sub dictionaries
+    for idx in range(num_switch_classes):
+        # Should probably refactor to use scatter instead of individual sends
+        if not rank:
+            key, val = dummy_ledger[idx]
+
+            comm.send(key, dest=idx + 1, tag=10)
+            comm.send(val, dest=idx + 1, tag=100)
+
+        elif rank == idx + 1:
+            classname = comm.recv(source=0, tag=10)
+            sub_d = comm.recv(source=0, tag=100)
+
+    # Write riboswitch sequences to disk
+    write_step(classname, sub_d)
+
+
+def singlethreaded_writeout(seqs_ledger):
+    if rank == 0:
+        for classname, sub_d in seqs_ledger.items():
+            write_step(classname, sub_d)
+
+
+# %%
 # %%
 # Each riboswitch class sub-dictionary is sent to a worker for disk writes
+# if there are enough workers for that. Otherwise the root performs the write out
 
-# Exit workers that are not needed
-if rank > num_switch_classes:
-    raise SystemExit(0)
+if size > num_switch_classes:
+    # Exit workers that are not needed
+    if rank > num_switch_classes:
+        raise SystemExit(0)
 
-if rank > 0:
-    classname = None
-    sub_d = None
+    if rank > 0:
+        classname = None
+        sub_d = None
 
+    multithreaded_writeout(num_switch_classes, seqs_ledger)
 
-# Setup a dummy list to be able to subscript in the for loop and
-# send each switch class to one worker thread
-if not rank:
-    dummy_ledger = [(key, val) for key, val in seqs_ledger.items()]
-
-# Iterate over sub dictionaries
-for idx in range(num_switch_classes):
-    # Should probably refactor to use scatter instead of individual sends
-    if not rank:
-        key, val = dummy_ledger[idx]
-
-        comm.send(key, dest=idx + 1, tag=10)
-        comm.send(val, dest=idx + 1, tag=100)
-
-    elif rank == idx + 1:
-        classname = comm.recv(source=0, tag=10)
-        sub_d = comm.recv(source=0, tag=100)
-
-# %%
-# Write riboswitch sequences to disk
-
-if rank > 0:
-    fpath = f"{out_dir}/switch_seqs_delta{delta}/{classname}.fna"
-
-    with open(fpath, "w") as f:
-        for key, val in sub_d.items():
-            f.write(">{}\n".format(key))
-            f.write("{}\n".format(val))
+else:
+    singlethreaded_writeout(seqs_ledger)
