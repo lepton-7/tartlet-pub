@@ -29,11 +29,6 @@ from tart.utils.parsefuncs import plot_gen, is_interesting, bin_counts, gen_kern
     help="Bin size for fragment ends binning.",
 )
 def main(pick_root, out_dir, bin_size):
-    # pick_root = argv[1]
-    # out_dir = Path(argv[2])
-
-    # bin_size = 10
-
     # Determine MPI context
     mp_con = BasicMPIContext()
     comm = mp_con.comm
