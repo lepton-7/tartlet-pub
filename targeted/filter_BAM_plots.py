@@ -2,7 +2,6 @@ import click
 import pickle
 import pandas as pd
 
-from sys import argv
 from glob import glob
 from pathlib import Path
 from collections import defaultdict
