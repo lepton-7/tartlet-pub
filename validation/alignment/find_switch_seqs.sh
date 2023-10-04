@@ -9,6 +9,14 @@
 # RUN THIS TO LAUNCH JOB
 ## sbatch --output=jobs/find_switch_seqs.out.$(date +"%Y-%m-%d_%H-%M-%S").%j find_switch_seqs.sh
 
+#
+#
+#
+# Target script reworked to targeted/make_reference_sequences.py; REFACTOR SCRIPT
+#
+#
+#
+
 set -x
 set echo on
 
