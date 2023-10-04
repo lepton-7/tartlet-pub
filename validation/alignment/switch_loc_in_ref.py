@@ -6,12 +6,14 @@ import pandas as pd
 import os
 import json
 
-from collections import defaultdict
-from mpi4py import MPI
-from Bio import SeqIO, Seq
 from sys import argv
 from glob import glob
+from mpi4py import MPI
 from pathlib import Path
+from Bio import SeqIO, Seq
+from collections import defaultdict
+from tart.utils.helpers import print
+from tart.utils.mpi_context import BasicMPIContext
 
 # %%
 # Expects complete_tax_downstream.csv or
@@ -49,45 +51,23 @@ table = table[
 ]
 # table = table[table["Dataset"] == dset]
 
-MAG_paths = glob("{}/*.fna".format(MAG_dir))
+MAG_paths = glob(f"{MAG_dir}/*.fna")
 # %%
 # Setup MPI to parse switch sequences
-
-comm = MPI.COMM_WORLD
-size = comm.Get_size()
-rank = comm.Get_rank()
+mp_con = BasicMPIContext(MAG_paths)
+comm = mp_con.comm
+size = mp_con.size
+rank = mp_con.rank
 
 if rank == 0:
-    print("Started {} instances".format(size))
+    print(f"Started {size} instances")
 
-# number of derep95 MAGs
-n_records = len(MAG_paths)
-
-
-# If more processes than necessary are started, exit the script
-skip = False
-if rank >= n_records:
-    skip = True
-    # raise SystemExit(0)
-
-count = n_records // size
-rem = n_records % size
-
-# Determine the subset of MAGs that will be processed by one instance
-if rank < rem:
-    startMPI = rank * (count + 1)
-    stopMPI = startMPI + (count + 1)
-else:
-    startMPI = rank * count + rem
-    stopMPI = startMPI + count
-
-
-local_path_list = MAG_paths[startMPI:stopMPI]
+local_path_list = mp_con.generate_worker_list()
 
 # %%
 # Setup the local dictionary that stores the sequences
 seqs_local = defaultdict()
-if not skip:
+if mp_con.is_active:
     for MAG_path in local_path_list:  # iterate over derep95 MAGs
         MAGDict = {x.id: str(x.seq) for x in SeqIO.parse(MAG_path, "fasta")}
         subset = table[table["MAG_accession"] == os.path.split(MAG_path)[-1][:-4]]

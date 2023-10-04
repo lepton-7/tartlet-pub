@@ -11,11 +11,8 @@ from glob import glob
 from pathlib import Path
 from Bio import SeqIO, Seq
 from collections import defaultdict
+from tart.utils.helpers import print
 from tart.utils.mpi_context import BasicMPIContext
-
-
-def print(obj):
-    click.echo(obj)
 
 
 # %%
@@ -60,7 +57,7 @@ size = mp_con.size
 rank = mp_con.rank
 
 if rank == 0:
-    print("Started {} instances".format(size))
+    print(f"Started {size} instances")
 
 local_path_list = mp_con.generate_worker_list()
 

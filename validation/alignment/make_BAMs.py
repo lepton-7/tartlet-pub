@@ -2,39 +2,20 @@
 
 # %%
 from sys import argv
-from mpi4py import MPI
-from subprocess import run, PIPE
 from glob import glob
+from subprocess import run, PIPE
+from tart.utils.mpi_context import BasicMPIContext
 
 # %%
 sam_dir = argv[1]
 
 # %%
-# MPI setup
-comm = MPI.COMM_WORLD
-size = comm.Get_size()
-rank = comm.Get_rank()
-
 # List of all fastas in the input directory
 total_files = glob(f"{sam_dir}/**/*.sam")
 
-# If more processes than necessary are started, exit the script
-if rank >= len(total_files):
-    raise SystemExit(0)
-
-# Determine the subset of files that will be processed by one instance
-count = len(total_files) // size
-rem = len(total_files) % size
-
-if rank < rem:
-    start = rank * (count + 1)
-    stop = start + (count + 1)
-else:
-    start = rank * count + rem
-    stop = start + count
-
-local_list = total_files[start:stop]
-
+# MPI setup
+mp_con = BasicMPIContext(total_files)
+local_list = mp_con.generate_worker_list()
 
 # %%
 # SAM -> sorted BAM commands
