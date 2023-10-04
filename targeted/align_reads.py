@@ -16,6 +16,7 @@ from tart.utils.helpers import print
 @click.option("-1", "--m1", required=True, help="Path to the first-in-mate reads.")
 @click.option("-2", "--m2", required=True, help="Path to the second-in-mate reads.")
 @click.option(
+    "-o",
     "--out-dir",
     required=True,
     help="Directory to place SAM output. SAM files will be further organised into subdirectories.",
