@@ -9,29 +9,25 @@
 # RUN THIS TO LAUNCH JOB
 ## sbatch --output=jobs/switch_loc_in_ref.out.$(date +"%Y-%m-%d_%H-%M-%S").%j switch_loc_in_ref.sh
 
-
-#
-#
-#
-# Target script reworked to targeted/switch_loc_in_ref.py; REFACTOR SCRIPT
-#
-#
-#
-
-set -x
 set echo on
-
-module load miniconda3
-source activate local
 
 RT="$HOME/packages/tart"
 TABLE="$RT/validation/tables/inf_results.csv"
 GENOMES="$RT/validation/genomes"
 
-DELTA=500
+PRE_DEL=500
+POST_DEL=500
+
 DSET="s_coelicolor"
 
-OUT_DIR="$RT/validation/alignment/outputs/$DSET"
+OUT_DIR="$RT/validation/alignment/outputs/$DSET/switch_seqs_delta$PRE_DEL-$POST_DEL"
 
-mpiexec python -u switch_loc_in_ref.py $TABLE $GENOMES $DELTA $DSET $OUT_DIR &&
+mpiexec tart-targeted bounds --ledger $TABLE \
+    --out-dir $OUT_DIR \
+    --genome $GENOMES \
+    --dset $DSET \
+    --pre-del $PRE_DEL \
+    --post-del $POST_DEL &&
     wait
+
+echo "Finished switch bounds generation for $DSET into $OUT_DIR"

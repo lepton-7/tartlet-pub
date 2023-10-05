@@ -9,15 +9,6 @@
 # RUN THIS TO LAUNCH JOB
 ## sbatch --output=jobs/make_BAMs.out.$(date +"%Y-%m-%d_%H-%M-%S").%j make_BAMs.sh
 
-#
-#
-#
-# REFACTOR SCRIPT to call targeted/make_BAMs.py instead.
-#
-#
-#
-
-set -x
 set echo on
 
 RT="$HOME/packages/tart"
@@ -28,9 +19,7 @@ REF_DIR="$RT/validation/alignment/outputs/$DSET/switch_seqs_delta500"
 
 SAM_DIR="$REF_DIR/alignments_2023-09-29_00-47-50"
 
-module load miniconda3
-module load samtools
-source activate local
-
-mpiexec python -u make_BAMs.py $SAM_DIR &&
+mpiexec tart-targeted convert_sam -i $SAM_DIR &&
     wait
+
+echo "Finished SAM -> sorted BAM conversion within $SAM_DIR"

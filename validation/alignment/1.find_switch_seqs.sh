@@ -9,28 +9,25 @@
 # RUN THIS TO LAUNCH JOB
 ## sbatch --output=jobs/find_switch_seqs.out.$(date +"%Y-%m-%d_%H-%M-%S").%j find_switch_seqs.sh
 
-#
-#
-#
-# Target script reworked to targeted/make_reference_sequences.py; REFACTOR SCRIPT
-#
-#
-#
-
-set -x
 set echo on
-
-module load miniconda3
-source activate local
 
 RT="$HOME/packages/tart"
 TABLE="$RT/validation/tables/inf_results.csv"
 GENOMES="$RT/validation/genomes"
 
-DELTA=500
-DSET="s_spcc6803"
+PRE_DEL=500
+POST_DEL=500
 
-OUT_DIR="$RT/validation/alignment/outputs/$DSET"
+DSET="s_coelicolor"
 
-mpiexec python -u find_switch_seqs.py $TABLE $GENOMES $DELTA $DSET $OUT_DIR &&
+OUT_DIR="$RT/validation/alignment/outputs/$DSET/switch_seqs_delta$PRE_DEL-$POST_DEL"
+
+mpiexec tart-targeted reference_gen --ledger $TABLE \
+    --out-dir $OUT_DIR \
+    --genome $GENOMES \
+    --dset $DSET \
+    --pre-del $PRE_DEL \
+    --post-del $POST_DEL &&
     wait
+
+echo "Finished refernce generation for $DSET into $OUT_DIR"

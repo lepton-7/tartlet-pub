@@ -39,8 +39,6 @@ def main(ref_dir, m1, m2, out_dir, readpair_name, hisat2):
         # Get the name of the first mate file without extension
         readpair_name = Path(m1).name.split(".")[0]
 
-    print(f"Starting alignment for $DSET from $SEQ_DIR reads")
-
     for fasta in refs:
         idx_dir = f"{fasta[:-4]}_index"
         rswtch_class = Path(fasta).name[:-4]

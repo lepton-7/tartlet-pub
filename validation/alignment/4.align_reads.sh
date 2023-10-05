@@ -14,18 +14,8 @@
 # RUN THIS TO LAUNCH JOB
 ## DATECODE="$(date +"%Y-%m-%d_%H-%M-%S")"; sbatch --output=jobs/align_reads.out.c_vibrioides.$DATECODE.%j align_reads.sh
 
-#
-#
-#
-# REFACTOR SCRIPT to use targeted/align_reads.py instead.
-#
-#
-#
-
 # set -x
 set echo on
-
-module load hisat2
 
 IDX=$((SLURM_ARRAY_TASK_ID))
 
@@ -50,31 +40,18 @@ FQ_FILES=(*_1.fastq.gz)
 SEQ_FILE="$SEQ_DIR/${FQ_FILES[$IDX]:0:-11}"
 
 cd $REF_DIR
-REFS=(*.fna)
 
 echo "Instance $IDX starting alignment for $DSET from $SEQ_DIR reads"
 echo
 echo
 
-# Iterate over each riboswitch class reference file
-for Q in ${REFS[@]}; do
+srun tart-targeted align -i $REF_DIR \
+    -o $ALIGN_DIR \
+    -1 "$SEQ_FILE"_1.fastq.gz \
+    -2 "$SEQ_FILE"_2.fastq.gz \
+    --readset-name $(basename "$SEQ_FILE") \
+    -t \
+    --no-unal \
+    --score-min L,0,-0.6
 
-    RSWTCH_CLASS=${Q:0:-4}
-
-    IDX_DIR="${RSWTCH_CLASS}_index"
-
-    # Directory for SAM output
-    SAMOUT_DIR=$ALIGN_DIR/$RSWTCH_CLASS
-    mkdir -p $SAMOUT_DIR
-
-    hisat2 -p 44 -x $IDX_DIR/$IDX_DIR \
-        -1 "$SEQ_FILE"_1.fastq.gz -2 "$SEQ_FILE"_2.fastq.gz \
-        -S $SAMOUT_DIR/$RSWTCH_CLASS.$(basename "$SEQ_FILE").sam -t \
-        --no-unal --score-min L,0,-0.6
-
-    echo
-    echo "---------------------------------------------------------------------"
-    echo
-done
-
-echo "Done"
+echo "Finished $(basename "$SEQ_FILE") read alignment for $DSET into $ALIGN_DIR"
