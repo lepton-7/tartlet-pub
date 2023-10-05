@@ -5,7 +5,7 @@ from utils.helpers import print
 current_ver = 14.9
 
 # As of rfam 14.9
-rfam_riboswitche_accessions = [
+rfam_riboswitch_accessions = [
     "RF00050",
     "RF00059",
     "RF00080",
@@ -51,7 +51,7 @@ rfam_riboswitche_accessions = [
 
 def make_riboswitch_cm():
     with open("data/riboswitches.cm", "w") as f:
-        for acc in rfam_riboswitche_accessions:
+        for acc in rfam_riboswitch_accessions:
             address = f"https://rfam.org/family/{acc}/cm"
 
             r = requests.get(address)
