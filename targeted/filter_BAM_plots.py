@@ -5,8 +5,8 @@ import pandas as pd
 from glob import glob
 from pathlib import Path
 from collections import defaultdict
-from tart.utils.mpi_context import BasicMPIContext
-from tart.utils.parsefuncs import plot_gen, is_interesting, bin_counts, gen_kernel
+from utils.mpi_context import BasicMPIContext
+from utils.parsefuncs import plot_gen, is_interesting, bin_counts, gen_kernel
 
 
 @click.command()

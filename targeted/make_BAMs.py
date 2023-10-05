@@ -4,8 +4,8 @@ import click
 from sys import argv
 from glob import glob
 from subprocess import run, PIPE
-from tart.utils.helpers import print
-from tart.utils.mpi_context import BasicMPIContext
+from utils.helpers import print
+from utils.mpi_context import BasicMPIContext
 
 
 @click.command()
