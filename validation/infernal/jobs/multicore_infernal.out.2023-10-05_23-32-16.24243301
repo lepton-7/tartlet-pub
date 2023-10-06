@@ -1,0 +1,61 @@
+Instantiated worker: 3
+Instantiated worker: 8
+Instantiated worker: 6
+Instantiated worker: 12
+Instantiated worker: 38
+Instantiated worker: 37
+Instantiated worker: 33
+Instantiated worker: 35
+Instantiated worker: 44
+Instantiated worker: 24
+Instantiated worker: 39
+Instantiated worker: 41
+Instantiated worker: 47
+Instantiated worker: 26
+Instantiated worker: 42
+Instantiated worker: 36
+Instantiated worker: 29
+Instantiated worker: 30
+Instantiated worker: 40
+Instantiated worker: 43
+Instantiated worker: 34
+Instantiated worker: 46
+Instantiated worker: 27
+Instantiated worker: 31
+Instantiated worker: 32
+Instantiated worker: 45
+Instantiated worker: 25
+Instantiated worker: 28
+Instantiated worker: 11
+Instantiated worker: 16
+Instantiated worker: 17
+Instantiated worker: 10
+Instantiated worker: 4
+Instantiated worker: 9
+Instantiated worker: 1
+Instantiated worker: 5
+Instantiated worker: 0
+Instantiated worker: 22
+Instantiated worker: 23
+Instantiated worker: 20
+Instantiated worker: 15
+Instantiated worker: 7
+Instantiated worker: 21
+Instantiated worker: 18
+Instantiated worker: 14
+Instantiated worker: 2
+Instantiated worker: 13
+Instantiated worker: 19
+Successfully completed cmscan for Bthetaiotaomicron.GCA_014131755.1_ASM1413175v1_genomic.fna against riboswitches_14.9.cm on worker 3.
+Successfully completed cmscan for Selongatus.GCA_000012525.1.fna against riboswitches_14.9.cm on worker 10.
+Successfully completed cmscan for MtuberculosisH37Rv.GCA_000195955.2.fna against riboswitches_14.9.cm on worker 6.
+Successfully completed cmscan for AfischeriES114.GCA_000020845.1_ASM2084v1_genomic.fna against riboswitches_14.9.cm on worker 0.
+Successfully completed cmscan for Bsubtilis168.GCF_000009045.1.fna against riboswitches_14.9.cm on worker 2.
+Successfully completed cmscan for Ecoli.NC_000913.3.fna against riboswitches_14.9.cm on worker 5.
+Successfully completed cmscan for Spcc6803.GCA_018845095.1_ASM1884509v1_genomic.fna against riboswitches_14.9.cm on worker 11.
+Successfully completed cmscan for Pfluorescens.GCA_900215245.1.fna against riboswitches_14.9.cm on worker 8.
+Successfully completed cmscan for Cvibrioides.GCA_000022005.1_ASM2200v1_genomic.fna against riboswitches_14.9.cm on worker 4.
+Successfully completed cmscan for Scoelicolor.GCA_008931305.1_ASM893130v1_genomic.fna against riboswitches_14.9.cm on worker 9.
+Successfully completed cmscan for Paeruginosa.GCA_000006765.1.fna against riboswitches_14.9.cm on worker 7.
+Successfully completed cmscan for Arabiei.GCA_004011695.2_ASM401169v2_genomic.fna against riboswitches_14.9.cm on worker 1.
+Done

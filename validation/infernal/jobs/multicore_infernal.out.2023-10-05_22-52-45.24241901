@@ -1,0 +1,72 @@
+Failed:
+['cmscan', '--cut_ga', '--rfam', '--nohmmonly', '--noali', '--tblout', '/users/PDS0325/sachitk26/packages/tart/validation/infernal/results/AfischeriES114.GCA_000020845.1_ASM2084v1_genomic.fna.txt', '--clanin', '/users/PDS0325/sachitk26/packages/tart/tart/utils/data/rfam_14.9.clanin', '--fmt', '2', '/users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm', '/users/PDS0325/sachitk26/packages/tart/validation/genomes/AfischeriES114.GCA_000020845.1_ASM2084v1_genomic.fna']
+
+
+Error: unable to find model mir-19 listed in /users/PDS0325/sachitk26/packages/tart/tart/utils/data/rfam_14.9.clanin in SSI index file
+
+Failed:
+['cmscan', '--cut_ga', '--rfam', '--nohmmonly', '--noali', '--tblout', '/users/PDS0325/sachitk26/packages/tart/validation/infernal/results/Arabiei.GCA_004011695.2_ASM401169v2_genomic.fna.txt', '--clanin', '/users/PDS0325/sachitk26/packages/tart/tart/utils/data/rfam_14.9.clanin', '--fmt', '2', '/users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm', '/users/PDS0325/sachitk26/packages/tart/validation/genomes/Arabiei.GCA_004011695.2_ASM401169v2_genomic.fna']
+
+
+Error: unable to find model mir-19 listed in /users/PDS0325/sachitk26/packages/tart/tart/utils/data/rfam_14.9.clanin in SSI index file
+
+Failed:
+['cmscan', '--cut_ga', '--rfam', '--nohmmonly', '--noali', '--tblout', '/users/PDS0325/sachitk26/packages/tart/validation/infernal/results/Bsubtilis168.GCF_000009045.1.fna.txt', '--clanin', '/users/PDS0325/sachitk26/packages/tart/tart/utils/data/rfam_14.9.clanin', '--fmt', '2', '/users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm', '/users/PDS0325/sachitk26/packages/tart/validation/genomes/Bsubtilis168.GCF_000009045.1.fna']
+
+
+Error: unable to find model mir-19 listed in /users/PDS0325/sachitk26/packages/tart/tart/utils/data/rfam_14.9.clanin in SSI index file
+
+Failed:
+['cmscan', '--cut_ga', '--rfam', '--nohmmonly', '--noali', '--tblout', '/users/PDS0325/sachitk26/packages/tart/validation/infernal/results/Bthetaiotaomicron.GCA_014131755.1_ASM1413175v1_genomic.fna.txt', '--clanin', '/users/PDS0325/sachitk26/packages/tart/tart/utils/data/rfam_14.9.clanin', '--fmt', '2', '/users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm', '/users/PDS0325/sachitk26/packages/tart/validation/genomes/Bthetaiotaomicron.GCA_014131755.1_ASM1413175v1_genomic.fna']
+
+
+Error: unable to find model mir-19 listed in /users/PDS0325/sachitk26/packages/tart/tart/utils/data/rfam_14.9.clanin in SSI index file
+
+Failed:
+['cmscan', '--cut_ga', '--rfam', '--nohmmonly', '--noali', '--tblout', '/users/PDS0325/sachitk26/packages/tart/validation/infernal/results/Cvibrioides.GCA_000022005.1_ASM2200v1_genomic.fna.txt', '--clanin', '/users/PDS0325/sachitk26/packages/tart/tart/utils/data/rfam_14.9.clanin', '--fmt', '2', '/users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm', '/users/PDS0325/sachitk26/packages/tart/validation/genomes/Cvibrioides.GCA_000022005.1_ASM2200v1_genomic.fna']
+
+
+Error: unable to find model mir-19 listed in /users/PDS0325/sachitk26/packages/tart/tart/utils/data/rfam_14.9.clanin in SSI index file
+
+Failed:
+['cmscan', '--cut_ga', '--rfam', '--nohmmonly', '--noali', '--tblout', '/users/PDS0325/sachitk26/packages/tart/validation/infernal/results/Ecoli.NC_000913.3.fna.txt', '--clanin', '/users/PDS0325/sachitk26/packages/tart/tart/utils/data/rfam_14.9.clanin', '--fmt', '2', '/users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm', '/users/PDS0325/sachitk26/packages/tart/validation/genomes/Ecoli.NC_000913.3.fna']
+
+
+Error: unable to find model mir-19 listed in /users/PDS0325/sachitk26/packages/tart/tart/utils/data/rfam_14.9.clanin in SSI index file
+
+Failed:
+['cmscan', '--cut_ga', '--rfam', '--nohmmonly', '--noali', '--tblout', '/users/PDS0325/sachitk26/packages/tart/validation/infernal/results/MtuberculosisH37Rv.GCA_000195955.2.fna.txt', '--clanin', '/users/PDS0325/sachitk26/packages/tart/tart/utils/data/rfam_14.9.clanin', '--fmt', '2', '/users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm', '/users/PDS0325/sachitk26/packages/tart/validation/genomes/MtuberculosisH37Rv.GCA_000195955.2.fna']
+
+
+Error: unable to find model mir-19 listed in /users/PDS0325/sachitk26/packages/tart/tart/utils/data/rfam_14.9.clanin in SSI index file
+
+Failed:
+['cmscan', '--cut_ga', '--rfam', '--nohmmonly', '--noali', '--tblout', '/users/PDS0325/sachitk26/packages/tart/validation/infernal/results/Paeruginosa.GCA_000006765.1.fna.txt', '--clanin', '/users/PDS0325/sachitk26/packages/tart/tart/utils/data/rfam_14.9.clanin', '--fmt', '2', '/users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm', '/users/PDS0325/sachitk26/packages/tart/validation/genomes/Paeruginosa.GCA_000006765.1.fna']
+
+
+Error: unable to find model mir-19 listed in /users/PDS0325/sachitk26/packages/tart/tart/utils/data/rfam_14.9.clanin in SSI index file
+
+Failed:
+['cmscan', '--cut_ga', '--rfam', '--nohmmonly', '--noali', '--tblout', '/users/PDS0325/sachitk26/packages/tart/validation/infernal/results/Pfluorescens.GCA_900215245.1.fna.txt', '--clanin', '/users/PDS0325/sachitk26/packages/tart/tart/utils/data/rfam_14.9.clanin', '--fmt', '2', '/users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm', '/users/PDS0325/sachitk26/packages/tart/validation/genomes/Pfluorescens.GCA_900215245.1.fna']
+
+
+Error: unable to find model mir-19 listed in /users/PDS0325/sachitk26/packages/tart/tart/utils/data/rfam_14.9.clanin in SSI index file
+
+Failed:
+['cmscan', '--cut_ga', '--rfam', '--nohmmonly', '--noali', '--tblout', '/users/PDS0325/sachitk26/packages/tart/validation/infernal/results/Scoelicolor.GCA_008931305.1_ASM893130v1_genomic.fna.txt', '--clanin', '/users/PDS0325/sachitk26/packages/tart/tart/utils/data/rfam_14.9.clanin', '--fmt', '2', '/users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm', '/users/PDS0325/sachitk26/packages/tart/validation/genomes/Scoelicolor.GCA_008931305.1_ASM893130v1_genomic.fna']
+
+
+Error: unable to find model mir-19 listed in /users/PDS0325/sachitk26/packages/tart/tart/utils/data/rfam_14.9.clanin in SSI index file
+
+Failed:
+['cmscan', '--cut_ga', '--rfam', '--nohmmonly', '--noali', '--tblout', '/users/PDS0325/sachitk26/packages/tart/validation/infernal/results/Selongatus.GCA_000012525.1.fna.txt', '--clanin', '/users/PDS0325/sachitk26/packages/tart/tart/utils/data/rfam_14.9.clanin', '--fmt', '2', '/users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm', '/users/PDS0325/sachitk26/packages/tart/validation/genomes/Selongatus.GCA_000012525.1.fna']
+
+
+Error: unable to find model mir-19 listed in /users/PDS0325/sachitk26/packages/tart/tart/utils/data/rfam_14.9.clanin in SSI index file
+
+Failed:
+['cmscan', '--cut_ga', '--rfam', '--nohmmonly', '--noali', '--tblout', '/users/PDS0325/sachitk26/packages/tart/validation/infernal/results/Spcc6803.GCA_018845095.1_ASM1884509v1_genomic.fna.txt', '--clanin', '/users/PDS0325/sachitk26/packages/tart/tart/utils/data/rfam_14.9.clanin', '--fmt', '2', '/users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm', '/users/PDS0325/sachitk26/packages/tart/validation/genomes/Spcc6803.GCA_018845095.1_ASM1884509v1_genomic.fna']
+
+
+Error: unable to find model mir-19 listed in /users/PDS0325/sachitk26/packages/tart/tart/utils/data/rfam_14.9.clanin in SSI index file
+

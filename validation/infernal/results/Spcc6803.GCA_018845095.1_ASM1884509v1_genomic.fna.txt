@@ -1,17 +1,17 @@
 #target name         accession query name           accession mdl mdl from   mdl to seq from   seq to strand trunc pass   gc  bias  score   E-value inc description of target
 #------------------- --------- -------------------- --------- --- -------- -------- -------- -------- ------ ----- ---- ---- ----- ------ --------- --- ---------------------
-ykkC-yxkD            RF00442   CP073017.1           -          cm        1      108   801490   801369      -    no    1 0.52   0.0   85.9   1.2e-14 !   Guanidine-I riboswitch
+ykkC-yxkD            RF00442   CP073017.1           -          cm        1      107   801490   801369      -    no    1 0.52   0.0   84.8   5.7e-14 !   Guanidine-I riboswitch
 ydaO-yuaA            RF00379   CP073017.1           -          cm        1      136  3420285  3420434      +    no    1 0.47   0.0   66.4   1.7e-13 !   ydaO/yuaA leader
-Cobalamin            RF00174   CP073017.1           -          cm        1      190  1260133  1260273      +    no    1 0.56   0.0   58.8   1.1e-12 !   Cobalamin riboswitch
-glnA                 RF01739   CP073017.1           -          cm        1       63   459053   458992      -    no    1 0.44   0.0   61.6   1.2e-11 !   Glutamine riboswitch
-TPP                  RF00059   CP073017.1           -          cm        1      105  2997973  2998068      +    no    1 0.51   0.0   65.6   1.7e-10 !   TPP riboswitch (THI element)
+Cobalamin            RF00174   CP073017.1           -          cm        1      189  1260133  1260273      +    no    1 0.56   0.0   57.9   1.1e-12 !   Cobalamin riboswitch
+glnA                 RF01739   CP073017.1           -          cm        1       53   459053   458992      -    no    1 0.44   0.0   60.9   2.9e-11 !   Glutamine riboswitch
+TPP                  RF00059   CP073017.1           -          cm        1      105  2997973  2998068      +    no    1 0.51   0.0   63.8   1.8e-10 !   TPP riboswitch (THI element)
 #
 # Program:         cmscan
 # Version:         1.1.4 (Dec 2020)
 # Pipeline mode:   SCAN
 # Query file:      /users/PDS0325/sachitk26/packages/tart/validation/genomes/Spcc6803.GCA_018845095.1_ASM1884509v1_genomic.fna
-# Target file:     /users/PDS0325/sachitk26/cm/riboswitches/riboswitches.cm
-# Option settings: cmscan --tblout /users/PDS0325/sachitk26/packages/tart/validation/infernal/results/Spcc6803.GCA_018845095.1_ASM1884509v1_genomic.fna.txt --noali --cut_ga --rfam --nohmmonly /users/PDS0325/sachitk26/cm/riboswitches/riboswitches.cm /users/PDS0325/sachitk26/packages/tart/validation/genomes/Spcc6803.GCA_018845095.1_ASM1884509v1_genomic.fna 
+# Target file:     /users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm
+# Option settings: cmscan --tblout /users/PDS0325/sachitk26/packages/tart/validation/infernal/results/Spcc6803.GCA_018845095.1_ASM1884509v1_genomic.fna.txt --noali --cut_ga --rfam --nohmmonly /users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm /users/PDS0325/sachitk26/packages/tart/validation/genomes/Spcc6803.GCA_018845095.1_ASM1884509v1_genomic.fna 
 # Current dir:     /users/PDS0325/sachitk26/packages/tart/validation/infernal
-# Date:            Tue Sep 26 22:10:54 2023
+# Date:            Thu Oct  5 23:32:53 2023
 # [ok]

@@ -1,0 +1,25 @@
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-utils", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-utils')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/infernal.py", line 183, in dafault_scan_for_riboswitches
+    riboswitch_cmscan(fasta_path, out_dir, mp_con.rank)
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/infernal.py", line 161, in riboswitch_cmscan
+    cmscan(Path(seq_file), Path(out_dir), switch_cm, options=[*options], rank=rank)
+                                                             ^^^^^^^^^^
+TypeError: Value after * must be an iterable, not int

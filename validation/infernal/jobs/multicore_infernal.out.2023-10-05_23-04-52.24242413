@@ -1,0 +1,1517 @@
+# cmscan :: search sequence(s) against a CM database
+# INFERNAL 1.1.4 (Dec 2020)
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query sequence file:                   /users/PDS0325/sachitk26/packages/tart/validation/genomes/AfischeriES114.GCA_000020845.1_ASM2084v1_genomic.fna
+# target CM database:                    /users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm
+# tabular output of hits:                /users/PDS0325/sachitk26/packages/tart/validation/infernal/results/AfischeriES114.GCA_000020845.1_ASM2084v1_genomic.fna.txt
+# show alignments in output:             no
+# model-specific thresholding:           GA cutoffs
+# Rfam pipeline mode:                    on [strict filtering]
+# HMM-only mode for 0 basepair models:   no
+# number of worker threads:              40
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       CP001139.1  [L=2905029]
+Description: Vibrio fischeri MJ11 chromosome I sequence
+Hit scores:
+ rank     E-value  score  bias  modelname        start     end   mdl trunc   gc  description
+ ----   --------- ------ -----  -------------- ------- -------   --- ----- ----  -----------
+  (1) !     7e-32  124.3   0.0  Lysine         1859200 1859017 -  cm    no 0.42  Lysine riboswitch
+  (2) !   4.9e-25   98.7   0.1  Cobalamin      2743795 2743571 -  cm    no 0.38  Cobalamin riboswitch
+  (3) !   2.9e-23   95.0   0.0  Lysine          354138  353964 -  cm    no 0.40  Lysine riboswitch
+  (4) !     5e-23   95.3   0.0  MOCO_RNA_motif 1028357 1028505 +  cm    no 0.46  Moco (molybdenum cofactor) riboswitch
+  (5) !   1.1e-13   72.7   0.0  Glycine        1633332 1633437 +  cm    no 0.49  Glycine riboswitch
+  (6) !   4.7e-13   73.9   0.0  TPP              36713   36825 +  cm    no 0.48  TPP riboswitch (THI element)
+  (7) !   3.2e-10   62.4   0.0  TPP             259794  259906 +  cm    no 0.42  TPP riboswitch (THI element)
+  (8) !   1.5e-08   51.4   0.0  Fluoride         34842   34908 +  cm    no 0.39  Fluoride riboswitch (crcB)
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query sequence(s):                                               1  (5810058 residues searched)
+Query sequences re-searched for truncated hits:                  1  (783.0 residues re-searched, avg per model)
+Target model(s):                                                40  (4091 consensus positions)
+Windows   passing  local HMM SSV           filter:           91806  (0.06537); expected (0.06)
+Windows   passing  local HMM Viterbi       filter:           18787  (0.01254); expected (0.02)
+Windows   passing  local HMM Viterbi  bias filter:           15582  (0.0104); expected (0.02)
+Windows   passing  local HMM Forward       filter:             409  (0.0002892); expected (0.0002)
+Windows   passing  local HMM Forward  bias filter:             329  (0.0002369); expected (0.0002)
+Windows   passing glocal HMM Forward       filter:             229  (0.0001626); expected (0.0002)
+Windows   passing glocal HMM Forward  bias filter:             222  (0.0001585); expected (0.0002)
+Envelopes passing glocal HMM envelope defn filter:             221  (8.716e-05); expected (0.0002)
+Envelopes passing  local CM  CYK           filter:              61  (2.28e-05); expected (0.0001)
+Total CM hits reported:                                          8  (4.87e-06); includes 0 truncated hit(s)
+
+# CPU time: 5.18u 0.16s 00:00:05.34 Elapsed: 00:00:02.79
+//
+Query:       CP001133.1  [L=1418848]
+Description: Vibrio fischeri MJ11 chromosome II, complete sequence
+Hit scores:
+ rank     E-value  score  bias  modelname   start     end   mdl trunc   gc  description
+ ----   --------- ------ -----  --------- ------- -------   --- ----- ----  -----------
+  (1) !   4.1e-14   77.0   0.0  TPP        392903  393000 +  cm    no 0.48  TPP riboswitch (THI element)
+  (2) !   2.5e-11   52.7   0.0  yybP-ykoY 1206108 1206234 +  cm    no 0.36  yybP-ykoY manganese riboswitch
+  (3) !   2.9e-11   60.2   0.0  Fluoride  1365444 1365379 -  cm    no 0.45  Fluoride riboswitch (crcB)
+  (4) !   1.3e-06   36.3   0.0  Cobalamin 1216496 1216362 -  cm    no 0.41  Cobalamin riboswitch
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query sequence(s):                                               1  (2837696 residues searched)
+Query sequences re-searched for truncated hits:                  1  (783.0 residues re-searched, avg per model)
+Target model(s):                                                40  (4091 consensus positions)
+Windows   passing  local HMM SSV           filter:           44568  (0.06476); expected (0.06)
+Windows   passing  local HMM Viterbi       filter:            8888  (0.01222); expected (0.02)
+Windows   passing  local HMM Viterbi  bias filter:            7123  (0.009824); expected (0.02)
+Windows   passing  local HMM Forward       filter:             221  (0.0003175); expected (0.0002)
+Windows   passing  local HMM Forward  bias filter:             166  (0.0002395); expected (0.0002)
+Windows   passing glocal HMM Forward       filter:             125  (0.0001842); expected (0.0002)
+Windows   passing glocal HMM Forward  bias filter:             121  (0.0001791); expected (0.0002)
+Envelopes passing glocal HMM envelope defn filter:             120  (9.299e-05); expected (0.0002)
+Envelopes passing  local CM  CYK           filter:              35  (2.794e-05); expected (0.0001)
+Total CM hits reported:                                          4  (3.752e-06); includes 0 truncated hit(s)
+
+# CPU time: 2.72u 0.07s 00:00:02.79 Elapsed: 00:00:01.45
+//
+Query:       CP001134.1  [L=179459]
+Description: Vibrio fischeri MJ11 plasmid pMJ100, complete sequence
+Hit scores:
+ rank     E-value  score  bias  modelname  start    end   mdl trunc   gc  description
+ ----   --------- ------ -----  --------- ------ ------   --- ----- ----  -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query sequence(s):                                               1  (358918 residues searched)
+Query sequences re-searched for truncated hits:                  1  (783.0 residues re-searched, avg per model)
+Target model(s):                                                40  (4091 consensus positions)
+Windows   passing  local HMM SSV           filter:            5578  (0.06323); expected (0.06)
+Windows   passing  local HMM Viterbi       filter:            1146  (0.01272); expected (0.02)
+Windows   passing  local HMM Viterbi  bias filter:             829  (0.009215); expected (0.02)
+Windows   passing  local HMM Forward       filter:              49  (0.000553); expected (0.0002)
+Windows   passing  local HMM Forward  bias filter:              34  (0.0004038); expected (0.0002)
+Windows   passing glocal HMM Forward       filter:              22  (0.0002821); expected (0.0002)
+Windows   passing glocal HMM Forward  bias filter:              21  (0.000254); expected (0.0002)
+Envelopes passing glocal HMM envelope defn filter:              22  (0.0001444); expected (0.0002)
+Envelopes passing  local CM  CYK           filter:               8  (4.087e-05); expected (0.0001)
+Total CM hits reported:                                          0  (0); includes 0 truncated hit(s)
+
+# CPU time: 0.48u 0.01s 00:00:00.49 Elapsed: 00:00:00.26
+//
+[ok]
+
+Successfully completed cmscan for AfischeriES114.GCA_000020845.1_ASM2084v1_genomic.fna against riboswitches_14.9.cm on worker 0.
+# cmscan :: search sequence(s) against a CM database
+# INFERNAL 1.1.4 (Dec 2020)
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query sequence file:                   /users/PDS0325/sachitk26/packages/tart/validation/genomes/Arabiei.GCA_004011695.2_ASM401169v2_genomic.fna
+# target CM database:                    /users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm
+# tabular output of hits:                /users/PDS0325/sachitk26/packages/tart/validation/infernal/results/Arabiei.GCA_004011695.2_ASM401169v2_genomic.fna.txt
+# show alignments in output:             no
+# model-specific thresholding:           GA cutoffs
+# Rfam pipeline mode:                    on [strict filtering]
+# HMM-only mode for 0 basepair models:   no
+# number of worker threads:              40
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       CP095288.1  [L=3374210]
+Description: Ascochyta rabiei isolate Me14 chromosome 1
+Hit scores:
+ rank     E-value  score  bias  modelname  start    end   mdl trunc   gc  description
+ ----   --------- ------ -----  --------- ------ ------   --- ----- ----  -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query sequence(s):                                               1  (6748420 residues searched)
+Query sequences re-searched for truncated hits:                  1  (783.0 residues re-searched, avg per model)
+Target model(s):                                                40  (4091 consensus positions)
+Windows   passing  local HMM SSV           filter:          109551  (0.07178); expected (0.06)
+Windows   passing  local HMM Viterbi       filter:           22170  (0.01387); expected (0.02)
+Windows   passing  local HMM Viterbi  bias filter:           18443  (0.0114); expected (0.02)
+Windows   passing  local HMM Forward       filter:             543  (0.0003947); expected (0.0002)
+Windows   passing  local HMM Forward  bias filter:             395  (0.0002908); expected (0.0002)
+Windows   passing glocal HMM Forward       filter:             267  (0.0002038); expected (0.0002)
+Windows   passing glocal HMM Forward  bias filter:             252  (0.0001901); expected (0.0002)
+Envelopes passing glocal HMM envelope defn filter:             252  (0.0001008); expected (0.0002)
+Envelopes passing  local CM  CYK           filter:              61  (1.542e-05); expected (0.0001)
+Total CM hits reported:                                          0  (0); includes 0 truncated hit(s)
+
+# CPU time: 6.47u 0.16s 00:00:06.63 Elapsed: 00:00:03.41
+//
+Query:       CP095289.1  [L=2847420]
+Description: Ascochyta rabiei isolate Me14 chromosome 2
+Hit scores:
+ rank     E-value  score  bias  modelname  start    end   mdl trunc   gc  description
+ ----   --------- ------ -----  --------- ------ ------   --- ----- ----  -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query sequence(s):                                               1  (5694840 residues searched)
+Query sequences re-searched for truncated hits:                  1  (783.0 residues re-searched, avg per model)
+Target model(s):                                                40  (4091 consensus positions)
+Windows   passing  local HMM SSV           filter:           91645  (0.07096); expected (0.06)
+Windows   passing  local HMM Viterbi       filter:           18693  (0.01391); expected (0.02)
+Windows   passing  local HMM Viterbi  bias filter:           15269  (0.01122); expected (0.02)
+Windows   passing  local HMM Forward       filter:             436  (0.0003672); expected (0.0002)
+Windows   passing  local HMM Forward  bias filter:             297  (0.0002629); expected (0.0002)
+Windows   passing glocal HMM Forward       filter:             201  (0.000173); expected (0.0002)
+Windows   passing glocal HMM Forward  bias filter:             194  (0.0001667); expected (0.0002)
+Envelopes passing glocal HMM envelope defn filter:             193  (8.761e-05); expected (0.0002)
+Envelopes passing  local CM  CYK           filter:              44  (1.348e-05); expected (0.0001)
+Total CM hits reported:                                          0  (0); includes 0 truncated hit(s)
+
+# CPU time: 5.05u 0.11s 00:00:05.16 Elapsed: 00:00:02.62
+//
+Query:       CP095290.1  [L=2597728]
+Description: Ascochyta rabiei isolate Me14 chromosome 3
+Hit scores:
+ rank     E-value  score  bias  modelname  start    end   mdl trunc   gc  description
+ ----   --------- ------ -----  --------- ------ ------   --- ----- ----  -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query sequence(s):                                               1  (5195456 residues searched)
+Query sequences re-searched for truncated hits:                  1  (783.0 residues re-searched, avg per model)
+Target model(s):                                                40  (4091 consensus positions)
+Windows   passing  local HMM SSV           filter:           81795  (0.06884); expected (0.06)
+Windows   passing  local HMM Viterbi       filter:           16624  (0.0134); expected (0.02)
+Windows   passing  local HMM Viterbi  bias filter:           13654  (0.0109); expected (0.02)
+Windows   passing  local HMM Forward       filter:             384  (0.0003518); expected (0.0002)
+Windows   passing  local HMM Forward  bias filter:             282  (0.0002583); expected (0.0002)
+Windows   passing glocal HMM Forward       filter:             187  (0.0001692); expected (0.0002)
+Windows   passing glocal HMM Forward  bias filter:             179  (0.0001602); expected (0.0002)
+Envelopes passing glocal HMM envelope defn filter:             177  (8.574e-05); expected (0.0002)
+Envelopes passing  local CM  CYK           filter:              41  (1.147e-05); expected (0.0001)
+Total CM hits reported:                                          0  (0); includes 0 truncated hit(s)
+
+# CPU time: 4.68u 0.11s 00:00:04.79 Elapsed: 00:00:02.48
+//
+Query:       CP095291.1  [L=2576640]
+Description: Ascochyta rabiei isolate Me14 chromosome 4
+Hit scores:
+ rank     E-value  score  bias  modelname  start    end   mdl trunc   gc  description
+ ----   --------- ------ -----  --------- ------ ------   --- ----- ----  -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query sequence(s):                                               1  (5153280 residues searched)
+Query sequences re-searched for truncated hits:                  1  (783.0 residues re-searched, avg per model)
+Target model(s):                                                40  (4091 consensus positions)
+Windows   passing  local HMM SSV           filter:           82673  (0.07038); expected (0.06)
+Windows   passing  local HMM Viterbi       filter:           17005  (0.01394); expected (0.02)
+Windows   passing  local HMM Viterbi  bias filter:           14133  (0.01145); expected (0.02)
+Windows   passing  local HMM Forward       filter:             394  (0.000354); expected (0.0002)
+Windows   passing  local HMM Forward  bias filter:             285  (0.0002585); expected (0.0002)
+Windows   passing glocal HMM Forward       filter:             202  (0.0001871); expected (0.0002)
+Windows   passing glocal HMM Forward  bias filter:             191  (0.0001708); expected (0.0002)
+Envelopes passing glocal HMM envelope defn filter:             191  (9.526e-05); expected (0.0002)
+Envelopes passing  local CM  CYK           filter:              41  (1.2e-05); expected (0.0001)
+Total CM hits reported:                                          0  (0); includes 0 truncated hit(s)
+
+# CPU time: 4.69u 0.09s 00:00:04.78 Elapsed: 00:00:02.44
+//
+Query:       CP095292.1  [L=2396322]
+Description: Ascochyta rabiei isolate Me14 chromosome 5
+Hit scores:
+ rank     E-value  score  bias  modelname  start    end   mdl trunc   gc  description
+ ----   --------- ------ -----  --------- ------ ------   --- ----- ----  -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query sequence(s):                                               1  (4792644 residues searched)
+Query sequences re-searched for truncated hits:                  1  (783.0 residues re-searched, avg per model)
+Target model(s):                                                40  (4091 consensus positions)
+Windows   passing  local HMM SSV           filter:           77723  (0.07159); expected (0.06)
+Windows   passing  local HMM Viterbi       filter:           15759  (0.01406); expected (0.02)
+Windows   passing  local HMM Viterbi  bias filter:           12993  (0.01141); expected (0.02)
+Windows   passing  local HMM Forward       filter:             367  (0.0003621); expected (0.0002)
+Windows   passing  local HMM Forward  bias filter:             272  (0.0002736); expected (0.0002)
+Windows   passing glocal HMM Forward       filter:             192  (0.0002035); expected (0.0002)
+Windows   passing glocal HMM Forward  bias filter:             185  (0.0001919); expected (0.0002)
+Envelopes passing glocal HMM envelope defn filter:             183  (9.456e-05); expected (0.0002)
+Envelopes passing  local CM  CYK           filter:              46  (1.5e-05); expected (0.0001)
+Total CM hits reported:                                          0  (0); includes 0 truncated hit(s)
+
+# CPU time: 4.38u 0.08s 00:00:04.46 Elapsed: 00:00:02.29
+//
+Query:       CP095293.1  [L=2004140]
+Description: Ascochyta rabiei isolate Me14 chromosome 6
+Hit scores:
+ rank     E-value  score  bias  modelname  start    end   mdl trunc   gc  description
+ ----   --------- ------ -----  --------- ------ ------   --- ----- ----  -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query sequence(s):                                               1  (4008280 residues searched)
+Query sequences re-searched for truncated hits:                  1  (783.0 residues re-searched, avg per model)
+Target model(s):                                                40  (4091 consensus positions)
+Windows   passing  local HMM SSV           filter:           65604  (0.07262); expected (0.06)
+Windows   passing  local HMM Viterbi       filter:           13154  (0.01399); expected (0.02)
+Windows   passing  local HMM Viterbi  bias filter:           10904  (0.01141); expected (0.02)
+Windows   passing  local HMM Forward       filter:             305  (0.0003455); expected (0.0002)
+Windows   passing  local HMM Forward  bias filter:             221  (0.0002511); expected (0.0002)
+Windows   passing glocal HMM Forward       filter:             145  (0.0001551); expected (0.0002)
+Windows   passing glocal HMM Forward  bias filter:             141  (0.0001492); expected (0.0002)
+Envelopes passing glocal HMM envelope defn filter:             137  (8.382e-05); expected (0.0002)
+Envelopes passing  local CM  CYK           filter:              34  (1.604e-05); expected (0.0001)
+Total CM hits reported:                                          0  (0); includes 0 truncated hit(s)
+
+# CPU time: 3.73u 0.06s 00:00:03.79 Elapsed: 00:00:01.95
+//
+Query:       CP095294.1  [L=1964907]
+Description: Ascochyta rabiei isolate Me14 chromosome 7
+Hit scores:
+ rank     E-value  score  bias  modelname  start    end   mdl trunc   gc  description
+ ----   --------- ------ -----  --------- ------ ------   --- ----- ----  -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query sequence(s):                                               1  (3929814 residues searched)
+Query sequences re-searched for truncated hits:                  1  (783.0 residues re-searched, avg per model)
+Target model(s):                                                40  (4091 consensus positions)
+Windows   passing  local HMM SSV           filter:           63110  (0.0708); expected (0.06)
+Windows   passing  local HMM Viterbi       filter:           12957  (0.01391); expected (0.02)
+Windows   passing  local HMM Viterbi  bias filter:           10587  (0.01121); expected (0.02)
+Windows   passing  local HMM Forward       filter:             261  (0.0003039); expected (0.0002)
+Windows   passing  local HMM Forward  bias filter:             205  (0.000241); expected (0.0002)
+Windows   passing glocal HMM Forward       filter:             136  (0.0001667); expected (0.0002)
+Windows   passing glocal HMM Forward  bias filter:             131  (0.0001579); expected (0.0002)
+Envelopes passing glocal HMM envelope defn filter:             128  (8.274e-05); expected (0.0002)
+Envelopes passing  local CM  CYK           filter:              31  (1.243e-05); expected (0.0001)
+Total CM hits reported:                                          0  (0); includes 0 truncated hit(s)
+
+# CPU time: 3.43u 0.07s 00:00:03.50 Elapsed: 00:00:01.78
+//
+Query:       CP095295.1  [L=1958250]
+Description: Ascochyta rabiei isolate Me14 chromosome 8
+Hit scores:
+ rank     E-value  score  bias  modelname  start    end   mdl trunc   gc  description
+ ----   --------- ------ -----  --------- ------ ------   --- ----- ----  -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query sequence(s):                                               1  (3916500 residues searched)
+Query sequences re-searched for truncated hits:                  1  (783.0 residues re-searched, avg per model)
+Target model(s):                                                40  (4091 consensus positions)
+Windows   passing  local HMM SSV           filter:           59111  (0.06569); expected (0.06)
+Windows   passing  local HMM Viterbi       filter:           12168  (0.01295); expected (0.02)
+Windows   passing  local HMM Viterbi  bias filter:            9644  (0.01018); expected (0.02)
+Windows   passing  local HMM Forward       filter:             317  (0.0003671); expected (0.0002)
+Windows   passing  local HMM Forward  bias filter:             197  (0.0002334); expected (0.0002)
+Windows   passing glocal HMM Forward       filter:             126  (0.0001527); expected (0.0002)
+Windows   passing glocal HMM Forward  bias filter:             117  (0.0001414); expected (0.0002)
+Envelopes passing glocal HMM envelope defn filter:             116  (8.04e-05); expected (0.0002)
+Envelopes passing  local CM  CYK           filter:              30  (1.553e-05); expected (0.0001)
+Total CM hits reported:                                          0  (0); includes 0 truncated hit(s)
+
+# CPU time: 3.68u 0.06s 00:00:03.74 Elapsed: 00:00:01.96
+//
+Query:       CP095296.1  [L=1944960]
+Description: Ascochyta rabiei isolate Me14 chromosome 9
+Hit scores:
+ rank     E-value  score  bias  modelname  start    end   mdl trunc   gc  description
+ ----   --------- ------ -----  --------- ------ ------   --- ----- ----  -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query sequence(s):                                               1  (3889920 residues searched)
+Query sequences re-searched for truncated hits:                  1  (783.0 residues re-searched, avg per model)
+Target model(s):                                                40  (4091 consensus positions)
+Windows   passing  local HMM SSV           filter:           62286  (0.07063); expected (0.06)
+Windows   passing  local HMM Viterbi       filter:           12693  (0.01383); expected (0.02)
+Windows   passing  local HMM Viterbi  bias filter:           10453  (0.01122); expected (0.02)
+Windows   passing  local HMM Forward       filter:             273  (0.0003232); expected (0.0002)
+Windows   passing  local HMM Forward  bias filter:             211  (0.0002501); expected (0.0002)
+Windows   passing glocal HMM Forward       filter:             149  (0.0001784); expected (0.0002)
+Windows   passing glocal HMM Forward  bias filter:             147  (0.0001771); expected (0.0002)
+Envelopes passing glocal HMM envelope defn filter:             148  (9.498e-05); expected (0.0002)
+Envelopes passing  local CM  CYK           filter:              45  (1.927e-05); expected (0.0001)
+Total CM hits reported:                                          0  (0); includes 0 truncated hit(s)
+
+# CPU time: 3.71u 0.07s 00:00:03.78 Elapsed: 00:00:01.95
+//
+Query:       CP095297.1  [L=1928181]
+Description: Ascochyta rabiei isolate Me14 chromosome 10
+Hit scores:
+ rank     E-value  score  bias  modelname  start    end   mdl trunc   gc  description
+ ----   --------- ------ -----  --------- ------ ------   --- ----- ----  -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query sequence(s):                                               1  (3856362 residues searched)
+Query sequences re-searched for truncated hits:                  1  (783.0 residues re-searched, avg per model)
+Target model(s):                                                40  (4091 consensus positions)
+Windows   passing  local HMM SSV           filter:           62475  (0.07154); expected (0.06)
+Windows   passing  local HMM Viterbi       filter:           12745  (0.01402); expected (0.02)
+Windows   passing  local HMM Viterbi  bias filter:           10465  (0.01131); expected (0.02)
+Windows   passing  local HMM Forward       filter:             267  (0.000338); expected (0.0002)
+Windows   passing  local HMM Forward  bias filter:             200  (0.000261); expected (0.0002)
+Windows   passing glocal HMM Forward       filter:             133  (0.0001714); expected (0.0002)
+Windows   passing glocal HMM Forward  bias filter:             127  (0.0001664); expected (0.0002)
+Envelopes passing glocal HMM envelope defn filter:             127  (8.714e-05); expected (0.0002)
+Envelopes passing  local CM  CYK           filter:              29  (1.399e-05); expected (0.0001)
+Total CM hits reported:                                          0  (0); includes 0 truncated hit(s)
+
+# CPU time: 3.45u 0.06s 00:00:03.51 Elapsed: 00:00:01.81
+//
+Query:       CP095298.1  [L=1786714]
+Description: Ascochyta rabiei isolate Me14 chromosome 11
+Hit scores:
+ rank     E-value  score  bias  modelname  start    end   mdl trunc   gc  description
+ ----   --------- ------ -----  --------- ------ ------   --- ----- ----  -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query sequence(s):                                               1  (3573428 residues searched)
+Query sequences re-searched for truncated hits:                  1  (783.0 residues re-searched, avg per model)
+Target model(s):                                                40  (4091 consensus positions)
+Windows   passing  local HMM SSV           filter:           56007  (0.06846); expected (0.06)
+Windows   passing  local HMM Viterbi       filter:           11485  (0.01349); expected (0.02)
+Windows   passing  local HMM Viterbi  bias filter:            9201  (0.01069); expected (0.02)
+Windows   passing  local HMM Forward       filter:             255  (0.0003529); expected (0.0002)
+Windows   passing  local HMM Forward  bias filter:             178  (0.000244); expected (0.0002)
+Windows   passing glocal HMM Forward       filter:             120  (0.0001623); expected (0.0002)
+Windows   passing glocal HMM Forward  bias filter:             112  (0.000155); expected (0.0002)
+Envelopes passing glocal HMM envelope defn filter:             110  (7.616e-05); expected (0.0002)
+Envelopes passing  local CM  CYK           filter:              31  (1.326e-05); expected (0.0001)
+Total CM hits reported:                                          0  (0); includes 0 truncated hit(s)
+
+# CPU time: 3.15u 0.06s 00:00:03.21 Elapsed: 00:00:01.67
+//
+Query:       CP095299.1  [L=1749120]
+Description: Ascochyta rabiei isolate Me14 chromosome 12
+Hit scores:
+ rank     E-value  score  bias  modelname  start    end   mdl trunc   gc  description
+ ----   --------- ------ -----  --------- ------ ------   --- ----- ----  -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query sequence(s):                                               1  (3498240 residues searched)
+Query sequences re-searched for truncated hits:                  1  (783.0 residues re-searched, avg per model)
+Target model(s):                                                40  (4091 consensus positions)
+Windows   passing  local HMM SSV           filter:           55429  (0.06958); expected (0.06)
+Windows   passing  local HMM Viterbi       filter:           11356  (0.01359); expected (0.02)
+Windows   passing  local HMM Viterbi  bias filter:            9172  (0.01087); expected (0.02)
+Windows   passing  local HMM Forward       filter:             258  (0.0003609); expected (0.0002)
+Windows   passing  local HMM Forward  bias filter:             158  (0.0002265); expected (0.0002)
+Windows   passing glocal HMM Forward       filter:             102  (0.0001501); expected (0.0002)
+Windows   passing glocal HMM Forward  bias filter:              98  (0.0001415); expected (0.0002)
+Envelopes passing glocal HMM envelope defn filter:              94  (7e-05); expected (0.0002)
+Envelopes passing  local CM  CYK           filter:              23  (1.037e-05); expected (0.0001)
+Total CM hits reported:                                          0  (0); includes 0 truncated hit(s)
+
+# CPU time: 2.95u 0.06s 00:00:03.01 Elapsed: 00:00:01.55
+//
+Query:       CP095300.1  [L=1536791]
+Description: Ascochyta rabiei isolate Me14 chromosome 13
+Hit scores:
+ rank     E-value  score  bias  modelname  start    end   mdl trunc   gc  description
+ ----   --------- ------ -----  --------- ------ ------   --- ----- ----  -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query sequence(s):                                               1  (3073582 residues searched)
+Query sequences re-searched for truncated hits:                  1  (783.0 residues re-searched, avg per model)
+Target model(s):                                                40  (4091 consensus positions)
+Windows   passing  local HMM SSV           filter:           47992  (0.06853); expected (0.06)
+Windows   passing  local HMM Viterbi       filter:            9720  (0.01324); expected (0.02)
+Windows   passing  local HMM Viterbi  bias filter:            7640  (0.01024); expected (0.02)
+Windows   passing  local HMM Forward       filter:             231  (0.0003446); expected (0.0002)
+Windows   passing  local HMM Forward  bias filter:             154  (0.0002444); expected (0.0002)
+Windows   passing glocal HMM Forward       filter:              98  (0.0001532); expected (0.0002)
+Windows   passing glocal HMM Forward  bias filter:              93  (0.0001473); expected (0.0002)
+Envelopes passing glocal HMM envelope defn filter:              94  (7.75e-05); expected (0.0002)
+Envelopes passing  local CM  CYK           filter:              30  (1.72e-05); expected (0.0001)
+Total CM hits reported:                                          0  (0); includes 0 truncated hit(s)
+
+# CPU time: 2.90u 0.06s 00:00:02.96 Elapsed: 00:00:01.60
+//
+Query:       CP095301.1  [L=1531556]
+Description: Ascochyta rabiei isolate Me14 chromosome 14
+Hit scores:
+ rank     E-value  score  bias  modelname  start    end   mdl trunc   gc  description
+ ----   --------- ------ -----  --------- ------ ------   --- ----- ----  -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query sequence(s):                                               1  (3063112 residues searched)
+Query sequences re-searched for truncated hits:                  1  (783.0 residues re-searched, avg per model)
+Target model(s):                                                40  (4091 consensus positions)
+Windows   passing  local HMM SSV           filter:           49853  (0.0723); expected (0.06)
+Windows   passing  local HMM Viterbi       filter:           10423  (0.01462); expected (0.02)
+Windows   passing  local HMM Viterbi  bias filter:            8645  (0.01191); expected (0.02)
+Windows   passing  local HMM Forward       filter:             233  (0.0003663); expected (0.0002)
+Windows   passing  local HMM Forward  bias filter:             178  (0.0002752); expected (0.0002)
+Windows   passing glocal HMM Forward       filter:             118  (0.0001861); expected (0.0002)
+Windows   passing glocal HMM Forward  bias filter:             114  (0.0001815); expected (0.0002)
+Envelopes passing glocal HMM envelope defn filter:             111  (9.414e-05); expected (0.0002)
+Envelopes passing  local CM  CYK           filter:              28  (1.461e-05); expected (0.0001)
+Total CM hits reported:                                          0  (0); includes 0 truncated hit(s)
+
+# CPU time: 3.01u 0.07s 00:00:03.07 Elapsed: 00:00:01.61
+//
+Query:       CP095302.1  [L=1508412]
+Description: Ascochyta rabiei isolate Me14 chromosome 15
+Hit scores:
+ rank     E-value  score  bias  modelname  start    end   mdl trunc   gc  description
+ ----   --------- ------ -----  --------- ------ ------   --- ----- ----  -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query sequence(s):                                               1  (3016824 residues searched)
+Query sequences re-searched for truncated hits:                  1  (783.0 residues re-searched, avg per model)
+Target model(s):                                                40  (4091 consensus positions)
+Windows   passing  local HMM SSV           filter:           48818  (0.0714); expected (0.06)
+Windows   passing  local HMM Viterbi       filter:            9987  (0.01408); expected (0.02)
+Windows   passing  local HMM Viterbi  bias filter:            8089  (0.01119); expected (0.02)
+Windows   passing  local HMM Forward       filter:             203  (0.0003222); expected (0.0002)
+Windows   passing  local HMM Forward  bias filter:             145  (0.0002264); expected (0.0002)
+Windows   passing glocal HMM Forward       filter:              95  (0.0001402); expected (0.0002)
+Windows   passing glocal HMM Forward  bias filter:              91  (0.0001334); expected (0.0002)
+Envelopes passing glocal HMM envelope defn filter:              89  (7.461e-05); expected (0.0002)
+Envelopes passing  local CM  CYK           filter:              28  (1.599e-05); expected (0.0001)
+Total CM hits reported:                                          0  (0); includes 0 truncated hit(s)
+
+# CPU time: 2.68u 0.06s 00:00:02.74 Elapsed: 00:00:01.45
+//
+Query:       CP095303.1  [L=1448784]
+Description: Ascochyta rabiei isolate Me14 chromosome 16
+Hit scores:
+ rank     E-value  score  bias  modelname  start    end   mdl trunc   gc  description
+ ----   --------- ------ -----  --------- ------ ------   --- ----- ----  -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query sequence(s):                                               1  (2897568 residues searched)
+Query sequences re-searched for truncated hits:                  1  (783.0 residues re-searched, avg per model)
+Target model(s):                                                40  (4091 consensus positions)
+Windows   passing  local HMM SSV           filter:           46549  (0.07094); expected (0.06)
+Windows   passing  local HMM Viterbi       filter:            9408  (0.01366); expected (0.02)
+Windows   passing  local HMM Viterbi  bias filter:            7874  (0.01128); expected (0.02)
+Windows   passing  local HMM Forward       filter:             232  (0.0004233); expected (0.0002)
+Windows   passing  local HMM Forward  bias filter:             167  (0.0003086); expected (0.0002)
+Windows   passing glocal HMM Forward       filter:             107  (0.000202); expected (0.0002)
+Windows   passing glocal HMM Forward  bias filter:             101  (0.0001911); expected (0.0002)
+Envelopes passing glocal HMM envelope defn filter:             102  (9.662e-05); expected (0.0002)
+Envelopes passing  local CM  CYK           filter:              27  (1.524e-05); expected (0.0001)
+Total CM hits reported:                                          0  (0); includes 0 truncated hit(s)
+
+# CPU time: 3.09u 0.07s 00:00:03.15 Elapsed: 00:00:01.76
+//
+Query:       CP095304.1  [L=1413298]
+Description: Ascochyta rabiei isolate Me14 chromosome 17
+Hit scores:
+ rank     E-value  score  bias  modelname  start    end   mdl trunc   gc  description
+ ----   --------- ------ -----  --------- ------ ------   --- ----- ----  -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query sequence(s):                                               1  (2826596 residues searched)
+Query sequences re-searched for truncated hits:                  1  (783.0 residues re-searched, avg per model)
+Target model(s):                                                40  (4091 consensus positions)
+Windows   passing  local HMM SSV           filter:           46248  (0.07262); expected (0.06)
+Windows   passing  local HMM Viterbi       filter:            9342  (0.01401); expected (0.02)
+Windows   passing  local HMM Viterbi  bias filter:            7753  (0.01148); expected (0.02)
+Windows   passing  local HMM Forward       filter:             212  (0.0003563); expected (0.0002)
+Windows   passing  local HMM Forward  bias filter:             164  (0.0002749); expected (0.0002)
+Windows   passing glocal HMM Forward       filter:             116  (0.0002012); expected (0.0002)
+Windows   passing glocal HMM Forward  bias filter:             109  (0.0001851); expected (0.0002)
+Envelopes passing glocal HMM envelope defn filter:             111  (0.0001041); expected (0.0002)
+Envelopes passing  local CM  CYK           filter:              28  (1.508e-05); expected (0.0001)
+Total CM hits reported:                                          0  (0); includes 0 truncated hit(s)
+
+# CPU time: 2.92u 0.04s 00:00:02.96 Elapsed: 00:00:01.53
+//
+Query:       CP095305.1  [L=1396774]
+Description: Ascochyta rabiei isolate Me14 chromosome 18
+Hit scores:
+ rank     E-value  score  bias  modelname  start    end   mdl trunc   gc  description
+ ----   --------- ------ -----  --------- ------ ------   --- ----- ----  -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query sequence(s):                                               1  (2793548 residues searched)
+Query sequences re-searched for truncated hits:                  1  (783.0 residues re-searched, avg per model)
+Target model(s):                                                40  (4091 consensus positions)
+Windows   passing  local HMM SSV           filter:           44038  (0.06924); expected (0.06)
+Windows   passing  local HMM Viterbi       filter:            8806  (0.01324); expected (0.02)
+Windows   passing  local HMM Viterbi  bias filter:            7175  (0.01063); expected (0.02)
+Windows   passing  local HMM Forward       filter:             199  (0.0003469); expected (0.0002)
+Windows   passing  local HMM Forward  bias filter:             159  (0.0002785); expected (0.0002)
+Windows   passing glocal HMM Forward       filter:              94  (0.0001546); expected (0.0002)
+Windows   passing glocal HMM Forward  bias filter:              89  (0.0001428); expected (0.0002)
+Envelopes passing glocal HMM envelope defn filter:              87  (7.808e-05); expected (0.0002)
+Envelopes passing  local CM  CYK           filter:              23  (1.345e-05); expected (0.0001)
+Total CM hits reported:                                          0  (0); includes 0 truncated hit(s)
+
+# CPU time: 2.44u 0.05s 00:00:02.48 Elapsed: 00:00:01.29
+//
+Query:       CP095306.1  [L=1383910]
+Description: Ascochyta rabiei isolate Me14 chromosome 19
+Hit scores:
+ rank     E-value  score  bias  modelname  start    end   mdl trunc   gc  description
+ ----   --------- ------ -----  --------- ------ ------   --- ----- ----  -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query sequence(s):                                               1  (2767820 residues searched)
+Query sequences re-searched for truncated hits:                  1  (783.0 residues re-searched, avg per model)
+Target model(s):                                                40  (4091 consensus positions)
+Windows   passing  local HMM SSV           filter:           42188  (0.06605); expected (0.06)
+Windows   passing  local HMM Viterbi       filter:            8528  (0.01274); expected (0.02)
+Windows   passing  local HMM Viterbi  bias filter:            6620  (0.009758); expected (0.02)
+Windows   passing  local HMM Forward       filter:             205  (0.0003363); expected (0.0002)
+Windows   passing  local HMM Forward  bias filter:             136  (0.0002303); expected (0.0002)
+Windows   passing glocal HMM Forward       filter:              98  (0.000148); expected (0.0002)
+Windows   passing glocal HMM Forward  bias filter:              94  (0.0001444); expected (0.0002)
+Envelopes passing glocal HMM envelope defn filter:              93  (8.177e-05); expected (0.0002)
+Envelopes passing  local CM  CYK           filter:              26  (1.589e-05); expected (0.0001)
+Total CM hits reported:                                          0  (0); includes 0 truncated hit(s)
+
+# CPU time: 2.42u 0.05s 00:00:02.46 Elapsed: 00:00:01.34
+//
+Query:       CP095307.1  [L=1269205]
+Description: Ascochyta rabiei isolate Me14 chromosome 20
+Hit scores:
+ rank     E-value  score  bias  modelname  start    end   mdl trunc   gc  description
+ ----   --------- ------ -----  --------- ------ ------   --- ----- ----  -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query sequence(s):                                               1  (2538410 residues searched)
+Query sequences re-searched for truncated hits:                  1  (783.0 residues re-searched, avg per model)
+Target model(s):                                                40  (4091 consensus positions)
+Windows   passing  local HMM SSV           filter:           40736  (0.07072); expected (0.06)
+Windows   passing  local HMM Viterbi       filter:            8382  (0.0141); expected (0.02)
+Windows   passing  local HMM Viterbi  bias filter:            6716  (0.01116); expected (0.02)
+Windows   passing  local HMM Forward       filter:             214  (0.0004075); expected (0.0002)
+Windows   passing  local HMM Forward  bias filter:             152  (0.0002963); expected (0.0002)
+Windows   passing glocal HMM Forward       filter:              79  (0.0001424); expected (0.0002)
+Windows   passing glocal HMM Forward  bias filter:              72  (0.0001245); expected (0.0002)
+Envelopes passing glocal HMM envelope defn filter:              71  (6.405e-05); expected (0.0002)
+Envelopes passing  local CM  CYK           filter:              21  (1.161e-05); expected (0.0001)
+Total CM hits reported:                                          0  (0); includes 0 truncated hit(s)
+
+# CPU time: 2.10u 0.03s 00:00:02.13 Elapsed: 00:00:01.09
+//
+Query:       CP095308.1  [L=1223078]
+Description: Ascochyta rabiei isolate Me14 chromosome 21
+Hit scores:
+ rank     E-value  score  bias  modelname  start    end   mdl trunc   gc  description
+ ----   --------- ------ -----  --------- ------ ------   --- ----- ----  -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query sequence(s):                                               1  (2446156 residues searched)
+Query sequences re-searched for truncated hits:                  1  (783.0 residues re-searched, avg per model)
+Target model(s):                                                40  (4091 consensus positions)
+Windows   passing  local HMM SSV           filter:           39212  (0.07041); expected (0.06)
+Windows   passing  local HMM Viterbi       filter:            8078  (0.01389); expected (0.02)
+Windows   passing  local HMM Viterbi  bias filter:            6599  (0.01115); expected (0.02)
+Windows   passing  local HMM Forward       filter:             185  (0.0003645); expected (0.0002)
+Windows   passing  local HMM Forward  bias filter:             133  (0.0002622); expected (0.0002)
+Windows   passing glocal HMM Forward       filter:              96  (0.0001946); expected (0.0002)
+Windows   passing glocal HMM Forward  bias filter:              93  (0.0001881); expected (0.0002)
+Envelopes passing glocal HMM envelope defn filter:              92  (0.0001042); expected (0.0002)
+Envelopes passing  local CM  CYK           filter:              17  (1.308e-05); expected (0.0001)
+Total CM hits reported:                                          0  (0); includes 0 truncated hit(s)
+
+# CPU time: 2.52u 0.06s 00:00:02.58 Elapsed: 00:00:01.31
+//
+Query:       CP095309.1  [L=1006318]
+Description: Ascochyta rabiei isolate Me14 chromosome 22
+Hit scores:
+ rank     E-value  score  bias  modelname  start    end   mdl trunc   gc  description
+ ----   --------- ------ -----  --------- ------ ------   --- ----- ----  -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query sequence(s):                                               1  (2012636 residues searched)
+Query sequences re-searched for truncated hits:                  1  (783.0 residues re-searched, avg per model)
+Target model(s):                                                40  (4091 consensus positions)
+Windows   passing  local HMM SSV           filter:           33438  (0.07369); expected (0.06)
+Windows   passing  local HMM Viterbi       filter:            6769  (0.01451); expected (0.02)
+Windows   passing  local HMM Viterbi  bias filter:            5529  (0.01166); expected (0.02)
+Windows   passing  local HMM Forward       filter:             138  (0.0003216); expected (0.0002)
+Windows   passing  local HMM Forward  bias filter:              99  (0.0002233); expected (0.0002)
+Windows   passing glocal HMM Forward       filter:              68  (0.0001551); expected (0.0002)
+Windows   passing glocal HMM Forward  bias filter:              64  (0.000149); expected (0.0002)
+Envelopes passing glocal HMM envelope defn filter:              64  (7.733e-05); expected (0.0002)
+Envelopes passing  local CM  CYK           filter:              19  (1.782e-05); expected (0.0001)
+Total CM hits reported:                                          0  (0); includes 0 truncated hit(s)
+
+# CPU time: 1.75u 0.04s 00:00:01.79 Elapsed: 00:00:00.92
+//
+Query:       CP095310.1  [L=55102]
+Description: Ascochyta rabiei isolate Me14 mitochondrion, complete genome
+Hit scores:
+ rank     E-value  score  bias  modelname  start    end   mdl trunc   gc  description
+ ----   --------- ------ -----  --------- ------ ------   --- ----- ----  -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query sequence(s):                                               1  (110204 residues searched)
+Query sequences re-searched for truncated hits:                  1  (783.0 residues re-searched, avg per model)
+Target model(s):                                                40  (4091 consensus positions)
+Windows   passing  local HMM SSV           filter:            1747  (0.06299); expected (0.06)
+Windows   passing  local HMM Viterbi       filter:             402  (0.01409); expected (0.02)
+Windows   passing  local HMM Viterbi  bias filter:             215  (0.007287); expected (0.02)
+Windows   passing  local HMM Forward       filter:              10  (0.0003399); expected (0.0002)
+Windows   passing  local HMM Forward  bias filter:               7  (0.0002327); expected (0.0002)
+Windows   passing glocal HMM Forward       filter:               5  (0.0001759); expected (0.0002)
+Windows   passing glocal HMM Forward  bias filter:               5  (0.0001759); expected (0.0002)
+Envelopes passing glocal HMM envelope defn filter:               5  (0.0001047); expected (0.0002)
+Envelopes passing  local CM  CYK           filter:               0  (0); expected (0.0001)
+Total CM hits reported:                                          0  (0); includes 0 truncated hit(s)
+
+# CPU time: 0.11u 0.01s 00:00:00.12 Elapsed: 00:00:00.08
+//
+[ok]
+
+Successfully completed cmscan for Arabiei.GCA_004011695.2_ASM401169v2_genomic.fna against riboswitches_14.9.cm on worker 0.
+# cmscan :: search sequence(s) against a CM database
+# INFERNAL 1.1.4 (Dec 2020)
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query sequence file:                   /users/PDS0325/sachitk26/packages/tart/validation/genomes/Bsubtilis168.GCF_000009045.1.fna
+# target CM database:                    /users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm
+# tabular output of hits:                /users/PDS0325/sachitk26/packages/tart/validation/infernal/results/Bsubtilis168.GCF_000009045.1.fna.txt
+# show alignments in output:             no
+# model-specific thresholding:           GA cutoffs
+# Rfam pipeline mode:                    on [strict filtering]
+# HMM-only mode for 0 basepair models:   no
+# number of worker threads:              40
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       NC_000964.3  [L=4215606]
+Description: Bacillus subtilis subsp. subtilis str. 168 complete genome
+Hit scores:
+ rank     E-value  score  bias  modelname   start     end   mdl trunc   gc  description
+ ----   --------- ------ -----  --------- ------- -------   --- ----- ----  -----------
+  (1) !   4.2e-34  132.4   0.0  Lysine    2911051 2910872 -  cm    no 0.44  Lysine riboswitch
+  (2) !   7.9e-34  147.9   0.0  M-box     1395616 1395781 +  cm    no 0.47  M-box riboswitch (ykoK leader)
+  (3) !   8.3e-34  140.4   0.0  glmS       200017  200187 +  cm    no 0.49  glmS glucosamine-6-phosphate activated ribozyme
+  (4) !   4.1e-28  112.0   0.0  Lysine    3421348 3421169 -  cm    no 0.53  Lysine riboswitch
+  (5) !   1.6e-27  119.6   0.0  FMN       2410877 2410743 -  cm    no 0.56  FMN riboswitch (RFN element)
+  (6) !   1.5e-23  102.8   0.0  ydaO-yuaA  486092  486235 +  cm    no 0.48  ydaO/yuaA leader
+  (7) !   2.9e-23  103.9   0.0  FMN       2431617 2431473 -  cm    no 0.53  FMN riboswitch (RFN element)
+  (8) !   9.2e-23   98.4   0.0  SAM       1180802 1180685 -  cm    no 0.50  SAM riboswitch (S box leader)
+  (9) !   9.5e-22   94.9   0.0  SAM       1258304 1258424 +  cm    no 0.46  SAM riboswitch (S box leader)
+ (10) !   1.4e-21   94.3   0.0  SAM       3364503 3364397 -  cm    no 0.49  SAM riboswitch (S box leader)
+ (11) !   1.8e-21   93.9   0.0  SAM       3997775 3997881 +  cm    no 0.49  SAM riboswitch (S box leader)
+ (12) !   5.1e-20   90.1   0.0  ydaO-yuaA 3188193 3188341 +  cm    no 0.46  ydaO/yuaA leader
+ (13) !   7.4e-20   88.4   0.0  SAM       2025251 2025160 -  cm    no 0.48  SAM riboswitch (S box leader)
+ (14) !   1.7e-19   87.2   0.0  SAM       3999166 3999272 +  cm    no 0.48  SAM riboswitch (S box leader)
+ (15) !   6.5e-18   75.6   0.0  Cobalamin 3404680 3404543 -  cm    no 0.54  Cobalamin riboswitch
+ (16) !   8.9e-18   81.2   0.0  SAM       1630115 1630220 +  cm    no 0.45  SAM riboswitch (S box leader)
+ (17) !   5.8e-17   98.5   0.0  ykkC-yxkD 1376328 1376439 +  cm    no 0.48  Guanidine-I riboswitch
+ (18) !   1.1e-16   77.5   0.0  SAM       1426876 1426976 +  cm    no 0.51  SAM riboswitch (S box leader)
+ (19) !   4.9e-15   87.2   0.0  Purine     698369  698470 +  cm    no 0.42  Purine riboswitch
+ (20) !   7.9e-15   71.1   0.0  SAM       3129333 3129195 -  cm    no 0.48  SAM riboswitch (S box leader)
+ (21) !   8.5e-15   81.7   0.0  TPP       1242262 1242370 +  cm    no 0.45  TPP riboswitch (THI element)
+ (22) !   1.2e-14   85.6   0.0  Purine     694425  694526 +  cm    no 0.38  Purine riboswitch
+ (23) !   1.5e-14   85.2   0.5  Purine    4005523 4005624 +  cm    no 0.28  Purine riboswitch
+ (24) !   2.3e-14   79.9   0.0  TPP        955655  955762 +  cm    no 0.51  TPP riboswitch (THI element)
+ (25) !   1.1e-13   81.7   0.0  Purine    2320213 2320114 -  cm    no 0.46  Purine riboswitch
+ (26) !   1.3e-13   66.9   0.0  SAM       1385891 1385736 -  cm    no 0.51  SAM riboswitch (S box leader)
+ (27) !   6.1e-13   74.1   0.0  TPP       1391851 1391739 -  cm    no 0.52  TPP riboswitch (THI element)
+ (28) !   3.8e-12   67.4   0.0  Glycine   2549606 2549505 -  cm    no 0.55  Glycine riboswitch
+ (29) !   4.3e-12   70.7   0.0  TPP       1607367 1607468 +  cm    no 0.53  TPP riboswitch (THI element)
+ (30) !   1.1e-11   73.6   0.1  Purine     626446  626347 -  cm    no 0.30  Purine riboswitch
+ (31) !   3.2e-11   72.8   0.0  ykkC-yxkD 3988942 3988840 -  cm    no 0.48  Guanidine-I riboswitch
+ (32) !   1.2e-10   64.8   0.0  TPP       3179105 3179206 +  cm    no 0.49  TPP riboswitch (THI element)
+ (33) !   1.5e-10   56.4   0.0  SAM       1424683 1424527 -  cm    no 0.49  SAM riboswitch (S box leader)
+ (34) !   6.1e-07   46.3   0.0  PreQ1     1439274 1439318 +  cm    no 0.47  PreQ1 riboswitch
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query sequence(s):                                               1  (8431212 residues searched)
+Query sequences re-searched for truncated hits:                  1  (783.0 residues re-searched, avg per model)
+Target model(s):                                                40  (4091 consensus positions)
+Windows   passing  local HMM SSV           filter:          155266  (0.07807); expected (0.06)
+Windows   passing  local HMM Viterbi       filter:           32046  (0.01539); expected (0.02)
+Windows   passing  local HMM Viterbi  bias filter:           27649  (0.01326); expected (0.02)
+Windows   passing  local HMM Forward       filter:             881  (0.0004682); expected (0.0002)
+Windows   passing  local HMM Forward  bias filter:             731  (0.0003952); expected (0.0002)
+Windows   passing glocal HMM Forward       filter:             505  (0.0002761); expected (0.0002)
+Windows   passing glocal HMM Forward  bias filter:             500  (0.0002739); expected (0.0002)
+Envelopes passing glocal HMM envelope defn filter:             490  (0.0001444); expected (0.0002)
+Envelopes passing  local CM  CYK           filter:             158  (3.98e-05); expected (0.0001)
+Total CM hits reported:                                         34  (1.222e-05); includes 0 truncated hit(s)
+
+# CPU time: 9.83u 0.23s 00:00:10.06 Elapsed: 00:00:05.10
+//
+[ok]
+
+Successfully completed cmscan for Bsubtilis168.GCF_000009045.1.fna against riboswitches_14.9.cm on worker 0.
+# cmscan :: search sequence(s) against a CM database
+# INFERNAL 1.1.4 (Dec 2020)
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query sequence file:                   /users/PDS0325/sachitk26/packages/tart/validation/genomes/Bthetaiotaomicron.GCA_014131755.1_ASM1413175v1_genomic.fna
+# target CM database:                    /users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm
+# tabular output of hits:                /users/PDS0325/sachitk26/packages/tart/validation/infernal/results/Bthetaiotaomicron.GCA_014131755.1_ASM1413175v1_genomic.fna.txt
+# show alignments in output:             no
+# model-specific thresholding:           GA cutoffs
+# Rfam pipeline mode:                    on [strict filtering]
+# HMM-only mode for 0 basepair models:   no
+# number of worker threads:              40
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       CP040530.1  [L=6271157]
+Description: Bacteroides thetaiotaomicron strain DSM 2079 chromosome, complete genome
+Hit scores:
+ rank     E-value  score  bias  modelname   start     end   mdl trunc   gc  description
+ ----   --------- ------ -----  --------- ------- -------   --- ----- ----  -----------
+  (1) !   1.1e-28  112.0   0.0  Cobalamin 6034312 6034121 -  cm    no 0.52  Cobalamin riboswitch
+  (2) !   1.7e-27  108.0   0.0  Cobalamin 5414425 5414630 +  cm    no 0.47  Cobalamin riboswitch
+  (3) !   6.1e-27  106.1   0.0  Cobalamin 5410362 5410566 +  cm    no 0.47  Cobalamin riboswitch
+  (4) !   1.2e-25  101.9   0.0  Cobalamin 6202554 6202342 -  cm    no 0.47  Cobalamin riboswitch
+  (5) !   9.7e-25   98.8   0.0  Cobalamin 6085495 6085681 +  cm    no 0.49  Cobalamin riboswitch
+  (6) !   9.6e-23   92.2   0.0  Cobalamin 5977565 5977770 +  cm    no 0.46  Cobalamin riboswitch
+  (7) !   9.5e-11   65.9   0.0  TPP       4381873 4381778 -  cm    no 0.48  TPP riboswitch (THI element)
+  (8) !   1.1e-10   65.6   0.0  TPP        280479  280575 +  cm    no 0.45  TPP riboswitch (THI element)
+  (9) !   2.1e-08   56.4   0.0  TPP        294862  294958 +  cm    no 0.46  TPP riboswitch (THI element)
+ (10) !   2.4e-07   48.1   0.0  Fluoride  3297097 3297035 -  cm    no 0.49  Fluoride riboswitch (crcB)
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query sequence(s):                                               1  (12542314 residues searched)
+Query sequences re-searched for truncated hits:                  1  (783.0 residues re-searched, avg per model)
+Target model(s):                                                40  (4091 consensus positions)
+Windows   passing  local HMM SSV           filter:          219306  (0.07425); expected (0.06)
+Windows   passing  local HMM Viterbi       filter:           45621  (0.01482); expected (0.02)
+Windows   passing  local HMM Viterbi  bias filter:           39392  (0.0128); expected (0.02)
+Windows   passing  local HMM Forward       filter:            1177  (0.0004293); expected (0.0002)
+Windows   passing  local HMM Forward  bias filter:             978  (0.0003563); expected (0.0002)
+Windows   passing glocal HMM Forward       filter:             681  (0.0002535); expected (0.0002)
+Windows   passing glocal HMM Forward  bias filter:             661  (0.0002459); expected (0.0002)
+Envelopes passing glocal HMM envelope defn filter:             659  (0.0001337); expected (0.0002)
+Envelopes passing  local CM  CYK           filter:             156  (2.66e-05); expected (0.0001)
+Total CM hits reported:                                         10  (3.113e-06); includes 0 truncated hit(s)
+
+# CPU time: 13.57u 0.23s 00:00:13.80 Elapsed: 00:00:07.06
+//
+Query:       CP040529.1  [L=33036]
+Description: Bacteroides thetaiotaomicron strain DSM 2079 plasmid p_Bt, complete sequence
+Hit scores:
+ rank     E-value  score  bias  modelname  start    end   mdl trunc   gc  description
+ ----   --------- ------ -----  --------- ------ ------   --- ----- ----  -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query sequence(s):                                               1  (66072 residues searched)
+Query sequences re-searched for truncated hits:                  1  (783.0 residues re-searched, avg per model)
+Target model(s):                                                40  (4091 consensus positions)
+Windows   passing  local HMM SSV           filter:            1384  (0.08759); expected (0.06)
+Windows   passing  local HMM Viterbi       filter:             298  (0.01809); expected (0.02)
+Windows   passing  local HMM Viterbi  bias filter:             260  (0.01596); expected (0.02)
+Windows   passing  local HMM Forward       filter:               8  (0.0006637); expected (0.0002)
+Windows   passing  local HMM Forward  bias filter:               5  (0.0003844); expected (0.0002)
+Windows   passing glocal HMM Forward       filter:               4  (0.0003227); expected (0.0002)
+Windows   passing glocal HMM Forward  bias filter:               3  (0.0002666); expected (0.0002)
+Envelopes passing glocal HMM envelope defn filter:               3  (0.0001507); expected (0.0002)
+Envelopes passing  local CM  CYK           filter:               0  (0); expected (0.0001)
+Total CM hits reported:                                          0  (0); includes 0 truncated hit(s)
+
+# CPU time: 0.13u 0.00s 00:00:00.13 Elapsed: 00:00:00.10
+//
+[ok]
+
+Successfully completed cmscan for Bthetaiotaomicron.GCA_014131755.1_ASM1413175v1_genomic.fna against riboswitches_14.9.cm on worker 0.
+# cmscan :: search sequence(s) against a CM database
+# INFERNAL 1.1.4 (Dec 2020)
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query sequence file:                   /users/PDS0325/sachitk26/packages/tart/validation/genomes/Cvibrioides.GCA_000022005.1_ASM2200v1_genomic.fna
+# target CM database:                    /users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm
+# tabular output of hits:                /users/PDS0325/sachitk26/packages/tart/validation/infernal/results/Cvibrioides.GCA_000022005.1_ASM2200v1_genomic.fna.txt
+# show alignments in output:             no
+# model-specific thresholding:           GA cutoffs
+# Rfam pipeline mode:                    on [strict filtering]
+# HMM-only mode for 0 basepair models:   no
+# number of worker threads:              40
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       CP001340.1  [L=4042929]
+Description: Caulobacter crescentus NA1000, complete genome
+Hit scores:
+ rank     E-value  score  bias  modelname   start     end   mdl trunc   gc  description
+ ----   --------- ------ -----  --------- ------- -------   --- ----- ----  -----------
+  (1) !   9.1e-36  134.9   0.0  Cobalamin 1950973 1951161 +  cm    no 0.61  Cobalamin riboswitch
+  (2) !   2.9e-29  113.2   2.4  Cobalamin  528978  529205 +  cm    no 0.65  Cobalamin riboswitch
+  (3) !   2.9e-13   75.4   0.1  TPP       2260267 2260162 -  cm    no 0.69  TPP riboswitch (THI element)
+  (4) !   3.9e-12   67.3   0.0  Glycine   3629509 3629419 -  cm    no 0.66  Glycine riboswitch
+  (5) !     2e-11   64.6   0.2  Glycine   3708605 3708517 -  cm    no 0.69  Glycine riboswitch
+  (6) !   2.2e-09   47.5   0.0  yybP-ykoY 2597459 2597350 -  cm    no 0.65  yybP-ykoY manganese riboswitch
+  (7) !   9.3e-08   61.4   0.0  ZMP-ZTP     88947   89027 +  cm    no 0.65  ZMP/ZTP riboswitch
+  (8) !   2.4e-07   48.3   0.0  nhaA-I     471475  471527 +  cm    no 0.64  nhaA-I RNA
+  (9) !   8.1e-07   56.9   0.0  ZMP-ZTP     32806   32887 +  cm    no 0.66  ZMP/ZTP riboswitch
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query sequence(s):                                               1  (8085858 residues searched)
+Query sequences re-searched for truncated hits:                  1  (783.0 residues re-searched, avg per model)
+Target model(s):                                                40  (4091 consensus positions)
+Windows   passing  local HMM SSV           filter:          198177  (0.1103); expected (0.06)
+Windows   passing  local HMM Viterbi       filter:           48081  (0.02628); expected (0.02)
+Windows   passing  local HMM Viterbi  bias filter:           29060  (0.01568); expected (0.02)
+Windows   passing  local HMM Forward       filter:            2204  (0.001421); expected (0.0002)
+Windows   passing  local HMM Forward  bias filter:            1188  (0.0008185); expected (0.0002)
+Windows   passing glocal HMM Forward       filter:             776  (0.0005424); expected (0.0002)
+Windows   passing glocal HMM Forward  bias filter:             708  (0.0004866); expected (0.0002)
+Envelopes passing glocal HMM envelope defn filter:             722  (0.0002485); expected (0.0002)
+Envelopes passing  local CM  CYK           filter:             301  (7.803e-05); expected (0.0001)
+Total CM hits reported:                                          9  (3.181e-06); includes 0 truncated hit(s)
+
+# CPU time: 15.45u 0.26s 00:00:15.71 Elapsed: 00:00:08.38
+//
+[ok]
+
+Successfully completed cmscan for Cvibrioides.GCA_000022005.1_ASM2200v1_genomic.fna against riboswitches_14.9.cm on worker 0.
+# cmscan :: search sequence(s) against a CM database
+# INFERNAL 1.1.4 (Dec 2020)
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query sequence file:                   /users/PDS0325/sachitk26/packages/tart/validation/genomes/Ecoli.NC_000913.3.fna
+# target CM database:                    /users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm
+# tabular output of hits:                /users/PDS0325/sachitk26/packages/tart/validation/infernal/results/Ecoli.NC_000913.3.fna.txt
+# show alignments in output:             no
+# model-specific thresholding:           GA cutoffs
+# Rfam pipeline mode:                    on [strict filtering]
+# HMM-only mode for 0 basepair models:   no
+# number of worker threads:              40
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       NC_000913.3  [L=4641652]
+Description: Escherichia coli str. K-12 substr. MG1655, complete genome
+Hit scores:
+ rank     E-value  score  bias  modelname        start     end   mdl trunc   gc  description
+ ----   --------- ------ -----  -------------- ------- -------   --- ----- ----  -----------
+  (1) !   2.4e-32  126.5   0.0  Lysine         4233521 4233325 -  cm    no 0.60  Lysine riboswitch
+  (2) !   7.6e-28  120.9   0.0  FMN            3184718 3184570 -  cm    no 0.58  FMN riboswitch (RFN element)
+  (3) !   3.2e-25  125.9   0.0  Mg_sensor      4467416 4467531 +  cm    no 0.53  Magnesium Sensor
+  (4) !   1.5e-24   97.8   0.0  Cobalamin      4163384 4163573 +  cm    no 0.54  Cobalamin riboswitch
+  (5) !   1.4e-23   97.8   0.0  MOCO_RNA_motif  816912  817056 +  cm    no 0.50  Moco (molybdenum cofactor) riboswitch
+  (6) !   4.7e-13   74.8   0.0  TPP            4196280 4196180 -  cm    no 0.49  TPP riboswitch (THI element)
+  (7) !   3.5e-12   71.2   0.0  TPP            2185432 2185336 -  cm    no 0.57  TPP riboswitch (THI element)
+  (8) !   7.1e-11   65.9   0.0  TPP              75610   75511 -  cm    no 0.59  TPP riboswitch (THI element)
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query sequence(s):                                               1  (9283304 residues searched)
+Query sequences re-searched for truncated hits:                  1  (783.0 residues re-searched, avg per model)
+Target model(s):                                                40  (4091 consensus positions)
+Windows   passing  local HMM SSV           filter:          179910  (0.08416); expected (0.06)
+Windows   passing  local HMM Viterbi       filter:           38218  (0.01716); expected (0.02)
+Windows   passing  local HMM Viterbi  bias filter:           34564  (0.01548); expected (0.02)
+Windows   passing  local HMM Forward       filter:             922  (0.0004898); expected (0.0002)
+Windows   passing  local HMM Forward  bias filter:             811  (0.000435); expected (0.0002)
+Windows   passing glocal HMM Forward       filter:             571  (0.0003131); expected (0.0002)
+Windows   passing glocal HMM Forward  bias filter:             561  (0.0003069); expected (0.0002)
+Envelopes passing glocal HMM envelope defn filter:             552  (0.0001582); expected (0.0002)
+Envelopes passing  local CM  CYK           filter:             160  (3.721e-05); expected (0.0001)
+Total CM hits reported:                                          8  (2.949e-06); includes 0 truncated hit(s)
+
+# CPU time: 11.90u 0.24s 00:00:12.14 Elapsed: 00:00:06.61
+//
+[ok]
+
+Successfully completed cmscan for Ecoli.NC_000913.3.fna against riboswitches_14.9.cm on worker 0.
+# cmscan :: search sequence(s) against a CM database
+# INFERNAL 1.1.4 (Dec 2020)
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query sequence file:                   /users/PDS0325/sachitk26/packages/tart/validation/genomes/MtuberculosisH37Rv.GCA_000195955.2.fna
+# target CM database:                    /users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm
+# tabular output of hits:                /users/PDS0325/sachitk26/packages/tart/validation/infernal/results/MtuberculosisH37Rv.GCA_000195955.2.fna.txt
+# show alignments in output:             no
+# model-specific thresholding:           GA cutoffs
+# Rfam pipeline mode:                    on [strict filtering]
+# HMM-only mode for 0 basepair models:   no
+# number of worker threads:              40
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       AL123456.3  [L=4411532]
+Description: Mycobacterium tuberculosis H37Rv complete genome
+Hit scores:
+ rank     E-value  score  bias  modelname   start     end   mdl trunc   gc  description
+ ----   --------- ------ -----  --------- ------- -------   --- ----- ----  -----------
+  (1) !   9.1e-35  151.6   0.0  M-box     1735509 1735678 +  cm    no 0.63  M-box riboswitch (ykoK leader)
+  (2) !   9.5e-33  143.9   0.0  M-box     2047595 2047769 +  cm    no 0.63  M-box riboswitch (ykoK leader)
+  (3) !   2.5e-23   93.6   0.4  Cobalamin  309858  309686 -  cm    no 0.65  Cobalamin riboswitch
+  (4) !   1.2e-20  116.6   1.5  SAM-IV    3725971 3726090 +  cm    no 0.72  S-adenosyl methionine (SAM) riboswitch,
+  (5) !     2e-19   80.6   5.8  Cobalamin 1261697 1261480 -  cm    no 0.66  Cobalamin riboswitch
+  (6) !   2.2e-16   77.1   2.7  ydaO-yuaA  965767  965545 -  cm    no 0.66  ydaO/yuaA leader
+  (7) !   3.6e-10   60.0   0.0  Glycine   2075613 2075710 +  cm    no 0.63  Glycine riboswitch
+  (8) !     4e-10   62.7   0.1  TPP        510326  510216 -  cm    no 0.67  TPP riboswitch (THI element)
+  (9) !   2.2e-09   57.0   0.0  Glycine     79294   79204 -  cm    no 0.63  Glycine riboswitch
+ (10) !   6.3e-09   57.9   0.0  TPP        501047  501157 +  cm    no 0.68  TPP riboswitch (THI element)
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query sequence(s):                                               1  (8823064 residues searched)
+Query sequences re-searched for truncated hits:                  1  (783.0 residues re-searched, avg per model)
+Target model(s):                                                40  (4091 consensus positions)
+Windows   passing  local HMM SSV           filter:          210991  (0.107); expected (0.06)
+Windows   passing  local HMM Viterbi       filter:           50556  (0.02517); expected (0.02)
+Windows   passing  local HMM Viterbi  bias filter:           31568  (0.01566); expected (0.02)
+Windows   passing  local HMM Forward       filter:            2357  (0.001322); expected (0.0002)
+Windows   passing  local HMM Forward  bias filter:            1343  (0.0008042); expected (0.0002)
+Windows   passing glocal HMM Forward       filter:             858  (0.0005106); expected (0.0002)
+Windows   passing glocal HMM Forward  bias filter:             757  (0.0004435); expected (0.0002)
+Envelopes passing glocal HMM envelope defn filter:             772  (0.0002323); expected (0.0002)
+Envelopes passing  local CM  CYK           filter:             289  (6.419e-05); expected (0.0001)
+Total CM hits reported:                                         10  (4.222e-06); includes 0 truncated hit(s)
+
+# CPU time: 14.67u 0.23s 00:00:14.90 Elapsed: 00:00:08.01
+//
+[ok]
+
+Successfully completed cmscan for MtuberculosisH37Rv.GCA_000195955.2.fna against riboswitches_14.9.cm on worker 0.
+# cmscan :: search sequence(s) against a CM database
+# INFERNAL 1.1.4 (Dec 2020)
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query sequence file:                   /users/PDS0325/sachitk26/packages/tart/validation/genomes/Paeruginosa.GCA_000006765.1.fna
+# target CM database:                    /users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm
+# tabular output of hits:                /users/PDS0325/sachitk26/packages/tart/validation/infernal/results/Paeruginosa.GCA_000006765.1.fna.txt
+# show alignments in output:             no
+# model-specific thresholding:           GA cutoffs
+# Rfam pipeline mode:                    on [strict filtering]
+# HMM-only mode for 0 basepair models:   no
+# number of worker threads:              40
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       AE004091.2  [L=6264404]
+Description: Pseudomonas aeruginosa PAO1, complete genome
+Hit scores:
+ rank     E-value  score  bias  modelname        start     end   mdl trunc   gc  description
+ ----   --------- ------ -----  -------------- ------- -------   --- ----- ----  -----------
+  (1) !   1.3e-32  125.0   2.8  Cobalamin      3265544 3265748 +  cm    no 0.67  Cobalamin riboswitch
+  (2) !   1.8e-29  114.5   7.9  Cobalamin      3305801 3305611 -  cm    no 0.70  Cobalamin riboswitch
+  (3) !   1.9e-25  101.2   7.6  Cobalamin      3261436 3261186 -  cm    no 0.68  Cobalamin riboswitch
+  (4) !   6.6e-25   99.4   8.4  Cobalamin      1381500 1381707 +  cm    no 0.69  Cobalamin riboswitch
+  (5) !   1.4e-22  102.1   2.1  FMN            4536839 4536677 -  cm    no 0.67  FMN riboswitch (RFN element)
+  (6) !     3e-21   87.2   1.4  Cobalamin      3305860 3306009 +  cm    no 0.69  Cobalamin riboswitch
+  (7) !     3e-11   68.0   0.0  TPP            5583871 5583735 -  cm    no 0.64  TPP riboswitch (THI element)
+  (8) !   4.3e-11   54.1   0.1  yybP-ykoY      3265386 3265221 -  cm    no 0.65  yybP-ykoY manganese riboswitch
+  (9) !   2.7e-10   59.0   0.0  Fluoride       4914637 4914575 -  cm    no 0.59  Fluoride riboswitch (crcB)
+ (10) !   2.8e-10   69.4   0.3  SAH_riboswitch  484243  484138 -  cm    no 0.71  S-adenosyl-L-homocysteine riboswitch
+ (11) !   1.3e-08   45.6   4.0  yybP-ykoY      5196972 5197095 +  cm    no 0.72  yybP-ykoY manganese riboswitch
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query sequence(s):                                               1  (12528808 residues searched)
+Query sequences re-searched for truncated hits:                  1  (783.0 residues re-searched, avg per model)
+Target model(s):                                                40  (4091 consensus positions)
+Windows   passing  local HMM SSV           filter:          314156  (0.1127); expected (0.06)
+Windows   passing  local HMM Viterbi       filter:           79133  (0.0283); expected (0.02)
+Windows   passing  local HMM Viterbi  bias filter:           48819  (0.01706); expected (0.02)
+Windows   passing  local HMM Forward       filter:            4125  (0.001828); expected (0.0002)
+Windows   passing  local HMM Forward  bias filter:            2296  (0.00107); expected (0.0002)
+Windows   passing glocal HMM Forward       filter:            1548  (0.0007657); expected (0.0002)
+Windows   passing glocal HMM Forward  bias filter:            1394  (0.0006762); expected (0.0002)
+Envelopes passing glocal HMM envelope defn filter:            1435  (0.0003312); expected (0.0002)
+Envelopes passing  local CM  CYK           filter:             573  (0.0001053); expected (0.0001)
+Total CM hits reported:                                         11  (3.52e-06); includes 0 truncated hit(s)
+
+# CPU time: 31.06u 0.33s 00:00:31.38 Elapsed: 00:00:16.22
+//
+[ok]
+
+Successfully completed cmscan for Paeruginosa.GCA_000006765.1.fna against riboswitches_14.9.cm on worker 0.
+# cmscan :: search sequence(s) against a CM database
+# INFERNAL 1.1.4 (Dec 2020)
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query sequence file:                   /users/PDS0325/sachitk26/packages/tart/validation/genomes/Pfluorescens.GCA_900215245.1.fna
+# target CM database:                    /users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm
+# tabular output of hits:                /users/PDS0325/sachitk26/packages/tart/validation/infernal/results/Pfluorescens.GCA_900215245.1.fna.txt
+# show alignments in output:             no
+# model-specific thresholding:           GA cutoffs
+# Rfam pipeline mode:                    on [strict filtering]
+# HMM-only mode for 0 basepair models:   no
+# number of worker threads:              40
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       LT907842.1  [L=6511547]
+Description: Pseudomonas fluorescens strain ATCC 13525 genome assembly, chromosome: I
+Hit scores:
+ rank     E-value  score  bias  modelname        start     end   mdl trunc   gc  description
+ ----   --------- ------ -----  -------------- ------- -------   --- ----- ----  -----------
+  (1) !   1.3e-32  125.0   0.4  Cobalamin        40189   40382 +  cm    no 0.63  Cobalamin riboswitch
+  (2) !   6.6e-32  122.7   0.0  Cobalamin      4869716 4869504 -  cm    no 0.61  Cobalamin riboswitch
+  (3) !   1.2e-29  115.2   0.0  Cobalamin      4870645 4870844 +  cm    no 0.63  Cobalamin riboswitch
+  (4) !   3.2e-29  113.8   0.0  Cobalamin       344471  344220 -  cm    no 0.62  Cobalamin riboswitch
+  (5) !   1.5e-23  105.7   0.0  FMN             671420  671589 +  cm    no 0.64  FMN riboswitch (RFN element)
+  (6) !   3.6e-16   95.8   0.0  ykkC-yxkD      3921310 3921209 -  cm    no 0.62  Guanidine-I riboswitch
+  (7) !     5e-16   87.4   0.0  TPP            2782974 2783079 +  cm    no 0.54  TPP riboswitch (THI element)
+  (8) !   3.9e-11   54.3   0.0  yybP-ykoY      3372595 3372476 -  cm    no 0.62  yybP-ykoY manganese riboswitch
+  (9) !     5e-10   68.4   0.0  SAH_riboswitch 1687737 1687843 +  cm    no 0.64  S-adenosyl-L-homocysteine riboswitch
+ (10) !   8.1e-09   46.3   0.0  yybP-ykoY      6018128 6018297 +  cm    no 0.56  yybP-ykoY manganese riboswitch
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query sequence(s):                                               1  (13023094 residues searched)
+Query sequences re-searched for truncated hits:                  1  (783.0 residues re-searched, avg per model)
+Target model(s):                                                40  (4091 consensus positions)
+Windows   passing  local HMM SSV           filter:          285238  (0.09765); expected (0.06)
+Windows   passing  local HMM Viterbi       filter:           65162  (0.02189); expected (0.02)
+Windows   passing  local HMM Viterbi  bias filter:           51821  (0.01723); expected (0.02)
+Windows   passing  local HMM Forward       filter:            2456  (0.001021); expected (0.0002)
+Windows   passing  local HMM Forward  bias filter:            1748  (0.0007375); expected (0.0002)
+Windows   passing glocal HMM Forward       filter:            1177  (0.0005047); expected (0.0002)
+Windows   passing glocal HMM Forward  bias filter:            1129  (0.0004812); expected (0.0002)
+Envelopes passing glocal HMM envelope defn filter:            1121  (0.0002462); expected (0.0002)
+Envelopes passing  local CM  CYK           filter:             351  (5.67e-05); expected (0.0001)
+Total CM hits reported:                                         10  (3.137e-06); includes 0 truncated hit(s)
+
+# CPU time: 23.19u 0.32s 00:00:23.51 Elapsed: 00:00:12.57
+//
+[ok]
+
+Successfully completed cmscan for Pfluorescens.GCA_900215245.1.fna against riboswitches_14.9.cm on worker 0.
+# cmscan :: search sequence(s) against a CM database
+# INFERNAL 1.1.4 (Dec 2020)
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query sequence file:                   /users/PDS0325/sachitk26/packages/tart/validation/genomes/Scoelicolor.GCA_008931305.1_ASM893130v1_genomic.fna
+# target CM database:                    /users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm
+# tabular output of hits:                /users/PDS0325/sachitk26/packages/tart/validation/infernal/results/Scoelicolor.GCA_008931305.1_ASM893130v1_genomic.fna.txt
+# show alignments in output:             no
+# model-specific thresholding:           GA cutoffs
+# Rfam pipeline mode:                    on [strict filtering]
+# HMM-only mode for 0 basepair models:   no
+# number of worker threads:              40
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       CP042324.1  [L=8667664]
+Description: Streptomyces coelicolor A3(2) strain CFB_NBC_0001 chromosome, complete genome
+Hit scores:
+ rank     E-value  score  bias  modelname   start     end   mdl trunc   gc  description
+ ----   --------- ------ -----  --------- ------- -------   --- ----- ----  -----------
+  (1) !   3.3e-26  104.2   1.5  Cobalamin 1044581 1044457 -  cm    no 0.70  Cobalamin riboswitch
+  (2) !   3.1e-25  100.9   7.0  Cobalamin 1051400 1051582 +  cm    no 0.70  Cobalamin riboswitch
+  (3) !   3.8e-24  106.1   0.7  ydaO-yuaA 4507197 4507353 +  cm    no 0.65  ydaO/yuaA leader
+  (4) !     3e-22   91.0   3.0  Cobalamin 6532471 6532286 -  cm    no 0.68  Cobalamin riboswitch
+  (5) !   1.5e-21   88.7   7.9  Cobalamin 1037900 1038052 +  cm    no 0.71  Cobalamin riboswitch
+  (6) !   1.5e-21   98.8   0.0  FMN       1539405 1539275 -  cm    no 0.66  FMN riboswitch (RFN element)
+  (7) !   6.1e-20  114.6   0.3  SAM-IV    2308774 2308658 -  cm    no 0.69  S-adenosyl methionine (SAM) riboswitch,
+  (8) !   6.2e-20   83.3   3.3  Cobalamin 1045939 1046105 +  cm    no 0.68  Cobalamin riboswitch
+  (9) !     7e-18   83.5   8.8  ydaO-yuaA 6392259 6392423 +  cm    no 0.70  ydaO/yuaA leader
+ (10) !   1.4e-16   78.1   0.0  SAM       4708468 4708615 +  cm    no 0.64  SAM riboswitch (S box leader)
+ (11) !   1.8e-14   71.3   9.8  ydaO-yuaA 3393037 3392871 -  cm    no 0.70  ydaO/yuaA leader
+ (12) !   3.3e-14   70.3  13.7  ydaO-yuaA 5218478 5218296 -  cm    no 0.72  ydaO/yuaA leader
+ (13) !   3.8e-14   70.1   1.9  ydaO-yuaA 7531132 7531289 +  cm    no 0.68  ydaO/yuaA leader
+ (14) !   6.6e-13   71.5   0.2  Glycine   5959207 5959114 -  cm    no 0.71  Glycine riboswitch
+ (15) !     3e-12   63.3   9.0  ydaO-yuaA 5004347 5004175 -  cm    no 0.69  ydaO/yuaA leader
+ (16) !     5e-11   64.4   0.0  Glycine   1457940 1457845 -  cm    no 0.67  Glycine riboswitch
+ (17) !   4.2e-10   50.6   1.8  Cobalamin 1975624 1975766 +  cm    no 0.70  Cobalamin riboswitch
+ (18) !   2.2e-09   60.9   3.8  TPP       2264723 2264834 +  cm    no 0.72  TPP riboswitch (THI element)
+ (19) !     6e-08   55.1   0.0  TPP       6144276 6144381 +  cm    no 0.65  TPP riboswitch (THI element)
+ (20) !   5.4e-07   40.3   2.3  Cobalamin 2491712 2491802 +  cm    no 0.75  Cobalamin riboswitch
+ (21) !   6.4e-07   40.0   0.1  Cobalamin 8020097 8020176 +  cm    no 0.71  Cobalamin riboswitch
+ (22) !   1.8e-06   38.5   0.0  Cobalamin 5688533 5688383 -  cm    no 0.65  Cobalamin riboswitch
+ (23) !     2e-06   56.6   0.5  ZMP-ZTP   5269269 5269358 +  cm    no 0.72  ZMP/ZTP riboswitch
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query sequence(s):                                               1  (17335328 residues searched)
+Query sequences re-searched for truncated hits:                  1  (783.0 residues re-searched, avg per model)
+Target model(s):                                                40  (4091 consensus positions)
+Windows   passing  local HMM SSV           filter:          459156  (0.1203); expected (0.06)
+Windows   passing  local HMM Viterbi       filter:          116229  (0.03046); expected (0.02)
+Windows   passing  local HMM Viterbi  bias filter:           51439  (0.01344); expected (0.02)
+Windows   passing  local HMM Forward       filter:            5042  (0.001514); expected (0.0002)
+Windows   passing  local HMM Forward  bias filter:            2270  (0.0007634); expected (0.0002)
+Windows   passing glocal HMM Forward       filter:            1328  (0.0004344); expected (0.0002)
+Windows   passing glocal HMM Forward  bias filter:            1147  (0.0003657); expected (0.0002)
+Envelopes passing glocal HMM envelope defn filter:            1186  (0.0001935); expected (0.0002)
+Envelopes passing  local CM  CYK           filter:             519  (6.838e-05); expected (0.0001)
+Total CM hits reported:                                         23  (4.58e-06); includes 0 truncated hit(s)
+
+# CPU time: 30.86u 0.39s 00:00:31.25 Elapsed: 00:00:16.76
+//
+[ok]
+
+Successfully completed cmscan for Scoelicolor.GCA_008931305.1_ASM893130v1_genomic.fna against riboswitches_14.9.cm on worker 0.
+# cmscan :: search sequence(s) against a CM database
+# INFERNAL 1.1.4 (Dec 2020)
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query sequence file:                   /users/PDS0325/sachitk26/packages/tart/validation/genomes/Selongatus.GCA_000012525.1.fna
+# target CM database:                    /users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm
+# tabular output of hits:                /users/PDS0325/sachitk26/packages/tart/validation/infernal/results/Selongatus.GCA_000012525.1.fna.txt
+# show alignments in output:             no
+# model-specific thresholding:           GA cutoffs
+# Rfam pipeline mode:                    on [strict filtering]
+# HMM-only mode for 0 basepair models:   no
+# number of worker threads:              40
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       CP000100.1  [L=2695903]
+Description: Synechococcus elongatus PCC 7942 = FACHB-805 strain PCC 7942 chromosome, complete genome
+Hit scores:
+ rank     E-value  score  bias  modelname   start     end   mdl trunc   gc  description
+ ----   --------- ------ -----  --------- ------- -------   --- ----- ----  -----------
+  (1) !   3.3e-13   59.3   0.0  Cobalamin 1414147 1414004 -  cm    no 0.51  Cobalamin riboswitch
+  (2) !   4.9e-10   61.5   0.0  TPP       1114939 1114842 -  cm    no 0.56  TPP riboswitch (THI element)
+  (3) !   2.7e-07   46.6   0.0  Fluoride  2263916 2263989 +  cm    no 0.59  Fluoride riboswitch (crcB)
+  (4) !   1.1e-06   43.8   0.0  glnA      2611130 2611074 -  cm    no 0.54  Glutamine riboswitch
+  (5) !   7.3e-06   34.8   0.0  Cobalamin 1919127 1919314 +  cm    no 0.47  Cobalamin riboswitch
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query sequence(s):                                               1  (5391806 residues searched)
+Query sequences re-searched for truncated hits:                  1  (783.0 residues re-searched, avg per model)
+Target model(s):                                                40  (4091 consensus positions)
+Windows   passing  local HMM SSV           filter:          105145  (0.08602); expected (0.06)
+Windows   passing  local HMM Viterbi       filter:           22547  (0.0178); expected (0.02)
+Windows   passing  local HMM Viterbi  bias filter:           20057  (0.01576); expected (0.02)
+Windows   passing  local HMM Forward       filter:             566  (0.0004963); expected (0.0002)
+Windows   passing  local HMM Forward  bias filter:             469  (0.000408); expected (0.0002)
+Windows   passing glocal HMM Forward       filter:             339  (0.0003019); expected (0.0002)
+Windows   passing glocal HMM Forward  bias filter:             335  (0.0002989); expected (0.0002)
+Envelopes passing glocal HMM envelope defn filter:             332  (0.0001603); expected (0.0002)
+Envelopes passing  local CM  CYK           filter:              91  (3.19e-05); expected (0.0001)
+Total CM hits reported:                                          5  (2.601e-06); includes 0 truncated hit(s)
+
+# CPU time: 6.94u 0.19s 00:00:07.13 Elapsed: 00:00:03.73
+//
+Query:       CP000101.1  [L=46366]
+Description: Synechococcus elongatus PCC 7942 = FACHB-805 strain PCC 7942 plasmid 1, complete sequence
+Hit scores:
+ rank     E-value  score  bias  modelname  start    end   mdl trunc   gc  description
+ ----   --------- ------ -----  --------- ------ ------   --- ----- ----  -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query sequence(s):                                               1  (92732 residues searched)
+Query sequences re-searched for truncated hits:                  1  (783.0 residues re-searched, avg per model)
+Target model(s):                                                40  (4091 consensus positions)
+Windows   passing  local HMM SSV           filter:            1739  (0.08207); expected (0.06)
+Windows   passing  local HMM Viterbi       filter:             369  (0.01661); expected (0.02)
+Windows   passing  local HMM Viterbi  bias filter:             336  (0.01529); expected (0.02)
+Windows   passing  local HMM Forward       filter:              10  (0.0004903); expected (0.0002)
+Windows   passing  local HMM Forward  bias filter:              10  (0.0004903); expected (0.0002)
+Windows   passing glocal HMM Forward       filter:               8  (0.0004376); expected (0.0002)
+Windows   passing glocal HMM Forward  bias filter:               8  (0.0004376); expected (0.0002)
+Envelopes passing glocal HMM envelope defn filter:               8  (0.0001917); expected (0.0002)
+Envelopes passing  local CM  CYK           filter:               1  (1.657e-05); expected (0.0001)
+Total CM hits reported:                                          0  (0); includes 0 truncated hit(s)
+
+# CPU time: 0.16u 0.01s 00:00:00.17 Elapsed: 00:00:00.10
+//
+[ok]
+
+Successfully completed cmscan for Selongatus.GCA_000012525.1.fna against riboswitches_14.9.cm on worker 0.
+# cmscan :: search sequence(s) against a CM database
+# INFERNAL 1.1.4 (Dec 2020)
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query sequence file:                   /users/PDS0325/sachitk26/packages/tart/validation/genomes/Spcc6803.GCA_018845095.1_ASM1884509v1_genomic.fna
+# target CM database:                    /users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm
+# tabular output of hits:                /users/PDS0325/sachitk26/packages/tart/validation/infernal/results/Spcc6803.GCA_018845095.1_ASM1884509v1_genomic.fna.txt
+# show alignments in output:             no
+# model-specific thresholding:           GA cutoffs
+# Rfam pipeline mode:                    on [strict filtering]
+# HMM-only mode for 0 basepair models:   no
+# number of worker threads:              40
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       CP073017.1  [L=3571181]
+Description: Synechocystis sp. PCC 6803 chromosome, complete genome
+Hit scores:
+ rank     E-value  score  bias  modelname   start     end   mdl trunc   gc  description
+ ----   --------- ------ -----  --------- ------- -------   --- ----- ----  -----------
+  (1) !   5.7e-14   84.8   0.0  ykkC-yxkD  801490  801369 -  cm    no 0.52  Guanidine-I riboswitch
+  (2) !   1.7e-13   66.4   0.0  ydaO-yuaA 3420285 3420434 +  cm    no 0.47  ydaO/yuaA leader
+  (3) !   1.1e-12   57.9   0.0  Cobalamin 1260133 1260273 +  cm    no 0.56  Cobalamin riboswitch
+  (4) !   2.9e-11   60.9   0.0  glnA       459053  458992 -  cm    no 0.44  Glutamine riboswitch
+  (5) !   1.8e-10   63.8   0.0  TPP       2997973 2998068 +  cm    no 0.51  TPP riboswitch (THI element)
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query sequence(s):                                               1  (7142362 residues searched)
+Query sequences re-searched for truncated hits:                  1  (783.0 residues re-searched, avg per model)
+Target model(s):                                                40  (4091 consensus positions)
+Windows   passing  local HMM SSV           filter:          148431  (0.09132); expected (0.06)
+Windows   passing  local HMM Viterbi       filter:           31834  (0.01901); expected (0.02)
+Windows   passing  local HMM Viterbi  bias filter:           28611  (0.0172); expected (0.02)
+Windows   passing  local HMM Forward       filter:             900  (0.000613); expected (0.0002)
+Windows   passing  local HMM Forward  bias filter:             785  (0.0005419); expected (0.0002)
+Windows   passing glocal HMM Forward       filter:             559  (0.0003659); expected (0.0002)
+Windows   passing glocal HMM Forward  bias filter:             551  (0.0003599); expected (0.0002)
+Envelopes passing glocal HMM envelope defn filter:             540  (0.0001917); expected (0.0002)
+Envelopes passing  local CM  CYK           filter:             182  (4.895e-05); expected (0.0001)
+Total CM hits reported:                                          5  (1.998e-06); includes 0 truncated hit(s)
+
+# CPU time: 9.85u 0.23s 00:00:10.08 Elapsed: 00:00:05.35
+//
+Query:       CP073022.1  [L=2378]
+Description: Synechocystis sp. PCC 6803 plasmid pCA, complete sequence
+Hit scores:
+ rank     E-value  score  bias  modelname  start    end   mdl trunc   gc  description
+ ----   --------- ------ -----  --------- ------ ------   --- ----- ----  -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query sequence(s):                                               1  (4756 residues searched)
+Query sequences re-searched for truncated hits:                  1  (783.0 residues re-searched, avg per model)
+Target model(s):                                                40  (4091 consensus positions)
+Windows   passing  local HMM SSV           filter:              77  (0.05975); expected (0.06)
+Windows   passing  local HMM Viterbi       filter:              18  (0.01327); expected (0.02)
+Windows   passing  local HMM Viterbi  bias filter:              18  (0.01327); expected (0.02)
+Windows   passing  local HMM Forward       filter:               1  (0.001115); expected (0.0002)
+Windows   passing  local HMM Forward  bias filter:               1  (0.001115); expected (0.0002)
+Windows   passing glocal HMM Forward       filter:               0  (0); expected (0.0002)
+Windows   passing glocal HMM Forward  bias filter:               0  (0); expected (0.0002)
+Envelopes passing glocal HMM envelope defn filter:               0  (0); expected (0.0002)
+Envelopes passing  local CM  CYK           filter:               0  (0); expected (0.0001)
+Total CM hits reported:                                          0  (0); includes 0 truncated hit(s)
+
+# CPU time: 0.02u 0.01s 00:00:00.03 Elapsed: 00:00:00.02
+//
+Query:       CP073023.1  [L=2344]
+Description: Synechocystis sp. PCC 6803 plasmid pCB, complete sequence
+Hit scores:
+ rank     E-value  score  bias  modelname  start    end   mdl trunc   gc  description
+ ----   --------- ------ -----  --------- ------ ------   --- ----- ----  -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query sequence(s):                                               1  (4688 residues searched)
+Query sequences re-searched for truncated hits:                  1  (783.0 residues re-searched, avg per model)
+Target model(s):                                                40  (4091 consensus positions)
+Windows   passing  local HMM SSV           filter:              95  (0.07111); expected (0.06)
+Windows   passing  local HMM Viterbi       filter:              20  (0.01442); expected (0.02)
+Windows   passing  local HMM Viterbi  bias filter:              19  (0.01375); expected (0.02)
+Windows   passing  local HMM Forward       filter:               0  (0); expected (0.0002)
+Windows   passing  local HMM Forward  bias filter:               0  (0); expected (0.0002)
+Windows   passing glocal HMM Forward       filter:               0  (0); expected (0.0002)
+Windows   passing glocal HMM Forward  bias filter:               0  (0); expected (0.0002)
+Envelopes passing glocal HMM envelope defn filter:               0  (0); expected (0.0002)
+Envelopes passing  local CM  CYK           filter:               0  (0); expected (0.0001)
+Total CM hits reported:                                          0  (0); includes 0 truncated hit(s)
+
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.01
+//
+Query:       CP073020.1  [L=103307]
+Description: Synechocystis sp. PCC 6803 plasmid pSYSA, complete sequence
+Hit scores:
+ rank     E-value  score  bias  modelname  start    end   mdl trunc   gc  description
+ ----   --------- ------ -----  --------- ------ ------   --- ----- ----  -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query sequence(s):                                               1  (206614 residues searched)
+Query sequences re-searched for truncated hits:                  1  (783.0 residues re-searched, avg per model)
+Target model(s):                                                40  (4091 consensus positions)
+Windows   passing  local HMM SSV           filter:            3980  (0.08112); expected (0.06)
+Windows   passing  local HMM Viterbi       filter:             851  (0.01672); expected (0.02)
+Windows   passing  local HMM Viterbi  bias filter:             757  (0.01493); expected (0.02)
+Windows   passing  local HMM Forward       filter:              28  (0.0006243); expected (0.0002)
+Windows   passing  local HMM Forward  bias filter:              26  (0.0005847); expected (0.0002)
+Windows   passing glocal HMM Forward       filter:              19  (0.0004247); expected (0.0002)
+Windows   passing glocal HMM Forward  bias filter:              19  (0.0004247); expected (0.0002)
+Envelopes passing glocal HMM envelope defn filter:              19  (0.0002021); expected (0.0002)
+Envelopes passing  local CM  CYK           filter:               6  (4.773e-05); expected (0.0001)
+Total CM hits reported:                                          0  (0); includes 0 truncated hit(s)
+
+# CPU time: 0.35u 0.01s 00:00:00.36 Elapsed: 00:00:00.21
+//
+Query:       CP073021.1  [L=44343]
+Description: Synechocystis sp. PCC 6803 plasmid pSYSG, complete sequence
+Hit scores:
+ rank     E-value  score  bias  modelname  start    end   mdl trunc   gc  description
+ ----   --------- ------ -----  --------- ------ ------   --- ----- ----  -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query sequence(s):                                               1  (88686 residues searched)
+Query sequences re-searched for truncated hits:                  1  (783.0 residues re-searched, avg per model)
+Target model(s):                                                40  (4091 consensus positions)
+Windows   passing  local HMM SSV           filter:            1609  (0.0778); expected (0.06)
+Windows   passing  local HMM Viterbi       filter:             338  (0.01541); expected (0.02)
+Windows   passing  local HMM Viterbi  bias filter:             298  (0.01354); expected (0.02)
+Windows   passing  local HMM Forward       filter:              13  (0.0005027); expected (0.0002)
+Windows   passing  local HMM Forward  bias filter:              12  (0.0004714); expected (0.0002)
+Windows   passing glocal HMM Forward       filter:               8  (0.0003725); expected (0.0002)
+Windows   passing glocal HMM Forward  bias filter:               8  (0.0003725); expected (0.0002)
+Envelopes passing glocal HMM envelope defn filter:               9  (0.0002001); expected (0.0002)
+Envelopes passing  local CM  CYK           filter:               3  (4.583e-05); expected (0.0001)
+Total CM hits reported:                                          0  (0); includes 0 truncated hit(s)
+
+# CPU time: 0.11u 0.00s 00:00:00.11 Elapsed: 00:00:00.06
+//
+Query:       CP073018.1  [L=118712]
+Description: Synechocystis sp. PCC 6803 plasmid pSYSM, complete sequence
+Hit scores:
+ rank     E-value  score  bias  modelname  start    end   mdl trunc   gc  description
+ ----   --------- ------ -----  --------- ------ ------   --- ----- ----  -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query sequence(s):                                               1  (237424 residues searched)
+Query sequences re-searched for truncated hits:                  1  (783.0 residues re-searched, avg per model)
+Target model(s):                                                40  (4091 consensus positions)
+Windows   passing  local HMM SSV           filter:            4394  (0.08052); expected (0.06)
+Windows   passing  local HMM Viterbi       filter:             978  (0.01686); expected (0.02)
+Windows   passing  local HMM Viterbi  bias filter:             833  (0.01442); expected (0.02)
+Windows   passing  local HMM Forward       filter:              23  (0.0004616); expected (0.0002)
+Windows   passing  local HMM Forward  bias filter:              20  (0.0004063); expected (0.0002)
+Windows   passing glocal HMM Forward       filter:              12  (0.0002404); expected (0.0002)
+Windows   passing glocal HMM Forward  bias filter:              12  (0.0002404); expected (0.0002)
+Envelopes passing glocal HMM envelope defn filter:              12  (0.00011); expected (0.0002)
+Envelopes passing  local CM  CYK           filter:               5  (3.516e-05); expected (0.0001)
+Total CM hits reported:                                          0  (0); includes 0 truncated hit(s)
+
+# CPU time: 0.24u 0.01s 00:00:00.25 Elapsed: 00:00:00.14
+//
+Query:       CP073019.1  [L=105279]
+Description: Synechocystis sp. PCC 6803 plasmid pSYSX, complete sequence
+Hit scores:
+ rank     E-value  score  bias  modelname  start    end   mdl trunc   gc  description
+ ----   --------- ------ -----  --------- ------ ------   --- ----- ----  -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Internal CM pipeline statistics summary:
+----------------------------------------
+Query sequence(s):                                               1  (210558 residues searched)
+Query sequences re-searched for truncated hits:                  1  (783.0 residues re-searched, avg per model)
+Target model(s):                                                40  (4091 consensus positions)
+Windows   passing  local HMM SSV           filter:            4085  (0.08319); expected (0.06)
+Windows   passing  local HMM Viterbi       filter:             907  (0.01766); expected (0.02)
+Windows   passing  local HMM Viterbi  bias filter:             792  (0.0153); expected (0.02)
+Windows   passing  local HMM Forward       filter:              54  (0.0009694); expected (0.0002)
+Windows   passing  local HMM Forward  bias filter:              47  (0.0008401); expected (0.0002)
+Windows   passing glocal HMM Forward       filter:              25  (0.0004723); expected (0.0002)
+Windows   passing glocal HMM Forward  bias filter:              23  (0.0004426); expected (0.0002)
+Envelopes passing glocal HMM envelope defn filter:              24  (0.0002621); expected (0.0002)
+Envelopes passing  local CM  CYK           filter:               3  (3.005e-05); expected (0.0001)
+Total CM hits reported:                                          0  (0); includes 0 truncated hit(s)
+
+# CPU time: 0.33u 0.00s 00:00:00.33 Elapsed: 00:00:00.18
+//
+[ok]
+
+Successfully completed cmscan for Spcc6803.GCA_018845095.1_ASM1884509v1_genomic.fna against riboswitches_14.9.cm on worker 0.
