@@ -7,7 +7,7 @@
 #SBATCH --mail-type=BEGIN,END,FAIL
 
 # RUN THIS TO LAUNCH JOB
-## sbatch --output=jobs/filter_BAM_plots.out.$(date +"%Y-%m-%d_%H-%M-%S").%j filter_BAM_plots.sh
+## sbatch --output=jobs/filter_BAM_plots.out.$(date +"%Y-%m-%d_%H-%M-%S").%j 7.filter_BAM_plots.sh
 
 # set -x
 set echo on
