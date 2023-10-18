@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #SBATCH --time=00:15:00
-#SBATCH --nodes=5 --cpus-per-task=1
+#SBATCH --nodes=2 --cpus-per-task=1
 
 #SBATCH --account=PDS0325
 #SBATCH --mail-type=BEGIN,END,FAIL
@@ -20,7 +20,6 @@ D_ROOT="$RT/validation/alignment/outputs/$DSET"
 PICKLE_ROOT="$D_ROOT/plots/picks"
 SAVE_ROOT="$D_ROOT/plots/"
 
-mpiexec tart-targeted filter -i $PICKLE_ROOT -o $SAVE_ROOT &&
-    wait
+mpiexec tart-targeted filter -i $PICKLE_ROOT -o $SAVE_ROOT
 
 echo "Finished filtering outputs for $DSET into $SAVE_ROOT"
