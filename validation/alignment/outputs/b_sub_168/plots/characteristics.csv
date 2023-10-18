@@ -1,4 +1,4 @@
-rowid,transcriptome,decision,coverage_delta,coverage_delta_relative,negative_delta_noiseset,from_riboswith_end,from_riboswith_end_relative,decision_note
+rowid,transcriptome,decision,coverage_delta,coverage_delta_relative,coverage_delta_noiseset,from_riboswith_end,from_riboswith_end_relative,decision_note
 glmS#NC_000964.3#200017#200187#+,glmS.SRR22500475,pass,-2943.0,-0.3251215201060539,"[532.0, -197.0, 445.0, 782.0, 346.0, -314.0, 580.0, 240.0, -918.0, 430.0, -1275.0, 3278.0, 600.0, 1818.0, 15.0, 17.0, -141.0, -128.0, -761.0]",129.0,0.7588235294117647,
 glmS#NC_000964.3#200017#200187#+,glmS.SRR22500474,pass,-2687.0,-0.33726622317057864,"[485.0, -185.0, 422.0, 745.0, 312.0, -369.0, 347.0, 188.0, -878.0, 381.0, -1119.0, 3090.0, 448.0, 1473.0, 8.0, -5.0, 23.0, -95.0, -130.0, -710.0]",130.0,0.7647058823529411,
 glmS#NC_000964.3#200017#200187#+,glmS.SRR22500473,pass,-3656.0,-0.3636001989060169,"[592.0, -148.0, 427.0, 923.0, 732.0, 491.0, -644.0, 793.0, 242.0, -1153.0, 452.0, 3765.0, -1420.0, 595.0, 1742.0, 1462.0, 37.0, -93.0, -172.0, -835.0]",130.0,0.7647058823529411,
