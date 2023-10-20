@@ -7,7 +7,7 @@
 #SBATCH --mail-type=BEGIN,END,FAIL
 
 # RUN THIS TO LAUNCH JOB
-## sbatch --output=jobs/parse_BAMs.out.$(date +"%Y-%m-%d_%H-%M-%S").%j parse_BAMs.sh
+## sbatch --output=jobs/parse_BAMs.out.$(date +"%Y-%m-%d_%H-%M-%S").%j 6.parse_BAMs.sh
 
 set echo on
 
@@ -20,7 +20,7 @@ BAM_DIR="$RT/validation/alignment/outputs/$DSET/switch_seqs_delta500/alignments_
 SAVE_ROOT="$RT/validation/alignment/outputs/$DSET/plots/picks"
 BOUNDS_PATH="$RT/validation/alignment/outputs/$DSET/rowid_to_bounds.json"
 
-mpiexec tart-targeted parse_bam -i $BAM_DIR -o $SAVE_ROOT --bounds-file $BOUNDS_PATH --picks &&
+mpiexec tart-targeted parse_bam -i $BAM_DIR -o $SAVE_ROOT --bounds-file $BOUNDS_PATH --picks --allow-soft-clips &&
     wait
 
 echo "Finished BAM parsing for $DSET into $SAVE_ROOT"
