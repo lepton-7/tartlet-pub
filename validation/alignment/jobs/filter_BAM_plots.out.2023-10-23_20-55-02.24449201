@@ -1,0 +1,231 @@
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return __callback(*args, **kwargs)
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/filter_BAM_plots.py", line 72, in exec_main
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    main(pick_root, out_dir, bin_size, min_cov_depth, ext_prop)
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/filter_BAM_plots.py", line 72, in exec_main
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/filter_BAM_plots.py", line 130, in main
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/filter_BAM_plots.py", line 72, in exec_main
+    cand: Candidate = has_candidate_peak(
+                      ^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/activity_inference.py", line 518, in has_candidate_peak
+    main(pick_root, out_dir, bin_size, min_cov_depth, ext_prop)
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/filter_BAM_plots.py", line 130, in main
+    main(pick_root, out_dir, bin_size, min_cov_depth, ext_prop)
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/filter_BAM_plots.py", line 130, in main
+    cand: Candidate = has_candidate_peak(
+                      ^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/activity_inference.py", line 518, in has_candidate_peak
+    cand_obj = Candidate(cand, switch_size, nocand_cov_delta, alignDat)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/activity_inference.py", line 271, in __init__
+    cand: Candidate = has_candidate_peak(
+                      ^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/activity_inference.py", line 518, in has_candidate_peak
+    cand_obj = Candidate(cand, switch_size, nocand_cov_delta, alignDat)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/activity_inference.py", line 271, in __init__
+    self.set_frags_ending_at_peak(alignDat.fragments)
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/activity_inference.py", line 223, in set_frags_ending_at_peak
+    self.set_frags_ending_at_peak(alignDat.fragments)
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/activity_inference.py", line 223, in set_frags_ending_at_peak
+    cand_obj = Candidate(cand, switch_size, nocand_cov_delta, alignDat)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/activity_inference.py", line 271, in __init__
+    s_off = min(starts)
+            ^^^^^^^^^^^
+ValueError: min() arg is an empty sequence
+    s_off = min(starts)
+            ^^^^^^^^^^^
+ValueError: min() arg is an empty sequence
+    self.set_frags_ending_at_peak(alignDat.fragments)
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/activity_inference.py", line 223, in set_frags_ending_at_peak
+    s_off = min(starts)
+            ^^^^^^^^^^^
+ValueError: min() arg is an empty sequence
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/filter_BAM_plots.py", line 72, in exec_main
+    main(pick_root, out_dir, bin_size, min_cov_depth, ext_prop)
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/filter_BAM_plots.py", line 130, in main
+    cand: Candidate = has_candidate_peak(
+                      ^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/activity_inference.py", line 518, in has_candidate_peak
+    cand_obj = Candidate(cand, switch_size, nocand_cov_delta, alignDat)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/activity_inference.py", line 271, in __init__
+    self.set_frags_ending_at_peak(alignDat.fragments)
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/activity_inference.py", line 223, in set_frags_ending_at_peak
+    s_off = min(starts)
+            ^^^^^^^^^^^
+ValueError: min() arg is an empty sequence
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/filter_BAM_plots.py", line 72, in exec_main
+    main(pick_root, out_dir, bin_size, min_cov_depth, ext_prop)
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/filter_BAM_plots.py", line 130, in main
+    cand: Candidate = has_candidate_peak(
+                      ^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/activity_inference.py", line 518, in has_candidate_peak
+    cand_obj = Candidate(cand, switch_size, nocand_cov_delta, alignDat)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/activity_inference.py", line 271, in __init__
+    self.set_frags_ending_at_peak(alignDat.fragments)
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/activity_inference.py", line 223, in set_frags_ending_at_peak
+    s_off = min(starts)
+            ^^^^^^^^^^^
+ValueError: min() arg is an empty sequence
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/filter_BAM_plots.py", line 72, in exec_main
+    main(pick_root, out_dir, bin_size, min_cov_depth, ext_prop)
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/filter_BAM_plots.py", line 130, in main
+    cand: Candidate = has_candidate_peak(
+                      ^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/activity_inference.py", line 518, in has_candidate_peak
+    cand_obj = Candidate(cand, switch_size, nocand_cov_delta, alignDat)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/activity_inference.py", line 271, in __init__
+    self.set_frags_ending_at_peak(alignDat.fragments)
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/activity_inference.py", line 223, in set_frags_ending_at_peak
+    s_off = min(starts)
+            ^^^^^^^^^^^
+ValueError: min() arg is an empty sequence
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/filter_BAM_plots.py", line 72, in exec_main
+    main(pick_root, out_dir, bin_size, min_cov_depth, ext_prop)
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/filter_BAM_plots.py", line 130, in main
+    cand: Candidate = has_candidate_peak(
+                      ^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/activity_inference.py", line 518, in has_candidate_peak
+    cand_obj = Candidate(cand, switch_size, nocand_cov_delta, alignDat)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/activity_inference.py", line 271, in __init__
+    self.set_frags_ending_at_peak(alignDat.fragments)
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/activity_inference.py", line 223, in set_frags_ending_at_peak
+    s_off = min(starts)
+            ^^^^^^^^^^^
+ValueError: min() arg is an empty sequence

@@ -13,14 +13,14 @@ set echo on
 
 RT="$HOME/packages/tart"
 
-DATECODE="2023-09-29_00-47-50"
-DSET="s_spcc6803"
+DATECODE="2023-08-16_15-51-44"
+DSET="b_sub_168"
 
 BAM_DIR="$RT/validation/alignment/outputs/$DSET/switch_seqs_delta500/alignments_$DATECODE"
 SAVE_ROOT="$RT/validation/alignment/outputs/$DSET/plots/picks"
 BOUNDS_PATH="$RT/validation/alignment/outputs/$DSET/rowid_to_bounds.json"
 
-mpiexec tart-targeted parse_bam -i $BAM_DIR -o $SAVE_ROOT --bounds-file $BOUNDS_PATH --picks --allow-soft-clips &&
+mpiexec tart-targeted parse-bam -i $BAM_DIR -o $SAVE_ROOT --bounds-file $BOUNDS_PATH --picks --allow-soft-clips &&
     wait
 
 echo "Finished BAM parsing for $DSET into $SAVE_ROOT"

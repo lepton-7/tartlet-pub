@@ -1,0 +1,775 @@
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 620, in fetch_pairs
+    toRet.append(ReadPair(*pairlist))
+                 ^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 134, in __init__
+    self._compute_pair_orientation()
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 202, in _compute_pair_orientation
+    raise ValueError("More than two reads cannot be processed as a pair.")
+ValueError: More than two reads cannot be processed as a pair.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 85, in main
+    alignDat_arr = bam_wrap.generate_ref_alignment_data(allow_soft_clips)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 643, in generate_ref_alignment_data
+    readpairs = self.fetch_pairs(ref)
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 622, in fetch_pairs
+    echo("More than 2 reads assigned to pair: ", *pairlist)
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/utils.py", line 318, in echo
+    file.write(out)  # type: ignore
+    ^^^^^^^^^^
+AttributeError: 'Read' object has no attribute 'write'
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 620, in fetch_pairs
+    toRet.append(ReadPair(*pairlist))
+                 ^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 134, in __init__
+    self._compute_pair_orientation()
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 202, in _compute_pair_orientation
+    raise ValueError("More than two reads cannot be processed as a pair.")
+ValueError: More than two reads cannot be processed as a pair.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 85, in main
+    alignDat_arr = bam_wrap.generate_ref_alignment_data(allow_soft_clips)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 643, in generate_ref_alignment_data
+    readpairs = self.fetch_pairs(ref)
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 622, in fetch_pairs
+    echo("More than 2 reads assigned to pair: ", *pairlist)
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/utils.py", line 318, in echo
+    file.write(out)  # type: ignore
+    ^^^^^^^^^^
+AttributeError: 'Read' object has no attribute 'write'
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 620, in fetch_pairs
+    toRet.append(ReadPair(*pairlist))
+                 ^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 134, in __init__
+    self._compute_pair_orientation()
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 202, in _compute_pair_orientation
+    raise ValueError("More than two reads cannot be processed as a pair.")
+ValueError: More than two reads cannot be processed as a pair.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 85, in main
+    alignDat_arr = bam_wrap.generate_ref_alignment_data(allow_soft_clips)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 643, in generate_ref_alignment_data
+    readpairs = self.fetch_pairs(ref)
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 622, in fetch_pairs
+    echo("More than 2 reads assigned to pair: ", *pairlist)
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/utils.py", line 318, in echo
+    file.write(out)  # type: ignore
+    ^^^^^^^^^^
+AttributeError: 'Read' object has no attribute 'write'
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 620, in fetch_pairs
+    toRet.append(ReadPair(*pairlist))
+                 ^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 134, in __init__
+    self._compute_pair_orientation()
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 202, in _compute_pair_orientation
+    raise ValueError("More than two reads cannot be processed as a pair.")
+ValueError: More than two reads cannot be processed as a pair.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 85, in main
+    alignDat_arr = bam_wrap.generate_ref_alignment_data(allow_soft_clips)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 643, in generate_ref_alignment_data
+    readpairs = self.fetch_pairs(ref)
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 622, in fetch_pairs
+    echo("More than 2 reads assigned to pair: ", *pairlist)
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/utils.py", line 318, in echo
+    file.write(out)  # type: ignore
+    ^^^^^^^^^^
+AttributeError: 'Read' object has no attribute 'write'
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 620, in fetch_pairs
+    toRet.append(ReadPair(*pairlist))
+                 ^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 134, in __init__
+    self._compute_pair_orientation()
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 202, in _compute_pair_orientation
+    raise ValueError("More than two reads cannot be processed as a pair.")
+ValueError: More than two reads cannot be processed as a pair.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 85, in main
+    alignDat_arr = bam_wrap.generate_ref_alignment_data(allow_soft_clips)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 643, in generate_ref_alignment_data
+    readpairs = self.fetch_pairs(ref)
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 622, in fetch_pairs
+    echo("More than 2 reads assigned to pair: ", *pairlist)
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/utils.py", line 318, in echo
+    file.write(out)  # type: ignore
+    ^^^^^^^^^^
+AttributeError: 'Read' object has no attribute 'write'
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 620, in fetch_pairs
+    toRet.append(ReadPair(*pairlist))
+                 ^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 134, in __init__
+    self._compute_pair_orientation()
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 202, in _compute_pair_orientation
+    raise ValueError("More than two reads cannot be processed as a pair.")
+ValueError: More than two reads cannot be processed as a pair.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 85, in main
+    alignDat_arr = bam_wrap.generate_ref_alignment_data(allow_soft_clips)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 643, in generate_ref_alignment_data
+    readpairs = self.fetch_pairs(ref)
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 622, in fetch_pairs
+    echo("More than 2 reads assigned to pair: ", *pairlist)
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/utils.py", line 318, in echo
+    file.write(out)  # type: ignore
+    ^^^^^^^^^^
+AttributeError: 'Read' object has no attribute 'write'
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 620, in fetch_pairs
+    toRet.append(ReadPair(*pairlist))
+                 ^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 134, in __init__
+    self._compute_pair_orientation()
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 202, in _compute_pair_orientation
+    raise ValueError("More than two reads cannot be processed as a pair.")
+ValueError: More than two reads cannot be processed as a pair.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 85, in main
+    alignDat_arr = bam_wrap.generate_ref_alignment_data(allow_soft_clips)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 643, in generate_ref_alignment_data
+    readpairs = self.fetch_pairs(ref)
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 622, in fetch_pairs
+    echo("More than 2 reads assigned to pair: ", *pairlist)
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/utils.py", line 318, in echo
+    file.write(out)  # type: ignore
+    ^^^^^^^^^^
+AttributeError: 'Read' object has no attribute 'write'
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 620, in fetch_pairs
+    toRet.append(ReadPair(*pairlist))
+                 ^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 134, in __init__
+    self._compute_pair_orientation()
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 202, in _compute_pair_orientation
+    raise ValueError("More than two reads cannot be processed as a pair.")
+ValueError: More than two reads cannot be processed as a pair.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 85, in main
+    alignDat_arr = bam_wrap.generate_ref_alignment_data(allow_soft_clips)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 643, in generate_ref_alignment_data
+    readpairs = self.fetch_pairs(ref)
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 622, in fetch_pairs
+    echo("More than 2 reads assigned to pair: ", *pairlist)
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/utils.py", line 318, in echo
+    file.write(out)  # type: ignore
+    ^^^^^^^^^^
+AttributeError: 'Read' object has no attribute 'write'
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 620, in fetch_pairs
+    toRet.append(ReadPair(*pairlist))
+                 ^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 134, in __init__
+    self._compute_pair_orientation()
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 202, in _compute_pair_orientation
+    raise ValueError("More than two reads cannot be processed as a pair.")
+ValueError: More than two reads cannot be processed as a pair.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 85, in main
+    alignDat_arr = bam_wrap.generate_ref_alignment_data(allow_soft_clips)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 643, in generate_ref_alignment_data
+    readpairs = self.fetch_pairs(ref)
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 622, in fetch_pairs
+    echo("More than 2 reads assigned to pair: ", *pairlist)
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/utils.py", line 318, in echo
+    file.write(out)  # type: ignore
+    ^^^^^^^^^^
+AttributeError: 'Read' object has no attribute 'write'
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 620, in fetch_pairs
+    toRet.append(ReadPair(*pairlist))
+                 ^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 134, in __init__
+    self._compute_pair_orientation()
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 202, in _compute_pair_orientation
+    raise ValueError("More than two reads cannot be processed as a pair.")
+ValueError: More than two reads cannot be processed as a pair.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 85, in main
+    alignDat_arr = bam_wrap.generate_ref_alignment_data(allow_soft_clips)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 643, in generate_ref_alignment_data
+    readpairs = self.fetch_pairs(ref)
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 622, in fetch_pairs
+    echo("More than 2 reads assigned to pair: ", *pairlist)
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/utils.py", line 318, in echo
+    file.write(out)  # type: ignore
+    ^^^^^^^^^^
+AttributeError: 'Read' object has no attribute 'write'
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 620, in fetch_pairs
+    toRet.append(ReadPair(*pairlist))
+                 ^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 134, in __init__
+    self._compute_pair_orientation()
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 202, in _compute_pair_orientation
+    raise ValueError("More than two reads cannot be processed as a pair.")
+ValueError: More than two reads cannot be processed as a pair.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 85, in main
+    alignDat_arr = bam_wrap.generate_ref_alignment_data(allow_soft_clips)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 643, in generate_ref_alignment_data
+    readpairs = self.fetch_pairs(ref)
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 622, in fetch_pairs
+    echo("More than 2 reads assigned to pair: ", *pairlist)
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/utils.py", line 318, in echo
+    file.write(out)  # type: ignore
+    ^^^^^^^^^^
+AttributeError: 'Read' object has no attribute 'write'
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 620, in fetch_pairs
+    toRet.append(ReadPair(*pairlist))
+                 ^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 134, in __init__
+    self._compute_pair_orientation()
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 202, in _compute_pair_orientation
+    raise ValueError("More than two reads cannot be processed as a pair.")
+ValueError: More than two reads cannot be processed as a pair.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 85, in main
+    alignDat_arr = bam_wrap.generate_ref_alignment_data(allow_soft_clips)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 643, in generate_ref_alignment_data
+    readpairs = self.fetch_pairs(ref)
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 622, in fetch_pairs
+    echo("More than 2 reads assigned to pair: ", *pairlist)
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/utils.py", line 318, in echo
+    file.write(out)  # type: ignore
+    ^^^^^^^^^^
+AttributeError: 'Read' object has no attribute 'write'
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 620, in fetch_pairs
+    toRet.append(ReadPair(*pairlist))
+                 ^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 134, in __init__
+    self._compute_pair_orientation()
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 202, in _compute_pair_orientation
+    raise ValueError("More than two reads cannot be processed as a pair.")
+ValueError: More than two reads cannot be processed as a pair.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 85, in main
+    alignDat_arr = bam_wrap.generate_ref_alignment_data(allow_soft_clips)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 643, in generate_ref_alignment_data
+    readpairs = self.fetch_pairs(ref)
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 622, in fetch_pairs
+    echo("More than 2 reads assigned to pair: ", *pairlist)
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/utils.py", line 318, in echo
+    file.write(out)  # type: ignore
+    ^^^^^^^^^^
+AttributeError: 'Read' object has no attribute 'write'
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 620, in fetch_pairs
+    toRet.append(ReadPair(*pairlist))
+                 ^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 134, in __init__
+    self._compute_pair_orientation()
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 202, in _compute_pair_orientation
+    raise ValueError("More than two reads cannot be processed as a pair.")
+ValueError: More than two reads cannot be processed as a pair.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 85, in main
+    alignDat_arr = bam_wrap.generate_ref_alignment_data(allow_soft_clips)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 643, in generate_ref_alignment_data
+    readpairs = self.fetch_pairs(ref)
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 622, in fetch_pairs
+    echo("More than 2 reads assigned to pair: ", *pairlist)
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/utils.py", line 318, in echo
+    file.write(out)  # type: ignore
+    ^^^^^^^^^^
+AttributeError: 'Read' object has no attribute 'write'
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 620, in fetch_pairs
+    toRet.append(ReadPair(*pairlist))
+                 ^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 134, in __init__
+    self._compute_pair_orientation()
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 202, in _compute_pair_orientation
+    raise ValueError("More than two reads cannot be processed as a pair.")
+ValueError: More than two reads cannot be processed as a pair.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 85, in main
+    alignDat_arr = bam_wrap.generate_ref_alignment_data(allow_soft_clips)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 643, in generate_ref_alignment_data
+    readpairs = self.fetch_pairs(ref)
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 622, in fetch_pairs
+    echo("More than 2 reads assigned to pair: ", *pairlist)
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/utils.py", line 318, in echo
+    file.write(out)  # type: ignore
+    ^^^^^^^^^^
+AttributeError: 'Read' object has no attribute 'write'
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 620, in fetch_pairs
+    toRet.append(ReadPair(*pairlist))
+                 ^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 134, in __init__
+    self._compute_pair_orientation()
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 202, in _compute_pair_orientation
+    raise ValueError("More than two reads cannot be processed as a pair.")
+ValueError: More than two reads cannot be processed as a pair.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 85, in main
+    alignDat_arr = bam_wrap.generate_ref_alignment_data(allow_soft_clips)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 643, in generate_ref_alignment_data
+    readpairs = self.fetch_pairs(ref)
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 622, in fetch_pairs
+    echo("More than 2 reads assigned to pair: ", *pairlist)
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/utils.py", line 318, in echo
+    file.write(out)  # type: ignore
+    ^^^^^^^^^^
+AttributeError: 'Read' object has no attribute 'write'
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 620, in fetch_pairs
+    toRet.append(ReadPair(*pairlist))
+                 ^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 134, in __init__
+    self._compute_pair_orientation()
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 202, in _compute_pair_orientation
+    raise ValueError("More than two reads cannot be processed as a pair.")
+ValueError: More than two reads cannot be processed as a pair.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 85, in main
+    alignDat_arr = bam_wrap.generate_ref_alignment_data(allow_soft_clips)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 643, in generate_ref_alignment_data
+    readpairs = self.fetch_pairs(ref)
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 622, in fetch_pairs
+    echo("More than 2 reads assigned to pair: ", *pairlist)
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/utils.py", line 318, in echo
+    file.write(out)  # type: ignore
+    ^^^^^^^^^^
+AttributeError: 'Read' object has no attribute 'write'
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 620, in fetch_pairs
+    toRet.append(ReadPair(*pairlist))
+                 ^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 134, in __init__
+    self._compute_pair_orientation()
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 202, in _compute_pair_orientation
+    raise ValueError("More than two reads cannot be processed as a pair.")
+ValueError: More than two reads cannot be processed as a pair.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 85, in main
+    alignDat_arr = bam_wrap.generate_ref_alignment_data(allow_soft_clips)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 643, in generate_ref_alignment_data
+    readpairs = self.fetch_pairs(ref)
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/read_parsing.py", line 622, in fetch_pairs
+    echo("More than 2 reads assigned to pair: ", *pairlist)
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/utils.py", line 318, in echo
+    file.write(out)  # type: ignore
+    ^^^^^^^^^^
+AttributeError: 'Read' object has no attribute 'write'
+Finished BAM parsing for b_sub_168 into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/b_sub_168/plots/picks
