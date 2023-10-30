@@ -20,6 +20,6 @@ D_ROOT="$RT/validation/alignment/outputs/$DSET"
 PICKLE_ROOT="$D_ROOT/plots/picks"
 SAVE_ROOT="$D_ROOT/plots/"
 
-mpiexec tart-targeted filter -i $PICKLE_ROOT -o $SAVE_ROOT --ext-prop -0.3 1.0
+mpiexec tart-targeted filter -i $PICKLE_ROOT -o $SAVE_ROOT --ext-prop -0.3 1.0 --conv
 
 echo "Finished filtering outputs for $DSET into $SAVE_ROOT"
