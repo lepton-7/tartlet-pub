@@ -13,7 +13,7 @@
 set echo on
 
 RT="$HOME/packages/tart"
-DSET="e_coli"
+DSET="b_sub_168"
 
 D_ROOT="$RT/validation/alignment/outputs/$DSET"
 
