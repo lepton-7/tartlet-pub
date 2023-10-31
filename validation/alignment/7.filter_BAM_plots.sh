@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --time=00:15:00
+#SBATCH --time=00:05:00
 #SBATCH --nodes=2 --cpus-per-task=1
 
 #SBATCH --account=PDS0325
