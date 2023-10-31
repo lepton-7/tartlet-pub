@@ -13,8 +13,8 @@ set echo on
 
 RT="$HOME/packages/tart"
 
-DATECODE="2023-08-14_11-02-43"
-DSET="e_coli"
+DATECODE="2023-08-16_15-51-44"
+DSET="b_sub_168"
 
 BAM_DIR="$RT/validation/alignment/outputs/$DSET/switch_seqs_delta500/alignments_$DATECODE"
 SAVE_ROOT="$RT/validation/alignment/outputs/$DSET/plots/picks"
