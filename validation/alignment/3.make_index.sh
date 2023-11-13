@@ -7,16 +7,16 @@
 #SBATCH --mail-type=BEGIN,END,FAIL
 
 # RUN THIS TO LAUNCH JOB
-## sbatch --output=jobs/make_index.out.$(date +"%Y-%m-%d_%H-%M-%S").%j make_index.sh
+## sbatch --output=jobs/3.make_index.out.$(date +"%Y-%m-%d_%H-%M-%S").%j 3.make_index.sh
 
 set echo on
 
-DSETS=("a_fischeri_ES114" "a_rabiei" "b_theta" "c_vibrioides" "s_coelicolor" "s_spcc6803")
+DSETS=("a_baum" "a_kunk" "k_pneum" "s_enter_typh" "s_sanguinis" "x_albi")
 
 for DSET in ${DSETS[@]}; do
 
     RT="$HOME/packages/tart"
-    REF_DIR="$RT/validation/alignment/outputs/$DSET/switch_seqs_delta500"
+    REF_DIR="$RT/validation/alignment/outputs/$DSET/switch_seqs_delta1000-1000"
 
     srun -n 1 tart-targeted index -i $REF_DIR -p 44
 
