@@ -12,7 +12,7 @@
 # --------------------------------
 
 # RUN THIS TO LAUNCH JOB
-## DATECODE="$(date +"%Y-%m-%d_%H-%M-%S")"; sbatch --output=jobs/4.align_reads.out.a_kunk.$DATECODE.%j 4.align_reads.sh
+## DATECODE="$(date +"%Y-%m-%d_%H-%M-%S")"; sbatch --output=jobs/4.align_reads.out.k_pneum.$DATECODE.%j 4.align_reads.sh
 
 # set -x
 set echo on
@@ -20,7 +20,7 @@ set echo on
 IDX=$((SLURM_ARRAY_TASK_ID))
 
 DATECODE="20231113"
-DSET="a_kunk"
+DSET="k_pneum"
 
 RT="$HOME/packages/tart"
 
