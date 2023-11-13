@@ -6,21 +6,30 @@ tax_cache = {}
 
 # %%
 # infernal output tables and dataset identifiers
-files = {
-    "ecoli": (r"./results/Ecoli.NC_000913.3.fna.txt", "e_coli"),
-    "bsub": (r"./results/Bsubtilis168.GCF_000009045.1.fna.txt", "b_sub_168"),
-    "pfluor": (r"./results/Pfluorescens.GCA_900215245.1.fna.txt", "p_fluor"),
-    "paeru": (r"./results/Paeruginosa.GCA_000006765.1.fna.txt", "p_aeru"),
-    "mtuber": (r"./results/MtuberculosisH37Rv.GCA_000195955.2.fna.txt", "m_tuber"),
-    "selon": (r"./results/Selongatus.GCA_000012525.1.fna.txt", "s_elon"),
-    "afischeri_ES114":(r"./results/AfischeriES114.GCA_000020845.1_ASM2084v1_genomic.fna.txt", "a_fischeri_ES114"),
-    "arabiei":(r"./results/Arabiei.GCA_004011695.2_ASM401169v2_genomic.fna.txt", "a_rabiei"),
-    "btheta":(r"./results/Bthetaiotaomicron.GCA_014131755.1_ASM1413175v1_genomic.fna.txt", "b_theta"),
-    "cvibrioides":(r"./results/Cvibrioides.GCA_000022005.1_ASM2200v1_genomic.fna.txt", "c_vibrioides"),
-    "scoelicolor":(r"./results/Scoelicolor.GCA_008931305.1_ASM893130v1_genomic.fna.txt", "s_coelicolor"),
-    "sspcc6803":(r"./results/Spcc6803.GCA_018845095.1_ASM1884509v1_genomic.fna.txt", "s_spcc6803"),
-}
-
+files = [
+    (r"./results/AbaumanniiGCA_008632635.1.fna.txt", "a_baum"),
+    (r"./results/AfischeriES114.GCA_000020845.1_ASM2084v1_genomic.fna.txt", "a_fisheri_ES114"),
+    (r"./results/Akunkeei.GCA_019575995.1.fna.txt", "a_kunk"),
+    (r"./results/Arabiei.GCA_004011695.2_ASM401169v2_genomic.fna.txt", "a_rabiei"),
+    (r"./results/Banthracis.GCA_000008445.1.fna.txt", "a_anth"),
+    (r"./results/Bsubtilis168.GCF_000009045.1.fna.txt", "b_sub_168"),
+    (r"./results/Bthetaiotaomicron.GCA_014131755.1_ASM1413175v1_genomic.fna.txt", "b_theta"),
+    (r"./results/Cvibrioides.GCA_000022005.1_ASM2200v1_genomic.fna.txt", "c_vibrioides"),
+    (r"./results/Ecoli.NC_000913.3.fna.txt", "e_coli"),
+    (r"./results/Kpneumoniae.GCA_000240185.2.fna.txt", "k_pneum"),
+    (r"./results/MtuberculosisH37Rv.GCA_000195955.2.fna.txt", "m_tuber"),
+    (r"./results/Ngonorrhoeae.GCA_013030075.1.fna.txt", "n_gonorr"),
+    (r"./results/Paeruginosa.GCA_000006765.1.fna.txt", "p_aeru"),
+    (r"./results/Pchlororaphisaureofaciens30-84.GCA_000281915.1.fna.txt", "p_cholor_aureo3084"),
+    (r"./results/Pfluorescens.GCA_900215245.1.fna.txt", "p_fluor"),
+    (r"./results/Psalmonis.GCA_009708955.1.fna.txt", "p_salmo"),
+    (r"./results/Scoelicolor.GCA_008931305.1_ASM893130v1_genomic.fna.txt", "s_coelicolor"),
+    (r"./results/Selongatus.GCA_000012525.1.fna.txt", "s_elon"),
+    (r"./results/SentericaTyph.GCA_000006945.2.fna.txt", "s_enter_typh"),
+    (r"./results/Spcc6803.GCA_018845095.1_ASM1884509v1_genomic.fna.txt", "s_spcc6803"),
+    (r"./results/SsanguinisSK36.GCA_000014205.1.fna.txt", "s_sanguinis"),
+    (r"./results/Xalbilineans.GCA_009931595.1.fna.txt", "x_albi"),
+]
 table_dir = "/users/PDS0325/sachitk26/packages/tart/validation/tables"
 
 
@@ -175,7 +184,7 @@ def parse_infernal(process_file, name):
 
 dfs = []
 for dataset in files:
-    path, name = files[dataset]
+    path, name = dataset
     dfs.append(parse_infernal(path, name))
 
 # %%

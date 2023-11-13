@@ -1,0 +1,60 @@
+#target name         accession query name           accession mdl mdl from   mdl to seq from   seq to strand trunc pass   gc  bias  score   E-value inc description of target
+#------------------- --------- -------------------- --------- --- -------- -------- -------- -------- ------ ----- ---- ---- ----- ------ --------- --- ---------------------
+M-box                RF00380   AE017334.2           -          cm        1      169  1510523  1510688      +    no    1 0.45   0.0  153.7   3.1e-35 !   M-box riboswitch (ykoK leader)
+Lysine               RF00168   AE017334.2           -          cm        1      183   855443   855262      -    no    1 0.45   0.0  125.9   4.3e-32 !   Lysine riboswitch
+Cobalamin            RF00174   AE017334.2           -          cm        1      189  3859351  3859538      +    no    1 0.40   0.0  122.0   9.1e-32 !   Cobalamin riboswitch
+Lysine               RF00168   AE017334.2           -          cm        1      183  2833773  2833965      +    no    1 0.42   0.0  124.3   1.3e-31 !   Lysine riboswitch
+Lysine               RF00168   AE017334.2           -          cm        1      183  1696955  1696769      -    no    1 0.37   0.2  123.7   1.8e-31 !   Lysine riboswitch
+Lysine               RF00168   AE017334.2           -          cm        1      183  1360986  1361167      +    no    1 0.36   2.7  121.3   9.2e-31 !   Lysine riboswitch
+glmS                 RF00234   AE017334.2           -          cm        1      171   157527   157682      +    no    1 0.43   0.0  120.0   4.3e-28 !   glmS glucosamine-6-phosphate activated ribozyme
+FMN                  RF00050   AE017334.2           -          cm        1      138  1422688  1422827      +    no    1 0.50   0.0  119.0   2.7e-27 !   FMN riboswitch (RFN element)
+FMN                  RF00050   AE017334.2           -          cm        1      138  3954013  3954156      +    no    1 0.51   0.0  116.9     1e-26 !   FMN riboswitch (RFN element)
+ydaO-yuaA            RF00379   AE017334.2           -          cm        1      136   761408   761553      +    no    1 0.47   0.0  113.5     2e-26 !   ydaO/yuaA leader
+ydaO-yuaA            RF00379   AE017334.2           -          cm        1      136   760272   760419      +    no    1 0.46   0.0  109.4   2.8e-25 !   ydaO/yuaA leader
+SAM                  RF00162   AE017334.2           -          cm        1      108  4074410  4074519      +    no    1 0.40   0.0  100.7   2.3e-23 !   SAM riboswitch (S box leader)
+ydaO-yuaA            RF00379   AE017334.2           -          cm        1      136  1768224  1768370      +    no    1 0.46   0.0  100.0   1.1e-22 !   ydaO/yuaA leader
+SAM                  RF00162   AE017334.2           -          cm        1      108   320605   320711      +    no    1 0.47   0.0   95.4   8.5e-22 !   SAM riboswitch (S box leader)
+SAM                  RF00162   AE017334.2           -          cm        1      108   177274   177160      -    no    1 0.48   0.0   93.1   3.9e-21 !   SAM riboswitch (S box leader)
+ydaO-yuaA            RF00379   AE017334.2           -          cm        1      136  3137020  3137161      +    no    1 0.47   0.0   93.8     6e-21 !   ydaO/yuaA leader
+SAM                  RF00162   AE017334.2           -          cm        1      108  1362780  1362888      +    no    1 0.47   0.0   91.4   1.2e-20 !   SAM riboswitch (S box leader)
+SAM                  RF00162   AE017334.2           -          cm        1      108  2953356  2953255      -    no    1 0.46   0.0   91.4   1.2e-20 !   SAM riboswitch (S box leader)
+SAM                  RF00162   AE017334.2           -          cm        1      108  4740103  4739996      -    no    1 0.49   0.0   91.0   1.6e-20 !   SAM riboswitch (S box leader)
+SAM                  RF00162   AE017334.2           -          cm        1      108  4074207  4074098      -    no    1 0.45   0.0   91.0   1.6e-20 !   SAM riboswitch (S box leader)
+SAM                  RF00162   AE017334.2           -          cm        1      108   197187   197081      -    no    1 0.44   0.0   90.7   1.9e-20 !   SAM riboswitch (S box leader)
+SAM                  RF00162   AE017334.2           -          cm        1      108  5140450  5140345      -    no    1 0.45   0.0   90.7     2e-20 !   SAM riboswitch (S box leader)
+SAM                  RF00162   AE017334.2           -          cm        1      108  1375474  1375579      +    no    1 0.51   0.0   89.1   5.6e-20 !   SAM riboswitch (S box leader)
+SAM                  RF00162   AE017334.2           -          cm        1      108  3091806  3091708      -    no    1 0.51   0.0   88.2     1e-19 !   SAM riboswitch (S box leader)
+SAM                  RF00162   AE017334.2           -          cm        1      108   185584   185689      +    no    1 0.48   0.0   88.1   1.1e-19 !   SAM riboswitch (S box leader)
+SAM                  RF00162   AE017334.2           -          cm        1      108   371129   371017      -    no    1 0.42   0.0   86.8   2.6e-19 !   SAM riboswitch (S box leader)
+SAM                  RF00162   AE017334.2           -          cm        1      108  2459484  2459599      +    no    1 0.47   0.0   84.9   9.3e-19 !   SAM riboswitch (S box leader)
+SAM                  RF00162   AE017334.2           -          cm        1      108  3890865  3890724      -    no    1 0.49   0.0   80.9   1.3e-17 !   SAM riboswitch (S box leader)
+TPP                  RF00059   AE017334.2           -          cm        1      105  2433715  2433820      +    no    1 0.44   0.0   87.6   3.7e-16 !   TPP riboswitch (THI element)
+Purine               RF00167   AE017334.2           -          cm        1      102  1497694  1497795      +    no    1 0.37   0.0   91.4   5.6e-16 !   Purine riboswitch
+SAM                  RF00162   AE017334.2           -          cm        1      108  3893058  3893165      +    no    1 0.50   0.0   75.1   6.5e-16 !   SAM riboswitch (S box leader)
+SAM                  RF00162   AE017334.2           -          cm        1      108  4553811  4553690      -    no    1 0.53   0.0   73.3   2.2e-15 !   SAM riboswitch (S box leader)
+Purine               RF00167   AE017334.2           -          cm        1      102   262601   262702      +    no    1 0.41   0.0   86.9   7.3e-15 !   Purine riboswitch
+Purine               RF00167   AE017334.2           -          cm        1      102   342356   342255      -    no    1 0.37   0.0   86.4   9.7e-15 !   Purine riboswitch
+Purine               RF00167   AE017334.2           -          cm        1      102   260641   260742      +    no    1 0.37   0.0   85.5   1.6e-14 !   Purine riboswitch
+Purine               RF00167   AE017334.2           -          cm        1      102   295331   295432      +    no    1 0.41   0.0   84.4     3e-14 !   Purine riboswitch
+TPP                  RF00059   AE017334.2           -          cm        1      105  4953628  4953513      -    no    1 0.49   0.0   77.6   1.1e-13 !   TPP riboswitch (THI element)
+Purine               RF00167   AE017334.2           -          cm        1      102  3605425  3605324      -    no    1 0.40   0.0   78.9   6.8e-13 !   Purine riboswitch
+TPP                  RF00059   AE017334.2           -          cm        1      105   752272   752375      +    no    1 0.42   0.0   72.6   1.8e-12 !   TPP riboswitch (THI element)
+TPP                  RF00059   AE017334.2           -          cm        1      105   752099   752211      +    no    1 0.42   0.0   66.4   5.9e-11 !   TPP riboswitch (THI element)
+Glycine              RF00504   AE017334.2           -          cm        1       94  2221739  2221620      -    no    1 0.48   0.0   62.5   9.5e-11 !   Glycine riboswitch
+Fluoride             RF01734   AE017334.2           -          cm        1       64  4823859  4823918      +    no    1 0.43   0.0   60.1   1.2e-10 !   Fluoride riboswitch (crcB)
+TPP                  RF00059   AE017334.2           -          cm        1      105   399319   399420      +    no    1 0.47   0.0   63.9   2.4e-10 !   TPP riboswitch (THI element)
+yybP-ykoY            RF00080   AE017334.2           -          cm        1      175  1269290  1269126      -    no    1 0.39   0.0   48.0   2.1e-09 !   yybP-ykoY manganese riboswitch
+TPP                  RF00059   AE017334.2           -          cm        1      105  4589552  4589653      +    no    1 0.53   0.0   59.7   2.6e-09 !   TPP riboswitch (THI element)
+TPP                  RF00059   AE017334.2           -          cm        1      105   393914   394023      +    no    1 0.43   0.0   59.5   2.9e-09 !   TPP riboswitch (THI element)
+PreQ1                RF00522   AE017334.2           -          cm        1       45  1542522  1542566      +    no    1 0.38   0.0   55.1   3.5e-09 !   PreQ1 riboswitch
+PreQ1                RF00522   AE017334.2           -          cm        1       45  1298894  1298937      +    no    1 0.45   0.0   53.6   8.7e-09 !   PreQ1 riboswitch
+#
+# Program:         cmscan
+# Version:         1.1.4 (Dec 2020)
+# Pipeline mode:   SCAN
+# Query file:      /users/PDS0325/sachitk26/packages/tart/validation/genomes/Banthracis.GCA_000008445.1.fna
+# Target file:     /users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm
+# Option settings: cmscan --tblout /users/PDS0325/sachitk26/packages/tart/validation/infernal/results/Banthracis.GCA_000008445.1.fna.txt --noali --cut_ga --rfam --nohmmonly /users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm /users/PDS0325/sachitk26/packages/tart/validation/genomes/Banthracis.GCA_000008445.1.fna 
+# Current dir:     /users/PDS0325/sachitk26/packages/tart/validation/infernal
+# Date:            Mon Nov 13 12:32:49 2023
+# [ok]

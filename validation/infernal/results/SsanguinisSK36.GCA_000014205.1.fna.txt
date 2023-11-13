@@ -1,0 +1,18 @@
+#target name         accession query name           accession mdl mdl from   mdl to seq from   seq to strand trunc pass   gc  bias  score   E-value inc description of target
+#------------------- --------- -------------------- --------- --- -------- -------- -------- -------- ------ ----- ---- ---- ----- ------ --------- --- ---------------------
+FMN                  RF00050   CP000387.1           -          cm        1      138  1760462  1760315      -    no    1 0.49   0.0  111.7   1.2e-25 !   FMN riboswitch (RFN element)
+AdoCbl_riboswitch    RF01482   CP000387.1           -          cm        1      149   512706   512558      -    no    1 0.38   0.0  130.7   1.9e-25 !   AdoCbl riboswitch
+M-box                RF00380   CP000387.1           -          cm        1      169  1721468  1721312      -    no    1 0.46   0.0   89.3   1.2e-18 !   M-box riboswitch (ykoK leader)
+preQ1-II             RF01054   CP000387.1           -          cm        1       99  1493033  1492897      -    no    1 0.46   0.0   84.9   1.4e-14 !   preQ1-II (pre queuosine) riboswitch
+Glycine              RF00504   CP000387.1           -          cm        1       94   353820   353912      +    no    1 0.55   0.0   65.5     7e-12 !   Glycine riboswitch
+Cobalamin            RF00174   CP000387.1           -          cm        1      189   512702   512597      -    no    1 0.38   0.0   35.7   3.6e-06 !   Cobalamin riboswitch
+#
+# Program:         cmscan
+# Version:         1.1.4 (Dec 2020)
+# Pipeline mode:   SCAN
+# Query file:      /users/PDS0325/sachitk26/packages/tart/validation/genomes/SsanguinisSK36.GCA_000014205.1.fna
+# Target file:     /users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm
+# Option settings: cmscan --tblout /users/PDS0325/sachitk26/packages/tart/validation/infernal/results/SsanguinisSK36.GCA_000014205.1.fna.txt --noali --cut_ga --rfam --nohmmonly /users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm /users/PDS0325/sachitk26/packages/tart/validation/genomes/SsanguinisSK36.GCA_000014205.1.fna 
+# Current dir:     /users/PDS0325/sachitk26/packages/tart/validation/infernal
+# Date:            Mon Nov 13 12:32:44 2023
+# [ok]

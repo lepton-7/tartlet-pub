@@ -7,7 +7,7 @@
 #SBATCH --mail-type=BEGIN,END,FAIL
 
 # Change the output file to reflect input directory used
-## sbatch --output=jobs/multicore_infernal.out.$(date +"%Y-%m-%d_%H-%M-%S").%j multicore_infernal.sh
+## sbatch --output=jobs/1.infernal_genomes.out.$(date +"%Y-%m-%d_%H-%M-%S").%j 1.infernal_genomes.sh
 
 set echo on
 

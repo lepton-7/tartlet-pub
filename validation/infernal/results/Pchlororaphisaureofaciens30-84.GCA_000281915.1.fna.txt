@@ -1,0 +1,19 @@
+#target name         accession query name           accession mdl mdl from   mdl to seq from   seq to strand trunc pass   gc  bias  score   E-value inc description of target
+#------------------- --------- -------------------- --------- --- -------- -------- -------- -------- ------ ----- ---- ---- ----- ------ --------- --- ---------------------
+Cobalamin            RF00174   CM001559.1           -          cm        1      189  5094366  5094131      -    no    1 0.62   0.0  120.0   4.4e-31 !   Cobalamin riboswitch
+Cobalamin            RF00174   CM001559.1           -          cm        1      189  4210807  4210609      -    no    1 0.63   0.0  117.9   1.9e-30 !   Cobalamin riboswitch
+Cobalamin            RF00174   CM001559.1           -          cm        1      189  4210913  4211134      +    no    1 0.62   0.2  108.0   1.8e-27 !   Cobalamin riboswitch
+FMN                  RF00050   CM001559.1           -          cm        1      138  5169162  5169333      +    no    1 0.65   0.3  104.1   4.1e-23 !   FMN riboswitch (RFN element)
+TPP                  RF00059   CM001559.1           -          cm        1      105   768209   768313      +    no    1 0.54   0.0   89.2   1.9e-16 !   TPP riboswitch (THI element)
+yybP-ykoY            RF00080   CM001559.1           -          cm        1      175  5695951  5696072      +    no    1 0.64   0.0   56.0   1.3e-11 !   yybP-ykoY manganese riboswitch
+SAH_riboswitch       RF01057   CM001559.1           -          cm        1       78  6358463  6358569      +    no    1 0.64   0.0   71.6   9.8e-11 !   S-adenosyl-L-homocysteine riboswitch
+#
+# Program:         cmscan
+# Version:         1.1.4 (Dec 2020)
+# Pipeline mode:   SCAN
+# Query file:      /users/PDS0325/sachitk26/packages/tart/validation/genomes/Pchlororaphisaureofaciens30-84.GCA_000281915.1.fna
+# Target file:     /users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm
+# Option settings: cmscan --tblout /users/PDS0325/sachitk26/packages/tart/validation/infernal/results/Pchlororaphisaureofaciens30-84.GCA_000281915.1.fna.txt --noali --cut_ga --rfam --nohmmonly /users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm /users/PDS0325/sachitk26/packages/tart/validation/genomes/Pchlororaphisaureofaciens30-84.GCA_000281915.1.fna 
+# Current dir:     /users/PDS0325/sachitk26/packages/tart/validation/infernal
+# Date:            Mon Nov 13 12:32:54 2023
+# [ok]

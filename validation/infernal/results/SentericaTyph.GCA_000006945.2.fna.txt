@@ -1,0 +1,19 @@
+#target name         accession query name           accession mdl mdl from   mdl to seq from   seq to strand trunc pass   gc  bias  score   E-value inc description of target
+#------------------- --------- -------------------- --------- --- -------- -------- -------- -------- ------ ----- ---- ---- ----- ------ --------- --- ---------------------
+Cobalamin            RF00174   AE006468.2           -          cm        1      189  2114070  2113896      -    no    1 0.57   0.0  105.4   7.7e-27 !   Cobalamin riboswitch
+Mg_sensor            RF01056   AE006468.2           -          cm        1      115  4699497  4699609      +    no    1 0.55   0.0  123.0   1.7e-24 !   Magnesium Sensor
+FMN                  RF00050   AE006468.2           -          cm        1      138  3358815  3358617      -    no    1 0.58   0.0  108.5   1.9e-24 !   FMN riboswitch (RFN element)
+Cobalamin            RF00174   AE006468.2           -          cm        1      189  4347864  4348056      +    no    1 0.56   0.0   94.9   1.1e-23 !   Cobalamin riboswitch
+MOCO_RNA_motif       RF01055   AE006468.2           -          cm        1      135   870509   870653      +    no    1 0.50   0.0   94.6   1.4e-22 !   Moco (molybdenum cofactor) riboswitch
+TPP                  RF00059   AE006468.2           -          cm        1      105  2241971  2241875      -    no    1 0.54   0.0   69.7   8.8e-12 !   TPP riboswitch (THI element)
+TPP                  RF00059   AE006468.2           -          cm        1      105   126801   126702      -    no    1 0.59   0.0   68.8   1.5e-11 !   TPP riboswitch (THI element)
+#
+# Program:         cmscan
+# Version:         1.1.4 (Dec 2020)
+# Pipeline mode:   SCAN
+# Query file:      /users/PDS0325/sachitk26/packages/tart/validation/genomes/SentericaTyph.GCA_000006945.2.fna
+# Target file:     /users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm
+# Option settings: cmscan --tblout /users/PDS0325/sachitk26/packages/tart/validation/infernal/results/SentericaTyph.GCA_000006945.2.fna.txt --noali --cut_ga --rfam --nohmmonly /users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm /users/PDS0325/sachitk26/packages/tart/validation/genomes/SentericaTyph.GCA_000006945.2.fna 
+# Current dir:     /users/PDS0325/sachitk26/packages/tart/validation/infernal
+# Date:            Mon Nov 13 12:32:49 2023
+# [ok]

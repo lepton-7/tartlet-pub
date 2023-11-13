@@ -1,0 +1,19 @@
+#target name         accession query name           accession mdl mdl from   mdl to seq from   seq to strand trunc pass   gc  bias  score   E-value inc description of target
+#------------------- --------- -------------------- --------- --- -------- -------- -------- -------- ------ ----- ---- ---- ----- ------ --------- --- ---------------------
+FMN                  RF00050   CP043953.1           -          cm        1      138  3128730  3128880      +    no    1 0.42   0.0  121.1   5.6e-28 !   FMN riboswitch (RFN element)
+Cobalamin            RF00174   CP043953.1           -          cm        1      189   585980   585774      -    no    1 0.43   0.0   87.8   1.3e-21 !   Cobalamin riboswitch
+Glycine              RF00504   CP043953.1           -          cm        1       94  1688657  1688744      +    no    1 0.45   0.0   72.0   2.1e-13 !   Glycine riboswitch
+ykkC-yxkD            RF00442   CP043953.1           -          cm        1      107  2528130  2528035      -    no    1 0.50   0.0   82.0   2.6e-13 !   Guanidine-I riboswitch
+yybP-ykoY            RF00080   CP043953.1           -          cm        1      175   170384   170580      +    no    1 0.42   0.0   56.5   5.6e-12 !   yybP-ykoY manganese riboswitch
+TPP                  RF00059   CP043953.1           -          cm        1      105  3697297  3697431      +    no    1 0.45   0.0   61.7   6.5e-10 !   TPP riboswitch (THI element)
+Fluoride             RF01734   CP043953.1           -          cm        1       64  3557193  3557127      -    no    1 0.46   0.0   55.6   1.4e-09 !   Fluoride riboswitch (crcB)
+#
+# Program:         cmscan
+# Version:         1.1.4 (Dec 2020)
+# Pipeline mode:   SCAN
+# Query file:      /users/PDS0325/sachitk26/packages/tart/validation/genomes/AbaumanniiGCA_008632635.1.fna
+# Target file:     /users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm
+# Option settings: cmscan --tblout /users/PDS0325/sachitk26/packages/tart/validation/infernal/results/AbaumanniiGCA_008632635.1.fna.txt --noali --cut_ga --rfam --nohmmonly /users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm /users/PDS0325/sachitk26/packages/tart/validation/genomes/AbaumanniiGCA_008632635.1.fna 
+# Current dir:     /users/PDS0325/sachitk26/packages/tart/validation/infernal
+# Date:            Mon Nov 13 12:32:49 2023
+# [ok]

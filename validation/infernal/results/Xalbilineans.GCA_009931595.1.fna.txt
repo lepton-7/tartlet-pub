@@ -1,0 +1,21 @@
+#target name         accession query name           accession mdl mdl from   mdl to seq from   seq to strand trunc pass   gc  bias  score   E-value inc description of target
+#------------------- --------- -------------------- --------- --- -------- -------- -------- -------- ------ ----- ---- ---- ----- ------ --------- --- ---------------------
+FMN                  RF00050   CP046570.1           -          cm        1      138  3315788  3315629      -    no    1 0.66   0.2  110.0   5.5e-25 !   FMN riboswitch (RFN element)
+Cobalamin            RF00174   CP046570.1           -          cm        1      189   217808   217556      -    no    1 0.65   3.2   86.9   2.3e-21 !   Cobalamin riboswitch
+Cobalamin            RF00174   CP046570.1           -          cm        1      189  3179709  3179931      +    no    1 0.69   9.3   83.5   2.3e-20 !   Cobalamin riboswitch
+SAM                  RF00162   CP046570.1           -          cm        1      108  2530337  2530219      -    no    1 0.67   0.0   68.6   3.6e-14 !   SAM riboswitch (S box leader)
+Cobalamin            RF00174   CP046570.1           -          cm        1      189   204203   204421      +    no    1 0.66   1.6   61.4   1.1e-13 !   Cobalamin riboswitch
+Glycine              RF00504   CP046570.1           -          cm        1       94   945458   945565      +    no    1 0.63   0.4   64.0   2.6e-11 !   Glycine riboswitch
+TPP                  RF00059   CP046570.1           -          cm        1      105   791465   791565      +    no    1 0.65   0.0   62.6   3.7e-10 !   TPP riboswitch (THI element)
+Fluoride             RF01734   CP046570.1           -          cm        1       64  1634900  1634970      +    no    1 0.62   0.0   49.7   5.5e-08 !   Fluoride riboswitch (crcB)
+SAH_riboswitch       RF01057   CP046570.1           -          cm        1       78  3260544  3260644      +    no    1 0.72   0.6   51.8   1.5e-06 !   S-adenosyl-L-homocysteine riboswitch
+#
+# Program:         cmscan
+# Version:         1.1.4 (Dec 2020)
+# Pipeline mode:   SCAN
+# Query file:      /users/PDS0325/sachitk26/packages/tart/validation/genomes/Xalbilineans.GCA_009931595.1.fna
+# Target file:     /users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm
+# Option settings: cmscan --tblout /users/PDS0325/sachitk26/packages/tart/validation/infernal/results/Xalbilineans.GCA_009931595.1.fna.txt --noali --cut_ga --rfam --nohmmonly /users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm /users/PDS0325/sachitk26/packages/tart/validation/genomes/Xalbilineans.GCA_009931595.1.fna 
+# Current dir:     /users/PDS0325/sachitk26/packages/tart/validation/infernal
+# Date:            Mon Nov 13 12:32:45 2023
+# [ok]

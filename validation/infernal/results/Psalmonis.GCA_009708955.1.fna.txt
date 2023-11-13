@@ -1,0 +1,15 @@
+#target name         accession query name           accession mdl mdl from   mdl to seq from   seq to strand trunc pass   gc  bias  score   E-value inc description of target
+#------------------- --------- -------------------- --------- --- -------- -------- -------- -------- ------ ----- ---- ---- ----- ------ --------- --- ---------------------
+TPP                  RF00059   CP039032.1           -          cm        1      105  1493813  1493901      +    no    1 0.45   0.0   72.1   1.4e-12 !   TPP riboswitch (THI element)
+TPP                  RF00059   CP039032.1           -          cm        1      105  2948442  2948543      +    no    1 0.47   0.0   64.5   1.1e-10 !   TPP riboswitch (THI element)
+yybP-ykoY            RF00080   CP039032.1           -          cm        1      175   192930   192774      -    no    1 0.44   0.0   50.3   2.7e-10 !   yybP-ykoY manganese riboswitch
+#
+# Program:         cmscan
+# Version:         1.1.4 (Dec 2020)
+# Pipeline mode:   SCAN
+# Query file:      /users/PDS0325/sachitk26/packages/tart/validation/genomes/Psalmonis.GCA_009708955.1.fna
+# Target file:     /users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm
+# Option settings: cmscan --tblout /users/PDS0325/sachitk26/packages/tart/validation/infernal/results/Psalmonis.GCA_009708955.1.fna.txt --noali --cut_ga --rfam --nohmmonly /users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm /users/PDS0325/sachitk26/packages/tart/validation/genomes/Psalmonis.GCA_009708955.1.fna 
+# Current dir:     /users/PDS0325/sachitk26/packages/tart/validation/infernal
+# Date:            Mon Nov 13 12:32:48 2023
+# [ok]
