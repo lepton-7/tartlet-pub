@@ -11,7 +11,7 @@ files = [
     (r"./results/AfischeriES114.GCA_000020845.1_ASM2084v1_genomic.fna.txt", "a_fisheri_ES114"),
     (r"./results/Akunkeei.GCA_019575995.1.fna.txt", "a_kunk"),
     (r"./results/Arabiei.GCA_004011695.2_ASM401169v2_genomic.fna.txt", "a_rabiei"),
-    (r"./results/Banthracis.GCA_000008445.1.fna.txt", "a_anth"),
+    (r"./results/Banthracis.GCA_000008445.1.fna.txt", "b_anth"),
     (r"./results/Bsubtilis168.GCF_000009045.1.fna.txt", "b_sub_168"),
     (r"./results/Bthetaiotaomicron.GCA_014131755.1_ASM1413175v1_genomic.fna.txt", "b_theta"),
     (r"./results/Cvibrioides.GCA_000022005.1_ASM2200v1_genomic.fna.txt", "c_vibrioides"),
