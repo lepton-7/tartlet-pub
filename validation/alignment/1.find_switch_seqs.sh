@@ -7,7 +7,7 @@
 #SBATCH --mail-type=BEGIN,END,FAIL
 
 # RUN THIS TO LAUNCH JOB
-## sbatch --output=jobs/find_switch_seqs.out.$(date +"%Y-%m-%d_%H-%M-%S").%j find_switch_seqs.sh
+## sbatch --output=jobs/1.find_switch_seqs.out.$(date +"%Y-%m-%d_%H-%M-%S").%j 1.find_switch_seqs.sh
 
 set echo on
 
@@ -15,14 +15,14 @@ RT="$HOME/packages/tart"
 TABLE="$RT/validation/tables/inf_results.csv"
 GENOMES="$RT/validation/genomes"
 
-PRE_DEL=500
-POST_DEL=500
+PRE_DEL=1000
+POST_DEL=1000
 
-DSET="s_coelicolor"
+DSET="x_albi"
 
 OUT_DIR="$RT/validation/alignment/outputs/$DSET/switch_seqs_delta$PRE_DEL-$POST_DEL"
 
-mpiexec tart-targeted reference_gen --ledger $TABLE \
+mpiexec tart-targeted reference-gen --ledger $TABLE \
     --out-dir $OUT_DIR \
     --genome $GENOMES \
     --dset $DSET \

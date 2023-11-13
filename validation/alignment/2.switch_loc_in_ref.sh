@@ -15,8 +15,8 @@ RT="$HOME/packages/tart"
 TABLE="$RT/validation/tables/inf_results.csv"
 GENOMES="$RT/validation/genomes"
 
-PRE_DEL=500
-POST_DEL=500
+PRE_DEL=1000
+POST_DEL=1000
 
 DSET="s_coelicolor"
 
