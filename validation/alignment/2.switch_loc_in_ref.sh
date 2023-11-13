@@ -7,7 +7,7 @@
 #SBATCH --mail-type=BEGIN,END,FAIL
 
 # RUN THIS TO LAUNCH JOB
-## sbatch --output=jobs/switch_loc_in_ref.out.$(date +"%Y-%m-%d_%H-%M-%S").%j switch_loc_in_ref.sh
+## sbatch --output=jobs/2.switch_loc_in_ref.out.$(date +"%Y-%m-%d_%H-%M-%S").%j 2.switch_loc_in_ref.sh
 
 set echo on
 
@@ -18,7 +18,7 @@ GENOMES="$RT/validation/genomes"
 PRE_DEL=1000
 POST_DEL=1000
 
-DSET="s_coelicolor"
+DSET="x_albi"
 
 OUT_DIR="$RT/validation/alignment/outputs/$DSET/switch_seqs_delta$PRE_DEL-$POST_DEL"
 
