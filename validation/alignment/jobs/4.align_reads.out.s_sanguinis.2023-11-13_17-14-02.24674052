@@ -1,0 +1,149 @@
+Instance 16 starting alignment for s_sanguinis from /users/PDS0325/sachitk26/packages/tart/validation/rna_seq/s_sanguinis reads
+
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:00:21
+2018652 reads; of these:
+  2018652 (100.00%) were paired; of these:
+    2018158 (99.98%) aligned concordantly 0 times
+    494 (0.02%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    2018158 pairs aligned concordantly 0 times; of these:
+      0 (0.00%) aligned discordantly 1 time
+    ----
+    2018158 pairs aligned 0 times concordantly or discordantly; of these:
+      4036316 mates make up the pairs; of these:
+        4036209 (100.00%) aligned 0 times
+        107 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.03% overall alignment rate
+Time searching: 00:00:21
+Overall time: 00:00:21
+
+
+---------------------------------------------------------------------
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:00:21
+2018652 reads; of these:
+  2018652 (100.00%) were paired; of these:
+    2018418 (99.99%) aligned concordantly 0 times
+    234 (0.01%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    2018418 pairs aligned concordantly 0 times; of these:
+      1 (0.00%) aligned discordantly 1 time
+    ----
+    2018417 pairs aligned 0 times concordantly or discordantly; of these:
+      4036834 mates make up the pairs; of these:
+        4036807 (100.00%) aligned 0 times
+        27 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.01% overall alignment rate
+Time searching: 00:00:21
+Overall time: 00:00:21
+
+
+---------------------------------------------------------------------
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:00:22
+2018652 reads; of these:
+  2018652 (100.00%) were paired; of these:
+    2018498 (99.99%) aligned concordantly 0 times
+    154 (0.01%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    2018498 pairs aligned concordantly 0 times; of these:
+      0 (0.00%) aligned discordantly 1 time
+    ----
+    2018498 pairs aligned 0 times concordantly or discordantly; of these:
+      4036996 mates make up the pairs; of these:
+        4036970 (100.00%) aligned 0 times
+        26 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.01% overall alignment rate
+Time searching: 00:00:22
+Overall time: 00:00:22
+
+
+---------------------------------------------------------------------
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:00:24
+2018652 reads; of these:
+  2018652 (100.00%) were paired; of these:
+    2018522 (99.99%) aligned concordantly 0 times
+    130 (0.01%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    2018522 pairs aligned concordantly 0 times; of these:
+      0 (0.00%) aligned discordantly 1 time
+    ----
+    2018522 pairs aligned 0 times concordantly or discordantly; of these:
+      4037044 mates make up the pairs; of these:
+        4037019 (100.00%) aligned 0 times
+        25 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.01% overall alignment rate
+Time searching: 00:00:24
+Overall time: 00:00:24
+
+
+---------------------------------------------------------------------
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:00:21
+2018652 reads; of these:
+  2018652 (100.00%) were paired; of these:
+    2018501 (99.99%) aligned concordantly 0 times
+    151 (0.01%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    2018501 pairs aligned concordantly 0 times; of these:
+      0 (0.00%) aligned discordantly 1 time
+    ----
+    2018501 pairs aligned 0 times concordantly or discordantly; of these:
+      4037002 mates make up the pairs; of these:
+        4036977 (100.00%) aligned 0 times
+        25 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.01% overall alignment rate
+Time searching: 00:00:21
+Overall time: 00:00:21
+
+
+---------------------------------------------------------------------
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:00:21
+2018652 reads; of these:
+  2018652 (100.00%) were paired; of these:
+    2018167 (99.98%) aligned concordantly 0 times
+    485 (0.02%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    2018167 pairs aligned concordantly 0 times; of these:
+      0 (0.00%) aligned discordantly 1 time
+    ----
+    2018167 pairs aligned 0 times concordantly or discordantly; of these:
+      4036334 mates make up the pairs; of these:
+        4036230 (100.00%) aligned 0 times
+        104 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.03% overall alignment rate
+Time searching: 00:00:21
+Overall time: 00:00:21
+
+
+---------------------------------------------------------------------
+
+Done
+Finished SRR14585124 read alignment for s_sanguinis into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/s_sanguinis/switch_seqs_delta1000-1000/alignment_20231113

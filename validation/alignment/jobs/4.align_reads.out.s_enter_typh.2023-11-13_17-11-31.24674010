@@ -1,0 +1,125 @@
+Instance 10 starting alignment for s_enter_typh from /users/PDS0325/sachitk26/packages/tart/validation/rna_seq/s_enter_typh reads
+
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:02:54
+10751151 reads; of these:
+  10751151 (100.00%) were paired; of these:
+    10750972 (100.00%) aligned concordantly 0 times
+    179 (0.00%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    10750972 pairs aligned concordantly 0 times; of these:
+      30 (0.00%) aligned discordantly 1 time
+    ----
+    10750942 pairs aligned 0 times concordantly or discordantly; of these:
+      21501884 mates make up the pairs; of these:
+        21501856 (100.00%) aligned 0 times
+        28 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.00% overall alignment rate
+Time searching: 00:02:54
+Overall time: 00:02:54
+
+
+---------------------------------------------------------------------
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:02:53
+10751151 reads; of these:
+  10751151 (100.00%) were paired; of these:
+    10750261 (99.99%) aligned concordantly 0 times
+    890 (0.01%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    10750261 pairs aligned concordantly 0 times; of these:
+      94 (0.00%) aligned discordantly 1 time
+    ----
+    10750167 pairs aligned 0 times concordantly or discordantly; of these:
+      21500334 mates make up the pairs; of these:
+        21500230 (100.00%) aligned 0 times
+        104 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.01% overall alignment rate
+Time searching: 00:02:53
+Overall time: 00:02:53
+
+
+---------------------------------------------------------------------
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:03:13
+10751151 reads; of these:
+  10751151 (100.00%) were paired; of these:
+    10750952 (100.00%) aligned concordantly 0 times
+    199 (0.00%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    10750952 pairs aligned concordantly 0 times; of these:
+      12 (0.00%) aligned discordantly 1 time
+    ----
+    10750940 pairs aligned 0 times concordantly or discordantly; of these:
+      21501880 mates make up the pairs; of these:
+        21501813 (100.00%) aligned 0 times
+        67 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.00% overall alignment rate
+Time searching: 00:03:13
+Overall time: 00:03:13
+
+
+---------------------------------------------------------------------
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:02:55
+10751151 reads; of these:
+  10751151 (100.00%) were paired; of these:
+    10750434 (99.99%) aligned concordantly 0 times
+    717 (0.01%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    10750434 pairs aligned concordantly 0 times; of these:
+      49 (0.00%) aligned discordantly 1 time
+    ----
+    10750385 pairs aligned 0 times concordantly or discordantly; of these:
+      21500770 mates make up the pairs; of these:
+        21500641 (100.00%) aligned 0 times
+        129 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.01% overall alignment rate
+Time searching: 00:02:55
+Overall time: 00:02:56
+
+
+---------------------------------------------------------------------
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:03:15
+10751151 reads; of these:
+  10751151 (100.00%) were paired; of these:
+    10750429 (99.99%) aligned concordantly 0 times
+    722 (0.01%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    10750429 pairs aligned concordantly 0 times; of these:
+      72 (0.00%) aligned discordantly 1 time
+    ----
+    10750357 pairs aligned 0 times concordantly or discordantly; of these:
+      21500714 mates make up the pairs; of these:
+        21500613 (100.00%) aligned 0 times
+        101 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.01% overall alignment rate
+Time searching: 00:03:15
+Overall time: 00:03:15
+
+
+---------------------------------------------------------------------
+
+Done
+Finished SRR23000243 read alignment for s_enter_typh into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/s_enter_typh/switch_seqs_delta1000-1000/alignment_20231113

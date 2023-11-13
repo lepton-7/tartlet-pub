@@ -1,0 +1,47 @@
+Instance 32 starting alignment for s_sanguinis from /users/PDS0325/sachitk26/packages/tart/validation/rna_seq/s_sanguinis reads
+
+
+Warning: [Errno 2] No such file or directory: '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/s_sanguinis/_1.fastq.gz'
+(ERR): Read file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/s_sanguinis/_1.fastq.gz' doesn't exist
+Exiting now ...
+
+
+---------------------------------------------------------------------
+
+Warning: [Errno 2] No such file or directory: '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/s_sanguinis/_1.fastq.gz'
+(ERR): Read file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/s_sanguinis/_1.fastq.gz' doesn't exist
+Exiting now ...
+
+
+---------------------------------------------------------------------
+
+Warning: [Errno 2] No such file or directory: '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/s_sanguinis/_1.fastq.gz'
+(ERR): Read file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/s_sanguinis/_1.fastq.gz' doesn't exist
+Exiting now ...
+
+
+---------------------------------------------------------------------
+
+Warning: [Errno 2] No such file or directory: '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/s_sanguinis/_1.fastq.gz'
+(ERR): Read file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/s_sanguinis/_1.fastq.gz' doesn't exist
+Exiting now ...
+
+
+---------------------------------------------------------------------
+
+Warning: [Errno 2] No such file or directory: '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/s_sanguinis/_1.fastq.gz'
+(ERR): Read file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/s_sanguinis/_1.fastq.gz' doesn't exist
+Exiting now ...
+
+
+---------------------------------------------------------------------
+
+Warning: [Errno 2] No such file or directory: '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/s_sanguinis/_1.fastq.gz'
+(ERR): Read file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/s_sanguinis/_1.fastq.gz' doesn't exist
+Exiting now ...
+
+
+---------------------------------------------------------------------
+
+Done
+Finished s_sanguinis read alignment for s_sanguinis into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/s_sanguinis/switch_seqs_delta1000-1000/alignment_20231113
