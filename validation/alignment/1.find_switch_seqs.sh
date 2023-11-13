@@ -18,7 +18,7 @@ GENOMES="$RT/validation/genomes"
 PRE_DEL=1000
 POST_DEL=1000
 
-DSET="x_albi"
+DSET="s_sanguinis"
 
 OUT_DIR="$RT/validation/alignment/outputs/$DSET/switch_seqs_delta$PRE_DEL-$POST_DEL"
 
