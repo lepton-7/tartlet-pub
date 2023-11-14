@@ -7,19 +7,19 @@
 #SBATCH --mail-type=BEGIN,END,FAIL
 
 # RUN THIS TO LAUNCH JOB
-## sbatch --output=jobs/make_BAMs.out.$(date +"%Y-%m-%d_%H-%M-%S").%j make_BAMs.sh
+## sbatch --output=jobs/5.make_BAMs.out.$(date +"%Y-%m-%d_%H-%M-%S").%j 5.make_BAMs.sh
 
 set echo on
 
 RT="$HOME/packages/tart"
 
-DSET="s_spcc6803"
+DSET="x_albi"
 
-REF_DIR="$RT/validation/alignment/outputs/$DSET/switch_seqs_delta500"
+REF_DIR="$RT/validation/alignment/outputs/$DSET/switch_seqs_delta1000-1000"
 
-SAM_DIR="$REF_DIR/alignments_2023-09-29_00-47-50"
+SAM_DIR="$REF_DIR/alignment_20231113"
 
-mpiexec tart-targeted convert_sam -i $SAM_DIR &&
+mpiexec tart-targeted convert-sam -i $SAM_DIR &&
     wait
 
 echo "Finished SAM -> sorted BAM conversion within $SAM_DIR"
