@@ -13,7 +13,7 @@
 set echo on
 
 RT="$HOME/packages/tart"
-DSET="a_baum"
+DSET="x_albi"
 
 D_ROOT="$RT/validation/alignment/outputs/$DSET"
 

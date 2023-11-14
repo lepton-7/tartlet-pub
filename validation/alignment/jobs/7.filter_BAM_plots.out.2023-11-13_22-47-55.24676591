@@ -1,0 +1,5 @@
+/users/PDS0325/sachitk26/packages/tart/tart/utils/activity_inference.py:177: RuntimeWarning: divide by zero encountered in scalar divide
+  return self.find_absolute_coverage_delta(sumcov) / sumcov[self.left]
+/users/PDS0325/sachitk26/packages/tart/tart/utils/activity_inference.py:177: RuntimeWarning: divide by zero encountered in scalar divide
+  return self.find_absolute_coverage_delta(sumcov) / sumcov[self.left]
+Finished filtering outputs for s_enter_typh into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/s_enter_typh/plots/

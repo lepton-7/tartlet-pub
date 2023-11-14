@@ -1,0 +1,87 @@
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/filter_BAM_plots.py", line 118, in exec_main
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/filter_BAM_plots.py", line 118, in exec_main
+    main(pick_root, out_dir, bin_size, min_cov_depth, ext_prop, conv)
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/filter_BAM_plots.py", line 176, in main
+    main(pick_root, out_dir, bin_size, min_cov_depth, ext_prop, conv)
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/filter_BAM_plots.py", line 176, in main
+    candlist: list[Candidate] = has_candidate_peak(
+                                ^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/activity_inference.py", line 415, in has_candidate_peak
+    candlist: list[Candidate] = has_candidate_peak(
+                                ^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/activity_inference.py", line 415, in has_candidate_peak
+    pval, nocand_cov_delta = peak_significance(cov_delta, i)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/activity_inference.py", line 382, in peak_significance
+    pval, nocand_cov_delta = peak_significance(cov_delta, i)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/activity_inference.py", line 382, in peak_significance
+    return (multivariate_normal(mean=m, cov=sd).cdf(sorteddelta[i]), cov_nocand)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/scipy/stats/_multivariate.py", line 398, in __call__
+    return (multivariate_normal(mean=m, cov=sd).cdf(sorteddelta[i]), cov_nocand)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/scipy/stats/_multivariate.py", line 398, in __call__
+    return multivariate_normal_frozen(mean, cov,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/scipy/stats/_multivariate.py", line 839, in __init__
+    return multivariate_normal_frozen(mean, cov,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/scipy/stats/_multivariate.py", line 839, in __init__
+    self._dist._process_parameters(mean, cov, allow_singular))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/scipy/stats/_multivariate.py", line 422, in _process_parameters
+    self._dist._process_parameters(mean, cov, allow_singular))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/scipy/stats/_multivariate.py", line 422, in _process_parameters
+    psd = _PSD(cov, allow_singular=allow_singular)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/scipy/stats/_multivariate.py", line 177, in __init__
+    psd = _PSD(cov, allow_singular=allow_singular)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/scipy/stats/_multivariate.py", line 177, in __init__
+    raise np.linalg.LinAlgError(msg)
+numpy.linalg.LinAlgError: When `allow_singular is False`, the input matrix must be symmetric positive definite.
+    raise np.linalg.LinAlgError(msg)
+numpy.linalg.LinAlgError: When `allow_singular is False`, the input matrix must be symmetric positive definite.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 24676589.0 ON p0632 CANCELLED AT 2023-11-13T22:51:05 ***
+slurmstepd: error: *** JOB 24676589 ON p0632 CANCELLED AT 2023-11-13T22:51:05 ***
