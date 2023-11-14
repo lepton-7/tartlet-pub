@@ -7,18 +7,18 @@
 #SBATCH --mail-type=BEGIN,END,FAIL
 
 # RUN THIS TO LAUNCH JOB
-## sbatch --output=jobs/parse_BAMs.out.$(date +"%Y-%m-%d_%H-%M-%S").%j 6.parse_BAMs.sh
+## sbatch --output=jobs/6.parse_BAMs.out.$(date +"%Y-%m-%d_%H-%M-%S").%j 6.parse_BAMs.sh
 
 set echo on
 
 RT="$HOME/packages/tart"
 
-DATECODE="2023-08-14_11-02-43"
-DSET="e_coli"
+DATECODE="20231113"
+DSET="a_baum"
 
-BAM_DIR="$RT/validation/alignment/outputs/$DSET/switch_seqs_delta500/alignments_$DATECODE"
+BAM_DIR="$RT/validation/alignment/outputs/$DSET/switch_seqs_delta1000-1000/alignment_$DATECODE"
 SAVE_ROOT="$RT/validation/alignment/outputs/$DSET/plots/picks"
-BOUNDS_PATH="$RT/validation/alignment/outputs/$DSET/rowid_to_bounds.json"
+BOUNDS_PATH="$RT/validation/alignment/outputs/$DSET/switch_seqs_delta1000-1000/rowid_to_bounds.json"
 
 mpiexec tart-targeted parse-bam -i $BAM_DIR -o $SAVE_ROOT --bounds-file $BOUNDS_PATH --picks --allow-soft-clips &&
     wait
