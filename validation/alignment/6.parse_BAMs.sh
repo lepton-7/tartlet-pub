@@ -14,7 +14,7 @@ set echo on
 RT="$HOME/packages/tart"
 
 DATECODE="20231113"
-DSET="a_baum"
+DSET="x_albi"
 
 BAM_DIR="$RT/validation/alignment/outputs/$DSET/switch_seqs_delta1000-1000/alignment_$DATECODE"
 SAVE_ROOT="$RT/validation/alignment/outputs/$DSET/plots/picks"
