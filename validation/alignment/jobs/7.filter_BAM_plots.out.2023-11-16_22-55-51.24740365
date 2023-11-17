@@ -1,0 +1,7 @@
+Filetering plots for k_pneum
+multivariate failed for [[-1.0, 5], [-1.0, 5], [-13.0, 11]]
+multivariate failed for [[-2.0, 11], [-1.0, 5], [-1.0, 5]]
+multivariate failed for [[-3.0, 9], [-10.0, 11]]
+multivariate failed for [[-6.0, 14], [-10.0, 11]]
+multivariate failed for [[-6.0, 14], [-3.0, 9]]
+Finished filtering outputs for k_pneum into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/k_pneum/plots/

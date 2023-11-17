@@ -13,12 +13,14 @@
 set echo on
 
 RT="$HOME/packages/tart"
-DSET="x_albi"
+DSET="k_pneum"
 
 D_ROOT="$RT/validation/alignment/outputs/$DSET"
 
 PICKLE_ROOT="$D_ROOT/plots/picks"
 SAVE_ROOT="$D_ROOT/plots/"
+
+echo "Filetering plots for $DSET"
 
 mpiexec tart-targeted filter -i $PICKLE_ROOT -o $SAVE_ROOT --ext-prop -0.3 1.0 --conv
 
