@@ -9,11 +9,11 @@
 # RUN THIS TO LAUNCH JOB
 ## sbatch --output=jobs/7.filter_BAM_plots.out.$(date +"%Y-%m-%d_%H-%M-%S").%j 7.filter_BAM_plots.sh
 
-# set -x
+set -x
 set echo on
 
 RT="$HOME/packages/tart"
-DSET="k_pneum"
+DSET="a_kunk"
 
 D_ROOT="$RT/validation/alignment/outputs/$DSET"
 
@@ -22,6 +22,6 @@ SAVE_ROOT="$D_ROOT/plots/"
 
 echo "Filetering plots for $DSET"
 
-mpiexec tart-targeted filter -i $PICKLE_ROOT -o $SAVE_ROOT --ext-prop -0.3 1.0 --conv
+mpiexec tart-targeted filter -i $PICKLE_ROOT -o $SAVE_ROOT --ext-prop -0.3 1.0 --conv --min-cov-depth 25
 
 echo "Finished filtering outputs for $DSET into $SAVE_ROOT"
