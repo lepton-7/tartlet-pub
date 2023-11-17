@@ -8,7 +8,7 @@ tax_cache = {}
 # infernal output tables and dataset identifiers
 files = [
     (r"./results/AbaumanniiGCA_008632635.1.fna.txt", "a_baum"),
-    (r"./results/AfischeriES114.GCA_000020845.1_ASM2084v1_genomic.fna.txt", "a_fisheri_ES114"),
+    (r"./results/AfischeriES114.GCA_000020845.1_ASM2084v1_genomic.fna.txt", "a_fischeri_ES114"),
     (r"./results/Akunkeei.GCA_019575995.1.fna.txt", "a_kunk"),
     (r"./results/Arabiei.GCA_004011695.2_ASM401169v2_genomic.fna.txt", "a_rabiei"),
     (r"./results/Banthracis.GCA_000008445.1.fna.txt", "b_anth"),

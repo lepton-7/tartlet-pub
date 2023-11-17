@@ -7,7 +7,7 @@
 #SBATCH --mail-type=BEGIN,END,FAIL
 
 # RUN THIS TO LAUNCH JOB
-## sbatch --output=jobs/1.find_switch_seqs.out.$(date +"%Y-%m-%d_%H-%M-%S").%j 1.find_switch_seqs.sh
+## sbatch --output=jobs/1.s_spcc6803.find_switch_seqs.out.$(date +"%Y-%m-%d_%H-%M-%S").%j 1.find_switch_seqs.sh
 
 set echo on
 
@@ -15,10 +15,10 @@ RT="$HOME/packages/tart"
 TABLE="$RT/validation/tables/inf_results.csv"
 GENOMES="$RT/validation/genomes"
 
+DSET="s_spcc6803"
+
 PRE_DEL=1000
 POST_DEL=1000
-
-DSET="s_sanguinis"
 
 OUT_DIR="$RT/validation/alignment/outputs/$DSET/switch_seqs_delta$PRE_DEL-$POST_DEL"
 
@@ -30,4 +30,4 @@ mpiexec tart-targeted reference-gen --ledger $TABLE \
     --post-del $POST_DEL &&
     wait
 
-echo "Finished refernce generation for $DSET into $OUT_DIR"
+echo "Finished reference generation for $DSET into $OUT_DIR"
