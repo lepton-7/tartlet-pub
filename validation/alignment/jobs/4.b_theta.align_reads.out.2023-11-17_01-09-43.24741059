@@ -1,0 +1,26 @@
+Instance 22 starting alignment for b_theta from /users/PDS0325/sachitk26/packages/tart/validation/rna_seq/b_theta reads
+
+
+Warning: [Errno 2] No such file or directory: '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/b_theta/_1.fastq.gz'
+(ERR): Read file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/b_theta/_1.fastq.gz' doesn't exist
+Exiting now ...
+
+
+---------------------------------------------------------------------
+
+Warning: [Errno 2] No such file or directory: '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/b_theta/_1.fastq.gz'
+(ERR): Read file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/b_theta/_1.fastq.gz' doesn't exist
+Exiting now ...
+
+
+---------------------------------------------------------------------
+
+Warning: [Errno 2] No such file or directory: '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/b_theta/_1.fastq.gz'
+(ERR): Read file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/b_theta/_1.fastq.gz' doesn't exist
+Exiting now ...
+
+
+---------------------------------------------------------------------
+
+Done
+Finished b_theta read alignment for b_theta into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/b_theta/switch_seqs_delta1000-1000/alignment_20231113

@@ -11,7 +11,8 @@
 
 set echo on
 
-DSETS=("a_fischeri_ES114" "a_rabiei" "b_sub_168" "b_theta" "c_vibrioides" "e_coli" "p_fluor" "s_coelicolor" "s_elon" "s_spcc6803")
+# DSETS=("a_fischeri_ES114" "a_rabiei" "b_sub_168" "b_theta" "c_vibrioides" "e_coli" "p_fluor" "s_coelicolor" "s_elon" "s_spcc6803")
+DSETS=("m_tuber")
 
 for DSET in ${DSETS[@]}; do
 

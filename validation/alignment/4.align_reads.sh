@@ -1,18 +1,18 @@
 #!/bin/bash
 
-#SBATCH --time=02:30:00
+#SBATCH --time=03:00:00
 #SBATCH --nodes=1 --cpus-per-task=44
 
 #SBATCH --account=PDS0325
 #SBATCH --mail-type=BEGIN,END,FAIL
 
 # --------------------------------
-# There are 4 pairs of readsets
-#SBATCH --array=0-4
+# There are 12 pairs of readsets
+#SBATCH --array=0-12
 # --------------------------------
 
 # RUN THIS TO LAUNCH JOB
-## DATECODE="$(date +"%Y-%m-%d_%H-%M-%S")"; sbatch --output=jobs/4.align_reads.out.x_albi.$DATECODE.%j 4.align_reads.sh
+## DATECODE="$(date +"%Y-%m-%d_%H-%M-%S")"; sbatch --output=jobs/4.s_spcc6803.align_reads.out.$DATECODE.%j 4.align_reads.sh
 
 # set -x
 set echo on
@@ -20,7 +20,7 @@ set echo on
 IDX=$((SLURM_ARRAY_TASK_ID))
 
 DATECODE="20231113"
-DSET="x_albi"
+DSET="s_spcc6803"
 
 RT="$HOME/packages/tart"
 

@@ -1,0 +1,149 @@
+Instance 88 starting alignment for e_coli from /users/PDS0325/sachitk26/packages/tart/validation/rna_seq/e_coli reads
+
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:01:46
+8952048 reads; of these:
+  8952048 (100.00%) were paired; of these:
+    8950175 (99.98%) aligned concordantly 0 times
+    1873 (0.02%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    8950175 pairs aligned concordantly 0 times; of these:
+      2 (0.00%) aligned discordantly 1 time
+    ----
+    8950173 pairs aligned 0 times concordantly or discordantly; of these:
+      17900346 mates make up the pairs; of these:
+        17900012 (100.00%) aligned 0 times
+        334 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.02% overall alignment rate
+Time searching: 00:01:46
+Overall time: 00:01:46
+
+
+---------------------------------------------------------------------
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:01:47
+8952048 reads; of these:
+  8952048 (100.00%) were paired; of these:
+    8950508 (99.98%) aligned concordantly 0 times
+    1540 (0.02%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    8950508 pairs aligned concordantly 0 times; of these:
+      0 (0.00%) aligned discordantly 1 time
+    ----
+    8950508 pairs aligned 0 times concordantly or discordantly; of these:
+      17901016 mates make up the pairs; of these:
+        17900841 (100.00%) aligned 0 times
+        175 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.02% overall alignment rate
+Time searching: 00:01:47
+Overall time: 00:01:47
+
+
+---------------------------------------------------------------------
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:01:47
+8952048 reads; of these:
+  8952048 (100.00%) were paired; of these:
+    8950590 (99.98%) aligned concordantly 0 times
+    1458 (0.02%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    8950590 pairs aligned concordantly 0 times; of these:
+      2 (0.00%) aligned discordantly 1 time
+    ----
+    8950588 pairs aligned 0 times concordantly or discordantly; of these:
+      17901176 mates make up the pairs; of these:
+        17901092 (100.00%) aligned 0 times
+        84 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.02% overall alignment rate
+Time searching: 00:01:47
+Overall time: 00:01:47
+
+
+---------------------------------------------------------------------
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:01:52
+8952048 reads; of these:
+  8952048 (100.00%) were paired; of these:
+    8942126 (99.89%) aligned concordantly 0 times
+    9922 (0.11%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    8942126 pairs aligned concordantly 0 times; of these:
+      9 (0.00%) aligned discordantly 1 time
+    ----
+    8942117 pairs aligned 0 times concordantly or discordantly; of these:
+      17884234 mates make up the pairs; of these:
+        17882937 (99.99%) aligned 0 times
+        1297 (0.01%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.12% overall alignment rate
+Time searching: 00:01:52
+Overall time: 00:01:52
+
+
+---------------------------------------------------------------------
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:01:45
+8952048 reads; of these:
+  8952048 (100.00%) were paired; of these:
+    8949772 (99.97%) aligned concordantly 0 times
+    2276 (0.03%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    8949772 pairs aligned concordantly 0 times; of these:
+      2 (0.00%) aligned discordantly 1 time
+    ----
+    8949770 pairs aligned 0 times concordantly or discordantly; of these:
+      17899540 mates make up the pairs; of these:
+        17899503 (100.00%) aligned 0 times
+        37 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.03% overall alignment rate
+Time searching: 00:01:45
+Overall time: 00:01:45
+
+
+---------------------------------------------------------------------
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:01:47
+8952048 reads; of these:
+  8952048 (100.00%) were paired; of these:
+    8934175 (99.80%) aligned concordantly 0 times
+    17873 (0.20%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    8934175 pairs aligned concordantly 0 times; of these:
+      6 (0.00%) aligned discordantly 1 time
+    ----
+    8934169 pairs aligned 0 times concordantly or discordantly; of these:
+      17868338 mates make up the pairs; of these:
+        17865835 (99.99%) aligned 0 times
+        2503 (0.01%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.21% overall alignment rate
+Time searching: 00:01:47
+Overall time: 00:01:47
+
+
+---------------------------------------------------------------------
+
+Done
+Finished SRR9204650 read alignment for e_coli into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/e_coli/switch_seqs_delta1000-1000/alignment_20231113

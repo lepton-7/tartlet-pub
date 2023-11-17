@@ -1,0 +1,77 @@
+Instance 7 starting alignment for b_theta from /users/PDS0325/sachitk26/packages/tart/validation/rna_seq/b_theta reads
+
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:00:59
+3726682 reads; of these:
+  3726682 (100.00%) were paired; of these:
+    3726640 (100.00%) aligned concordantly 0 times
+    42 (0.00%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    3726640 pairs aligned concordantly 0 times; of these:
+      1 (0.00%) aligned discordantly 1 time
+    ----
+    3726639 pairs aligned 0 times concordantly or discordantly; of these:
+      7453278 mates make up the pairs; of these:
+        7453266 (100.00%) aligned 0 times
+        12 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.00% overall alignment rate
+Time searching: 00:00:59
+Overall time: 00:00:59
+
+
+---------------------------------------------------------------------
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:01:14
+3726682 reads; of these:
+  3726682 (100.00%) were paired; of these:
+    3725783 (99.98%) aligned concordantly 0 times
+    899 (0.02%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    3725783 pairs aligned concordantly 0 times; of these:
+      61 (0.00%) aligned discordantly 1 time
+    ----
+    3725722 pairs aligned 0 times concordantly or discordantly; of these:
+      7451444 mates make up the pairs; of these:
+        7451189 (100.00%) aligned 0 times
+        255 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.03% overall alignment rate
+Time searching: 00:01:14
+Overall time: 00:01:14
+
+
+---------------------------------------------------------------------
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:01:35
+3726682 reads; of these:
+  3726682 (100.00%) were paired; of these:
+    3607090 (96.79%) aligned concordantly 0 times
+    119592 (3.21%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    3607090 pairs aligned concordantly 0 times; of these:
+      4503 (0.12%) aligned discordantly 1 time
+    ----
+    3602587 pairs aligned 0 times concordantly or discordantly; of these:
+      7205174 mates make up the pairs; of these:
+        7197996 (99.90%) aligned 0 times
+        7178 (0.10%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+3.43% overall alignment rate
+Time searching: 00:01:35
+Overall time: 00:01:35
+
+
+---------------------------------------------------------------------
+
+Done
+Finished SRR14017870 read alignment for b_theta into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/b_theta/switch_seqs_delta1000-1000/alignment_20231113

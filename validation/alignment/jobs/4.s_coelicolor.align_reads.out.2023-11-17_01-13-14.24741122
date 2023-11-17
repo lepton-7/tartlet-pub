@@ -1,0 +1,61 @@
+Instance 12 starting alignment for s_coelicolor from /users/PDS0325/sachitk26/packages/tart/validation/rna_seq/s_coelicolor reads
+
+
+Warning: [Errno 2] No such file or directory: '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/s_coelicolor/_1.fastq.gz'
+(ERR): Read file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/s_coelicolor/_1.fastq.gz' doesn't exist
+Exiting now ...
+
+
+---------------------------------------------------------------------
+
+Warning: [Errno 2] No such file or directory: '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/s_coelicolor/_1.fastq.gz'
+(ERR): Read file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/s_coelicolor/_1.fastq.gz' doesn't exist
+Exiting now ...
+
+
+---------------------------------------------------------------------
+
+Warning: [Errno 2] No such file or directory: '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/s_coelicolor/_1.fastq.gz'
+(ERR): Read file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/s_coelicolor/_1.fastq.gz' doesn't exist
+Exiting now ...
+
+
+---------------------------------------------------------------------
+
+Warning: [Errno 2] No such file or directory: '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/s_coelicolor/_1.fastq.gz'
+(ERR): Read file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/s_coelicolor/_1.fastq.gz' doesn't exist
+Exiting now ...
+
+
+---------------------------------------------------------------------
+
+Warning: [Errno 2] No such file or directory: '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/s_coelicolor/_1.fastq.gz'
+(ERR): Read file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/s_coelicolor/_1.fastq.gz' doesn't exist
+Exiting now ...
+
+
+---------------------------------------------------------------------
+
+Warning: [Errno 2] No such file or directory: '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/s_coelicolor/_1.fastq.gz'
+(ERR): Read file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/s_coelicolor/_1.fastq.gz' doesn't exist
+Exiting now ...
+
+
+---------------------------------------------------------------------
+
+Warning: [Errno 2] No such file or directory: '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/s_coelicolor/_1.fastq.gz'
+(ERR): Read file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/s_coelicolor/_1.fastq.gz' doesn't exist
+Exiting now ...
+
+
+---------------------------------------------------------------------
+
+Warning: [Errno 2] No such file or directory: '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/s_coelicolor/_1.fastq.gz'
+(ERR): Read file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/s_coelicolor/_1.fastq.gz' doesn't exist
+Exiting now ...
+
+
+---------------------------------------------------------------------
+
+Done
+Finished s_coelicolor read alignment for s_coelicolor into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/s_coelicolor/switch_seqs_delta1000-1000/alignment_20231113

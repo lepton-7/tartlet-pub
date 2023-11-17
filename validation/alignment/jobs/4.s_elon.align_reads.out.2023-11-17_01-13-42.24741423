@@ -1,0 +1,101 @@
+Instance 1 starting alignment for s_elon from /users/PDS0325/sachitk26/packages/tart/validation/rna_seq/s_elon reads
+
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:03:27
+8762150 reads; of these:
+  8762150 (100.00%) were paired; of these:
+    8760164 (99.98%) aligned concordantly 0 times
+    1986 (0.02%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    8760164 pairs aligned concordantly 0 times; of these:
+      267 (0.00%) aligned discordantly 1 time
+    ----
+    8759897 pairs aligned 0 times concordantly or discordantly; of these:
+      17519794 mates make up the pairs; of these:
+        17519545 (100.00%) aligned 0 times
+        249 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.03% overall alignment rate
+Time searching: 00:03:27
+Overall time: 00:03:27
+
+
+---------------------------------------------------------------------
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:03:06
+8762150 reads; of these:
+  8762150 (100.00%) were paired; of these:
+    8759587 (99.97%) aligned concordantly 0 times
+    2563 (0.03%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    8759587 pairs aligned concordantly 0 times; of these:
+      276 (0.00%) aligned discordantly 1 time
+    ----
+    8759311 pairs aligned 0 times concordantly or discordantly; of these:
+      17518622 mates make up the pairs; of these:
+        17518385 (100.00%) aligned 0 times
+        237 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.03% overall alignment rate
+Time searching: 00:03:06
+Overall time: 00:03:06
+
+
+---------------------------------------------------------------------
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:02:59
+8762150 reads; of these:
+  8762150 (100.00%) were paired; of these:
+    8761676 (99.99%) aligned concordantly 0 times
+    474 (0.01%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    8761676 pairs aligned concordantly 0 times; of these:
+      85 (0.00%) aligned discordantly 1 time
+    ----
+    8761591 pairs aligned 0 times concordantly or discordantly; of these:
+      17523182 mates make up the pairs; of these:
+        17523162 (100.00%) aligned 0 times
+        20 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.01% overall alignment rate
+Time searching: 00:02:59
+Overall time: 00:02:59
+
+
+---------------------------------------------------------------------
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:03:17
+8762150 reads; of these:
+  8762150 (100.00%) were paired; of these:
+    8761838 (100.00%) aligned concordantly 0 times
+    312 (0.00%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    8761838 pairs aligned concordantly 0 times; of these:
+      64 (0.00%) aligned discordantly 1 time
+    ----
+    8761774 pairs aligned 0 times concordantly or discordantly; of these:
+      17523548 mates make up the pairs; of these:
+        17523519 (100.00%) aligned 0 times
+        29 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.00% overall alignment rate
+Time searching: 00:03:17
+Overall time: 00:03:17
+
+
+---------------------------------------------------------------------
+
+Done
+Finished SRR23869292 read alignment for s_elon into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/s_elon/switch_seqs_delta1000-1000/alignment_20231113
