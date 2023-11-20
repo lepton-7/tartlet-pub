@@ -1,0 +1,16 @@
+Resetting modules to system default
+Downloading sequences from s_meli_fagorzi2021_acc.txt into s_meli/
+Retrying SRR11916697 fetch (0); Error code (3)
+b'2023-11-20T20:46:36 prefetch.3.0.2: Current preference is set to retrieve SRA Normalized Format files with full base quality scores.\n'
+Success: SRR11916667
+Success: SRR11916669
+Success: SRR11916697
+Success: SRR11916652
+Success: SRR11916654
+Success: SRR11916684
+Success: SRR11916696
+Success: SRR11916668
+Success: SRR11916683
+Success: SRR11916682
+Success: SRR11916653
+Done

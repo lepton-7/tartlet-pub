@@ -1,0 +1,31 @@
+Resetting modules to system default
+Downloading sequences from c_basil_kugler2023_acc.txt into c_basil/
+Retrying SRR22085495 fetch (0); Error code (3)
+b'2023-11-20T20:46:25 prefetch.3.0.2: Current preference is set to retrieve SRA Normalized Format files with full base quality scores.\n'
+Retrying SRR22085493 fetch (0); Error code (3)
+b'2023-11-20T20:46:25 prefetch.3.0.2: Current preference is set to retrieve SRA Normalized Format files with full base quality scores.\n'
+gzip: /fs/scratch/PDS0325/c_basil_temp/SRR22085494_1.fastq: No such file or directory
+gzip: /fs/scratch/PDS0325/c_basil_temp/SRR22085494_2.fastq: No such file or directory
+Success: SRR22085494
+gzip: /fs/scratch/PDS0325/c_basil_temp/SRR22085495_1.fastq: No such file or directory
+gzip: /fs/scratch/PDS0325/c_basil_temp/SRR22085495_2.fastq: No such file or directory
+Success: SRR22085495
+gzip: /fs/scratch/PDS0325/c_basil_temp/SRR22085498_1.fastq: No such file or directory
+gzip: /fs/scratch/PDS0325/c_basil_temp/SRR22085498_2.fastq: No such file or directory
+Success: SRR22085498
+gzip: /fs/scratch/PDS0325/c_basil_temp/SRR22085492_1.fastq: No such file or directory
+gzip: /fs/scratch/PDS0325/c_basil_temp/SRR22085492_2.fastq: No such file or directory
+Success: SRR22085492
+gzip: /fs/scratch/PDS0325/c_basil_temp/SRR22085497_1.fastq: No such file or directory
+gzip: /fs/scratch/PDS0325/c_basil_temp/SRR22085497_2.fastq: No such file or directory
+Success: SRR22085497
+gzip: /fs/scratch/PDS0325/c_basil_temp/SRR22085496_1.fastq: No such file or directory
+gzip: /fs/scratch/PDS0325/c_basil_temp/SRR22085496_2.fastq: No such file or directory
+Success: SRR22085496
+gzip: /fs/scratch/PDS0325/c_basil_temp/SRR22085499_1.fastq: No such file or directory
+gzip: /fs/scratch/PDS0325/c_basil_temp/SRR22085499_2.fastq: No such file or directory
+Success: SRR22085499
+gzip: /fs/scratch/PDS0325/c_basil_temp/SRR22085493_1.fastq: No such file or directory
+gzip: /fs/scratch/PDS0325/c_basil_temp/SRR22085493_2.fastq: No such file or directory
+Success: SRR22085493
+Done

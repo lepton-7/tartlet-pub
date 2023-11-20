@@ -12,11 +12,11 @@
 # set -x
 set echo on
 
-LISTNAME="a_baum_pokhrel2023_acc"
-TAX="a_baum"
+LISTNAME="c_basil_kugler2023_acc"
+TAX="c_basil"
 
 DUMP_DIR="/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/$TAX"
-TEMP_DIR="/fs/scratch/PDS0325/${TAX}_temp"
+TEMP_DIR="/fs/scratch/PDS0325/rna_seq/${TAX}_temp"
 ACC_LIST="/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/acc_lists/$LISTNAME.txt"
 
 module reset
