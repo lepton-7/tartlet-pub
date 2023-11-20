@@ -1,0 +1,43 @@
+slurmstepd: error: execve(): tart-utils: No such file or directory
+slurmstepd: error: execve(): tart-utils: No such file or directory
+slurmstepd: error: execve(): tart-utils: No such file or directory
+slurmstepd: error: execve(): tart-utils: No such file or directory
+slurmstepd: error: execve(): tart-utils: No such file or directory
+slurmstepd: error: execve(): tart-utils: No such file or directory
+slurmstepd: error: execve(): tart-utils: No such file or directory
+slurmstepd: error: execve(): tart-utils: No such file or directory
+slurmstepd: error: execve(): tart-utils: No such file or directory
+slurmstepd: error: execve(): tart-utils: No such file or directory
+slurmstepd: error: execve(): tart-utils: No such file or directory
+slurmstepd: error: execve(): tart-utils: No such file or directory
+slurmstepd: error: execve(): tart-utils: No such file or directory
+slurmstepd: error: execve(): tart-utils: No such file or directory
+slurmstepd: error: execve(): tart-utils: No such file or directory
+slurmstepd: error: execve(): tart-utils: No such file or directory
+slurmstepd: error: execve(): tart-utils: No such file or directory
+slurmstepd: error: execve(): tart-utils: No such file or directory
+slurmstepd: error: execve(): tart-utils: No such file or directory
+slurmstepd: error: execve(): tart-utils: No such file or directory
+slurmstepd: error: execve(): tart-utils: No such file or directory
+slurmstepd: error: execve(): tart-utils: No such file or directory
+slurmstepd: error: execve(): tart-utils: No such file or directory
+slurmstepd: error: execve(): tart-utils: No such file or directory
+slurmstepd: error: execve(): tart-utils: No such file or directory
+slurmstepd: error: execve(): tart-utils: No such file or directory
+slurmstepd: error: execve(): tart-utils: No such file or directory
+slurmstepd: error: execve(): tart-utils: No such file or directory
+slurmstepd: error: execve(): tart-utils: No such file or directory
+slurmstepd: error: execve(): tart-utils: No such file or directory
+slurmstepd: error: execve(): tart-utils: No such file or directory
+slurmstepd: error: execve(): tart-utils: No such file or directory
+slurmstepd: error: execve(): tart-utils: No such file or directory
+slurmstepd: error: execve(): tart-utils: No such file or directory
+slurmstepd: error: execve(): tart-utils: No such file or directory
+slurmstepd: error: execve(): tart-utils: No such file or directory
+slurmstepd: error: execve(): tart-utils: No such file or directory
+slurmstepd: error: execve(): tart-utils: No such file or directory
+slurmstepd: error: execve(): tart-utils: No such file or directory
+slurmstepd: error: execve(): tart-utils: No such file or directory
+srun: error: p0035: tasks 0-19: Exited with exit code 2
+srun: error: p0036: tasks 20-39: Exited with exit code 2
+Done

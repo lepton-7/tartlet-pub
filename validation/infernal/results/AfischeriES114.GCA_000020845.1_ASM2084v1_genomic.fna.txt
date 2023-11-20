@@ -20,5 +20,5 @@ Cobalamin            RF00174   CP001133.1           -          cm        1      
 # Target file:     /users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm
 # Option settings: cmscan --tblout /users/PDS0325/sachitk26/packages/tart/validation/infernal/results/AfischeriES114.GCA_000020845.1_ASM2084v1_genomic.fna.txt --noali --cut_ga --rfam --nohmmonly /users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm /users/PDS0325/sachitk26/packages/tart/validation/genomes/AfischeriES114.GCA_000020845.1_ASM2084v1_genomic.fna 
 # Current dir:     /users/PDS0325/sachitk26/packages/tart/validation/infernal
-# Date:            Mon Nov 13 12:32:48 2023
+# Date:            Mon Nov 20 18:19:53 2023
 # [ok]

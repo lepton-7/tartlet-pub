@@ -1,0 +1,24 @@
+#target name         accession query name           accession mdl mdl from   mdl to seq from   seq to strand trunc pass   gc  bias  score   E-value inc description of target
+#------------------- --------- -------------------- --------- --- -------- -------- -------- -------- ------ ----- ---- ---- ----- ------ --------- --- ---------------------
+Cobalamin            RF00174   CP004140.1           -          cm        1      189   954762   954964      +    no    1 0.65   5.8  118.2   8.7e-31 !   Cobalamin riboswitch
+Cobalamin            RF00174   CP004140.1           -          cm        1      189  1999469  1999257      -    no    1 0.60   0.0  105.7   4.9e-27 !   Cobalamin riboswitch
+FMN                  RF00050   CP004140.1           -          cm        1      138  2397747  2397911      +    no    1 0.61   0.0  106.6   4.8e-24 !   FMN riboswitch (RFN element)
+SAM_alpha            RF00521   CP004140.1           -          cm        1       79   580191   580113      -    no    1 0.54   0.0   85.5   6.3e-18 !   SAM riboswitch (alpha-proteobacteria)
+SAM_alpha            RF00521   CP004140.1           -          cm        1       79  3464906  3464983      +    no    1 0.55   0.0   85.0   8.7e-18 !   SAM riboswitch (alpha-proteobacteria)
+TPP                  RF00059   CP004140.1           -          cm        1      105  3536005  3536118      +    no    1 0.65   0.0   65.9   5.5e-11 !   TPP riboswitch (THI element)
+Glycine              RF00504   CP004140.1           -          cm        1       94  1674700  1674613      -    no    1 0.62   0.0   59.7   3.5e-10 !   Glycine riboswitch
+Cobalamin            RF00174   CP004139.1           -          cm        1      189   580384   580598      +    no    1 0.59   0.1  129.5   1.6e-34 !   Cobalamin riboswitch
+Cobalamin            RF00174   CP004139.1           -          cm        1      189    66246    66475      +    no    1 0.62   0.1  123.2   1.3e-32 !   Cobalamin riboswitch
+TPP                  RF00059   CP004139.1           -          cm        1      105  1192154  1192052      -    no    1 0.64   0.0   78.1   2.5e-14 !   TPP riboswitch (THI element)
+sul1                 RF03058   CP004139.1           -          cm        1       56    79478    79423      -    no    1 0.68   0.0   75.5   1.1e-12 !   sul1 RNA
+TPP                  RF00059   CP004139.1           -          cm        1      105  1633750  1633861      +    no    1 0.62   0.0   71.4   1.2e-12 !   TPP riboswitch (THI element)
+#
+# Program:         cmscan
+# Version:         1.1.4 (Dec 2020)
+# Pipeline mode:   SCAN
+# Query file:      /users/PDS0325/sachitk26/packages/tart/validation/genomes/Smeliloti.GCA_000346065.1.fna
+# Target file:     /users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm
+# Option settings: cmscan --tblout /users/PDS0325/sachitk26/packages/tart/validation/infernal/results/Smeliloti.GCA_000346065.1.fna.txt --noali --cut_ga --rfam --nohmmonly /users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm /users/PDS0325/sachitk26/packages/tart/validation/genomes/Smeliloti.GCA_000346065.1.fna 
+# Current dir:     /users/PDS0325/sachitk26/packages/tart/validation/infernal
+# Date:            Mon Nov 20 18:19:54 2023
+# [ok]

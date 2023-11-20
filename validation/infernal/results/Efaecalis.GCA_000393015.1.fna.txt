@@ -1,0 +1,31 @@
+#target name         accession query name           accession mdl mdl from   mdl to seq from   seq to strand trunc pass   gc  bias  score   E-value inc description of target
+#------------------- --------- -------------------- --------- --- -------- -------- -------- -------- ------ ----- ---- ---- ----- ------ --------- --- ---------------------
+M-box                RF00380   KB944666.1           -          cm        1      169  1429391  1429561      +    no    1 0.40   0.0  161.1   1.8e-37 !   M-box riboswitch (ykoK leader)
+M-box                RF00380   KB944666.1           -          cm        1      169   174568   174734      +    no    1 0.40   0.0  150.0   1.5e-34 !   M-box riboswitch (ykoK leader)
+M-box                RF00380   KB944666.1           -          cm        1      169  1186885  1186718      -    no    1 0.39   0.0  142.6   1.3e-32 !   M-box riboswitch (ykoK leader)
+M-box                RF00380   KB944666.1           -          cm        1      169  1189799  1189633      -    no    1 0.38   0.0  132.9   4.9e-30 !   M-box riboswitch (ykoK leader)
+M-box                RF00380   KB944666.1           -          cm        1      169  1484350  1484517      +    no    1 0.41   0.0  124.9   5.9e-28 !   M-box riboswitch (ykoK leader)
+AdoCbl_riboswitch    RF01482   KB944666.1           -          cm        1      149  1710869  1710720      -    no    1 0.40   0.0  128.6   6.9e-25 !   AdoCbl riboswitch
+FMN                  RF00050   KB944666.1           -          cm        1      138  1614974  1615093      +    no    1 0.45   0.0  100.8   1.3e-22 !   FMN riboswitch (RFN element)
+glmS                 RF00234   KB944666.1           -          cm        1      171  2091894  2091747      -    no    1 0.47   0.0   98.0   2.5e-22 !   glmS glucosamine-6-phosphate activated ribozyme
+SMK_box_riboswitch   RF01767   KB944666.1           -          cm        1       82   866904   866999      +    no    1 0.34   0.0   77.6   2.3e-18 !   SMK box translational riboswitch (SAM-III)
+THF                  RF01831   KB944666.1           -          cm        1       99  1026684  1026851      +    no    1 0.40   0.0   77.4   1.8e-16 !   THF riboswitch
+Lysine               RF00168   KB944666.1           -          cm        1      183   457062   456888      -    no    1 0.46   0.0   71.7     2e-16 !   Lysine riboswitch
+Cobalamin            RF00174   KB944666.1           -          cm        1      189  1715147  1714988      -    no    1 0.40   0.0   66.5   2.3e-15 !   Cobalamin riboswitch
+TPP                  RF00059   KB944666.1           -          cm        1      105  2587279  2587189      -    no    1 0.43   0.0   74.0   4.3e-13 !   TPP riboswitch (THI element)
+TPP                  RF00059   KB944666.1           -          cm        1      105  2594583  2594495      -    no    1 0.43   0.0   68.1   1.2e-11 !   TPP riboswitch (THI element)
+Purine               RF00167   KB944666.1           -          cm        1      102  2228818  2228721      -    no    1 0.43   0.0   63.7     2e-09 !   Purine riboswitch
+Cobalamin            RF00174   KB944666.1           -          cm        1      189  1710883  1710753      -    no    1 0.37   0.0   45.5   4.6e-09 !   Cobalamin riboswitch
+PreQ1                RF00522   KB944666.1           -          cm        1       45  2418108  2418152      +    no    1 0.40   0.0   50.2   3.6e-08 !   PreQ1 riboswitch
+Fluoride             RF01734   KB944666.1           -          cm        1       64  2325926  2325857      -    no    1 0.40   0.0   44.2   1.3e-06 !   Fluoride riboswitch (crcB)
+Sodium               RF03071   KB944666.1           -          cm        1       55  1561904  1561951      +    no    1 0.48   0.0   44.8   2.1e-06 !   Na+ riboswitch (DUF1646 RNA)
+#
+# Program:         cmscan
+# Version:         1.1.4 (Dec 2020)
+# Pipeline mode:   SCAN
+# Query file:      /users/PDS0325/sachitk26/packages/tart/validation/genomes/Efaecalis.GCA_000393015.1.fna
+# Target file:     /users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm
+# Option settings: cmscan --tblout /users/PDS0325/sachitk26/packages/tart/validation/infernal/results/Efaecalis.GCA_000393015.1.fna.txt --noali --cut_ga --rfam --nohmmonly /users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm /users/PDS0325/sachitk26/packages/tart/validation/genomes/Efaecalis.GCA_000393015.1.fna 
+# Current dir:     /users/PDS0325/sachitk26/packages/tart/validation/infernal
+# Date:            Mon Nov 20 18:19:52 2023
+# [ok]
