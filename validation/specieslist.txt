@@ -1,0 +1,20 @@
+Streptomyces coelicolor
+Mycobacterium tuberculosis
+Bacillus subtilis subsp. subtilis str. 168
+Bacillus anthracis
+Apilactobacillus kunkeei
+Streptococcus sanguinis
+Synechococcus elongatus
+Synechocystis sp. PCC 6803
+Bacteroides thetaiotaomicron
+Caulobacter vibrioides
+Neisseria gonorrhoeae
+Aliivibrio fischeri ES114
+Xanthomonas albilineans
+Piscirickettsia salmonis
+Salmonella enterica subsp. enterica serovar Typhimurium str. LT2
+Klebsiella pneumoniae
+Escherichia coli
+Acinetobacter baumannii
+Pseudomonas chlororaphis subsp. aureofaciens 30-84
+Pseudomonas fluorescens
