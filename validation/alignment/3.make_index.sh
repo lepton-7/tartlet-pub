@@ -7,12 +7,19 @@
 #SBATCH --mail-type=BEGIN,END,FAIL
 
 # RUN THIS TO LAUNCH JOB
-## sbatch --output=jobs/3.make_index.out.$(date +"%Y-%m-%d_%H-%M-%S").%j 3.make_index.sh
+## sbatch --output=jobs/3.all.make_index.out.$(date +"%Y-%m-%d_%H-%M-%S").%j 3.make_index.sh
 
 set echo on
 
-# DSETS=("a_fischeri_ES114" "a_rabiei" "b_sub_168" "b_theta" "c_vibrioides" "e_coli" "p_fluor" "s_coelicolor" "s_elon" "s_spcc6803")
-DSETS=("m_tuber")
+DSETS=(
+    "c_basil"
+    "m_smeg"
+    "s_meli"
+    "d_vulg"
+    "b_frag"
+    "e_fae"
+)
+
 
 for DSET in ${DSETS[@]}; do
 
