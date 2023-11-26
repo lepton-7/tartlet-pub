@@ -7,21 +7,42 @@
 #SBATCH --mail-type=BEGIN,END,FAIL
 
 # RUN THIS TO LAUNCH JOB
-## sbatch --output=jobs/5.m_tuber.make_BAMs.out.$(date +"%Y-%m-%d_%H-%M-%S").%j 5.make_BAMs.sh
+## sbatch --output=jobs/5.all.make_BAMs.out.$(date +"%Y-%m-%d_%H-%M-%S").%j 5.make_BAMs.sh
 
 set echo on
 
 RT="$HOME/packages/tart"
 
-DSET="m_tuber"
+DSETS=(
+    "c_basil"
+    "m_smeg"
+    "s_meli"
+    "d_vulg"
+    "b_frag"
+    "e_fae"
+)
 
-REF_DIR="$RT/validation/alignment/outputs/$DSET/switch_seqs_delta1000-1000"
+DATECODE="20231113"
 
-SAM_DIR="$REF_DIR/alignment_20231113"
+PRE_DEL=1000
+POST_DEL=1000
 
-echo "Starting SAM conversion for $DSET"
+echo "Making BAMs for:"
+echo "${DSETS[*]}"
+echo
+echo
 
-mpiexec tart-targeted convert-sam -i $SAM_DIR &&
-    wait
+for DSET in ${DSETS[@]}; do
 
-echo "Finished SAM -> sorted BAM conversion within $SAM_DIR"
+    REF_DIR="$RT/validation/alignment/outputs/$DSET/switch_seqs_delta$PRE_DEL-$POST_DEL"
+
+    SAM_DIR="$REF_DIR/alignment_$DATECODE"
+
+    echo "Starting SAM conversion for $DSET"
+
+    mpiexec tart-targeted convert-sam -i $SAM_DIR &&
+        wait
+
+    echo "Finished SAM -> sorted BAM conversion within $SAM_DIR"
+    echo
+done
