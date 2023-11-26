@@ -23,6 +23,11 @@ DSETS=(
     "e_fae"
 )
 
+echo "Parsing BAMs for:"
+echo "${DSETS[*]}"
+echo
+echo
+
 for DSET in ${DSETS[@]}; do
 
     BAM_DIR="$RT/validation/alignment/outputs/$DSET/switch_seqs_delta1000-1000/alignment_$DATECODE"
