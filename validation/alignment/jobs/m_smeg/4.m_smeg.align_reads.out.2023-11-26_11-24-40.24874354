@@ -1,0 +1,173 @@
+Instance 10 starting alignment for m_smeg from /users/PDS0325/sachitk26/packages/tart/validation/rna_seq/m_smeg reads
+
+
+Time loading forward index: 00:00:01
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:02:51
+7758592 reads; of these:
+  7758592 (100.00%) were paired; of these:
+    7753820 (99.94%) aligned concordantly 0 times
+    4772 (0.06%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    7753820 pairs aligned concordantly 0 times; of these:
+      782 (0.01%) aligned discordantly 1 time
+    ----
+    7753038 pairs aligned 0 times concordantly or discordantly; of these:
+      15506076 mates make up the pairs; of these:
+        15505087 (99.99%) aligned 0 times
+        989 (0.01%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.08% overall alignment rate
+Time searching: 00:02:51
+Overall time: 00:02:52
+
+
+---------------------------------------------------------------------
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:03:08
+7758592 reads; of these:
+  7758592 (100.00%) were paired; of these:
+    7757645 (99.99%) aligned concordantly 0 times
+    947 (0.01%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    7757645 pairs aligned concordantly 0 times; of these:
+      176 (0.00%) aligned discordantly 1 time
+    ----
+    7757469 pairs aligned 0 times concordantly or discordantly; of these:
+      15514938 mates make up the pairs; of these:
+        15514807 (100.00%) aligned 0 times
+        131 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.02% overall alignment rate
+Time searching: 00:03:08
+Overall time: 00:03:08
+
+
+---------------------------------------------------------------------
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:02:48
+7758592 reads; of these:
+  7758592 (100.00%) were paired; of these:
+    7758413 (100.00%) aligned concordantly 0 times
+    179 (0.00%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    7758413 pairs aligned concordantly 0 times; of these:
+      37 (0.00%) aligned discordantly 1 time
+    ----
+    7758376 pairs aligned 0 times concordantly or discordantly; of these:
+      15516752 mates make up the pairs; of these:
+        15516722 (100.00%) aligned 0 times
+        30 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.00% overall alignment rate
+Time searching: 00:02:48
+Overall time: 00:02:48
+
+
+---------------------------------------------------------------------
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:02:38
+7758592 reads; of these:
+  7758592 (100.00%) were paired; of these:
+    7757167 (99.98%) aligned concordantly 0 times
+    1425 (0.02%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    7757167 pairs aligned concordantly 0 times; of these:
+      235 (0.00%) aligned discordantly 1 time
+    ----
+    7756932 pairs aligned 0 times concordantly or discordantly; of these:
+      15513864 mates make up the pairs; of these:
+        15513641 (100.00%) aligned 0 times
+        223 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.02% overall alignment rate
+Time searching: 00:02:38
+Overall time: 00:02:38
+
+
+---------------------------------------------------------------------
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:02:35
+7758592 reads; of these:
+  7758592 (100.00%) were paired; of these:
+    7757836 (99.99%) aligned concordantly 0 times
+    756 (0.01%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    7757836 pairs aligned concordantly 0 times; of these:
+      150 (0.00%) aligned discordantly 1 time
+    ----
+    7757686 pairs aligned 0 times concordantly or discordantly; of these:
+      15515372 mates make up the pairs; of these:
+        15515289 (100.00%) aligned 0 times
+        83 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.01% overall alignment rate
+Time searching: 00:02:35
+Overall time: 00:02:35
+
+
+---------------------------------------------------------------------
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:03:46
+7758592 reads; of these:
+  7758592 (100.00%) were paired; of these:
+    7755757 (99.96%) aligned concordantly 0 times
+    2835 (0.04%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    7755757 pairs aligned concordantly 0 times; of these:
+      464 (0.01%) aligned discordantly 1 time
+    ----
+    7755293 pairs aligned 0 times concordantly or discordantly; of these:
+      15510586 mates make up the pairs; of these:
+        15509810 (99.99%) aligned 0 times
+        776 (0.01%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.05% overall alignment rate
+Time searching: 00:03:46
+Overall time: 00:03:46
+
+
+---------------------------------------------------------------------
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:03:08
+7758592 reads; of these:
+  7758592 (100.00%) were paired; of these:
+    7755880 (99.97%) aligned concordantly 0 times
+    2712 (0.03%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    7755880 pairs aligned concordantly 0 times; of these:
+      615 (0.01%) aligned discordantly 1 time
+    ----
+    7755265 pairs aligned 0 times concordantly or discordantly; of these:
+      15510530 mates make up the pairs; of these:
+        15510192 (100.00%) aligned 0 times
+        338 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.05% overall alignment rate
+Time searching: 00:03:08
+Overall time: 00:03:08
+
+
+---------------------------------------------------------------------
+
+Done
+Finished SRR24658680 read alignment for m_smeg into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/m_smeg/switch_seqs_delta1000-1000/alignment_20231113

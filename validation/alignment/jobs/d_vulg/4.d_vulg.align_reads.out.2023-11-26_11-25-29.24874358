@@ -1,0 +1,40 @@
+Instance 10 starting alignment for d_vulg from /users/PDS0325/sachitk26/packages/tart/validation/rna_seq/d_vulg reads
+
+
+Warning: [Errno 2] No such file or directory: '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/d_vulg/_1.fastq.gz'
+(ERR): Read file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/d_vulg/_1.fastq.gz' doesn't exist
+Exiting now ...
+
+
+---------------------------------------------------------------------
+
+Warning: [Errno 2] No such file or directory: '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/d_vulg/_1.fastq.gz'
+(ERR): Read file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/d_vulg/_1.fastq.gz' doesn't exist
+Exiting now ...
+
+
+---------------------------------------------------------------------
+
+Warning: [Errno 2] No such file or directory: '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/d_vulg/_1.fastq.gz'
+(ERR): Read file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/d_vulg/_1.fastq.gz' doesn't exist
+Exiting now ...
+
+
+---------------------------------------------------------------------
+
+Warning: [Errno 2] No such file or directory: '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/d_vulg/_1.fastq.gz'
+(ERR): Read file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/d_vulg/_1.fastq.gz' doesn't exist
+Exiting now ...
+
+
+---------------------------------------------------------------------
+
+Warning: [Errno 2] No such file or directory: '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/d_vulg/_1.fastq.gz'
+(ERR): Read file '/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/d_vulg/_1.fastq.gz' doesn't exist
+Exiting now ...
+
+
+---------------------------------------------------------------------
+
+Done
+Finished d_vulg read alignment for d_vulg into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/d_vulg/switch_seqs_delta1000-1000/alignment_20231113

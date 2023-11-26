@@ -1,0 +1,53 @@
+Instance 5 starting alignment for b_frag from /users/PDS0325/sachitk26/packages/tart/validation/rna_seq/b_frag reads
+
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:01:37
+10537792 reads; of these:
+  10537792 (100.00%) were paired; of these:
+    10468119 (99.34%) aligned concordantly 0 times
+    65526 (0.62%) aligned concordantly exactly 1 time
+    4147 (0.04%) aligned concordantly >1 times
+    ----
+    10468119 pairs aligned concordantly 0 times; of these:
+      33 (0.00%) aligned discordantly 1 time
+    ----
+    10468086 pairs aligned 0 times concordantly or discordantly; of these:
+      20936172 mates make up the pairs; of these:
+        20929388 (99.97%) aligned 0 times
+        6651 (0.03%) aligned exactly 1 time
+        133 (0.00%) aligned >1 times
+0.69% overall alignment rate
+Time searching: 00:01:37
+Overall time: 00:01:37
+
+
+---------------------------------------------------------------------
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:01:28
+10537792 reads; of these:
+  10537792 (100.00%) were paired; of these:
+    10512026 (99.76%) aligned concordantly 0 times
+    25766 (0.24%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    10512026 pairs aligned concordantly 0 times; of these:
+      29 (0.00%) aligned discordantly 1 time
+    ----
+    10511997 pairs aligned 0 times concordantly or discordantly; of these:
+      21023994 mates make up the pairs; of these:
+        21021217 (99.99%) aligned 0 times
+        2777 (0.01%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.26% overall alignment rate
+Time searching: 00:01:28
+Overall time: 00:01:28
+
+
+---------------------------------------------------------------------
+
+Done
+Finished SRR22681941 read alignment for b_frag into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/b_frag/switch_seqs_delta1000-1000/alignment_20231113

@@ -1,0 +1,53 @@
+Instance 4 starting alignment for b_frag from /users/PDS0325/sachitk26/packages/tart/validation/rna_seq/b_frag reads
+
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:01:37
+10969893 reads; of these:
+  10969893 (100.00%) were paired; of these:
+    10880063 (99.18%) aligned concordantly 0 times
+    80476 (0.73%) aligned concordantly exactly 1 time
+    9354 (0.09%) aligned concordantly >1 times
+    ----
+    10880063 pairs aligned concordantly 0 times; of these:
+      49 (0.00%) aligned discordantly 1 time
+    ----
+    10880014 pairs aligned 0 times concordantly or discordantly; of these:
+      21760028 mates make up the pairs; of these:
+        21749879 (99.95%) aligned 0 times
+        9849 (0.05%) aligned exactly 1 time
+        300 (0.00%) aligned >1 times
+0.87% overall alignment rate
+Time searching: 00:01:37
+Overall time: 00:01:37
+
+
+---------------------------------------------------------------------
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:01:36
+10969893 reads; of these:
+  10969893 (100.00%) were paired; of these:
+    10958334 (99.89%) aligned concordantly 0 times
+    11559 (0.11%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    10958334 pairs aligned concordantly 0 times; of these:
+      9 (0.00%) aligned discordantly 1 time
+    ----
+    10958325 pairs aligned 0 times concordantly or discordantly; of these:
+      21916650 mates make up the pairs; of these:
+        21914013 (99.99%) aligned 0 times
+        2637 (0.01%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.12% overall alignment rate
+Time searching: 00:01:36
+Overall time: 00:01:36
+
+
+---------------------------------------------------------------------
+
+Done
+Finished SRR22681940 read alignment for b_frag into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/b_frag/switch_seqs_delta1000-1000/alignment_20231113

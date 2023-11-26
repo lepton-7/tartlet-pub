@@ -1,0 +1,53 @@
+Instance 6 starting alignment for b_frag from /users/PDS0325/sachitk26/packages/tart/validation/rna_seq/b_frag reads
+
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:01:10
+7084357 reads; of these:
+  7084357 (100.00%) were paired; of these:
+    7042869 (99.41%) aligned concordantly 0 times
+    38014 (0.54%) aligned concordantly exactly 1 time
+    3474 (0.05%) aligned concordantly >1 times
+    ----
+    7042869 pairs aligned concordantly 0 times; of these:
+      12 (0.00%) aligned discordantly 1 time
+    ----
+    7042857 pairs aligned 0 times concordantly or discordantly; of these:
+      14085714 mates make up the pairs; of these:
+        14080716 (99.96%) aligned 0 times
+        4850 (0.03%) aligned exactly 1 time
+        148 (0.00%) aligned >1 times
+0.62% overall alignment rate
+Time searching: 00:01:10
+Overall time: 00:01:10
+
+
+---------------------------------------------------------------------
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:00:59
+7084357 reads; of these:
+  7084357 (100.00%) were paired; of these:
+    7042027 (99.40%) aligned concordantly 0 times
+    42330 (0.60%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    7042027 pairs aligned concordantly 0 times; of these:
+      9 (0.00%) aligned discordantly 1 time
+    ----
+    7042018 pairs aligned 0 times concordantly or discordantly; of these:
+      14084036 mates make up the pairs; of these:
+        14079743 (99.97%) aligned 0 times
+        4293 (0.03%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.63% overall alignment rate
+Time searching: 00:00:59
+Overall time: 00:01:00
+
+
+---------------------------------------------------------------------
+
+Done
+Finished SRR22681942 read alignment for b_frag into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/b_frag/switch_seqs_delta1000-1000/alignment_20231113
