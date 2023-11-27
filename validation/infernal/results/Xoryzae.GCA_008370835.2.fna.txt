@@ -1,0 +1,18 @@
+#target name         accession query name           accession mdl mdl from   mdl to seq from   seq to strand trunc pass   gc  bias  score   E-value inc description of target
+#------------------- --------- -------------------- --------- --- -------- -------- -------- -------- ------ ----- ---- ---- ----- ------ --------- --- ---------------------
+FMN                  RF00050   CP043403.1           -          cm        1      138  4015752  4015577      -    no    1 0.68   1.7  103.6   4.1e-23 !   FMN riboswitch (RFN element)
+SAM                  RF00162   CP043403.1           -          cm        1      108  1524857  1524976      +    no    1 0.68   0.1   68.7   4.4e-14 !   SAM riboswitch (S box leader)
+Glycine              RF00504   CP043403.1           -          cm        1       94  3581587  3581701      +    no    1 0.64   0.1   65.2   1.7e-11 !   Glycine riboswitch
+TPP                  RF00059   CP043403.1           -          cm        1      105   995839   995936      +    no    1 0.62   0.0   65.0   1.2e-10 !   TPP riboswitch (THI element)
+Fluoride             RF01734   CP043403.1           -          cm        1       64  2398765  2398841      +    no    1 0.55   0.0   48.7   1.3e-07 !   Fluoride riboswitch (crcB)
+SAH_riboswitch       RF01057   CP043403.1           -          cm        1       78  3950707  3950821      +    no    1 0.68   0.1   50.2   4.3e-06 !   S-adenosyl-L-homocysteine riboswitch
+#
+# Program:         cmscan
+# Version:         1.1.4 (Dec 2020)
+# Pipeline mode:   SCAN
+# Query file:      /users/PDS0325/sachitk26/packages/tart/validation/genomes/Xoryzae.GCA_008370835.2.fna
+# Target file:     /users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm
+# Option settings: cmscan --tblout /users/PDS0325/sachitk26/packages/tart/validation/infernal/results/Xoryzae.GCA_008370835.2.fna.txt --noali --cut_ga --rfam --nohmmonly /users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm /users/PDS0325/sachitk26/packages/tart/validation/genomes/Xoryzae.GCA_008370835.2.fna 
+# Current dir:     /users/PDS0325/sachitk26/packages/tart/validation/infernal
+# Date:            Mon Nov 27 16:56:31 2023
+# [ok]

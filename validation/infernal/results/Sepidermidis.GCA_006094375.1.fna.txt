@@ -1,0 +1,29 @@
+#target name         accession query name           accession mdl mdl from   mdl to seq from   seq to strand trunc pass   gc  bias  score   E-value inc description of target
+#------------------- --------- -------------------- --------- --- -------- -------- -------- -------- ------ ----- ---- ---- ----- ------ --------- --- ---------------------
+glmS                 RF00234   CP035288.1           -          cm        1      171   817671   817888      +    no    1 0.34   3.6  138.5   1.7e-33 !   glmS glucosamine-6-phosphate activated ribozyme
+Lysine               RF00168   CP035288.1           -          cm        1      183  1193293  1193468      +    no    1 0.33   3.4  115.3   2.6e-29 !   Lysine riboswitch
+FMN                  RF00050   CP035288.1           -          cm        1      138  1368580  1368715      +    no    1 0.46   0.0  117.9   2.7e-27 !   FMN riboswitch (RFN element)
+FMN                  RF00050   CP035288.1           -          cm        1      138  1086083  1086221      +    no    1 0.44   0.0  116.1   7.9e-27 !   FMN riboswitch (RFN element)
+Lysine               RF00168   CP035288.1           -          cm        1      183  1493834  1493655      -    no    1 0.32   6.5  103.5   7.7e-26 !   Lysine riboswitch
+SAM                  RF00162   CP035288.1           -          cm        1      108  1984836  1984734      -    no    1 0.44   0.0   86.5   1.5e-19 !   SAM riboswitch (S box leader)
+SAM                  RF00162   CP035288.1           -          cm        1      108   677892   677988      +    no    1 0.44   0.0   81.8   3.5e-18 !   SAM riboswitch (S box leader)
+SAM                  RF00162   CP035288.1           -          cm        1      108  1073128  1073237      +    no    1 0.45   0.0   78.5   3.2e-17 !   SAM riboswitch (S box leader)
+TPP                  RF00059   CP035288.1           -          cm        1      105   517683   517574      -    no    1 0.44   0.0   85.2   6.6e-16 !   TPP riboswitch (THI element)
+TPP                  RF00059   CP035288.1           -          cm        1      105   871165   871263      +    no    1 0.36   0.0   84.7   9.1e-16 !   TPP riboswitch (THI element)
+SAM                  RF00162   CP035288.1           -          cm        1      108    15620    15720      +    no    1 0.44   0.0   73.0   1.3e-15 !   SAM riboswitch (S box leader)
+Purine               RF00167   CP035288.1           -          cm        1      102  2400987  2400885      -    no    1 0.32   0.1   86.1   5.3e-15 !   Purine riboswitch
+TPP                  RF00059   CP035288.1           -          cm        1      105  2243502  2243601      +    no    1 0.39   0.0   78.8   2.6e-14 !   TPP riboswitch (THI element)
+yybP-ykoY            RF00080   CP035288.1           -          cm        1      175  1868360  1868237      -    no    1 0.34   0.0   61.8   1.1e-13 !   yybP-ykoY manganese riboswitch
+TPP                  RF00059   CP035288.1           -          cm        1      105  1813691  1813793      +    no    1 0.44   0.0   69.5   4.8e-12 !   TPP riboswitch (THI element)
+TPP                  RF00059   CP035288.1           -          cm        1      105   263407   263306      -    no    1 0.42   0.0   65.0   6.3e-11 !   TPP riboswitch (THI element)
+Glycine              RF00504   CP035288.1           -          cm        1       94  1321181  1321323      +    no    1 0.33   0.3   60.5   1.5e-10 !   Glycine riboswitch
+#
+# Program:         cmscan
+# Version:         1.1.4 (Dec 2020)
+# Pipeline mode:   SCAN
+# Query file:      /users/PDS0325/sachitk26/packages/tart/validation/genomes/Sepidermidis.GCA_006094375.1.fna
+# Target file:     /users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm
+# Option settings: cmscan --tblout /users/PDS0325/sachitk26/packages/tart/validation/infernal/results/Sepidermidis.GCA_006094375.1.fna.txt --noali --cut_ga --rfam --nohmmonly /users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm /users/PDS0325/sachitk26/packages/tart/validation/genomes/Sepidermidis.GCA_006094375.1.fna 
+# Current dir:     /users/PDS0325/sachitk26/packages/tart/validation/infernal
+# Date:            Mon Nov 27 16:56:27 2023
+# [ok]

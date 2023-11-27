@@ -1,0 +1,47 @@
+#target name         accession query name           accession mdl mdl from   mdl to seq from   seq to strand trunc pass   gc  bias  score   E-value inc description of target
+#------------------- --------- -------------------- --------- --- -------- -------- -------- -------- ------ ----- ---- ---- ----- ------ --------- --- ---------------------
+raiA                 RF03072   CP076401.1           -          cm        1      209   185533   185740      +    no    1 0.46   0.0  184.3   3.2e-47 !   raiA RNA
+Lysine               RF00168   CP076401.1           -          cm        1      183  3391188  3391009      -    no    1 0.38   0.2  117.5   9.9e-30 !   Lysine riboswitch
+Cobalamin            RF00174   CP076401.1           -          cm        1      189  3260890  3260710      -    no    1 0.36   0.5  114.7   1.1e-29 !   Cobalamin riboswitch
+Cobalamin            RF00174   CP076401.1           -          cm        1      189   402224   402415      +    no    1 0.33   2.4  113.9   1.9e-29 !   Cobalamin riboswitch
+Cobalamin            RF00174   CP076401.1           -          cm        1      189  3828844  3828666      -    no    1 0.35   0.7  113.5   2.4e-29 !   Cobalamin riboswitch
+FMN                  RF00050   CP076401.1           -          cm        1      138   201957   202074      +    no    1 0.48   0.0  124.9   5.5e-29 !   FMN riboswitch (RFN element)
+FMN                  RF00050   CP076401.1           -          cm        1      138  1818148  1818027      -    no    1 0.44   0.0  118.7   2.6e-27 !   FMN riboswitch (RFN element)
+Lysine               RF00168   CP076401.1           -          cm        1      183  1767336  1767512      +    no    1 0.35   3.0  104.4   6.7e-26 !   Lysine riboswitch
+Lysine               RF00168   CP076401.1           -          cm        1      183  2154811  2154643      -    no    1 0.38   0.3  103.1   1.7e-25 !   Lysine riboswitch
+Lysine               RF00168   CP076401.1           -          cm        1      183  3567330  3567504      +    no    1 0.37   0.3   98.9   2.8e-24 !   Lysine riboswitch
+glmS                 RF00234   CP076401.1           -          cm        1      171   168383   168562      +    no    1 0.39   0.0  104.3   6.8e-24 !   glmS glucosamine-6-phosphate activated ribozyme
+FMN                  RF00050   CP076401.1           -          cm        1      138  3707036  3707151      +    no    1 0.41   0.0   98.1   1.1e-21 !   FMN riboswitch (RFN element)
+SAM                  RF00162   CP076401.1           -          cm        1      108   179373   179476      +    no    1 0.47   0.0   94.6   1.1e-21 !   SAM riboswitch (S box leader)
+SAM                  RF00162   CP076401.1           -          cm        1      108  1229502  1229608      +    no    1 0.43   0.0   89.4   3.7e-20 !   SAM riboswitch (S box leader)
+SAM                  RF00162   CP076401.1           -          cm        1      108  1573109  1573215      +    no    1 0.40   0.0   89.3   3.8e-20 !   SAM riboswitch (S box leader)
+SAM                  RF00162   CP076401.1           -          cm        1      108  1766094  1765989      -    no    1 0.40   0.0   86.3   2.9e-19 !   SAM riboswitch (S box leader)
+SAM                  RF00162   CP076401.1           -          cm        1      108  1951766  1951868      +    no    1 0.47   0.0   82.4   3.9e-18 !   SAM riboswitch (S box leader)
+Purine               RF00167   CP076401.1           -          cm        1      102   264570   264671      +    no    1 0.30   0.1   95.4   4.5e-17 !   Purine riboswitch
+ykkC-yxkD            RF00442   CP076401.1           -          cm        1      107   532900   533006      +    no    1 0.38   0.0   93.7   6.7e-16 !   Guanidine-I riboswitch
+c-di-GMP-II          RF01786   CP076401.1           -          cm        1       85  3907210  3907125      -    no    1 0.37   0.0   75.1   2.5e-15 !   Cyclic di-GMP-II riboswitch
+c-di-GMP-II          RF01786   CP076401.1           -          cm        1       85  3595570  3595485      -    no    1 0.31   0.0   73.5   7.4e-15 !   Cyclic di-GMP-II riboswitch
+c-di-GMP-II          RF01786   CP076401.1           -          cm        1       85  3672085  3672002      -    no    1 0.32   0.1   70.9   3.9e-14 !   Cyclic di-GMP-II riboswitch
+c-di-GMP-II          RF01786   CP076401.1           -          cm        1       85  3098523  3098438      -    no    1 0.34   0.0   69.9   7.6e-14 !   Cyclic di-GMP-II riboswitch
+ykkC-yxkD            RF00442   CP076401.1           -          cm        1      107  2555464  2555370      -    no    1 0.41   0.0   84.3   8.5e-14 !   Guanidine-I riboswitch
+Purine               RF00167   CP076401.1           -          cm        1      102  2487900  2487799      -    no    1 0.27   1.3   80.0   2.8e-13 !   Purine riboswitch
+Purine               RF00167   CP076401.1           -          cm        1      102  2221838  2221736      -    no    1 0.26   2.7   79.3   4.1e-13 !   Purine riboswitch
+Purine               RF00167   CP076401.1           -          cm        1      102  2921296  2921397      +    no    1 0.27   1.1   78.7   5.7e-13 !   Purine riboswitch
+Glycine              RF00504   CP076401.1           -          cm        1       94  2431961  2432049      +    no    1 0.49   0.0   68.9   1.5e-12 !   Glycine riboswitch
+TPP                  RF00059   CP076401.1           -          cm        1      105  1820909  1821020      +    no    1 0.38   0.0   71.8   2.2e-12 !   TPP riboswitch (THI element)
+Glycine              RF00504   CP076401.1           -          cm        1       94  1770918  1771022      +    no    1 0.36   0.0   64.1   2.8e-11 !   Glycine riboswitch
+TPP                  RF00059   CP076401.1           -          cm        1      105  1701250  1701342      +    no    1 0.43   0.0   64.5   1.4e-10 !   TPP riboswitch (THI element)
+TPP                  RF00059   CP076401.1           -          cm        1      105  2085716  2085617      -    no    1 0.40   0.0   57.4   7.5e-09 !   TPP riboswitch (THI element)
+Glycine              RF00504   CP076401.1           -          cm        1       94  2518889  2518779      -    no    1 0.39   0.0   49.1   2.6e-07 !   Glycine riboswitch
+PreQ1                RF00522   CP076401.1           -          cm        1       45  1801196  1801239      +    no    1 0.32   0.0   46.0   6.9e-07 !   PreQ1 riboswitch
+Fluoride             RF01734   CP076401.1           -          cm        1       64   729042   729118      +    no    1 0.36   0.0   43.1   3.6e-06 !   Fluoride riboswitch (crcB)
+#
+# Program:         cmscan
+# Version:         1.1.4 (Dec 2020)
+# Pipeline mode:   SCAN
+# Query file:      /users/PDS0325/sachitk26/packages/tart/validation/genomes/Cdifficile.GCA_018885085.1.fna
+# Target file:     /users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm
+# Option settings: cmscan --tblout /users/PDS0325/sachitk26/packages/tart/validation/infernal/results/Cdifficile.GCA_018885085.1.fna.txt --noali --cut_ga --rfam --nohmmonly /users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm /users/PDS0325/sachitk26/packages/tart/validation/genomes/Cdifficile.GCA_018885085.1.fna 
+# Current dir:     /users/PDS0325/sachitk26/packages/tart/validation/infernal
+# Date:            Mon Nov 27 16:56:29 2023
+# [ok]

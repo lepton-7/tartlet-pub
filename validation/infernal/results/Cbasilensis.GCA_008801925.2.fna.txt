@@ -22,5 +22,5 @@ ykkC-yxkD            RF00442   CP062806.1           -          cm        1      
 # Target file:     /users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm
 # Option settings: cmscan --tblout /users/PDS0325/sachitk26/packages/tart/validation/infernal/results/Cbasilensis.GCA_008801925.2.fna.txt --noali --cut_ga --rfam --nohmmonly /users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm /users/PDS0325/sachitk26/packages/tart/validation/genomes/Cbasilensis.GCA_008801925.2.fna 
 # Current dir:     /users/PDS0325/sachitk26/packages/tart/validation/infernal
-# Date:            Mon Nov 20 18:20:00 2023
+# Date:            Mon Nov 27 16:56:38 2023
 # [ok]

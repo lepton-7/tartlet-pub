@@ -16,5 +16,5 @@ TPP                  RF00059   AE017285.1           -          cm        1      
 # Target file:     /users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm
 # Option settings: cmscan --tblout /users/PDS0325/sachitk26/packages/tart/validation/infernal/results/DvulgarisHilden.GCA_000195755.1.fna.txt --noali --cut_ga --rfam --nohmmonly /users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm /users/PDS0325/sachitk26/packages/tart/validation/genomes/DvulgarisHilden.GCA_000195755.1.fna 
 # Current dir:     /users/PDS0325/sachitk26/packages/tart/validation/infernal
-# Date:            Mon Nov 20 18:19:54 2023
+# Date:            Mon Nov 27 16:56:31 2023
 # [ok]

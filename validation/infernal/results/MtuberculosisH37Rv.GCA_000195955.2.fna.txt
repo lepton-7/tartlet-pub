@@ -18,5 +18,5 @@ TPP                  RF00059   AL123456.3           -          cm        1      
 # Target file:     /users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm
 # Option settings: cmscan --tblout /users/PDS0325/sachitk26/packages/tart/validation/infernal/results/MtuberculosisH37Rv.GCA_000195955.2.fna.txt --noali --cut_ga --rfam --nohmmonly /users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm /users/PDS0325/sachitk26/packages/tart/validation/genomes/MtuberculosisH37Rv.GCA_000195955.2.fna 
 # Current dir:     /users/PDS0325/sachitk26/packages/tart/validation/infernal
-# Date:            Mon Nov 20 18:19:56 2023
+# Date:            Mon Nov 27 16:56:33 2023
 # [ok]
