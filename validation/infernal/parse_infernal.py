@@ -49,7 +49,8 @@ def parse_infernal(process_file, name):
     rows = []
     # This is so that extra data that is not in the infernal table can be
     # added to the row data and parsed at the same time
-    additionalCols = r" %s %s %s %s %s %s %s %s %s %s %s"
+    # additionalCols = r" %s %s %s %s %s %s %s %s %s %s %s"
+    additionalCols = r" %s %s"
 
     with open(process_file, "r") as f:
         MAG_acc = " "
@@ -116,13 +117,13 @@ def parse_infernal(process_file, name):
                     % (
                         MAG_acc,
                         name,
-                        MAG_dom,
-                        MAG_phylum,
-                        MAG_class,
-                        MAG_order,
-                        MAG_fam,
-                        MAG_genus,
-                        *tax_entry,
+                        # MAG_dom,
+                        # MAG_phylum,
+                        # MAG_class,
+                        # MAG_order,
+                        # MAG_fam,
+                        # MAG_genus,
+                        # *tax_entry,
                     )  # tax_entry has 3 elements
                 )
 
@@ -170,15 +171,15 @@ def parse_infernal(process_file, name):
         "E-value",
         "MAG_accession",
         "Dataset",
-        "MAG_domain",
-        "MAG_phylum",
-        "MAG_class",
-        "MAG_order",
-        "MAG_family",
-        "MAG_genus",
-        "full_taxonomy",
-        "completeness",
-        "contamination",
+        # "MAG_domain",
+        # "MAG_phylum",
+        # "MAG_class",
+        # "MAG_order",
+        # "MAG_family",
+        # "MAG_genus",
+        # "full_taxonomy",
+        # "completeness",
+        # "contamination",
     ]
 
     df = pd.DataFrame(
