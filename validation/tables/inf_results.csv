@@ -1,4 +1,4 @@
-target_name,accession,query_name,accession,seq_from,seq_to,strand,trunc,pass,gc,bias,score,E-value,MAG_accession,Dataset
+target_name,accession,query_name,accession,seq_from,seq_to,strand,trunc,pass,gc,bias,score,e-value,genome_accession,dataset
 Fluoride,RF01734,CP043953.1,-,3557193,3557127,-,no,1,0.46,0.0,55.6,1.4e-09,AbaumanniiGCA_008632635.1,a_baum
 TPP,RF00059,CP043953.1,-,3697297,3697431,+,no,1,0.45,0.0,61.7,6.5e-10,AbaumanniiGCA_008632635.1,a_baum
 yybP-ykoY,RF00080,CP043953.1,-,170384,170580,+,no,1,0.42,0.0,56.5,5.6e-12,AbaumanniiGCA_008632635.1,a_baum
