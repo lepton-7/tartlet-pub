@@ -168,7 +168,7 @@ def parse_infernal(process_file, name):
         "gc",
         "bias",
         "score",
-        "E-value",
+        "e-value",
         "genome_accession",
         "dataset",
         # "MAG_domain",
