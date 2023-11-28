@@ -36,7 +36,8 @@ for DSET in ${DSETS[@]}; do
 
     OUT_DIR="$RT/validation/alignment/outputs/$DSET/switch_seqs_delta$PRE_DEL-$POST_DEL"
 
-    mpiexec tart-targeted reference-gen --ledger $TABLE \
+    mpiexec tart-targeted reference-gen \
+        --ledger $TABLE \
         --out-dir $OUT_DIR \
         --genome $GENOMES \
         --dset $DSET \
