@@ -1,0 +1,279 @@
+Started 40 workers
+Started 40 workers
+Started 40 workers
+Started 40 workers
+Started 40 workers
+Started 40 workers
+Started 40 workers
+Started 40 workers
+Started 40 workers
+Started 40 workers
+Started 40 workers
+Started 40 workers
+Started 40 workers
+Started 40 workers
+Started 40 workers
+Started 40 workers
+Started 40 workers
+Started 40 workers
+Started 40 workers
+Started 40 workers
+Prodigal failed on worker 7:
+Command: ['prodigal', '-i', '/users/PDS0325/sachitk26/packages/tart/validation/genomes/Bsubtilis168.GCF_000009045.1.fna', '-o', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Bsubtilis168.GCF_000009045.1.gbk', '-a', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Bsubtilis168.GCF_000009045.1.faa', '-q']
+Output: 
+Error: 
+Error: can't open output file /users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Bsubtilis168.GCF_000009045.1.gbk.
+
+
+Prodigal failed on worker 10:
+Command: ['prodigal', '-i', '/users/PDS0325/sachitk26/packages/tart/validation/genomes/Cbasilensis.GCA_008801925.2.fna', '-o', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Cbasilensis.GCA_008801925.2.gbk', '-a', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Cbasilensis.GCA_008801925.2.faa', '-q']
+Output: 
+Error: 
+Error: can't open output file /users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Cbasilensis.GCA_008801925.2.gbk.
+
+
+Prodigal failed on worker 19:
+Command: ['prodigal', '-i', '/users/PDS0325/sachitk26/packages/tart/validation/genomes/MtuberculosisH37Rv.GCA_000195955.2.fna', '-o', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/MtuberculosisH37Rv.GCA_000195955.2.gbk', '-a', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/MtuberculosisH37Rv.GCA_000195955.2.faa', '-q']
+Output: 
+Error: 
+Error: can't open output file /users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/MtuberculosisH37Rv.GCA_000195955.2.gbk.
+
+
+Prodigal failed on worker 4:
+Command: ['prodigal', '-i', '/users/PDS0325/sachitk26/packages/tart/validation/genomes/Banthracis.GCA_000008445.1.fna', '-o', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Banthracis.GCA_000008445.1.gbk', '-a', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Banthracis.GCA_000008445.1.faa', '-q']
+Output: 
+Error: 
+Error: can't open output file /users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Banthracis.GCA_000008445.1.gbk.
+
+
+Prodigal failed on worker 17:
+Command: ['prodigal', '-i', '/users/PDS0325/sachitk26/packages/tart/validation/genomes/Kpneumoniae.GCA_000240185.2.fna', '-o', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Kpneumoniae.GCA_000240185.2.gbk', '-a', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Kpneumoniae.GCA_000240185.2.faa', '-q']
+Output: 
+Error: 
+Error: can't open output file /users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Kpneumoniae.GCA_000240185.2.gbk.
+
+
+Prodigal failed on worker 16:
+Command: ['prodigal', '-i', '/users/PDS0325/sachitk26/packages/tart/validation/genomes/Elimosum.GCA_000807675.2.fna', '-o', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Elimosum.GCA_000807675.2.gbk', '-a', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Elimosum.GCA_000807675.2.faa', '-q']
+Output: 
+Error: 
+Error: can't open output file /users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Elimosum.GCA_000807675.2.gbk.
+
+
+Prodigal failed on worker 15:
+Command: ['prodigal', '-i', '/users/PDS0325/sachitk26/packages/tart/validation/genomes/Efaecalis.GCA_000393015.1.fna', '-o', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Efaecalis.GCA_000393015.1.gbk', '-a', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Efaecalis.GCA_000393015.1.faa', '-q']
+Output: 
+Error: 
+Error: can't open output file /users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Efaecalis.GCA_000393015.1.gbk.
+
+
+Prodigal failed on worker 11:
+Command: ['prodigal', '-i', '/users/PDS0325/sachitk26/packages/tart/validation/genomes/Cdifficile.GCA_018885085.1.fna', '-o', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Cdifficile.GCA_018885085.1.gbk', '-a', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Cdifficile.GCA_018885085.1.faa', '-q']
+Output: 
+Error: 
+Error: can't open output file /users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Cdifficile.GCA_018885085.1.gbk.
+
+
+Prodigal failed on worker 13:
+Command: ['prodigal', '-i', '/users/PDS0325/sachitk26/packages/tart/validation/genomes/DvulgarisHilden.GCA_000195755.1.fna', '-o', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/DvulgarisHilden.GCA_000195755.1.gbk', '-a', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/DvulgarisHilden.GCA_000195755.1.faa', '-q']
+Output: 
+Error: 
+Error: can't open output file /users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/DvulgarisHilden.GCA_000195755.1.gbk.
+
+
+Prodigal failed on worker 5:
+Command: ['prodigal', '-i', '/users/PDS0325/sachitk26/packages/tart/validation/genomes/Bfragilis.GCA_016889925.1.fna', '-o', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Bfragilis.GCA_016889925.1.gbk', '-a', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Bfragilis.GCA_016889925.1.faa', '-q']
+Output: 
+Error: 
+Error: can't open output file /users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Bfragilis.GCA_016889925.1.gbk.
+
+
+Prodigal failed on worker 18:
+Command: ['prodigal', '-i', '/users/PDS0325/sachitk26/packages/tart/validation/genomes/MsmegmatisMC2155.GCA_000767605.1.fna', '-o', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/MsmegmatisMC2155.GCA_000767605.1.gbk', '-a', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/MsmegmatisMC2155.GCA_000767605.1.faa', '-q']
+Output: 
+Prodigal failed on worker 12:
+Command: ['prodigal', '-i', '/users/PDS0325/sachitk26/packages/tart/validation/genomes/Cvibrioides.GCA_000022005.1_ASM2200v1_genomic.fna', '-o', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Cvibrioides.GCA_000022005.1_ASM2200v1_genomic.gbk', '-a', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Cvibrioides.GCA_000022005.1_ASM2200v1_genomic.faa', '-q']
+Error: 
+Error: can't open output file /users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/MsmegmatisMC2155.GCA_000767605.1.gbk.
+
+
+Prodigal failed on worker 6:
+Prodigal failed on worker 8:
+Command: ['prodigal', '-i', '/users/PDS0325/sachitk26/packages/tart/validation/genomes/Bthetaiotaomicron.GCA_014131755.1_ASM1413175v1_genomic.fna', '-o', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Bthetaiotaomicron.GCA_014131755.1_ASM1413175v1_genomic.gbk', '-a', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Bthetaiotaomicron.GCA_014131755.1_ASM1413175v1_genomic.faa', '-q']
+Output: 
+Error: 
+Error: can't open output file /users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Bthetaiotaomicron.GCA_014131755.1_ASM1413175v1_genomic.gbk.
+
+
+Output: 
+Error: 
+Error: can't open output file /users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Cvibrioides.GCA_000022005.1_ASM2200v1_genomic.gbk.
+
+
+Command: ['prodigal', '-i', '/users/PDS0325/sachitk26/packages/tart/validation/genomes/Bpseudomallei.GCA_000756125.1.fna', '-o', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Bpseudomallei.GCA_000756125.1.gbk', '-a', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Bpseudomallei.GCA_000756125.1.faa', '-q']
+Output: 
+Error: 
+Error: can't open output file /users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Bpseudomallei.GCA_000756125.1.gbk.
+
+
+Prodigal failed on worker 2:
+Prodigal failed on worker 3:
+Command: ['prodigal', '-i', '/users/PDS0325/sachitk26/packages/tart/validation/genomes/Arabiei.GCA_004011695.2_ASM401169v2_genomic.fna', '-o', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Arabiei.GCA_004011695.2_ASM401169v2_genomic.gbk', '-a', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Arabiei.GCA_004011695.2_ASM401169v2_genomic.faa', '-q']
+Command: ['prodigal', '-i', '/users/PDS0325/sachitk26/packages/tart/validation/genomes/Akunkeei.GCA_019575995.1.fna', '-o', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Akunkeei.GCA_019575995.1.gbk', '-a', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Akunkeei.GCA_019575995.1.faa', '-q']
+Output: 
+Error: 
+Error: can't open output file /users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Arabiei.GCA_004011695.2_ASM401169v2_genomic.gbk.
+
+
+Output: 
+Error: 
+Error: can't open output file /users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Akunkeei.GCA_019575995.1.gbk.
+
+
+Prodigal failed on worker 9:
+Command: ['prodigal', '-i', '/users/PDS0325/sachitk26/packages/tart/validation/genomes/Bxylanisolvens.GCA_018289135.1.fna', '-o', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Bxylanisolvens.GCA_018289135.1.gbk', '-a', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Bxylanisolvens.GCA_018289135.1.faa', '-q']
+Output: 
+Error: 
+Error: can't open output file /users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Bxylanisolvens.GCA_018289135.1.gbk.
+
+
+Prodigal failed on worker 1:
+Command: ['prodigal', '-i', '/users/PDS0325/sachitk26/packages/tart/validation/genomes/AfischeriES114.GCA_000020845.1_ASM2084v1_genomic.fna', '-o', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/AfischeriES114.GCA_000020845.1_ASM2084v1_genomic.gbk', '-a', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/AfischeriES114.GCA_000020845.1_ASM2084v1_genomic.faa', '-q']
+Output: 
+Error: 
+Error: can't open output file /users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/AfischeriES114.GCA_000020845.1_ASM2084v1_genomic.gbk.
+
+
+Prodigal failed on worker 14:
+Command: ['prodigal', '-i', '/users/PDS0325/sachitk26/packages/tart/validation/genomes/Ecoli.NC_000913.3.fna', '-o', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Ecoli.NC_000913.3.gbk', '-a', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Ecoli.NC_000913.3.faa', '-q']
+Output: 
+Error: 
+Error: can't open output file /users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Ecoli.NC_000913.3.gbk.
+
+
+Started 40 workers
+Started 40 workers
+Started 40 workers
+Started 40 workers
+Started 40 workers
+Started 40 workers
+Started 40 workers
+Started 40 workers
+Started 40 workers
+Started 40 workers
+Started 40 workers
+Started 40 workers
+Started 40 workers
+Started 40 workers
+Started 40 workers
+Prodigal failed on worker 32:
+Command: ['prodigal', '-i', '/users/PDS0325/sachitk26/packages/tart/validation/genomes/Xalbilineans.GCA_009931595.1.fna', '-o', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Xalbilineans.GCA_009931595.1.gbk', '-a', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Xalbilineans.GCA_009931595.1.faa', '-q']
+Output: 
+Error: 
+Error: can't open output file /users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Xalbilineans.GCA_009931595.1.gbk.
+
+
+Prodigal failed on worker 33:
+Command: ['prodigal', '-i', '/users/PDS0325/sachitk26/packages/tart/validation/genomes/Xoryzae.GCA_008370835.2.fna', '-o', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Xoryzae.GCA_008370835.2.gbk', '-a', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Xoryzae.GCA_008370835.2.faa', '-q']
+Output: 
+Error: 
+Error: can't open output file /users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Xoryzae.GCA_008370835.2.gbk.
+
+
+Prodigal failed on worker 25:
+Command: ['prodigal', '-i', '/users/PDS0325/sachitk26/packages/tart/validation/genomes/Scoelicolor.GCA_008931305.1_ASM893130v1_genomic.fna', '-o', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Scoelicolor.GCA_008931305.1_ASM893130v1_genomic.gbk', '-a', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Scoelicolor.GCA_008931305.1_ASM893130v1_genomic.faa', '-q']
+Output: 
+Error: 
+Error: can't open output file /users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Scoelicolor.GCA_008931305.1_ASM893130v1_genomic.gbk.
+
+
+Started 40 workers
+Started 40 workers
+Prodigal failed on worker 26:
+Command: ['prodigal', '-i', '/users/PDS0325/sachitk26/packages/tart/validation/genomes/Selongatus.GCA_000012525.1.fna', '-o', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Selongatus.GCA_000012525.1.gbk', '-a', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Selongatus.GCA_000012525.1.faa', '-q']
+Output: 
+Error: 
+Error: can't open output file /users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Selongatus.GCA_000012525.1.gbk.
+
+
+Prodigal failed on worker 27:
+Command: ['prodigal', '-i', '/users/PDS0325/sachitk26/packages/tart/validation/genomes/SentericaTyph.GCA_000006945.2.fna', '-o', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/SentericaTyph.GCA_000006945.2.gbk', '-a', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/SentericaTyph.GCA_000006945.2.faa', '-q']
+Output: 
+Error: 
+Error: can't open output file /users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/SentericaTyph.GCA_000006945.2.gbk.
+
+
+Prodigal failed on worker 30:
+Command: ['prodigal', '-i', '/users/PDS0325/sachitk26/packages/tart/validation/genomes/Spcc6803.GCA_018845095.1_ASM1884509v1_genomic.fna', '-o', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Spcc6803.GCA_018845095.1_ASM1884509v1_genomic.gbk', '-a', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Spcc6803.GCA_018845095.1_ASM1884509v1_genomic.faa', '-q']
+Output: 
+Error: 
+Error: can't open output file /users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Spcc6803.GCA_018845095.1_ASM1884509v1_genomic.gbk.
+
+
+Prodigal failed on worker 29:
+Command: ['prodigal', '-i', '/users/PDS0325/sachitk26/packages/tart/validation/genomes/Smeliloti.GCA_000346065.1.fna', '-o', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Smeliloti.GCA_000346065.1.gbk', '-a', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Smeliloti.GCA_000346065.1.faa', '-q']
+Output: 
+Error: 
+Error: can't open output file /users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Smeliloti.GCA_000346065.1.gbk.
+
+
+Prodigal failed on worker 21:
+Command: ['prodigal', '-i', '/users/PDS0325/sachitk26/packages/tart/validation/genomes/Paeruginosa.GCA_000006765.1.fna', '-o', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Paeruginosa.GCA_000006765.1.gbk', '-a', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Paeruginosa.GCA_000006765.1.faa', '-q']
+Output: 
+Error: 
+Error: can't open output file /users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Paeruginosa.GCA_000006765.1.gbk.
+
+
+Prodigal failed on worker 22:
+Command: ['prodigal', '-i', '/users/PDS0325/sachitk26/packages/tart/validation/genomes/Pchlororaphisaureofaciens30-84.GCA_000281915.1.fna', '-o', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Pchlororaphisaureofaciens30-84.GCA_000281915.1.gbk', '-a', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Pchlororaphisaureofaciens30-84.GCA_000281915.1.faa', '-q']
+Output: 
+Error: 
+Error: can't open output file /users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Pchlororaphisaureofaciens30-84.GCA_000281915.1.gbk.
+
+
+Prodigal failed on worker 28:
+Command: ['prodigal', '-i', '/users/PDS0325/sachitk26/packages/tart/validation/genomes/Sepidermidis.GCA_006094375.1.fna', '-o', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Sepidermidis.GCA_006094375.1.gbk', '-a', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Sepidermidis.GCA_006094375.1.faa', '-q']
+Output: 
+Error: 
+Error: can't open output file /users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Sepidermidis.GCA_006094375.1.gbk.
+
+
+Started 40 workers
+Prodigal failed on worker 23:
+Command: ['prodigal', '-i', '/users/PDS0325/sachitk26/packages/tart/validation/genomes/Pfluorescens.GCA_900215245.1.fna', '-o', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Pfluorescens.GCA_900215245.1.gbk', '-a', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Pfluorescens.GCA_900215245.1.faa', '-q']
+Output: 
+Error: 
+Error: can't open output file /users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Pfluorescens.GCA_900215245.1.gbk.
+
+
+Started 40 workers
+Prodigal failed on worker 24:
+Command: ['prodigal', '-i', '/users/PDS0325/sachitk26/packages/tart/validation/genomes/Psalmonis.GCA_009708955.1.fna', '-o', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Psalmonis.GCA_009708955.1.gbk', '-a', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Psalmonis.GCA_009708955.1.faa', '-q']
+Output: 
+Error: 
+Error: can't open output file /users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Psalmonis.GCA_009708955.1.gbk.
+
+
+Started 40 workers
+Prodigal failed on worker 31:
+Command: ['prodigal', '-i', '/users/PDS0325/sachitk26/packages/tart/validation/genomes/SsanguinisSK36.GCA_000014205.1.fna', '-o', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/SsanguinisSK36.GCA_000014205.1.gbk', '-a', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/SsanguinisSK36.GCA_000014205.1.faa', '-q']
+Output: 
+Error: 
+Error: can't open output file /users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/SsanguinisSK36.GCA_000014205.1.gbk.
+
+
+Prodigal failed on worker 20:
+Command: ['prodigal', '-i', '/users/PDS0325/sachitk26/packages/tart/validation/genomes/Ngonorrhoeae.GCA_013030075.1.fna', '-o', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Ngonorrhoeae.GCA_013030075.1.gbk', '-a', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Ngonorrhoeae.GCA_013030075.1.faa', '-q']
+Output: 
+Error: 
+Error: can't open output file /users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/Ngonorrhoeae.GCA_013030075.1.gbk.
+
+
+Prodigal failed on worker 0:
+Command: ['prodigal', '-i', '/users/PDS0325/sachitk26/packages/tart/validation/genomes/AbaumanniiGCA_008632635.1.fna', '-o', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/AbaumanniiGCA_008632635.1.gbk', '-a', '/users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/AbaumanniiGCA_008632635.1.faa', '-q']
+Output: 
+Error: 
+Error: can't open output file /users/PDS0325/sachitk26/packages/tart/validation/orfs/calls/AbaumanniiGCA_008632635.1.gbk.
+
+
+Done
