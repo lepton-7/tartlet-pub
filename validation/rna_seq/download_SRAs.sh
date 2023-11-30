@@ -12,8 +12,8 @@
 # set -x
 set echo on
 
-LISTNAME="c_basil_kugler2023_acc"
-TAX="c_basil"
+LISTNAME="e_limo_jeong2020_acc"
+TAX="e_limo"
 
 DUMP_DIR="/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/$TAX"
 TEMP_DIR="/fs/scratch/PDS0325/rna_seq/${TAX}_temp"
