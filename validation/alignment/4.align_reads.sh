@@ -7,12 +7,12 @@
 #SBATCH --mail-type=BEGIN,END,FAIL
 
 # --------------------------------
-# There are 25 pairs of readsets
-#SBATCH --array=0-25
+# There are 18 pairs of readsets
+#SBATCH --array=0-18
 # --------------------------------
 
 # RUN THIS TO LAUNCH JOB
-## DATECODE="$(date +"%Y-%m-%d_%H-%M-%S")"; sbatch --output=jobs/4.e_fae.align_reads.out.$DATECODE.%j 4.align_reads.sh
+## DATECODE="$(date +"%Y-%m-%d_%H-%M-%S")"; sbatch --output=jobs/4.e_limo.align_reads.out.$DATECODE.%j 4.align_reads.sh
 
 # set -x
 set echo on
@@ -20,12 +20,12 @@ set echo on
 IDX=$((SLURM_ARRAY_TASK_ID))
 
 DATECODE="20231113"
-DSET="e_fae"
+DSET="e_limo"
 
 RT="$HOME/packages/tart"
 
 REF_DIR="$RT/validation/alignment/outputs/$DSET/switch_seqs_delta1000-1000"
-SEQ_DIR="$RT/validation/rna_seq/$DSET"
+SEQ_DIR="/fs/ess/PDS0325/Riboswitches/data/rna_seq/$DSET"
 
 mkdir -p $REF_DIR
 

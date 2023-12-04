@@ -1,0 +1,53 @@
+Instance 22 starting alignment for b_xyla from /fs/ess/PDS0325/Riboswitches/data/rna_seq/b_xyla reads
+
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:02:17
+8839693 reads; of these:
+  8839693 (100.00%) were paired; of these:
+    8839143 (99.99%) aligned concordantly 0 times
+    550 (0.01%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    8839143 pairs aligned concordantly 0 times; of these:
+      3 (0.00%) aligned discordantly 1 time
+    ----
+    8839140 pairs aligned 0 times concordantly or discordantly; of these:
+      17678280 mates make up the pairs; of these:
+        17678249 (100.00%) aligned 0 times
+        31 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.01% overall alignment rate
+Time searching: 00:02:17
+Overall time: 00:02:17
+
+
+---------------------------------------------------------------------
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:02:04
+8839693 reads; of these:
+  8839693 (100.00%) were paired; of these:
+    8829287 (99.88%) aligned concordantly 0 times
+    10405 (0.12%) aligned concordantly exactly 1 time
+    1 (0.00%) aligned concordantly >1 times
+    ----
+    8829287 pairs aligned concordantly 0 times; of these:
+      63 (0.00%) aligned discordantly 1 time
+    ----
+    8829224 pairs aligned 0 times concordantly or discordantly; of these:
+      17658448 mates make up the pairs; of these:
+        17656961 (99.99%) aligned 0 times
+        1487 (0.01%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.13% overall alignment rate
+Time searching: 00:02:04
+Overall time: 00:02:04
+
+
+---------------------------------------------------------------------
+
+Done
+Finished SRR2827531 read alignment for b_xyla into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/b_xyla/switch_seqs_delta1000-1000/alignment_20231113

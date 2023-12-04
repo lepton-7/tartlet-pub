@@ -16,12 +16,12 @@ TABLE="$RT/validation/tables/inf_results.csv"
 GENOMES="$RT/validation/genomes"
 
 DSETS=(
-    "c_basil"
-    "m_smeg"
-    "s_meli"
-    "d_vulg"
-    "b_frag"
-    "e_fae"
+    "b_xyla"
+    "x_ory"
+    "s_epi"
+    "b_pseudo"
+    "c_diff"
+    "e_limo"
 )
 
 PRE_DEL=1000
@@ -48,3 +48,5 @@ for DSET in ${DSETS[@]}; do
     echo "Finished reference generation for $DSET into $OUT_DIR"
     echo
 done
+
+echo "Done"

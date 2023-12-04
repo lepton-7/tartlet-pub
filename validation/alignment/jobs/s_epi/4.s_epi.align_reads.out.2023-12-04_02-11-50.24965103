@@ -1,0 +1,61 @@
+Instance 36 starting alignment for s_epi from /fs/ess/PDS0325/Riboswitches/data/rna_seq/s_epi reads
+
+
+Warning: [Errno 2] No such file or directory: '/fs/ess/PDS0325/Riboswitches/data/rna_seq/s_epi/_1.fastq.gz'
+(ERR): Read file '/fs/ess/PDS0325/Riboswitches/data/rna_seq/s_epi/_1.fastq.gz' doesn't exist
+Exiting now ...
+
+
+---------------------------------------------------------------------
+
+Warning: [Errno 2] No such file or directory: '/fs/ess/PDS0325/Riboswitches/data/rna_seq/s_epi/_1.fastq.gz'
+(ERR): Read file '/fs/ess/PDS0325/Riboswitches/data/rna_seq/s_epi/_1.fastq.gz' doesn't exist
+Exiting now ...
+
+
+---------------------------------------------------------------------
+
+Warning: [Errno 2] No such file or directory: '/fs/ess/PDS0325/Riboswitches/data/rna_seq/s_epi/_1.fastq.gz'
+(ERR): Read file '/fs/ess/PDS0325/Riboswitches/data/rna_seq/s_epi/_1.fastq.gz' doesn't exist
+Exiting now ...
+
+
+---------------------------------------------------------------------
+
+Warning: [Errno 2] No such file or directory: '/fs/ess/PDS0325/Riboswitches/data/rna_seq/s_epi/_1.fastq.gz'
+(ERR): Read file '/fs/ess/PDS0325/Riboswitches/data/rna_seq/s_epi/_1.fastq.gz' doesn't exist
+Exiting now ...
+
+
+---------------------------------------------------------------------
+
+Warning: [Errno 2] No such file or directory: '/fs/ess/PDS0325/Riboswitches/data/rna_seq/s_epi/_1.fastq.gz'
+(ERR): Read file '/fs/ess/PDS0325/Riboswitches/data/rna_seq/s_epi/_1.fastq.gz' doesn't exist
+Exiting now ...
+
+
+---------------------------------------------------------------------
+
+Warning: [Errno 2] No such file or directory: '/fs/ess/PDS0325/Riboswitches/data/rna_seq/s_epi/_1.fastq.gz'
+(ERR): Read file '/fs/ess/PDS0325/Riboswitches/data/rna_seq/s_epi/_1.fastq.gz' doesn't exist
+Exiting now ...
+
+
+---------------------------------------------------------------------
+
+Warning: [Errno 2] No such file or directory: '/fs/ess/PDS0325/Riboswitches/data/rna_seq/s_epi/_1.fastq.gz'
+(ERR): Read file '/fs/ess/PDS0325/Riboswitches/data/rna_seq/s_epi/_1.fastq.gz' doesn't exist
+Exiting now ...
+
+
+---------------------------------------------------------------------
+
+Warning: [Errno 2] No such file or directory: '/fs/ess/PDS0325/Riboswitches/data/rna_seq/s_epi/_1.fastq.gz'
+(ERR): Read file '/fs/ess/PDS0325/Riboswitches/data/rna_seq/s_epi/_1.fastq.gz' doesn't exist
+Exiting now ...
+
+
+---------------------------------------------------------------------
+
+Done
+Finished s_epi read alignment for s_epi into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/s_epi/switch_seqs_delta1000-1000/alignment_20231113
