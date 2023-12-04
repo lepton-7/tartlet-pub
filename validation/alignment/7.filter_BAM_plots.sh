@@ -15,11 +15,12 @@ set echo on
 RT="$HOME/packages/tart"
 
 DSETS=(
-    "m_smeg"
-    "s_meli"
-    "d_vulg"
-    "b_frag"
-    "e_fae"
+    "b_xyla"
+    "x_ory"
+    "s_epi"
+    "b_pseudo"
+    "c_diff"
+    "e_limo"
 )
 
 echo "Filtering output plots for:"
@@ -42,3 +43,5 @@ for DSET in ${DSETS[@]}; do
     echo "----------------------------------------------------"
     echo
 done
+
+echo "Done"

@@ -14,12 +14,12 @@ set echo on
 RT="$HOME/packages/tart"
 
 DSETS=(
-    "c_basil"
-    "m_smeg"
-    "s_meli"
-    "d_vulg"
-    "b_frag"
-    "e_fae"
+    "b_xyla"
+    "x_ory"
+    "s_epi"
+    "b_pseudo"
+    "c_diff"
+    "e_limo"
 )
 
 DATECODE="20231113"
@@ -46,3 +46,5 @@ for DSET in ${DSETS[@]}; do
     echo "Finished SAM -> sorted BAM conversion within $SAM_DIR"
     echo
 done
+
+echo "Done"

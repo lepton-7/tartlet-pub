@@ -1,0 +1,32 @@
+Filtering output plots for:
+b_xyla x_ory s_epi b_pseudo c_diff e_limo
+
+
+Filtering plots for b_xyla
+Finished filtering outputs for b_xyla into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/b_xyla/plots/
+----------------------------------------------------
+
+Filtering plots for x_ory
+Finished filtering outputs for x_ory into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/x_ory/plots/
+----------------------------------------------------
+
+Filtering plots for s_epi
+Finished filtering outputs for s_epi into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/s_epi/plots/
+----------------------------------------------------
+
+Filtering plots for b_pseudo
+Finished filtering outputs for b_pseudo into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/b_pseudo/plots/
+----------------------------------------------------
+
+Filtering plots for c_diff
+Finished filtering outputs for c_diff into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/c_diff/plots/
+----------------------------------------------------
+
+Filtering plots for e_limo
+/users/PDS0325/sachitk26/packages/tart/tart/utils/activity_inference.py:177: RuntimeWarning: divide by zero encountered in scalar divide
+  return self.find_absolute_coverage_delta(sumcov) / sumcov[self.left]
+/users/PDS0325/sachitk26/packages/tart/tart/utils/activity_inference.py:177: RuntimeWarning: divide by zero encountered in scalar divide
+  return self.find_absolute_coverage_delta(sumcov) / sumcov[self.left]
+Finished filtering outputs for e_limo into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/e_limo/plots/
+----------------------------------------------------
+
