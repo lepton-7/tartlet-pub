@@ -16,11 +16,28 @@ RT="$HOME/packages/tart"
 DATECODE="20231113"
 
 DSETS=(
-    "m_smeg"
-    "s_meli"
-    "d_vulg"
-    "b_frag"
-    "e_fae"
+    "a_baum",
+    "a_fischeri_ES114",
+    "a_kunk",
+    "b_frag",
+    "b_sub_168",
+    "b_theta",
+    "c_basil",
+    "c_vibrioides",
+    "d_vulg",
+    "e_coli",
+    "e_fae",
+    "k_pneum",
+    "m_smeg",
+    "m_tuber",
+    "p_fluor",
+    "s_coelicolor",
+    "s_elon",
+    "s_enter_typh",
+    "s_meli",
+    "s_sanguinis",
+    "s_spcc6803",
+    "x_albi"
 )
 
 echo "Parsing BAMs for:"
@@ -43,3 +60,5 @@ for DSET in ${DSETS[@]}; do
     echo "----------------------------------------------"
     echo
 done
+
+echo "Done"
