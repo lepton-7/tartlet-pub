@@ -16,12 +16,28 @@ TABLE="$RT/validation/tables/inf_results.csv"
 GENOMES="$RT/validation/genomes"
 
 DSETS=(
-    "c_basil"
-    "m_smeg"
-    "s_meli"
-    "d_vulg"
+    "a_baum"
+    "a_fischeri_ES114"
+    "a_kunk"
     "b_frag"
+    "b_sub_168"
+    "b_theta"
+    "c_basil"
+    "c_vibrioides"
+    "d_vulg"
+    "e_coli"
     "e_fae"
+    "k_pneum"
+    "m_smeg"
+    "m_tuber"
+    "p_fluor"
+    "s_coelicolor"
+    "s_elon"
+    "s_enter_typh"
+    "s_meli"
+    "s_sanguinis"
+    "s_spcc6803"
+    "x_albi"
 )
 
 PRE_DEL=1000
@@ -46,3 +62,5 @@ for DSET in ${DSETS[@]}; do
     echo "Finished switch bounds generation for $DSET into $OUT_DIR"
     echo
 done
+
+echo "Done"
