@@ -16,12 +16,8 @@ TABLE="$RT/validation/tables/inf_results.csv"
 GENOMES="$RT/validation/genomes"
 
 DSETS=(
-    "b_xyla"
-    "x_ory"
-    "s_epi"
-    "b_pseudo"
-    "c_diff"
-    "e_limo"
+    "b_anth"
+    "n_gonorr"
 )
 
 PRE_DEL=1000

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --time=00:50:00
+#SBATCH --time=00:15:00
 #SBATCH --nodes=2 --cpus-per-task=1
 
 #SBATCH --account=PDS0325
@@ -16,12 +16,8 @@ TABLE="$RT/validation/tables/inf_results.csv"
 GENOMES="$RT/validation/genomes"
 
 DSETS=(
-    "b_xyla"
-    "x_ory"
-    "s_epi"
-    "b_pseudo"
-    "c_diff"
-    "e_limo"
+    "b_anth"
+    "n_gonorr"
 )
 
 PRE_DEL=1000

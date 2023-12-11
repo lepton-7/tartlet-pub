@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #SBATCH --time=04:00:00
-#SBATCH --nodes=10 --cpus-per-task=6
+#SBATCH --nodes=2 --cpus-per-task=3
 
 #SBATCH --account=PDS0325
 #SBATCH --mail-type=BEGIN,END,FAIL
@@ -12,8 +12,8 @@
 # set -x
 set echo on
 
-LISTNAME="b_pseudo_avican2021_acc"
-TAX="b_pseudo"
+LISTNAME="n_gonorr_cris2022_acc"
+TAX="n_gonorr"
 
 # DUMP_DIR="/users/PDS0325/sachitk26/packages/tart/validation/rna_seq/$TAX"
 DUMP_DIR="/fs/ess/PDS0325/Riboswitches/data/rna_seq/$TAX"
