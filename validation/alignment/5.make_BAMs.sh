@@ -14,12 +14,8 @@ set echo on
 RT="$HOME/packages/tart"
 
 DSETS=(
-    "b_xyla"
-    "x_ory"
-    "s_epi"
-    "b_pseudo"
-    "c_diff"
-    "e_limo"
+    "b_anth"
+    "n_gonorr"
 )
 
 DATECODE="20231113"

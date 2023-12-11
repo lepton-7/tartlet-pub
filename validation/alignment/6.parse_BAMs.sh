@@ -16,12 +16,8 @@ RT="$HOME/packages/tart"
 DATECODE="20231113"
 
 DSETS=(
-    "b_xyla"
-    "x_ory"
-    "s_epi"
-    "b_pseudo"
-    "c_diff"
-    "e_limo"
+    "b_anth"
+    "n_gonorr"
 )
 
 echo "Parsing BAMs for:"

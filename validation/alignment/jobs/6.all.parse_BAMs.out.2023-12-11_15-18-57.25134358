@@ -1,0 +1,31 @@
+Parsing BAMs for:
+b_anth n_gonorr
+
+
+Starting BAM parsing for b_anth
+More than 2 reads assigned to pair: [<tart.utils.read_parsing.Read object at 0x2b7d6797b8d0>, <tart.utils.read_parsing.Read object at 0x2b7d6797ba90>, <tart.utils.read_parsing.Read object at 0x2b7d694af7d0>, <tart.utils.read_parsing.Read object at 0x2b7d694c2910>]
+More than 2 reads assigned to pair: [<tart.utils.read_parsing.Read object at 0x2b02694a1c90>, <tart.utils.read_parsing.Read object at 0x2b0269b41650>, <tart.utils.read_parsing.Read object at 0x2b026a84dc90>, <tart.utils.read_parsing.Read object at 0x2b026a84de10>]
+More than 2 reads assigned to pair: [<tart.utils.read_parsing.Read object at 0x2b47b6298850>, <tart.utils.read_parsing.Read object at 0x2b47b62b3050>, <tart.utils.read_parsing.Read object at 0x2b47b65b5ad0>, <tart.utils.read_parsing.Read object at 0x2b47b65b5c50>]
+More than 2 reads assigned to pair: [<tart.utils.read_parsing.Read object at 0x2b97ad352bd0>, <tart.utils.read_parsing.Read object at 0x2b97ad352e10>, <tart.utils.read_parsing.Read object at 0x2b97ae9ba910>, <tart.utils.read_parsing.Read object at 0x2b97b15c19d0>]
+More than 2 reads assigned to pair: [<tart.utils.read_parsing.Read object at 0x2b122984f310>, <tart.utils.read_parsing.Read object at 0x2b122984c110>, <tart.utils.read_parsing.Read object at 0x2b1229916190>, <tart.utils.read_parsing.Read object at 0x2b1229916b90>]
+More than 2 reads assigned to pair: [<tart.utils.read_parsing.Read object at 0x2b492f2ccbd0>, <tart.utils.read_parsing.Read object at 0x2b492f2cef50>, <tart.utils.read_parsing.Read object at 0x2b492f7518d0>, <tart.utils.read_parsing.Read object at 0x2b492f753250>]
+More than 2 reads assigned to pair: [<tart.utils.read_parsing.Read object at 0x2b97c974ab50>, <tart.utils.read_parsing.Read object at 0x2b97c9748e50>, <tart.utils.read_parsing.Read object at 0x2b97c70e3ed0>, <tart.utils.read_parsing.Read object at 0x2b97c70e3150>]
+More than 2 reads assigned to pair: [<tart.utils.read_parsing.Read object at 0x2b97c7c6a150>, <tart.utils.read_parsing.Read object at 0x2b97c7c68190>, <tart.utils.read_parsing.Read object at 0x2b97c9bbbf50>, <tart.utils.read_parsing.Read object at 0x2b97c9bbaf90>]
+More than 2 reads assigned to pair: [<tart.utils.read_parsing.Read object at 0x2b97c7cb2fd0>, <tart.utils.read_parsing.Read object at 0x2b97c7cb1290>, <tart.utils.read_parsing.Read object at 0x2b97c6b56590>, <tart.utils.read_parsing.Read object at 0x2b97c6b56750>]
+More than 2 reads assigned to pair: [<tart.utils.read_parsing.Read object at 0x2b97c7cb1d10>, <tart.utils.read_parsing.Read object at 0x2b97c7133350>, <tart.utils.read_parsing.Read object at 0x2b97c5dbd0d0>, <tart.utils.read_parsing.Read object at 0x2b97c5dbdfd0>]
+More than 2 reads assigned to pair: [<tart.utils.read_parsing.Read object at 0x2b97c71266d0>, <tart.utils.read_parsing.Read object at 0x2b97c7125490>, <tart.utils.read_parsing.Read object at 0x2b97c7606390>, <tart.utils.read_parsing.Read object at 0x2b97c7606dd0>]
+More than 2 reads assigned to pair: [<tart.utils.read_parsing.Read object at 0x2b56d0f0af90>, <tart.utils.read_parsing.Read object at 0x2b56d0f0b7d0>, <tart.utils.read_parsing.Read object at 0x2b56ced20cd0>, <tart.utils.read_parsing.Read object at 0x2b56cf50e310>]
+More than 2 reads assigned to pair: [<tart.utils.read_parsing.Read object at 0x2b97b585c8d0>, <tart.utils.read_parsing.Read object at 0x2b97b585f250>, <tart.utils.read_parsing.Read object at 0x2b97bbaf3a10>, <tart.utils.read_parsing.Read object at 0x2b97bbaf1dd0>]
+Archiving pickled data
+Removing directory
+Finished BAM parsing for b_anth into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/b_anth/plots/picks
+----------------------------------------------
+
+Starting BAM parsing for n_gonorr
+More than 2 reads assigned to pair: [<tart.utils.read_parsing.Read object at 0x2b3c4816b710>, <tart.utils.read_parsing.Read object at 0x2b3c4816ba90>, <tart.utils.read_parsing.Read object at 0x2b3c4838a890>, <tart.utils.read_parsing.Read object at 0x2b3c4838aa10>]
+Archiving pickled data
+Removing directory
+Finished BAM parsing for n_gonorr into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/n_gonorr/plots/picks
+----------------------------------------------
+
+Done

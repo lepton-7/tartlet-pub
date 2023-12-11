@@ -1,0 +1,11 @@
+Making BAMs for:
+b_anth n_gonorr
+
+
+Starting SAM conversion for b_anth
+Finished SAM -> sorted BAM conversion within /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/b_anth/switch_seqs_delta1000-1000/alignment_20231113
+
+Starting SAM conversion for n_gonorr
+Finished SAM -> sorted BAM conversion within /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/n_gonorr/switch_seqs_delta1000-1000/alignment_20231113
+
+Done
