@@ -1,3 +1,101 @@
 Instance 4 starting alignment for n_gonorr from /fs/ess/PDS0325/Riboswitches/data/rna_seq/n_gonorr reads
 
 
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:05:57
+17276048 reads; of these:
+  17276048 (100.00%) were paired; of these:
+    17272978 (99.98%) aligned concordantly 0 times
+    3070 (0.02%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    17272978 pairs aligned concordantly 0 times; of these:
+      1 (0.00%) aligned discordantly 1 time
+    ----
+    17272977 pairs aligned 0 times concordantly or discordantly; of these:
+      34545954 mates make up the pairs; of these:
+        34545250 (100.00%) aligned 0 times
+        704 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.02% overall alignment rate
+Time searching: 00:05:57
+Overall time: 00:05:57
+
+
+---------------------------------------------------------------------
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:06:23
+17276048 reads; of these:
+  17276048 (100.00%) were paired; of these:
+    17269194 (99.96%) aligned concordantly 0 times
+    6854 (0.04%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    17269194 pairs aligned concordantly 0 times; of these:
+      1 (0.00%) aligned discordantly 1 time
+    ----
+    17269193 pairs aligned 0 times concordantly or discordantly; of these:
+      34538386 mates make up the pairs; of these:
+        34537480 (100.00%) aligned 0 times
+        906 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.04% overall alignment rate
+Time searching: 00:06:23
+Overall time: 00:06:23
+
+
+---------------------------------------------------------------------
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:05:25
+17276048 reads; of these:
+  17276048 (100.00%) were paired; of these:
+    17263080 (99.92%) aligned concordantly 0 times
+    12968 (0.08%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    17263080 pairs aligned concordantly 0 times; of these:
+      2 (0.00%) aligned discordantly 1 time
+    ----
+    17263078 pairs aligned 0 times concordantly or discordantly; of these:
+      34526156 mates make up the pairs; of these:
+        34524853 (100.00%) aligned 0 times
+        1303 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.08% overall alignment rate
+Time searching: 00:05:25
+Overall time: 00:05:25
+
+
+---------------------------------------------------------------------
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:06:27
+17276048 reads; of these:
+  17276048 (100.00%) were paired; of these:
+    17251377 (99.86%) aligned concordantly 0 times
+    24671 (0.14%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    17251377 pairs aligned concordantly 0 times; of these:
+      8 (0.00%) aligned discordantly 1 time
+    ----
+    17251369 pairs aligned 0 times concordantly or discordantly; of these:
+      34502738 mates make up the pairs; of these:
+        34498210 (99.99%) aligned 0 times
+        4528 (0.01%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.16% overall alignment rate
+Time searching: 00:06:27
+Overall time: 00:06:27
+
+
+---------------------------------------------------------------------
+
+Done
+Finished SRR17244364 read alignment for n_gonorr into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/n_gonorr/switch_seqs_delta1000-1000/alignment_20231113
