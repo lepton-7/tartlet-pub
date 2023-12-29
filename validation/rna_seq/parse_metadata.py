@@ -50,8 +50,18 @@ m_list = glob("metadata/*.txt")
 for x in m_list:
     df = pd.read_csv(x)
     df.to_csv(f"{x[:-4]}.csv", index=False)
-    rmtree(Path(x))
+    # rmtree(Path(x))
 # %%
-
-for csv in glob("metadat/*.csv"):
+conditions = {}
+for csv in glob("metadata/*.csv"):
+    name = Path(csv).stem
     df = pd.read_csv(csv)
+
+    cols = keep_cols[name]
+    for _, row in df.iterrows():
+        conditions[row["Run"]] = (";".join([str(row[x]) for x in cols]), name)
+
+# %%
+df = pd.DataFrame.from_dict(conditions, orient="index", columns=["condition", "study"])
+df.index.names = ["Run"]
+df.to_csv("run_conditions.csv")

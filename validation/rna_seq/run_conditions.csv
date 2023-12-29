@@ -1,0 +1,1767 @@
+Run,condition,study
+SRR5871740,wild type,GSE101911
+SRR5871741,wild type,GSE101911
+SRR5871742,wild type,GSE101911
+SRR5871743,wild type,GSE101911
+SRR7154624,D-lyxose,GSE114358
+SRR7154625,D-lyxose,GSE114358
+SRR7154626,D-lyxose,GSE114358
+SRR7154627,D-lyxose,GSE114358
+SRR7154628,D-lyxose,GSE114358
+SRR7154629,D-2-deoxyribose,GSE114358
+SRR7154631,D-2-deoxyribose,GSE114358
+SRR7154632,D-2-deoxyribose,GSE114358
+SRR7154633,D-arabinose,GSE114358
+SRR7154634,D-arabinose,GSE114358
+SRR7154635,D-arabinose,GSE114358
+SRR7154636,D-arabinose,GSE114358
+SRR7154637,D-arabinose,GSE114358
+SRR7154638,D-arabinose,GSE114358
+SRR7154639,m-tartrate,GSE114358
+SRR7154640,m-tartrate,GSE114358
+SRR7154641,m-tartrate,GSE114358
+SRR7154642,m-tartrate,GSE114358
+SRR7154643,m-tartrate,GSE114358
+SRR7154644,m-tartrate,GSE114358
+SRR7154645,m-tartrate,GSE114358
+SRR7154646,m-tartrate,GSE114358
+SRR8164476,--;M9 minimal media w/ 0.2% glucose w/o trace elements,GSE122211
+SRR8164477,--;M9 minimal media w/ 0.2% glucose w/o trace elements,GSE122211
+SRR8164478,cbl;M9 minimal media w/ 0.2% glucose,GSE122211
+SRR8164479,cbl;M9 minimal media w/ 0.2% glucose,GSE122211
+SRR8164480,FabR;M9 minimal media w/ 0.2% glucose,GSE122211
+SRR8164481,FabR;M9 minimal media w/ 0.2% glucose,GSE122211
+SRR8164482,FadR;M9 minimal media w/ 0.2% glucose,GSE122211
+SRR8164483,FadR;M9 minimal media w/ 0.2% glucose,GSE122211
+SRR8164484,--;M9 minimal media w/ 0.2% glucose and 10mM glutamate,GSE122211
+SRR8164485,--;M9 minimal media w/ 0.2% glucose and 10mM glutamate,GSE122211
+SRR8164486,--;M9 minimal media w/ 0.2% glucose,GSE122211
+SRR8164487,cra;M9 minimal media w/ 0.2% glucose,GSE122211
+SRR8173227,nan;M9 minimal media w/ 2g/L glucose,GSE122295
+SRR8173228,nan;M9 minimal media w/ 2g/L glucose,GSE122295
+SRR8173229,nan;M9 minimal media w/ 2g/L glucose,GSE122295
+SRR8173230,nan;M9 minimal media w/ 2g/L glucose,GSE122295
+SRR8173231,L-arginine (5.75mM);M9 minimal media w/ 4g/L D-sorbitol,GSE122295
+SRR8173232,L-arginine (5.75mM);M9 minimal media w/ 4g/L D-sorbitol,GSE122295
+SRR8173233,Cytidine (1 mM);M9 minimal media w/ 4g/L D-ribose,GSE122295
+SRR8173234,Cytidine (1 mM);M9 minimal media w/ 4g/L D-ribose,GSE122295
+SRR8173235,glutathione;M9 minimal media w/ 2g/L glucose,GSE122295
+SRR8173236,glutathione;M9 minimal media w/ 2g/L glucose,GSE122295
+SRR8173237,leucine (10mM);M9 minimal media w/ 4g/L glucarate,GSE122295
+SRR8173238,leucine (10mM);M9 minimal media w/ 4g/L glucarate,GSE122295
+SRR8173239,methionine(5mM);M9 minimal media w/ 2g/L glucose,GSE122295
+SRR8173240,methionine(5mM);M9 minimal media w/ 2g/L glucose,GSE122295
+SRR8173241,KNO3 (20mM);anaerobic M9 minimal media w/ 2g/L glucose,GSE122295
+SRR8173242,KNO3 (20mM);anaerobic M9 minimal media w/ 2g/L glucose,GSE122295
+SRR8173243,phenylalanine(5mM);M9 minimal media w/ 4g/L N-acetylglucosamine,GSE122295
+SRR8173244,phenylalanine(5mM);M9 minimal media w/ 4g/L N-acetylglucosamine,GSE122295
+SRR8173245,thiamine(1uM);M9 minimal media w/ 4g/L galactose,GSE122295
+SRR8173246,thiamine(1uM);M9 minimal media w/ 4g/L galactose,GSE122295
+SRR8173247,tyrosine(5mM);M9 minimal media w/ 4g/L D-gluconate,GSE122295
+SRR8173248,tyrosine(5mM);M9 minimal media w/ 4g/L D-gluconate,GSE122295
+SRR8173249,Uracil (1 mM);M9 minimal media w/ 3.3g/L pyruvate,GSE122295
+SRR8173250,Uracil (1 mM);M9 minimal media w/ 3.3g/L pyruvate,GSE122295
+SRR9204648,nan;M9 minimal media w/ 2g/L glucose,GSE122295
+SRR9204649,nan;M9 minimal media w/ 2g/L glucose,GSE122295
+SRR9204650,nan;M9 minimal media w/ 2g/L glucose and 1 mM cytidine,GSE122295
+SRR9204651,nan;M9 minimal media w/ 2g/L glucose and 1 mM cytidine,GSE122295
+SRR9204652,nan;M9 minimal media w/ 2g/L glucose and 100 mg/L adenine,GSE122295
+SRR9204653,nan;M9 minimal media w/ 2g/L glucose and 100 mg/L adenine,GSE122295
+SRR8173209,BL21(DE3);M9 minimal media w/ 2g/L glucose,GSE122296
+SRR8173210,BL21(DE3);M9 minimal media w/ 2g/L glucose,GSE122296
+SRR8173211,CFT073;M9 minimal media w/ 2g/L glucose,GSE122296
+SRR8173212,CFT073;M9 minimal media w/ 2g/L glucose,GSE122296
+SRR8173213,Crooks;M9 minimal media w/ 2g/L glucose,GSE122296
+SRR8173214,Crooks;M9 minimal media w/ 2g/L glucose,GSE122296
+SRR8173215,HS;M9 minimal media w/ 2g/L glucose,GSE122296
+SRR8173216,HS;M9 minimal media w/ 2g/L glucose,GSE122296
+SRR8173217,K-12;M9 minimal media w/ 2g/L glucose,GSE122296
+SRR8173218,K-12;M9 minimal media w/ 2g/L glucose,GSE122296
+SRR8173219,O157:H7 EDL933;M9 minimal media w/ 2g/L glucose,GSE122296
+SRR8173220,O157:H7 EDL933;M9 minimal media w/ 2g/L glucose,GSE122296
+SRR8173221,K-12;M9 minimal media w/ 2g/L glucose,GSE122296
+SRR8173222,K-12;M9 minimal media w/ 2g/L glucose,GSE122296
+SRR8218063,Ferrous sulfate and sodium citrate;M9 minimal media w/ 4g/L glucose,GSE122779
+SRR8218064,Ferrous sulfate and sodium citrate;M9 minimal media w/ 4g/L glucose,GSE122779
+SRR8218065,nan;M9 minimal media w/ 4g/L glucose,GSE122779
+SRR8218066,nan;M9 minimal media w/ 4g/L glucose,GSE122779
+SRR8218067,nan;M9 minimal media w/ 4g/L glucose,GSE122779
+SRR8218068,nan;M9 minimal media w/ 4g/L glucose,GSE122779
+SRR8218069,Ferrous sulfate and sodium citrate;M9 minimal media w/ 4g/L glucose,GSE122779
+SRR8218070,Ferrous sulfate and sodium citrate;M9 minimal media w/ 4g/L glucose,GSE122779
+SRR8218071,Ferrous sulfate and sodium citrate;M9 minimal media w/ 4g/L glucose,GSE122779
+SRR8218072,Ferrous sulfate and sodium citrate;M9 minimal media w/ 4g/L glucose,GSE122779
+SRR8218073,nan;M9 minimal media w/ 4g/L glucose,GSE122779
+SRR8218074,nan;M9 minimal media w/ 4g/L glucose,GSE122779
+SRR8218075,nan;M9 minimal media w/ 4g/L glucose,GSE122779
+SRR8218076,nan;M9 minimal media w/ 4g/L glucose,GSE122779
+SRR8218077,nan;M9 minimal media w/ 4g/L glucose,GSE122779
+SRR8218078,nan;M9 minimal media w/ 4g/L glucose,GSE122779
+SRR8874378,5 mg/ml glucose as sole carbon source,GSE129572
+SRR8874379,5 mg/ml glucose as sole carbon source,GSE129572
+SRR8874380,5 mg/ml glucose as sole carbon source,GSE129572
+SRR8874381,10 mg/ml bovine alpha 1 acid glycoprotein (AAGP) as sole carbon source,GSE129572
+SRR8874382,10 mg/ml bovine alpha 1 acid glycoprotein (AAGP) as sole carbon source,GSE129572
+SRR8874383,10 mg/ml bovine alpha 1 acid glycoprotein (AAGP) as sole carbon source,GSE129572
+SRR9208980,wt_05_complete cell;dark,GSE132275
+SRR9208981,wt_55_complete cell;dark,GSE132275
+SRR9208982,wt_115_complete cell;dark,GSE132275
+SRR9208983,wt_125_complete cell;light,GSE132275
+SRR9208984,wt_175_complete cell;light,GSE132275
+SRR9208985,wt_235_complete cell;light,GSE132275
+SRR9208986,kai_05_complete cell;dark,GSE132275
+SRR9208987,Kai_55_complete cell;dark,GSE132275
+SRR9208988,Kai_115_complete cell;dark,GSE132275
+SRR9208989,Kai_125_complete cell;light,GSE132275
+SRR9208990,Kai_175_complete cell;light,GSE132275
+SRR9208991,Kai_235_complete cell;light,GSE132275
+SRR9208992,wt_05_complete cell;dark,GSE132275
+SRR9208993,wt_55_complete cell;dark,GSE132275
+SRR9208994,wt_115_complete cell;dark,GSE132275
+SRR9208995,wt_125_complete cell;light,GSE132275
+SRR9208996,wt_175_complete cell;light,GSE132275
+SRR9208997,wt_235_complete cell;light,GSE132275
+SRR9208998,kai_05_complete cell;dark,GSE132275
+SRR9208999,Kai_55_complete cell;dark,GSE132275
+SRR9209000,Kai_115_complete cell;dark,GSE132275
+SRR9209001,Kai_125_complete cell;light,GSE132275
+SRR9209002,Kai_175_complete cell;light,GSE132275
+SRR9209003,Kai_235_complete cell;light,GSE132275
+SRR11604235,CO;early-stationary phase,GSE149269
+SRR11604236,CO;early-stationary phase,GSE149269
+SRR11604237,CO;early-stationary phase,GSE149269
+SRR11604238,CO;mid-log phase,GSE149269
+SRR11604239,CO;mid-log phase,GSE149269
+SRR11604240,CO;mid-log phase,GSE149269
+SRR11604241,H2/CO2;early-stationary phase,GSE149269
+SRR11604242,H2/CO2;early-stationary phase,GSE149269
+SRR11604243,H2/CO2;early-stationary phase,GSE149269
+SRR11604244,H2/CO2;mid-log phase,GSE149269
+SRR11604245,H2/CO2;mid-log phase,GSE149269
+SRR11604246,H2/CO2;mid-log phase,GSE149269
+SRR11604247,Glucose;early-stationary phase,GSE149269
+SRR11604248,Glucose;early-stationary phase,GSE149269
+SRR11604249,Glucose;early-stationary phase,GSE149269
+SRR11604250,Glucose;mid-log phase,GSE149269
+SRR11604251,Glucose;mid-log phase,GSE149269
+SRR11604252,Glucose;mid-log phase,GSE149269
+SRR11916652,no treatment;1021,GSE151705
+SRR11916653,no treatment;1021,GSE151705
+SRR11916654,no treatment;1021,GSE151705
+SRR11916655,camporegio root exudate;1021,GSE151705
+SRR11916656,camporegio root exudate;1021,GSE151705
+SRR11916657,camporegio root exudate;1021,GSE151705
+SRR11916658,lodi root exudate;1021,GSE151705
+SRR11916659,lodi root exudate;1021,GSE151705
+SRR11916660,lodi root exudate;1021,GSE151705
+SRR11916661,luteolin;1021,GSE151705
+SRR11916662,luteolin;1021,GSE151705
+SRR11916663,luteolin;1021,GSE151705
+SRR11916664,verbena root exudate;1021,GSE151705
+SRR11916665,verbena root exudate;1021,GSE151705
+SRR11916666,verbena root exudate;1021,GSE151705
+SRR11916667,no treatment;AK83,GSE151705
+SRR11916668,no treatment;AK83,GSE151705
+SRR11916669,no treatment;AK83,GSE151705
+SRR11916670,camporegio root exudate;AK83,GSE151705
+SRR11916671,camporegio root exudate;AK83,GSE151705
+SRR11916672,camporegio root exudate;AK83,GSE151705
+SRR11916673,lodi root exudate;AK83,GSE151705
+SRR11916674,lodi root exudate;AK83,GSE151705
+SRR11916675,lodi root exudate;AK83,GSE151705
+SRR11916676,luteolin;AK83,GSE151705
+SRR11916677,luteolin;AK83,GSE151705
+SRR11916678,luteolin;AK83,GSE151705
+SRR11916679,verbena root exudate;AK83,GSE151705
+SRR11916680,verbena root exudate;AK83,GSE151705
+SRR11916681,verbena root exudate;AK83,GSE151705
+SRR11916682,no treatment;BL225C,GSE151705
+SRR11916683,no treatment;BL225C,GSE151705
+SRR11916684,no treatment;BL225C,GSE151705
+SRR11916685,camporegio root exudate;BL225C,GSE151705
+SRR11916686,camporegio root exudate;BL225C,GSE151705
+SRR11916687,camporegio root exudate;BL225C,GSE151705
+SRR11916688,lodi root exudate;BL225C,GSE151705
+SRR11916689,lodi root exudate;BL225C,GSE151705
+SRR11916690,lodi root exudate;BL225C,GSE151705
+SRR11916691,luteolin;BL225C,GSE151705
+SRR11916692,luteolin;BL225C,GSE151705
+SRR11916693,luteolin;BL225C,GSE151705
+SRR11916694,verbena root exudate;BL225C,GSE151705
+SRR11916695,verbena root exudate;BL225C,GSE151705
+SRR11916696,no treatment;BM806,GSE151705
+SRR11916697,no treatment;BM806,GSE151705
+SRR11916698,camporegio root exudate;BM806,GSE151705
+SRR11916699,camporegio root exudate;BM806,GSE151705
+SRR11916700,camporegio root exudate;BM806,GSE151705
+SRR11916701,lodi root exudate;BM806,GSE151705
+SRR11916702,lodi root exudate;BM806,GSE151705
+SRR11916703,lodi root exudate;BM806,GSE151705
+SRR11916704,luteolin;BM806,GSE151705
+SRR11916705,luteolin;BM806,GSE151705
+SRR11916706,luteolin;BM806,GSE151705
+SRR11916707,verbena root exudate;BM806,GSE151705
+SRR11916708,verbena root exudate;BM806,GSE151705
+SRR11916709,verbena root exudate;BM806,GSE151705
+SRR11997689,Acetic acid treated,GSE152295
+SRR11997690,Acetic acid treated,GSE152295
+SRR11997691,Acetic acid treated,GSE152295
+SRR11997692,Bile salts treated,GSE152295
+SRR11997693,Bile salts treated,GSE152295
+SRR11997694,Bile salts treated,GSE152295
+SRR11997695,Untreated,GSE152295
+SRR11997696,Untreated,GSE152295
+SRR11997697,Untreated,GSE152295
+SRR11997698,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11997699,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11997700,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11997701,Treated with oxygen deprivation,GSE152295
+SRR11997702,Treated with oxygen deprivation,GSE152295
+SRR11997703,Treated with oxygen deprivation,GSE152295
+SRR11997704,Treated with removal of nutrients,GSE152295
+SRR11997705,Treated with removal of nutrients,GSE152295
+SRR11997706,Treated with removal of nutrients,GSE152295
+SRR11997707,Treated with spermin NONOate complex,GSE152295
+SRR11997708,Treated with spermin NONOate complex,GSE152295
+SRR11997709,Treated with spermin NONOate complex,GSE152295
+SRR11997710,Treated with NaCl,GSE152295
+SRR11997711,Treated with NaCl,GSE152295
+SRR11997712,Treated with NaCl,GSE152295
+SRR11997713,Treated with H2O2,GSE152295
+SRR11997714,Treated with H2O2,GSE152295
+SRR11997715,Treated with H2O2,GSE152295
+SRR11997716,Grown until stationary phase,GSE152295
+SRR11997717,Grown until stationary phase,GSE152295
+SRR11997718,Grown until stationary phase,GSE152295
+SRR11997719,Treated with 41C,GSE152295
+SRR11997720,Treated with 41C,GSE152295
+SRR11997721,Treated with 41C,GSE152295
+SRR11997722,Treated with 20C,GSE152295
+SRR11997723,Treated with 20C,GSE152295
+SRR11997724,Treated with 20C,GSE152295
+SRR11997725,Acetic acid treated,GSE152295
+SRR11997726,Acetic acid treated,GSE152295
+SRR11997727,Acetic acid treated,GSE152295
+SRR11997728,Bile salts treated,GSE152295
+SRR11997729,Bile salts treated,GSE152295
+SRR11997730,Bile salts treated,GSE152295
+SRR11997731,Untreated,GSE152295
+SRR11997732,Untreated,GSE152295
+SRR11997733,Untreated,GSE152295
+SRR11997734,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11997735,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11997736,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11997737,Treated with oxygen deprivation,GSE152295
+SRR11997738,Treated with oxygen deprivation,GSE152295
+SRR11997739,Treated with oxygen deprivation,GSE152295
+SRR11997740,Treated with removal of nutrients,GSE152295
+SRR11997741,Treated with removal of nutrients,GSE152295
+SRR11997742,Treated with removal of nutrients,GSE152295
+SRR11997743,Treated with spermin NONOate complex,GSE152295
+SRR11997744,Treated with spermin NONOate complex,GSE152295
+SRR11997745,Treated with spermin NONOate complex,GSE152295
+SRR11997746,Treated with NaCl,GSE152295
+SRR11997747,Treated with NaCl,GSE152295
+SRR11997748,Treated with NaCl,GSE152295
+SRR11997749,Treated with H2O2,GSE152295
+SRR11997750,Treated with H2O2,GSE152295
+SRR11997751,Treated with H2O2,GSE152295
+SRR11997752,Grown until stationary phase,GSE152295
+SRR11997753,Grown until stationary phase,GSE152295
+SRR11997754,Grown until stationary phase,GSE152295
+SRR11997755,Treated with 41C,GSE152295
+SRR11997756,Treated with 41C,GSE152295
+SRR11997757,Treated with 41C,GSE152295
+SRR11997758,Treated with Ethanol,GSE152295
+SRR11997759,Treated with Ethanol,GSE152295
+SRR11997760,Treated with Ethanol,GSE152295
+SRR11997761,Acetic acid treated,GSE152295
+SRR11997762,Acetic acid treated,GSE152295
+SRR11997763,Acetic acid treated,GSE152295
+SRR11997764,Bile salts treated,GSE152295
+SRR11997765,Bile salts treated,GSE152295
+SRR11997766,Bile salts treated,GSE152295
+SRR11997767,Untreated,GSE152295
+SRR11997768,Untreated,GSE152295
+SRR11997769,Untreated,GSE152295
+SRR11997770,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11997771,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11997772,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11997773,Treated with oxygen deprivation,GSE152295
+SRR11997774,Treated with oxygen deprivation,GSE152295
+SRR11997775,Treated with oxygen deprivation,GSE152295
+SRR11997776,Treated with removal of nutrients,GSE152295
+SRR11997777,Treated with removal of nutrients,GSE152295
+SRR11997778,Treated with removal of nutrients,GSE152295
+SRR11997779,Treated with spermin NONOate complex,GSE152295
+SRR11997780,Treated with spermin NONOate complex,GSE152295
+SRR11997781,Treated with spermin NONOate complex,GSE152295
+SRR11997782,Treated with NaCl,GSE152295
+SRR11997783,Treated with NaCl,GSE152295
+SRR11997784,Treated with NaCl,GSE152295
+SRR11997785,Treated with H2O2,GSE152295
+SRR11997786,Treated with H2O2,GSE152295
+SRR11997787,Treated with H2O2,GSE152295
+SRR11997788,Grown until stationary phase,GSE152295
+SRR11997789,Grown until stationary phase,GSE152295
+SRR11997790,Grown until stationary phase,GSE152295
+SRR11997791,Treated with 41C,GSE152295
+SRR11997792,Treated with 41C,GSE152295
+SRR11997793,Treated with 41C,GSE152295
+SRR11997794,Treated with human serum,GSE152295
+SRR11997795,Treated with human serum,GSE152295
+SRR11997796,Treated with human serum,GSE152295
+SRR11997797,Acetic acid treated,GSE152295
+SRR11997798,Acetic acid treated,GSE152295
+SRR11997799,Acetic acid treated,GSE152295
+SRR11997800,Untreated,GSE152295
+SRR11997801,Untreated,GSE152295
+SRR11997802,Untreated,GSE152295
+SRR11997803,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11997804,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11997805,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11997806,Treated with oxygen deprivation,GSE152295
+SRR11997807,Treated with oxygen deprivation,GSE152295
+SRR11997808,Treated with oxygen deprivation,GSE152295
+SRR11997809,Treated with removal of nutrients,GSE152295
+SRR11997810,Treated with removal of nutrients,GSE152295
+SRR11997811,Treated with removal of nutrients,GSE152295
+SRR11997812,Treated with spermin NONOate complex,GSE152295
+SRR11997813,Treated with spermin NONOate complex,GSE152295
+SRR11997814,Treated with spermin NONOate complex,GSE152295
+SRR11997815,Treated with NaCl,GSE152295
+SRR11997816,Treated with NaCl,GSE152295
+SRR11997817,Treated with NaCl,GSE152295
+SRR11997818,Treated with H2O2,GSE152295
+SRR11997819,Treated with H2O2,GSE152295
+SRR11997820,Treated with H2O2,GSE152295
+SRR11997821,Grown until stationary phase,GSE152295
+SRR11997822,Grown until stationary phase,GSE152295
+SRR11997823,Grown until stationary phase,GSE152295
+SRR11997824,Treated with 41C,GSE152295
+SRR11997825,Treated with 41C,GSE152295
+SRR11997826,Treated with 41C,GSE152295
+SRR11997827,One hour prolonged growth,GSE152295
+SRR11997828,One hour prolonged growth,GSE152295
+SRR11997829,One hour prolonged growth,GSE152295
+SRR11997830,Acetic acid treated,GSE152295
+SRR11997831,Acetic acid treated,GSE152295
+SRR11997832,Acetic acid treated,GSE152295
+SRR11997833,Untreated,GSE152295
+SRR11997834,Untreated,GSE152295
+SRR11997835,Untreated,GSE152295
+SRR11997836,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11997837,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11997838,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11997839,Treated with oxygen deprivation,GSE152295
+SRR11997840,Treated with oxygen deprivation,GSE152295
+SRR11997841,Treated with oxygen deprivation,GSE152295
+SRR11997842,Treated with removal of nutrients,GSE152295
+SRR11997843,Treated with removal of nutrients,GSE152295
+SRR11997844,Treated with removal of nutrients,GSE152295
+SRR11997845,Treated with spermin NONOate complex,GSE152295
+SRR11997846,Treated with spermin NONOate complex,GSE152295
+SRR11997847,Treated with spermin NONOate complex,GSE152295
+SRR11997848,Treated with NaCl,GSE152295
+SRR11997849,Treated with NaCl,GSE152295
+SRR11997850,Treated with NaCl,GSE152295
+SRR11997851,Treated with H2O2,GSE152295
+SRR11997852,Treated with H2O2,GSE152295
+SRR11997853,Treated with H2O2,GSE152295
+SRR11997854,Grown until stationary phase,GSE152295
+SRR11997855,Grown until stationary phase,GSE152295
+SRR11997856,Grown until stationary phase,GSE152295
+SRR11997857,Treated with 41C,GSE152295
+SRR11997858,Treated with 41C,GSE152295
+SRR11997859,Treated with 41C,GSE152295
+SRR11997860,Four hours prolonged growth,GSE152295
+SRR11997861,Four hours prolonged growth,GSE152295
+SRR11997862,Four hours prolonged growth,GSE152295
+SRR11997863,Acetic acid treated,GSE152295
+SRR11997864,Acetic acid treated,GSE152295
+SRR11997865,Acetic acid treated,GSE152295
+SRR11997866,Bile salts treated,GSE152295
+SRR11997867,Bile salts treated,GSE152295
+SRR11997868,Bile salts treated,GSE152295
+SRR11997869,Untreated,GSE152295
+SRR11997870,Untreated,GSE152295
+SRR11997871,Untreated,GSE152295
+SRR11997872,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11997873,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11997874,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11997875,Treated with oxygen deprivation,GSE152295
+SRR11997876,Treated with oxygen deprivation,GSE152295
+SRR11997877,Treated with oxygen deprivation,GSE152295
+SRR11997878,Treated with removal of nutrients,GSE152295
+SRR11997879,Treated with removal of nutrients,GSE152295
+SRR11997880,Treated with removal of nutrients,GSE152295
+SRR11997881,Treated with spermin NONOate complex,GSE152295
+SRR11997882,Treated with spermin NONOate complex,GSE152295
+SRR11997883,Treated with spermin NONOate complex,GSE152295
+SRR11997884,Treated with NaCl,GSE152295
+SRR11997885,Treated with NaCl,GSE152295
+SRR11997886,Treated with NaCl,GSE152295
+SRR11997887,Treated with H2O2,GSE152295
+SRR11997888,Treated with H2O2,GSE152295
+SRR11997889,Treated with H2O2,GSE152295
+SRR11997890,Grown until stationary phase,GSE152295
+SRR11997891,Grown until stationary phase,GSE152295
+SRR11997892,Grown until stationary phase,GSE152295
+SRR11997893,Treated with 41C,GSE152295
+SRR11997894,Treated with 41C,GSE152295
+SRR11997895,Treated with 41C,GSE152295
+SRR11997896,One and a half hour prolonged growth,GSE152295
+SRR11997897,One and a half hour prolonged growth,GSE152295
+SRR11997898,One and a half hour prolonged growth,GSE152295
+SRR11997899,Acetic acid treated,GSE152295
+SRR11997900,Acetic acid treated,GSE152295
+SRR11997901,Acetic acid treated,GSE152295
+SRR11997902,Bile salts treated,GSE152295
+SRR11997903,Bile salts treated,GSE152295
+SRR11997904,Bile salts treated,GSE152295
+SRR11997905,Untreated,GSE152295
+SRR11997906,Untreated,GSE152295
+SRR11997907,Untreated,GSE152295
+SRR11997908,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11997909,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11997910,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11997911,Treated with oxygen deprivation,GSE152295
+SRR11997912,Treated with oxygen deprivation,GSE152295
+SRR11997913,Treated with oxygen deprivation,GSE152295
+SRR11997914,Treated with removal of nutrients,GSE152295
+SRR11997915,Treated with removal of nutrients,GSE152295
+SRR11997916,Treated with removal of nutrients,GSE152295
+SRR11997917,Treated with spermin NONOate complex,GSE152295
+SRR11997918,Treated with spermin NONOate complex,GSE152295
+SRR11997919,Treated with spermin NONOate complex,GSE152295
+SRR11997920,Treated with NaCl,GSE152295
+SRR11997921,Treated with NaCl,GSE152295
+SRR11997922,Treated with NaCl,GSE152295
+SRR11997923,Treated with H2O2,GSE152295
+SRR11997924,Treated with H2O2,GSE152295
+SRR11997925,Treated with H2O2,GSE152295
+SRR11997926,Grown until stationary phase,GSE152295
+SRR11997927,Grown until stationary phase,GSE152295
+SRR11997928,Grown until stationary phase,GSE152295
+SRR11997929,Treated with 41C,GSE152295
+SRR11997930,Treated with 41C,GSE152295
+SRR11997931,Treated with 41C,GSE152295
+SRR11997932,Treated with fetal bovine serum,GSE152295
+SRR11997933,Treated with fetal bovine serum,GSE152295
+SRR11997934,Treated with fetal bovine serum,GSE152295
+SRR11997935,Acetic acid treated,GSE152295
+SRR11997936,Acetic acid treated,GSE152295
+SRR11997937,Acetic acid treated,GSE152295
+SRR11997938,Bile salts treated,GSE152295
+SRR11997939,Bile salts treated,GSE152295
+SRR11997940,Bile salts treated,GSE152295
+SRR11997941,Untreated,GSE152295
+SRR11997942,Untreated,GSE152295
+SRR11997943,Untreated,GSE152295
+SRR11997944,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11997945,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11997946,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11997947,Treated with oxygen deprivation,GSE152295
+SRR11997948,Treated with oxygen deprivation,GSE152295
+SRR11997949,Treated with oxygen deprivation,GSE152295
+SRR11997950,Treated with removal of nutrients,GSE152295
+SRR11997951,Treated with removal of nutrients,GSE152295
+SRR11997952,Treated with removal of nutrients,GSE152295
+SRR11997953,Treated with spermin NONOate complex,GSE152295
+SRR11997954,Treated with spermin NONOate complex,GSE152295
+SRR11997955,Treated with spermin NONOate complex,GSE152295
+SRR11997956,Treated with NaCl,GSE152295
+SRR11997957,Treated with NaCl,GSE152295
+SRR11997958,Treated with NaCl,GSE152295
+SRR11997959,Treated with H2O2,GSE152295
+SRR11997960,Treated with H2O2,GSE152295
+SRR11997961,Treated with H2O2,GSE152295
+SRR11997962,Grown until stationary phase,GSE152295
+SRR11997963,Grown until stationary phase,GSE152295
+SRR11997964,Grown until stationary phase,GSE152295
+SRR11997965,Treated with 41C,GSE152295
+SRR11997966,Treated with 41C,GSE152295
+SRR11997967,Treated with 41C,GSE152295
+SRR11997968,One and a half hour prolonged growth,GSE152295
+SRR11997969,One and a half hour prolonged growth,GSE152295
+SRR11997970,One and a half hour prolonged growth,GSE152295
+SRR11997971,Acetic acid treated,GSE152295
+SRR11997972,Acetic acid treated,GSE152295
+SRR11997973,Acetic acid treated,GSE152295
+SRR11997974,Bile salts treated,GSE152295
+SRR11997975,Bile salts treated,GSE152295
+SRR11997976,Bile salts treated,GSE152295
+SRR11997977,Untreated,GSE152295
+SRR11997978,Untreated,GSE152295
+SRR11997979,Untreated,GSE152295
+SRR11997980,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11997981,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11997982,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11997983,Treated with oxygen deprivation,GSE152295
+SRR11997984,Treated with oxygen deprivation,GSE152295
+SRR11997985,Treated with oxygen deprivation,GSE152295
+SRR11997986,Treated with removal of nutrients,GSE152295
+SRR11997987,Treated with removal of nutrients,GSE152295
+SRR11997988,Treated with removal of nutrients,GSE152295
+SRR11997989,Treated with spermin NONOate complex,GSE152295
+SRR11997990,Treated with spermin NONOate complex,GSE152295
+SRR11997991,Treated with spermin NONOate complex,GSE152295
+SRR11997992,Treated with NaCl,GSE152295
+SRR11997993,Treated with NaCl,GSE152295
+SRR11997994,Treated with NaCl,GSE152295
+SRR11997995,Treated with H2O2,GSE152295
+SRR11997996,Treated with H2O2,GSE152295
+SRR11997997,Treated with H2O2,GSE152295
+SRR11997998,Grown until stationary phase,GSE152295
+SRR11997999,Grown until stationary phase,GSE152295
+SRR11998000,Grown until stationary phase,GSE152295
+SRR11998001,Treated with 41C,GSE152295
+SRR11998002,Treated with 41C,GSE152295
+SRR11998003,Treated with 41C,GSE152295
+SRR11998004,One and a half hour prolonged growth,GSE152295
+SRR11998005,One and a half hour prolonged growth,GSE152295
+SRR11998006,One and a half hour prolonged growth,GSE152295
+SRR11998007,Acetic acid treated,GSE152295
+SRR11998008,Acetic acid treated,GSE152295
+SRR11998009,Acetic acid treated,GSE152295
+SRR11998010,Bile salts treated,GSE152295
+SRR11998011,Bile salts treated,GSE152295
+SRR11998012,Bile salts treated,GSE152295
+SRR11998013,Untreated,GSE152295
+SRR11998014,Untreated,GSE152295
+SRR11998015,Untreated,GSE152295
+SRR11998016,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998017,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998018,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998019,Treated with oxygen deprivation,GSE152295
+SRR11998020,Treated with oxygen deprivation,GSE152295
+SRR11998021,Treated with oxygen deprivation,GSE152295
+SRR11998022,Treated with removal of nutrients,GSE152295
+SRR11998023,Treated with removal of nutrients,GSE152295
+SRR11998024,Treated with removal of nutrients,GSE152295
+SRR11998025,Treated with spermin NONOate complex,GSE152295
+SRR11998026,Treated with spermin NONOate complex,GSE152295
+SRR11998027,Treated with spermin NONOate complex,GSE152295
+SRR11998028,Treated with NaCl,GSE152295
+SRR11998029,Treated with NaCl,GSE152295
+SRR11998030,Treated with NaCl,GSE152295
+SRR11998031,Treated with H2O2,GSE152295
+SRR11998032,Treated with H2O2,GSE152295
+SRR11998033,Treated with H2O2,GSE152295
+SRR11998034,Grown until stationary phase,GSE152295
+SRR11998035,Grown until stationary phase,GSE152295
+SRR11998036,Grown until stationary phase,GSE152295
+SRR11998037,Treated with 41C,GSE152295
+SRR11998038,Treated with 41C,GSE152295
+SRR11998039,Treated with 41C,GSE152295
+SRR11998040,Four hours prolonged growth,GSE152295
+SRR11998041,Four hours prolonged growth,GSE152295
+SRR11998042,Four hours prolonged growth,GSE152295
+SRR11998043,Acetic acid treated,GSE152295
+SRR11998044,Acetic acid treated,GSE152295
+SRR11998045,Acetic acid treated,GSE152295
+SRR11998046,Untreated,GSE152295
+SRR11998047,Untreated,GSE152295
+SRR11998048,Untreated,GSE152295
+SRR11998049,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998050,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998051,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998052,Treated with oxygen deprivation,GSE152295
+SRR11998053,Treated with oxygen deprivation,GSE152295
+SRR11998054,Treated with oxygen deprivation,GSE152295
+SRR11998055,Treated with removal of nutrients,GSE152295
+SRR11998056,Treated with removal of nutrients,GSE152295
+SRR11998057,Treated with removal of nutrients,GSE152295
+SRR11998058,Treated with spermin NONOate complex,GSE152295
+SRR11998059,Treated with spermin NONOate complex,GSE152295
+SRR11998060,Treated with spermin NONOate complex,GSE152295
+SRR11998061,Treated with NaCl,GSE152295
+SRR11998062,Treated with NaCl,GSE152295
+SRR11998063,Treated with NaCl,GSE152295
+SRR11998064,Treated with H2O2,GSE152295
+SRR11998065,Treated with H2O2,GSE152295
+SRR11998066,Treated with H2O2,GSE152295
+SRR11998067,Grown until stationary phase,GSE152295
+SRR11998068,Grown until stationary phase,GSE152295
+SRR11998069,Grown until stationary phase,GSE152295
+SRR11998070,Treated with 41C,GSE152295
+SRR11998071,Treated with 41C,GSE152295
+SRR11998072,Treated with 41C,GSE152295
+SRR11998073,Treated with 20C,GSE152295
+SRR11998074,Treated with 20C,GSE152295
+SRR11998075,Treated with 20C,GSE152295
+SRR11998076,Acetic acid treated,GSE152295
+SRR11998077,Acetic acid treated,GSE152295
+SRR11998078,Acetic acid treated,GSE152295
+SRR11998079,Untreated,GSE152295
+SRR11998080,Untreated,GSE152295
+SRR11998081,Untreated,GSE152295
+SRR11998082,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998083,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998084,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998085,Treated with oxygen deprivation,GSE152295
+SRR11998086,Treated with oxygen deprivation,GSE152295
+SRR11998087,Treated with oxygen deprivation,GSE152295
+SRR11998088,Treated with removal of nutrients,GSE152295
+SRR11998089,Treated with removal of nutrients,GSE152295
+SRR11998090,Treated with removal of nutrients,GSE152295
+SRR11998091,Treated with spermin NONOate complex,GSE152295
+SRR11998092,Treated with spermin NONOate complex,GSE152295
+SRR11998093,Treated with spermin NONOate complex,GSE152295
+SRR11998094,Treated with NaCl,GSE152295
+SRR11998095,Treated with NaCl,GSE152295
+SRR11998096,Treated with NaCl,GSE152295
+SRR11998097,Treated with H2O2,GSE152295
+SRR11998098,Treated with H2O2,GSE152295
+SRR11998099,Treated with H2O2,GSE152295
+SRR11998100,Grown until stationary phase,GSE152295
+SRR11998101,Grown until stationary phase,GSE152295
+SRR11998102,Grown until stationary phase,GSE152295
+SRR11998103,Treated with 41C,GSE152295
+SRR11998104,Treated with 41C,GSE152295
+SRR11998105,Treated with 41C,GSE152295
+SRR11998106,Treated with NiCl2,GSE152295
+SRR11998107,Treated with NiCl2,GSE152295
+SRR11998108,Treated with NiCl2,GSE152295
+SRR11998109,Acetic acid treated,GSE152295
+SRR11998110,Acetic acid treated,GSE152295
+SRR11998111,Acetic acid treated,GSE152295
+SRR11998112,Untreated,GSE152295
+SRR11998113,Untreated,GSE152295
+SRR11998114,Untreated,GSE152295
+SRR11998115,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998116,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998117,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998118,Treated with oxygen deprivation,GSE152295
+SRR11998119,Treated with oxygen deprivation,GSE152295
+SRR11998120,Treated with oxygen deprivation,GSE152295
+SRR11998121,Treated with removal of nutrients,GSE152295
+SRR11998122,Treated with removal of nutrients,GSE152295
+SRR11998123,Treated with removal of nutrients,GSE152295
+SRR11998124,Treated with spermin NONOate complex,GSE152295
+SRR11998125,Treated with spermin NONOate complex,GSE152295
+SRR11998126,Treated with spermin NONOate complex,GSE152295
+SRR11998127,Treated with NaCl,GSE152295
+SRR11998128,Treated with NaCl,GSE152295
+SRR11998129,Treated with NaCl,GSE152295
+SRR11998130,Treated with H2O2,GSE152295
+SRR11998131,Treated with H2O2,GSE152295
+SRR11998132,Treated with H2O2,GSE152295
+SRR11998133,Grown until stationary phase,GSE152295
+SRR11998134,Grown until stationary phase,GSE152295
+SRR11998135,Grown until stationary phase,GSE152295
+SRR11998136,Treated with 41C,GSE152295
+SRR11998137,Treated with 41C,GSE152295
+SRR11998138,Treated with 41C,GSE152295
+SRR11998139,Treated with NiCl2,GSE152295
+SRR11998140,Treated with NiCl2,GSE152295
+SRR11998141,Treated with NiCl2,GSE152295
+SRR11998142,Acetic acid treated,GSE152295
+SRR11998143,Acetic acid treated,GSE152295
+SRR11998144,Acetic acid treated,GSE152295
+SRR11998145,Bile salts treated,GSE152295
+SRR11998146,Bile salts treated,GSE152295
+SRR11998147,Bile salts treated,GSE152295
+SRR11998148,Untreated,GSE152295
+SRR11998149,Untreated,GSE152295
+SRR11998150,Untreated,GSE152295
+SRR11998151,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998152,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998153,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998154,Treated with oxygen deprivation,GSE152295
+SRR11998155,Treated with oxygen deprivation,GSE152295
+SRR11998156,Treated with oxygen deprivation,GSE152295
+SRR11998157,Treated with removal of nutrients,GSE152295
+SRR11998158,Treated with removal of nutrients,GSE152295
+SRR11998159,Treated with removal of nutrients,GSE152295
+SRR11998160,Treated with spermin NONOate complex,GSE152295
+SRR11998161,Treated with spermin NONOate complex,GSE152295
+SRR11998162,Treated with spermin NONOate complex,GSE152295
+SRR11998163,Treated with NaCl,GSE152295
+SRR11998164,Treated with NaCl,GSE152295
+SRR11998165,Treated with NaCl,GSE152295
+SRR11998166,Treated with H2O2,GSE152295
+SRR11998167,Treated with H2O2,GSE152295
+SRR11998168,Treated with H2O2,GSE152295
+SRR11998169,Grown until stationary phase,GSE152295
+SRR11998170,Grown until stationary phase,GSE152295
+SRR11998171,Grown until stationary phase,GSE152295
+SRR11998172,Treated with 41C,GSE152295
+SRR11998173,Treated with 41C,GSE152295
+SRR11998174,Treated with 41C,GSE152295
+SRR11998175,Treated with human serum,GSE152295
+SRR11998176,Treated with human serum,GSE152295
+SRR11998177,Treated with human serum,GSE152295
+SRR11998178,Acetic acid treated,GSE152295
+SRR11998179,Acetic acid treated,GSE152295
+SRR11998180,Acetic acid treated,GSE152295
+SRR11998181,untreated,GSE152295
+SRR11998182,Untreated,GSE152295
+SRR11998183,Untreated,GSE152295
+SRR11998184,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998185,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998186,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998187,Treated with oxygen deprivation,GSE152295
+SRR11998188,Treated with oxygen deprivation,GSE152295
+SRR11998189,Treated with oxygen deprivation,GSE152295
+SRR11998190,Treated with removal of nutrients,GSE152295
+SRR11998191,Treated with removal of nutrients,GSE152295
+SRR11998192,Treated with removal of nutrients,GSE152295
+SRR11998193,Treated with spermin NONOate complex,GSE152295
+SRR11998194,Treated with spermin NONOate complex,GSE152295
+SRR11998195,Treated with spermin NONOate complex,GSE152295
+SRR11998196,Treated with NaCl,GSE152295
+SRR11998197,Treated with NaCl,GSE152295
+SRR11998198,Treated with NaCl,GSE152295
+SRR11998199,Treated with H2O2,GSE152295
+SRR11998200,Treated with H2O2,GSE152295
+SRR11998201,Treated with H2O2,GSE152295
+SRR11998202,Grown until stationary phase,GSE152295
+SRR11998203,Grown until stationary phase,GSE152295
+SRR11998204,Grown until stationary phase,GSE152295
+SRR11998205,Treated with 41C,GSE152295
+SRR11998206,Treated with 41C,GSE152295
+SRR11998207,Treated with 41C,GSE152295
+SRR11998208,Acetic acid treated,GSE152295
+SRR11998209,Acetic acid treated,GSE152295
+SRR11998210,Acetic acid treated,GSE152295
+SRR11998211,Bile salts treated,GSE152295
+SRR11998212,Bile salts treated,GSE152295
+SRR11998213,Bile salts treated,GSE152295
+SRR11998214,Untreated,GSE152295
+SRR11998215,Untreated,GSE152295
+SRR11998216,Untreated,GSE152295
+SRR11998217,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998218,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998219,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998220,Treated with oxygen deprivation,GSE152295
+SRR11998221,Treated with oxygen deprivation,GSE152295
+SRR11998222,Treated with oxygen deprivation,GSE152295
+SRR11998223,Treated with removal of nutrients,GSE152295
+SRR11998224,Treated with removal of nutrients,GSE152295
+SRR11998225,Treated with removal of nutrients,GSE152295
+SRR11998226,Treated with spermin NONOate complex,GSE152295
+SRR11998227,Treated with spermin NONOate complex,GSE152295
+SRR11998228,Treated with spermin NONOate complex,GSE152295
+SRR11998229,Treated with NaCl,GSE152295
+SRR11998230,Treated with NaCl,GSE152295
+SRR11998231,Treated with NaCl,GSE152295
+SRR11998232,Treated with H2O2,GSE152295
+SRR11998233,Treated with H2O2,GSE152295
+SRR11998234,Treated with H2O2,GSE152295
+SRR11998235,Grown until stationary phase,GSE152295
+SRR11998236,Grown until stationary phase,GSE152295
+SRR11998237,Grown until stationary phase,GSE152295
+SRR11998238,Treated with 41C,GSE152295
+SRR11998239,Treated with 41C,GSE152295
+SRR11998240,Treated with 41C,GSE152295
+SRR11998241,Treated with Amberlite XAD4,GSE152295
+SRR11998242,Treated with Amberlite XAD4,GSE152295
+SRR11998243,Treated with Amberlite XAD4,GSE152295
+SRR11998244,Acetic acid treated,GSE152295
+SRR11998245,Acetic acid treated,GSE152295
+SRR11998246,Acetic acid treated,GSE152295
+SRR11998247,Bile salts treated,GSE152295
+SRR11998248,Bile salts treated,GSE152295
+SRR11998249,Bile salts treated,GSE152295
+SRR11998250,Untreated,GSE152295
+SRR11998251,Untreated,GSE152295
+SRR11998252,Untreated,GSE152295
+SRR11998253,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998254,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998255,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998256,Treated with oxygen deprivation,GSE152295
+SRR11998257,Treated with oxygen deprivation,GSE152295
+SRR11998258,Treated with oxygen deprivation,GSE152295
+SRR11998259,Treated with removal of nutrients,GSE152295
+SRR11998260,Treated with removal of nutrients,GSE152295
+SRR11998261,Treated with removal of nutrients,GSE152295
+SRR11998262,Treated with spermin NONOate complex,GSE152295
+SRR11998263,Treated with spermin NONOate complex,GSE152295
+SRR11998264,Treated with spermin NONOate complex,GSE152295
+SRR11998265,Treated with NaCl,GSE152295
+SRR11998266,Treated with NaCl,GSE152295
+SRR11998267,Treated with NaCl,GSE152295
+SRR11998268,Treated with H2O2,GSE152295
+SRR11998269,Treated with H2O2,GSE152295
+SRR11998270,Treated with H2O2,GSE152295
+SRR11998271,Grown until stationary phase,GSE152295
+SRR11998272,Grown until stationary phase,GSE152295
+SRR11998273,Grown until stationary phase,GSE152295
+SRR11998274,Treated with 41C,GSE152295
+SRR11998275,Treated with 41C,GSE152295
+SRR11998276,Treated with 41C,GSE152295
+SRR11998277,Treated with human serum,GSE152295
+SRR11998278,Treated with human serum,GSE152295
+SRR11998279,Treated with human serum,GSE152295
+SRR11998280,Acetic acid treated,GSE152295
+SRR11998281,Acetic acid treated,GSE152295
+SRR11998282,Acetic acid treated,GSE152295
+SRR11998283,Bile salts treated,GSE152295
+SRR11998284,Bile salts treated,GSE152295
+SRR11998285,Bile salts treated,GSE152295
+SRR11998286,Untreated,GSE152295
+SRR11998287,Untreated,GSE152295
+SRR11998288,Untreated,GSE152295
+SRR11998289,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998290,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998291,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998292,Treated with oxygen deprivation,GSE152295
+SRR11998293,Treated with oxygen deprivation,GSE152295
+SRR11998294,Treated with oxygen deprivation,GSE152295
+SRR11998295,Treated with removal of nutrients,GSE152295
+SRR11998296,Treated with removal of nutrients,GSE152295
+SRR11998297,Treated with removal of nutrients,GSE152295
+SRR11998298,Treated with spermin NONOate complex,GSE152295
+SRR11998299,Treated with spermin NONOate complex,GSE152295
+SRR11998300,Treated with spermin NONOate complex,GSE152295
+SRR11998301,Treated with NaCl,GSE152295
+SRR11998302,Treated with NaCl,GSE152295
+SRR11998303,Treated with NaCl,GSE152295
+SRR11998304,Treated with H2O2,GSE152295
+SRR11998305,Treated with H2O2,GSE152295
+SRR11998306,Treated with H2O2,GSE152295
+SRR11998307,Grown until stationary phase,GSE152295
+SRR11998308,Grown until stationary phase,GSE152295
+SRR11998309,Grown until stationary phase,GSE152295
+SRR11998310,Treated with 41C,GSE152295
+SRR11998311,Treated with 41C,GSE152295
+SRR11998312,Treated with 41C,GSE152295
+SRR11998313,Treated with human serum,GSE152295
+SRR11998314,Treated with human serum,GSE152295
+SRR11998315,Treated with human serum,GSE152295
+SRR11998316,Acetic acid treated,GSE152295
+SRR11998317,Acetic acid treated,GSE152295
+SRR11998318,Acetic acid treated,GSE152295
+SRR11998319,Bile salts treated,GSE152295
+SRR11998320,Bile salts treated,GSE152295
+SRR11998321,Bile salts treated,GSE152295
+SRR11998322,Untreated,GSE152295
+SRR11998323,Untreated,GSE152295
+SRR11998324,Untreated,GSE152295
+SRR11998325,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998326,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998327,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998328,Treated with oxygen deprivation,GSE152295
+SRR11998329,Treated with oxygen deprivation,GSE152295
+SRR11998330,Treated with oxygen deprivation,GSE152295
+SRR11998331,Treated with removal of nutrients,GSE152295
+SRR11998332,Treated with removal of nutrients,GSE152295
+SRR11998333,Treated with removal of nutrients,GSE152295
+SRR11998334,Treated with spermin NONOate complex,GSE152295
+SRR11998335,Treated with spermin NONOate complex,GSE152295
+SRR11998336,Treated with spermin NONOate complex,GSE152295
+SRR11998337,Treated with NaCl,GSE152295
+SRR11998338,Treated with NaCl,GSE152295
+SRR11998339,Treated with NaCl,GSE152295
+SRR11998340,Treated with H2O2,GSE152295
+SRR11998341,Treated with H2O2,GSE152295
+SRR11998342,Treated with H2O2,GSE152295
+SRR11998343,Grown until stationary phase,GSE152295
+SRR11998344,Grown until stationary phase,GSE152295
+SRR11998345,Grown until stationary phase,GSE152295
+SRR11998346,Treated with 41C,GSE152295
+SRR11998347,Treated with 41C,GSE152295
+SRR11998348,Treated with 41C,GSE152295
+SRR11998349,Acetic acid treated,GSE152295
+SRR11998350,Acetic acid treated,GSE152295
+SRR11998351,Acetic acid treated,GSE152295
+SRR11998352,Bile salts treated,GSE152295
+SRR11998353,Bile salts treated,GSE152295
+SRR11998354,Bile salts treated,GSE152295
+SRR11998355,Untreated,GSE152295
+SRR11998356,Untreated,GSE152295
+SRR11998357,Untreated,GSE152295
+SRR11998358,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998359,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998360,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998361,Treated with oxygen deprivation,GSE152295
+SRR11998362,Treated with oxygen deprivation,GSE152295
+SRR11998363,Treated with oxygen deprivation,GSE152295
+SRR11998364,Treated with removal of nutrients,GSE152295
+SRR11998365,Treated with removal of nutrients,GSE152295
+SRR11998366,Treated with removal of nutrients,GSE152295
+SRR11998367,Treated with spermin NONOate complex,GSE152295
+SRR11998368,Treated with spermin NONOate complex,GSE152295
+SRR11998369,Treated with spermin NONOate complex,GSE152295
+SRR11998370,Treated with NaCl,GSE152295
+SRR11998371,Treated with NaCl,GSE152295
+SRR11998372,Treated with NaCl,GSE152295
+SRR11998373,Treated with H2O2,GSE152295
+SRR11998374,Treated with H2O2,GSE152295
+SRR11998375,Treated with H2O2,GSE152295
+SRR11998376,Grown until stationary phase,GSE152295
+SRR11998377,Grown until stationary phase,GSE152295
+SRR11998378,Grown until stationary phase,GSE152295
+SRR11998379,Treated with 41C,GSE152295
+SRR11998380,Treated with 41C,GSE152295
+SRR11998381,Treated with 41C,GSE152295
+SRR11998382,Treated with L-lactate,GSE152295
+SRR11998383,Treated with L-lactate,GSE152295
+SRR11998384,Treated with L-lactate,GSE152295
+SRR11998385,Acetic acid treated,GSE152295
+SRR11998386,Acetic acid treated,GSE152295
+SRR11998387,Acetic acid treated,GSE152295
+SRR11998388,Bile salts treated,GSE152295
+SRR11998389,Bile salts treated,GSE152295
+SRR11998390,Bile salts treated,GSE152295
+SRR11998391,Untreated,GSE152295
+SRR11998392,Untreated,GSE152295
+SRR11998393,Untreated,GSE152295
+SRR11998394,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998395,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998396,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998397,Treated with oxygen deprivation,GSE152295
+SRR11998398,Treated with oxygen deprivation,GSE152295
+SRR11998399,Treated with oxygen deprivation,GSE152295
+SRR11998400,Treated with removal of nutrients,GSE152295
+SRR11998401,Treated with removal of nutrients,GSE152295
+SRR11998402,Treated with removal of nutrients,GSE152295
+SRR11998403,Treated with spermin NONOate complex,GSE152295
+SRR11998404,Treated with spermin NONOate complex,GSE152295
+SRR11998405,Treated with spermin NONOate complex,GSE152295
+SRR11998406,Treated with NaCl,GSE152295
+SRR11998407,Treated with NaCl,GSE152295
+SRR11998408,Treated with NaCl,GSE152295
+SRR11998409,Treated with H2O2,GSE152295
+SRR11998410,Treated with H2O2,GSE152295
+SRR11998411,Treated with H2O2,GSE152295
+SRR11998412,Grown until stationary phase,GSE152295
+SRR11998413,Grown until stationary phase,GSE152295
+SRR11998414,Grown until stationary phase,GSE152295
+SRR11998415,Treated with 41C,GSE152295
+SRR11998416,Treated with 41C,GSE152295
+SRR11998417,Treated with 41C,GSE152295
+SRR11998418,Treated with L-lactate,GSE152295
+SRR11998419,Treated with L-lactate,GSE152295
+SRR11998420,Treated with L-lactate,GSE152295
+SRR11998421,Acetic acid treated,GSE152295
+SRR11998422,Acetic acid treated,GSE152295
+SRR11998423,Acetic acid treated,GSE152295
+SRR11998424,Bile salts treated,GSE152295
+SRR11998425,Bile salts treated,GSE152295
+SRR11998426,Bile salts treated,GSE152295
+SRR11998427,Untreated,GSE152295
+SRR11998428,Untreated,GSE152295
+SRR11998429,Untreated,GSE152295
+SRR11998430,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998431,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998432,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998433,Treated with oxygen deprivation,GSE152295
+SRR11998434,Treated with oxygen deprivation,GSE152295
+SRR11998435,Treated with oxygen deprivation,GSE152295
+SRR11998436,Treated with removal of nutrients,GSE152295
+SRR11998437,Treated with removal of nutrients,GSE152295
+SRR11998438,Treated with removal of nutrients,GSE152295
+SRR11998439,Treated with spermin NONOate complex,GSE152295
+SRR11998440,Treated with spermin NONOate complex,GSE152295
+SRR11998441,Treated with spermin NONOate complex,GSE152295
+SRR11998442,Treated with NaCl,GSE152295
+SRR11998443,Treated with NaCl,GSE152295
+SRR11998444,Treated with NaCl,GSE152295
+SRR11998445,Treated with H2O2,GSE152295
+SRR11998446,Treated with H2O2,GSE152295
+SRR11998447,Treated with H2O2,GSE152295
+SRR11998448,Grown until stationary phase,GSE152295
+SRR11998449,Grown until stationary phase,GSE152295
+SRR11998450,Grown until stationary phase,GSE152295
+SRR11998451,Treated with 41C,GSE152295
+SRR11998452,Treated with 41C,GSE152295
+SRR11998453,Treated with 41C,GSE152295
+SRR11998454,Growth in phosphate medium,GSE152295
+SRR11998455,Growth in phosphate medium,GSE152295
+SRR11998456,Growth in phosphate medium,GSE152295
+SRR11998457,Acetic acid treated,GSE152295
+SRR11998458,Acetic acid treated,GSE152295
+SRR11998459,Acetic acid treated,GSE152295
+SRR11998460,Bile salts treated,GSE152295
+SRR11998461,Bile salts treated,GSE152295
+SRR11998462,Bile salts treated,GSE152295
+SRR11998463,Untreated,GSE152295
+SRR11998464,Untreated,GSE152295
+SRR11998465,Untreated,GSE152295
+SRR11998466,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998467,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998468,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998469,Treated with oxygen deprivation,GSE152295
+SRR11998470,Treated with oxygen deprivation,GSE152295
+SRR11998471,Treated with oxygen deprivation,GSE152295
+SRR11998472,Treated with removal of nutrients,GSE152295
+SRR11998473,Treated with removal of nutrients,GSE152295
+SRR11998474,Treated with removal of nutrients,GSE152295
+SRR11998475,Treated with spermin NONOate complex,GSE152295
+SRR11998476,Treated with spermin NONOate complex,GSE152295
+SRR11998477,Treated with spermin NONOate complex,GSE152295
+SRR11998478,Treated with NaCl,GSE152295
+SRR11998479,Treated with NaCl,GSE152295
+SRR11998480,Treated with NaCl,GSE152295
+SRR11998481,Treated with H2O2,GSE152295
+SRR11998482,Treated with H2O2,GSE152295
+SRR11998483,Treated with H2O2,GSE152295
+SRR11998484,Grown until stationary phase,GSE152295
+SRR11998485,Grown until stationary phase,GSE152295
+SRR11998486,Grown until stationary phase,GSE152295
+SRR11998487,Treated with 41C,GSE152295
+SRR11998488,Treated with 41C,GSE152295
+SRR11998489,Treated with 41C,GSE152295
+SRR11998490,Growth in MM5.8 medium,GSE152295
+SRR11998491,Growth in MM5.8 medium,GSE152295
+SRR11998492,Growth in MM5.8 medium,GSE152295
+SRR11998493,Acetic acid treated,GSE152295
+SRR11998494,Acetic acid treated,GSE152295
+SRR11998495,Acetic acid treated,GSE152295
+SRR11998496,Bile salts treated,GSE152295
+SRR11998497,Bile salts treated,GSE152295
+SRR11998498,Bile salts treated,GSE152295
+SRR11998499,Untreated,GSE152295
+SRR11998500,Untreated,GSE152295
+SRR11998501,Untreated,GSE152295
+SRR11998502,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998503,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998504,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998505,Treated with oxygen deprivation,GSE152295
+SRR11998506,Treated with oxygen deprivation,GSE152295
+SRR11998507,Treated with oxygen deprivation,GSE152295
+SRR11998508,Treated with removal of nutrients,GSE152295
+SRR11998509,Treated with removal of nutrients,GSE152295
+SRR11998510,Treated with removal of nutrients,GSE152295
+SRR11998511,Treated with spermin NONOate complex,GSE152295
+SRR11998512,Treated with spermin NONOate complex,GSE152295
+SRR11998513,Treated with spermin NONOate complex,GSE152295
+SRR11998514,Treated with NaCl,GSE152295
+SRR11998515,Treated with NaCl,GSE152295
+SRR11998516,Treated with NaCl,GSE152295
+SRR11998517,Treated with H2O2,GSE152295
+SRR11998518,Treated with H2O2,GSE152295
+SRR11998519,Treated with H2O2,GSE152295
+SRR11998520,Grown until stationary phase,GSE152295
+SRR11998521,Grown until stationary phase,GSE152295
+SRR11998522,Grown until stationary phase,GSE152295
+SRR11998523,Treated with 41C,GSE152295
+SRR11998524,Treated with 41C,GSE152295
+SRR11998525,Treated with 41C,GSE152295
+SRR11998526,Treated with human serum,GSE152295
+SRR11998527,Treated with human serum,GSE152295
+SRR11998528,Treated with human serum,GSE152295
+SRR11998529,Acetic acid treated,GSE152295
+SRR11998530,Acetic acid treated,GSE152295
+SRR11998531,Acetic acid treated,GSE152295
+SRR11998532,Bile salts treated,GSE152295
+SRR11998533,Bile salts treated,GSE152295
+SRR11998534,Bile salts treated,GSE152295
+SRR11998535,Untreated,GSE152295
+SRR11998536,Untreated,GSE152295
+SRR11998537,Untreated,GSE152295
+SRR11998538,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998539,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998540,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998541,Treated with removal of nutrients,GSE152295
+SRR11998542,Treated with removal of nutrients,GSE152295
+SRR11998543,Treated with removal of nutrients,GSE152295
+SRR11998544,Treated with spermin NONOate complex,GSE152295
+SRR11998545,Treated with spermin NONOate complex,GSE152295
+SRR11998546,Treated with spermin NONOate complex,GSE152295
+SRR11998547,Treated with NaCl,GSE152295
+SRR11998548,Treated with NaCl,GSE152295
+SRR11998549,Treated with NaCl,GSE152295
+SRR11998550,Treated with H2O2,GSE152295
+SRR11998551,Treated with H2O2,GSE152295
+SRR11998552,Treated with H2O2,GSE152295
+SRR11998553,Treated with 41C,GSE152295
+SRR11998554,Treated with 41C,GSE152295
+SRR11998555,Treated with 41C,GSE152295
+SRR11998556,Treated with porcine serum,GSE152295
+SRR11998557,Treated with porcine serum,GSE152295
+SRR11998558,Treated with porcine serum,GSE152295
+SRR11998559,Acetic acid treated,GSE152295
+SRR11998560,Acetic acid treated,GSE152295
+SRR11998561,Acetic acid treated,GSE152295
+SRR11998562,Bile salts treated,GSE152295
+SRR11998563,Bile salts treated,GSE152295
+SRR11998564,Bile salts treated,GSE152295
+SRR11998565,Untreated,GSE152295
+SRR11998566,Untreated,GSE152295
+SRR11998567,Untreated,GSE152295
+SRR11998568,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998569,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998570,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998571,Treated with oxygen deprivation,GSE152295
+SRR11998572,Treated with oxygen deprivation,GSE152295
+SRR11998573,Treated with oxygen deprivation,GSE152295
+SRR11998574,Treated with removal of nutrients,GSE152295
+SRR11998575,Treated with removal of nutrients,GSE152295
+SRR11998576,Treated with removal of nutrients,GSE152295
+SRR11998577,Treated with spermin NONOate complex,GSE152295
+SRR11998578,Treated with spermin NONOate complex,GSE152295
+SRR11998579,Treated with spermin NONOate complex,GSE152295
+SRR11998580,Treated with NaCl,GSE152295
+SRR11998581,Treated with NaCl,GSE152295
+SRR11998582,Treated with NaCl,GSE152295
+SRR11998583,Treated with H2O2,GSE152295
+SRR11998584,Treated with H2O2,GSE152295
+SRR11998585,Treated with H2O2,GSE152295
+SRR11998586,Grown until stationary phase,GSE152295
+SRR11998587,Grown until stationary phase,GSE152295
+SRR11998588,Grown until stationary phase,GSE152295
+SRR11998589,Treated with 41C,GSE152295
+SRR11998590,Treated with 41C,GSE152295
+SRR11998591,Treated with 41C,GSE152295
+SRR11998592,Treated with congo red,GSE152295
+SRR11998593,Treated with congo red,GSE152295
+SRR11998594,Treated with congo red,GSE152295
+SRR11998595,Acetic acid treated,GSE152295
+SRR11998596,Acetic acid treated,GSE152295
+SRR11998597,Acetic acid treated,GSE152295
+SRR11998598,Bile salts treated,GSE152295
+SRR11998599,Bile salts treated,GSE152295
+SRR11998600,Bile salts treated,GSE152295
+SRR11998601,Untreated,GSE152295
+SRR11998602,Untreated,GSE152295
+SRR11998603,Untreated,GSE152295
+SRR11998604,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998605,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998606,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998607,Treated with oxygen deprivation,GSE152295
+SRR11998608,Treated with oxygen deprivation,GSE152295
+SRR11998609,Treated with oxygen deprivation,GSE152295
+SRR11998610,Treated with removal of nutrients,GSE152295
+SRR11998611,Treated with removal of nutrients,GSE152295
+SRR11998612,Treated with removal of nutrients,GSE152295
+SRR11998613,Treated with spermin NONOate complex,GSE152295
+SRR11998614,Treated with spermin NONOate complex,GSE152295
+SRR11998615,Treated with spermin NONOate complex,GSE152295
+SRR11998616,Treated with NaCl,GSE152295
+SRR11998617,Treated with NaCl,GSE152295
+SRR11998618,Treated with NaCl,GSE152295
+SRR11998619,Treated with H2O2,GSE152295
+SRR11998620,Treated with H2O2,GSE152295
+SRR11998621,Treated with H2O2,GSE152295
+SRR11998622,Grown until stationary phase,GSE152295
+SRR11998623,Grown until stationary phase,GSE152295
+SRR11998624,Grown until stationary phase,GSE152295
+SRR11998625,Treated with 41C,GSE152295
+SRR11998626,Treated with 41C,GSE152295
+SRR11998627,Treated with 41C,GSE152295
+SRR11998628,Treated with human serum,GSE152295
+SRR11998629,Treated with human serum,GSE152295
+SRR11998630,Treated with human serum,GSE152295
+SRR11998631,Acetic acid treated,GSE152295
+SRR11998632,Acetic acid treated,GSE152295
+SRR11998633,Acetic acid treated,GSE152295
+SRR11998634,Bile salts treated,GSE152295
+SRR11998635,Bile salts treated,GSE152295
+SRR11998636,Bile salts treated,GSE152295
+SRR11998637,Untreated,GSE152295
+SRR11998638,Untreated,GSE152295
+SRR11998639,Untreated,GSE152295
+SRR11998640,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998641,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998642,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998643,Treated with oxygen deprivation,GSE152295
+SRR11998644,Treated with oxygen deprivation,GSE152295
+SRR11998645,Treated with oxygen deprivation,GSE152295
+SRR11998646,Treated with removal of nutrients,GSE152295
+SRR11998647,Treated with removal of nutrients,GSE152295
+SRR11998648,Treated with removal of nutrients,GSE152295
+SRR11998649,Treated with spermin NONOate complex,GSE152295
+SRR11998650,Treated with spermin NONOate complex,GSE152295
+SRR11998651,Treated with spermin NONOate complex,GSE152295
+SRR11998652,Treated with NaCl,GSE152295
+SRR11998653,Treated with NaCl,GSE152295
+SRR11998654,Treated with NaCl,GSE152295
+SRR11998655,Treated with H2O2,GSE152295
+SRR11998656,Treated with H2O2,GSE152295
+SRR11998657,Treated with H2O2,GSE152295
+SRR11998658,Grown until stationary phase,GSE152295
+SRR11998659,Grown until stationary phase,GSE152295
+SRR11998660,Grown until stationary phase,GSE152295
+SRR11998661,Treated with 41C,GSE152295
+SRR11998662,Treated with 41C,GSE152295
+SRR11998663,Treated with 41C,GSE152295
+SRR11998664,Treated with human serum,GSE152295
+SRR11998665,Treated with human serum,GSE152295
+SRR11998666,Treated with human serum,GSE152295
+SRR11998667,Acetic acid treated,GSE152295
+SRR11998668,Acetic acid treated,GSE152295
+SRR11998669,Acetic acid treated,GSE152295
+SRR11998670,Bile salts treated,GSE152295
+SRR11998671,Bile salts treated,GSE152295
+SRR11998672,Bile salts treated,GSE152295
+SRR11998673,Untreated,GSE152295
+SRR11998674,Untreated,GSE152295
+SRR11998675,Untreated,GSE152295
+SRR11998676,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998677,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998678,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998679,Treated with oxygen deprivation,GSE152295
+SRR11998680,Treated with oxygen deprivation,GSE152295
+SRR11998681,Treated with oxygen deprivation,GSE152295
+SRR11998682,Treated with removal of nutrients,GSE152295
+SRR11998683,Treated with removal of nutrients,GSE152295
+SRR11998684,Treated with removal of nutrients,GSE152295
+SRR11998685,Treated with spermin NONOate complex,GSE152295
+SRR11998686,Treated with spermin NONOate complex,GSE152295
+SRR11998687,Treated with spermin NONOate complex,GSE152295
+SRR11998688,Treated with NaCl,GSE152295
+SRR11998689,Treated with NaCl,GSE152295
+SRR11998690,Treated with NaCl,GSE152295
+SRR11998691,Treated with H2O2,GSE152295
+SRR11998692,Treated with H2O2,GSE152295
+SRR11998693,Treated with H2O2,GSE152295
+SRR11998694,Grown until stationary phase,GSE152295
+SRR11998695,Grown until stationary phase,GSE152295
+SRR11998696,Grown until stationary phase,GSE152295
+SRR11998697,Treated with 41C,GSE152295
+SRR11998698,Treated with 41C,GSE152295
+SRR11998699,Treated with 41C,GSE152295
+SRR11998700,Treated with human serum,GSE152295
+SRR11998701,Treated with human serum,GSE152295
+SRR11998702,Treated with human serum,GSE152295
+SRR11998703,Acetic acid treated,GSE152295
+SRR11998704,Acetic acid treated,GSE152295
+SRR11998705,Acetic acid treated,GSE152295
+SRR11998706,Bile salts treated,GSE152295
+SRR11998707,Bile salts treated,GSE152295
+SRR11998708,Bile salts treated,GSE152295
+SRR11998709,Untreated,GSE152295
+SRR11998710,Untreated,GSE152295
+SRR11998711,Untreated,GSE152295
+SRR11998712,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998713,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998714,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998715,Treated with oxygen deprivation,GSE152295
+SRR11998716,Treated with oxygen deprivation,GSE152295
+SRR11998717,Treated with oxygen deprivation,GSE152295
+SRR11998718,Treated with removal of nutrients,GSE152295
+SRR11998719,Treated with removal of nutrients,GSE152295
+SRR11998720,Treated with removal of nutrients,GSE152295
+SRR11998721,Treated with spermin NONOate complex,GSE152295
+SRR11998722,Treated with spermin NONOate complex,GSE152295
+SRR11998723,Treated with spermin NONOate complex,GSE152295
+SRR11998724,Treated with NaCl,GSE152295
+SRR11998725,Treated with NaCl,GSE152295
+SRR11998726,Treated with NaCl,GSE152295
+SRR11998727,Treated with H2O2,GSE152295
+SRR11998728,Treated with H2O2,GSE152295
+SRR11998729,Treated with H2O2,GSE152295
+SRR11998730,Grown until stationary phase,GSE152295
+SRR11998731,Grown until stationary phase,GSE152295
+SRR11998732,Grown until stationary phase,GSE152295
+SRR11998733,Treated with 41C,GSE152295
+SRR11998734,Treated with 41C,GSE152295
+SRR11998735,Treated with 41C,GSE152295
+SRR11998736,One and a half hour prolonged growth,GSE152295
+SRR11998737,One and a half hour prolonged growth,GSE152295
+SRR11998738,One and a half hour prolonged growth,GSE152295
+SRR11998739,Acetic acid treated,GSE152295
+SRR11998740,Acetic acid treated,GSE152295
+SRR11998741,Acetic acid treated,GSE152295
+SRR11998742,Bile salts treated,GSE152295
+SRR11998743,Bile salts treated,GSE152295
+SRR11998744,Bile salts treated,GSE152295
+SRR11998745,Untreated,GSE152295
+SRR11998746,Untreated,GSE152295
+SRR11998747,Untreated,GSE152295
+SRR11998748,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998749,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998750,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998751,Treated with oxygen deprivation,GSE152295
+SRR11998752,Treated with oxygen deprivation,GSE152295
+SRR11998753,Treated with oxygen deprivation,GSE152295
+SRR11998754,Treated with removal of nutrients,GSE152295
+SRR11998755,Treated with removal of nutrients,GSE152295
+SRR11998756,Treated with removal of nutrients,GSE152295
+SRR11998757,Treated with spermin NONOate complex,GSE152295
+SRR11998758,Treated with spermin NONOate complex,GSE152295
+SRR11998759,Treated with spermin NONOate complex,GSE152295
+SRR11998760,Treated with NaCl,GSE152295
+SRR11998761,Treated with NaCl,GSE152295
+SRR11998762,Treated with NaCl,GSE152295
+SRR11998763,Treated with H2O2,GSE152295
+SRR11998764,Treated with H2O2,GSE152295
+SRR11998765,Treated with H2O2,GSE152295
+SRR11998766,Grown until stationary phase,GSE152295
+SRR11998767,Grown until stationary phase,GSE152295
+SRR11998768,Grown until stationary phase,GSE152295
+SRR11998769,Treated with 41C,GSE152295
+SRR11998770,Treated with 41C,GSE152295
+SRR11998771,Treated with 41C,GSE152295
+SRR11998772,Growth at 37C,GSE152295
+SRR11998773,Growth at 37C,GSE152295
+SRR11998774,Growth at 37C,GSE152295
+SRR11998775,Acetic acid treated,GSE152295
+SRR11998776,Acetic acid treated,GSE152295
+SRR11998777,Acetic acid treated,GSE152295
+SRR11998778,Bile salts treated,GSE152295
+SRR11998779,Bile salts treated,GSE152295
+SRR11998780,Bile salts treated,GSE152295
+SRR11998781,Untreated,GSE152295
+SRR11998782,Untreated,GSE152295
+SRR11998783,Untreated,GSE152295
+SRR11998784,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998785,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998786,"Treated with 2\,2-dipyridryl",GSE152295
+SRR11998787,Treated with oxygen deprivation,GSE152295
+SRR11998788,Treated with oxygen deprivation,GSE152295
+SRR11998789,Treated with oxygen deprivation,GSE152295
+SRR11998790,Treated with removal of nutrients,GSE152295
+SRR11998791,Treated with removal of nutrients,GSE152295
+SRR11998792,Treated with removal of nutrients,GSE152295
+SRR11998793,Treated with spermin NONOate complex,GSE152295
+SRR11998794,Treated with spermin NONOate complex,GSE152295
+SRR11998795,Treated with spermin NONOate complex,GSE152295
+SRR11998796,Treated with NaCl,GSE152295
+SRR11998797,Treated with NaCl,GSE152295
+SRR11998798,Treated with NaCl,GSE152295
+SRR11998799,Treated with H2O2,GSE152295
+SRR11998800,Treated with H2O2,GSE152295
+SRR11998801,Treated with H2O2,GSE152295
+SRR11998802,Grown until stationary phase,GSE152295
+SRR11998803,Grown until stationary phase,GSE152295
+SRR11998804,Grown until stationary phase,GSE152295
+SRR11998805,Treated with 41C,GSE152295
+SRR11998806,Treated with 41C,GSE152295
+SRR11998807,Treated with 41C,GSE152295
+SRR11998808,Growth at 37C with Ca2+ depletion,GSE152295
+SRR11998809,Growth at 37C with Ca2+ depletion,GSE152295
+SRR11998810,Growth at 37C with Ca2+ depletion,GSE152295
+SRR12004223,Parent,GSE152356
+SRR12004224,Parent,GSE152356
+SRR12004225,Parent,GSE152356
+SRR12004226,Parent,GSE152356
+SRR12004227,Parent,GSE152356
+SRR12004228,Parent,GSE152356
+SRR12004229,xrrB-null,GSE152356
+SRR12004230,xrrB-null,GSE152356
+SRR12004231,xrrB-null,GSE152356
+SRR12004232,xrrB-null,GSE152356
+SRR12004233,xrrB-null,GSE152356
+SRR12004234,xrrB-null,GSE152356
+SRR12004235,xrrA-null,GSE152356
+SRR12004236,xrrA-null,GSE152356
+SRR12004237,xrrA-null,GSE152356
+SRR12004238,xrrA-null,GSE152356
+SRR12004239,xrrA-null,GSE152356
+SRR12004240,xrrA-null,GSE152356
+SRR12004241,"xrrA-null\, xrrB-null",GSE152356
+SRR12004242,"xrrA-null\, xrrB-null",GSE152356
+SRR12004243,"xrrA-null\, xrrB-null",GSE152356
+SRR12004244,"xrrA-null\, xrrB-null",GSE152356
+SRR12004245,"xrrA-null\, xrrB-null",GSE152356
+SRR12004246,"xrrA-null\, xrrB-null",GSE152356
+SRR14017866,Wild type;iron deplete,GSE169260
+SRR14017867,OxyR mutant;iron replete,GSE169260
+SRR14017872,OxyR mutant;iron replete,GSE169260
+SRR14017875,Wild type;iron replete,GSE169260
+SRR14017876,Wild type;iron replete,GSE169260
+SRR14017877,Wild type;iron deplete,GSE169260
+SRR14017863,Wild type;iron replete,GSE169260
+SRR14017864,Wild type;iron replete,GSE169260
+SRR14017865,Wild type;iron deplete,GSE169260
+SRR14017868,OxyR mutant;iron replete,GSE169260
+SRR14017869,OxyR mutant;iron deplete,GSE169260
+SRR14017870,OxyR mutant;iron deplete,GSE169260
+SRR14017871,OxyR mutant;iron replete,GSE169260
+SRR14017873,OxyR mutant;iron deplete,GSE169260
+SRR14017874,OxyR mutant;iron deplete,GSE169260
+SRR14017878,Wild type;iron deplete,GSE169260
+SRR14041730,mid-to-late exponential;168 trp-,GSE169409
+SRR14041731,mid-to-late exponential;168 trp-,GSE169409
+SRR14041732,mid-to-late exponential;168 trp-,GSE169409
+SRR14041733,stationary;168 trp-,GSE169409
+SRR14041734,stationary;168 trp-,GSE169409
+SRR14041735,stationary;168 trp-,GSE169409
+SRR14041736,mid-to-late exponential;miniBacillus PG10 (ReuBeta et al. 2017; PMID: 27965289),GSE169409
+SRR14041737,mid-to-late exponential;miniBacillus PG10 (ReuBeta et al. 2017; PMID: 27965289),GSE169409
+SRR14041738,mid-to-late exponential;miniBacillus PG10 (ReuBeta et al. 2017; PMID: 27965289),GSE169409
+SRR14041739,stationary;miniBacillus PG10 (ReuBeta et al. 2017; PMID: 27965289),GSE169409
+SRR14041740,stationary;miniBacillus PG10 (ReuBeta et al. 2017; PMID: 27965289),GSE169409
+SRR14041741,stationary;miniBacillus PG10 (ReuBeta et al. 2017; PMID: 27965289),GSE169409
+SRR14415993,anaerobic,GSE173804
+SRR14415994,anaerobic,GSE173804
+SRR14415995,anaerobic,GSE173804
+SRR14415996,1.5% oxygen,GSE173804
+SRR14415997,1.5% oxygen,GSE173804
+SRR14415998,1.5% oxygen,GSE173804
+SRR14415999,anaerobic,GSE173804
+SRR14416000,anaerobic,GSE173804
+SRR14416001,anaerobic,GSE173804
+SRR14416002,1.5% oxygen,GSE173804
+SRR14416003,1.5% oxygen,GSE173804
+SRR14416004,1.5% oxygen,GSE173804
+SRR14585108,SK36;T-20,GSE174672
+SRR14585109,SK36;T10,GSE174672
+SRR14585110,SK36;T25,GSE174672
+SRR14585111,SK36;T50,GSE174672
+SRR14585112,SK36;T-20,GSE174672
+SRR14585113,SK36;T10,GSE174672
+SRR14585114,SK36;T25,GSE174672
+SRR14585115,SK36;T50,GSE174672
+SRR14585116,SK36;T-20,GSE174672
+SRR14585117,SK36;T10,GSE174672
+SRR14585118,SK36;T25,GSE174672
+SRR14585119,SK36;T50,GSE174672
+SRR14585120,SK36;T-20,GSE174672
+SRR14585121,SK36;T10,GSE174672
+SRR14585122,SK36;T25,GSE174672
+SRR14585123,SK36;T50,GSE174672
+SRR14585124,JFP169;T-20,GSE174672
+SRR14585125,JFP169;T10,GSE174672
+SRR14585126,JFP169;T25,GSE174672
+SRR14585127,JFP169;T50,GSE174672
+SRR14585128,JFP169;T-20,GSE174672
+SRR14585129,JFP169;T10,GSE174672
+SRR14585130,JFP169;T25,GSE174672
+SRR14585131,JFP169;T50,GSE174672
+SRR14585132,JFP169;T-20,GSE174672
+SRR14585133,JFP169;T10,GSE174672
+SRR14585134,JFP169;T25,GSE174672
+SRR14585135,JFP169;T50,GSE174672
+SRR14585136,JFP169;T-20,GSE174672
+SRR14585137,JFP169;T10,GSE174672
+SRR14585138,JFP169;T25,GSE174672
+SRR14585139,JFP169;T50,GSE174672
+SRR15711589,Parental,GSE183334
+SRR15711590,Parental,GSE183334
+SRR15711591,Parental,GSE183334
+SRR15711592,Tn mutant,GSE183334
+SRR15711593,Tn mutant,GSE183334
+SRR15711594,Tn mutant,GSE183334
+SRR17244352,Adherent;KSFM with 3 µM mCp and 6 µM ZnSO4,GSE191020
+SRR17244353,Adherent;KSFM with 3 µM mCp and 6 µM ZnSO4,GSE191020
+SRR17244354,Adherent;KSFM with 3 µM mCp and 6 µM ZnSO4,GSE191020
+SRR17244355,Adherent;KSFM with 3 µM mCp,GSE191020
+SRR17244356,Adherent;KSFM with 3 µM mCp,GSE191020
+SRR17244357,Adherent;KSFM with 3 µM mCp,GSE191020
+SRR17244358,Adherent;KSFM,GSE191020
+SRR17244359,Adherent;KSFM,GSE191020
+SRR17244360,Adherent;KSFM,GSE191020
+SRR17244361,Suspension;KSFM with 3 µM mCp and 6 µM ZnSO4,GSE191020
+SRR17244362,Suspension;KSFM with 3 µM mCp and 6 µM ZnSO4,GSE191020
+SRR17244363,Suspension;KSFM with 3 µM mCp and 6 µM ZnSO4,GSE191020
+SRR17244364,Suspension;KSFM with 3 µM mCp,GSE191020
+SRR17244365,Suspension;KSFM with 3 µM mCp,GSE191020
+SRR17244366,Suspension;KSFM with 3 µM mCp,GSE191020
+SRR17244367,Suspension;KSFM,GSE191020
+SRR17244368,Suspension;KSFM,GSE191020
+SRR17244369,Suspension;KSFM,GSE191020
+SRR18759947,Malathion;70 minutes,GSE200822
+SRR18759948,Malathion;70 minutes,GSE200822
+SRR18759949,Control;70 minutes,GSE200822
+SRR18759950,Control;70 minutes,GSE200822
+SRR18759951,Malathion;60 minutes,GSE200822
+SRR18759952,Malathion;60 minutes,GSE200822
+SRR18759953,Control;60 minutes,GSE200822
+SRR18759954,Control;60 minutes,GSE200822
+SRR18759955,Malathion;50 minutes,GSE200822
+SRR18759956,Malathion;50 minutes,GSE200822
+SRR18759957,Control;50 minutes,GSE200822
+SRR18759958,Control;50 minutes,GSE200822
+SRR18759959,Malathion;40 minutes,GSE200822
+SRR18759960,Malathion;40 minutes,GSE200822
+SRR18759961,Control;40 minutes,GSE200822
+SRR18759962,Control;40 minutes,GSE200822
+SRR18759963,Malathion;30 minutes,GSE200822
+SRR18759964,Malathion;30 minutes,GSE200822
+SRR18759965,Control;30 minutes,GSE200822
+SRR18759966,Control;30 minutes,GSE200822
+SRR18759967,Malathion;20 minutes,GSE200822
+SRR18759968,Malathion;20 minutes,GSE200822
+SRR18759969,Control;20 minutes,GSE200822
+SRR18759970,Control;20 minutes,GSE200822
+SRR18759971,Malathion;10 minutes,GSE200822
+SRR18759972,Malathion;10 minutes,GSE200822
+SRR18759973,Control;10 minutes,GSE200822
+SRR18759974,Control;10 minutes,GSE200822
+SRR18759975,Control;0 minutes,GSE200822
+SRR18759976,Control;0 minutes,GSE200822
+SRR18759977,Control;0 minutes,GSE200822
+SRR18759978,Control;0 minutes,GSE200822
+SRR18759979,Malathion;90 minutes,GSE200822
+SRR18759980,Malathion;90 minutes,GSE200822
+SRR18759981,Control;90 minutes,GSE200822
+SRR18759982,Control;90 minutes,GSE200822
+SRR18759983,Malathion;80 minutes,GSE200822
+SRR18759984,Malathion;80 minutes,GSE200822
+SRR18759985,Control;80 minutes,GSE200822
+SRR18759986,Control;80 minutes,GSE200822
+SRR19309087,Untreated;WT,GSE203342
+SRR19309088,Untreated;WT,GSE203342
+SRR19309089,Untreated;WT,GSE203342
+SRR19309090,Untreated;WT,GSE203342
+SRR19309091,Untreated;greAB,GSE203342
+SRR19309092,Untreated;greAB,GSE203342
+SRR19309093,Untreated;greAB,GSE203342
+SRR19309094,Untreated;greAB,GSE203342
+SRR23000242,400 uM hydrogen peroxide;WT,GSE203342
+SRR23000243,400 uM hydrogen peroxide;WT,GSE203342
+SRR23000245,400 uM hydrogen peroxide;greAB,GSE203342
+SRR23000246,400 uM hydrogen peroxide;greAB,GSE203342
+SRR23000241,400 uM hydrogen peroxide;WT,GSE203342
+SRR23000244,400 uM hydrogen peroxide;WT,GSE203342
+SRR23000247,400 uM hydrogen peroxide;greAB,GSE203342
+SRR23000248,400 uM hydrogen peroxide;greAB,GSE203342
+SRR19636011,whole cell lysate,GSE205998
+SRR19636012,whole cell lysate,GSE205998
+SRR19636013,whole cell lysate,GSE205998
+SRR19636014,extracellular cell-free pellet,GSE205998
+SRR19636015,extracellular cell-free pellet,GSE205998
+SRR19636016,extracellular cell-free pellet,GSE205998
+SRR22340764,pH;pMV_Empty,GSE218354
+SRR22340765,H2O2;pMV_Empty,GSE218354
+SRR22340767,H2O2;pMV_Empty,GSE218354
+SRR22340769,DETA/NO;pMV_Empty,GSE218354
+SRR22340771,no treatment;pMV_Empty,GSE218354
+SRR22340776,pH;pMV_MTS1338,GSE218354
+SRR22340777,H2O2;pMV_MTS1338,GSE218354
+SRR22340778,H2O2;pMV_MTS1338,GSE218354
+SRR22340779,H2O2;pMV_MTS1338,GSE218354
+SRR22340780,DETA/NO;pMV_MTS1338,GSE218354
+SRR22340781,DETA/NO;pMV_MTS1338,GSE218354
+SRR22340782,DETA/NO;pMV_MTS1338,GSE218354
+SRR22340783,no treatment;pMV_MTS1338,GSE218354
+SRR22340784,no treatment;pMV_MTS1338,GSE218354
+SRR22340762,pH;pMV_Empty,GSE218354
+SRR22340763,pH;pMV_Empty,GSE218354
+SRR22340766,H2O2;pMV_Empty,GSE218354
+SRR22340768,DETA/NO;pMV_Empty,GSE218354
+SRR22340770,DETA/NO;pMV_Empty,GSE218354
+SRR22340772,no treatment;pMV_Empty,GSE218354
+SRR22340773,no treatment;pMV_Empty,GSE218354
+SRR22340774,pH;pMV_MTS1338,GSE218354
+SRR22340775,pH;pMV_MTS1338,GSE218354
+SRR22340785,no treatment;pMV_MTS1338,GSE218354
+SRR22500470,MgCl2,GSE219221
+SRR22500471,MgCl2,GSE219221
+SRR22500472,MgCl2,GSE219221
+SRR22500473,control,GSE219221
+SRR22500474,control,GSE219221
+SRR22500475,control,GSE219221
+SRR22681936,20min_DC_exposure,GSE220692
+SRR22681937,20min_DC_exposure,GSE220692
+SRR22681938,6min_DC_exposure,GSE220692
+SRR22681939,6min_DC_exposure,GSE220692
+SRR22681940,UNTREATED,GSE220692
+SRR22681941,6min_DC_exposure,GSE220692
+SRR22681942,20min_DC_exposure,GSE220692
+SRR22681943,UNTREATED,GSE220692
+SRR22681944,UNTREATED,GSE220692
+SRR23869291,Dark 12hr;del(xpk),GSE227397
+SRR23869292,Dark 1hr;WT,GSE227397
+SRR23869293,Dark 1hr;WT,GSE227397
+SRR23869294,Dark 1hr;WT,GSE227397
+SRR23869295,Dark 12hr;del(xpk),GSE227397
+SRR23869296,Dark 12hr;del(xpk),GSE227397
+SRR23869297,Dark 12hr;WT,GSE227397
+SRR23869298,Dark 12hr;WT,GSE227397
+SRR23869299,Dark 12hr;WT,GSE227397
+SRR23869300,Dark 1hr;del(xpk),GSE227397
+SRR23869301,Dark 1hr;del(xpk),GSE227397
+SRR23869302,Light 1hr;del(xpk),GSE227397
+SRR23869303,Light 1hr;del(xpk),GSE227397
+SRR23869304,Light 1hr;WT,GSE227397
+SRR23869305,Dark 1hr;del(xpk),GSE227397
+SRR23869306,Light 1hr;del(xpk),GSE227397
+SRR23869307,Light 12 hr;WT,GSE227397
+SRR23869308,Light 12 hr;WT,GSE227397
+SRR23869309,Light 12 hr;del(xpk),GSE227397
+SRR23869310,Light 12 hr;del(xpk),GSE227397
+SRR23869311,Light 12 hr;del(xpk),GSE227397
+SRR23869312,Light 12 hr;WT,GSE227397
+SRR23869313,Light 1hr;WT,GSE227397
+SRR23869314,Light 1hr;WT,GSE227397
+SRR24142413,WT,GSE229478
+SRR24142414,WT,GSE229478
+SRR24142415,WT,GSE229478
+SRR24142416,WT,GSE229478
+SRR24188255,ATCC 13883,GSE229867
+SRR24188256,ATCC 13883,GSE229867
+SRR24188257,ATCC 13883,GSE229867
+SRR24188258,KPN16,GSE229867
+SRR24188259,KPN16,GSE229867
+SRR24188260,KPN16,GSE229867
+SRR24658666,cold stress;24 hours,GSE232901
+SRR24658667,cold stress;5 hours,GSE232901
+SRR24658668,cold stress;2 hours,GSE232901
+SRR24658669,control;0 hours,GSE232901
+SRR24658670,cold stress;24 hours,GSE232901
+SRR24658671,cold stress;24 hours,GSE232901
+SRR24658672,cold stress;24 hours,GSE232901
+SRR24658673,cold stress;5 hours,GSE232901
+SRR24658674,cold stress;5 hours,GSE232901
+SRR24658675,cold stress;5 hours,GSE232901
+SRR24658676,cold stress;2 hours,GSE232901
+SRR24658677,cold stress;2 hours,GSE232901
+SRR24658678,cold stress;2 hours,GSE232901
+SRR24658679,control;0 hours,GSE232901
+SRR24658680,control;0 hours,GSE232901
+SRR24658681,control;0 hours,GSE232901
+SRR24874338,mannitol and GlcN;rokL6 deletion mutant,GSE234439
+SRR24874339,mannitol and GlcN;rokL6 deletion mutant,GSE234439
+SRR24874340,mannitol and GlcN;WT,GSE234439
+SRR24874341,mannitol and GlcN;WT,GSE234439
+SRR24874342,mannitol and GlcN;WT,GSE234439
+SRR24874343,mannitol;rokL6 deletion mutant,GSE234439
+SRR24874344,mannitol;rokL6 deletion mutant,GSE234439
+SRR24874345,mannitol;rokL6 deletion mutant,GSE234439
+SRR24874346,mannitol;WT,GSE234439
+SRR24874347,mannitol;WT,GSE234439
+SRR24874348,mannitol;WT,GSE234439
+SRR24874349,mannitol;rokL6 deletion mutant,GSE234439
+SRR24874350,mannitol;rokL6 deletion mutant,GSE234439
+SRR24874351,mannitol;rokL6 deletion mutant,GSE234439
+SRR24874352,mannitol;WT,GSE234439
+SRR24874353,mannitol;WT,GSE234439
+SRR24874354,mannitol and GlcN;rokL6 deletion mutant,GSE234439
+SRR24874355,mannitol and GlcN;rokL6 deletion mutant,GSE234439
+SRR24874356,mannitol and GlcN;rokL6 deletion mutant,GSE234439
+SRR24874357,mannitol and GlcN;WT,GSE234439
+SRR24874358,mannitol and GlcN;WT,GSE234439
+SRR24874359,mannitol and GlcN;WT,GSE234439
+SRR24874360,mannitol and GlcN;rokL6 deletion mutant,GSE234439
+SRR24874361,mannitol;WT,GSE234439
+SRR24874362,"mannitol and GlcN\, 48h;nan",GSE234439
+SRR24874363,"mannitol and GlcN\, 48h;nan",GSE234439
+SRR24874364,"mannitol and GlcN\, 24h;nan",GSE234439
+SRR24874365,"mannitol and GlcN\, 24h;nan",GSE234439
+SRR24874366,"mannitol\, 48h;nan",GSE234439
+SRR24874367,"mannitol\, 48h;nan",GSE234439
+SRR24874368,"mannitol\, 24h;nan",GSE234439
+SRR24874369,"mannitol\, 24h;nan",GSE234439
+SRR25020490,LF-89,GSE235725
+SRR25020491,LF-89,GSE235725
+SRR25020492,LF-89,GSE235725
+SRR25020493,EM-90+LF-89,GSE235725
+SRR25020494,EM-90+LF-89,GSE235725
+SRR25020495,EM-90+LF-89,GSE235725
+SRR25020496,EM-90,GSE235725
+SRR25020497,EM-90,GSE235725
+SRR25020498,EM-90,GSE235725
+SRR25249433,ES114 {delta}binK;LBS-Calcium_Media_25C,GSE237189
+SRR25249434,ES114 {delta}binK;LBS-Calcium_Media_25C,GSE237189
+SRR25249435,ES114 {delta}binK;LBS-Calcium_Media_25C,GSE237189
+SRR25249436,ES114 rscS* {delta}sypG;LBS _Media_25C,GSE237189
+SRR25249437,ES114 rscS* {delta}sypG;LBS _Media_25C,GSE237189
+SRR25249438,ES114 rscS* {delta}sypG;LBS _Media_25C,GSE237189
+SRR25249439,ES114 {delta}binK;LBS _Media_25C,GSE237189
+SRR25249440,ES114 {delta}binK;LBS _Media_25C,GSE237189
+SRR25249441,ES114 {delta}binK;LBS _Media_25C,GSE237189
+SRR25249442,ES114 rscS*;LBS _Media_25C,GSE237189
+SRR25249443,ES114 rscS*;LBS _Media_25C,GSE237189
+SRR25249444,ES114 rscS*;LBS _Media_25C,GSE237189
+SRR25249445,Wild type ES114;LBS _Media_25C,GSE237189
+SRR25249446,Wild type ES114;LBS _Media_25C,GSE237189
+SRR25249447,Wild type ES114;LBS _Media_25C,GSE237189
+SRR25662239,"CB15;CB15 infected with fCbK at 10 MOI\, 75' post-infection",GSE241057
+SRR25662240,"CB15;CB15 infected with fCbK at 10 MOI\, 75' post-infection",GSE241057
+SRR25662241,"CB15;CB15 infected with fCbK at 10 MOI\, 75' post-infection",GSE241057
+SRR25662242,"CB15;CB15 infected with fCbK at 10 MOI\, 60' post-infection",GSE241057
+SRR25662243,"CB15;CB15 infected with fCbK at 10 MOI\, 60' post-infection",GSE241057
+SRR25662244,"CB15;CB15 infected with fCbK at 10 MOI\, 60' post-infection",GSE241057
+SRR25662245,"CB15;CB15 infected with fCbK at 10 MOI\, 45' post-infection",GSE241057
+SRR25662246,"CB15;CB15 infected with fCbK at 10 MOI\, 45' post-infection",GSE241057
+SRR25662247,"CB15;CB15 infected with fCbK at 10 MOI\, 45' post-infection",GSE241057
+SRR25662248,"CB15;CB15 infected with fCbK at 10 MOI\, 30' post-infection",GSE241057
+SRR25662249,"CB15;CB15 infected with fCbK at 10 MOI\, 30' post-infection",GSE241057
+SRR25662250,"CB15;CB15 infected with fCbK at 10 MOI\, 30' post-infection",GSE241057
+SRR25662251,"CB15;CB15 infected with fCbK at 10 MOI\, 15' post-infection",GSE241057
+SRR25662252,"CB15;CB15 infected with fCbK at 10 MOI\, 15' post-infection",GSE241057
+SRR25662253,"CB15;CB15 infected with fCbK at 10 MOI\, 15' post-infection",GSE241057
+SRR25662254,CB15;Pre-infected CB15,GSE241057
+SRR25662255,CB15;Pre-infected CB15,GSE241057
+SRR25662256,CB15;Pre-infected CB15,GSE241057
+SRR25662257,{delta}rtrA {delta}rtrB {delta}cdxA {delta}cdxB xylX::pMM020 (pPTM057-CbK_tgrL);Expression induced with 50 µM cumate,GSE241057
+SRR25662258,{delta}rtrA {delta}rtrB {delta}cdxA {delta}cdxB xylX::pMM020 (pPTM057-CbK_tgrL);Expression induced with 50 µM cumate,GSE241057
+SRR25662259,{delta}rtrA {delta}rtrB {delta}cdxA {delta}cdxB xylX::pMM020 (pPTM057-CbK_tgrL);Expression induced with 50 µM cumate,GSE241057
+SRR25662260,{delta}rtrA {delta}rtrB {delta}cdxA {delta}cdxB xylX::pPTM057 (EV);Expression induced with 50 µM cumate,GSE241057
+SRR25662261,{delta}rtrA {delta}rtrB {delta}cdxA {delta}cdxB xylX::pPTM057 (EV);Expression induced with 50 µM cumate,GSE241057
+SRR25662262,{delta}rtrA {delta}rtrB {delta}cdxA {delta}cdxB xylX::pPTM057 (EV);Expression induced with 50 µM cumate,GSE241057
+SRR25662263,"CB15;CB15 infected with fCbK at 10 MOI\, 90' post-infection",GSE241057
+SRR25662264,"CB15;CB15 infected with fCbK at 10 MOI\, 90' post-infection",GSE241057
+SRR25662265,"CB15;CB15 infected with fCbK at 10 MOI\, 90' post-infection",GSE241057
+SRR25662814,CB15 xylX::pMM021 (pPTM057-CbK_tgrL-3xFLAG);Induce CbK_tgrL-3xFLAG expression with 50 µM cumate for 6h,GSE241057
+SRR25662816,CB15 xylX::pMM021 (pPTM057-CbK_tgrL-3xFLAG);Induce CbK_tgrL-3xFLAG expression with 50 µM cumate for 6h,GSE241057
+SRR25662818,CB15 xylX::pMM021 (pPTM057-CbK_tgrL-3xFLAG);Induce CbK_tgrL-3xFLAG expression with 50 µM cumate for 6h,GSE241057
+SRR25662820,CB15 xylX::pMM021 (pPTM057-CbK_tgrL-3xFLAG);Induce CbK_tgrL-3xFLAG expression with 50 µM cumate for 6h,GSE241057
+SRR25662822,CB15 xylX::pMM021 (pPTM057-CbK_tgrL-3xFLAG);Induce CbK_tgrL-3xFLAG expression with 50 µM cumate for 6h,GSE241057
+SRR25662824,CB15 xylX::pMM021 (pPTM057-CbK_tgrL-3xFLAG);Induce CbK_tgrL-3xFLAG expression with 50 µM cumate for 6h,GSE241057
+SRR25662826,CB15 xylX::pPTM102 (pPTM057-cdxB-3xFLAG);Induce cdxB-3xFLAG expression with 50 µM cumate for 6h,GSE241057
+SRR25662827,CB15 xylX::pPTM102 (pPTM057-cdxB-3xFLAG);Induce cdxB-3xFLAG expression with 50 µM cumate for 6h,GSE241057
+SRR25662828,CB15 xylX::pPTM102 (pPTM057-cdxB-3xFLAG);Induce cdxB-3xFLAG expression with 50 µM cumate for 6h,GSE241057
+SRR25662829,CB15 xylX::pPTM102 (pPTM057-cdxB-3xFLAG);Induce cdxB-3xFLAG expression with 50 µM cumate for 6h,GSE241057
+SRR25662830,CB15 xylX::pPTM102 (pPTM057-cdxB-3xFLAG);Induce cdxB-3xFLAG expression with 50 µM cumate for 6h,GSE241057
+SRR25662831,CB15 xylX::pPTM102 (pPTM057-cdxB-3xFLAG);Induce cdxB-3xFLAG expression with 50 µM cumate for 6h,GSE241057
+SRR25662832,CB15 xylX::pPTM102 (pPTM057-cdxA-3xFLAG);Induce cdxA-3xFLAG expression with 50 µM cumate for 6h,GSE241057
+SRR25662833,CB15 xylX::pPTM102 (pPTM057-cdxA-3xFLAG);Induce cdxA-3xFLAG expression with 50 µM cumate for 6h,GSE241057
+SRR25662834,CB15 xylX::pPTM102 (pPTM057-cdxA-3xFLAG);Induce cdxA-3xFLAG expression with 50 µM cumate for 6h,GSE241057
+SRR25662835,CB15 xylX::pPTM102 (pPTM057-cdxA-3xFLAG);Induce cdxA-3xFLAG expression with 50 µM cumate for 6h,GSE241057
+SRR25662836,CB15 xylX::pPTM102 (pPTM057-cdxA-3xFLAG);Induce cdxA-3xFLAG expression with 50 µM cumate for 6h,GSE241057
+SRR25662837,CB15 xylX::pPTM102 (pPTM057-cdxA-3xFLAG);Induce cdxA-3xFLAG expression with 50 µM cumate for 6h,GSE241057
+SRR25662838,CB15/pPTM022 (pQF-rtrB-3xFLAG);Induce rtrB-3xFLAG expression with 50 µM cumate for 6h,GSE241057
+SRR25662839,CB15/pPTM022 (pQF-rtrB-3xFLAG);Induce rtrB-3xFLAG expression with 50 µM cumate for 6h,GSE241057
+SRR25662840,CB15/pPTM022 (pQF-rtrB-3xFLAG);Induce rtrB-3xFLAG expression with 50 µM cumate for 6h,GSE241057
+SRR25662841,CB15/pPTM022 (pQF-rtrB-3xFLAG);Induce rtrB-3xFLAG expression with 50 µM cumate for 6h,GSE241057
+SRR25662842,CB15/pPTM022 (pQF-rtrB-3xFLAG);Induce rtrB-3xFLAG expression with 50 µM cumate for 6h,GSE241057
+SRR25662843,CB15/pPTM022 (pQF-rtrB-3xFLAG);Induce rtrB-3xFLAG expression with 50 µM cumate for 6h,GSE241057
+SRR25662844,CB15/pPTM021 (pQF-rtrA-3xFLAG);Induce rtrA-3xFLAG expression with 50 µM cumate for 6h,GSE241057
+SRR25662845,CB15/pPTM021 (pQF-rtrA-3xFLAG);Induce rtrA-3xFLAG expression with 50 µM cumate for 6h,GSE241057
+SRR25662846,CB15/pPTM021 (pQF-rtrA-3xFLAG);Induce rtrA-3xFLAG expression with 50 µM cumate for 6h,GSE241057
+SRR25662847,CB15/pPTM021 (pQF-rtrA-3xFLAG);Induce rtrA-3xFLAG expression with 50 µM cumate for 6h,GSE241057
+SRR25662848,CB15/pPTM021 (pQF-rtrA-3xFLAG);Induce rtrA-3xFLAG expression with 50 µM cumate for 6h,GSE241057
+SRR25662849,CB15/pPTM021 (pQF-rtrA-3xFLAG);Induce rtrA-3xFLAG expression with 50 µM cumate for 6h,GSE241057
+SRR26700816,CB15 xylX::pMM020 (pPTM057-CbK_tgrL);Expression induced with 50 µM cumate,GSE241057
+SRR26700817,CB15 xylX::pMM020 (pPTM057-CbK_tgrL);Expression induced with 50 µM cumate,GSE241057
+SRR26700818,CB15 xylX::pMM020 (pPTM057-CbK_tgrL);Expression induced with 50 µM cumate,GSE241057
+SRR26700819,CB15 xylX::pPTM057 (EV);Expression induced with 50 µM cumate,GSE241057
+SRR26700820,CB15 xylX::pPTM057 (EV);Expression induced with 50 µM cumate,GSE241057
+SRR26700821,CB15 xylX::pPTM057 (EV);Expression induced with 50 µM cumate,GSE241057
+SRR25662815,CB15 xylX::pMM021 (pPTM057-CbK_tgrL-3xFLAG);Induce CbK_tgrL-3xFLAG expression with 50 µM cumate for 6h,GSE241057
+SRR25662817,CB15 xylX::pMM021 (pPTM057-CbK_tgrL-3xFLAG);Induce CbK_tgrL-3xFLAG expression with 50 µM cumate for 6h,GSE241057
+SRR25662819,CB15 xylX::pMM021 (pPTM057-CbK_tgrL-3xFLAG);Induce CbK_tgrL-3xFLAG expression with 50 µM cumate for 6h,GSE241057
+SRR25662821,CB15 xylX::pMM021 (pPTM057-CbK_tgrL-3xFLAG);Induce CbK_tgrL-3xFLAG expression with 50 µM cumate for 6h,GSE241057
+SRR25662823,CB15 xylX::pMM021 (pPTM057-CbK_tgrL-3xFLAG);Induce CbK_tgrL-3xFLAG expression with 50 µM cumate for 6h,GSE241057
+SRR25662825,CB15 xylX::pMM021 (pPTM057-CbK_tgrL-3xFLAG);Induce CbK_tgrL-3xFLAG expression with 50 µM cumate for 6h,GSE241057
+SRR1569450,wild type,GSE61200
+SRR1569451,wild type,GSE61200
+SRR1569452,ZN mutant,GSE61200
+SRR1569453,ZN mutant,GSE61200
+SRR1569454,O star straiin,GSE61200
+SRR1569455,O star straiin,GSE61200
+SRR1569456,PCA strain,GSE61200
+SRR1569457,PCA strain,GSE61200
+SRR2827509,Apple Pectin;late-log phase,GSE74379
+SRR2827510,Apple Pectin;late-log phase,GSE74379
+SRR2827511,Apple Pectin;late-log phase,GSE74379
+SRR2827512,Citrus Pectin;late-log phase,GSE74379
+SRR2827513,Citrus Pectin;late-log phase,GSE74379
+SRR2827514,Citrus Pectin;late-log phase,GSE74379
+SRR2827515,Glucose;late-log phase,GSE74379
+SRR2827516,Glucose;late-log phase,GSE74379
+SRR2827517,Glucose;late-log phase,GSE74379
+SRR2827518,Xylan;late-log phase,GSE74379
+SRR2827519,Xylan;late-log phase,GSE74379
+SRR2827520,Xylan;late-log phase,GSE74379
+SRR2827521,Xylose;late-log phase,GSE74379
+SRR2827522,Xylose;late-log phase,GSE74379
+SRR2827523,Xylose;late-log phase,GSE74379
+SRR2827524,Glucose;mid-log phase,GSE74379
+SRR2827525,Glucose;mid-log phase,GSE74379
+SRR2827526,Glucose;mid-log phase,GSE74379
+SRR2827527,Citrus Pectin;mid-log phase,GSE74379
+SRR2827528,Citrus Pectin;mid-log phase,GSE74379
+SRR2827529,Citrus Pectin;mid-log phase,GSE74379
+SRR2827530,Xylan;mid-log phase,GSE74379
+SRR2827531,Xylan;mid-log phase,GSE74379
+SRR2827532,Xylan;mid-log phase,GSE74379
+SRR3199701,0,GSE78834
+SRR3199703,0,GSE78834
+SRR3199704,4 ug-N/L,GSE78834
+SRR3199706,4 ug-N/L,GSE78834
+SRR3199702,0,GSE78834
+SRR3199705,4 ug-N/L,GSE78834
+SRR5004504,"In rice\, Xoo KACC10331",GSE89651
+SRR5004505,"In rice\, Xoo KACC10331",GSE89651
+SRR5004506,"In rice\, Xoo KACC10331",GSE89651
+SRR5004507,"Bacterial culture\, Xoo KACC10331",GSE89651
+SRR5004508,"Bacterial culture\, Xoo KACC10331",GSE89651
+SRR5004509,"Bacterial culture\, Xoo KACC10331",GSE89651
