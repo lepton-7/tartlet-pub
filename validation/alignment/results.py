@@ -1,6 +1,7 @@
 # %%
 import pandas as pd
 
+from pandas.errors import EmptyDataError
 from glob import glob
 from pathlib import Path
 
@@ -14,7 +15,11 @@ cond_df = pd.read_csv(cond_path)
 
 df = pd.DataFrame()
 for dfpath in res_paths:
-    d2 = pd.read_csv(dfpath)
+    try:
+        d2 = pd.read_csv(dfpath)
+    except EmptyDataError:
+        print(f"No data in {dfpath}")
+        continue
     bug = Path(dfpath).parent.parent.stem
     buglist = [bug for i in range(len(d2))]
     d2["dataset"] = buglist
