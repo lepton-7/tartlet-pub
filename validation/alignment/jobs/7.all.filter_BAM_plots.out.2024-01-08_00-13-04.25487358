@@ -1,0 +1,54 @@
+Filtering output plots for:
+a_baum a_fischeri_ES114 a_kunk a_rabiei b_anth b_frag b_pseudo b_sub_168 b_theta b_xyla c_basil c_diff c_vibrioides d_vulg e_coli e_fae e_limo k_pneum m_smeg m_tuber n_gonorr p_fluor s_coelicolor s_elon s_enter_typh s_epi s_meli s_sanguinis s_spcc6803 x_albi x_ory
+
+
+Filtering plots for a_baum
+Finished filtering outputs for a_baum into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/a_baum/plots/
+----------------------------------------------------
+
+Filtering plots for a_fischeri_ES114
+Finished filtering outputs for a_fischeri_ES114 into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/a_fischeri_ES114/plots/
+----------------------------------------------------
+
+Filtering plots for a_kunk
+Finished filtering outputs for a_kunk into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/a_kunk/plots/
+----------------------------------------------------
+
+Filtering plots for a_rabiei
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/filter_BAM_plots.py", line 118, in exec_main
+    main(pick_root, out_dir, bin_size, min_cov_depth, ext_prop, conv)
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/filter_BAM_plots.py", line 130, in main
+    with tarfile.open(pick_root, "r:gz") as picktar:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/tarfile.py", line 1824, in open
+    return func(name, filemode, fileobj, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/tarfile.py", line 1870, in gzopen
+    fileobj = GzipFile(name, mode + "b", compresslevel, fileobj)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/gzip.py", line 174, in __init__
+    fileobj = self.myfileobj = builtins.open(filename, mode or 'rb')
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/a_rabiei/plots/picks.tar.gz'
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 25487358.3 ON p0054 CANCELLED AT 2024-01-08T00:17:20 ***
+slurmstepd: error: *** JOB 25487358 ON p0054 CANCELLED AT 2024-01-08T00:17:20 ***

@@ -15,8 +15,37 @@ set echo on
 RT="$HOME/packages/tart"
 
 DSETS=(
+    "a_baum"
+    "a_fischeri_ES114"
+    "a_kunk"
+    "a_rabiei"
     "b_anth"
+    "b_frag"
+    "b_pseudo"
+    "b_sub_168"
+    "b_theta"
+    "b_xyla"
+    "c_basil"
+    "c_diff"
+    "c_vibrioides"
+    "d_vulg"
+    "e_coli"
+    "e_fae"
+    "e_limo"
+    "k_pneum"
+    "m_smeg"
+    "m_tuber"
     "n_gonorr"
+    "p_fluor"
+    "s_coelicolor"
+    "s_elon"
+    "s_enter_typh"
+    "s_epi"
+    "s_meli"
+    "s_sanguinis"
+    "s_spcc6803"
+    "x_albi"
+    "x_ory"
 )
 
 echo "Filtering output plots for:"
@@ -33,7 +62,7 @@ for DSET in ${DSETS[@]}; do
 
     echo "Filtering plots for $DSET"
 
-    mpiexec tart-targeted filter -i $PICKLE_ROOT -o $SAVE_ROOT --ext-prop -0.3 1.0 --conv --min-cov-depth 25
+    mpiexec tart-targeted filter -i $PICKLE_ROOT -o $SAVE_ROOT --ext-prop -0.3 1.0 --conv --min-cov-depth 15
 
     echo "Finished filtering outputs for $DSET into $SAVE_ROOT"
     echo "----------------------------------------------------"
