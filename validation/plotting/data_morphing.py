@@ -116,9 +116,19 @@ tally_df.to_csv("./data/tally_aliased.csv", index=False)
 # -----------------------------------------------------------------------------
 id_al_arr = []
 cond_al_arr = []
+dec_arr = []
 for _, row in results_df.iterrows():
     id_al_arr.append(al.id(row["rowid"]))
     cond_al_arr.append(al.condition(row["dataset"], row["condition"]))
 
+    dec = row["decision"]
+    print(dec)
+    dec = "incon" if str(dec) == "nan" else dec
+    dec_arr.append(dec)
+
 results_df["rowid_alias"] = id_al_arr
 results_df["condition_alias"] = cond_al_arr
+results_df["decision"] = dec_arr
+
+# %%
+results_df.to_csv("./data/results_alias.csv", index=False)
