@@ -11,33 +11,46 @@ cum_results_path = "../alignment/results.csv"
 # %%
 results_df = pd.read_csv(cum_results_path)
 
+
 # %% --------------------------------------------------------------------------
 # -----------------------------------------------------------------------------
 # -----------------------------------------------------------------------------
 # Make aliases for conditions and riboswitch loci
 # -----------------------------------------------------------------------------
 # -----------------------------------------------------------------------------
-alias_dict = {}
+class Aliases:
+    """Alias manager for switch IDs and experiment conditions"""
 
-for dset in pd.unique(results_df["dataset"]):
-    subset = results_df[results_df["dataset"] == dset]
-    prev = ""
-    count = 1
-    for rowid in pd.unique(subset["rowid"]):
-        if prev != rowid.split("#")[0]:
-            prev = rowid.split("#")[0]
+    def __init__(self, results: pd.DataFrame) -> None:
+        self._dict = {}
+
+        for dset in pd.unique(results_df["dataset"]):
+            subset = results_df[results_df["dataset"] == dset]
+            prev = ""
             count = 1
-        else:
-            count += 1
+            for rowid in pd.unique(subset["rowid"]):
+                if prev != rowid.split("#")[0]:
+                    prev = rowid.split("#")[0]
+                    count = 1
+                else:
+                    count += 1
 
-        alias_dict[rowid] = f"{dset}_{prev}_{count}"
+                self._dict[rowid] = f"{dset}_{prev}_{count}"
 
-    prev = ""
-    count = 1
-    for cond in pd.unique(subset["condition"]):
-        alias_dict[f"{dset}#{cond}"] = [dset, f"cond_{count}"]
-        count += 1
+            prev = ""
+            count = 1
+            for cond in pd.unique(subset["condition"]):
+                self._dict[f"{dset}#{cond}"] = [dset, f"cond_{count}"]
+                count += 1
 
+    def id(self, rowid: str):
+        return self._dict[rowid]
+
+    def condition(self, dataset: str, cond: str):
+        return self._dict[f"{dataset}#{cond}"][1]
+
+
+al = Aliases(results_df)
 
 # %% --------------------------------------------------------------------------
 # -----------------------------------------------------------------------------
@@ -50,10 +63,10 @@ tally = defaultdict(lambda: defaultdict(dict))
 
 for _, row in results_df.iterrows():
     id = row["rowid"]
-    id_alias = alias_dict[row["rowid"]]
+    id_alias = al.id(id)
     dset = row["dataset"]
     cond = row["condition"]
-    cond_alias = alias_dict[f"{dset}#{row['condition']}"][1]
+    cond_alias = al.condition(dataset=dset, cond=cond)
     dec = row["decision"]
     geo = row["study"]
 
@@ -73,9 +86,7 @@ for _, row in results_df.iterrows():
     if dec != "pass" and dec != "fail":
         dec = "incon"
 
-    # try:
     tally[f"{id}"][f"{cond}"][dec] += 1
-    # except KeyError:
 
 inter: list[dict[Any, Any]] = []
 
@@ -97,4 +108,17 @@ tally_df = pd.DataFrame.from_dict(inter)
 # %%
 tally_df.to_csv("./data/tally_aliased.csv", index=False)
 
-# %%
+# %% --------------------------------------------------------------------------
+# -----------------------------------------------------------------------------
+# -----------------------------------------------------------------------------
+# Add aliases to the cumulative results
+# -----------------------------------------------------------------------------
+# -----------------------------------------------------------------------------
+id_al_arr = []
+cond_al_arr = []
+for _, row in results_df.iterrows():
+    id_al_arr.append(al.id(row["rowid"]))
+    cond_al_arr.append(al.condition(row["dataset"], row["condition"]))
+
+results_df["rowid_alias"] = id_al_arr
+results_df["condition_alias"] = cond_al_arr
