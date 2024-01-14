@@ -52,6 +52,7 @@ srun tart-targeted align -i $REF_DIR \
     --readpair-name $(basename "$SEQ_FILE") \
     -t \
     --no-unal \
-    --score-min L,0,-0.6
+    --score-min L,0,-0.6 \
+    -p 44
 
 echo "Finished $(basename "$SEQ_FILE") read alignment for $DSET into $ALIGN_DIR"
