@@ -74,6 +74,6 @@
 }
 
 {
-    save_path <- "plots/rfam_region_sizes.svg"
+    save_path <- "plots/rfam_region_sizes.pdf"
     ggsave(save_path, dpi = 320, units = "px")
 }
