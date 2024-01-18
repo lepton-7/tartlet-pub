@@ -79,14 +79,13 @@
 }
 
 # -----------------------------------------------------------------------------
-# Histogram of all rfam riboswitch sizes
+# Density plot of sizes for cumulative rfam riboswitches
 {
-    rfam_size_histogram <- ggplot(rfam_regions, aes(x = region_size)) +
+    rfam_size_density <- ggplot(rfam_regions, aes(x = region_size)) +
         # geom_histogram(aes(y = ..density..), colour = "black", fill = "white") +
         geom_density(alpha = .2, fill = "#FF6666") +
         theme_classic() +
         theme(
-            # axis.title.x = element_text(),
             axis.text.x = element_text(size = 13, angle = 0, colour = "black"),
             axis.text.y = element_text(size = 13, face = "bold"),
             axis.title = element_text(size = 18, face = "bold"),
@@ -97,5 +96,30 @@
             x = "Riboswitch size"
         )
 
-    rfam_size_histogram
+    rfam_size_density
+}
+
+{
+    save_path <- "plots/rfam_region_size_density.svg"
+    ggsave(save_path, dpi = 320, units = "px", width = 2000, height = 1500)
+}
+
+# -----------------------------------------------------------------------------
+# Density plots of rfam riboswitch sizes faceted by riboswitch IDs
+
+{
+    rfam_size_density_facet_id <- rfam_size_density +
+        facet_wrap(~rfam_id, scales = "free") +
+        theme(
+            axis.text.x = element_text(size = 9, angle = 0, colour = "black"),
+            axis.text.y = element_text(size = 9, face = "bold"),
+        ) +
+        theme_classic()
+
+    rfam_size_density_facet_id
+}
+
+{
+    save_path <- "plots/rfam_region_size_density_by_id.svg"
+    ggsave(save_path, dpi = 320, units = "px", width = 4500, height = 3000)
 }
