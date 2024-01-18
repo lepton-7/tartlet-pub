@@ -77,3 +77,25 @@
     save_path <- "plots/rfam_region_sizes.pdf"
     ggsave(save_path, dpi = 320, units = "px")
 }
+
+# -----------------------------------------------------------------------------
+# Histogram of all rfam riboswitch sizes
+{
+    rfam_size_histogram <- ggplot(rfam_regions, aes(x = region_size)) +
+        # geom_histogram(aes(y = ..density..), colour = "black", fill = "white") +
+        geom_density(alpha = .2, fill = "#FF6666") +
+        theme_classic() +
+        theme(
+            # axis.title.x = element_text(),
+            axis.text.x = element_text(size = 13, angle = 0, colour = "black"),
+            axis.text.y = element_text(size = 13, face = "bold"),
+            axis.title = element_text(size = 18, face = "bold"),
+            plot.title = element_blank()
+        ) +
+        labs(
+            y = "Density",
+            x = "Riboswitch size"
+        )
+
+    rfam_size_histogram
+}
