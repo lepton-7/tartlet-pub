@@ -7,12 +7,24 @@
 {
     aliased_results <- read.csv("data/results_alias.csv")
     rfam_regions <- read.csv("data/all_regions_14.10.csv")
-    read_sizes <- read.csv("/users/PDS0325/sachitk26/packages/tart/validation/survey/stats_metrics/sizes.csv")
+    # read_sizes <- read.csv("data/sizes.csv")
+    read_sizes <- read.csv("D:/School stuff/Bagby Lab/Projects/Riboswitches stuff/Code/packages/tart/validation/survey/stats_metrics/sizes.csv")
 }
 
 # Colour palattes
 {
     decision_pal <- c("pass" = "#6956e7", "fail" = "#eaef5b", "incon" = "#000000")
+}
+
+# themes
+{
+    def_theme <- theme_classic() +
+        theme(
+            axis.text.x = element_text(size = 13, angle = 0, colour = "black"),
+            axis.text.y = element_text(size = 13, face = "bold"),
+            axis.title = element_text(size = 18, face = "bold"),
+            plot.title = element_blank()
+        )
 }
 
 # -----------------------------------------------------------------------------
@@ -129,25 +141,28 @@
 # -----------------------------------------------------------------------------
 # Density plot of read sizes
 {
-    rfam_size_density <- ggplot(read_sizes, aes(x = sizes)) +
-        # geom_histogram(aes(y = ..density..), colour = "black", fill = "white") +
-        geom_density(alpha = .2, fill = "#FF6666") +
-        theme_classic() +
-        theme(
-            axis.text.x = element_text(size = 13, angle = 0, colour = "black"),
-            axis.text.y = element_text(size = 13, face = "bold"),
-            axis.title = element_text(size = 18, face = "bold"),
-            plot.title = element_blank()
-        ) +
+    combo <- dplyr::bind_rows(list(dat1 = rfam_regions, dat2 = read_sizes),
+        .id = "dataset"
+    )
+
+    bw <- 10
+
+    fragment_size_comparison <- ggplot(combo) +
+        geom_histogram(aes(x = region_size, y = ..density..), colour = "black", fill = "#FF6666", binwidth = bw) +
+        geom_histogram(aes(x = sizes, y = ..density.., alpha = 0.5), colour = "#626262", fill = "white", binwidth = bw) +
+        # geom_density(alpha = .2, fill = "#FF6666") +
+        def_theme +
+        guides(alpha = "none") +
         labs(
             y = "Density",
-            x = "Read size"
-        )
+            x = "Size (nt)"
+        ) +
+        xlim(0, 1000)
 
-    rfam_size_density
+    fragment_size_comparison
 }
 
 {
-    save_path <- "plots/rfam_region_size_density.svg"
-    ggsave(save_path, dpi = 320, units = "px", width = 2000, height = 1500)
+    save_path <- "plots/fragment_switch_size_comparison.svg"
+    ggsave(save_path, dpi = 320, units = "px", width = 3000, height = 1500)
 }
