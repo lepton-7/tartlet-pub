@@ -8,8 +8,7 @@
 {
     aliased_results <- read.csv("data/results_alias.csv")
     rfam_regions <- read.csv("data/all_regions_14.10.csv")
-    # read_sizes <- read.csv("data/sizes.csv")
-    read_sizes <- read.csv("D:/School stuff/Bagby Lab/Projects/Riboswitches stuff/Code/packages/tart/validation/survey/stats_metrics/sizes.csv")
+    read_sizes <- read.csv("data/sizes_.csv")
 }
 
 # Colour palattes
@@ -169,14 +168,16 @@
 }
 
 # -----------------------------------------------------------------------
+# Compare fragment size distributions across SRAs
+
 {
     melt_sizes <- melt(read_sizes, id = c("size"), value.name = "freq", variable.name = "sra")
+    melt_sizes$freq <- as.numeric(melt_sizes$freq)
 
     frag_size_distr <- ggplot(melt_sizes, aes(x = size, weight = freq)) +
         geom_histogram(
             aes(
                 y = ..density..,
-                # weight = freq,
                 alpha = 0.5
             ),
             colour = "#363636", fill = "#f96d6d", binwidth = 10
@@ -188,5 +189,3 @@
 
     frag_size_distr
 }
-
-tail(df)
