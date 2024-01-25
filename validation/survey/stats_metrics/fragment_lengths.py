@@ -105,7 +105,8 @@ def main(parser: ArgumentParser):
             final_df = pd.merge(final_df, df_inst, how="outer", on="size")
         print("Finished merge.")
 
-        final_df.fillna(0, inplace=True)
+        # final_df.fillna(0, inplace=True)  # Could just do this when plotting
+        
         print("Sorting.")
         final_df.sort_values("size", inplace=True, key=pd.to_numeric)
 
