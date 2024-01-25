@@ -1,6 +1,7 @@
 {
     library(tidyverse)
     library(ggplot2)
+    library(reshape2)
     setwd("validation/plotting")
 }
 
@@ -166,3 +167,26 @@
     save_path <- "plots/fragment_switch_size_comparison.svg"
     ggsave(save_path, dpi = 320, units = "px", width = 3000, height = 1500)
 }
+
+# -----------------------------------------------------------------------
+{
+    melt_sizes <- melt(read_sizes, id = c("size"), value.name = "freq", variable.name = "sra")
+
+    frag_size_distr <- ggplot(melt_sizes, aes(x = size, weight = freq)) +
+        geom_histogram(
+            aes(
+                y = ..density..,
+                # weight = freq,
+                alpha = 0.5
+            ),
+            colour = "#363636", fill = "#f96d6d", binwidth = 10
+        ) +
+        facet_wrap(~sra) +
+        guides(alpha = "none") +
+        def_theme +
+        xlim(0, 1000)
+
+    frag_size_distr
+}
+
+tail(df)
