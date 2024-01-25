@@ -29,7 +29,7 @@ def main(parser: ArgumentParser):
         print(f"Started {mp_con.size} workers.")
 
     i_path = Path(args.input)
-    ouput_path = Path(args.output)
+    output_path = Path(args.output)
 
     # Check input validity --------------------
     bam_list = []
@@ -105,7 +105,7 @@ def main(parser: ArgumentParser):
         final_df.sort_values("size", inplace=True, key=pd.to_numeric)
 
         print("Completing output.")
-        final_df.to_csv("sizes.csv", index=False)
+        final_df.to_csv(output_path, index=False)
 
     SystemExit(0)
 
