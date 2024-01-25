@@ -25,6 +25,9 @@ def main(parser: ArgumentParser):
     comm = mp_con.comm
     rank = mp_con.rank
 
+    if rank == 0:
+        print(f"Started {mp_con.size} workers.")
+
     i_path = Path(args.input)
     ouput_path = Path(args.output)
 
