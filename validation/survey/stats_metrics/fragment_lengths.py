@@ -65,6 +65,7 @@ df = pd.DataFrame({"size": []})
 for temp in df_recs:
     df = pd.merge(df, temp, how="outer", on="size")
 
+df.fillna(0, inplace=True)
 df.sort_values("size", inplace=True, key=pd.to_numeric)
 
 # %%
