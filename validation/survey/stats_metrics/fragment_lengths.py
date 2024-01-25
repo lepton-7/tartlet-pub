@@ -4,6 +4,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 from glob import glob
+from pathlib import Path
+from collections import defaultdict
 from argparse import ArgumentParser
 from tart.utils.mpi_context import BasicMPIContext
 
@@ -23,11 +25,15 @@ failmask = 3328
 
 # bam_list = []
 bam_list = [
-    "/fs/scratch/PDS0325/rna_seq/e_coli_alignment_20231113/SRR7154636.sorted.bam"
+    "/fs/scratch/PDS0325/rna_seq/e_coli_alignment_20231113/SRR7154636.sorted.bam",
+    "/fs/scratch/PDS0325/rna_seq/e_coli_alignment_20231113/SRR7154637.sorted.bam",
 ]
-len_list = []
+
+df_recs = []
 for bampath in bam_list:
-    len_list = []
+    sra = Path(bampath).stem.split(".")[0]
+
+    len_dict = defaultdict(int)
     bam = pysam.AlignmentFile(bampath, "rb")
 
     # List of contigs in the bam
@@ -41,13 +47,27 @@ for bampath in bam_list:
             if (pys_read.flag & flagmask == flagmask) and (
                 pys_read.flag & failmask == 0
             ):
-                len_list.append(abs(pys_read.template_length))
+                len_dict[str(abs(pys_read.template_length))] += 1
                 i += 1
 
-                if i % 100000 == 0:
+                if i % 200_000 == 0:
                     print(f"Processed {i} reads")
+
+    df = pd.DataFrame.from_records(list(len_dict.items()))
+    df.columns = ["size", sra]
+
+    df_recs.append(df)
 
 
 # %%
-df = pd.DataFrame({"sizes": len_list})
+df = pd.DataFrame({"size": []})
+
+for temp in df_recs:
+    df = pd.merge(df, temp, how="outer", on="size")
+
+df.sort_values("size", inplace=True, key=pd.to_numeric)
+
+# %%
 df.to_csv("sizes.csv", index=False)
+
+# %%
