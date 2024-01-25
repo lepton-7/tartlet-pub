@@ -63,11 +63,16 @@ def main(parser: ArgumentParser):
         bam = pysam.AlignmentFile(bampath, "rb")
 
         # List of contigs in the bam
-        ref_list = [
-            idxstats.contig
-            for idxstats in bam.get_index_statistics()
-            if idxstats.total > 0
-        ]
+        try:
+            ref_list = [
+                idxstats.contig
+                for idxstats in bam.get_index_statistics()
+                if idxstats.total > 0
+            ]
+
+        except ValueError as e:
+            print(f"Idx stats failed for {sra}: {e}")
+            continue
 
         # Go through each contig and make sure to fully traverse the BAM
         for ref in ref_list:

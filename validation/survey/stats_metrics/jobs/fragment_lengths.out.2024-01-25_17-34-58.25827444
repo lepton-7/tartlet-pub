@@ -1,0 +1,104 @@
+Initialising.
+[E::idx_find_and_load] Could not retrieve index file for '/fs/scratch/PDS0325/rna_seq/e_coli_alignment_20231113/SRR8218077.sorted.bam'
+Processing SRR8218064 on worker 12.
+Processing SRR8173243 on worker 2.
+Processing SRR8173229 on worker 2.
+Processing SRR8173247 on worker 24.
+Processing SRR8218077 on worker 23.
+Idx stats failed for SRR8218077: mapping information not recorded in index or index not available
+Processing SRR7154646 on worker 15.
+Processing SRR8164478 on worker 21.
+Processing SRR8218076 on worker 17.
+Processing SRR8164481 on worker 25.
+Processing SRR8173227 on worker 34.
+Processing SRR7154629 on worker 43.
+Processing SRR7154627 on worker 13.
+Processing SRR8164482 on worker 42.
+Processing SRR9204651 on worker 40.
+Processing SRR8218073 on worker 20.
+Processing SRR8218069 on worker 26.
+Processing SRR8164487 on worker 29.
+Processing SRR7154640 on worker 31.
+Processing SRR7154641 on worker 44.
+Processing SRR8173244 on worker 41.
+Processing SRR9204652 on worker 22.
+Processing SRR7154637 on worker 39.
+Processing SRR9204653 on worker 47.
+Processing SRR8173242 on worker 36.
+Processing SRR9204649 on worker 55.
+Processing SRR8173236 on worker 53.
+Processing SRR9204648 on worker 46.
+Processing SRR8164476 on worker 58.
+Processing SRR8218063 on worker 56.
+Processing SRR8218075 on worker 18.
+Processing SRR8218078 on worker 48.
+Processing SRR8173213 on worker 50.
+Processing SRR8173235 on worker 51.
+Processing SRR8164486 on worker 52.
+Processing SRR7154633 on worker 16.
+Processing SRR8173219 on worker 45.
+Processing SRR7154645 on worker 27.
+Processing SRR8218065 on worker 63.
+Processing SRR8218068 on worker 30.
+Processing SRR8218072 on worker 32.
+Processing SRR8218071 on worker 35.
+Processing SRR8218067 on worker 59.
+Processing SRR8173237 on worker 67.
+Processing SRR8173241 on worker 62.
+Processing SRR8173246 on worker 33.
+Processing SRR8218070 on worker 68.
+Processing SRR7154638 on worker 64.
+Processing SRR7154642 on worker 14.
+Processing SRR8173232 on worker 74.
+Processing SRR7154631 on worker 37.
+Processing SRR9204650 on worker 28.
+Processing SRR8173233 on worker 75.
+Processing SRR7154634 on worker 38.
+Processing SRR8173218 on worker 61.
+Processing SRR7154636 on worker 49.
+Processing SRR8173222 on worker 66.
+Processing SRR8218074 on worker 76.
+Processing SRR8173231 on worker 73.
+Processing SRR8173217 on worker 60.
+Processing SRR8173249 on worker 57.
+Processing SRR8173239 on worker 4.
+Processing SRR8173230 on worker 4.
+Processing SRR7154643 on worker 9.
+Processing SRR8173234 on worker 9.
+Processing SRR8164479 on worker 11.
+Processing SRR8173250 on worker 11.
+Processing SRR8173215 on worker 72.
+Processing SRR7154639 on worker 5.
+Processing SRR8173240 on worker 5.
+Processing SRR8173221 on worker 19.
+Processing SRR7154625 on worker 79.
+Processing SRR8164485 on worker 78.
+Processing SRR8164480 on worker 1.
+Processing SRR8173228 on worker 1.
+Processing SRR7154635 on worker 54.
+Processing SRR8173210 on worker 7.
+Processing SRR7154628 on worker 7.
+Processing SRR8173220 on worker 65.
+Processing SRR8173214 on worker 70.
+Processing SRR8164484 on worker 3.
+Processing SRR7154626 on worker 3.
+Processing SRR8173209 on worker 69.
+Processing SRR8173211 on worker 8.
+Processing SRR8173216 on worker 8.
+Processing SRR8173238 on worker 6.
+Processing SRR7154644 on worker 6.
+Processing SRR8164477 on worker 71.
+Processing SRR8218066 on worker 10.
+Processing SRR7154624 on worker 10.
+Processing SRR8173212 on worker 77.
+Started 80 workers.
+Processing SRR8164483 on worker 0.
+Processing SRR7154632 on worker 0.
+Completed gather.
+Starting merge.
+Finished merge.
+Sorting.
+Completing output.
+
+
+Done
