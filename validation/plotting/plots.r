@@ -8,7 +8,7 @@
 {
     aliased_results <- read.csv("data/results_alias.csv")
     rfam_regions <- read.csv("data/all_regions_14.10.csv")
-    read_sizes <- read.csv("data/sizes_.csv")
+    read_sizes <- read.csv("data/e_coli_fragment_sizes.csv")
 }
 
 # Colour palattes
@@ -171,21 +171,33 @@
 # Compare fragment size distributions across SRAs
 
 {
-    melt_sizes <- melt(read_sizes, id = c("size"), value.name = "freq", variable.name = "sra")
+    melt_sizes <- melt(read_sizes, id = c("size"), value.name = "freq", variable.name = "sra", na.rm = TRUE)
     melt_sizes$freq <- as.numeric(melt_sizes$freq)
+}
 
+{
     frag_size_distr <- ggplot(melt_sizes, aes(x = size, weight = freq)) +
         geom_histogram(
             aes(
-                y = ..density..,
+                y = after_stat(density),
                 alpha = 0.5
             ),
-            colour = "#363636", fill = "#f96d6d", binwidth = 10
+            colour = "#464646", fill = "#f96d6d", binwidth = 20
         ) +
         facet_wrap(~sra) +
         guides(alpha = "none") +
         def_theme +
-        xlim(0, 1000)
+        labs(
+            x = "Fragment size (nt)",
+            y = "Density"
+        ) +
+        scale_x_continuous(breaks = seq(250, 1000, 500), limits = c(0, 1000)) +
+        scale_y_continuous(breaks = scales::pretty_breaks(n = 2))
 
     frag_size_distr
+}
+
+{
+    save_path <- "plots/e_coli_fragment_sizes.svg"
+    ggsave(save_path, dpi = 320, units = "px", width = 5000, height = 3500)
 }
