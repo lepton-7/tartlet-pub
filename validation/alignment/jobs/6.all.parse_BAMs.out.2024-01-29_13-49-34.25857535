@@ -1,0 +1,15 @@
+Parsing BAMs for:
+e_coli
+
+
+Starting BAM parsing for e_coli
+More than 2 reads assigned to pair: [<tart.utils.read_parsing.Read object at 0x2add95698c10>, <tart.utils.read_parsing.Read object at 0x2add9569a810>, <tart.utils.read_parsing.Read object at 0x2add956ddd90>, <tart.utils.read_parsing.Read object at 0x2add956ddfd0>]
+More than 2 reads assigned to pair: [<tart.utils.read_parsing.Read object at 0x2b94bf8d8850>, <tart.utils.read_parsing.Read object at 0x2b94bf8d8a10>, <tart.utils.read_parsing.Read object at 0x2b94bfad44d0>, <tart.utils.read_parsing.Read object at 0x2b94bfad4710>]
+More than 2 reads assigned to pair: [<tart.utils.read_parsing.Read object at 0x2b85f7c3fc90>, <tart.utils.read_parsing.Read object at 0x2b85f7c3ff10>, <tart.utils.read_parsing.Read object at 0x2b85f7c20f10>]
+More than 2 reads assigned to pair: [<tart.utils.read_parsing.Read object at 0x2b003b121410>, <tart.utils.read_parsing.Read object at 0x2b003aeebad0>, <tart.utils.read_parsing.Read object at 0x2b003ac652d0>, <tart.utils.read_parsing.Read object at 0x2b003ac65450>]
+Archiving pickled data
+Removing directory
+Finished BAM parsing for e_coli into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/e_coli/plots/picks
+----------------------------------------------
+
+Done
