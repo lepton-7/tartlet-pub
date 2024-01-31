@@ -2,13 +2,13 @@
     library(tidyverse)
     library(ggplot2)
     library(reshape2)
+    library(stringr)
     setwd("validation/plotting")
 }
 
 {
     aliased_results <- read.csv("data/results_alias.csv")
     rfam_regions <- read.csv("data/all_regions_14.10.csv")
-    read_sizes <- read.csv("data/e_coli_fragment_sizes.csv")
 }
 
 # Colour palattes
@@ -171,6 +171,9 @@
 # Compare fragment size distributions across SRAs
 
 {
+    dset <- "b_sub_168"
+    read_sizes <- read.csv("data/b_sub_168_fragment_sizes.csv")
+
     melt_sizes <- melt(read_sizes, id = c("size"), value.name = "freq", variable.name = "sra", na.rm = TRUE)
     melt_sizes$freq <- as.numeric(melt_sizes$freq)
 }
@@ -198,6 +201,6 @@
 }
 
 {
-    save_path <- "plots/e_coli_fragment_sizes.svg"
+    save_path <- str_glue("plots/{dset}_fragment_sizes.svg")
     ggsave(save_path, dpi = 320, units = "px", width = 5000, height = 3500)
 }
