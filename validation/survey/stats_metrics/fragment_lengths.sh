@@ -11,8 +11,11 @@
 
 set echo on
 
-INPUT_DIR="/fs/scratch/PDS0325/rna_seq/e_coli_alignment_20231113/"
-OUTPUT_PATH="e_coli_fragment_sizes.csv"
+SCR="/fs/scratch/PDS0325"
+RT="$HOME/packages/tart"
+
+INPUT_DIR="$RT/validation/survey/alignment/b_sub_168_alignment_20231113"
+OUTPUT_PATH="b_sub_168_fragment_sizes.csv"
 
 echo "Initialising."
 
