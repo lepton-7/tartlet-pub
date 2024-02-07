@@ -1,0 +1,15 @@
+Parsing BAMs for:
+b_sub_168
+
+
+Starting BAM parsing for b_sub_168
+More than 2 reads assigned to pair: [<tart.utils.read_parsing.Read object at 0x2b3492101d90>, <tart.utils.read_parsing.Read object at 0x2b3492101f50>, <tart.utils.read_parsing.Read object at 0x2b349216f910>, <tart.utils.read_parsing.Read object at 0x2b349216fcd0>]
+More than 2 reads assigned to pair: [<tart.utils.read_parsing.Read object at 0x2b23063d5950>, <tart.utils.read_parsing.Read object at 0x2b230640eb90>, <tart.utils.read_parsing.Read object at 0x2b23067a23d0>, <tart.utils.read_parsing.Read object at 0x2b23067a2550>]
+More than 2 reads assigned to pair: [<tart.utils.read_parsing.Read object at 0x2ac56cabc790>, <tart.utils.read_parsing.Read object at 0x2ac56cabc950>, <tart.utils.read_parsing.Read object at 0x2ac572593450>, <tart.utils.read_parsing.Read object at 0x2ac572d63e50>]
+More than 2 reads assigned to pair: [<tart.utils.read_parsing.Read object at 0x2b16c7fb7b50>, <tart.utils.read_parsing.Read object at 0x2b16c7fb7e10>, <tart.utils.read_parsing.Read object at 0x2b16c4d08710>, <tart.utils.read_parsing.Read object at 0x2b16c4eea510>]
+Archiving pickled data
+Removing directory
+Finished BAM parsing for b_sub_168 into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/b_sub_168/plots/picks
+----------------------------------------------
+
+Done
