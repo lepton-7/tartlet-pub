@@ -1,0 +1,1667 @@
+Parsing BAMs for:
+b_sub_168
+
+
+Starting BAM parsing for b_sub_168
+More than 2 reads assigned to pair: [<tart.utils.read_parsing.Read object at 0x2b2f1860dbd0>, <tart.utils.read_parsing.Read object at 0x2b2f1860dd90>, <tart.utils.read_parsing.Read object at 0x2b2f18677750>, <tart.utils.read_parsing.Read object at 0x2b2f18677b10>]
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+Traceback (most recent call last):
+TypeError: self._delegate cannot be converted to a Python object for pickling
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+More than 2 reads assigned to pair: [<tart.utils.read_parsing.Read object at 0x2ab96e9418d0>, <tart.utils.read_parsing.Read object at 0x2ab96e972b10>, <tart.utils.read_parsing.Read object at 0x2ab96ecfe350>, <tart.utils.read_parsing.Read object at 0x2ab96ecfe4d0>]
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+More than 2 reads assigned to pair: [<tart.utils.read_parsing.Read object at 0x2aae7f6d33d0>, <tart.utils.read_parsing.Read object at 0x2aae7f6d3590>, <tart.utils.read_parsing.Read object at 0x2aae851b20d0>, <tart.utils.read_parsing.Read object at 0x2aae8598aad0>]
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+More than 2 reads assigned to pair: [<tart.utils.read_parsing.Read object at 0x2b9057c22450>, <tart.utils.read_parsing.Read object at 0x2b9057c22610>, <tart.utils.read_parsing.Read object at 0x2b9058c4cf50>, <tart.utils.read_parsing.Read object at 0x2b9058ce4250>]
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/parse_BAMs.py", line 97, in main
+    pickle.dump(alignDat, f)
+  File "stringsource", line 2, in pysam.libcalignedsegment.AlignedSegment.__reduce_cython__
+TypeError: self._delegate cannot be converted to a Python object for pickling
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** JOB 25915247 ON p0070 CANCELLED AT 2024-02-05T12:10:11 ***
