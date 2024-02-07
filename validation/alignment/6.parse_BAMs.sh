@@ -30,7 +30,7 @@ DSETS=(
     # "c_diff"
     # "c_vibrioides"
     # "d_vulg"
-    # "e_coli"
+    "e_coli"
     # "e_fae"
     # "e_limo"
     # "k_pneum"
