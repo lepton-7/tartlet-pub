@@ -66,8 +66,8 @@ for DSET in ${DSETS[@]}; do
         -o $SAVE_ROOT \
         --ext-prop -0.3 1.0 \
         --conv \
-        --statplot \
         --min-cov-depth 15
+    # --statplot \
 
     echo "Finished filtering outputs for $DSET into $SAVE_ROOT"
     echo "----------------------------------------------------"
