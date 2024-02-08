@@ -23,7 +23,7 @@ DSETS=(
     # "b_anth"
     # "b_frag"
     # "b_pseudo"
-    "b_sub_168"
+    # "b_sub_168"
     # "b_theta"
     # "b_xyla"
     # "c_basil"
@@ -62,7 +62,11 @@ for DSET in ${DSETS[@]}; do
 
     echo "Starting BAM parsing for $DSET"
 
-    mpiexec tart-targeted parse-bam -i $BAM_DIR -o $SAVE_ROOT --bounds-file $BOUNDS_PATH --picks --allow-soft-clips &&
+    mpiexec tart-targeted parse-bam -i $BAM_DIR \
+        -o $SAVE_ROOT \
+        --bounds-file $BOUNDS_PATH \
+        --picks &&
+        # --allow-soft-clips \
         wait
 
     echo "Finished BAM parsing for $DSET into $SAVE_ROOT"
