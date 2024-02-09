@@ -22,7 +22,7 @@ DSETS=(
     # "b_anth"
     # "b_frag"
     # "b_pseudo"
-    "b_sub_168"
+    # "b_sub_168"
     # "b_theta"
     # "b_xyla"
     # "c_basil"
@@ -36,16 +36,16 @@ DSETS=(
     # "m_smeg"
     # "m_tuber"
     # "n_gonorr"
-    # "p_fluor"
-    # "s_coelicolor"
-    # "s_elon"
-    # "s_enter_typh"
-    # "s_epi"
-    # "s_meli"
-    # "s_sanguinis"
-    # "s_spcc6803"
-    # "x_albi"
-    # "x_ory"
+    "p_fluor"
+    "s_coelicolor"
+    "s_elon"
+    "s_enter_typh"
+    "s_epi"
+    "s_meli"
+    "s_sanguinis"
+    "s_spcc6803"
+    "x_albi"
+    "x_ory"
 )
 
 echo "Filtering output plots for:"
@@ -66,6 +66,7 @@ for DSET in ${DSETS[@]}; do
         -o $SAVE_ROOT \
         --ext-prop -0.3 1.0 \
         --conv \
+        --noplots \
         --min-cov-depth 15
     # --statplot \
 
