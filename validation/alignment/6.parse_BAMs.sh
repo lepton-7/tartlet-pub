@@ -23,7 +23,7 @@ DSETS=(
     # "b_anth"
     # "b_frag"
     # "b_pseudo"
-    "b_sub_168"
+    # "b_sub_168"
     # "b_theta"
     # "b_xyla"
     # "c_basil"
@@ -43,10 +43,10 @@ DSETS=(
     # "s_enter_typh"
     # "s_epi"
     # "s_meli"
-    # "s_sanguinis"
-    # "s_spcc6803"
-    # "x_albi"
-    # "x_ory"
+    "s_sanguinis"
+    "s_spcc6803"
+    "x_albi"
+    "x_ory"
 )
 
 echo "Parsing BAMs for:"
