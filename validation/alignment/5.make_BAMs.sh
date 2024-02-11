@@ -13,12 +13,13 @@ set echo on
 
 RT="$HOME/packages/tart"
 
-DSETS=(
-    "b_anth"
-    "n_gonorr"
-)
+# DATECODE="20231113"
+DATECODE="20240209"
 
-DATECODE="20231113"
+DSETS=(
+    "b_sub_168"
+    # "n_gonorr"
+)
 
 PRE_DEL=1000
 POST_DEL=1000

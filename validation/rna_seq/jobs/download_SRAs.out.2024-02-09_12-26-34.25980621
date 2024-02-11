@@ -1,0 +1,59 @@
+Resetting modules to system default
+Downloading sequences from b_sub_smith2023_acc.txt into b_sub_168/
+Retrying SRR23693955 fetch (0); Error code (3)
+b'2024-02-09T17:27:20 prefetch.3.0.2: Current preference is set to retrieve SRA Normalized Format files with full base quality scores.\n'
+Success: SRR23693956
+Success: SRR23693994
+Success: SRR23693980
+Success: SRR23693981
+Success: SRR23693985
+Success: SRR23693954
+Success: SRR23693953
+Success: SRR23693992
+Success: SRR23693974
+Success: SRR23694001
+Success: SRR23693963
+Success: SRR23693983
+Success: SRR23693973
+Success: SRR23693962
+Success: SRR23693979
+Success: SRR23693991
+Success: SRR23693951
+Success: SRR23694002
+Success: SRR23693966
+Success: SRR23693970
+Success: SRR23693961
+Success: SRR23693990
+Success: SRR23693987
+Success: SRR23693964
+Success: SRR23693975
+Success: SRR23693982
+Success: SRR23694004
+Success: SRR23694000
+Success: SRR23693989
+Success: SRR23693977
+Success: SRR23693976
+Success: SRR23693978
+Success: SRR23693971
+Success: SRR23693968
+Success: SRR23694003
+Success: SRR23693952
+Success: SRR23693960
+Success: SRR23693995
+Success: SRR23693993
+Success: SRR23693967
+Success: SRR23693998
+Success: SRR23693984
+Success: SRR23693972
+Success: SRR23693965
+Success: SRR23693955
+Success: SRR23693986
+Success: SRR23693996
+Success: SRR23693969
+Success: SRR23693958
+Success: SRR23693999
+Success: SRR23693997
+Success: SRR23693959
+Success: SRR23693957
+Success: SRR23693988
+Done

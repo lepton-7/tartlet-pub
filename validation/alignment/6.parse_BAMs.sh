@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #SBATCH --time=00:50:00
-#SBATCH --nodes=2 --cpus-per-task=1
+#SBATCH --nodes=10 --cpus-per-task=1
 
 #SBATCH --account=PDS0325
 #SBATCH --mail-type=BEGIN,END,FAIL
@@ -13,7 +13,8 @@ set echo on
 
 RT="$HOME/packages/tart"
 
-DATECODE="20231113"
+# DATECODE="20231113"
+DATECODE="20240209"
 
 DSETS=(
     # "a_baum"
@@ -23,7 +24,7 @@ DSETS=(
     # "b_anth"
     # "b_frag"
     # "b_pseudo"
-    # "b_sub_168"
+    "b_sub_168"
     # "b_theta"
     # "b_xyla"
     # "c_basil"
@@ -43,10 +44,10 @@ DSETS=(
     # "s_enter_typh"
     # "s_epi"
     # "s_meli"
-    "s_sanguinis"
-    "s_spcc6803"
-    "x_albi"
-    "x_ory"
+    # "s_sanguinis"
+    # "s_spcc6803"
+    # "x_albi"
+    # "x_ory"
 )
 
 echo "Parsing BAMs for:"
@@ -57,10 +58,13 @@ echo
 for DSET in ${DSETS[@]}; do
 
     BAM_DIR="$RT/validation/alignment/outputs/$DSET/switch_seqs_delta1000-1000/alignment_$DATECODE"
-    SAVE_ROOT="$RT/validation/alignment/outputs/$DSET/plots/picks"
+    SAVE_DIR="$RT/validation/alignment/outputs/$DSET/plots"
+    SAVE_ROOT="$SAVE_DIR/picks"
     BOUNDS_PATH="$RT/validation/alignment/outputs/$DSET/switch_seqs_delta1000-1000/rowid_to_bounds.json"
 
     echo "Starting BAM parsing for $DSET"
+
+    rm $SAVE_DIR/picks.tar.gz
 
     mpiexec tart-targeted parse-bam -i $BAM_DIR \
         -o $SAVE_ROOT \

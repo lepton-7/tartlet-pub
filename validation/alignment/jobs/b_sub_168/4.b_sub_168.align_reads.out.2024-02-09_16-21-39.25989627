@@ -1,0 +1,293 @@
+Instance 14 starting alignment for b_sub_168 from /fs/ess/PDS0325/Riboswitches/data/rna_seq/b_sub_168 reads
+
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:07:48
+23662785 reads; of these:
+  23662785 (100.00%) were paired; of these:
+    23660232 (99.99%) aligned concordantly 0 times
+    2553 (0.01%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    23660232 pairs aligned concordantly 0 times; of these:
+      2 (0.00%) aligned discordantly 1 time
+    ----
+    23660230 pairs aligned 0 times concordantly or discordantly; of these:
+      47320460 mates make up the pairs; of these:
+        47320439 (100.00%) aligned 0 times
+        21 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.01% overall alignment rate
+Time searching: 00:07:48
+Overall time: 00:07:48
+
+
+---------------------------------------------------------------------
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:06:06
+23662785 reads; of these:
+  23662785 (100.00%) were paired; of these:
+    23662387 (100.00%) aligned concordantly 0 times
+    398 (0.00%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    23662387 pairs aligned concordantly 0 times; of these:
+      0 (0.00%) aligned discordantly 1 time
+    ----
+    23662387 pairs aligned 0 times concordantly or discordantly; of these:
+      47324774 mates make up the pairs; of these:
+        47324749 (100.00%) aligned 0 times
+        25 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.00% overall alignment rate
+Time searching: 00:06:06
+Overall time: 00:06:06
+
+
+---------------------------------------------------------------------
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:08:01
+23662785 reads; of these:
+  23662785 (100.00%) were paired; of these:
+    23655733 (99.97%) aligned concordantly 0 times
+    7052 (0.03%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    23655733 pairs aligned concordantly 0 times; of these:
+      9 (0.00%) aligned discordantly 1 time
+    ----
+    23655724 pairs aligned 0 times concordantly or discordantly; of these:
+      47311448 mates make up the pairs; of these:
+        47311299 (100.00%) aligned 0 times
+        149 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.03% overall alignment rate
+Time searching: 00:08:01
+Overall time: 00:08:01
+
+
+---------------------------------------------------------------------
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:06:06
+23662785 reads; of these:
+  23662785 (100.00%) were paired; of these:
+    23646801 (99.93%) aligned concordantly 0 times
+    15984 (0.07%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    23646801 pairs aligned concordantly 0 times; of these:
+      17 (0.00%) aligned discordantly 1 time
+    ----
+    23646784 pairs aligned 0 times concordantly or discordantly; of these:
+      47293568 mates make up the pairs; of these:
+        47291704 (100.00%) aligned 0 times
+        1864 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.07% overall alignment rate
+Time searching: 00:06:06
+Overall time: 00:06:06
+
+
+---------------------------------------------------------------------
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:07:30
+23662785 reads; of these:
+  23662785 (100.00%) were paired; of these:
+    23657763 (99.98%) aligned concordantly 0 times
+    5022 (0.02%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    23657763 pairs aligned concordantly 0 times; of these:
+      3 (0.00%) aligned discordantly 1 time
+    ----
+    23657760 pairs aligned 0 times concordantly or discordantly; of these:
+      47315520 mates make up the pairs; of these:
+        47315426 (100.00%) aligned 0 times
+        94 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.02% overall alignment rate
+Time searching: 00:07:30
+Overall time: 00:07:30
+
+
+---------------------------------------------------------------------
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:06:09
+23662785 reads; of these:
+  23662785 (100.00%) were paired; of these:
+    23656008 (99.97%) aligned concordantly 0 times
+    6777 (0.03%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    23656008 pairs aligned concordantly 0 times; of these:
+      7 (0.00%) aligned discordantly 1 time
+    ----
+    23656001 pairs aligned 0 times concordantly or discordantly; of these:
+      47312002 mates make up the pairs; of these:
+        47311410 (100.00%) aligned 0 times
+        592 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.03% overall alignment rate
+Time searching: 00:06:09
+Overall time: 00:06:09
+
+
+---------------------------------------------------------------------
+
+Time loading forward index: 00:00:01
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:06:59
+23662785 reads; of these:
+  23662785 (100.00%) were paired; of these:
+    23593103 (99.71%) aligned concordantly 0 times
+    69682 (0.29%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    23593103 pairs aligned concordantly 0 times; of these:
+      45 (0.00%) aligned discordantly 1 time
+    ----
+    23593058 pairs aligned 0 times concordantly or discordantly; of these:
+      47186116 mates make up the pairs; of these:
+        47180718 (99.99%) aligned 0 times
+        5398 (0.01%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.31% overall alignment rate
+Time searching: 00:06:59
+Overall time: 00:07:00
+
+
+---------------------------------------------------------------------
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:07:38
+23662785 reads; of these:
+  23662785 (100.00%) were paired; of these:
+    23659909 (99.99%) aligned concordantly 0 times
+    2876 (0.01%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    23659909 pairs aligned concordantly 0 times; of these:
+      4 (0.00%) aligned discordantly 1 time
+    ----
+    23659905 pairs aligned 0 times concordantly or discordantly; of these:
+      47319810 mates make up the pairs; of these:
+        47319674 (100.00%) aligned 0 times
+        136 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.01% overall alignment rate
+Time searching: 00:07:38
+Overall time: 00:07:38
+
+
+---------------------------------------------------------------------
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:06:54
+23662785 reads; of these:
+  23662785 (100.00%) were paired; of these:
+    23642351 (99.91%) aligned concordantly 0 times
+    20434 (0.09%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    23642351 pairs aligned concordantly 0 times; of these:
+      8 (0.00%) aligned discordantly 1 time
+    ----
+    23642343 pairs aligned 0 times concordantly or discordantly; of these:
+      47284686 mates make up the pairs; of these:
+        47281982 (99.99%) aligned 0 times
+        2704 (0.01%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.09% overall alignment rate
+Time searching: 00:06:54
+Overall time: 00:06:54
+
+
+---------------------------------------------------------------------
+
+Time loading forward index: 00:00:01
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:06:04
+23662785 reads; of these:
+  23662785 (100.00%) were paired; of these:
+    23654144 (99.96%) aligned concordantly 0 times
+    8641 (0.04%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    23654144 pairs aligned concordantly 0 times; of these:
+      8 (0.00%) aligned discordantly 1 time
+    ----
+    23654136 pairs aligned 0 times concordantly or discordantly; of these:
+      47308272 mates make up the pairs; of these:
+        47306238 (100.00%) aligned 0 times
+        2034 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.04% overall alignment rate
+Time searching: 00:06:04
+Overall time: 00:06:05
+
+
+---------------------------------------------------------------------
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:06:08
+23662785 reads; of these:
+  23662785 (100.00%) were paired; of these:
+    23660122 (99.99%) aligned concordantly 0 times
+    2663 (0.01%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    23660122 pairs aligned concordantly 0 times; of these:
+      1 (0.00%) aligned discordantly 1 time
+    ----
+    23660121 pairs aligned 0 times concordantly or discordantly; of these:
+      47320242 mates make up the pairs; of these:
+        47320135 (100.00%) aligned 0 times
+        107 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.01% overall alignment rate
+Time searching: 00:06:08
+Overall time: 00:06:08
+
+
+---------------------------------------------------------------------
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:07:11
+23662785 reads; of these:
+  23662785 (100.00%) were paired; of these:
+    23550578 (99.53%) aligned concordantly 0 times
+    110642 (0.47%) aligned concordantly exactly 1 time
+    1565 (0.01%) aligned concordantly >1 times
+    ----
+    23550578 pairs aligned concordantly 0 times; of these:
+      111 (0.00%) aligned discordantly 1 time
+    ----
+    23550467 pairs aligned 0 times concordantly or discordantly; of these:
+      47100934 mates make up the pairs; of these:
+        47082679 (99.96%) aligned 0 times
+        18236 (0.04%) aligned exactly 1 time
+        19 (0.00%) aligned >1 times
+0.51% overall alignment rate
+Time searching: 00:07:11
+Overall time: 00:07:11
+
+
+---------------------------------------------------------------------
+
+Done
+Finished SRR23693959 read alignment for b_sub_168 into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/b_sub_168/switch_seqs_delta1000-1000/alignment_20240209

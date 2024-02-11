@@ -7,20 +7,20 @@
 #SBATCH --mail-type=BEGIN,END,FAIL
 
 # --------------------------------
-# There are 7 pairs of readsets
-#SBATCH --array=0-7
+# There are 60 pairs of readsets
+#SBATCH --array=0-60
 # --------------------------------
 
 # RUN THIS TO LAUNCH JOB
-## DATECODE="$(date +"%Y-%m-%d_%H-%M-%S")"; sbatch --output=jobs/4.n_gonorr.align_reads.out.$DATECODE.%j 4.align_reads.sh
+## DATECODE="$(date +"%Y-%m-%d_%H-%M-%S")"; sbatch --output=jobs/4.b_sub_168.align_reads.out.$DATECODE.%j 4.align_reads.sh
 
 # set -x
 set echo on
 
 IDX=$((SLURM_ARRAY_TASK_ID))
 
-DATECODE="20231113"
-DSET="n_gonorr"
+DATECODE="20240209"
+DSET="b_sub_168"
 
 RT="$HOME/packages/tart"
 
