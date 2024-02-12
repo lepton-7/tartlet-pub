@@ -19,7 +19,7 @@
 
 {
     # dset <- "b_sub_168"
-    dset <- "m_smeg"
+    dset <- "e_coli"
     df <- read.csv(str_glue("../alignment/outputs/{dset}/plots/peak_log.csv"))
 
     df$pval <- -log(df$coverage_delta_pval)
@@ -28,6 +28,7 @@
     peakplot <- ggplot(df, aes(x = from_riboswith_end_relative, y = coverage_delta_stable_relative)) +
         # peakplot <- ggplot(df, aes(x = from_riboswith_end_relative, y = coverage_delta_relative)) +
         # geom_smooth(⁠method = "gam", formula = y ~ s(x, bs = "cs"), se = TRUE) +
+        # geom_vline(xintercept = 0) +
         geom_line(aes(color = transcriptome)) +
         geom_point(aes(alpha = pval)) +
         # stat_summary(aes(group = rowid), fun = mean, geom = "line", colour = "#000000", size = 2) +
@@ -42,7 +43,7 @@
         theme(
             plot.title = element_text(size = 14)
         ) +
-        # coord_cartesian(ylim = c(-0.6, 0.4)) +
+        coord_cartesian(ylim = c(-1, 0.5)) +
         guides(alpha = "none", color = "none")
 
     peakplot
