@@ -60,14 +60,17 @@ for DSET in ${DSETS[@]}; do
     PICKLE_ROOT="$D_ROOT/plots/picks.tar.gz"
     SAVE_ROOT="$D_ROOT/plots/"
 
+    echo "Removing existing data"
+    rm -r $SAVE_ROOT/*/ $SAVE_ROOT/*.csv
+
     echo "Filtering plots for $DSET"
 
     mpiexec tart-targeted filter -i $PICKLE_ROOT \
         -o $SAVE_ROOT \
         --ext-prop -0.3 1.0 \
         --conv \
+        --noplots \
         --min-cov-depth 15
-    # --noplots \
     # --statplot \
 
     echo "Finished filtering outputs for $DSET into $SAVE_ROOT"
