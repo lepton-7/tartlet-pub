@@ -1,0 +1,79 @@
+Filtering output plots for:
+m_tuber n_gonorr p_fluor s_coelicolor s_elon s_enter_typh
+
+
+Removing existing data
+Filtering plots for m_tuber
+Finished filtering outputs for m_tuber into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/m_tuber/plots/
+----------------------------------------------------
+
+Removing existing data
+Filtering plots for n_gonorr
+Finished filtering outputs for n_gonorr into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/n_gonorr/plots/
+----------------------------------------------------
+
+Removing existing data
+Filtering plots for p_fluor
+/users/PDS0325/sachitk26/packages/tart/tart/utils/activity_inference.py:179: RuntimeWarning: divide by zero encountered in scalar divide
+  return self.find_absolute_coverage_delta(sumcov) / sumcov[self.left]
+Finished filtering outputs for p_fluor into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/p_fluor/plots/
+----------------------------------------------------
+
+Removing existing data
+Filtering plots for s_coelicolor
+Finished filtering outputs for s_coelicolor into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/s_coelicolor/plots/
+----------------------------------------------------
+
+Removing existing data
+Filtering plots for s_elon
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/filter_BAM_plots.py", line 194, in exec_main
+    main(
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/filter_BAM_plots.py", line 332, in main
+    peak_log, cluster_stats = Cluster(pd.DataFrame(log)).get()
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/cluster.py", line 22, in __init__
+    self.df = self.__cluster(peak_log)
+              ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/cluster.py", line 45, in __cluster
+    tdf["cluster"] = clfunc()
+                     ^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/utils/cluster.py", line 120, in wrapper
+    return fclusterdata(X, t=0.04, criterion="distance", method="complete")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/scipy/cluster/hierarchy.py", line 2704, in fclusterdata
+    Z = linkage(Y, method=method)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/scipy/cluster/hierarchy.py", line 1067, in linkage
+    n = int(distance.num_obs_y(y))
+            ^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/scipy/spatial/distance.py", line 2630, in num_obs_y
+    raise ValueError("The number of observations cannot be determined on "
+ValueError: The number of observations cannot be determined on an empty distance matrix.
+Finished filtering outputs for s_elon into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/s_elon/plots/
+----------------------------------------------------
+
+Removing existing data
+Filtering plots for s_enter_typh
+Finished filtering outputs for s_enter_typh into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/s_enter_typh/plots/
+----------------------------------------------------
+
+Done
