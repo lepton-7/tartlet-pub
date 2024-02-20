@@ -40,12 +40,12 @@ DSETS=(
     # "s_coelicolor"
     # "s_elon"
     # "s_enter_typh"
-    "s_epi"
-    "s_meli"
-    "s_sanguinis"
-    "s_spcc6803"
-    "x_albi"
-    "x_ory"
+    # "s_epi"
+    # "s_meli"
+    # "s_sanguinis"
+    # "s_spcc6803"
+    # "x_albi"
+    # "x_ory"
 )
 
 echo "Filtering output plots for:"

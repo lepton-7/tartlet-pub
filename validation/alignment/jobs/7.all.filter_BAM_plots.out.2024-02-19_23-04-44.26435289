@@ -1,0 +1,78 @@
+Filtering output plots for:
+s_elon s_enter_typh s_epi s_meli s_sanguinis s_spcc6803 x_albi x_ory
+
+
+Removing existing data
+rm: cannot remove ‘/users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/s_elon/plots//*.csv’: No such file or directory
+Filtering plots for s_elon
+Clustering broke. Skipping.
+Finished filtering outputs for s_elon into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/s_elon/plots/
+----------------------------------------------------
+
+Removing existing data
+Filtering plots for s_enter_typh
+Finished filtering outputs for s_enter_typh into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/s_enter_typh/plots/
+----------------------------------------------------
+
+Removing existing data
+Filtering plots for s_epi
+Finished filtering outputs for s_epi into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/s_epi/plots/
+----------------------------------------------------
+
+Removing existing data
+rm: cannot remove ‘/users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/s_meli/plots//*.csv’: No such file or directory
+Filtering plots for s_meli
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/core/fromnumeric.py:3504: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/lib/function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/core/_methods.py:121: RuntimeWarning: invalid value encountered in divide
+  ret = um.true_divide(
+/users/PDS0325/sachitk26/packages/tart/tart/utils/activity_inference.py:375: RuntimeWarning: Degrees of freedom <= 0 for slice
+  sd = np.cov(cov_nocand, rowvar=0)  # type: ignore
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/lib/function_base.py:2748: RuntimeWarning: divide by zero encountered in divide
+  c *= np.true_divide(1, fact)
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/lib/function_base.py:2748: RuntimeWarning: invalid value encountered in multiply
+  c *= np.true_divide(1, fact)
+Clustering broke. Skipping.
+Clustering broke. Skipping.
+Finished filtering outputs for s_meli into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/s_meli/plots/
+----------------------------------------------------
+
+Removing existing data
+Filtering plots for s_sanguinis
+Finished filtering outputs for s_sanguinis into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/s_sanguinis/plots/
+----------------------------------------------------
+
+Removing existing data
+Filtering plots for s_spcc6803
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/core/fromnumeric.py:3504: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/lib/function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/core/_methods.py:121: RuntimeWarning: invalid value encountered in divide
+  ret = um.true_divide(
+/users/PDS0325/sachitk26/packages/tart/tart/utils/activity_inference.py:375: RuntimeWarning: Degrees of freedom <= 0 for slice
+  sd = np.cov(cov_nocand, rowvar=0)  # type: ignore
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/lib/function_base.py:2748: RuntimeWarning: divide by zero encountered in divide
+  c *= np.true_divide(1, fact)
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/lib/function_base.py:2748: RuntimeWarning: invalid value encountered in multiply
+  c *= np.true_divide(1, fact)
+Finished filtering outputs for s_spcc6803 into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/s_spcc6803/plots/
+----------------------------------------------------
+
+Removing existing data
+Filtering plots for x_albi
+Finished filtering outputs for x_albi into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/x_albi/plots/
+----------------------------------------------------
+
+Removing existing data
+Filtering plots for x_ory
+Finished filtering outputs for x_ory into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/x_ory/plots/
+----------------------------------------------------
+
+Done
