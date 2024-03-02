@@ -22,7 +22,7 @@ DSETS=(
     # "b_anth"
     # "b_frag"
     # "b_pseudo"
-    # "b_sub_168"
+    "b_sub_168"
     # "b_theta"
     # "b_xyla"
     # "c_basil"
@@ -69,8 +69,8 @@ for DSET in ${DSETS[@]}; do
         -o $SAVE_ROOT \
         --ext-prop -0.3 1.0 \
         --conv \
-        --noplots \
         --min-cov-depth 15
+    # --noplots \
     # --statplot \
 
     echo "Finished filtering outputs for $DSET into $SAVE_ROOT"
