@@ -201,6 +201,7 @@
 }
 
 {
-    save_path <- str_glue("plots/{dset}_fragment_sizes.svg")
-    ggsave(save_path, dpi = 320, units = "px", width = 5000, height = 3500)
+    alph <- 2
+    save_path <- str_glue("plots/{dset}_fragment_sizes.png")
+    ggsave(save_path, dpi = 320*alph, units = "px", width = 5000*alph, height = 3500*alph)
 }
