@@ -35,7 +35,7 @@
 }
 
 {
-    dset <- "e_fae"
+    dset <- "b_sub_168"
     # dset <- "Acidimicrobiia"
     df <- read.csv(str_glue("../alignment/outputs/{dset}/plots/peak_log.csv"))
     statdf <- read.csv(str_glue("../alignment/outputs/{dset}/plots/cluster_stats.csv"))
@@ -80,7 +80,7 @@
             plot.title = element_text(size = 14),
             legend.position = "none"
         ) +
-        coord_cartesian(ylim = c(-0.7, 0.5)) +
+        coord_cartesian(ylim = c(-1.2, 0.5)) +
         guides(alpha = "none", color = "none")
 
     if (nrow(statdf) > 0) {
