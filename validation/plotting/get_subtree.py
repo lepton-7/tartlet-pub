@@ -1,4 +1,5 @@
-#!/usr/bin/env python3
+# Got this from: https://github.com/fredjaya/gtdb_trees
+
 """
 Prunes a bigger tree based on a list of taxa.  
 
