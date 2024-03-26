@@ -1,6 +1,7 @@
 {
     library(tidyverse)
     library(ggplot2)
+    library(rjson)
     library(reshape2)
     library(ggtree)
     library(stringr)
@@ -211,11 +212,16 @@
 # The big results fig with a tax tree and inferred riboswitch mechs
 
 {
-    tree <- read.tree("data/taxa_list.tree")
+    tree <- read.tree("data/big_fig/taxa_list.tree")
+    phylo_dict <- fromJSON(file = "data/big_fig/fancy_tips.json")
 
     tax_tree <- ggtree(tree, layout = "rectangular", ladderize = TRUE) +
         ggtitle("Validation set tax tree") +
         geom_tiplab(size = 2, linesize = .5, align = TRUE)
+
+    for (i in seq_along(tree$tip.label)) {
+        tax_tree$data$label[i] <- phylo_dict[[tax_tree$data$label[i]]][1]
+    }
 
     tax_tree
 }
