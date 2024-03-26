@@ -34,8 +34,8 @@
     }
 }
 
-{
-    dset <- "b_sub_168"
+peakplotmaker <- function(dset) {
+    # dset <- "b_sub_168"
     # dset <- "Acidimicrobiia"
     df <- read.csv(str_glue("../alignment/outputs/{dset}/plots/peak_log.csv"))
     statdf <- read.csv(str_glue("../alignment/outputs/{dset}/plots/cluster_stats.csv"))
@@ -87,11 +87,49 @@
         peakplot <- peakplot + geom_text(data = statdf, mapping = aes(x = pos_mean, y = 0.3, label = ann_text), size = 12, fontface = "bold")
     }
 
-    peakplot
+    # peakplot
+
+    print(str_glue("Saving plot: {dset}"))
+    alph <- 2.5
+    save_path <- str_glue("plots/peak_plots/{dset}_peak_plot.png")
+    ggsave(save_path, plot = peakplot, dpi = 320 * alph, units = "px", width = 7000 * alph, height = 4000 * alph)
 }
 
 {
-    alph <- 2.5
-    save_path <- str_glue("plots/peak_plots/{dset}_peak_plot.png")
-    ggsave(save_path, dpi = 320 * alph, units = "px", width = 7000 * alph, height = 4000 * alph)
+    dsets <- c(
+        # "a_baum",
+        # "a_fischeri_ES114",
+        # "a_kunk",
+        # "a_rabiei",
+        "b_anth",
+        "b_frag",
+        "b_pseudo",
+        "b_sub_168",
+        "b_theta",
+        "b_xyla",
+        # "c_basil",
+        "c_diff",
+        "c_vibrioides",
+        "d_vulg",
+        "e_coli",
+        "e_fae",
+        "e_limo",
+        "k_pneum",
+        "m_smeg",
+        "m_tuber",
+        "n_gonorr",
+        "p_fluor",
+        "s_coelicolor",
+        "s_elon",
+        "s_enter_typh",
+        "s_epi",
+        "s_meli",
+        "s_sanguinis",
+        "s_spcc6803",
+        "x_albi",
+        "x_ory"
+    )
 }
+
+sapply(dsets, peakplotmaker)
+# peakplotmaker("a_baum")
