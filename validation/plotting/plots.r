@@ -2,6 +2,7 @@
     library(tidyverse)
     library(ggplot2)
     library(reshape2)
+    library(ggtree)
     library(stringr)
     setwd("validation/plotting")
 }
@@ -203,5 +204,18 @@
 {
     alph <- 2
     save_path <- str_glue("plots/{dset}_fragment_sizes.png")
-    ggsave(save_path, dpi = 320*alph, units = "px", width = 5000*alph, height = 3500*alph)
+    ggsave(save_path, dpi = 320 * alph, units = "px", width = 5000 * alph, height = 3500 * alph)
+}
+
+# -----------------------------------------------------------------------
+# The big results fig with a tax tree and inferred riboswitch mechs
+
+{
+    tree <- read.tree("data/taxa_list.tree")
+
+    tax_tree <- ggtree(tree, layout = "rectangular", ladderize = TRUE) +
+        ggtitle("Validation set tax tree") +
+        geom_tiplab(size = 2, linesize = .5, align = TRUE)
+
+    tax_tree
 }
