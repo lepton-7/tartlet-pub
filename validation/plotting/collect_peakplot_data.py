@@ -52,7 +52,7 @@ for clpath in cluster_paths:
                 "microbe": dset,
                 "rowid": k,
                 "target_name": classname(k),
-                "is_active": bool(v),
+                "is_active": int(bool(v)),
             }
             for k, v in act_tally.items()
         ]
