@@ -4,6 +4,7 @@
     library(reshape2)
     library(stringr)
     library(ggforce)
+    library(patchwork)
     setwd("validation/plotting")
 }
 
@@ -119,6 +120,7 @@ peakplotmaker <- function(dset) {
         "m_tuber",
         "n_gonorr",
         "p_fluor",
+        "p_salmo",
         "s_coelicolor",
         "s_elon",
         "s_enter_typh",

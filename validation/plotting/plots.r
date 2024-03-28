@@ -5,6 +5,7 @@
     library(reshape2)
     library(ggtree)
     library(stringr)
+    library(patchwork)
     setwd("validation/plotting")
 }
 
@@ -215,12 +216,13 @@
     tree <- read.tree("data/big_fig/taxa_list.tree")
     phylo_dict <- fromJSON(file = "data/big_fig/fancy_tips.json")
 
-    tax_tree <- ggtree(tree, layout = "rectangular", ladderize = TRUE) +
+    tax_tree <- ggtree(tree, size = 0.8, layout = "rectangular", ladderize = FALSE, branch.length = -10) +
         ggtitle("Validation set tax tree") +
-        geom_tiplab(size = 2, linesize = .5, align = TRUE)
+        geom_tiplab(size = 8, linesize = .5, align = TRUE) +
+        xlim_tree(5)
 
     for (i in seq_along(tree$tip.label)) {
-        tax_tree$data$label[i] <- phylo_dict[[tax_tree$data$label[i]]][1]
+        tax_tree$data$label[i] <- phylo_dict[[tax_tree$data$label[i]]][2]
     }
 
     tax_tree
