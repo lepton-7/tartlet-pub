@@ -1,0 +1,618 @@
+Running reference generation and switch bounding for:
+a_fischeri_ES114 a_kunk b_anth b_frag b_pseudo b_sub_168 b_theta b_xyla c_basil c_diff c_vibrioides d_vulg e_coli e_fae e_limo k_pneum m_smeg m_tuber n_gonorr p_aeru p_cholor_aureo3084 p_fluor p_salmo s_coelicolor s_elon s_enter_typh s_epi s_meli s_sanguinis s_spcc6803 x_albi x_ory
+
+
+Started 1 instance(s)
+Completed gather on 0
+Starting unified write-out.
+Finished reference generation for a_fischeri_ES114 into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/a_fischeri_ES114/switch_seqs_delta1000-1000
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/switch_loc_in_ref.py", line 61, in main
+    table = table[
+            ^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/pandas/core/frame.py", line 3902, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 6114, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 6178, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['orf_from', 'orf_to'] not in index"
+Finished switch bounds generation for a_fischeri_ES114 into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/a_fischeri_ES114/switch_seqs_delta1000-1000
+
+Started 1 instance(s)
+Completed gather on 0
+Starting unified write-out.
+Finished reference generation for a_kunk into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/a_kunk/switch_seqs_delta1000-1000
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/switch_loc_in_ref.py", line 61, in main
+    table = table[
+            ^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/pandas/core/frame.py", line 3902, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 6114, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 6178, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['orf_from', 'orf_to'] not in index"
+Finished switch bounds generation for a_kunk into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/a_kunk/switch_seqs_delta1000-1000
+
+Started 1 instance(s)
+Completed gather on 0
+Starting unified write-out.
+Finished reference generation for b_anth into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/b_anth/switch_seqs_delta1000-1000
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/switch_loc_in_ref.py", line 61, in main
+    table = table[
+            ^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/pandas/core/frame.py", line 3902, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 6114, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 6178, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['orf_from', 'orf_to'] not in index"
+Finished switch bounds generation for b_anth into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/b_anth/switch_seqs_delta1000-1000
+
+Started 1 instance(s)
+Completed gather on 0
+Starting unified write-out.
+Finished reference generation for b_frag into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/b_frag/switch_seqs_delta1000-1000
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/switch_loc_in_ref.py", line 61, in main
+    table = table[
+            ^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/pandas/core/frame.py", line 3902, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 6114, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 6178, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['orf_from', 'orf_to'] not in index"
+Finished switch bounds generation for b_frag into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/b_frag/switch_seqs_delta1000-1000
+
+Started 1 instance(s)
+Completed gather on 0
+Starting unified write-out.
+Finished reference generation for b_pseudo into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/b_pseudo/switch_seqs_delta1000-1000
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/switch_loc_in_ref.py", line 61, in main
+    table = table[
+            ^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/pandas/core/frame.py", line 3902, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 6114, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 6178, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['orf_from', 'orf_to'] not in index"
+Finished switch bounds generation for b_pseudo into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/b_pseudo/switch_seqs_delta1000-1000
+
+Started 1 instance(s)
+Completed gather on 0
+Starting unified write-out.
+Finished reference generation for b_sub_168 into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/b_sub_168/switch_seqs_delta1000-1000
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/switch_loc_in_ref.py", line 61, in main
+    table = table[
+            ^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/pandas/core/frame.py", line 3902, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 6114, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 6178, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['orf_from', 'orf_to'] not in index"
+Finished switch bounds generation for b_sub_168 into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/b_sub_168/switch_seqs_delta1000-1000
+
+Started 1 instance(s)
+Completed gather on 0
+Starting unified write-out.
+Finished reference generation for b_theta into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/b_theta/switch_seqs_delta1000-1000
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/switch_loc_in_ref.py", line 61, in main
+    table = table[
+            ^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/pandas/core/frame.py", line 3902, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 6114, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 6178, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['orf_from', 'orf_to'] not in index"
+Finished switch bounds generation for b_theta into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/b_theta/switch_seqs_delta1000-1000
+
+Started 1 instance(s)
+Completed gather on 0
+Starting unified write-out.
+Finished reference generation for b_xyla into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/b_xyla/switch_seqs_delta1000-1000
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/switch_loc_in_ref.py", line 61, in main
+    table = table[
+            ^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/pandas/core/frame.py", line 3902, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 6114, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 6178, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['orf_from', 'orf_to'] not in index"
+Finished switch bounds generation for b_xyla into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/b_xyla/switch_seqs_delta1000-1000
+
+Started 1 instance(s)
+Completed gather on 0
+Starting unified write-out.
+Finished reference generation for c_basil into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/c_basil/switch_seqs_delta1000-1000
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/switch_loc_in_ref.py", line 61, in main
+    table = table[
+            ^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/pandas/core/frame.py", line 3902, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 6114, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 6178, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['orf_from', 'orf_to'] not in index"
+Finished switch bounds generation for c_basil into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/c_basil/switch_seqs_delta1000-1000
+
+Started 1 instance(s)
+Completed gather on 0
+Starting unified write-out.
+Finished reference generation for c_diff into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/c_diff/switch_seqs_delta1000-1000
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/switch_loc_in_ref.py", line 61, in main
+    table = table[
+            ^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/pandas/core/frame.py", line 3902, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 6114, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 6178, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['orf_from', 'orf_to'] not in index"
+Finished switch bounds generation for c_diff into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/c_diff/switch_seqs_delta1000-1000
+
+Started 1 instance(s)
+Completed gather on 0
+Starting unified write-out.
+Finished reference generation for c_vibrioides into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/c_vibrioides/switch_seqs_delta1000-1000
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/switch_loc_in_ref.py", line 61, in main
+    table = table[
+            ^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/pandas/core/frame.py", line 3902, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 6114, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 6178, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['orf_from', 'orf_to'] not in index"
+Finished switch bounds generation for c_vibrioides into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/c_vibrioides/switch_seqs_delta1000-1000
+
+Started 1 instance(s)
+Completed gather on 0
+Starting unified write-out.
+Finished reference generation for d_vulg into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/d_vulg/switch_seqs_delta1000-1000
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/switch_loc_in_ref.py", line 61, in main
+    table = table[
+            ^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/pandas/core/frame.py", line 3902, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 6114, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 6178, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['orf_from', 'orf_to'] not in index"
+Finished switch bounds generation for d_vulg into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/d_vulg/switch_seqs_delta1000-1000
+
+Started 1 instance(s)
+Completed gather on 0
+Starting unified write-out.
+Finished reference generation for e_coli into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/e_coli/switch_seqs_delta1000-1000
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/switch_loc_in_ref.py", line 61, in main
+    table = table[
+            ^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/pandas/core/frame.py", line 3902, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 6114, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 6178, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['orf_from', 'orf_to'] not in index"
+Finished switch bounds generation for e_coli into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/e_coli/switch_seqs_delta1000-1000
+
+Started 1 instance(s)
+Completed gather on 0
+Starting unified write-out.
+Finished reference generation for e_fae into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/e_fae/switch_seqs_delta1000-1000
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/switch_loc_in_ref.py", line 61, in main
+    table = table[
+            ^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/pandas/core/frame.py", line 3902, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 6114, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 6178, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['orf_from', 'orf_to'] not in index"
+Finished switch bounds generation for e_fae into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/e_fae/switch_seqs_delta1000-1000
+
+Started 1 instance(s)
+Completed gather on 0
+Starting unified write-out.
+Finished reference generation for e_limo into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/e_limo/switch_seqs_delta1000-1000
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/switch_loc_in_ref.py", line 61, in main
+    table = table[
+            ^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/pandas/core/frame.py", line 3902, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 6114, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 6178, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['orf_from', 'orf_to'] not in index"
+Finished switch bounds generation for e_limo into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/e_limo/switch_seqs_delta1000-1000
+
+Started 1 instance(s)
+Completed gather on 0
+Starting unified write-out.
+Finished reference generation for k_pneum into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/k_pneum/switch_seqs_delta1000-1000
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/switch_loc_in_ref.py", line 61, in main
+    table = table[
+            ^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/pandas/core/frame.py", line 3902, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 6114, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 6178, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['orf_from', 'orf_to'] not in index"
+Finished switch bounds generation for k_pneum into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/k_pneum/switch_seqs_delta1000-1000
+
+Started 1 instance(s)
+Completed gather on 0
+Starting unified write-out.
+Finished reference generation for m_smeg into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/m_smeg/switch_seqs_delta1000-1000
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tart-targeted", line 33, in <module>
+    sys.exit(load_entry_point('bio-tart', 'console_scripts', 'tart-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tart/tart/targeted/switch_loc_in_ref.py", line 61, in main
+    table = table[
+            ^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/pandas/core/frame.py", line 3902, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 6114, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 6178, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['orf_from', 'orf_to'] not in index"
+Finished switch bounds generation for m_smeg into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/m_smeg/switch_seqs_delta1000-1000
+
+slurmstepd: error: *** JOB 27829573 ON p0198 CANCELLED AT 2024-03-27T23:04:08 ***
+slurmstepd: error: *** STEP 27829573.34 ON p0198 CANCELLED AT 2024-03-27T23:04:08 ***

@@ -16,7 +16,6 @@ TABLE="$RT/validation/tables/inf_results.csv"
 GENOMES="$RT/validation/genomes"
 
 DSETS=(
-    "a_baum"
     "a_fischeri_ES114"
     "a_kunk"
     "b_anth"
