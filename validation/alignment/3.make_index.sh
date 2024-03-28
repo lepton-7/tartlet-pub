@@ -12,10 +12,9 @@
 set echo on
 
 DSETS=(
-    "b_anth"
-    "n_gonorr"
+    "p_salmo"
+    "p_cholor_aureo3084"
 )
-
 
 for DSET in ${DSETS[@]}; do
 

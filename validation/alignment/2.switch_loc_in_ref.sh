@@ -16,8 +16,8 @@ TABLE="$RT/validation/tables/inf_results.csv"
 GENOMES="$RT/validation/genomes"
 
 DSETS=(
-    "b_anth"
-    "n_gonorr"
+    "p_salmo"
+    "p_cholor_aureo3084"
 )
 
 PRE_DEL=1000

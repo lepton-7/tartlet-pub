@@ -20,7 +20,7 @@ set echo on
 IDX=$((SLURM_ARRAY_TASK_ID))
 
 DATECODE="20240209"
-DSET="b_sub_168"
+DSET="p_salmo"
 
 RT="$HOME/packages/tart"
 
