@@ -6,12 +6,10 @@
 #SBATCH --account=PDS0325
 #SBATCH --mail-type=BEGIN,END,FAIL
 
-# --------------------------------
-# There are 60 pairs of readsets
-#SBATCH --array=0-60
-# --------------------------------
-
 # RUN THIS TO LAUNCH JOB
+## bash ./4_1.launch_alignarray.sh
+
+# DEPRECATED
 ## DATECODE="$(date +"%Y-%m-%d_%H-%M-%S")"; sbatch --output=jobs/4.b_sub_168.align_reads.out.$DATECODE.%j 4.align_reads.sh
 
 # set -x
@@ -54,8 +52,8 @@ mkdir -p "$ALIGN_DIR/$STEM"
 
 srun hisat2 \
     -x "$REF_DIR/${STEM}_index/${STEM}_index" \
-    -1 "$SEQ_FILE".1.fq.gz \
-    -2 "$SEQ_FILE".2.fq.gz \
+    -1 "$SEQ_FILE"_1.fastq.gz \
+    -2 "$SEQ_FILE"_2.fastq.gz \
     -S "$ALIGN_DIR/$STEM/$(basename "$SEQ_FILE").sam" \
     -t \
     --no-unal \

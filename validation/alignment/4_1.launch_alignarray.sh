@@ -1,6 +1,6 @@
 DSETS=(
-    "a_fischeri_ES114"
-    "a_kunk"
+    # "a_fischeri_ES114"
+    # "a_kunk"
     # "b_anth"
     # "b_frag"
     # "b_pseudo"
@@ -23,12 +23,12 @@ DSETS=(
     # "s_coelicolor"
     # "s_elon"
     # "s_enter_typh"
-    # "s_epi"
-    # "s_meli"
-    # "s_sanguinis"
-    # "s_spcc6803"
-    # "x_albi"
-    # "x_ory"
+    "s_epi"
+    "s_meli"
+    "s_sanguinis"
+    "s_spcc6803"
+    "x_albi"
+    "x_ory"
 )
 # These were removed from ^
 #   "c_basil"
@@ -40,5 +40,5 @@ for DSET in ${DSETS[@]}; do
     
     PAIRS=$(ls $SEQ_DIR/*_1.fastq.gz | wc -l)
 
-    sbatch --export=ALL,DSET="$DSET" --array=0-$PAIRS --output=./4.$DSET.align_reads.out.$DATECODE.%j test.sh
+    sbatch --export=ALL,DSET="$DSET" --array=0-$PAIRS --output=jobs/4.$DSET.align_reads.out.$DATECODE.%j 4.align_reads.sh
 done
