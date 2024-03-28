@@ -1,0 +1,261 @@
+Running reference generation and switch bounding for:
+a_fischeri_ES114 a_kunk b_anth b_frag b_pseudo b_sub_168 b_theta b_xyla c_basil c_diff c_vibrioides d_vulg e_coli e_fae e_limo k_pneum m_smeg m_tuber n_gonorr p_aeru p_cholor_aureo3084 p_fluor p_salmo s_coelicolor s_elon s_enter_typh s_epi s_meli s_sanguinis s_spcc6803 x_albi x_ory
+
+
+Started 1 instance(s)
+Completed gather on 0
+Starting unified write-out.
+Finished reference generation for a_fischeri_ES114 into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/a_fischeri_ES114/switch_seqs_delta1000-1000
+Started 1 instances
+Completed gather on 0
+Finished switch bounds generation for a_fischeri_ES114 into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/a_fischeri_ES114/switch_seqs_delta1000-1000
+
+Started 1 instance(s)
+Completed gather on 0
+Starting unified write-out.
+Finished reference generation for a_kunk into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/a_kunk/switch_seqs_delta1000-1000
+Started 1 instances
+Completed gather on 0
+Finished switch bounds generation for a_kunk into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/a_kunk/switch_seqs_delta1000-1000
+
+Started 1 instance(s)
+Completed gather on 0
+Starting unified write-out.
+Finished reference generation for b_anth into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/b_anth/switch_seqs_delta1000-1000
+Started 1 instances
+Completed gather on 0
+Finished switch bounds generation for b_anth into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/b_anth/switch_seqs_delta1000-1000
+
+Started 1 instance(s)
+Completed gather on 0
+Starting unified write-out.
+Finished reference generation for b_frag into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/b_frag/switch_seqs_delta1000-1000
+Started 1 instances
+Completed gather on 0
+Finished switch bounds generation for b_frag into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/b_frag/switch_seqs_delta1000-1000
+
+Started 1 instance(s)
+Completed gather on 0
+Starting unified write-out.
+Finished reference generation for b_pseudo into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/b_pseudo/switch_seqs_delta1000-1000
+Started 1 instances
+Completed gather on 0
+Finished switch bounds generation for b_pseudo into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/b_pseudo/switch_seqs_delta1000-1000
+
+Started 1 instance(s)
+Completed gather on 0
+Starting unified write-out.
+Finished reference generation for b_sub_168 into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/b_sub_168/switch_seqs_delta1000-1000
+Started 1 instances
+Completed gather on 0
+Finished switch bounds generation for b_sub_168 into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/b_sub_168/switch_seqs_delta1000-1000
+
+Started 1 instance(s)
+Completed gather on 0
+Starting unified write-out.
+Finished reference generation for b_theta into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/b_theta/switch_seqs_delta1000-1000
+Started 1 instances
+Completed gather on 0
+Finished switch bounds generation for b_theta into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/b_theta/switch_seqs_delta1000-1000
+
+Started 1 instance(s)
+Completed gather on 0
+Starting unified write-out.
+Finished reference generation for b_xyla into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/b_xyla/switch_seqs_delta1000-1000
+Started 1 instances
+Completed gather on 0
+Finished switch bounds generation for b_xyla into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/b_xyla/switch_seqs_delta1000-1000
+
+Started 1 instance(s)
+Completed gather on 0
+Starting unified write-out.
+Finished reference generation for c_basil into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/c_basil/switch_seqs_delta1000-1000
+Started 1 instances
+Completed gather on 0
+Finished switch bounds generation for c_basil into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/c_basil/switch_seqs_delta1000-1000
+
+Started 1 instance(s)
+Completed gather on 0
+Starting unified write-out.
+Finished reference generation for c_diff into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/c_diff/switch_seqs_delta1000-1000
+Started 1 instances
+Completed gather on 0
+Finished switch bounds generation for c_diff into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/c_diff/switch_seqs_delta1000-1000
+
+Started 1 instance(s)
+Completed gather on 0
+Starting unified write-out.
+Finished reference generation for c_vibrioides into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/c_vibrioides/switch_seqs_delta1000-1000
+Started 1 instances
+Completed gather on 0
+Finished switch bounds generation for c_vibrioides into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/c_vibrioides/switch_seqs_delta1000-1000
+
+Started 1 instance(s)
+Completed gather on 0
+Starting unified write-out.
+Finished reference generation for d_vulg into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/d_vulg/switch_seqs_delta1000-1000
+Started 1 instances
+Completed gather on 0
+Finished switch bounds generation for d_vulg into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/d_vulg/switch_seqs_delta1000-1000
+
+Started 1 instance(s)
+Completed gather on 0
+Starting unified write-out.
+Finished reference generation for e_coli into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/e_coli/switch_seqs_delta1000-1000
+Started 1 instances
+Completed gather on 0
+Finished switch bounds generation for e_coli into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/e_coli/switch_seqs_delta1000-1000
+
+Started 1 instance(s)
+Completed gather on 0
+Starting unified write-out.
+Finished reference generation for e_fae into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/e_fae/switch_seqs_delta1000-1000
+Started 1 instances
+Completed gather on 0
+Finished switch bounds generation for e_fae into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/e_fae/switch_seqs_delta1000-1000
+
+Started 1 instance(s)
+Completed gather on 0
+Starting unified write-out.
+Finished reference generation for e_limo into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/e_limo/switch_seqs_delta1000-1000
+Started 1 instances
+Completed gather on 0
+Finished switch bounds generation for e_limo into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/e_limo/switch_seqs_delta1000-1000
+
+Started 1 instance(s)
+Completed gather on 0
+Starting unified write-out.
+Finished reference generation for k_pneum into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/k_pneum/switch_seqs_delta1000-1000
+Started 1 instances
+Completed gather on 0
+Finished switch bounds generation for k_pneum into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/k_pneum/switch_seqs_delta1000-1000
+
+Started 1 instance(s)
+Completed gather on 0
+Starting unified write-out.
+Finished reference generation for m_smeg into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/m_smeg/switch_seqs_delta1000-1000
+Started 1 instances
+Completed gather on 0
+Finished switch bounds generation for m_smeg into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/m_smeg/switch_seqs_delta1000-1000
+
+Started 1 instance(s)
+Completed gather on 0
+Starting unified write-out.
+Finished reference generation for m_tuber into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/m_tuber/switch_seqs_delta1000-1000
+Started 1 instances
+Completed gather on 0
+Finished switch bounds generation for m_tuber into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/m_tuber/switch_seqs_delta1000-1000
+
+Started 1 instance(s)
+Completed gather on 0
+Starting unified write-out.
+Finished reference generation for n_gonorr into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/n_gonorr/switch_seqs_delta1000-1000
+Started 1 instances
+Completed gather on 0
+Finished switch bounds generation for n_gonorr into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/n_gonorr/switch_seqs_delta1000-1000
+
+Started 1 instance(s)
+Completed gather on 0
+Starting unified write-out.
+Finished reference generation for p_aeru into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/p_aeru/switch_seqs_delta1000-1000
+Started 1 instances
+Completed gather on 0
+Finished switch bounds generation for p_aeru into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/p_aeru/switch_seqs_delta1000-1000
+
+Started 1 instance(s)
+Completed gather on 0
+Starting unified write-out.
+Finished reference generation for p_cholor_aureo3084 into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/p_cholor_aureo3084/switch_seqs_delta1000-1000
+Started 1 instances
+Completed gather on 0
+Finished switch bounds generation for p_cholor_aureo3084 into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/p_cholor_aureo3084/switch_seqs_delta1000-1000
+
+Started 1 instance(s)
+Completed gather on 0
+Starting unified write-out.
+Finished reference generation for p_fluor into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/p_fluor/switch_seqs_delta1000-1000
+Started 1 instances
+Completed gather on 0
+Finished switch bounds generation for p_fluor into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/p_fluor/switch_seqs_delta1000-1000
+
+Started 1 instance(s)
+Completed gather on 0
+Starting unified write-out.
+Finished reference generation for p_salmo into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/p_salmo/switch_seqs_delta1000-1000
+Started 1 instances
+Completed gather on 0
+Finished switch bounds generation for p_salmo into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/p_salmo/switch_seqs_delta1000-1000
+
+Started 1 instance(s)
+Completed gather on 0
+Starting unified write-out.
+Finished reference generation for s_coelicolor into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/s_coelicolor/switch_seqs_delta1000-1000
+Started 1 instances
+Completed gather on 0
+Finished switch bounds generation for s_coelicolor into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/s_coelicolor/switch_seqs_delta1000-1000
+
+Started 1 instance(s)
+Completed gather on 0
+Starting unified write-out.
+Finished reference generation for s_elon into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/s_elon/switch_seqs_delta1000-1000
+Started 1 instances
+Completed gather on 0
+Finished switch bounds generation for s_elon into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/s_elon/switch_seqs_delta1000-1000
+
+Started 1 instance(s)
+Completed gather on 0
+Starting unified write-out.
+Finished reference generation for s_enter_typh into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/s_enter_typh/switch_seqs_delta1000-1000
+Started 1 instances
+Completed gather on 0
+Finished switch bounds generation for s_enter_typh into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/s_enter_typh/switch_seqs_delta1000-1000
+
+Started 1 instance(s)
+Completed gather on 0
+Starting unified write-out.
+Finished reference generation for s_epi into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/s_epi/switch_seqs_delta1000-1000
+Started 1 instances
+Completed gather on 0
+Finished switch bounds generation for s_epi into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/s_epi/switch_seqs_delta1000-1000
+
+Started 1 instance(s)
+Completed gather on 0
+Starting unified write-out.
+Finished reference generation for s_meli into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/s_meli/switch_seqs_delta1000-1000
+Started 1 instances
+Completed gather on 0
+Finished switch bounds generation for s_meli into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/s_meli/switch_seqs_delta1000-1000
+
+Started 1 instance(s)
+Completed gather on 0
+Starting unified write-out.
+Finished reference generation for s_sanguinis into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/s_sanguinis/switch_seqs_delta1000-1000
+Started 1 instances
+Completed gather on 0
+Finished switch bounds generation for s_sanguinis into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/s_sanguinis/switch_seqs_delta1000-1000
+
+Started 1 instance(s)
+Completed gather on 0
+Starting unified write-out.
+Finished reference generation for s_spcc6803 into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/s_spcc6803/switch_seqs_delta1000-1000
+Started 1 instances
+Completed gather on 0
+Finished switch bounds generation for s_spcc6803 into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/s_spcc6803/switch_seqs_delta1000-1000
+
+Started 1 instance(s)
+Completed gather on 0
+Starting unified write-out.
+Finished reference generation for x_albi into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/x_albi/switch_seqs_delta1000-1000
+Started 1 instances
+Completed gather on 0
+Finished switch bounds generation for x_albi into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/x_albi/switch_seqs_delta1000-1000
+
+Started 1 instance(s)
+Completed gather on 0
+Starting unified write-out.
+Finished reference generation for x_ory into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/x_ory/switch_seqs_delta1000-1000
+Started 1 instances
+Completed gather on 0
+Finished switch bounds generation for x_ory into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/x_ory/switch_seqs_delta1000-1000
+
+Done
