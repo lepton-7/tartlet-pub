@@ -42,5 +42,5 @@ PreQ1                RF00522   NC_000964.3          -          cm        1      
 # Target file:     /users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm
 # Option settings: cmscan --tblout /users/PDS0325/sachitk26/packages/tart/validation/infernal/results/Bsubtilis168.GCF_000009045.1.fna.txt --noali --cut_ga --rfam --nohmmonly /users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm /users/PDS0325/sachitk26/packages/tart/validation/genomes/Bsubtilis168.GCF_000009045.1.fna 
 # Current dir:     /users/PDS0325/sachitk26/packages/tart/validation/infernal
-# Date:            Mon Nov 27 16:56:30 2023
+# Date:            Wed Mar 27 22:53:14 2024
 # [ok]

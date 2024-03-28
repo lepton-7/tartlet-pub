@@ -15,5 +15,5 @@ SAH_riboswitch       RF01057   CM001559.1           -          cm        1      
 # Target file:     /users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm
 # Option settings: cmscan --tblout /users/PDS0325/sachitk26/packages/tart/validation/infernal/results/Pchlororaphisaureofaciens30-84.GCA_000281915.1.fna.txt --noali --cut_ga --rfam --nohmmonly /users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm /users/PDS0325/sachitk26/packages/tart/validation/genomes/Pchlororaphisaureofaciens30-84.GCA_000281915.1.fna 
 # Current dir:     /users/PDS0325/sachitk26/packages/tart/validation/infernal
-# Date:            Mon Nov 27 16:56:34 2023
+# Date:            Wed Mar 27 22:53:19 2024
 # [ok]

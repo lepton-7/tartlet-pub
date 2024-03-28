@@ -12,9 +12,9 @@ TPP                  RF00059   NC_000913.3          -          cm        1      
 # Program:         cmscan
 # Version:         1.1.4 (Dec 2020)
 # Pipeline mode:   SCAN
-# Query file:      /users/PDS0325/sachitk26/packages/tart/validation/genomes/Ecoli.NC_000913.3.fna
+# Query file:      /users/PDS0325/sachitk26/packages/tart/validation/genomes/Ecoli.GCA_000005845.2.fna
 # Target file:     /users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm
-# Option settings: cmscan --tblout /users/PDS0325/sachitk26/packages/tart/validation/infernal/results/Ecoli.NC_000913.3.fna.txt --noali --cut_ga --rfam --nohmmonly /users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm /users/PDS0325/sachitk26/packages/tart/validation/genomes/Ecoli.NC_000913.3.fna 
+# Option settings: cmscan --tblout /users/PDS0325/sachitk26/packages/tart/validation/infernal/results/Ecoli.GCA_000005845.2.fna.txt --noali --cut_ga --rfam --nohmmonly /users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm /users/PDS0325/sachitk26/packages/tart/validation/genomes/Ecoli.GCA_000005845.2.fna 
 # Current dir:     /users/PDS0325/sachitk26/packages/tart/validation/infernal
-# Date:            Mon Nov 27 16:56:32 2023
+# Date:            Wed Mar 27 22:53:16 2024
 # [ok]

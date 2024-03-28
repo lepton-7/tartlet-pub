@@ -45,5 +45,5 @@ Fluoride             RF01734   CP019962.1           -          cm        1      
 # Target file:     /users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm
 # Option settings: cmscan --tblout /users/PDS0325/sachitk26/packages/tart/validation/infernal/results/Elimosum.GCA_000807675.2.fna.txt --noali --cut_ga --rfam --nohmmonly /users/PDS0325/sachitk26/packages/tart/tart/utils/data/riboswitches_14.9.cm /users/PDS0325/sachitk26/packages/tart/validation/genomes/Elimosum.GCA_000807675.2.fna 
 # Current dir:     /users/PDS0325/sachitk26/packages/tart/validation/infernal
-# Date:            Mon Nov 27 16:56:31 2023
+# Date:            Wed Mar 27 22:53:16 2024
 # [ok]
