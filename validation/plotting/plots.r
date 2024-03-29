@@ -6,6 +6,8 @@
     library(ggtree)
     library(stringr)
     library(patchwork)
+    library(dplyr)
+    library(ggforce)
     setwd("validation/plotting")
 }
 
@@ -17,6 +19,7 @@
 # Colour palattes
 {
     decision_pal <- c("pass" = "#6956e7", "fail" = "#eaef5b", "incon" = "#000000")
+    active_pal <- c("0" = "black", "1" = "#bb9601")
 }
 
 # themes
@@ -212,18 +215,68 @@
 # -----------------------------------------------------------------------
 # The big results fig with a tax tree and inferred riboswitch mechs
 
+# Funcs
 {
-    tree <- read.tree("data/big_fig/taxa_list.tree")
-    phylo_dict <- fromJSON(file = "data/big_fig/fancy_tips.json")
+    tree_y <- function(ggtree, data) {
+        if (!inherits(ggtree, "ggtree")) {
+            stop("not a ggtree object")
+        }
+        left_join(select(data, label), select(ggtree$data, label, y)) %>%
+            pull(y)
+    }
+}
 
-    tax_tree <- ggtree(tree, size = 0.8, layout = "rectangular", ladderize = FALSE, branch.length = -10) +
-        ggtitle("Validation set tax tree") +
-        geom_tiplab(size = 8, linesize = .5, align = TRUE) +
-        xlim_tree(5)
+{
+    {
+        tree <- read.tree("data/big_fig/taxa_list.tree")
+        phylo_dict <- fromJSON(file = "data/big_fig/fancy_tips.json")
 
-    for (i in seq_along(tree$tip.label)) {
-        tax_tree$data$label[i] <- phylo_dict[[tax_tree$data$label[i]]][2]
+        tax_tree <- ggtree(tree, size = 0.8, layout = "rectangular", ladderize = FALSE, branch.length = -10) +
+            # ggtitle("Validation set tax tree") +
+            geom_tiplab(size = 8, linesize = .5, align = TRUE) +
+            xlim_tree(2.5)
+
+        for (i in seq_along(tree$tip.label)) {
+            tax_tree$data$label[i] <- phylo_dict[[tax_tree$data$label[i]]][2]
+        }
+
+        tax_tree
     }
 
-    tax_tree
+    {
+        inf_df <- read.csv("data/big_fig/locus_inferences_sum.csv")
+        inf_df$inactive <- as.numeric(inf_df$total) - as.numeric(inf_df$active)
+
+        df <- read.csv("data/big_fig/locus_inferences.csv")
+        df$is_active <- as.factor(df$is_active)
+
+        df$label <- df$microbe
+
+        pie_mat <- ggplot(df, aes(x = target_name, y = tree_y(tax_tree, df), colour = is_active)) +
+            def_theme +
+            theme(
+                axis.text.x = element_text(size = 13, angle = 70, hjust = 1, colour = "black")
+            ) +
+            scale_colour_manual(name = "Transcriptionally active", values = active_pal) +
+            geom_point(
+                size = 2,
+                position = position_jitter(width = 0.2, height = 0.2),
+            ) +
+            guides(colour = "none")
+
+        pie_mat
+        # ggplot2::coord_fixed() +
+        # geom_circle(aes(x0 = 6, y0 = 9, r = 5, fill = 1))
+    }
+
+    patched <- tax_tree + pie_mat
+
+    patched
 }
+
+{
+    alph <- 2
+    save_path <- str_glue("plots/big_fig.png")
+    ggsave(save_path, dpi = 320 * alph, units = "px", width = 6000 * alph, height = 4000 * alph)
+}
+
