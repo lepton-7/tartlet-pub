@@ -1,7 +1,7 @@
 #!/bin/bash
 
-#SBATCH --time=01:30:00
-#SBATCH --nodes=3 --cpus-per-task=1
+#SBATCH --time=02:00:00
+#SBATCH --nodes=6 --cpus-per-task=1
 
 #SBATCH --account=PDS0325
 #SBATCH --mail-type=BEGIN,END,FAIL
@@ -15,28 +15,27 @@ set echo on
 RT="$HOME/packages/tart"
 
 DSETS=(
-    "a_baum"
     "a_fischeri_ES114"
     "a_kunk"
-    "a_rabiei"
     "b_anth"
     "b_frag"
     "b_pseudo"
-    # "b_sub_168"
+    "b_sub_168"
     "b_theta"
     "b_xyla"
-    "c_basil"
     "c_diff"
     "c_vibrioides"
     "d_vulg"
-    # "e_coli"
+    "e_coli"
     "e_fae"
     "e_limo"
     "k_pneum"
     "m_smeg"
     "m_tuber"
     "n_gonorr"
+    "p_cholor_aureo3084"
     "p_fluor"
+    "p_salmo"
     "s_coelicolor"
     "s_elon"
     "s_enter_typh"
@@ -47,6 +46,10 @@ DSETS=(
     "x_albi"
     "x_ory"
 )
+# These were removed from ^
+#   "c_basil"
+#   "p_aeru"
+
 
 echo "Filtering output plots for:"
 echo "${DSETS[*]}"
