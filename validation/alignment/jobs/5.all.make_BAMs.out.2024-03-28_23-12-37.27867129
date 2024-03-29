@@ -1,0 +1,20 @@
+Making BAMs for:
+p_salmo s_coelicolor s_elon s_enter_typh s_epi
+
+
+Starting SAM conversion for p_salmo
+Finished SAM -> sorted BAM conversion within /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/p_salmo/switch_seqs_delta1000-1000/alignment_20240328
+
+Starting SAM conversion for s_coelicolor
+Finished SAM -> sorted BAM conversion within /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/s_coelicolor/switch_seqs_delta1000-1000/alignment_20240328
+
+Starting SAM conversion for s_elon
+Finished SAM -> sorted BAM conversion within /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/s_elon/switch_seqs_delta1000-1000/alignment_20240328
+
+Starting SAM conversion for s_enter_typh
+Finished SAM -> sorted BAM conversion within /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/s_enter_typh/switch_seqs_delta1000-1000/alignment_20240328
+
+Starting SAM conversion for s_epi
+Finished SAM -> sorted BAM conversion within /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/s_epi/switch_seqs_delta1000-1000/alignment_20240328
+
+Done
