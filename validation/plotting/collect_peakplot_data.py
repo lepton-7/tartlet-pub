@@ -6,6 +6,7 @@ import pandas as pd
 
 from glob import glob
 from pathlib import Path
+from collections import defaultdict
 
 
 # %%
@@ -25,6 +26,8 @@ cluster_paths = [
 # %%
 
 big_tab_list = []
+sum_tot = defaultdict(int)
+sum_active = defaultdict(int)
 for clpath in cluster_paths:
     dset = clpath.parent.parent.stem
 
@@ -57,8 +60,25 @@ for clpath in cluster_paths:
             for k, v in act_tally.items()
         ]
     )
+    for k, v in act_tally.items():
+        sum_tot[f"{dset}|{classname(k)}"] += 1
+        sum_active[f"{dset}|{classname(k)}"] += int(bool(v))
 
 big_tab = pd.DataFrame(big_tab_list)
 # %%
 big_tab.to_csv("./data/big_fig/locus_inferences.csv", index=False)
+
 # %%
+# Now make the summary table to build the circle plot
+sum_list = []
+for k, v in sum_tot.items():
+    k: str
+    s = k.split("|")
+    sum_list.append(
+        {"microbe": s[0], "target_name": s[1], "active": sum_active[k], "total": v}
+    )
+
+big_tab_sum = pd.DataFrame(sum_list)
+
+# %%
+big_tab_sum.to_csv("./data/big_fig/locus_inferences_sum.csv", index=False)
