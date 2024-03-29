@@ -1,0 +1,24 @@
+Instance 11 starting alignment for e_fae from /fs/ess/PDS0325/Riboswitches/data/rna_seq/e_fae reads
+
+
+Time loading forward index: 00:00:01
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:01:58
+6132471 reads; of these:
+  6132471 (100.00%) were paired; of these:
+    6122006 (99.83%) aligned concordantly 0 times
+    10312 (0.17%) aligned concordantly exactly 1 time
+    153 (0.00%) aligned concordantly >1 times
+    ----
+    6122006 pairs aligned concordantly 0 times; of these:
+      9 (0.00%) aligned discordantly 1 time
+    ----
+    6121997 pairs aligned 0 times concordantly or discordantly; of these:
+      12243994 mates make up the pairs; of these:
+        12241499 (99.98%) aligned 0 times
+        2492 (0.02%) aligned exactly 1 time
+        3 (0.00%) aligned >1 times
+0.19% overall alignment rate
+Time searching: 00:01:58
+Overall time: 00:01:59
+Finished SRR11997914 read alignment for e_fae into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/e_fae/switch_seqs_delta1000-1000/alignment_20240328

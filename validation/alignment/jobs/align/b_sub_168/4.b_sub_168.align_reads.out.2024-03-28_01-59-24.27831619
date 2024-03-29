@@ -1,0 +1,24 @@
+Instance 14 starting alignment for b_sub_168 from /fs/ess/PDS0325/Riboswitches/data/rna_seq/b_sub_168 reads
+
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:07:07
+23662785 reads; of these:
+  23662785 (100.00%) were paired; of these:
+    23421000 (98.98%) aligned concordantly 0 times
+    240224 (1.02%) aligned concordantly exactly 1 time
+    1561 (0.01%) aligned concordantly >1 times
+    ----
+    23421000 pairs aligned concordantly 0 times; of these:
+      232 (0.00%) aligned discordantly 1 time
+    ----
+    23420768 pairs aligned 0 times concordantly or discordantly; of these:
+      46841536 mates make up the pairs; of these:
+        46811143 (99.94%) aligned 0 times
+        30367 (0.06%) aligned exactly 1 time
+        26 (0.00%) aligned >1 times
+1.09% overall alignment rate
+Time searching: 00:07:07
+Overall time: 00:07:07
+Finished SRR23693959 read alignment for b_sub_168 into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/b_sub_168/switch_seqs_delta1000-1000/alignment_20240328

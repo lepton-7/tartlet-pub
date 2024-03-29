@@ -1,0 +1,24 @@
+Instance 3 starting alignment for m_smeg from /fs/ess/PDS0325/Riboswitches/data/rna_seq/m_smeg reads
+
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:01:43
+5154487 reads; of these:
+  5154487 (100.00%) were paired; of these:
+    5146377 (99.84%) aligned concordantly 0 times
+    8110 (0.16%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    5146377 pairs aligned concordantly 0 times; of these:
+      1736 (0.03%) aligned discordantly 1 time
+    ----
+    5144641 pairs aligned 0 times concordantly or discordantly; of these:
+      10289282 mates make up the pairs; of these:
+        10287966 (99.99%) aligned 0 times
+        1316 (0.01%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.20% overall alignment rate
+Time searching: 00:01:43
+Overall time: 00:01:43
+Finished SRR24658673 read alignment for m_smeg into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/m_smeg/switch_seqs_delta1000-1000/alignment_20240328

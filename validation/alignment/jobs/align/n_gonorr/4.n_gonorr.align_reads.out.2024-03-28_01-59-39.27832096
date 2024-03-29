@@ -1,0 +1,24 @@
+Instance 4 starting alignment for n_gonorr from /fs/ess/PDS0325/Riboswitches/data/rna_seq/n_gonorr reads
+
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:05:59
+17276048 reads; of these:
+  17276048 (100.00%) were paired; of these:
+    17230706 (99.74%) aligned concordantly 0 times
+    45342 (0.26%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    17230706 pairs aligned concordantly 0 times; of these:
+      9 (0.00%) aligned discordantly 1 time
+    ----
+    17230697 pairs aligned 0 times concordantly or discordantly; of these:
+      34461394 mates make up the pairs; of these:
+        34453210 (99.98%) aligned 0 times
+        8184 (0.02%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.29% overall alignment rate
+Time searching: 00:05:59
+Overall time: 00:05:59
+Finished SRR17244364 read alignment for n_gonorr into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/n_gonorr/switch_seqs_delta1000-1000/alignment_20240328

@@ -1,0 +1,8 @@
+Instance 12 starting alignment for s_spcc6803 from /fs/ess/PDS0325/Riboswitches/data/rna_seq/s_spcc6803 reads
+
+
+Warning: [Errno 2] No such file or directory: '/fs/ess/PDS0325/Riboswitches/data/rna_seq/s_spcc6803/_1.fastq.gz'
+(ERR): Read file '/fs/ess/PDS0325/Riboswitches/data/rna_seq/s_spcc6803/_1.fastq.gz' doesn't exist
+Exiting now ...
+srun: error: p0047: task 0: Exited with exit code 2
+Finished s_spcc6803 read alignment for s_spcc6803 into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/s_spcc6803/switch_seqs_delta1000-1000/alignment_20240328

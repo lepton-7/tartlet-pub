@@ -1,0 +1,24 @@
+Instance 12 starting alignment for s_elon from /fs/ess/PDS0325/Riboswitches/data/rna_seq/s_elon reads
+
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:02:36
+7700813 reads; of these:
+  7700813 (100.00%) were paired; of these:
+    7695472 (99.93%) aligned concordantly 0 times
+    5340 (0.07%) aligned concordantly exactly 1 time
+    1 (0.00%) aligned concordantly >1 times
+    ----
+    7695472 pairs aligned concordantly 0 times; of these:
+      707 (0.01%) aligned discordantly 1 time
+    ----
+    7694765 pairs aligned 0 times concordantly or discordantly; of these:
+      15389530 mates make up the pairs; of these:
+        15388950 (100.00%) aligned 0 times
+        580 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.08% overall alignment rate
+Time searching: 00:02:36
+Overall time: 00:02:36
+Finished SRR23869303 read alignment for s_elon into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/s_elon/switch_seqs_delta1000-1000/alignment_20240328

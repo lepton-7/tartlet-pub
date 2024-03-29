@@ -1,0 +1,24 @@
+Instance 32 starting alignment for p_fluor from /fs/ess/PDS0325/Riboswitches/data/rna_seq/p_fluor reads
+
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:02:27
+10525131 reads; of these:
+  10525131 (100.00%) were paired; of these:
+    10514768 (99.90%) aligned concordantly 0 times
+    10363 (0.10%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    10514768 pairs aligned concordantly 0 times; of these:
+      0 (0.00%) aligned discordantly 1 time
+    ----
+    10514768 pairs aligned 0 times concordantly or discordantly; of these:
+      21029536 mates make up the pairs; of these:
+        21022883 (99.97%) aligned 0 times
+        6652 (0.03%) aligned exactly 1 time
+        1 (0.00%) aligned >1 times
+0.13% overall alignment rate
+Time searching: 00:02:27
+Overall time: 00:02:27
+Finished SRR18759979 read alignment for p_fluor into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/p_fluor/switch_seqs_delta1000-1000/alignment_20240328

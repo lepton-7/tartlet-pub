@@ -1,0 +1,24 @@
+Instance 3 starting alignment for s_enter_typh from /fs/ess/PDS0325/Riboswitches/data/rna_seq/s_enter_typh reads
+
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:02:36
+8496226 reads; of these:
+  8496226 (100.00%) were paired; of these:
+    8490509 (99.93%) aligned concordantly 0 times
+    5717 (0.07%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    8490509 pairs aligned concordantly 0 times; of these:
+      509 (0.01%) aligned discordantly 1 time
+    ----
+    8490000 pairs aligned 0 times concordantly or discordantly; of these:
+      16980000 mates make up the pairs; of these:
+        16979288 (100.00%) aligned 0 times
+        712 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.08% overall alignment rate
+Time searching: 00:02:36
+Overall time: 00:02:36
+Finished SRR19309090 read alignment for s_enter_typh into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/s_enter_typh/switch_seqs_delta1000-1000/alignment_20240328

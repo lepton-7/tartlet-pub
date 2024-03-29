@@ -1,0 +1,24 @@
+Instance 6 starting alignment for s_epi from /fs/ess/PDS0325/Riboswitches/data/rna_seq/s_epi reads
+
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:02:43
+8044736 reads; of these:
+  8044736 (100.00%) were paired; of these:
+    8000214 (99.45%) aligned concordantly 0 times
+    44521 (0.55%) aligned concordantly exactly 1 time
+    1 (0.00%) aligned concordantly >1 times
+    ----
+    8000214 pairs aligned concordantly 0 times; of these:
+      178 (0.00%) aligned discordantly 1 time
+    ----
+    8000036 pairs aligned 0 times concordantly or discordantly; of these:
+      16000072 mates make up the pairs; of these:
+        15991967 (99.95%) aligned 0 times
+        8105 (0.05%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.61% overall alignment rate
+Time searching: 00:02:43
+Overall time: 00:02:43
+Finished SRR11998499 read alignment for s_epi into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/s_epi/switch_seqs_delta1000-1000/alignment_20240328

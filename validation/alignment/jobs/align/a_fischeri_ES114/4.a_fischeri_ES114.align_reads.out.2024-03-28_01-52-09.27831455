@@ -1,0 +1,24 @@
+Instance 6 starting alignment for a_fischeri_ES114 from /fs/ess/PDS0325/Riboswitches/data/rna_seq/a_fischeri_ES114 reads
+
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:01
+Multiseed full-index search: 00:06:37
+21318051 reads; of these:
+  21318051 (100.00%) were paired; of these:
+    21233351 (99.60%) aligned concordantly 0 times
+    84696 (0.40%) aligned concordantly exactly 1 time
+    4 (0.00%) aligned concordantly >1 times
+    ----
+    21233351 pairs aligned concordantly 0 times; of these:
+      1982 (0.01%) aligned discordantly 1 time
+    ----
+    21231369 pairs aligned 0 times concordantly or discordantly; of these:
+      42462738 mates make up the pairs; of these:
+        42400970 (99.85%) aligned 0 times
+        61752 (0.15%) aligned exactly 1 time
+        16 (0.00%) aligned >1 times
+0.55% overall alignment rate
+Time searching: 00:06:38
+Overall time: 00:06:38
+Finished SRR25249439 read alignment for a_fischeri_ES114 into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/a_fischeri_ES114/switch_seqs_delta1000-1000/alignment_20240328

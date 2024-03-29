@@ -1,0 +1,24 @@
+Instance 13 starting alignment for b_theta from /fs/ess/PDS0325/Riboswitches/data/rna_seq/b_theta reads
+
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:00:56
+3202699 reads; of these:
+  3202699 (100.00%) were paired; of these:
+    3098758 (96.75%) aligned concordantly 0 times
+    103941 (3.25%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    3098758 pairs aligned concordantly 0 times; of these:
+      5391 (0.17%) aligned discordantly 1 time
+    ----
+    3093367 pairs aligned 0 times concordantly or discordantly; of these:
+      6186734 mates make up the pairs; of these:
+        6178851 (99.87%) aligned 0 times
+        7883 (0.13%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+3.54% overall alignment rate
+Time searching: 00:00:56
+Overall time: 00:00:56
+Finished SRR14017876 read alignment for b_theta into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/b_theta/switch_seqs_delta1000-1000/alignment_20240328

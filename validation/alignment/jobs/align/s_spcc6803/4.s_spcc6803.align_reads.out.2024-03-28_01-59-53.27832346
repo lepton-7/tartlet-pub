@@ -1,0 +1,24 @@
+Instance 7 starting alignment for s_spcc6803 from /fs/ess/PDS0325/Riboswitches/data/rna_seq/s_spcc6803 reads
+
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:04:09
+15224171 reads; of these:
+  15224171 (100.00%) were paired; of these:
+    15174912 (99.68%) aligned concordantly 0 times
+    49258 (0.32%) aligned concordantly exactly 1 time
+    1 (0.00%) aligned concordantly >1 times
+    ----
+    15174912 pairs aligned concordantly 0 times; of these:
+      119 (0.00%) aligned discordantly 1 time
+    ----
+    15174793 pairs aligned 0 times concordantly or discordantly; of these:
+      30349586 mates make up the pairs; of these:
+        30347130 (99.99%) aligned 0 times
+        2456 (0.01%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.33% overall alignment rate
+Time searching: 00:04:09
+Overall time: 00:04:09
+Finished SRR9208993 read alignment for s_spcc6803 into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/s_spcc6803/switch_seqs_delta1000-1000/alignment_20240328
