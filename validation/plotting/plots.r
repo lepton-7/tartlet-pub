@@ -247,9 +247,16 @@
         inf_df <- read.csv("data/big_fig/locus_inferences_sum.csv")
         inf_df$inactive <- as.numeric(inf_df$total) - as.numeric(inf_df$active)
 
+        inf_df$microbe <- factor(inf_df$microbe)
+        inf_df$target_name <- factor(inf_df$target_name)
+
+        inf_df$label <- inf_df$microbe
+
         df <- read.csv("data/big_fig/locus_inferences.csv")
         df$is_active <- as.factor(df$is_active)
 
+        df$microbe <- factor(df$microbe)
+        df$target_name <- factor(df$target_name)
         df$label <- df$microbe
 
         pie_mat <- ggplot(df, aes(x = target_name, y = tree_y(tax_tree, df), colour = is_active)) +
@@ -267,16 +274,54 @@
         pie_mat
         # ggplot2::coord_fixed() +
         # geom_circle(aes(x0 = 6, y0 = 9, r = 5, fill = 1))
+
+        # levels(factor(df$target_name))
+        # head(pie_mat$data)
     }
 
-    patched <- tax_tree + pie_mat
+    {
+        test_pie <- ggplot(inf_df, aes(x = match(target_name, levels(target_name)), y = tree_y(tax_tree, inf_df))) +
+            def_theme +
+            theme(
+                axis.text.x = element_text(size = 13, angle = 70, hjust = 1, colour = "black"),
+                axis.title.y = element_blank(),
+                axis.ticks.y = element_blank(),
+                axis.text.y = element_blank()
+            ) +
+            geom_circle(mapping = aes(
+                x0 = match(target_name, levels(target_name)),
+                y0 = tree_y(tax_tree, inf_df),
+                r = 0.4,
+                fill = active
+            )) +
+            coord_fixed() +
+            scale_x_continuous(breaks = c(seq_along(levels(inf_df$target_name))), labels = levels(inf_df$target_name))
+
+        test_pie
+    }
+
+    # {
+    #     test_pie <- ggplot(inf_df, aes(x = target_name, y = microbe)) +
+    #         def_theme +
+    #         theme(
+    #             axis.text.x = element_text(size = 13, angle = 70, hjust = 1, colour = "black")
+    #         ) +
+    #         geom_circle(mapping = aes(x0 = target_name, y0 = microbe, r = 1, fill = active)) +
+    #         coord_fixed()
+
+    #     test_pie
+    # }
+
+    patched <- tax_tree + pie_mat + test_pie
 
     patched
+
+    # match(df$microbe, levels(df$microbe))
+    # length(levels(inf_df$target_name))
 }
 
 {
     alph <- 2
     save_path <- str_glue("plots/big_fig.png")
-    ggsave(save_path, dpi = 320 * alph, units = "px", width = 6000 * alph, height = 4000 * alph)
+    ggsave(save_path, dpi = 320 * alph, units = "px", width = 9000 * alph, height = 4500 * alph)
 }
-

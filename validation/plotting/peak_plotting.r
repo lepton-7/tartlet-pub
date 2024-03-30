@@ -98,29 +98,26 @@ peakplotmaker <- function(dset) {
 
 {
     dsets <- c(
-        # "a_baum",
         # "a_fischeri_ES114",
         # "a_kunk",
-        # "a_rabiei",
-        "b_anth",
-        "b_frag",
-        "b_pseudo",
-        "b_sub_168",
-        "b_theta",
-        "b_xyla",
-        # "c_basil",
-        "c_diff",
-        "c_vibrioides",
-        "d_vulg",
-        "e_coli",
-        "e_fae",
-        "e_limo",
-        "k_pneum",
-        "m_smeg",
-        "m_tuber",
-        "n_gonorr",
-        "p_fluor",
-        "p_salmo",
+        # "b_anth",
+        # "b_frag",
+        # "b_pseudo",
+        # "b_sub_168",
+        # "b_theta",
+        # "b_xyla",
+        # "c_diff",
+        # "c_vibrioides",
+        # "d_vulg",
+        # "e_coli",
+        # "e_fae",
+        # "e_limo",
+        # "k_pneum",
+        # "m_smeg",
+        # "m_tuber",
+        # "n_gonorr",
+        # "p_cholor_aureo3084",
+        # "p_fluor",
         "s_coelicolor",
         "s_elon",
         "s_enter_typh",
@@ -131,7 +128,10 @@ peakplotmaker <- function(dset) {
         "x_albi",
         "x_ory"
     )
+    # These were removed from ^
+    #   "c_basil"
+    #   "p_aeru
+    #   "p_salmo" <- This one had no peak log?
 }
 
 sapply(dsets, peakplotmaker)
-# peakplotmaker("a_baum")
