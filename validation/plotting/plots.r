@@ -11,6 +11,7 @@
     setwd("validation/plotting")
 }
 
+
 {
     aliased_results <- read.csv("data/results_alias.csv")
     rfam_regions <- read.csv("data/all_regions_14.10.csv")
@@ -215,6 +216,77 @@
 # -----------------------------------------------------------------------
 # The big results fig with a tax tree and inferred riboswitch mechs
 
+# Helper for geom: return a polygonGlob for each pie slice
+# For now this creates triangles instead of radial segments
+{
+    slicer <- function(coor, dat, idx) {
+        if (dat$segments < 2) {
+            return(grid::nullGrob())
+        }
+        theta <- 2 * pi / dat$segments
+        x0 <- coor$x
+        y0 <- coor$y
+        r <- coor$r
+
+        # x <- c(x0)
+        # print(r)
+        # y <- c(y0)
+
+        px <- c(x0, x0 + r * sin(theta * (idx - 1)), x0 + r * sin(theta * idx))
+        py <- c(y0, x0 + r * cos(theta * (idx - 1)), x0 + r * cos(theta * idx))
+
+        # append(x, px)
+        # append(y, py)
+        # print(py)
+        grid::polygonGrob(
+            x = px, y = py,
+            # id.lengths = c(3),
+            default.units = "native",
+            gp = grid::gpar(
+                col = coor$colour,
+                fill = scales::alpha(coor$fill, coor$alpha),
+                lwd = coor$linewidth * .pt,
+                lty = coor$linetype
+            )
+        )
+    }
+
+    # xslicer <- function(coor, dat)
+
+
+    # Custom geom lmao
+    GeomPie <- ggproto("GeomPie", Geom,
+        required_aes = c("x", "y", "r", "segments"),
+        default_aes = aes(
+            colour = NA, fill = NA, linewidth = 0.5,
+            linetype = 1, alpha = 1
+        ),
+        draw_key = draw_key_polygon,
+        draw_panel = function(data, panel_params, coord) {
+            coords <- coord$transform(data, panel_params)
+            # if (data$segments < 2) {
+            #     return(grid::nullGrob())
+            # }
+            for (j in seq_along(data[, 1])) {
+                for (i in seq_along(1:data[j, ]$segments)) {
+                    # print(data[j, ])
+                    # print(i)
+                    slicer(coords[j, ], data[j, ], i)
+                }
+            }
+        }
+    )
+    geom_pie <- function(mapping = NULL, data = NULL, stat = "identity",
+                         position = "identity", na.rm = FALSE, show.legend = NA,
+                         inherit.aes = TRUE, ...) {
+        layer(
+            geom = GeomPie, mapping = mapping, data = data, stat = stat,
+            position = position, show.legend = show.legend, inherit.aes = inherit.aes,
+            params = list(na.rm = na.rm, ...)
+        )
+    }
+}
+
 # Funcs
 {
     tree_y <- function(ggtree, data) {
@@ -223,6 +295,54 @@
         }
         left_join(select(data, label), select(ggtree$data, label, y)) %>%
             pull(y)
+    }
+
+    add_pie <- function(d, r) {
+        x <- c()
+        y <- c()
+        id <- c()
+        fval <- c()
+
+        for (i in seq_along(d[, 1])) {
+            dd <- d[i, ]
+            # print(d[i, ])
+            segs <- dd$total
+            act <- dd$active
+            x0 <- dd$x_
+            y0 <- dd$y_
+
+            theta <- 2 * pi / segs
+
+            if (segs < 2) next
+
+            for (idx in seq_along(segs)) {
+                x <- append(x, c(x0, x0 + r * sin(theta * (idx - 1)), x0 + r * sin(theta * idx)))
+                y <- append(y, c(y0, y0 + r * cos(theta * (idx - 1)), y0 + r * cos(theta * idx)))
+
+                id <- append(id, rep(interaction(dd$microbe, dd$target_name, idx), 3))
+
+                if (idx <= act) {
+                    fval <- append(fval, rep.int(1, 3))
+                } else {
+                    fval <- append(fval, rep.int(0, 3))
+                }
+            }
+        }
+        polydf <- data.frame(x, y, id, as.factor(fval), stringsAsFactors = default.stringsAsFactors())
+
+        return(
+            geom_polygon(
+                data = polydf,
+                mapping = aes(
+                    x = x, y = y,
+                    fill = fval,
+                    group = id,
+                    color = "black"
+                    # linetype = "solid",
+                    # linewidth = 0.5
+                )
+            )
+        )
     }
 }
 
@@ -244,14 +364,6 @@
     }
 
     {
-        inf_df <- read.csv("data/big_fig/locus_inferences_sum.csv")
-        inf_df$inactive <- as.numeric(inf_df$total) - as.numeric(inf_df$active)
-
-        inf_df$microbe <- factor(inf_df$microbe)
-        inf_df$target_name <- factor(inf_df$target_name)
-
-        inf_df$label <- inf_df$microbe
-
         df <- read.csv("data/big_fig/locus_inferences.csv")
         df$is_active <- as.factor(df$is_active)
 
@@ -279,8 +391,20 @@
         # head(pie_mat$data)
     }
 
+
+
     {
-        test_pie <- ggplot(inf_df, aes(x = match(target_name, levels(target_name)), y = tree_y(tax_tree, inf_df))) +
+        inf_df <- read.csv("data/big_fig/locus_inferences_sum.csv")
+        inf_df$inactive <- as.numeric(inf_df$total) - as.numeric(inf_df$active)
+
+        inf_df$microbe <- factor(inf_df$microbe)
+        inf_df$target_name <- factor(inf_df$target_name)
+
+        inf_df$label <- inf_df$microbe
+        inf_df$x_ <- match(inf_df$target_name, levels(inf_df$target_name))
+        inf_df$y_ <- tree_y(tax_tree, inf_df)
+
+        test_pie <- ggplot(inf_df, aes(x = x_, y = y_)) +
             def_theme +
             theme(
                 axis.text.x = element_text(size = 13, angle = 70, hjust = 1, colour = "black"),
@@ -288,29 +412,22 @@
                 axis.ticks.y = element_blank(),
                 axis.text.y = element_blank()
             ) +
+            add_pie(d = inf_df, r = 0.4) +
             geom_circle(mapping = aes(
-                x0 = match(target_name, levels(target_name)),
-                y0 = tree_y(tax_tree, inf_df),
-                r = 0.4,
-                fill = active
+                x0 = x_,
+                y0 = y_,
+                # fill = active
+                r = 0.4
             )) +
             coord_fixed() +
+            # geom_pie(mapping = aes(r = 0.04, segments = total, colour = "black")) +
             scale_x_continuous(breaks = c(seq_along(levels(inf_df$target_name))), labels = levels(inf_df$target_name))
 
         test_pie
     }
 
-    # {
-    #     test_pie <- ggplot(inf_df, aes(x = target_name, y = microbe)) +
-    #         def_theme +
-    #         theme(
-    #             axis.text.x = element_text(size = 13, angle = 70, hjust = 1, colour = "black")
-    #         ) +
-    #         geom_circle(mapping = aes(x0 = target_name, y0 = microbe, r = 1, fill = active)) +
-    #         coord_fixed()
-
-    #     test_pie
-    # }
+    head(ggplot_build(test_pie)$data[[1]])
+    head(ggplot_build(test_pie)$data[[2]])
 
     patched <- tax_tree + pie_mat + test_pie
 
