@@ -22,6 +22,7 @@
 {
     decision_pal <- c("pass" = "#6956e7", "fail" = "#eaef5b", "incon" = "#000000")
     active_pal <- c("0" = "black", "1" = "#bb9601")
+    active_pie_pal <- c("0" = "#8b8b8b", "1" = "#d9b937")
 }
 
 # themes
@@ -298,11 +299,18 @@
             pull(y)
     }
 
-    pie_df <- function(d, r) {
+    pie_df <- function(d, r, incr) {
+        ssize <- 10000
+        # x <- rep(NA, ssize)
+        # y <- rep(NA, ssize)
+        # idvec <- rep("PP", ssize)
+        # fval <- rep(0, ssize)
         x <- c()
         y <- c()
-        id <- c()
+        idvec <- c()
         fval <- c()
+
+        cntr <- 1
 
         for (i in seq_along(d[, 1])) {
             dd <- d[i, ]
@@ -312,32 +320,64 @@
             x0 <- dd$x_
             y0 <- dd$y_
 
+            if (segs < 1) next
             theta <- 2 * pi / segs
 
-            if (segs < 2) next
-            # print(segs)
+            # adjust incr to ensure are no unfilled slices
+            incr2 <- incr + ((theta %% incr) / (theta %/% incr))
 
             for (idx in seq_along(1:segs)) {
                 # print(idx)
-                x <- append(x, c(x0, x0 + r * sin(theta * (idx - 1)), x0 + r * sin(theta * idx)))
-                y <- append(y, c(y0, y0 + r * cos(theta * (idx - 1)), y0 + r * cos(theta * idx)))
+                if (segs > 1) {
+                    x <- c(x, x0)
+                    y <- c(y, y0)
+                    fval <- c(fval, as.numeric(idx <= act))
+                    idvec <- c(idvec, toString(interaction(dd$microbe, dd$target_name, as.factor(idx))))
+                    # print(idvec[cntr])
+                    # print(interaction(dd$microbe, dd$target_name, as.factor(idx)))
 
-                id <- append(id, rep(interaction(dd$microbe, dd$target_name, as.factor(idx)), 3))
-
-                if (idx <= act) {
-                    fval <- append(fval, rep.int(1, 3))
-                } else {
-                    fval <- append(fval, rep.int(0, 3))
+                    cntr <- cntr + 1
                 }
+                # if (segs > 1) {
+                #     x[cntr] <- x0
+                #     y[cntr] <- y0
+                #     fval[cntr] <- as.numeric(idx <= act)
+                #     idvec[cntr] <- toString(interaction(dd$microbe, dd$target_name, as.factor(idx)))
+                #     # print(idvec[cntr])
+                #     # print(interaction(dd$microbe, dd$target_name, as.factor(idx)))
+
+                #     cntr <- cntr + 1
+                # }
+
+                angvec <- seq.int(from = theta * (idx - 1), to = (theta * idx), by = incr2)
+                x <- c(x, x0 + r * sin(angvec))
+                y <- c(y, y0 + r * cos(angvec))
+                fval <- c(fval, rep(as.numeric(idx <= act), length(angvec)))
+                idvec <- c(idvec, rep(toString(interaction(dd$microbe, dd$target_name, as.factor(idx))), length(angvec)))
+
+                # for (ang in seq.int(from = theta * (idx - 1), to = (theta * idx), by = incr2)) {
+                #     x[cntr] <- x0 + r * sin(ang)
+                #     y[cntr] <- y0 + r * cos(ang)
+                #     fval[cntr] <- as.numeric(idx <= act)
+                #     idvec[cntr] <- toString(interaction(dd$microbe, dd$target_name, as.factor(idx)))
+
+                #     cntr <- cntr + 1
+                # }
             }
         }
         fval <- as.factor(fval)
-        polydf <- data.frame(x, y, id, fval, stringsAsFactors = default.stringsAsFactors())
+        polydf <- na.omit(data.frame(x, y, idvec, fval, stringsAsFactors = TRUE))
 
         return(polydf)
     }
-    polydf <- pie_df(inf_df, 0.4)
+    polydf <- pie_df(inf_df, r = 0.4, incr = 2 * pi / 60)
+
+    # incr <- 0.10472 + ((0.571198 %% 0.10472) / (0.571198 %/% 0.10472))
+    # incr <- 2 * pi / 60
+    # theta <- 2 * pi / 11
+    # incr2 <- incr + ((theta %% incr) / (theta %/% incr))
 }
+# seq.int(from = 0.1 * (5 - 1), to = 0.1 * 5, by = 0.013)
 
 {
     {
@@ -397,8 +437,9 @@
         inf_df$y_ <- tree_y(tax_tree, inf_df)
         inf_df$microbe <- fct_reorder(inf_df$microbe, inf_df$y_, min)
 
-        polydf <- pie_df(inf_df, 0.4)
-
+        polydf <- pie_df(inf_df, r = 0.4, incr = 2 * pi / 120)
+    }
+    {
         test_pie <- ggplot(inf_df, aes(x = x_, y = y_)) +
             def_theme +
             theme(
@@ -407,39 +448,43 @@
                 axis.text.y = element_text(size = 13, hjust = 1, colour = "black"),
                 # axis.text.y = element_blank(),
                 axis.title.y = element_blank(),
+                axis.title.x = element_blank(),
             ) +
             geom_polygon(
                 data = polydf,
                 mapping = aes(
-                    x = x, y = y, fill = fval, group = id, color = "a"
+                    x = x, y = y, fill = fval, group = idvec, color = "a"
                     # linetype = "solid",# linewidth = 0.5
-                )
+                ),
+                linewidth = 0.1
             ) +
             scale_colour_manual(name = "d", values = c("black")) +
-            geom_circle(mapping = aes(
-                x0 = x_,
-                y0 = y_,
-                # fill = active
-                r = 0.4
-            )) +
+            scale_fill_manual(name = "Active?", values = active_pie_pal) +
+            # geom_circle(mapping = aes(
+            #     x0 = x_,
+            #     y0 = y_,
+            #     # fill = active
+            #     # linewidth = 0.5
+            #     r = 0.4
+            # )) +
             coord_fixed() +
             # geom_pie(mapping = aes(r = 0.04, segments = total, colour = "black")) +
             scale_x_continuous(breaks = c(seq_along(levels(inf_df$target_name))), labels = levels(inf_df$target_name)) +
             scale_y_continuous(breaks = c(seq_along(levels(inf_df$microbe))), labels = levels(inf_df$microbe)) +
-            guides(colour = "none", fill ="none")
+            guides(colour = "none")
 
         test_pie
     }
 
 
-    levels(as.factor(inf_df$y_))
+    # levels(as.factor(inf_df$y_))
 
-    head(ggplot_build(test_pie)$plot)
-    head(ggplot_build(test_pie)$data[[1]])
-    head(ggplot_build(test_pie)$data[[2]])
+    # head(ggplot_build(test_pie)$plot)
+    # head(ggplot_build(test_pie)$data[[1]])
+    # head(ggplot_build(test_pie)$data[[2]])
 
-    patched <- tax_tree + pie_mat + test_pie
-
+    # patched <- tax_tree + pie_mat + test_pie
+    patched <- tax_tree + test_pie
     patched
 
     # match(df$microbe, levels(df$microbe))
