@@ -8,6 +8,7 @@
     library(patchwork)
     library(dplyr)
     library(ggforce)
+    library(treeio)
     setwd("validation/plotting")
 }
 
@@ -297,7 +298,7 @@
             pull(y)
     }
 
-    add_pie <- function(d, r) {
+    pie_df <- function(d, r) {
         x <- c()
         y <- c()
         id <- c()
@@ -314,12 +315,14 @@
             theta <- 2 * pi / segs
 
             if (segs < 2) next
+            # print(segs)
 
-            for (idx in seq_along(segs)) {
+            for (idx in seq_along(1:segs)) {
+                # print(idx)
                 x <- append(x, c(x0, x0 + r * sin(theta * (idx - 1)), x0 + r * sin(theta * idx)))
                 y <- append(y, c(y0, y0 + r * cos(theta * (idx - 1)), y0 + r * cos(theta * idx)))
 
-                id <- append(id, rep(interaction(dd$microbe, dd$target_name, idx), 3))
+                id <- append(id, rep(interaction(dd$microbe, dd$target_name, as.factor(idx)), 3))
 
                 if (idx <= act) {
                     fval <- append(fval, rep.int(1, 3))
@@ -328,22 +331,12 @@
                 }
             }
         }
-        polydf <- data.frame(x, y, id, as.factor(fval), stringsAsFactors = default.stringsAsFactors())
+        fval <- as.factor(fval)
+        polydf <- data.frame(x, y, id, fval, stringsAsFactors = default.stringsAsFactors())
 
-        return(
-            geom_polygon(
-                data = polydf,
-                mapping = aes(
-                    x = x, y = y,
-                    fill = fval,
-                    group = id,
-                    color = "black"
-                    # linetype = "solid",
-                    # linewidth = 0.5
-                )
-            )
-        )
+        return(polydf)
     }
+    polydf <- pie_df(inf_df, 0.4)
 }
 
 {
@@ -351,9 +344,10 @@
         tree <- read.tree("data/big_fig/taxa_list.tree")
         phylo_dict <- fromJSON(file = "data/big_fig/fancy_tips.json")
 
-        tax_tree <- ggtree(tree, size = 0.8, layout = "rectangular", ladderize = FALSE, branch.length = -10) +
+        tree <- drop.tip(tree, c("'s__Piscirickettsia salmonis'", "'s__Acinetobacter baumannii'"))
+        tax_tree <- ggtree(tree, size = 0.8, layout = "rectangular", ladderize = FALSE) +
             # ggtitle("Validation set tax tree") +
-            geom_tiplab(size = 8, linesize = .5, align = TRUE) +
+            geom_tiplab(size = 8, linesize = .5, align = TRUE, as_ylab = FALSE) +
             xlim_tree(2.5)
 
         for (i in seq_along(tree$tip.label)) {
@@ -391,8 +385,6 @@
         # head(pie_mat$data)
     }
 
-
-
     {
         inf_df <- read.csv("data/big_fig/locus_inferences_sum.csv")
         inf_df$inactive <- as.numeric(inf_df$total) - as.numeric(inf_df$active)
@@ -403,16 +395,27 @@
         inf_df$label <- inf_df$microbe
         inf_df$x_ <- match(inf_df$target_name, levels(inf_df$target_name))
         inf_df$y_ <- tree_y(tax_tree, inf_df)
+        inf_df$microbe <- fct_reorder(inf_df$microbe, inf_df$y_, min)
+
+        polydf <- pie_df(inf_df, 0.4)
 
         test_pie <- ggplot(inf_df, aes(x = x_, y = y_)) +
             def_theme +
             theme(
                 axis.text.x = element_text(size = 13, angle = 70, hjust = 1, colour = "black"),
+                # axis.ticks.y = element_blank(),
+                axis.text.y = element_text(size = 13, hjust = 1, colour = "black"),
+                # axis.text.y = element_blank(),
                 axis.title.y = element_blank(),
-                axis.ticks.y = element_blank(),
-                axis.text.y = element_blank()
             ) +
-            add_pie(d = inf_df, r = 0.4) +
+            geom_polygon(
+                data = polydf,
+                mapping = aes(
+                    x = x, y = y, fill = fval, group = id, color = "a"
+                    # linetype = "solid",# linewidth = 0.5
+                )
+            ) +
+            scale_colour_manual(name = "d", values = c("black")) +
             geom_circle(mapping = aes(
                 x0 = x_,
                 y0 = y_,
@@ -421,11 +424,17 @@
             )) +
             coord_fixed() +
             # geom_pie(mapping = aes(r = 0.04, segments = total, colour = "black")) +
-            scale_x_continuous(breaks = c(seq_along(levels(inf_df$target_name))), labels = levels(inf_df$target_name))
+            scale_x_continuous(breaks = c(seq_along(levels(inf_df$target_name))), labels = levels(inf_df$target_name)) +
+            scale_y_continuous(breaks = c(seq_along(levels(inf_df$microbe))), labels = levels(inf_df$microbe)) +
+            guides(colour = "none", fill ="none")
 
         test_pie
     }
 
+
+    levels(as.factor(inf_df$y_))
+
+    head(ggplot_build(test_pie)$plot)
     head(ggplot_build(test_pie)$data[[1]])
     head(ggplot_build(test_pie)$data[[2]])
 
