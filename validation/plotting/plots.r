@@ -492,7 +492,7 @@
 }
 
 {
-    alph <- 2
+    alph <- 0.6
     save_path <- str_glue("plots/big_fig.png")
-    ggsave(save_path, dpi = 320 * alph, units = "px", width = 9000 * alph, height = 4500 * alph)
+    ggsave(save_path, dpi = 320 * alph, units = "px", width = 7000 * alph, height = 3500 * alph)
 }
