@@ -484,7 +484,8 @@
     # head(ggplot_build(test_pie)$data[[2]])
 
     # patched <- tax_tree + pie_mat + test_pie
-    patched <- tax_tree + test_pie
+    patched <- tax_tree + test_pie + plot_annotation(tag_levels = "A") &
+        theme(plot.tag = element_text(size = 30, face="bold"))
     patched
 
     # match(df$microbe, levels(df$microbe))
