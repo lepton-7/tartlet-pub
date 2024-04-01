@@ -484,8 +484,8 @@
     # head(ggplot_build(test_pie)$data[[2]])
 
     # patched <- tax_tree + pie_mat + test_pie
-    patched <- tax_tree + test_pie + plot_annotation(tag_levels = "A") &
-        theme(plot.tag = element_text(size = 30, face="bold"))
+    patched <- tax_tree + test_pie + plot_annotation(tag_levels = "a") &
+        theme(plot.tag = element_text(size = 30, face = "bold"))
     patched
 
     # match(df$microbe, levels(df$microbe))
@@ -495,5 +495,5 @@
 {
     alph <- 0.6
     save_path <- str_glue("plots/big_fig.png")
-    ggsave(save_path, dpi = 320 * alph, units = "px", width = 7000 * alph, height = 3500 * alph)
+    ggsave(save_path, plot = patched, dpi = 320 * alph, units = "px", width = 7000 * alph, height = 3500 * alph)
 }
