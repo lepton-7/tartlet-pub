@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --time=00:30:00
+#SBATCH --time=02:00:00
 #SBATCH --nodes=5 --cpus-per-task=1
 
 #SBATCH --account=PDS0325
@@ -15,36 +15,36 @@ set echo on
 RT="$HOME/packages/tart"
 
 DSETS=(
-    # "a_fischeri_ES114"
-    # "a_kunk"
-    # "b_anth"
-    # "b_frag"
-    # "b_pseudo"
-    # "b_sub_168"
-    # "b_theta"
-    # "b_xyla"
-    # "c_diff"
-    # "c_vibrioides"
-    # "d_vulg"
+    "a_fischeri_ES114"
+    "a_kunk"
+    "b_anth"
+    "b_frag"
+    "b_pseudo"
+    "b_sub_168"
+    "b_theta"
+    "b_xyla"
+    "c_diff"
+    "c_vibrioides"
+    "d_vulg"
     "e_coli"
-    # "e_fae"
-    # "e_limo"
-    # "k_pneum"
-    # "m_smeg"
-    # "m_tuber"
-    # "n_gonorr"
-    # "p_cholor_aureo3084"
-    # "p_fluor"
-    # "p_salmo"
-    # "s_coelicolor"
-    # "s_elon"
-    # "s_enter_typh"
-    # "s_epi"
-    # "s_meli"
-    # "s_sanguinis"
-    # "s_spcc6803"
-    # "x_albi"
-    # "x_ory"
+    "e_fae"
+    "e_limo"
+    "k_pneum"
+    "m_smeg"
+    "m_tuber"
+    "n_gonorr"
+    "p_cholor_aureo3084"
+    "p_fluor"
+    "p_salmo"
+    "s_coelicolor"
+    "s_elon"
+    "s_enter_typh"
+    "s_epi"
+    "s_meli"
+    "s_sanguinis"
+    "s_spcc6803"
+    "x_albi"
+    "x_ory"
 )
 # These were removed from ^
 #   "c_basil"
@@ -60,7 +60,7 @@ for DSET in ${DSETS[@]}; do
     D_ROOT="$RT/validation/alignment/outputs/$DSET"
 
     PICKLE_ROOT="$D_ROOT/plots/picks.tar.gz"
-    SAVE_ROOT="$D_ROOT/p4/"
+    SAVE_ROOT="$D_ROOT/p2/"
     # SAVE_ROOT="$D_ROOT/plots/"
 
     echo "Removing existing data"
