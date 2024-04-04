@@ -38,8 +38,8 @@
 peakplotmaker <- function(dset) {
     # dset <- "b_sub_168"
     # dset <- "Acidimicrobiia"
-    df <- read.csv(str_glue("../alignment/outputs/{dset}/plots/peak_log.csv"))
-    statdf <- read.csv(str_glue("../alignment/outputs/{dset}/plots/cluster_stats.csv"))
+    df <- read.csv(str_glue("../alignment/outputs/{dset}/p4/peak_log.csv"))
+    statdf <- read.csv(str_glue("../alignment/outputs/{dset}/p4/cluster_stats.csv"))
 
     # ppath <- str_glue("D:/School stuff/Bagby Lab/Projects/Riboswitches stuff/Code/Genomes/EMERGE_Sharing/tart/alignment/outputs/{dset}/plots")
     # df <- read.csv(str_glue("{ppath}/peak_log.csv"))
@@ -91,8 +91,8 @@ peakplotmaker <- function(dset) {
     # peakplot
 
     print(str_glue("Saving plot: {dset}"))
-    alph <- 2.5
-    save_path <- str_glue("plots/peak_plots/{dset}_peak_plot.png")
+    alph <- 0.7
+    save_path <- str_glue("plots/peak_plots/{dset}_peak_plot_2.png")
     ggsave(save_path, plot = peakplot, dpi = 320 * alph, units = "px", width = 7000 * alph, height = 4000 * alph)
 }
 
@@ -118,15 +118,15 @@ peakplotmaker <- function(dset) {
         # "n_gonorr",
         # "p_cholor_aureo3084",
         # "p_fluor",
-        "s_coelicolor",
-        "s_elon",
-        "s_enter_typh",
-        "s_epi",
-        "s_meli",
-        "s_sanguinis",
-        "s_spcc6803",
-        "x_albi",
-        "x_ory"
+        # "s_coelicolor",
+        # "s_elon",
+        # "s_enter_typh",
+        # "s_epi",
+        # "s_meli",
+        # "s_sanguinis",
+        # "s_spcc6803",
+        # "x_albi",
+        # "x_ory"
     )
     # These were removed from ^
     #   "c_basil"
@@ -134,4 +134,5 @@ peakplotmaker <- function(dset) {
     #   "p_salmo" <- This one had no peak log?
 }
 
-sapply(dsets, peakplotmaker)
+# sapply(dsets, peakplotmaker)
+# peakplotmaker("e_coli")
