@@ -38,8 +38,8 @@
 peakplotmaker <- function(dset) {
     # dset <- "b_sub_168"
     # dset <- "Acidimicrobiia"
-    df <- read.csv(str_glue("../alignment/outputs/{dset}/p4/peak_log.csv"))
-    statdf <- read.csv(str_glue("../alignment/outputs/{dset}/p4/cluster_stats.csv"))
+    df <- read.csv(str_glue("../alignment/outputs/{dset}/p2/peak_log.csv"))
+    statdf <- read.csv(str_glue("../alignment/outputs/{dset}/p2/cluster_stats.csv"))
 
     # ppath <- str_glue("D:/School stuff/Bagby Lab/Projects/Riboswitches stuff/Code/Genomes/EMERGE_Sharing/tart/alignment/outputs/{dset}/plots")
     # df <- read.csv(str_glue("{ppath}/peak_log.csv"))
@@ -52,7 +52,7 @@ peakplotmaker <- function(dset) {
 
     statdf$ann <- statdf$delta_mean < 0 &
         statdf$delta_mean_pval < 0.01 &
-        statdf$delta_variance_pval < 0.01 &
+        statdf$delta_variance_pval < 0.05 &
         statdf$delta_variance > statdf$noiseset_delta_variance
     statdf <- statdf[statdf$ann, ]
     # statdf$ann_text <- "*✝"
@@ -92,41 +92,41 @@ peakplotmaker <- function(dset) {
 
     print(str_glue("Saving plot: {dset}"))
     alph <- 0.7
-    save_path <- str_glue("plots/peak_plots/{dset}_peak_plot_2.png")
+    save_path <- str_glue("plots/peak_plots/{dset}_peak_plot_3.png")
     ggsave(save_path, plot = peakplot, dpi = 320 * alph, units = "px", width = 7000 * alph, height = 4000 * alph)
 }
 
 {
     dsets <- c(
-        # "a_fischeri_ES114",
-        # "a_kunk",
-        # "b_anth",
-        # "b_frag",
-        # "b_pseudo",
-        # "b_sub_168",
-        # "b_theta",
-        # "b_xyla",
-        # "c_diff",
-        # "c_vibrioides",
-        # "d_vulg",
-        # "e_coli",
-        # "e_fae",
-        # "e_limo",
-        # "k_pneum",
-        # "m_smeg",
-        # "m_tuber",
-        # "n_gonorr",
-        # "p_cholor_aureo3084",
+        "a_fischeri_ES114",
+        "a_kunk",
+        "b_anth",
+        "b_frag",
+        "b_pseudo",
+        "b_sub_168",
+        "b_theta",
+        "b_xyla",
+        "c_diff",
+        "c_vibrioides",
+        "d_vulg",
+        "e_coli",
+        "e_fae",
+        "e_limo",
+        "k_pneum",
+        "m_smeg",
+        "m_tuber",
+        "n_gonorr",
+        "p_cholor_aureo3084",
         # "p_fluor",
-        # "s_coelicolor",
-        # "s_elon",
-        # "s_enter_typh",
-        # "s_epi",
-        # "s_meli",
-        # "s_sanguinis",
-        # "s_spcc6803",
-        # "x_albi",
-        # "x_ory"
+        "s_coelicolor",
+        "s_elon",
+        "s_enter_typh",
+        "s_epi",
+        "s_meli",
+        "s_sanguinis",
+        "s_spcc6803",
+        "x_albi",
+        "x_ory"
     )
     # These were removed from ^
     #   "c_basil"
@@ -134,5 +134,11 @@ peakplotmaker <- function(dset) {
     #   "p_salmo" <- This one had no peak log?
 }
 
-# sapply(dsets, peakplotmaker)
+
+# plot suffix:
+# 1. original plots (both < 0.01)
+# 2. new var stat (both < 0.01)
+# 3. new var stat (mean < 0.01, var < 0.05)
+
+sapply(dsets, peakplotmaker)
 # peakplotmaker("e_coli")
