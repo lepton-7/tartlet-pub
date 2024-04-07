@@ -20,7 +20,8 @@ var_t = 0.01
 # %%
 # Find all cluster stats files
 cluster_paths = [
-    Path(x) for x in glob("../alignment/outputs/*/plots/cluster_stats.csv")
+    # Path(x) for x in glob("../alignment/outputs/*/plots/cluster_stats.csv")
+    Path(x) for x in glob("../alignment/outputs/*/p2/cluster_stats.csv")
 ]
 
 # %%

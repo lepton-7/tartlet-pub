@@ -384,7 +384,13 @@
         tree <- read.tree("data/big_fig/taxa_list.tree")
         phylo_dict <- fromJSON(file = "data/big_fig/fancy_tips.json")
 
-        tree <- drop.tip(tree, c("'s__Piscirickettsia salmonis'", "'s__Acinetobacter baumannii'"))
+        to_drop <- c(
+            "'s__Pseudomonas_E fluorescens'",
+            "'s__Piscirickettsia salmonis'",
+            "'s__Acinetobacter baumannii'"
+        )
+
+        tree <- drop.tip(tree, to_drop)
         tax_tree <- ggtree(tree, size = 0.8, layout = "rectangular", ladderize = FALSE) +
             # ggtitle("Validation set tax tree") +
             geom_tiplab(size = 8, linesize = .5, align = TRUE, as_ylab = FALSE) +
@@ -397,33 +403,33 @@
         tax_tree
     }
 
-    {
-        df <- read.csv("data/big_fig/locus_inferences.csv")
-        df$is_active <- as.factor(df$is_active)
+    # {
+    #     df <- read.csv("data/big_fig/locus_inferences.csv")
+    #     df$is_active <- as.factor(df$is_active)
 
-        df$microbe <- factor(df$microbe)
-        df$target_name <- factor(df$target_name)
-        df$label <- df$microbe
+    #     df$microbe <- factor(df$microbe)
+    #     df$target_name <- factor(df$target_name)
+    #     df$label <- df$microbe
 
-        pie_mat <- ggplot(df, aes(x = target_name, y = tree_y(tax_tree, df), colour = is_active)) +
-            def_theme +
-            theme(
-                axis.text.x = element_text(size = 13, angle = 70, hjust = 1, colour = "black")
-            ) +
-            scale_colour_manual(name = "Transcriptionally active", values = active_pal) +
-            geom_point(
-                size = 2,
-                position = position_jitter(width = 0.2, height = 0.2),
-            ) +
-            guides(colour = "none")
+    #     pie_mat <- ggplot(df, aes(x = target_name, y = tree_y(tax_tree, df), colour = is_active)) +
+    #         def_theme +
+    #         theme(
+    #             axis.text.x = element_text(size = 13, angle = 70, hjust = 1, colour = "black")
+    #         ) +
+    #         scale_colour_manual(name = "Transcriptionally active", values = active_pal) +
+    #         geom_point(
+    #             size = 2,
+    #             position = position_jitter(width = 0.2, height = 0.2),
+    #         ) +
+    #         guides(colour = "none")
 
-        pie_mat
-        # ggplot2::coord_fixed() +
-        # geom_circle(aes(x0 = 6, y0 = 9, r = 5, fill = 1))
+    #     pie_mat
+    #     # ggplot2::coord_fixed() +
+    #     # geom_circle(aes(x0 = 6, y0 = 9, r = 5, fill = 1))
 
-        # levels(factor(df$target_name))
-        # head(pie_mat$data)
-    }
+    #     # levels(factor(df$target_name))
+    #     # head(pie_mat$data)
+    # }
 
     {
         inf_df <- read.csv("data/big_fig/locus_inferences_sum.csv")
@@ -492,8 +498,9 @@
     # length(levels(inf_df$target_name))
 }
 
+
 {
     alph <- 0.6
-    save_path <- str_glue("plots/big_fig.png")
+    save_path <- str_glue("plots/big_fig_2.png")
     ggsave(save_path, plot = patched, dpi = 320 * alph, units = "px", width = 7000 * alph, height = 3500 * alph)
 }
