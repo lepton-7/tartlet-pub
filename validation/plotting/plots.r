@@ -231,10 +231,6 @@
 
     pie_df <- function(d, r, incr) {
         ssize <- 10000
-        # x <- rep(NA, ssize)
-        # y <- rep(NA, ssize)
-        # idvec <- rep("PP", ssize)
-        # fval <- rep(0, ssize)
         x <- c()
         y <- c()
         idvec <- c()
@@ -244,7 +240,6 @@
 
         for (i in seq_along(d[, 1])) {
             dd <- d[i, ]
-            # print(d[i, ])
             segs <- dd$total
             act <- dd$active
             x0 <- dd$x_
@@ -257,42 +252,20 @@
             incr2 <- incr + ((theta %% incr) / (theta %/% incr))
 
             for (idx in seq_along(1:segs)) {
-                # print(idx)
                 if (segs > 1) {
                     x <- c(x, x0)
                     y <- c(y, y0)
                     fval <- c(fval, as.numeric(idx <= act))
                     idvec <- c(idvec, toString(interaction(dd$microbe, dd$target_name, as.factor(idx))))
-                    # print(idvec[cntr])
-                    # print(interaction(dd$microbe, dd$target_name, as.factor(idx)))
 
                     cntr <- cntr + 1
                 }
-                # if (segs > 1) {
-                #     x[cntr] <- x0
-                #     y[cntr] <- y0
-                #     fval[cntr] <- as.numeric(idx <= act)
-                #     idvec[cntr] <- toString(interaction(dd$microbe, dd$target_name, as.factor(idx)))
-                #     # print(idvec[cntr])
-                #     # print(interaction(dd$microbe, dd$target_name, as.factor(idx)))
-
-                #     cntr <- cntr + 1
-                # }
 
                 angvec <- seq.int(from = theta * (idx - 1), to = (theta * idx), by = incr2)
                 x <- c(x, x0 + r * sin(angvec))
                 y <- c(y, y0 + r * cos(angvec))
                 fval <- c(fval, rep(as.numeric(idx <= act), length(angvec)))
                 idvec <- c(idvec, rep(toString(interaction(dd$microbe, dd$target_name, as.factor(idx))), length(angvec)))
-
-                # for (ang in seq.int(from = theta * (idx - 1), to = (theta * idx), by = incr2)) {
-                #     x[cntr] <- x0 + r * sin(ang)
-                #     y[cntr] <- y0 + r * cos(ang)
-                #     fval[cntr] <- as.numeric(idx <= act)
-                #     idvec[cntr] <- toString(interaction(dd$microbe, dd$target_name, as.factor(idx)))
-
-                #     cntr <- cntr + 1
-                # }
             }
         }
         fval <- as.factor(fval)
@@ -359,17 +332,17 @@
                 ),
                 linewidth = 0.1
             ) +
+            geom_text(
+                aes(
+                    x = floor(max(polydf$x)) + 1,
+                    label = sras,
+                    hjust = 0
+                ),
+                size = 7
+            ) +
             scale_colour_manual(name = "d", values = c("black")) +
             scale_fill_manual(name = "Active?", values = active_pie_pal) +
-            # geom_circle(mapping = aes(
-            #     x0 = x_,
-            #     y0 = y_,
-            #     # fill = active
-            #     # linewidth = 0.5
-            #     r = 0.4
-            # )) +
-            coord_fixed() +
-            # geom_pie(mapping = aes(r = 0.04, segments = total, colour = "black")) +
+            coord_fixed(clip = "off") +
             scale_x_continuous(breaks = c(seq_along(levels(inf_df$target_name))), labels = levels(inf_df$target_name)) +
             scale_y_continuous(breaks = c(seq_along(levels(inf_df$microbe))), labels = levels(inf_df$microbe)) +
             guides(colour = "none")
@@ -377,14 +350,10 @@
         test_pie
     }
 
-
-    # levels(as.factor(inf_df$y_))
-
     # head(ggplot_build(test_pie)$plot)
     # head(ggplot_build(test_pie)$data[[1]])
     # head(ggplot_build(test_pie)$data[[2]])
 
-    # patched <- tax_tree + pie_mat + test_pie
     patched <- tax_tree + test_pie + plot_annotation(tag_levels = "a") &
         theme(plot.tag = element_text(size = 30, face = "bold"))
     patched
