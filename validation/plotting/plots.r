@@ -218,76 +218,6 @@
 # -----------------------------------------------------------------------
 # The big results fig with a tax tree and inferred riboswitch mechs
 
-# Helper for geom: return a polygonGlob for each pie slice
-# For now this creates triangles instead of radial segments
-{
-    slicer <- function(coor, dat, idx) {
-        if (dat$segments < 2) {
-            return(grid::nullGrob())
-        }
-        theta <- 2 * pi / dat$segments
-        x0 <- coor$x
-        y0 <- coor$y
-        r <- coor$r
-
-        # x <- c(x0)
-        # print(r)
-        # y <- c(y0)
-
-        px <- c(x0, x0 + r * sin(theta * (idx - 1)), x0 + r * sin(theta * idx))
-        py <- c(y0, x0 + r * cos(theta * (idx - 1)), x0 + r * cos(theta * idx))
-
-        # append(x, px)
-        # append(y, py)
-        # print(py)
-        grid::polygonGrob(
-            x = px, y = py,
-            # id.lengths = c(3),
-            default.units = "native",
-            gp = grid::gpar(
-                col = coor$colour,
-                fill = scales::alpha(coor$fill, coor$alpha),
-                lwd = coor$linewidth * .pt,
-                lty = coor$linetype
-            )
-        )
-    }
-
-    # xslicer <- function(coor, dat)
-
-
-    # Custom geom lmao
-    GeomPie <- ggproto("GeomPie", Geom,
-        required_aes = c("x", "y", "r", "segments"),
-        default_aes = aes(
-            colour = NA, fill = NA, linewidth = 0.5,
-            linetype = 1, alpha = 1
-        ),
-        draw_key = draw_key_polygon,
-        draw_panel = function(data, panel_params, coord) {
-            coords <- coord$transform(data, panel_params)
-            # if (data$segments < 2) {
-            #     return(grid::nullGrob())
-            # }
-            for (j in seq_along(data[, 1])) {
-                for (i in seq_along(1:data[j, ]$segments)) {
-                    # print(data[j, ])
-                    # print(i)
-                    slicer(coords[j, ], data[j, ], i)
-                }
-            }
-        }
-    )
-    geom_pie <- function(mapping = NULL, data = NULL, stat = "identity",
-                         position = "identity", na.rm = FALSE, show.legend = NA,
-                         inherit.aes = TRUE, ...) {
-        layer(
-            geom = GeomPie, mapping = mapping, data = data, stat = stat,
-            position = position, show.legend = show.legend, inherit.aes = inherit.aes,
-            params = list(na.rm = na.rm, ...)
-        )
-    }
-}
 
 # Funcs
 {
@@ -370,14 +300,7 @@
 
         return(polydf)
     }
-    polydf <- pie_df(inf_df, r = 0.4, incr = 2 * pi / 60)
-
-    # incr <- 0.10472 + ((0.571198 %% 0.10472) / (0.571198 %/% 0.10472))
-    # incr <- 2 * pi / 60
-    # theta <- 2 * pi / 11
-    # incr2 <- incr + ((theta %% incr) / (theta %/% incr))
 }
-# seq.int(from = 0.1 * (5 - 1), to = 0.1 * 5, by = 0.013)
 
 {
     {
@@ -402,34 +325,6 @@
 
         tax_tree
     }
-
-    # {
-    #     df <- read.csv("data/big_fig/locus_inferences.csv")
-    #     df$is_active <- as.factor(df$is_active)
-
-    #     df$microbe <- factor(df$microbe)
-    #     df$target_name <- factor(df$target_name)
-    #     df$label <- df$microbe
-
-    #     pie_mat <- ggplot(df, aes(x = target_name, y = tree_y(tax_tree, df), colour = is_active)) +
-    #         def_theme +
-    #         theme(
-    #             axis.text.x = element_text(size = 13, angle = 70, hjust = 1, colour = "black")
-    #         ) +
-    #         scale_colour_manual(name = "Transcriptionally active", values = active_pal) +
-    #         geom_point(
-    #             size = 2,
-    #             position = position_jitter(width = 0.2, height = 0.2),
-    #         ) +
-    #         guides(colour = "none")
-
-    #     pie_mat
-    #     # ggplot2::coord_fixed() +
-    #     # geom_circle(aes(x0 = 6, y0 = 9, r = 5, fill = 1))
-
-    #     # levels(factor(df$target_name))
-    #     # head(pie_mat$data)
-    # }
 
     {
         inf_df <- read.csv("data/big_fig/locus_inferences_sum.csv")
