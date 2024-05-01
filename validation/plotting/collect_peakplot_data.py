@@ -21,8 +21,29 @@ var_t = 0.01
 # Find all cluster stats files
 cluster_paths = [
     # Path(x) for x in glob("../alignment/outputs/*/plots/cluster_stats.csv")
-    Path(x) for x in glob("../alignment/outputs/*/p2/cluster_stats.csv")
+    Path(x)
+    for x in glob("../alignment/outputs/*/p2/cluster_stats.csv")
 ]
+
+peak_paths = [
+    # Path(x) for x in glob("../alignment/outputs/*/plots/peak_log.csv")
+    Path(x)
+    for x in glob("../alignment/outputs/*/p2/peak_log.csv")
+]
+
+# %%
+# Go through each peak_log and find how many transcriptomes contribute to peaks for each dataset
+
+# TODO: Talk to Sarah about whether it's a better to log number of transcriptomes input instead.
+sra_dict = {}
+
+for ppath in peak_paths:
+
+    dset = ppath.parent.parent.stem
+
+    df = pd.read_csv(ppath)
+    sra_dict[dset] = len(pd.unique(df["transcriptome"]))
+
 
 # %%
 
@@ -76,7 +97,13 @@ for k, v in sum_tot.items():
     k: str
     s = k.split("|")
     sum_list.append(
-        {"microbe": s[0], "target_name": s[1], "active": sum_active[k], "total": v}
+        {
+            "microbe": s[0],
+            "target_name": s[1],
+            "active": sum_active[k],
+            "total": v,
+            "sras": sra_dict[s[0]],
+        }
     )
 
 big_tab_sum = pd.DataFrame(sum_list)
