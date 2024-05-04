@@ -27,13 +27,12 @@
 
 # themes
 {
-    def_theme <- theme_classic() +
-        theme(
-            axis.text.x = element_text(size = 13, angle = 0, colour = "black"),
-            axis.text.y = element_text(size = 13, face = "bold"),
-            axis.title = element_text(size = 18, face = "bold"),
-            plot.title = element_blank()
-        )
+    def_theme <- theme(
+        axis.text.x = element_text(size = 13, angle = 0, colour = "black"),
+        axis.text.y = element_text(size = 13, face = "bold"),
+        axis.title = element_text(size = 18, face = "bold"),
+        plot.title = element_blank()
+    )
 }
 
 # -----------------------------------------------------------------------------
@@ -382,11 +381,14 @@
             def_theme +
             theme(
                 axis.text.x = element_text(size = 13, angle = 70, hjust = 1, colour = "black"),
-                # axis.ticks.y = element_blank(),
+                axis.ticks.y = element_blank(),
                 # axis.text.y = element_text(size = 13, hjust = 1, colour = "black"),
                 axis.text.y = element_blank(),
                 axis.title.y = element_blank(),
                 axis.title.x = element_blank(),
+                axis.line = element_blank(),
+                # plot.margin = unit(c(0, 0, 0, 0), "inches"),
+                panel.background = element_blank(),
             ) +
             geom_polygon(
                 data = polydf,
@@ -398,7 +400,8 @@
             ) +
             geom_text(
                 aes(
-                    x = floor(max(polydf$x)) + 1,
+                    # x = floor(max(polydf$x)) + 1,
+                    x = -1,
                     label = sras,
                     hjust = 0
                 ),
