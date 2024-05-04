@@ -229,6 +229,57 @@
             pull(y)
     }
 
+    # overwrite the default expand for continuous scales
+    scale_y_tree <- function(expand = expand_scale(0, 0.6), ...) {
+        scale_y_continuous(expand = expand, ...)
+    }
+
+    # get the range of the ggtree y-axis data
+    tree_ylim <- function(ggtree) {
+        if (!inherits(ggtree, "ggtree")) {
+            stop("not a ggtree object")
+        }
+        range(ggtree$data$y)
+    }
+
+
+    # plot data next to a ggtree aligned by shared labels
+    ggtreeplot <- function(ggtree, data = NULL, mapping = aes(), flip = FALSE,
+                           expand_limits = expand_scale(0, .6), ...) {
+        if (!inherits(ggtree, "ggtree")) {
+            stop("not a ggtree object")
+        }
+
+        # match the tree limits
+        limits <- tree_ylim(ggtree)
+        limits[1] <- limits[1] + (limits[1] * expand_limits[1]) - expand_limits[2]
+        limits[2] <- limits[2] + (limits[2] * expand_limits[3]) + expand_limits[4]
+
+        if (flip) {
+            mapping <- modifyList(aes_(x = ~x), mapping)
+            data <- mutate(data, x = tree_y(ggtree, data))
+            gg <- ggplot(data = data, mapping = mapping, ...) +
+                scale_x_continuous(limits = limits, expand = c(0, 0))
+        } else {
+            mapping <- modifyList(aes_(y = ~y), mapping)
+            data <- mutate(data, y = tree_y(ggtree, data))
+            gg <- ggplot(data = data, mapping = mapping, ...) +
+                scale_y_continuous(limits = limits, expand = c(0, 0))
+        }
+        gg
+    }
+
+    # get rid of superfluous axis - this works after coord_flip, so it also works
+    # for the rotated histogram
+    no_y_axis <- function() {
+        theme(
+            axis.line.y = element_blank(),
+            axis.title.y = element_blank(),
+            axis.text.y = element_blank(),
+            axis.ticks.y = element_blank()
+        )
+    }
+
     pie_df <- function(d, r, incr) {
         ssize <- 10000
         x <- c()
@@ -289,38 +340,51 @@
         tree <- drop.tip(tree, to_drop)
         tax_tree <- ggtree(tree, size = 0.8, layout = "rectangular", ladderize = FALSE) +
             # ggtitle("Validation set tax tree") +
-            geom_tiplab(size = 8, linesize = .5, align = TRUE, as_ylab = FALSE) +
+            geom_tiplab(size = 7, linesize = .5, align = TRUE, as_ylab = FALSE) +
             xlim_tree(2.5)
 
         for (i in seq_along(tree$tip.label)) {
-            tax_tree$data$label[i] <- phylo_dict[[tax_tree$data$label[i]]][2]
+            tax_tree$data$label[i] <- phylo_dict[[tax_tree$data$label[i]]][3]
         }
 
         tax_tree
     }
 
+
     {
+        lst <- list()
+        for (i in phylo_dict) {
+            lst[[i[2]]] <- i[3]
+        }
+
         inf_df <- read.csv("data/big_fig/locus_inferences_sum.csv")
         inf_df$inactive <- as.numeric(inf_df$total) - as.numeric(inf_df$active)
+        nl <- lapply(inf_df$microbe, function(x) lst[[x]])
+        inf_df$label <- unlist(nl)
+        # inf_df$label <- factor(inf_df$label)
 
         inf_df$microbe <- factor(inf_df$microbe)
         inf_df$target_name <- factor(inf_df$target_name)
 
-        inf_df$label <- inf_df$microbe
+        # lst[inf_df$microbe]
+        # inf_df$label <- inf_df$microbe
         inf_df$x_ <- match(inf_df$target_name, levels(inf_df$target_name))
         inf_df$y_ <- tree_y(tax_tree, inf_df)
         inf_df$microbe <- fct_reorder(inf_df$microbe, inf_df$y_, min)
 
         polydf <- pie_df(inf_df, r = 0.4, incr = 2 * pi / 120)
+        head(inf_df)
     }
+
+
     {
-        test_pie <- ggplot(inf_df, aes(x = x_, y = y_)) +
+        test_pie <- ggtreeplot(tax_tree, inf_df, aes(x = x_)) +
             def_theme +
             theme(
                 axis.text.x = element_text(size = 13, angle = 70, hjust = 1, colour = "black"),
                 # axis.ticks.y = element_blank(),
-                axis.text.y = element_text(size = 13, hjust = 1, colour = "black"),
-                # axis.text.y = element_blank(),
+                # axis.text.y = element_text(size = 13, hjust = 1, colour = "black"),
+                axis.text.y = element_blank(),
                 axis.title.y = element_blank(),
                 axis.title.x = element_blank(),
             ) +
@@ -344,7 +408,7 @@
             scale_fill_manual(name = "Active?", values = active_pie_pal) +
             coord_fixed(clip = "off") +
             scale_x_continuous(breaks = c(seq_along(levels(inf_df$target_name))), labels = levels(inf_df$target_name)) +
-            scale_y_continuous(breaks = c(seq_along(levels(inf_df$microbe))), labels = levels(inf_df$microbe)) +
+            # scale_y_continuous(breaks = c(seq_along(levels(inf_df$microbe))), labels = levels(inf_df$microbe)) +
             guides(colour = "none")
 
         test_pie
@@ -365,6 +429,6 @@
 
 {
     alph <- 0.6
-    save_path <- str_glue("plots/big_fig_2.png")
-    ggsave(save_path, plot = patched, dpi = 320 * alph, units = "px", width = 7000 * alph, height = 3500 * alph)
+    save_path <- str_glue("plots/big_fig_3.png")
+    ggsave(save_path, plot = patched, dpi = 320 * alph, units = "px", width = 7000 * alph, height = 4000 * alph)
 }
