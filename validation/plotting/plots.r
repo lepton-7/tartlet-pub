@@ -389,6 +389,7 @@
                 axis.line = element_blank(),
                 # plot.margin = unit(c(0, 0, 0, 0), "inches"),
                 panel.background = element_blank(),
+                legend.position = "top",
             ) +
             geom_polygon(
                 data = polydf,
@@ -408,7 +409,7 @@
                 size = 7
             ) +
             scale_colour_manual(name = "d", values = c("black")) +
-            scale_fill_manual(name = "Transcriptional \nactivity", labels = c("no evidence", "condition-dependent \ntermination efficiency"), values = active_pie_pal) +
+            scale_fill_manual(name = "Transcriptional activity:", labels = c("no evidence", "condition-dependent termination efficiency"), values = active_pie_pal) +
             coord_fixed(clip = "off") +
             scale_x_continuous(breaks = c(seq_along(levels(inf_df$target_name))), labels = levels(inf_df$target_name)) +
             # scale_y_continuous(breaks = c(seq_along(levels(inf_df$microbe))), labels = levels(inf_df$microbe)) +
@@ -421,7 +422,12 @@
     # head(ggplot_build(test_pie)$data[[1]])
     # head(ggplot_build(test_pie)$data[[2]])
 
-    patched <- tax_tree + test_pie + plot_annotation(tag_levels = "a") &
+    tag_y <- 0.98
+    patched <- tax_tree +
+        theme(plot.tag.position = c(0, tag_y)) +
+        test_pie +
+        theme(plot.tag.position = c(0, tag_y)) +
+        plot_annotation(tag_levels = "a") &
         theme(plot.tag = element_text(size = 30, face = "bold"))
     patched
 
