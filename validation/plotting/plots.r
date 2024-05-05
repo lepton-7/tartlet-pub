@@ -408,7 +408,7 @@
                 size = 7
             ) +
             scale_colour_manual(name = "d", values = c("black")) +
-            scale_fill_manual(name = "Active?", values = active_pie_pal) +
+            scale_fill_manual(name = "Transcriptional \nactivity", labels = c("no evidence", "condition-dependent \ntermination efficiency"), values = active_pie_pal) +
             coord_fixed(clip = "off") +
             scale_x_continuous(breaks = c(seq_along(levels(inf_df$target_name))), labels = levels(inf_df$target_name)) +
             # scale_y_continuous(breaks = c(seq_along(levels(inf_df$microbe))), labels = levels(inf_df$microbe)) +
