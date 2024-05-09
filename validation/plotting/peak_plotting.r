@@ -13,8 +13,8 @@
     def_theme <- theme_classic() +
         theme(
             axis.text.x = element_text(size = 13, angle = 0, colour = "black"),
-            axis.text.y = element_text(size = 13, face = "bold"),
-            axis.title = element_text(size = 18, face = "bold"),
+            axis.text.y = element_text(size = 13),
+            axis.title = element_text(size = 18),
             # plot.title = element_blank()
         )
 }
@@ -73,13 +73,14 @@ peakplotmaker <- function(dset) {
         geom_mark_ellipse(aes(fill = as.factor(cluster)), expand = unit(0.5, "mm")) +
         labs(
             title = str_glue("{dset} riboswitches across all available conditions"),
-            y = "Stable fractional coverage change",
+            y = "Fractional coverage change",
             x = "Position relative to riboswitch 3′ end as a fraction of riboswitch length"
         ) +
         def_theme +
         theme(
             plot.title = element_text(size = 14),
-            legend.position = "none"
+            legend.position = "none",
+            strip.text = element_text(size = 12)
         ) +
         coord_cartesian(ylim = c(-1.2, 0.5)) +
         guides(alpha = "none", color = "none")
@@ -141,4 +142,4 @@ peakplotmaker <- function(dset) {
 # 3. new var stat (mean < 0.01, var < 0.05)
 
 sapply(dsets, peakplotmaker)
-# peakplotmaker("e_coli")
+peakplotmaker("e_coli")
