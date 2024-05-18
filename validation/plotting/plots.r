@@ -404,7 +404,7 @@
                     # x = floor(max(polydf$x)) + 1,
                     x = -1,
                     label = sras,
-                    hjust = 0
+                    hjust = 1
                 ),
                 size = 7
             ) +
