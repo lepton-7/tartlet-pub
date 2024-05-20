@@ -9,6 +9,7 @@
     library(dplyr)
     library(ggforce)
     library(treeio)
+    library(magick)
     setwd("validation/plotting")
 }
 
@@ -441,3 +442,27 @@
     save_path <- str_glue("plots/big_fig_3.png")
     ggsave(save_path, plot = patched, dpi = 320 * alph, units = "px", width = 7000 * alph, height = 4000 * alph)
 }
+
+# -----------------------------------------------------------------------
+# Conceptual fragmentation and convolution application figure
+{
+    frag_img <- image_read_svg("./plots/concept_figs/__conceptual_fragmentation.svg", width = 3000)
+    conv_img <- image_read_svg("./plots/concept_figs/convolution_application.svg", width = 3000)
+
+    frag_plot <- image_ggplot(frag_img)
+    conv_plot <- image_ggplot(conv_img)
+
+    patched <- frag_plot / conv_plot +
+        plot_annotation(tag_levels = "a") &
+        theme(plot.tag = element_text(size = 30, face = "bold"))
+
+    patched
+}
+
+
+{
+    alph <- 0.6
+    save_path <- str_glue("plots/concept_fragmentation.png")
+    ggsave(save_path, plot = patched, dpi = 320 * alph, units = "px", width = 7000 * alph, height = 4000 * alph)
+}
+
