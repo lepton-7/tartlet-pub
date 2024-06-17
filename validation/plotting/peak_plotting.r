@@ -63,6 +63,7 @@ peakplotmaker <- function(dset) {
 
 
     peakplot <- ggplot(df, aes(x = from_riboswith_end_relative, y = coverage_delta_stable_relative)) +
+        geom_vline(xintercept = 0, colour = "#959595", linetype = "dashed") +
         # peakplot <- ggplot(df, aes(x = from_riboswith_end_relative, y = 0)) +
         # peakplot <- ggplot(df, aes(x = from_riboswith_end_relative, y = coverage_delta_relative)) +
         geom_line(aes(color = transcriptome)) +
@@ -80,7 +81,8 @@ peakplotmaker <- function(dset) {
         theme(
             plot.title = element_text(size = 14),
             legend.position = "none",
-            strip.text = element_text(size = 12)
+            strip.text = element_text(size = 12),
+            strip.background = element_rect(fill = "#cdcdcd", linewidth = 0),
         ) +
         coord_cartesian(ylim = c(-1.2, 0.5)) +
         guides(alpha = "none", color = "none")
