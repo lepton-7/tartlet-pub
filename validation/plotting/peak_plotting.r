@@ -13,7 +13,7 @@
     def_theme <- theme_classic() +
         theme(
             axis.text.x = element_text(size = 13, angle = 0, colour = "black"),
-            axis.text.y = element_text(size = 13),
+            axis.text.y = element_text(size = 13, colour = "black"),
             axis.title = element_text(size = 18),
             # plot.title = element_blank()
         )
@@ -144,4 +144,4 @@ peakplotmaker <- function(dset) {
 # 3. new var stat (mean < 0.01, var < 0.05)
 
 sapply(dsets, peakplotmaker)
-peakplotmaker("e_coli")
+peakplotmaker("b_sub_168")
