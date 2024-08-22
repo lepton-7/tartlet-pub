@@ -31,6 +31,10 @@ peak_paths = [
     for x in glob("../alignment/outputs/*/p2/peak_log.csv")
 ]
 
+# Ingest the table with literature evidence.
+lit_table_path = "./data/big_fig/lit_findings.csv"
+lit_table = pd.read_csv(lit_table_path)
+
 # %%
 # Go through each peak_log and find how many transcriptomes contribute to peaks for each dataset
 
@@ -87,6 +91,11 @@ for clpath in cluster_paths:
         sum_active[f"{dset}|{classname(k)}"] += int(bool(v))
 
 big_tab = pd.DataFrame(big_tab_list)
+
+# %%
+# Merge literature expectations into the long inference table
+big_tab = big_tab.merge(lit_table, how="outer", on=None).fillna(str(0))
+
 # %%
 big_tab.to_csv("./data/big_fig/locus_inferences.csv", index=False)
 
