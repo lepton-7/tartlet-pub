@@ -1,0 +1,17 @@
+# This file is manually curated,,,,,
+microbe,rowid,target_name,lit_active,lit_incon,note
+b_anth,TPP#AE017334.2#752099#752211#+,TPP,1,0,upstream tandem
+b_anth,TPP#AE017334.2#752272#752375#+,TPP,1,0,downstream tandem; upstream of tenA
+b_sub_168,Glycine#NC_000964.3#2549606#2549505#-,Glycine,1,0,upstream of gcvT 
+b_sub_168,FMN#NC_000964.3#2431617#2431473#-,FMN,1,0,upstream of ribD
+b_sub_168,Lysine#NC_000964.3#2911051#2910872#-,Lysine,1,0,upstream of lysCB subunit
+b_sub_168,M-box#NC_000964.3#1395616#1395781#+,M-box,1,0,upstream of mgtE
+b_sub_168,Purine#NC_000964.3#2320213#2320114#-,Purine,1,0,upstream of xpt
+b_sub_168,Purine#NC_000964.3#626446#626347#-,Purine,1,0,upstream of pbuE
+b_sub_168,SAM#NC_000964.3#1180802#1180685#-,SAM,1,0,upstream of samT/yitJ
+e_coli,Cobalamin#NC_000913.3#4163384#4163573#+,Cobalamin,0,1,upstream of btuB; shown to be atleast translational
+e_coli,FMN#NC_000913.3#3184718#3184570#-,FMN,1,0,upstream of ribB
+e_coli,Lysine#NC_000913.3#4233521#4233325#-,Lysine,0,1,uptream of lysC
+e_coli,TPP#NC_000913.3#2185432#2185336#-,TPP,1,0,upstream of thiM
+e_coli,TPP#NC_000913.3#4196280#4196180#-,TPP,1,0,upstream of thiC; translation and transcription mod but the termination site is supposedly near the start codon -- I did not see anything noteworthy in the locus plot
+e_fae,SMK_box_riboswitch#KB944666.1#866904#866999#+,SMK_box_riboswitch,0,1,upstream of metK SAM synthase; only found evidence for translation mod in lit
