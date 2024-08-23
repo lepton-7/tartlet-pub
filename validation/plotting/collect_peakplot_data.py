@@ -2,6 +2,7 @@
 #  file from the validation set
 
 # %%
+from typing import Literal
 import pandas as pd
 
 from glob import glob
@@ -15,7 +16,7 @@ def classname(rowid: str):
 
 
 mean_t = 0.01
-var_t = 0.01
+var_t = 0.05
 
 # %%
 # Find all cluster stats files
@@ -34,6 +35,28 @@ peak_paths = [
 # Ingest the table with literature evidence.
 lit_table_path = "./data/big_fig/lit_findings.csv"
 lit_table = pd.read_csv(lit_table_path)
+
+
+# %%
+
+def lit_agreement(rowid: str, tartres: int):
+    subdf = lit_table[lit_table["rowid"] == rowid]
+
+    if len(subdf) == 0:
+        return None
+
+    if tartres and subdf["lit_active"].iloc[0]:
+        return "active_agree"
+
+    elif tartres and not subdf["lit_active"].iloc[0]:
+        return "active_disagree"
+
+    elif not tartres and subdf["lit_active"].iloc[0]:
+        return "incon_disagree"
+
+    elif not tartres and subdf["lit_incon"].iloc[0]:
+        return "incon_agree"
+
 
 # %%
 # Go through each peak_log and find how many transcriptomes contribute to peaks for each dataset
@@ -54,6 +77,10 @@ for ppath in peak_paths:
 big_tab_list = []
 sum_tot = defaultdict(int)
 sum_active = defaultdict(int)
+sum_act_agree = defaultdict(int)
+sum_incon_agree = defaultdict(int)
+sum_act_disagree = defaultdict(int)
+sum_incon_disagree = defaultdict(int)
 for clpath in cluster_paths:
     dset = clpath.parent.parent.stem
 
@@ -82,19 +109,35 @@ for clpath in cluster_paths:
                 "rowid": k,
                 "target_name": classname(k),
                 "is_active": int(bool(v)),
+                "lit_result": lit_agreement(k, int(bool(v))),
             }
             for k, v in act_tally.items()
         ]
     )
-    for k, v in act_tally.items():
-        sum_tot[f"{dset}|{classname(k)}"] += 1
-        sum_active[f"{dset}|{classname(k)}"] += int(bool(v))
+
+for d in big_tab_list:
+    dset = d["microbe"]
+    rid = d["rowid"]
+    tname = d["target_name"]
+    act = d["is_active"]
+    lit = d["lit_result"]
+
+    sum_tot[f"{dset}|{tname}"] += 1
+
+    if lit is None:
+        sum_active[f"{dset}|{tname}"] += act
+        continue
+
+    sum_act_agree[f"{dset}|{tname}"] += int(lit == "active_agree")
+    sum_incon_agree[f"{dset}|{tname}"] += int(lit == "incon_agree")
+    sum_act_disagree[f"{dset}|{tname}"] += int(lit == "act_disagree")
+    sum_incon_disagree[f"{dset}|{tname}"] += int(lit == "incon_disagree")
 
 big_tab = pd.DataFrame(big_tab_list)
 
 # %%
 # Merge literature expectations into the long inference table
-big_tab = big_tab.merge(lit_table, how="outer", on=None).fillna(str(0))
+big_tab = big_tab.merge(lit_table, how="outer", on=None)
 
 # %%
 big_tab.to_csv("./data/big_fig/locus_inferences.csv", index=False)
@@ -112,6 +155,10 @@ for k, v in sum_tot.items():
             "active": sum_active[k],
             "total": v,
             "sras": sra_dict[s[0]],
+            "active_agree": sum_act_agree[k],
+            "incon_agree": sum_incon_agree[k],
+            "act_disagree": sum_act_disagree[k],
+            "incon_disagree": sum_incon_disagree[k],
         }
     )
 
