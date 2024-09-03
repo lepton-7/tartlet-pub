@@ -22,8 +22,11 @@
 # Colour palattes
 {
     decision_pal <- c("pass" = "#6956e7", "fail" = "#eaef5b", "incon" = "#000000")
-    active_pal <- c("0" = "black", "1" = "#bb9601")
-    active_pie_pal <- c("0" = "#8b8b8b", "1" = "#d9b937")
+    # active_pal <- c("0" = "black", "1" = "#bb9601")
+    active_pie_pal <- c(
+        "nov" = "#8b8b8b", "act" = "#d9b937", "act_ag" = "#4dff2d",
+        "act_dis" = "#ff2828", "incon_ag" = "#4d47ff", "incon_dis" = "#ff42d3"
+    )
 }
 
 # themes
@@ -295,6 +298,10 @@
             act <- dd$active
             x0 <- dd$x_
             y0 <- dd$y_
+            active_agree <- as.numeric(dd$active_agree)
+            incon_agree <- as.numeric(dd$incon_agree)
+            active_disagree <- as.numeric(dd$act_disagree)
+            incon_disagree <- as.numeric(dd$incon_disagree)
 
             if (segs < 1) next
             theta <- 2 * pi / segs
@@ -302,11 +309,34 @@
             # adjust incr to ensure are no unfilled slices
             incr2 <- incr + ((theta %% incr) / (theta %/% incr))
 
+
             for (idx in seq_along(1:segs)) {
+                slice_color <- function() {
+                    val_tot <- active_agree + incon_agree +
+                        active_disagree + incon_disagree
+
+                    if (idx <= active_agree) {
+                        return("act_ag")
+                    }
+                    if (idx <= (active_agree + active_disagree)) {
+                        return("act_dis")
+                    }
+                    if (idx <= (active_agree + active_disagree + incon_agree)) {
+                        return("incon_ag")
+                    }
+                    if (idx <= (active_agree + active_disagree + incon_agree + incon_disagree)) {
+                        return("incon_dis")
+                    }
+                    if (idx <= (act + val_tot)) {
+                        return("act")
+                    }
+
+                    return("nov")
+                }
                 if (segs > 1) {
                     x <- c(x, x0)
                     y <- c(y, y0)
-                    fval <- c(fval, as.numeric(idx <= act))
+                    fval <- c(fval, slice_color())
                     idvec <- c(idvec, toString(interaction(dd$microbe, dd$target_name, as.factor(idx))))
 
                     cntr <- cntr + 1
@@ -315,7 +345,7 @@
                 angvec <- seq.int(from = theta * (idx - 1), to = (theta * idx), by = incr2)
                 x <- c(x, x0 + r * sin(angvec))
                 y <- c(y, y0 + r * cos(angvec))
-                fval <- c(fval, rep(as.numeric(idx <= act), length(angvec)))
+                fval <- c(fval, rep(slice_color(), length(angvec)))
                 idvec <- c(idvec, rep(toString(interaction(dd$microbe, dd$target_name, as.factor(idx))), length(angvec)))
             }
         }
@@ -410,7 +440,8 @@
                 size = 7
             ) +
             scale_colour_manual(name = "d", values = c("black")) +
-            scale_fill_manual(name = "Transcriptional activity:", labels = c("no evidence", "condition-dependent termination efficiency"), values = active_pie_pal) +
+            # scale_fill_manual(name = "Transcriptional activity:", labels = c("no evidence", "condition-dependent termination efficiency"), values = active_pie_pal) +
+            scale_fill_manual(name = "Transcriptional activity:", values = active_pie_pal) +
             coord_fixed(clip = "off") +
             scale_x_continuous(breaks = c(seq_along(levels(inf_df$target_name))), labels = levels(inf_df$target_name)) +
             # scale_y_continuous(breaks = c(seq_along(levels(inf_df$microbe))), labels = levels(inf_df$microbe)) +
@@ -418,10 +449,6 @@
 
         test_pie
     }
-
-    # head(ggplot_build(test_pie)$plot)
-    # head(ggplot_build(test_pie)$data[[1]])
-    # head(ggplot_build(test_pie)$data[[2]])
 
     tag_y <- 0.98
     patched <- tax_tree +
@@ -439,7 +466,7 @@
 
 {
     alph <- 0.6
-    save_path <- str_glue("plots/big_fig_3.png")
+    save_path <- str_glue("plots/big_fig_withval.png")
     ggsave(save_path, plot = patched, dpi = 320 * alph, units = "px", width = 7000 * alph, height = 4000 * alph)
 }
 
@@ -465,4 +492,3 @@
     save_path <- str_glue("plots/concept_fragmentation.png")
     ggsave(save_path, plot = patched, dpi = 320 * alph, units = "px", width = 7000 * alph, height = 4000 * alph)
 }
-
