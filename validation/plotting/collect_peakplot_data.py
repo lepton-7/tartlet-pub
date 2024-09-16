@@ -15,7 +15,7 @@ def classname(rowid: str):
     return rowid.split("#")[0]
 
 
-mean_t = 0.01
+mean_t = 0.05
 var_t = 0.05
 
 # %%
@@ -130,7 +130,7 @@ for d in big_tab_list:
 
     sum_act_agree[f"{dset}|{tname}"] += int(lit == "active_agree")
     sum_incon_agree[f"{dset}|{tname}"] += int(lit == "incon_agree")
-    sum_act_disagree[f"{dset}|{tname}"] += int(lit == "act_disagree")
+    sum_act_disagree[f"{dset}|{tname}"] += int(lit == "active_disagree")
     sum_incon_disagree[f"{dset}|{tname}"] += int(lit == "incon_disagree")
 
 big_tab = pd.DataFrame(big_tab_list)
@@ -157,7 +157,7 @@ for k, v in sum_tot.items():
             "sras": sra_dict[s[0]],
             "active_agree": sum_act_agree[k],
             "incon_agree": sum_incon_agree[k],
-            "act_disagree": sum_act_disagree[k],
+            "active_disagree": sum_act_disagree[k],
             "incon_disagree": sum_incon_disagree[k],
         }
     )

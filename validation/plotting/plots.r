@@ -300,7 +300,7 @@
             y0 <- dd$y_
             active_agree <- as.numeric(dd$active_agree)
             incon_agree <- as.numeric(dd$incon_agree)
-            active_disagree <- as.numeric(dd$act_disagree)
+            active_disagree <- as.numeric(dd$active_disagree)
             incon_disagree <- as.numeric(dd$incon_disagree)
 
             if (segs < 1) next
