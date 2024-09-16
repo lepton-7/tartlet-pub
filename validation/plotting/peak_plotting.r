@@ -51,7 +51,7 @@ peakplotmaker <- function(dset) {
     statdf$rowid <- sapply(statdf$rowid, rowidlabeller)
 
     statdf$ann <- statdf$delta_mean < 0 &
-        statdf$delta_mean_pval < 0.01 &
+        statdf$delta_mean_pval < 0.05 &
         statdf$delta_variance_pval < 0.05 &
         statdf$delta_variance > statdf$noiseset_delta_variance
     statdf <- statdf[statdf$ann, ]
@@ -95,7 +95,7 @@ peakplotmaker <- function(dset) {
 
     print(str_glue("Saving plot: {dset}"))
     alph <- 0.7
-    save_path <- str_glue("plots/peak_plots/{dset}_peak_plot_3.png")
+    save_path <- str_glue("plots/peak_plots/{dset}_peak_plot_4.png")
     ggsave(save_path, plot = peakplot, dpi = 320 * alph, units = "px", width = 7000 * alph, height = 4000 * alph)
 }
 
@@ -142,6 +142,7 @@ peakplotmaker <- function(dset) {
 # 1. original plots (both < 0.01)
 # 2. new var stat (both < 0.01)
 # 3. new var stat (mean < 0.01, var < 0.05)
+# 4. new var stat (mean < 0.05, var < 0.05)
 
 sapply(dsets, peakplotmaker)
-peakplotmaker("b_sub_168")
+# peakplotmaker("b_sub_168")
