@@ -441,7 +441,10 @@
             ) +
             scale_colour_manual(name = "d", values = c("black")) +
             # scale_fill_manual(name = "Transcriptional activity:", labels = c("no evidence", "condition-dependent termination efficiency"), values = active_pie_pal) +
-            scale_fill_manual(name = "Transcriptional activity:", values = active_pie_pal) +
+            scale_fill_manual(name = "Transcriptional activity:", values = active_pie_pal, labels = c(
+                "nov" = "Inconclusive", "act" = "Condition-dependent transcription efficiency", "act_ag" = "Active in agreement with lit",
+                "act_dis" = "Active but inconclusive in literature", "incon_ag" = "Inconclusive in literature", "incon_dis" = "Inconclusive but active in literature"
+            )) +
             coord_fixed(clip = "off") +
             scale_x_continuous(breaks = c(seq_along(levels(inf_df$target_name))), labels = levels(inf_df$target_name)) +
             # scale_y_continuous(breaks = c(seq_along(levels(inf_df$microbe))), labels = levels(inf_df$microbe)) +
