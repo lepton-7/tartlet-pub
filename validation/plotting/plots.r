@@ -465,6 +465,7 @@
             geom_tile() +
             def_theme +
             theme(
+                axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5),
                 axis.ticks.y = element_blank(),
                 axis.ticks.x = element_blank(),
                 axis.line = element_blank(),
@@ -472,6 +473,19 @@
                 legend.position = "NA",
             ) +
             scale_fill_manual(values = active_pie_pal) +
+            labs(
+                x = "TaRTLEt",
+                y = "Literature evidence"
+            ) +
+            scale_x_discrete(labels = c(
+                "Y" = "Positive",
+                "NA" = "Insufficient"
+            )) +
+            scale_y_discrete(labels = c(
+                "Y" = "Atleast \ntranscriptional",
+                "Trans" = "Only \ntranslational",
+                "NA" = "No \nevidence"
+            )) +
             guides(fill = "none") +
             plot_layout(tag_level = "new")
 
@@ -479,7 +493,7 @@
     }
 
     {
-        xsc <- 8
+        xsc <- 10
         layout <- c(
             area(t = 1, l = 1, b = 10, r = 5 * xsc), # tree
             area(t = 1, l = 5 * xsc + 1, b = 10, r = 10 * xsc), # pie plot
