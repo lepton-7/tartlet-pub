@@ -356,121 +356,157 @@
     }
 }
 
-{
-    {
-        tree <- read.tree("data/big_fig/taxa_list.tree")
-        phylo_dict <- fromJSON(file = "data/big_fig/fancy_tips.json")
+{{
+    tree <- read.tree("data/big_fig/taxa_list.tree")
+    phylo_dict <- fromJSON(file = "data/big_fig/fancy_tips.json")
 
-        to_drop <- c(
-            "'s__Pseudomonas_E fluorescens'",
-            "'s__Piscirickettsia salmonis'",
-            "'s__Acinetobacter baumannii'"
-        )
+    to_drop <- c(
+        "'s__Pseudomonas_E fluorescens'",
+        "'s__Piscirickettsia salmonis'",
+        "'s__Acinetobacter baumannii'"
+    )
 
-        tree <- drop.tip(tree, to_drop)
-        tax_tree <- ggtree(tree, size = 0.8, layout = "rectangular", ladderize = FALSE) +
-            # ggtitle("Validation set tax tree") +
-            geom_tiplab(size = 7, linesize = .5, align = TRUE, as_ylab = FALSE) +
-            xlim_tree(2.5)
+    tree <- drop.tip(tree, to_drop)
+    tax_tree <- ggtree(tree, size = 0.8, layout = "rectangular", ladderize = FALSE) +
+        # ggtitle("Validation set tax tree") +
+        geom_tiplab(size = 7, linesize = .5, align = TRUE, as_ylab = FALSE) +
+        xlim_tree(2.5)
 
-        for (i in seq_along(tree$tip.label)) {
-            tax_tree$data$label[i] <- phylo_dict[[tax_tree$data$label[i]]][3]
-        }
-
-        tax_tree
+    for (i in seq_along(tree$tip.label)) {
+        tax_tree$data$label[i] <- phylo_dict[[tax_tree$data$label[i]]][3]
     }
 
-
-    {
-        lst <- list()
-        for (i in phylo_dict) {
-            lst[[i[2]]] <- i[3]
-        }
-
-        inf_df <- read.csv("data/big_fig/locus_inferences_sum.csv")
-        inf_df$inactive <- as.numeric(inf_df$total) - as.numeric(inf_df$active)
-        nl <- lapply(inf_df$microbe, function(x) lst[[x]])
-        inf_df$label <- unlist(nl)
-        # inf_df$label <- factor(inf_df$label)
-
-        inf_df$microbe <- factor(inf_df$microbe)
-        inf_df$target_name <- factor(inf_df$target_name)
-
-        # lst[inf_df$microbe]
-        # inf_df$label <- inf_df$microbe
-        inf_df$x_ <- match(inf_df$target_name, levels(inf_df$target_name))
-        inf_df$y_ <- tree_y(tax_tree, inf_df)
-        inf_df$microbe <- fct_reorder(inf_df$microbe, inf_df$y_, min)
-
-        polydf <- pie_df(inf_df, r = 0.4, incr = 2 * pi / 120)
-        head(inf_df)
-    }
-
-
-    {
-        test_pie <- ggtreeplot(tax_tree, inf_df, aes(x = x_)) +
-            def_theme +
-            theme(
-                axis.text.x = element_text(size = 13, angle = 70, hjust = 1, colour = "black"),
-                axis.ticks.y = element_blank(),
-                # axis.text.y = element_text(size = 13, hjust = 1, colour = "black"),
-                axis.text.y = element_blank(),
-                axis.title.y = element_blank(),
-                axis.title.x = element_blank(),
-                axis.line = element_blank(),
-                # plot.margin = unit(c(0, 0, 0, 0), "inches"),
-                panel.background = element_blank(),
-                legend.position = "top",
-            ) +
-            geom_polygon(
-                data = polydf,
-                mapping = aes(
-                    x = x, y = y, fill = fval, group = idvec, color = "a"
-                    # linetype = "solid",# linewidth = 0.5
-                ),
-                linewidth = 0.1
-            ) +
-            geom_text(
-                aes(
-                    # x = floor(max(polydf$x)) + 1,
-                    x = -1,
-                    label = sras,
-                    hjust = 1
-                ),
-                size = 7
-            ) +
-            scale_colour_manual(name = "d", values = c("black")) +
-            # scale_fill_manual(name = "Transcriptional activity:", labels = c("no evidence", "condition-dependent termination efficiency"), values = active_pie_pal) +
-            scale_fill_manual(name = "Transcriptional activity:", values = active_pie_pal, labels = c(
-                "nov" = "Inconclusive", "act" = "Condition-dependent transcription efficiency", "act_ag" = "Active in agreement with lit",
-                "act_dis" = "Active but inconclusive in literature", "incon_ag" = "Inconclusive in literature", "incon_dis" = "Inconclusive but active in literature"
-            )) +
-            coord_fixed(clip = "off") +
-            scale_x_continuous(breaks = c(seq_along(levels(inf_df$target_name))), labels = levels(inf_df$target_name)) +
-            # scale_y_continuous(breaks = c(seq_along(levels(inf_df$microbe))), labels = levels(inf_df$microbe)) +
-            guides(colour = "none")
-
-        test_pie
-    }
-
-    tag_y <- 0.98
-    patched <- tax_tree +
-        theme(plot.tag.position = c(0, tag_y)) +
-        test_pie +
-        theme(plot.tag.position = c(0, tag_y)) +
-        plot_annotation(tag_levels = "a") &
-        theme(plot.tag = element_text(size = 30, face = "bold"))
-    patched
-
-    # match(df$microbe, levels(df$microbe))
-    # length(levels(inf_df$target_name))
+    tax_tree
 }
 
 
 {
-    alph <- 0.6
-    save_path <- str_glue("plots/big_fig_withval.png")
-    ggsave(save_path, plot = patched, dpi = 320 * alph, units = "px", width = 7000 * alph, height = 4000 * alph)
+    lst <- list()
+    for (i in phylo_dict) {
+        lst[[i[2]]] <- i[3]
+    }
+
+    inf_df <- read.csv("data/big_fig/locus_inferences_sum.csv")
+    inf_df$inactive <- as.numeric(inf_df$total) - as.numeric(inf_df$active)
+    nl <- lapply(inf_df$microbe, function(x) lst[[x]])
+    inf_df$label <- unlist(nl)
+    # inf_df$label <- factor(inf_df$label)
+
+    inf_df$microbe <- factor(inf_df$microbe)
+    inf_df$target_name <- factor(inf_df$target_name)
+
+    # lst[inf_df$microbe]
+    # inf_df$label <- inf_df$microbe
+    inf_df$x_ <- match(inf_df$target_name, levels(inf_df$target_name))
+    inf_df$y_ <- tree_y(tax_tree, inf_df)
+    inf_df$microbe <- fct_reorder(inf_df$microbe, inf_df$y_, min)
+
+    polydf <- pie_df(inf_df, r = 0.4, incr = 2 * pi / 120)
+    head(inf_df)
+}
+
+
+{
+    test_pie <- ggtreeplot(tax_tree, inf_df, aes(x = x_)) +
+        def_theme +
+        theme(
+            axis.text.x = element_text(size = 13, angle = 70, hjust = 1, colour = "black"),
+            axis.ticks.y = element_blank(),
+            # axis.text.y = element_text(size = 13, hjust = 1, colour = "black"),
+            axis.text.y = element_blank(),
+            axis.title.y = element_blank(),
+            axis.title.x = element_blank(),
+            axis.line = element_blank(),
+            # plot.margin = unit(c(0, 0, 0, 0), "inches"),
+            panel.background = element_blank(),
+            legend.position = "top",
+        ) +
+        geom_polygon(
+            data = polydf,
+            mapping = aes(
+                x = x, y = y, fill = fval, group = idvec, color = "a"
+                # linetype = "solid",# linewidth = 0.5
+            ),
+            linewidth = 0.1
+        ) +
+        geom_text(
+            aes(
+                # x = floor(max(polydf$x)) + 1,
+                x = -1,
+                label = sras,
+                hjust = 1
+            ),
+            size = 7
+        ) +
+        scale_colour_manual(name = "d", values = c("black")) +
+        # scale_fill_manual(name = "Transcriptional activity:", labels = c("no evidence", "condition-dependent termination efficiency"), values = active_pie_pal) +
+        scale_fill_manual(name = "Transcriptional activity:", values = active_pie_pal, labels = c(
+            "nov" = "Inconclusive results", "act" = "Condition-dependent transcription efficiency", "act_ag" = "Active in agreement with lit",
+            "act_dis" = "Active but inconclusive in literature", "incon_ag" = "Inconclusive in results and literature", "incon_dis" = "Inconclusive but active in literature"
+        )) +
+        coord_fixed(clip = "off") +
+        scale_x_continuous(breaks = c(seq_along(levels(inf_df$target_name))), labels = levels(inf_df$target_name)) +
+        # scale_y_continuous(breaks = c(seq_along(levels(inf_df$microbe))), labels = levels(inf_df$microbe)) +
+        guides(colour = "none", fill = "none")
+
+    test_pie
+}
+
+
+{
+    # This is the legend for panel b
+    leg_df <- data.frame(
+        tool = c("Y", "Y", "Y", "NA", "NA", "NA"),
+        litresult = c("Y", "Trans", "NA", "Y", "Trans", "NA"),
+        colkey = c("#4dff2d", "#ff2828", "#d9b937", "#ff42d3", "#4d47ff", "#8b8b8b")
+    )
+    leg <- ggplot(leg_df, aes(x = tool, y = litresult, fill = colkey)) +
+        geom_tile() +
+        def_theme +
+        theme(
+            axis.ticks.y = element_blank(),
+            axis.ticks.x = element_blank(),
+            axis.line = element_blank(),
+            panel.background = element_blank(),
+            legend.position = "NA",
+        ) +
+        scale_fill_manual(values = c(
+            "#4dff2d" = "#4dff2d",
+            "#ff2828" = "#ff2828",
+            "#d9b937" = "#d9b937",
+            "#ff42d3" = "#ff42d3",
+            "#4d47ff" = "#4d47ff",
+            "#8b8b8b" = "#8b8b8b"
+        )) +
+        guides(fill = "none") +
+        plot_layout(tag_level = "new")
+
+    # leg
+}
+
+{
+    xsc <- 8
+    layout <- c(
+        area(t = 1, l = 1, b = 10, r = 5 * xsc), # tree
+        area(t = 1, l = 5 * xsc + 1, b = 10, r = 10 * xsc), # pie plot
+        area(t = 3, l = 10 * xsc + 1, b = 6, r = 10 * xsc + 4) # leg
+    )
+    tag_y <- 0.98
+    patched <- tax_tree + test_pie + leg +
+        plot_layout(design = layout) +
+        theme(plot.tag.position = c(0, tag_y)) +
+        plot_annotation(tag_levels = "a") &
+        theme(plot.tag = element_text(size = 30, face = "bold"))
+    patched
+}}
+
+
+{
+    wbyr <- 2
+    h <- 4000
+    alph <- 1
+    save_path <- str_glue("plots/big_fig_withvalleg.png")
+    ggsave(save_path, plot = patched, dpi = 320 * alph, units = "px", width = h * wbyr * alph, height = h * alph)
 }
 
 # -----------------------------------------------------------------------
