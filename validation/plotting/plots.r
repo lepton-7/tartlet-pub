@@ -418,7 +418,7 @@
                 axis.title.y = element_blank(),
                 axis.title.x = element_blank(),
                 axis.line = element_blank(),
-                # plot.margin = unit(c(0, 0, 0, 0), "inches"),
+                plot.margin = unit(c(0, 0, 0, 0), "inches"),
                 panel.background = element_blank(),
                 legend.position = "top",
             ) +
@@ -451,7 +451,6 @@
 
         test_pie
     }
-
 
     {
         # This is the legend for panel b
@@ -496,13 +495,13 @@
         xsc <- 10
         layout <- c(
             area(t = 1, l = 1, b = 10, r = 5 * xsc), # tree
-            area(t = 1, l = 5 * xsc + 1, b = 10, r = 10 * xsc), # pie plot
+            area(t = 1, l = 5 * xsc - 1, b = 10, r = 10 * xsc), # pie plot
             area(t = 3, l = 10 * xsc + 1, b = 6, r = 10 * xsc + 4) # leg
         )
         tag_y <- 0.98
         patched <- tax_tree + test_pie + leg +
             plot_layout(design = layout) +
-            theme(plot.tag.position = c(0, tag_y)) +
+            # theme(plot.tag.position = c(0, tag_y)) +
             plot_annotation(tag_levels = "a") &
             theme(plot.tag = element_text(size = 30, face = "bold"))
         patched
@@ -513,7 +512,7 @@
 
 
 {
-    wbyr <- 2
+    wbyr <- 2.3
     h <- 4000
     alph <- 1
     save_path <- str_glue("plots/big_fig_withvalleg.png")
