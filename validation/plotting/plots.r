@@ -419,7 +419,8 @@
                 axis.title.x = element_blank(),
                 axis.line = element_blank(),
                 plot.margin = unit(c(0, 0, 0, 0), "inches"),
-                panel.background = element_blank(),
+                panel.background = element_rect(fill = "transparent"),
+                plot.background = element_rect(fill = "transparent", color = NA),
                 legend.position = "top",
             ) +
             geom_polygon(
@@ -464,26 +465,27 @@
             geom_tile() +
             def_theme +
             theme(
-                axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5),
+                axis.text.x = element_text(angle = 75, hjust = 1, vjust = 1),
                 axis.ticks.y = element_blank(),
                 axis.ticks.x = element_blank(),
                 axis.line = element_blank(),
-                panel.background = element_blank(),
+                panel.background = element_rect(fill = "transparent"),
+                plot.background = element_rect(fill = "transparent", color = NA),
                 legend.position = "NA",
             ) +
             scale_fill_manual(values = active_pie_pal) +
             labs(
-                x = "TaRTLEt",
+                x = "TaRTLEt \nResult",
                 y = "Literature evidence"
             ) +
             scale_x_discrete(labels = c(
                 "Y" = "Positive",
-                "NA" = "Insufficient"
+                "NA" = "Inconclusive"
             )) +
             scale_y_discrete(labels = c(
-                "Y" = "Atleast \ntranscriptional",
-                "Trans" = "Only \ntranslational",
-                "NA" = "No \nevidence"
+                "Y" = "Atleast \nTranscri-\nptional",
+                "Trans" = "Only \nTransla-\ntional",
+                "NA" = "No \nEvidence"
             )) +
             guides(fill = "none") +
             plot_layout(tag_level = "new")
@@ -492,11 +494,11 @@
     }
 
     {
-        xsc <- 10
+        xsc <- 20
         layout <- c(
             area(t = 1, l = 1, b = 10, r = 5 * xsc), # tree
-            area(t = 1, l = 5 * xsc - 1, b = 10, r = 10 * xsc), # pie plot
-            area(t = 3, l = 10 * xsc + 1, b = 6, r = 10 * xsc + 4) # leg
+            area(t = 1, l = 5 * xsc - 8, b = 10, r = 10 * xsc), # pie plot
+            area(t = 2, l = (10 * xsc), b = 4, r = 10 * xsc + 8) # leg
         )
         tag_y <- 0.98
         patched <- tax_tree + test_pie + leg +
@@ -508,11 +510,11 @@
     }
 
     # patched
-}
+    # }
 
 
-{
-    wbyr <- 2.3
+    # {
+    wbyr <- 2.05
     h <- 4000
     alph <- 1
     save_path <- str_glue("plots/big_fig_withvalleg.png")
