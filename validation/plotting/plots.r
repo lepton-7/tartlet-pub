@@ -486,7 +486,7 @@
                 "Y" = "Atleast \nTranscri-\nptional",
                 "Trans" = "Only \nTransla-\ntional",
                 "NA" = "No \nEvidence"
-            )) +
+            ), position = "right") +
             guides(fill = "none") +
             plot_layout(tag_level = "new")
 
@@ -498,7 +498,7 @@
         layout <- c(
             area(t = 1, l = 1, b = 10, r = 5 * xsc), # tree
             area(t = 1, l = 5 * xsc - 8, b = 10, r = 10 * xsc), # pie plot
-            area(t = 2, l = (10 * xsc), b = 4, r = 10 * xsc + 8) # leg
+            area(t = 1, l = (10 * xsc)-5, b = 3, r = 10 * xsc + 5) # leg
         )
         tag_y <- 0.98
         patched <- tax_tree + test_pie + leg +
