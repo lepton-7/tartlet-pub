@@ -1,0 +1,3 @@
+[submodule "tartlet"]
+	path = tartlet
+	url = https://github.com/lepton-7/tartlet.git
