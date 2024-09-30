@@ -11,6 +11,8 @@
 
 set echo on
 
+RT="$HOME/tartlet-pub"
+
 DSETS=(
     "a_fischeri_ES114"
     "a_kunk"
@@ -48,7 +50,6 @@ DSETS=(
 
 for DSET in ${DSETS[@]}; do
 
-    RT="$HOME/packages/tart"
     REF_DIR="$RT/validation/alignment/outputs/$DSET/switch_seqs_delta1000-1000"
 
     srun -n 1 tart-targeted index -i $REF_DIR -p 44
