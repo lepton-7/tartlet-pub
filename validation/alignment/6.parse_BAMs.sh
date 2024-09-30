@@ -11,19 +11,19 @@
 
 set echo on
 
-RT="$HOME/packages/tart"
+RT="$HOME/tartlet-pub"
 
-DATECODE="20240328"
+DATECODE="20240930"
 
 DSETS=(
-    # "a_fischeri_ES114"
-    # "a_kunk"
-    # "b_anth"
-    # "b_frag"
-    # "b_pseudo"
-    # "b_sub_168"
-    # "b_theta"
-    # "b_xyla"
+    "a_fischeri_ES114"
+    "a_kunk"
+    "b_anth"
+    "b_frag"
+    "b_pseudo"
+    "b_sub_168"
+    "b_theta"
+    "b_xyla"
     # "c_diff"
     # "c_vibrioides"
     # "d_vulg"
@@ -36,21 +36,20 @@ DSETS=(
     # "n_gonorr"
     # "p_cholor_aureo3084"
     # "p_fluor"
-    "p_salmo"
-    "s_coelicolor"
-    "s_elon"
-    "s_enter_typh"
-    "s_epi"
-    "s_meli"
-    "s_sanguinis"
-    "s_spcc6803"
-    "x_albi"
-    "x_ory"
+    # "p_salmo"
+    # "s_coelicolor"
+    # "s_elon"
+    # "s_enter_typh"
+    # "s_epi"
+    # "s_meli"
+    # "s_sanguinis"
+    # "s_spcc6803"
+    # "x_albi"
+    # "x_ory"
 )
 # These were removed from ^
 #   "c_basil"
 #   "p_aeru"
-
 
 echo "Parsing BAMs for:"
 echo "${DSETS[*]}"
@@ -71,6 +70,7 @@ for DSET in ${DSETS[@]}; do
     mpiexec tart-targeted parse-bam -i $BAM_DIR \
         -o $SAVE_ROOT \
         --bounds-file $BOUNDS_PATH \
+        --allow-single-reads \
         --picks &&
         # --allow-soft-clips \
         wait

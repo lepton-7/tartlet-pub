@@ -1,0 +1,860 @@
+Parsing BAMs for:
+s_epi s_meli s_sanguinis s_spcc6803 x_albi x_ory
+
+
+Starting BAM parsing for s_epi
+rm: cannot remove ‘/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/s_epi/plots/picks.tar.gz’: No such file or directory
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2baada0f7ad0>, <tartlet.utils.read_parsing.Read object at 0x2baada0f7c90>, <tartlet.utils.read_parsing.Read object at 0x2baada804d10>, <tartlet.utils.read_parsing.Read object at 0x2baada8068d0>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2ac72c96fa90>, <tartlet.utils.read_parsing.Read object at 0x2ac72c96fc50>, <tartlet.utils.read_parsing.Read object at 0x2ac72d165a50>, <tartlet.utils.read_parsing.Read object at 0x2ac72d169d50>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2ac72c975bd0>, <tartlet.utils.read_parsing.Read object at 0x2ac72c975d90>, <tartlet.utils.read_parsing.Read object at 0x2ac72d1663d0>, <tartlet.utils.read_parsing.Read object at 0x2ac72d16af50>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2b087d974990>, <tartlet.utils.read_parsing.Read object at 0x2b087d974b90>, <tartlet.utils.read_parsing.Read object at 0x2b087d9bd250>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2b6fd177cbd0>, <tartlet.utils.read_parsing.Read object at 0x2b6fd177d110>, <tartlet.utils.read_parsing.Read object at 0x2b6fd17aa390>, <tartlet.utils.read_parsing.Read object at 0x2b6fd17aa890>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2b6fd177cb90>, <tartlet.utils.read_parsing.Read object at 0x2b6fd177d290>, <tartlet.utils.read_parsing.Read object at 0x2b6fd17a9ed0>, <tartlet.utils.read_parsing.Read object at 0x2b6fd17aa350>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2b6fd177d950>, <tartlet.utils.read_parsing.Read object at 0x2b6fd177da90>, <tartlet.utils.read_parsing.Read object at 0x2b6fd17aa790>, <tartlet.utils.read_parsing.Read object at 0x2b6fd17a8090>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2b6fd177dc10>, <tartlet.utils.read_parsing.Read object at 0x2b6fd177d910>, <tartlet.utils.read_parsing.Read object at 0x2b6fd17a8590>, <tartlet.utils.read_parsing.Read object at 0x2b6fd17a8750>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2b6fd177ddd0>, <tartlet.utils.read_parsing.Read object at 0x2b6fd177e1d0>, <tartlet.utils.read_parsing.Read object at 0x2b6fd17a8e10>, <tartlet.utils.read_parsing.Read object at 0x2b6fd17a9550>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2b09894fac90>, <tartlet.utils.read_parsing.Read object at 0x2b0989503350>, <tartlet.utils.read_parsing.Read object at 0x2b0989503590>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2b09894fb590>, <tartlet.utils.read_parsing.Read object at 0x2b0989503e10>, <tartlet.utils.read_parsing.Read object at 0x2b0989510090>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2b09896b1010>, <tartlet.utils.read_parsing.Read object at 0x2b09896b1210>, <tartlet.utils.read_parsing.Read object at 0x2b09896cc5d0>, <tartlet.utils.read_parsing.Read object at 0x2b09896cc810>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2b09896b1350>, <tartlet.utils.read_parsing.Read object at 0x2b09896b1550>, <tartlet.utils.read_parsing.Read object at 0x2b09896cc9d0>, <tartlet.utils.read_parsing.Read object at 0x2b09896ccb90>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2b09896b1bd0>, <tartlet.utils.read_parsing.Read object at 0x2b09896b1dd0>, <tartlet.utils.read_parsing.Read object at 0x2b09896ccd50>, <tartlet.utils.read_parsing.Read object at 0x2b09896ccf10>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2b09896b1f10>, <tartlet.utils.read_parsing.Read object at 0x2b09896b2110>, <tartlet.utils.read_parsing.Read object at 0x2b09896cd0d0>, <tartlet.utils.read_parsing.Read object at 0x2b09896cd290>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2acca9bb7950>, <tartlet.utils.read_parsing.Read object at 0x2acca9bb7b10>, <tartlet.utils.read_parsing.Read object at 0x2accaa5fb7d0>, <tartlet.utils.read_parsing.Read object at 0x2accaa5fb950>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2acca9bb7d90>, <tartlet.utils.read_parsing.Read object at 0x2acca9bb7ed0>, <tartlet.utils.read_parsing.Read object at 0x2accaa5fbad0>, <tartlet.utils.read_parsing.Read object at 0x2accaa5fbc50>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2acca9bc0b90>, <tartlet.utils.read_parsing.Read object at 0x2acca9bc0d50>, <tartlet.utils.read_parsing.Read object at 0x2accaa609d90>, <tartlet.utils.read_parsing.Read object at 0x2accaa609f10>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2acca9bc1650>, <tartlet.utils.read_parsing.Read object at 0x2acca9bc1810>, <tartlet.utils.read_parsing.Read object at 0x2accaa60ab10>, <tartlet.utils.read_parsing.Read object at 0x2accaa60ac90>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2acca9bc1a90>, <tartlet.utils.read_parsing.Read object at 0x2acca9bc1bd0>, <tartlet.utils.read_parsing.Read object at 0x2accaa60ae10>, <tartlet.utils.read_parsing.Read object at 0x2accaa60af90>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2acca9bc2bd0>, <tartlet.utils.read_parsing.Read object at 0x2acca9bc2dd0>, <tartlet.utils.read_parsing.Read object at 0x2accaa6150d0>, <tartlet.utils.read_parsing.Read object at 0x2accaa615250>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2b87ac77ff90>, <tartlet.utils.read_parsing.Read object at 0x2b87ac790190>, <tartlet.utils.read_parsing.Read object at 0x2b87adff3610>, <tartlet.utils.read_parsing.Read object at 0x2b87adffb310>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2b87ac790b90>, <tartlet.utils.read_parsing.Read object at 0x2b87ac790d50>, <tartlet.utils.read_parsing.Read object at 0x2b87adffa150>, <tartlet.utils.read_parsing.Read object at 0x2b87ae00a890>]
+Mapped in switch = 21 ; Unmapped in switch = 0
+Mapped in switch = 8 ; Unmapped in switch = 0
+Mapped in switch = 16 ; Unmapped in switch = 0
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2b99dbff0450>, <tartlet.utils.read_parsing.Read object at 0x2b99dbff3150>, <tartlet.utils.read_parsing.Read object at 0x2b99dc05a090>, <tartlet.utils.read_parsing.Read object at 0x2b99dc05a2d0>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2ae80278a410>, <tartlet.utils.read_parsing.Read object at 0x2ae80278b010>, <tartlet.utils.read_parsing.Read object at 0x2ae80278b250>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2aecfea8aed0>, <tartlet.utils.read_parsing.Read object at 0x2aecfea8b390>, <tartlet.utils.read_parsing.Read object at 0x2aecfe6a9bd0>, <tartlet.utils.read_parsing.Read object at 0x2aecfe6abdd0>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2aecfea8b090>, <tartlet.utils.read_parsing.Read object at 0x2aecfea8b510>, <tartlet.utils.read_parsing.Read object at 0x2aecfe6a8c10>, <tartlet.utils.read_parsing.Read object at 0x2aecfe6a84d0>]
+Mapped in switch = 44 ; Unmapped in switch = 1
+Mapped in switch = 12 ; Unmapped in switch = 3
+Mapped in switch = 8 ; Unmapped in switch = 0
+Mapped in switch = 15 ; Unmapped in switch = 0
+Mapped in switch = 68 ; Unmapped in switch = 2
+Mapped in switch = 8 ; Unmapped in switch = 0
+Mapped in switch = 8 ; Unmapped in switch = 1
+Mapped in switch = 19 ; Unmapped in switch = 1
+Mapped in switch = 72 ; Unmapped in switch = 2
+Mapped in switch = 7 ; Unmapped in switch = 1
+Mapped in switch = 9 ; Unmapped in switch = 1
+Mapped in switch = 36 ; Unmapped in switch = 1
+Mapped in switch = 17 ; Unmapped in switch = 0
+Mapped in switch = 250 ; Unmapped in switch = 2
+Mapped in switch = 14 ; Unmapped in switch = 0
+Mapped in switch = 12 ; Unmapped in switch = 4
+Mapped in switch = 12 ; Unmapped in switch = 1
+Mapped in switch = 23 ; Unmapped in switch = 4
+Mapped in switch = 23 ; Unmapped in switch = 0
+Mapped in switch = 19 ; Unmapped in switch = 0
+Mapped in switch = 49 ; Unmapped in switch = 0
+Mapped in switch = 115 ; Unmapped in switch = 0
+Mapped in switch = 87 ; Unmapped in switch = 2
+Mapped in switch = 11 ; Unmapped in switch = 4
+Mapped in switch = 41 ; Unmapped in switch = 0
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2adac04657d0>, <tartlet.utils.read_parsing.Read object at 0x2adac0465950>, <tartlet.utils.read_parsing.Read object at 0x2adac0c93210>, <tartlet.utils.read_parsing.Read object at 0x2adac0c934d0>]
+Mapped in switch = 95 ; Unmapped in switch = 1
+Mapped in switch = 9 ; Unmapped in switch = 1
+Mapped in switch = 9 ; Unmapped in switch = 0
+Mapped in switch = 10 ; Unmapped in switch = 2
+Mapped in switch = 13 ; Unmapped in switch = 4
+Mapped in switch = 22 ; Unmapped in switch = 5
+Mapped in switch = 20 ; Unmapped in switch = 1
+Mapped in switch = 248 ; Unmapped in switch = 0
+Mapped in switch = 30 ; Unmapped in switch = 1
+Mapped in switch = 77 ; Unmapped in switch = 1
+Mapped in switch = 18 ; Unmapped in switch = 0
+Mapped in switch = 92 ; Unmapped in switch = 0
+Mapped in switch = 148 ; Unmapped in switch = 1
+Mapped in switch = 98 ; Unmapped in switch = 2
+Mapped in switch = 41 ; Unmapped in switch = 0
+Mapped in switch = 56 ; Unmapped in switch = 4
+Mapped in switch = 441 ; Unmapped in switch = 3
+Mapped in switch = 8 ; Unmapped in switch = 0
+Mapped in switch = 9 ; Unmapped in switch = 0
+Mapped in switch = 48 ; Unmapped in switch = 0
+Mapped in switch = 25 ; Unmapped in switch = 0
+Mapped in switch = 18 ; Unmapped in switch = 0
+Mapped in switch = 15 ; Unmapped in switch = 0
+Mapped in switch = 46 ; Unmapped in switch = 0
+Mapped in switch = 106 ; Unmapped in switch = 5
+Mapped in switch = 8 ; Unmapped in switch = 1
+Mapped in switch = 215 ; Unmapped in switch = 4
+Mapped in switch = 55 ; Unmapped in switch = 2
+Mapped in switch = 31 ; Unmapped in switch = 3
+Mapped in switch = 55 ; Unmapped in switch = 1
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2aca2b62e190>, <tartlet.utils.read_parsing.Read object at 0x2aca2b62e2d0>, <tartlet.utils.read_parsing.Read object at 0x2aca2b64ae10>, <tartlet.utils.read_parsing.Read object at 0x2aca2b6480d0>]
+Mapped in switch = 104 ; Unmapped in switch = 3
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2ae88f5e1ed0>, <tartlet.utils.read_parsing.Read object at 0x2ae88f5e0a90>, <tartlet.utils.read_parsing.Read object at 0x2ae88ee70150>, <tartlet.utils.read_parsing.Read object at 0x2ae88eec6890>]
+Mapped in switch = 13 ; Unmapped in switch = 1
+Mapped in switch = 30 ; Unmapped in switch = 1
+Mapped in switch = 8 ; Unmapped in switch = 0
+Mapped in switch = 25 ; Unmapped in switch = 0
+Mapped in switch = 34 ; Unmapped in switch = 2
+Mapped in switch = 22 ; Unmapped in switch = 5
+Mapped in switch = 96 ; Unmapped in switch = 0
+Mapped in switch = 35 ; Unmapped in switch = 0
+Mapped in switch = 2 ; Unmapped in switch = 6
+Mapped in switch = 37 ; Unmapped in switch = 5
+Mapped in switch = 63 ; Unmapped in switch = 5
+Mapped in switch = 16 ; Unmapped in switch = 4
+Mapped in switch = 84 ; Unmapped in switch = 2
+Mapped in switch = 11 ; Unmapped in switch = 0
+Mapped in switch = 22 ; Unmapped in switch = 0
+Mapped in switch = 6 ; Unmapped in switch = 3
+Mapped in switch = 37 ; Unmapped in switch = 2
+Mapped in switch = 8 ; Unmapped in switch = 0
+Mapped in switch = 29 ; Unmapped in switch = 0
+Mapped in switch = 56 ; Unmapped in switch = 1
+Mapped in switch = 30 ; Unmapped in switch = 1
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2b8b4571e450>, <tartlet.utils.read_parsing.Read object at 0x2b8b4571fed0>, <tartlet.utils.read_parsing.Read object at 0x2b8b466ca890>, <tartlet.utils.read_parsing.Read object at 0x2b8b466ca9d0>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2b99db407590>, <tartlet.utils.read_parsing.Read object at 0x2b99db407750>, <tartlet.utils.read_parsing.Read object at 0x2b99db8b9d50>, <tartlet.utils.read_parsing.Read object at 0x2b99db858290>]
+Mapped in switch = 80 ; Unmapped in switch = 0
+Mapped in switch = 8 ; Unmapped in switch = 0
+Mapped in switch = 22 ; Unmapped in switch = 0
+Mapped in switch = 28 ; Unmapped in switch = 0
+Mapped in switch = 20 ; Unmapped in switch = 3
+Mapped in switch = 32 ; Unmapped in switch = 0
+Mapped in switch = 30 ; Unmapped in switch = 4
+Mapped in switch = 25 ; Unmapped in switch = 1
+Mapped in switch = 729 ; Unmapped in switch = 0
+Mapped in switch = 15 ; Unmapped in switch = 0
+Mapped in switch = 14 ; Unmapped in switch = 0
+Mapped in switch = 18 ; Unmapped in switch = 2
+Mapped in switch = 9 ; Unmapped in switch = 0
+Mapped in switch = 71 ; Unmapped in switch = 0
+Mapped in switch = 8 ; Unmapped in switch = 0
+Mapped in switch = 11 ; Unmapped in switch = 0
+Mapped in switch = 22 ; Unmapped in switch = 1
+Mapped in switch = 167 ; Unmapped in switch = 2
+Mapped in switch = 17 ; Unmapped in switch = 0
+Mapped in switch = 301 ; Unmapped in switch = 1
+Mapped in switch = 122 ; Unmapped in switch = 3
+Mapped in switch = 455 ; Unmapped in switch = 3
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2aad01d15e10>, <tartlet.utils.read_parsing.Read object at 0x2aad01d17510>, <tartlet.utils.read_parsing.Read object at 0x2aad01a66a10>, <tartlet.utils.read_parsing.Read object at 0x2aad01a675d0>]
+Mapped in switch = 762 ; Unmapped in switch = 2
+Mapped in switch = 13 ; Unmapped in switch = 0
+Mapped in switch = 16 ; Unmapped in switch = 0
+Mapped in switch = 27 ; Unmapped in switch = 2
+Mapped in switch = 8 ; Unmapped in switch = 0
+Mapped in switch = 88 ; Unmapped in switch = 1
+Mapped in switch = 26 ; Unmapped in switch = 3
+Mapped in switch = 1428 ; Unmapped in switch = 6
+Mapped in switch = 22 ; Unmapped in switch = 0
+Mapped in switch = 14 ; Unmapped in switch = 0
+Mapped in switch = 69 ; Unmapped in switch = 0
+Mapped in switch = 20 ; Unmapped in switch = 0
+Mapped in switch = 185 ; Unmapped in switch = 2
+Mapped in switch = 108 ; Unmapped in switch = 0
+Mapped in switch = 32 ; Unmapped in switch = 3
+Mapped in switch = 11 ; Unmapped in switch = 0
+Mapped in switch = 332 ; Unmapped in switch = 2
+Mapped in switch = 8 ; Unmapped in switch = 0
+Mapped in switch = 112 ; Unmapped in switch = 5
+Mapped in switch = 45 ; Unmapped in switch = 0
+Mapped in switch = 22 ; Unmapped in switch = 0
+Mapped in switch = 239 ; Unmapped in switch = 8
+Mapped in switch = 125 ; Unmapped in switch = 0
+Mapped in switch = 8 ; Unmapped in switch = 2
+Mapped in switch = 281 ; Unmapped in switch = 4
+Mapped in switch = 192 ; Unmapped in switch = 3
+Mapped in switch = 29 ; Unmapped in switch = 0
+Mapped in switch = 54 ; Unmapped in switch = 0
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2ae80358f750>, <tartlet.utils.read_parsing.Read object at 0x2ae80358f910>, <tartlet.utils.read_parsing.Read object at 0x2ae8037dd8d0>, <tartlet.utils.read_parsing.Read object at 0x2ae8037df450>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2ae80358fa90>, <tartlet.utils.read_parsing.Read object at 0x2ae80358fc50>, <tartlet.utils.read_parsing.Read object at 0x2ae8037ddb50>, <tartlet.utils.read_parsing.Read object at 0x2ae8037df5d0>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2ae80358fdd0>, <tartlet.utils.read_parsing.Read object at 0x2ae80358ff90>, <tartlet.utils.read_parsing.Read object at 0x2ae8037ddd50>, <tartlet.utils.read_parsing.Read object at 0x2ae8037df750>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2ae803598150>, <tartlet.utils.read_parsing.Read object at 0x2ae803598310>, <tartlet.utils.read_parsing.Read object at 0x2ae8037ddf50>, <tartlet.utils.read_parsing.Read object at 0x2ae8037df8d0>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2ae803598490>, <tartlet.utils.read_parsing.Read object at 0x2ae803598650>, <tartlet.utils.read_parsing.Read object at 0x2ae8037de150>, <tartlet.utils.read_parsing.Read object at 0x2ae8037dfd50>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2ae8035989d0>, <tartlet.utils.read_parsing.Read object at 0x2ae803598b50>, <tartlet.utils.read_parsing.Read object at 0x2ae8037de350>, <tartlet.utils.read_parsing.Read object at 0x2ae8037e4210>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2b2118102550>, <tartlet.utils.read_parsing.Read object at 0x2b21181027d0>, <tartlet.utils.read_parsing.Read object at 0x2b2118252bd0>, <tartlet.utils.read_parsing.Read object at 0x2b2118252f90>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2b2118102990>, <tartlet.utils.read_parsing.Read object at 0x2b2118102b50>, <tartlet.utils.read_parsing.Read object at 0x2b2118253010>, <tartlet.utils.read_parsing.Read object at 0x2b2118253250>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2accac06ea50>, <tartlet.utils.read_parsing.Read object at 0x2accac06ec90>, <tartlet.utils.read_parsing.Read object at 0x2accad7c2a90>, <tartlet.utils.read_parsing.Read object at 0x2accad7c2c10>]
+Mapped in switch = 146 ; Unmapped in switch = 2
+Mapped in switch = 0 ; Unmapped in switch = 8
+Mapped in switch = 12 ; Unmapped in switch = 0
+Mapped in switch = 15 ; Unmapped in switch = 5
+Mapped in switch = 8 ; Unmapped in switch = 1
+Mapped in switch = 13 ; Unmapped in switch = 0
+Mapped in switch = 26 ; Unmapped in switch = 2
+Mapped in switch = 12 ; Unmapped in switch = 3
+Mapped in switch = 91 ; Unmapped in switch = 13
+Mapped in switch = 30 ; Unmapped in switch = 3
+Mapped in switch = 14 ; Unmapped in switch = 1
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2b1b4d0bc350>, <tartlet.utils.read_parsing.Read object at 0x2b1b4d0bc510>, <tartlet.utils.read_parsing.Read object at 0x2b1b4d41ead0>, <tartlet.utils.read_parsing.Read object at 0x2b1b4d430f50>]
+Mapped in switch = 93 ; Unmapped in switch = 6
+Mapped in switch = 92 ; Unmapped in switch = 0
+Mapped in switch = 3 ; Unmapped in switch = 6
+Mapped in switch = 8 ; Unmapped in switch = 0
+Mapped in switch = 10 ; Unmapped in switch = 3
+Mapped in switch = 12 ; Unmapped in switch = 1
+Mapped in switch = 23 ; Unmapped in switch = 0
+Mapped in switch = 26 ; Unmapped in switch = 0
+Mapped in switch = 21 ; Unmapped in switch = 0
+Mapped in switch = 5 ; Unmapped in switch = 4
+Mapped in switch = 185 ; Unmapped in switch = 2
+Mapped in switch = 43 ; Unmapped in switch = 2
+Mapped in switch = 43 ; Unmapped in switch = 2
+Mapped in switch = 15 ; Unmapped in switch = 0
+Mapped in switch = 81 ; Unmapped in switch = 4
+Mapped in switch = 75 ; Unmapped in switch = 3
+Mapped in switch = 7 ; Unmapped in switch = 4
+Mapped in switch = 13 ; Unmapped in switch = 0
+Mapped in switch = 20 ; Unmapped in switch = 0
+Mapped in switch = 20 ; Unmapped in switch = 0
+Mapped in switch = 73 ; Unmapped in switch = 9
+Mapped in switch = 47 ; Unmapped in switch = 6
+Mapped in switch = 14 ; Unmapped in switch = 1
+Mapped in switch = 18 ; Unmapped in switch = 3
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2b4b7fe37110>, <tartlet.utils.read_parsing.Read object at 0x2b4b80ca44d0>, <tartlet.utils.read_parsing.Read object at 0x2b4b82bbc1d0>, <tartlet.utils.read_parsing.Read object at 0x2b4b82bbc350>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2b6fb8f2f790>, <tartlet.utils.read_parsing.Read object at 0x2b6fb8f2f950>, <tartlet.utils.read_parsing.Read object at 0x2b6fb8f56b10>, <tartlet.utils.read_parsing.Read object at 0x2b6fb8f56cd0>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2b6fb9030dd0>, <tartlet.utils.read_parsing.Read object at 0x2b6fb9030f90>, <tartlet.utils.read_parsing.Read object at 0x2b6fb9077a90>, <tartlet.utils.read_parsing.Read object at 0x2b6fb9077d10>]
+Mapped in switch = 440 ; Unmapped in switch = 4
+Mapped in switch = 10 ; Unmapped in switch = 0
+Mapped in switch = 23 ; Unmapped in switch = 0
+Mapped in switch = 9 ; Unmapped in switch = 0
+Mapped in switch = 156 ; Unmapped in switch = 1
+Mapped in switch = 95 ; Unmapped in switch = 0
+Mapped in switch = 178 ; Unmapped in switch = 5
+Mapped in switch = 15 ; Unmapped in switch = 0
+Mapped in switch = 812 ; Unmapped in switch = 7
+Mapped in switch = 109 ; Unmapped in switch = 0
+Mapped in switch = 4 ; Unmapped in switch = 5
+Mapped in switch = 48 ; Unmapped in switch = 0
+Mapped in switch = 52 ; Unmapped in switch = 0
+Mapped in switch = 9 ; Unmapped in switch = 0
+Mapped in switch = 43 ; Unmapped in switch = 2
+Mapped in switch = 323 ; Unmapped in switch = 5
+Mapped in switch = 34 ; Unmapped in switch = 7
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2af7f59a82d0>, <tartlet.utils.read_parsing.Read object at 0x2af7f59a8490>, <tartlet.utils.read_parsing.Read object at 0x2af7f69ee050>, <tartlet.utils.read_parsing.Read object at 0x2af7f69ee1d0>]
+Mapped in switch = 755 ; Unmapped in switch = 11
+Mapped in switch = 43 ; Unmapped in switch = 4
+Mapped in switch = 18 ; Unmapped in switch = 3
+Mapped in switch = 31 ; Unmapped in switch = 2
+Mapped in switch = 180 ; Unmapped in switch = 0
+Mapped in switch = 10 ; Unmapped in switch = 0
+Mapped in switch = 33 ; Unmapped in switch = 0
+Mapped in switch = 103 ; Unmapped in switch = 1
+Mapped in switch = 289 ; Unmapped in switch = 2
+Mapped in switch = 359 ; Unmapped in switch = 1
+Mapped in switch = 56 ; Unmapped in switch = 0
+Mapped in switch = 397 ; Unmapped in switch = 2
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2accae62dc10>, <tartlet.utils.read_parsing.Read object at 0x2accae62dd90>, <tartlet.utils.read_parsing.Read object at 0x2accaa030f50>, <tartlet.utils.read_parsing.Read object at 0x2accaa0310d0>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2accae62e9d0>, <tartlet.utils.read_parsing.Read object at 0x2accae62ebd0>, <tartlet.utils.read_parsing.Read object at 0x2accaa031790>, <tartlet.utils.read_parsing.Read object at 0x2accaa0318d0>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2accae62f2d0>, <tartlet.utils.read_parsing.Read object at 0x2accae62f550>, <tartlet.utils.read_parsing.Read object at 0x2accaa032550>, <tartlet.utils.read_parsing.Read object at 0x2accaa032710>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2accae62f690>, <tartlet.utils.read_parsing.Read object at 0x2accae62f910>, <tartlet.utils.read_parsing.Read object at 0x2accaa032910>, <tartlet.utils.read_parsing.Read object at 0x2accaa032b10>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2accae62fa50>, <tartlet.utils.read_parsing.Read object at 0x2accae62fc50>, <tartlet.utils.read_parsing.Read object at 0x2accaa032d10>, <tartlet.utils.read_parsing.Read object at 0x2accaa032f10>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2b9ee544af90>, <tartlet.utils.read_parsing.Read object at 0x2b9ee544b190>, <tartlet.utils.read_parsing.Read object at 0x2b9ee7149e10>, <tartlet.utils.read_parsing.Read object at 0x2b9ee714a0d0>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2b6b8b78e410>, <tartlet.utils.read_parsing.Read object at 0x2b6b8b78ea90>, <tartlet.utils.read_parsing.Read object at 0x2b6b8b792290>, <tartlet.utils.read_parsing.Read object at 0x2b6b8b792410>]
+Mapped in switch = 1264 ; Unmapped in switch = 9
+Mapped in switch = 21 ; Unmapped in switch = 0
+Mapped in switch = 17 ; Unmapped in switch = 3
+Mapped in switch = 24 ; Unmapped in switch = 0
+Mapped in switch = 224 ; Unmapped in switch = 4
+Mapped in switch = 14 ; Unmapped in switch = 0
+Mapped in switch = 21 ; Unmapped in switch = 0
+Mapped in switch = 12 ; Unmapped in switch = 0
+Mapped in switch = 142 ; Unmapped in switch = 0
+Mapped in switch = 424 ; Unmapped in switch = 14
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2b87b0cd7050>, <tartlet.utils.read_parsing.Read object at 0x2b87b0cd42d0>, <tartlet.utils.read_parsing.Read object at 0x2b87b3fae1d0>, <tartlet.utils.read_parsing.Read object at 0x2b87b3fb1850>]
+Mapped in switch = 22 ; Unmapped in switch = 11
+Mapped in switch = 717 ; Unmapped in switch = 6
+Mapped in switch = 269 ; Unmapped in switch = 9
+Mapped in switch = 40 ; Unmapped in switch = 0
+Mapped in switch = 149 ; Unmapped in switch = 0
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2b21153d6250>, <tartlet.utils.read_parsing.Read object at 0x2b21153d7e90>, <tartlet.utils.read_parsing.Read object at 0x2b2115b881d0>, <tartlet.utils.read_parsing.Read object at 0x2b2115b88910>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2b2115b3df50>, <tartlet.utils.read_parsing.Read object at 0x2b2115b3fbd0>, <tartlet.utils.read_parsing.Read object at 0x2b2115b88190>, <tartlet.utils.read_parsing.Read object at 0x2b2115b88690>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2af7f7ba8410>, <tartlet.utils.read_parsing.Read object at 0x2af7f7ba8590>, <tartlet.utils.read_parsing.Read object at 0x2af7f4cf7110>, <tartlet.utils.read_parsing.Read object at 0x2af7f4cf8cd0>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2af7f7ba8750>, <tartlet.utils.read_parsing.Read object at 0x2af7f7ba88d0>, <tartlet.utils.read_parsing.Read object at 0x2af7f4cf7a10>, <tartlet.utils.read_parsing.Read object at 0x2af7f4cf92d0>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2af7f7ba8b90>, <tartlet.utils.read_parsing.Read object at 0x2af7f7ba8d90>, <tartlet.utils.read_parsing.Read object at 0x2af7f4cf8410>, <tartlet.utils.read_parsing.Read object at 0x2af7f4cf9790>]
+Mapped in switch = 1790 ; Unmapped in switch = 6
+Mapped in switch = 15 ; Unmapped in switch = 2
+Mapped in switch = 25 ; Unmapped in switch = 0
+Mapped in switch = 70 ; Unmapped in switch = 4
+Mapped in switch = 9 ; Unmapped in switch = 0
+Mapped in switch = 45 ; Unmapped in switch = 1
+Mapped in switch = 183 ; Unmapped in switch = 0
+Mapped in switch = 55 ; Unmapped in switch = 3
+Mapped in switch = 29 ; Unmapped in switch = 0
+Mapped in switch = 25 ; Unmapped in switch = 0
+Mapped in switch = 451 ; Unmapped in switch = 3
+Mapped in switch = 27 ; Unmapped in switch = 0
+Mapped in switch = 856 ; Unmapped in switch = 9
+Mapped in switch = 378 ; Unmapped in switch = 7
+Mapped in switch = 28 ; Unmapped in switch = 0
+Mapped in switch = 419 ; Unmapped in switch = 0
+Mapped in switch = 1687 ; Unmapped in switch = 8
+Mapped in switch = 26 ; Unmapped in switch = 7
+Mapped in switch = 20 ; Unmapped in switch = 0
+Mapped in switch = 65 ; Unmapped in switch = 1
+Mapped in switch = 16 ; Unmapped in switch = 0
+Mapped in switch = 336 ; Unmapped in switch = 1
+Mapped in switch = 33 ; Unmapped in switch = 0
+Mapped in switch = 171 ; Unmapped in switch = 4
+Mapped in switch = 550 ; Unmapped in switch = 7
+Mapped in switch = 31 ; Unmapped in switch = 7
+Mapped in switch = 536 ; Unmapped in switch = 2
+Mapped in switch = 520 ; Unmapped in switch = 8
+Mapped in switch = 50 ; Unmapped in switch = 1
+Mapped in switch = 210 ; Unmapped in switch = 1
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2ae802b12410>, <tartlet.utils.read_parsing.Read object at 0x2ae803c050d0>, <tartlet.utils.read_parsing.Read object at 0x2ae8013b8150>, <tartlet.utils.read_parsing.Read object at 0x2ae801306790>]
+Mapped in switch = 1153 ; Unmapped in switch = 6
+Mapped in switch = 555 ; Unmapped in switch = 10
+Mapped in switch = 33 ; Unmapped in switch = 1
+Mapped in switch = 25 ; Unmapped in switch = 4
+Mapped in switch = 13 ; Unmapped in switch = 3
+Mapped in switch = 98 ; Unmapped in switch = 0
+Mapped in switch = 11 ; Unmapped in switch = 0
+Mapped in switch = 16 ; Unmapped in switch = 0
+Mapped in switch = 377 ; Unmapped in switch = 4
+Mapped in switch = 94 ; Unmapped in switch = 0
+Mapped in switch = 52 ; Unmapped in switch = 1
+Mapped in switch = 9 ; Unmapped in switch = 2
+Mapped in switch = 209 ; Unmapped in switch = 9
+Mapped in switch = 30 ; Unmapped in switch = 0
+Mapped in switch = 83 ; Unmapped in switch = 0
+Mapped in switch = 79 ; Unmapped in switch = 0
+Mapped in switch = 164 ; Unmapped in switch = 6
+Mapped in switch = 829 ; Unmapped in switch = 13
+Mapped in switch = 56 ; Unmapped in switch = 4
+Mapped in switch = 493 ; Unmapped in switch = 5
+Mapped in switch = 69 ; Unmapped in switch = 2
+Mapped in switch = 207 ; Unmapped in switch = 2
+Mapped in switch = 489 ; Unmapped in switch = 3
+Mapped in switch = 413 ; Unmapped in switch = 8
+Mapped in switch = 59 ; Unmapped in switch = 0
+Mapped in switch = 615 ; Unmapped in switch = 9
+Mapped in switch = 343 ; Unmapped in switch = 18
+Mapped in switch = 26 ; Unmapped in switch = 2
+Mapped in switch = 352 ; Unmapped in switch = 5
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2af7f4b83710>, <tartlet.utils.read_parsing.Read object at 0x2af7f4b83e50>, <tartlet.utils.read_parsing.Read object at 0x2af7f74fec10>, <tartlet.utils.read_parsing.Read object at 0x2af7f74ff890>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2af7f4b83990>, <tartlet.utils.read_parsing.Read object at 0x2af7f4b81c90>, <tartlet.utils.read_parsing.Read object at 0x2af7f74fcf90>, <tartlet.utils.read_parsing.Read object at 0x2af7f74fd4d0>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2af7f4b80310>, <tartlet.utils.read_parsing.Read object at 0x2af7f4b82d90>, <tartlet.utils.read_parsing.Read object at 0x2af7f74fd890>, <tartlet.utils.read_parsing.Read object at 0x2af7f74fef90>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2af7f4b81310>, <tartlet.utils.read_parsing.Read object at 0x2af7f4bc4cd0>, <tartlet.utils.read_parsing.Read object at 0x2af7f74ff950>, <tartlet.utils.read_parsing.Read object at 0x2af7f74fc250>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2af7f4b83250>, <tartlet.utils.read_parsing.Read object at 0x2af7f4bc4450>, <tartlet.utils.read_parsing.Read object at 0x2af7f74fc510>, <tartlet.utils.read_parsing.Read object at 0x2af7f74fc810>]
+Mapped in switch = 1411 ; Unmapped in switch = 14
+Mapped in switch = 19 ; Unmapped in switch = 0
+Mapped in switch = 38 ; Unmapped in switch = 1
+Mapped in switch = 29 ; Unmapped in switch = 0
+Mapped in switch = 9 ; Unmapped in switch = 0
+Mapped in switch = 43 ; Unmapped in switch = 0
+Mapped in switch = 268 ; Unmapped in switch = 1
+Mapped in switch = 46 ; Unmapped in switch = 0
+Mapped in switch = 10 ; Unmapped in switch = 0
+Mapped in switch = 21 ; Unmapped in switch = 0
+Mapped in switch = 48 ; Unmapped in switch = 0
+Mapped in switch = 95 ; Unmapped in switch = 1
+Mapped in switch = 686 ; Unmapped in switch = 3
+Mapped in switch = 578 ; Unmapped in switch = 4
+Mapped in switch = 85 ; Unmapped in switch = 1
+Mapped in switch = 602 ; Unmapped in switch = 11
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2af7f4e13650>, <tartlet.utils.read_parsing.Read object at 0x2af7f4e11490>, <tartlet.utils.read_parsing.Read object at 0x2af7f51802d0>, <tartlet.utils.read_parsing.Read object at 0x2af7f5181b90>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2b4b7f6fe650>, <tartlet.utils.read_parsing.Read object at 0x2b4b7f6fe410>, <tartlet.utils.read_parsing.Read object at 0x2b4b7fbec650>, <tartlet.utils.read_parsing.Read object at 0x2b4b7fbed210>]
+Mapped in switch = 170 ; Unmapped in switch = 1
+Mapped in switch = 3 ; Unmapped in switch = 8
+Mapped in switch = 18 ; Unmapped in switch = 1
+Mapped in switch = 21 ; Unmapped in switch = 0
+Mapped in switch = 95 ; Unmapped in switch = 16
+Mapped in switch = 23 ; Unmapped in switch = 0
+Mapped in switch = 22 ; Unmapped in switch = 0
+Mapped in switch = 140 ; Unmapped in switch = 18
+Mapped in switch = 2263 ; Unmapped in switch = 27
+Mapped in switch = 51 ; Unmapped in switch = 0
+Mapped in switch = 48 ; Unmapped in switch = 1
+Mapped in switch = 23 ; Unmapped in switch = 3
+Mapped in switch = 9 ; Unmapped in switch = 0
+Mapped in switch = 58 ; Unmapped in switch = 0
+Mapped in switch = 190 ; Unmapped in switch = 1
+Mapped in switch = 54 ; Unmapped in switch = 0
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2ae8038cc410>, <tartlet.utils.read_parsing.Read object at 0x2ae8038ced90>, <tartlet.utils.read_parsing.Read object at 0x2ae802379310>, <tartlet.utils.read_parsing.Read object at 0x2ae80237a210>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2ae8038cdc50>, <tartlet.utils.read_parsing.Read object at 0x2ae8038ce350>, <tartlet.utils.read_parsing.Read object at 0x2ae802379650>, <tartlet.utils.read_parsing.Read object at 0x2ae8023793d0>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2ae8038cd810>, <tartlet.utils.read_parsing.Read object at 0x2ae8038ccad0>, <tartlet.utils.read_parsing.Read object at 0x2ae802379dd0>, <tartlet.utils.read_parsing.Read object at 0x2ae80237b910>]
+Mapped in switch = 28 ; Unmapped in switch = 0
+Mapped in switch = 19 ; Unmapped in switch = 0
+Mapped in switch = 249 ; Unmapped in switch = 4
+Mapped in switch = 1014 ; Unmapped in switch = 9
+Mapped in switch = 22 ; Unmapped in switch = 0
+Mapped in switch = 839 ; Unmapped in switch = 9
+Mapped in switch = 576 ; Unmapped in switch = 5
+Mapped in switch = 77 ; Unmapped in switch = 2
+Mapped in switch = 335 ; Unmapped in switch = 2
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2b4b87253790>, <tartlet.utils.read_parsing.Read object at 0x2b4b87240450>, <tartlet.utils.read_parsing.Read object at 0x2b4b87264490>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2b4b87253e90>, <tartlet.utils.read_parsing.Read object at 0x2b4b87240d10>, <tartlet.utils.read_parsing.Read object at 0x2b4b87264910>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2b4b8786dc90>, <tartlet.utils.read_parsing.Read object at 0x2b4b8786e090>, <tartlet.utils.read_parsing.Read object at 0x2b4b870c6050>, <tartlet.utils.read_parsing.Read object at 0x2b4b80b1a8d0>]
+Mapped in switch = 1240 ; Unmapped in switch = 6
+Mapped in switch = 38 ; Unmapped in switch = 1
+Mapped in switch = 44 ; Unmapped in switch = 13
+Mapped in switch = 138 ; Unmapped in switch = 3
+Mapped in switch = 416 ; Unmapped in switch = 6
+Mapped in switch = 95 ; Unmapped in switch = 1
+Mapped in switch = 42 ; Unmapped in switch = 1
+Mapped in switch = 62 ; Unmapped in switch = 0
+Mapped in switch = 168 ; Unmapped in switch = 2
+Mapped in switch = 10 ; Unmapped in switch = 0
+Mapped in switch = 1002 ; Unmapped in switch = 10
+Mapped in switch = 435 ; Unmapped in switch = 15
+Mapped in switch = 95 ; Unmapped in switch = 5
+Mapped in switch = 725 ; Unmapped in switch = 5
+Mapped in switch = 1398 ; Unmapped in switch = 9
+Mapped in switch = 46 ; Unmapped in switch = 0
+Mapped in switch = 58 ; Unmapped in switch = 3
+Mapped in switch = 127 ; Unmapped in switch = 2
+Mapped in switch = 14 ; Unmapped in switch = 0
+Mapped in switch = 52 ; Unmapped in switch = 9
+Mapped in switch = 386 ; Unmapped in switch = 3
+Mapped in switch = 306 ; Unmapped in switch = 2
+Mapped in switch = 16 ; Unmapped in switch = 0
+Mapped in switch = 320 ; Unmapped in switch = 1
+Mapped in switch = 64 ; Unmapped in switch = 0
+Mapped in switch = 76 ; Unmapped in switch = 0
+Mapped in switch = 57 ; Unmapped in switch = 5
+Mapped in switch = 252 ; Unmapped in switch = 2
+Mapped in switch = 18 ; Unmapped in switch = 1
+Mapped in switch = 708 ; Unmapped in switch = 7
+Mapped in switch = 87 ; Unmapped in switch = 3
+Mapped in switch = 451 ; Unmapped in switch = 9
+Mapped in switch = 41 ; Unmapped in switch = 3
+Mapped in switch = 120 ; Unmapped in switch = 0
+Mapped in switch = 26 ; Unmapped in switch = 16
+Mapped in switch = 173 ; Unmapped in switch = 6
+Mapped in switch = 1061 ; Unmapped in switch = 7
+Mapped in switch = 1210 ; Unmapped in switch = 15
+Mapped in switch = 30 ; Unmapped in switch = 0
+Mapped in switch = 43 ; Unmapped in switch = 0
+Mapped in switch = 31 ; Unmapped in switch = 0
+Mapped in switch = 35 ; Unmapped in switch = 1
+Mapped in switch = 40 ; Unmapped in switch = 0
+Mapped in switch = 37 ; Unmapped in switch = 0
+Mapped in switch = 110 ; Unmapped in switch = 2
+Mapped in switch = 129 ; Unmapped in switch = 0
+Mapped in switch = 793 ; Unmapped in switch = 5
+Mapped in switch = 180 ; Unmapped in switch = 2
+Mapped in switch = 137 ; Unmapped in switch = 0
+Mapped in switch = 96 ; Unmapped in switch = 0
+Mapped in switch = 1761 ; Unmapped in switch = 17
+Mapped in switch = 2177 ; Unmapped in switch = 18
+Mapped in switch = 70 ; Unmapped in switch = 3
+Mapped in switch = 55 ; Unmapped in switch = 18
+Mapped in switch = 209 ; Unmapped in switch = 0
+Mapped in switch = 21 ; Unmapped in switch = 0
+Mapped in switch = 51 ; Unmapped in switch = 9
+Mapped in switch = 369 ; Unmapped in switch = 4
+Mapped in switch = 342 ; Unmapped in switch = 9
+Mapped in switch = 27 ; Unmapped in switch = 0
+Mapped in switch = 88 ; Unmapped in switch = 0
+Mapped in switch = 103 ; Unmapped in switch = 1
+Mapped in switch = 220 ; Unmapped in switch = 0
+Mapped in switch = 1009 ; Unmapped in switch = 8
+Mapped in switch = 508 ; Unmapped in switch = 5
+Mapped in switch = 154 ; Unmapped in switch = 2
+Mapped in switch = 1213 ; Unmapped in switch = 8
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2b87b0eba390>, <tartlet.utils.read_parsing.Read object at 0x2b87b0eba490>, <tartlet.utils.read_parsing.Read object at 0x2b87b3f286d0>, <tartlet.utils.read_parsing.Read object at 0x2b87b3f28910>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2b87b0ebac10>, <tartlet.utils.read_parsing.Read object at 0x2b87b0ebae90>, <tartlet.utils.read_parsing.Read object at 0x2b87b3f29210>, <tartlet.utils.read_parsing.Read object at 0x2b87b3f29390>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2b87b23ccd10>, <tartlet.utils.read_parsing.Read object at 0x2b87b23cd110>, <tartlet.utils.read_parsing.Read object at 0x2b87b3f2b410>, <tartlet.utils.read_parsing.Read object at 0x2b87b3f2b590>]
+Mapped in switch = 276 ; Unmapped in switch = 5
+Mapped in switch = 36 ; Unmapped in switch = 2
+Mapped in switch = 69 ; Unmapped in switch = 3
+Mapped in switch = 102 ; Unmapped in switch = 2
+Mapped in switch = 293 ; Unmapped in switch = 27
+Archiving pickled data
+Removing directory
+Finished BAM parsing for s_epi into /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/s_epi/plots/picks
+----------------------------------------------
+
+Starting BAM parsing for s_meli
+Mapped in switch = 155 ; Unmapped in switch = 31
+Mapped in switch = 47 ; Unmapped in switch = 3
+Mapped in switch = 10 ; Unmapped in switch = 0
+Mapped in switch = 46 ; Unmapped in switch = 9
+Mapped in switch = 15 ; Unmapped in switch = 1
+Mapped in switch = 20 ; Unmapped in switch = 0
+Mapped in switch = 275 ; Unmapped in switch = 48
+Mapped in switch = 18 ; Unmapped in switch = 1
+Mapped in switch = 17 ; Unmapped in switch = 0
+Mapped in switch = 13 ; Unmapped in switch = 11
+Mapped in switch = 0 ; Unmapped in switch = 21
+Mapped in switch = 64 ; Unmapped in switch = 17
+Mapped in switch = 25 ; Unmapped in switch = 8
+Mapped in switch = 30 ; Unmapped in switch = 7
+Mapped in switch = 941 ; Unmapped in switch = 400
+Mapped in switch = 251 ; Unmapped in switch = 122
+Mapped in switch = 62 ; Unmapped in switch = 45
+Mapped in switch = 13 ; Unmapped in switch = 6
+Mapped in switch = 126 ; Unmapped in switch = 26
+Mapped in switch = 19 ; Unmapped in switch = 4
+Mapped in switch = 9 ; Unmapped in switch = 4
+Mapped in switch = 122 ; Unmapped in switch = 53
+Mapped in switch = 116 ; Unmapped in switch = 22
+Mapped in switch = 16 ; Unmapped in switch = 5
+Mapped in switch = 26 ; Unmapped in switch = 0
+Mapped in switch = 1861 ; Unmapped in switch = 493
+Mapped in switch = 114 ; Unmapped in switch = 29
+Mapped in switch = 140 ; Unmapped in switch = 28
+Mapped in switch = 140 ; Unmapped in switch = 29
+Mapped in switch = 20 ; Unmapped in switch = 2
+Mapped in switch = 207 ; Unmapped in switch = 30
+Mapped in switch = 105 ; Unmapped in switch = 13
+Mapped in switch = 46 ; Unmapped in switch = 4
+Mapped in switch = 111 ; Unmapped in switch = 14
+Mapped in switch = 4042 ; Unmapped in switch = 479
+Mapped in switch = 16 ; Unmapped in switch = 3
+Mapped in switch = 67 ; Unmapped in switch = 1
+Mapped in switch = 232 ; Unmapped in switch = 20
+Mapped in switch = 3859 ; Unmapped in switch = 593
+Mapped in switch = 113 ; Unmapped in switch = 14
+Mapped in switch = 187 ; Unmapped in switch = 28
+Mapped in switch = 94 ; Unmapped in switch = 4
+Mapped in switch = 44 ; Unmapped in switch = 3
+Mapped in switch = 144 ; Unmapped in switch = 6
+Mapped in switch = 19 ; Unmapped in switch = 0
+Mapped in switch = 136 ; Unmapped in switch = 12
+Mapped in switch = 126 ; Unmapped in switch = 46
+Mapped in switch = 52 ; Unmapped in switch = 12
+Mapped in switch = 61 ; Unmapped in switch = 10
+Mapped in switch = 2726 ; Unmapped in switch = 898
+Mapped in switch = 746 ; Unmapped in switch = 233
+Mapped in switch = 131 ; Unmapped in switch = 39
+Mapped in switch = 270 ; Unmapped in switch = 29
+Mapped in switch = 29 ; Unmapped in switch = 6
+Mapped in switch = 20 ; Unmapped in switch = 0
+Mapped in switch = 323 ; Unmapped in switch = 67
+Mapped in switch = 197 ; Unmapped in switch = 28
+Mapped in switch = 75 ; Unmapped in switch = 13
+Mapped in switch = 95 ; Unmapped in switch = 8
+Mapped in switch = 4664 ; Unmapped in switch = 1012
+Mapped in switch = 1359 ; Unmapped in switch = 272
+Mapped in switch = 209 ; Unmapped in switch = 50
+Mapped in switch = 352 ; Unmapped in switch = 29
+Mapped in switch = 35 ; Unmapped in switch = 6
+Mapped in switch = 17 ; Unmapped in switch = 1
+Mapped in switch = 508 ; Unmapped in switch = 85
+Mapped in switch = 1999 ; Unmapped in switch = 351
+Mapped in switch = 199 ; Unmapped in switch = 32
+Mapped in switch = 193 ; Unmapped in switch = 20
+Mapped in switch = 1786 ; Unmapped in switch = 420
+Mapped in switch = 376 ; Unmapped in switch = 82
+Mapped in switch = 148 ; Unmapped in switch = 35
+Mapped in switch = 262 ; Unmapped in switch = 36
+Mapped in switch = 44 ; Unmapped in switch = 10
+Mapped in switch = 27 ; Unmapped in switch = 1
+Mapped in switch = 186 ; Unmapped in switch = 38
+Mapped in switch = 547 ; Unmapped in switch = 70
+Mapped in switch = 69 ; Unmapped in switch = 7
+Mapped in switch = 285 ; Unmapped in switch = 20
+Mapped in switch = 23509 ; Unmapped in switch = 3444
+Mapped in switch = 1065 ; Unmapped in switch = 133
+Mapped in switch = 199 ; Unmapped in switch = 23
+Mapped in switch = 865 ; Unmapped in switch = 84
+Mapped in switch = 58 ; Unmapped in switch = 6
+Mapped in switch = 35 ; Unmapped in switch = 4
+Mapped in switch = 749 ; Unmapped in switch = 68
+Archiving pickled data
+Removing directory
+Finished BAM parsing for s_meli into /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/s_meli/plots/picks
+----------------------------------------------
+
+Starting BAM parsing for s_sanguinis
+Mapped in switch = 41 ; Unmapped in switch = 0
+Mapped in switch = 40 ; Unmapped in switch = 0
+Mapped in switch = 50 ; Unmapped in switch = 1
+Mapped in switch = 78 ; Unmapped in switch = 2
+Mapped in switch = 21 ; Unmapped in switch = 0
+Mapped in switch = 26 ; Unmapped in switch = 0
+Mapped in switch = 13 ; Unmapped in switch = 0
+Mapped in switch = 8 ; Unmapped in switch = 1
+Mapped in switch = 86 ; Unmapped in switch = 1
+Mapped in switch = 9 ; Unmapped in switch = 0
+Mapped in switch = 10 ; Unmapped in switch = 0
+Mapped in switch = 34 ; Unmapped in switch = 1
+Mapped in switch = 39 ; Unmapped in switch = 0
+Mapped in switch = 40 ; Unmapped in switch = 0
+Mapped in switch = 26 ; Unmapped in switch = 0
+Mapped in switch = 55 ; Unmapped in switch = 1
+Mapped in switch = 48 ; Unmapped in switch = 1
+Mapped in switch = 13 ; Unmapped in switch = 1
+Mapped in switch = 108 ; Unmapped in switch = 0
+Mapped in switch = 88 ; Unmapped in switch = 1
+Mapped in switch = 35 ; Unmapped in switch = 0
+Mapped in switch = 41 ; Unmapped in switch = 1
+Mapped in switch = 14 ; Unmapped in switch = 1
+Mapped in switch = 80 ; Unmapped in switch = 2
+Mapped in switch = 10 ; Unmapped in switch = 0
+Mapped in switch = 12 ; Unmapped in switch = 0
+Mapped in switch = 81 ; Unmapped in switch = 0
+Mapped in switch = 56 ; Unmapped in switch = 1
+Mapped in switch = 24 ; Unmapped in switch = 0
+Mapped in switch = 127 ; Unmapped in switch = 0
+Mapped in switch = 17 ; Unmapped in switch = 1
+Mapped in switch = 17 ; Unmapped in switch = 0
+Mapped in switch = 13 ; Unmapped in switch = 0
+Mapped in switch = 16 ; Unmapped in switch = 0
+Mapped in switch = 119 ; Unmapped in switch = 0
+Mapped in switch = 16 ; Unmapped in switch = 0
+Mapped in switch = 19 ; Unmapped in switch = 0
+Mapped in switch = 115 ; Unmapped in switch = 0
+Mapped in switch = 62 ; Unmapped in switch = 0
+Mapped in switch = 44 ; Unmapped in switch = 1
+Mapped in switch = 27 ; Unmapped in switch = 0
+Mapped in switch = 55 ; Unmapped in switch = 2
+Mapped in switch = 137 ; Unmapped in switch = 2
+Mapped in switch = 42 ; Unmapped in switch = 1
+Mapped in switch = 15 ; Unmapped in switch = 0
+Mapped in switch = 29 ; Unmapped in switch = 0
+Mapped in switch = 189 ; Unmapped in switch = 0
+Mapped in switch = 12 ; Unmapped in switch = 0
+Mapped in switch = 34 ; Unmapped in switch = 0
+Mapped in switch = 84 ; Unmapped in switch = 1
+Mapped in switch = 83 ; Unmapped in switch = 1
+Mapped in switch = 107 ; Unmapped in switch = 0
+Mapped in switch = 36 ; Unmapped in switch = 0
+Mapped in switch = 203 ; Unmapped in switch = 2
+Mapped in switch = 13 ; Unmapped in switch = 0
+Mapped in switch = 16 ; Unmapped in switch = 0
+Mapped in switch = 13 ; Unmapped in switch = 0
+Mapped in switch = 176 ; Unmapped in switch = 2
+Mapped in switch = 20 ; Unmapped in switch = 0
+Mapped in switch = 109 ; Unmapped in switch = 1
+Mapped in switch = 134 ; Unmapped in switch = 0
+Mapped in switch = 22 ; Unmapped in switch = 0
+Mapped in switch = 61 ; Unmapped in switch = 0
+Mapped in switch = 18 ; Unmapped in switch = 0
+Mapped in switch = 38 ; Unmapped in switch = 1
+Mapped in switch = 18 ; Unmapped in switch = 0
+Mapped in switch = 32 ; Unmapped in switch = 0
+Mapped in switch = 112 ; Unmapped in switch = 0
+Mapped in switch = 20 ; Unmapped in switch = 0
+Mapped in switch = 146 ; Unmapped in switch = 2
+Mapped in switch = 23 ; Unmapped in switch = 1
+Mapped in switch = 17 ; Unmapped in switch = 0
+Mapped in switch = 16 ; Unmapped in switch = 0
+Mapped in switch = 33 ; Unmapped in switch = 0
+Mapped in switch = 34 ; Unmapped in switch = 0
+Mapped in switch = 45 ; Unmapped in switch = 1
+Mapped in switch = 12 ; Unmapped in switch = 1
+Mapped in switch = 37 ; Unmapped in switch = 0
+Mapped in switch = 25 ; Unmapped in switch = 0
+Mapped in switch = 12 ; Unmapped in switch = 0
+Mapped in switch = 12 ; Unmapped in switch = 0
+Mapped in switch = 47 ; Unmapped in switch = 1
+Mapped in switch = 24 ; Unmapped in switch = 0
+Mapped in switch = 24 ; Unmapped in switch = 0
+Mapped in switch = 26 ; Unmapped in switch = 0
+Mapped in switch = 119 ; Unmapped in switch = 0
+Mapped in switch = 170 ; Unmapped in switch = 2
+Mapped in switch = 30 ; Unmapped in switch = 0
+Mapped in switch = 86 ; Unmapped in switch = 1
+Mapped in switch = 63 ; Unmapped in switch = 0
+Mapped in switch = 52 ; Unmapped in switch = 0
+Mapped in switch = 29 ; Unmapped in switch = 0
+Mapped in switch = 194 ; Unmapped in switch = 0
+Mapped in switch = 184 ; Unmapped in switch = 2
+Mapped in switch = 58 ; Unmapped in switch = 0
+Mapped in switch = 81 ; Unmapped in switch = 0
+Mapped in switch = 39 ; Unmapped in switch = 0
+Mapped in switch = 240 ; Unmapped in switch = 1
+Mapped in switch = 41 ; Unmapped in switch = 0
+Mapped in switch = 15 ; Unmapped in switch = 0
+Mapped in switch = 32 ; Unmapped in switch = 0
+Mapped in switch = 22 ; Unmapped in switch = 1
+Mapped in switch = 199 ; Unmapped in switch = 2
+Mapped in switch = 26 ; Unmapped in switch = 1
+Mapped in switch = 17 ; Unmapped in switch = 0
+Mapped in switch = 112 ; Unmapped in switch = 2
+Mapped in switch = 33 ; Unmapped in switch = 0
+Mapped in switch = 11 ; Unmapped in switch = 0
+Mapped in switch = 151 ; Unmapped in switch = 0
+Mapped in switch = 15 ; Unmapped in switch = 0
+Mapped in switch = 23 ; Unmapped in switch = 1
+Mapped in switch = 131 ; Unmapped in switch = 2
+Mapped in switch = 39 ; Unmapped in switch = 0
+Mapped in switch = 27 ; Unmapped in switch = 1
+Mapped in switch = 303 ; Unmapped in switch = 2
+Mapped in switch = 54 ; Unmapped in switch = 0
+Mapped in switch = 100 ; Unmapped in switch = 2
+Mapped in switch = 56 ; Unmapped in switch = 2
+Mapped in switch = 44 ; Unmapped in switch = 0
+Mapped in switch = 45 ; Unmapped in switch = 0
+Mapped in switch = 163 ; Unmapped in switch = 2
+Mapped in switch = 22 ; Unmapped in switch = 0
+Mapped in switch = 64 ; Unmapped in switch = 0
+Mapped in switch = 14 ; Unmapped in switch = 0
+Mapped in switch = 83 ; Unmapped in switch = 0
+Mapped in switch = 16 ; Unmapped in switch = 0
+Mapped in switch = 15 ; Unmapped in switch = 0
+Mapped in switch = 243 ; Unmapped in switch = 2
+Mapped in switch = 65 ; Unmapped in switch = 1
+Mapped in switch = 34 ; Unmapped in switch = 0
+Mapped in switch = 35 ; Unmapped in switch = 0
+Mapped in switch = 34 ; Unmapped in switch = 0
+Mapped in switch = 24 ; Unmapped in switch = 0
+Mapped in switch = 34 ; Unmapped in switch = 0
+Mapped in switch = 18 ; Unmapped in switch = 1
+Mapped in switch = 151 ; Unmapped in switch = 0
+Mapped in switch = 41 ; Unmapped in switch = 0
+Mapped in switch = 125 ; Unmapped in switch = 0
+Mapped in switch = 294 ; Unmapped in switch = 2
+Mapped in switch = 108 ; Unmapped in switch = 2
+Mapped in switch = 23 ; Unmapped in switch = 0
+Mapped in switch = 137 ; Unmapped in switch = 2
+Mapped in switch = 21 ; Unmapped in switch = 1
+Mapped in switch = 37 ; Unmapped in switch = 0
+Mapped in switch = 46 ; Unmapped in switch = 0
+Mapped in switch = 34 ; Unmapped in switch = 0
+Mapped in switch = 20 ; Unmapped in switch = 0
+Mapped in switch = 47 ; Unmapped in switch = 0
+Mapped in switch = 127 ; Unmapped in switch = 0
+Mapped in switch = 41 ; Unmapped in switch = 0
+Mapped in switch = 196 ; Unmapped in switch = 3
+Mapped in switch = 17 ; Unmapped in switch = 0
+Mapped in switch = 30 ; Unmapped in switch = 0
+Mapped in switch = 55 ; Unmapped in switch = 2
+Mapped in switch = 208 ; Unmapped in switch = 4
+Mapped in switch = 53 ; Unmapped in switch = 1
+Mapped in switch = 29 ; Unmapped in switch = 0
+Mapped in switch = 41 ; Unmapped in switch = 0
+Mapped in switch = 34 ; Unmapped in switch = 0
+Mapped in switch = 35 ; Unmapped in switch = 0
+Archiving pickled data
+Removing directory
+Finished BAM parsing for s_sanguinis into /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/s_sanguinis/plots/picks
+----------------------------------------------
+
+Starting BAM parsing for s_spcc6803
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2b5a7bb34bd0>, <tartlet.utils.read_parsing.Read object at 0x2b5a7bb35850>, <tartlet.utils.read_parsing.Read object at 0x2b5a7bb58d90>, <tartlet.utils.read_parsing.Read object at 0x2b5a7bb58f10>]
+Mapped in switch = 22 ; Unmapped in switch = 0
+Mapped in switch = 20657 ; Unmapped in switch = 290
+Mapped in switch = 91 ; Unmapped in switch = 3
+Mapped in switch = 25517 ; Unmapped in switch = 387
+Mapped in switch = 29 ; Unmapped in switch = 1
+Mapped in switch = 124 ; Unmapped in switch = 1
+Mapped in switch = 35592 ; Unmapped in switch = 614
+Mapped in switch = 25 ; Unmapped in switch = 1
+Mapped in switch = 404 ; Unmapped in switch = 5
+Mapped in switch = 50483 ; Unmapped in switch = 699
+Mapped in switch = 14 ; Unmapped in switch = 0
+Mapped in switch = 212 ; Unmapped in switch = 2
+Mapped in switch = 150 ; Unmapped in switch = 12
+Mapped in switch = 64723 ; Unmapped in switch = 1106
+Mapped in switch = 10 ; Unmapped in switch = 8
+Mapped in switch = 354 ; Unmapped in switch = 3
+Mapped in switch = 70273 ; Unmapped in switch = 1156
+Mapped in switch = 17 ; Unmapped in switch = 0
+Mapped in switch = 86 ; Unmapped in switch = 5
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2b800ea4c090>, <tartlet.utils.read_parsing.Read object at 0x2b800ea4c2d0>, <tartlet.utils.read_parsing.Read object at 0x2b800f2f3fd0>, <tartlet.utils.read_parsing.Read object at 0x2b800eacafd0>]
+Mapped in switch = 359 ; Unmapped in switch = 4
+Mapped in switch = 70562 ; Unmapped in switch = 1189
+Mapped in switch = 89 ; Unmapped in switch = 3
+Mapped in switch = 377 ; Unmapped in switch = 6
+Mapped in switch = 72973 ; Unmapped in switch = 1224
+Mapped in switch = 243 ; Unmapped in switch = 6
+Mapped in switch = 247 ; Unmapped in switch = 1
+Mapped in switch = 105681 ; Unmapped in switch = 1537
+Mapped in switch = 25 ; Unmapped in switch = 0
+Mapped in switch = 322 ; Unmapped in switch = 9
+Mapped in switch = 146174 ; Unmapped in switch = 2187
+Mapped in switch = 28 ; Unmapped in switch = 0
+Mapped in switch = 501 ; Unmapped in switch = 5
+Mapped in switch = 185151 ; Unmapped in switch = 2665
+Mapped in switch = 126 ; Unmapped in switch = 3
+Mapped in switch = 308 ; Unmapped in switch = 10
+Mapped in switch = 189023 ; Unmapped in switch = 2765
+Mapped in switch = 19 ; Unmapped in switch = 1
+Mapped in switch = 119 ; Unmapped in switch = 4
+Archiving pickled data
+Removing directory
+Finished BAM parsing for s_spcc6803 into /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/s_spcc6803/plots/picks
+----------------------------------------------
+
+Starting BAM parsing for x_albi
+Mapped in switch = 3060 ; Unmapped in switch = 6
+Mapped in switch = 273 ; Unmapped in switch = 0
+Mapped in switch = 810 ; Unmapped in switch = 5
+Mapped in switch = 6797 ; Unmapped in switch = 27
+Mapped in switch = 12113 ; Unmapped in switch = 29
+Mapped in switch = 2470 ; Unmapped in switch = 5
+Mapped in switch = 18913 ; Unmapped in switch = 72
+Mapped in switch = 7206 ; Unmapped in switch = 17
+Mapped in switch = 6103 ; Unmapped in switch = 19
+Mapped in switch = 2690 ; Unmapped in switch = 3
+Mapped in switch = 413 ; Unmapped in switch = 2
+Mapped in switch = 905 ; Unmapped in switch = 1
+Mapped in switch = 9581 ; Unmapped in switch = 46
+Mapped in switch = 31721 ; Unmapped in switch = 140
+Mapped in switch = 3234 ; Unmapped in switch = 11
+Mapped in switch = 29690 ; Unmapped in switch = 131
+Mapped in switch = 7918 ; Unmapped in switch = 18
+Mapped in switch = 7792 ; Unmapped in switch = 23
+Archiving pickled data
+Removing directory
+Finished BAM parsing for x_albi into /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/x_albi/plots/picks
+----------------------------------------------
+
+Starting BAM parsing for x_ory
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2ac88edb36d0>, <tartlet.utils.read_parsing.Read object at 0x2ac88edb1650>, <tartlet.utils.read_parsing.Read object at 0x2ac88f57b490>, <tartlet.utils.read_parsing.Read object at 0x2ac88f57bbd0>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2ac88f0a5390>, <tartlet.utils.read_parsing.Read object at 0x2ac88f0a6150>, <tartlet.utils.read_parsing.Read object at 0x2ac88ffcf790>, <tartlet.utils.read_parsing.Read object at 0x2ac88ffcfa50>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2ac88f0a7f90>, <tartlet.utils.read_parsing.Read object at 0x2ac88f0a4210>, <tartlet.utils.read_parsing.Read object at 0x2ac88ffdf790>, <tartlet.utils.read_parsing.Read object at 0x2ac88ffdfa50>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2ac88f0c5350>, <tartlet.utils.read_parsing.Read object at 0x2ac88f0c56d0>, <tartlet.utils.read_parsing.Read object at 0x2ac88ffcead0>, <tartlet.utils.read_parsing.Read object at 0x2ac88ffced10>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2ac88f0d8310>, <tartlet.utils.read_parsing.Read object at 0x2ac88f0da190>, <tartlet.utils.read_parsing.Read object at 0x2ac88f676e50>, <tartlet.utils.read_parsing.Read object at 0x2ac88f6779d0>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2ac88ff57550>, <tartlet.utils.read_parsing.Read object at 0x2ac88ff57750>, <tartlet.utils.read_parsing.Read object at 0x2ac88f611ed0>, <tartlet.utils.read_parsing.Read object at 0x2ac88f6124d0>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2ac88ff60cd0>, <tartlet.utils.read_parsing.Read object at 0x2ac88ff60e90>, <tartlet.utils.read_parsing.Read object at 0x2ac88ffdf110>, <tartlet.utils.read_parsing.Read object at 0x2ac88ffdf3d0>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2ac88ff9a650>, <tartlet.utils.read_parsing.Read object at 0x2ac88ff9a850>, <tartlet.utils.read_parsing.Read object at 0x2ac88f5d4b50>, <tartlet.utils.read_parsing.Read object at 0x2ac88f5d5c90>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2ac88f4b1850>, <tartlet.utils.read_parsing.Read object at 0x2ac88f4b1a10>, <tartlet.utils.read_parsing.Read object at 0x2ac88f57ad90>, <tartlet.utils.read_parsing.Read object at 0x2ac88f57b050>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2ac88f506910>, <tartlet.utils.read_parsing.Read object at 0x2ac88f506b90>, <tartlet.utils.read_parsing.Read object at 0x2ac88f57a050>, <tartlet.utils.read_parsing.Read object at 0x2ac88f57a410>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2ac88f51df50>, <tartlet.utils.read_parsing.Read object at 0x2ac88f51e110>, <tartlet.utils.read_parsing.Read object at 0x2ac88f60a910>, <tartlet.utils.read_parsing.Read object at 0x2ac88f60af10>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2ac88f557710>, <tartlet.utils.read_parsing.Read object at 0x2ac88f557d10>, <tartlet.utils.read_parsing.Read object at 0x2ac88f557dd0>, <tartlet.utils.read_parsing.Read object at 0x2ac88f621810>, <tartlet.utils.read_parsing.Read object at 0x2ac88f621ad0>, <tartlet.utils.read_parsing.Read object at 0x2ac88f621d50>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2ac88f5a1910>, <tartlet.utils.read_parsing.Read object at 0x2ac88f5a1290>, <tartlet.utils.read_parsing.Read object at 0x2ac88f5a07d0>, <tartlet.utils.read_parsing.Read object at 0x2ac88f5b9850>, <tartlet.utils.read_parsing.Read object at 0x2ac88f5ba110>, <tartlet.utils.read_parsing.Read object at 0x2ac88f5ba590>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2ac88f5bb450>, <tartlet.utils.read_parsing.Read object at 0x2ac88f5b9090>, <tartlet.utils.read_parsing.Read object at 0x2ac88f5bb250>, <tartlet.utils.read_parsing.Read object at 0x2ac88f5ba3d0>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2ac88f5da8d0>, <tartlet.utils.read_parsing.Read object at 0x2ac88f5db5d0>, <tartlet.utils.read_parsing.Read object at 0x2ac88ffe6610>, <tartlet.utils.read_parsing.Read object at 0x2ac88ffe6590>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2ac88ffe43d0>, <tartlet.utils.read_parsing.Read object at 0x2ac88ffe46d0>, <tartlet.utils.read_parsing.Read object at 0x2ac88ffe4a10>, <tartlet.utils.read_parsing.Read object at 0x2ac88ffe5d90>, <tartlet.utils.read_parsing.Read object at 0x2ac88ffe6150>, <tartlet.utils.read_parsing.Read object at 0x2ac88ffe6210>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2ac88f675d90>, <tartlet.utils.read_parsing.Read object at 0x2ac88f674ad0>, <tartlet.utils.read_parsing.Read object at 0x2ac88f676850>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2ac88fffd6d0>, <tartlet.utils.read_parsing.Read object at 0x2ac88ffff810>, <tartlet.utils.read_parsing.Read object at 0x2ac88ffffa50>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2ac88f6e42d0>, <tartlet.utils.read_parsing.Read object at 0x2ac88f6e5190>, <tartlet.utils.read_parsing.Read object at 0x2ac88f6e4450>, <tartlet.utils.read_parsing.Read object at 0x2ac88f736790>, <tartlet.utils.read_parsing.Read object at 0x2ac88f736990>, <tartlet.utils.read_parsing.Read object at 0x2ac88f736c10>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2ac88f6fd990>, <tartlet.utils.read_parsing.Read object at 0x2ac8900006d0>, <tartlet.utils.read_parsing.Read object at 0x2ac890000a50>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2ac88f6fdd10>, <tartlet.utils.read_parsing.Read object at 0x2ac890000f90>, <tartlet.utils.read_parsing.Read object at 0x2ac890001650>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2ac88f6fd9d0>, <tartlet.utils.read_parsing.Read object at 0x2ac890001910>, <tartlet.utils.read_parsing.Read object at 0x2ac890001c50>]
+More than 2 reads assigned to pair: [<tartlet.utils.read_parsing.Read object at 0x2b590c786110>, <tartlet.utils.read_parsing.Read object at 0x2b590c784810>, <tartlet.utils.read_parsing.Read object at 0x2b590e065490>, <tartlet.utils.read_parsing.Read object at 0x2b590e0656d0>]
+Mapped in switch = 198 ; Unmapped in switch = 30
+Mapped in switch = 367 ; Unmapped in switch = 14
+Mapped in switch = 27 ; Unmapped in switch = 1
+Mapped in switch = 3454 ; Unmapped in switch = 200
+Mapped in switch = 25 ; Unmapped in switch = 4
+Mapped in switch = 62 ; Unmapped in switch = 5
+Mapped in switch = 210 ; Unmapped in switch = 32
+Mapped in switch = 392 ; Unmapped in switch = 19
+Mapped in switch = 21 ; Unmapped in switch = 2
+Mapped in switch = 4104 ; Unmapped in switch = 199
+Mapped in switch = 23 ; Unmapped in switch = 5
+Mapped in switch = 77 ; Unmapped in switch = 4
+Mapped in switch = 310 ; Unmapped in switch = 56
+Mapped in switch = 306 ; Unmapped in switch = 10
+Mapped in switch = 45 ; Unmapped in switch = 8
+Mapped in switch = 1416 ; Unmapped in switch = 76
+Mapped in switch = 24 ; Unmapped in switch = 3
+Mapped in switch = 303 ; Unmapped in switch = 33
+Mapped in switch = 373 ; Unmapped in switch = 18
+Mapped in switch = 21 ; Unmapped in switch = 9
+Mapped in switch = 5052 ; Unmapped in switch = 295
+Mapped in switch = 43 ; Unmapped in switch = 3
+Mapped in switch = 91 ; Unmapped in switch = 4
+Mapped in switch = 514 ; Unmapped in switch = 81
+Mapped in switch = 327 ; Unmapped in switch = 11
+Mapped in switch = 83 ; Unmapped in switch = 16
+Mapped in switch = 2427 ; Unmapped in switch = 121
+Mapped in switch = 68 ; Unmapped in switch = 1
+Mapped in switch = 759 ; Unmapped in switch = 186
+Mapped in switch = 379 ; Unmapped in switch = 38
+Mapped in switch = 87 ; Unmapped in switch = 33
+Mapped in switch = 2668 ; Unmapped in switch = 347
+Mapped in switch = 82 ; Unmapped in switch = 11
+Archiving pickled data
+Removing directory
+Finished BAM parsing for x_ory into /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/x_ory/plots/picks
+----------------------------------------------
+
+Done
