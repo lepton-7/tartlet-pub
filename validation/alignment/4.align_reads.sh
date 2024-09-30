@@ -9,18 +9,13 @@
 # RUN THIS TO LAUNCH JOB
 ## bash ./4_1.launch_alignarray.sh
 
-# DEPRECATED
-## DATECODE="$(date +"%Y-%m-%d_%H-%M-%S")"; sbatch --output=jobs/4.b_sub_168.align_reads.out.$DATECODE.%j 4.align_reads.sh
-
-# set -x
 set echo on
 
 IDX=$((SLURM_ARRAY_TASK_ID))
 
-DATECODE="20240328"
-# DSET="p_salmo"
+DATECODE="20240930"
 
-RT="$HOME/packages/tart"
+RT="$HOME/tartlet-pub"
 
 REF_DIR="$RT/validation/alignment/outputs/$DSET/switch_seqs_delta1000-1000"
 SEQ_DIR="/fs/ess/PDS0325/Riboswitches/data/rna_seq/$DSET"
@@ -59,15 +54,5 @@ srun hisat2 \
     --no-unal \
     --score-min L,0,-0.4 \
     -p 40
-
-# srun tart-targeted align -i $REF_DIR \
-#     -o $ALIGN_DIR \
-#     -1 "$SEQ_FILE"_1.fastq.gz \
-#     -2 "$SEQ_FILE"_2.fastq.gz \
-#     --readpair-name $(basename "$SEQ_FILE") \
-#     -t \
-#     --no-unal \
-#     --score-min L,0,-0.4 \
-#     -p 40
 
 echo "Finished $(basename "$SEQ_FILE") read alignment for $DSET into $ALIGN_DIR"
