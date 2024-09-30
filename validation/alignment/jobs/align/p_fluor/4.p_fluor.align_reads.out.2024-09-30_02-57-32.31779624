@@ -1,0 +1,8 @@
+Instance 40 starting alignment for p_fluor from /fs/ess/PDS0325/Riboswitches/data/rna_seq/p_fluor reads
+
+
+Warning: [Errno 2] No such file or directory: '/fs/ess/PDS0325/Riboswitches/data/rna_seq/p_fluor/_1.fastq.gz'
+(ERR): Read file '/fs/ess/PDS0325/Riboswitches/data/rna_seq/p_fluor/_1.fastq.gz' doesn't exist
+Exiting now ...
+srun: error: p0823: task 0: Exited with exit code 2
+Finished p_fluor read alignment for p_fluor into /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/p_fluor/switch_seqs_delta1000-1000/alignment_20240930

@@ -1,0 +1,24 @@
+Instance 2 starting alignment for e_limo from /fs/ess/PDS0325/Riboswitches/data/rna_seq/e_limo reads
+
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:00:56
+3183116 reads; of these:
+  3183116 (100.00%) were paired; of these:
+    3138713 (98.61%) aligned concordantly 0 times
+    43722 (1.37%) aligned concordantly exactly 1 time
+    681 (0.02%) aligned concordantly >1 times
+    ----
+    3138713 pairs aligned concordantly 0 times; of these:
+      4996 (0.16%) aligned discordantly 1 time
+    ----
+    3133717 pairs aligned 0 times concordantly or discordantly; of these:
+      6267434 mates make up the pairs; of these:
+        6255212 (99.80%) aligned 0 times
+        11878 (0.19%) aligned exactly 1 time
+        344 (0.01%) aligned >1 times
+1.74% overall alignment rate
+Time searching: 00:00:56
+Overall time: 00:00:56
+Finished SRR11604237 read alignment for e_limo into /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/e_limo/switch_seqs_delta1000-1000/alignment_20240930

@@ -1,0 +1,24 @@
+Instance 88 starting alignment for e_coli from /fs/ess/PDS0325/Riboswitches/data/rna_seq/e_coli reads
+
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:02:16
+8952048 reads; of these:
+  8952048 (100.00%) were paired; of these:
+    8917515 (99.61%) aligned concordantly 0 times
+    34533 (0.39%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    8917515 pairs aligned concordantly 0 times; of these:
+      18 (0.00%) aligned discordantly 1 time
+    ----
+    8917497 pairs aligned 0 times concordantly or discordantly; of these:
+      17834994 mates make up the pairs; of these:
+        17830605 (99.98%) aligned 0 times
+        4389 (0.02%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.41% overall alignment rate
+Time searching: 00:02:16
+Overall time: 00:02:16
+Finished SRR9204650 read alignment for e_coli into /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/e_coli/switch_seqs_delta1000-1000/alignment_20240930

@@ -1,0 +1,24 @@
+Instance 21 starting alignment for s_sanguinis from /fs/ess/PDS0325/Riboswitches/data/rna_seq/s_sanguinis reads
+
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:00:17
+1183355 reads; of these:
+  1183355 (100.00%) were paired; of these:
+    1182822 (99.95%) aligned concordantly 0 times
+    427 (0.04%) aligned concordantly exactly 1 time
+    106 (0.01%) aligned concordantly >1 times
+    ----
+    1182822 pairs aligned concordantly 0 times; of these:
+      0 (0.00%) aligned discordantly 1 time
+    ----
+    1182822 pairs aligned 0 times concordantly or discordantly; of these:
+      2365644 mates make up the pairs; of these:
+        2365537 (100.00%) aligned 0 times
+        100 (0.00%) aligned exactly 1 time
+        7 (0.00%) aligned >1 times
+0.05% overall alignment rate
+Time searching: 00:00:17
+Overall time: 00:00:17
+Finished SRR14585129 read alignment for s_sanguinis into /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/s_sanguinis/switch_seqs_delta1000-1000/alignment_20240930

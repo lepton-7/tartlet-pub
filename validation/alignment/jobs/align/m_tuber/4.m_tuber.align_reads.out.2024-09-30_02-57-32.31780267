@@ -1,0 +1,24 @@
+Instance 20 starting alignment for m_tuber from /fs/ess/PDS0325/Riboswitches/data/rna_seq/m_tuber reads
+
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:05:06
+15595181 reads; of these:
+  15595181 (100.00%) were paired; of these:
+    15509648 (99.45%) aligned concordantly 0 times
+    85468 (0.55%) aligned concordantly exactly 1 time
+    65 (0.00%) aligned concordantly >1 times
+    ----
+    15509648 pairs aligned concordantly 0 times; of these:
+      10466 (0.07%) aligned discordantly 1 time
+    ----
+    15499182 pairs aligned 0 times concordantly or discordantly; of these:
+      30998364 mates make up the pairs; of these:
+        30991144 (99.98%) aligned 0 times
+        7199 (0.02%) aligned exactly 1 time
+        21 (0.00%) aligned >1 times
+0.64% overall alignment rate
+Time searching: 00:05:06
+Overall time: 00:05:06
+Finished SRR22340782 read alignment for m_tuber into /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/m_tuber/switch_seqs_delta1000-1000/alignment_20240930

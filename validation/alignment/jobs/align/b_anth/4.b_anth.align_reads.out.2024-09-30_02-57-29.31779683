@@ -1,0 +1,24 @@
+Instance 22 starting alignment for b_anth from /fs/ess/PDS0325/Riboswitches/data/rna_seq/b_anth reads
+
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:03:40
+17857266 reads; of these:
+  17857266 (100.00%) were paired; of these:
+    17627970 (98.72%) aligned concordantly 0 times
+    227767 (1.28%) aligned concordantly exactly 1 time
+    1529 (0.01%) aligned concordantly >1 times
+    ----
+    17627970 pairs aligned concordantly 0 times; of these:
+      1289 (0.01%) aligned discordantly 1 time
+    ----
+    17626681 pairs aligned 0 times concordantly or discordantly; of these:
+      35253362 mates make up the pairs; of these:
+        35233003 (99.94%) aligned 0 times
+        20289 (0.06%) aligned exactly 1 time
+        70 (0.00%) aligned >1 times
+1.35% overall alignment rate
+Time searching: 00:03:40
+Overall time: 00:03:40
+Finished SRR12004245 read alignment for b_anth into /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/b_anth/switch_seqs_delta1000-1000/alignment_20240930

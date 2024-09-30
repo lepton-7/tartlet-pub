@@ -1,0 +1,24 @@
+Instance 28 starting alignment for c_vibrioides from /fs/ess/PDS0325/Riboswitches/data/rna_seq/c_vibrioides reads
+
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:00:08
+372337 reads; of these:
+  372337 (100.00%) were paired; of these:
+    370778 (99.58%) aligned concordantly 0 times
+    1558 (0.42%) aligned concordantly exactly 1 time
+    1 (0.00%) aligned concordantly >1 times
+    ----
+    370778 pairs aligned concordantly 0 times; of these:
+      1 (0.00%) aligned discordantly 1 time
+    ----
+    370777 pairs aligned 0 times concordantly or discordantly; of these:
+      741554 mates make up the pairs; of these:
+        741315 (99.97%) aligned 0 times
+        239 (0.03%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+0.45% overall alignment rate
+Time searching: 00:00:08
+Overall time: 00:00:08
+Finished SRR25662815 read alignment for c_vibrioides into /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/c_vibrioides/switch_seqs_delta1000-1000/alignment_20240930

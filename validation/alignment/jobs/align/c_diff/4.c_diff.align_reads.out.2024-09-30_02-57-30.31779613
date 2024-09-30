@@ -1,0 +1,8 @@
+Instance 6 starting alignment for c_diff from /fs/ess/PDS0325/Riboswitches/data/rna_seq/c_diff reads
+
+
+Warning: [Errno 2] No such file or directory: '/fs/ess/PDS0325/Riboswitches/data/rna_seq/c_diff/_1.fastq.gz'
+(ERR): Read file '/fs/ess/PDS0325/Riboswitches/data/rna_seq/c_diff/_1.fastq.gz' doesn't exist
+Exiting now ...
+srun: error: p0336: task 0: Exited with exit code 2
+Finished c_diff read alignment for c_diff into /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/c_diff/switch_seqs_delta1000-1000/alignment_20240930

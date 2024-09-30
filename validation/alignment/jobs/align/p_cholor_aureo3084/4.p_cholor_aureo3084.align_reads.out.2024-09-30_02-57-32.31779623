@@ -1,0 +1,8 @@
+Instance 8 starting alignment for p_cholor_aureo3084 from /fs/ess/PDS0325/Riboswitches/data/rna_seq/p_cholor_aureo3084 reads
+
+
+Warning: [Errno 2] No such file or directory: '/fs/ess/PDS0325/Riboswitches/data/rna_seq/p_cholor_aureo3084/_1.fastq.gz'
+(ERR): Read file '/fs/ess/PDS0325/Riboswitches/data/rna_seq/p_cholor_aureo3084/_1.fastq.gz' doesn't exist
+Exiting now ...
+srun: error: p0822: task 0: Exited with exit code 2
+Finished p_cholor_aureo3084 read alignment for p_cholor_aureo3084 into /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/p_cholor_aureo3084/switch_seqs_delta1000-1000/alignment_20240930

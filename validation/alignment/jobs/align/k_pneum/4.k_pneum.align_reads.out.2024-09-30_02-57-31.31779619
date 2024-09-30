@@ -1,0 +1,8 @@
+Instance 6 starting alignment for k_pneum from /fs/ess/PDS0325/Riboswitches/data/rna_seq/k_pneum reads
+
+
+Warning: [Errno 2] No such file or directory: '/fs/ess/PDS0325/Riboswitches/data/rna_seq/k_pneum/_1.fastq.gz'
+(ERR): Read file '/fs/ess/PDS0325/Riboswitches/data/rna_seq/k_pneum/_1.fastq.gz' doesn't exist
+Exiting now ...
+srun: error: p0077: task 0: Exited with exit code 2
+Finished k_pneum read alignment for k_pneum into /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/k_pneum/switch_seqs_delta1000-1000/alignment_20240930

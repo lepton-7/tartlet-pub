@@ -1,0 +1,24 @@
+Instance 17 starting alignment for b_pseudo from /fs/ess/PDS0325/Riboswitches/data/rna_seq/b_pseudo reads
+
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:02:39
+8655213 reads; of these:
+  8655213 (100.00%) were paired; of these:
+    8629937 (99.71%) aligned concordantly 0 times
+    23062 (0.27%) aligned concordantly exactly 1 time
+    2214 (0.03%) aligned concordantly >1 times
+    ----
+    8629937 pairs aligned concordantly 0 times; of these:
+      15 (0.00%) aligned discordantly 1 time
+    ----
+    8629922 pairs aligned 0 times concordantly or discordantly; of these:
+      17259844 mates make up the pairs; of these:
+        17256722 (99.98%) aligned 0 times
+        3020 (0.02%) aligned exactly 1 time
+        102 (0.00%) aligned >1 times
+0.31% overall alignment rate
+Time searching: 00:02:39
+Overall time: 00:02:39
+Finished SRR11997847 read alignment for b_pseudo into /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/b_pseudo/switch_seqs_delta1000-1000/alignment_20240930

@@ -1,0 +1,24 @@
+Instance 6 starting alignment for b_frag from /fs/ess/PDS0325/Riboswitches/data/rna_seq/b_frag reads
+
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:01:39
+7084357 reads; of these:
+  7084357 (100.00%) were paired; of these:
+    7001032 (98.82%) aligned concordantly 0 times
+    79854 (1.13%) aligned concordantly exactly 1 time
+    3471 (0.05%) aligned concordantly >1 times
+    ----
+    7001032 pairs aligned concordantly 0 times; of these:
+      34 (0.00%) aligned discordantly 1 time
+    ----
+    7000998 pairs aligned 0 times concordantly or discordantly; of these:
+      14001996 mates make up the pairs; of these:
+        13994502 (99.95%) aligned 0 times
+        7337 (0.05%) aligned exactly 1 time
+        157 (0.00%) aligned >1 times
+1.23% overall alignment rate
+Time searching: 00:01:39
+Overall time: 00:01:39
+Finished SRR22681942 read alignment for b_frag into /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/b_frag/switch_seqs_delta1000-1000/alignment_20240930

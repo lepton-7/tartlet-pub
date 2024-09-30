@@ -1,0 +1,8 @@
+Instance 16 starting alignment for s_enter_typh from /fs/ess/PDS0325/Riboswitches/data/rna_seq/s_enter_typh reads
+
+
+Warning: [Errno 2] No such file or directory: '/fs/ess/PDS0325/Riboswitches/data/rna_seq/s_enter_typh/_1.fastq.gz'
+(ERR): Read file '/fs/ess/PDS0325/Riboswitches/data/rna_seq/s_enter_typh/_1.fastq.gz' doesn't exist
+Exiting now ...
+srun: error: p0580: task 0: Exited with exit code 2
+Finished s_enter_typh read alignment for s_enter_typh into /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/s_enter_typh/switch_seqs_delta1000-1000/alignment_20240930

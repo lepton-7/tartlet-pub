@@ -1,0 +1,661 @@
+Instance 2 starting alignment for s_meli from /fs/ess/PDS0325/Riboswitches/data/rna_seq/s_meli reads
+
+
+Time loading forward index: 00:00:00
+Time loading reference: 00:00:00
+Warning: skipping mate #2 of read 'SRR11916654.54238 54238 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.54238 54238 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.56652 56652 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.56652 56652 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.57901 57901 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.57901 57901 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.62901 62901 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.62901 62901 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.70509 70509 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.70509 70509 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.85124 85124 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.85124 85124 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.135828 135828 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.135828 135828 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.142092 142092 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.142092 142092 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.199153 199153 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.199153 199153 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.288895 288895 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.288895 288895 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.297160 297160 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.297160 297160 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.307559 307559 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.307559 307559 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.309323 309323 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.309323 309323 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.309874 309874 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.309874 309874 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.338035 338035 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.338035 338035 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.347963 347963 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.347963 347963 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.353166 353166 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.353166 353166 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.353459 353459 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.353459 353459 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.356534 356534 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.356534 356534 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.362704 362704 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.362704 362704 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.363844 363844 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.363844 363844 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.445307 445307 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.445307 445307 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.451348 451348 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.451348 451348 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.460703 460703 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.460703 460703 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.462249 462249 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.462249 462249 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.501575 501575 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.501575 501575 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.502824 502824 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.502824 502824 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.508212 508212 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.508212 508212 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.518354 518354 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.518354 518354 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.520626 520626 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.520626 520626 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.551711 551711 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.551711 551711 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.562491 562491 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.562491 562491 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.565317 565317 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.565317 565317 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.570956 570956 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.570956 570956 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.596613 596613 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.596613 596613 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.601037 601037 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.601037 601037 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.607385 607385 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.607385 607385 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.638515 638515 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.638515 638515 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.649102 649102 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.649102 649102 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.657522 657522 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.657522 657522 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.669090 669090 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.669090 669090 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.690224 690224 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.690224 690224 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.737541 737541 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.737541 737541 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.766753 766753 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.766753 766753 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.782503 782503 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.782503 782503 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.785923 785923 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.785923 785923 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.833681 833681 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.833681 833681 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.843450 843450 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.843450 843450 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.869706 869706 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.869706 869706 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.880304 880304 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.880304 880304 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.894421 894421 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.894421 894421 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.902296 902296 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.902296 902296 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.911883 911883 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.911883 911883 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.932632 932632 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.932632 932632 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.968285 968285 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.968285 968285 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.1034276 1034276 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.1034276 1034276 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.1047309 1047309 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.1047309 1047309 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.1061171 1061171 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.1061171 1061171 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.1061652 1061652 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.1061652 1061652 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.1062513 1062513 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.1062513 1062513 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.1117917 1117917 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.1117917 1117917 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.1147315 1147315 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.1147315 1147315 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.1152356 1152356 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.1152356 1152356 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.1173789 1173789 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.1173789 1173789 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.1202913 1202913 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.1202913 1202913 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.1217295 1217295 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.1217295 1217295 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.1245284 1245284 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.1245284 1245284 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.1246193 1246193 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.1246193 1246193 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.1262504 1262504 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.1262504 1262504 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.1293803 1293803 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.1293803 1293803 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.1302845 1302845 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.1302845 1302845 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.1343865 1343865 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.1343865 1343865 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.1389441 1389441 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.1389441 1389441 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.1398143 1398143 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.1398143 1398143 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.1409354 1409354 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.1409354 1409354 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.1414858 1414858 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.1414858 1414858 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.1419293 1419293 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.1419293 1419293 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.1421423 1421423 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.1421423 1421423 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.1442492 1442492 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.1442492 1442492 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.1454526 1454526 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.1454526 1454526 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.1470465 1470465 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.1470465 1470465 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.1473052 1473052 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.1473052 1473052 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.1497261 1497261 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.1497261 1497261 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.1499612 1499612 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.1499612 1499612 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.1531842 1531842 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.1531842 1531842 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.1564349 1564349 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.1564349 1564349 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.1595465 1595465 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.1595465 1595465 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.1621855 1621855 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.1621855 1621855 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.1666728 1666728 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.1666728 1666728 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.1688443 1688443 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.1688443 1688443 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.1703378 1703378 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.1703378 1703378 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.1707316 1707316 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.1707316 1707316 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.1710416 1710416 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.1710416 1710416 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.1719096 1719096 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.1719096 1719096 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.1726604 1726604 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.1726604 1726604 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.1742165 1742165 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.1742165 1742165 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.1750177 1750177 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.1750177 1750177 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.1796252 1796252 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.1796252 1796252 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.1818787 1818787 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.1818787 1818787 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.1863298 1863298 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.1863298 1863298 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.1911912 1911912 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.1911912 1911912 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.1930181 1930181 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.1930181 1930181 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.1931311 1931311 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.1931311 1931311 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.1963317 1963317 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.1963317 1963317 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.1963528 1963528 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.1963528 1963528 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.1986228 1986228 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.1986228 1986228 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.2011530 2011530 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.2011530 2011530 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.2020759 2020759 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.2020759 2020759 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.2027043 2027043 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.2027043 2027043 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.2064057 2064057 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.2064057 2064057 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.2081767 2081767 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.2081767 2081767 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.2084204 2084204 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.2084204 2084204 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.2097494 2097494 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.2097494 2097494 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.2100851 2100851 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.2100851 2100851 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.2137648 2137648 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.2137648 2137648 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.2162115 2162115 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.2162115 2162115 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.2214008 2214008 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.2214008 2214008 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.2262073 2262073 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.2262073 2262073 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.2269379 2269379 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.2269379 2269379 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.2277873 2277873 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.2277873 2277873 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.2280959 2280959 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.2280959 2280959 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.2361971 2361971 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.2361971 2361971 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.2371330 2371330 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.2371330 2371330 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.2458576 2458576 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.2458576 2458576 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.2462788 2462788 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.2462788 2462788 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.2499247 2499247 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.2499247 2499247 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.2516933 2516933 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.2516933 2516933 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.2517919 2517919 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.2517919 2517919 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.2519762 2519762 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.2519762 2519762 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.2549499 2549499 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.2549499 2549499 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.2552909 2552909 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.2552909 2552909 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.2553366 2553366 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.2553366 2553366 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.2554322 2554322 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.2554322 2554322 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.2557212 2557212 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.2557212 2557212 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.2576279 2576279 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.2576279 2576279 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.2588704 2588704 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.2588704 2588704 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.2638922 2638922 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.2638922 2638922 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.2643174 2643174 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.2643174 2643174 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.2647687 2647687 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.2647687 2647687 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.2659438 2659438 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.2659438 2659438 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.2680156 2680156 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.2680156 2680156 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.2686670 2686670 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.2686670 2686670 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.2713258 2713258 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.2713258 2713258 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.2779785 2779785 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.2779785 2779785 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.2873765 2873765 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.2873765 2873765 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.2878855 2878855 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.2878855 2878855 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.2896668 2896668 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.2896668 2896668 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.2937910 2937910 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.2937910 2937910 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.2943037 2943037 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.2943037 2943037 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.2951442 2951442 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.2951442 2951442 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.2954652 2954652 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.2954652 2954652 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.2964150 2964150 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.2964150 2964150 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.3012371 3012371 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.3012371 3012371 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.3037740 3037740 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.3037740 3037740 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.3039569 3039569 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.3039569 3039569 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.3087962 3087962 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.3087962 3087962 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.3102904 3102904 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.3102904 3102904 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.3105289 3105289 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.3105289 3105289 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.3142215 3142215 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.3142215 3142215 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.3167646 3167646 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.3167646 3167646 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.3177361 3177361 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.3177361 3177361 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.3190637 3190637 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.3190637 3190637 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.3228715 3228715 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.3228715 3228715 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.3232773 3232773 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.3232773 3232773 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.3233424 3233424 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.3233424 3233424 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.3235736 3235736 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.3235736 3235736 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.3235888 3235888 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.3235888 3235888 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.3238106 3238106 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.3238106 3238106 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.3247213 3247213 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.3247213 3247213 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.3258077 3258077 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.3258077 3258077 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.3294426 3294426 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.3294426 3294426 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.3312587 3312587 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.3312587 3312587 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.3361191 3361191 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.3361191 3361191 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.3432519 3432519 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.3432519 3432519 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.3447066 3447066 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.3447066 3447066 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.3479113 3479113 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.3479113 3479113 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.3480146 3480146 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.3480146 3480146 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.3486960 3486960 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.3486960 3486960 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.3496601 3496601 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.3496601 3496601 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.3507573 3507573 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.3507573 3507573 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.3530609 3530609 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.3530609 3530609 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.3536832 3536832 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.3536832 3536832 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.3580669 3580669 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.3580669 3580669 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.3601710 3601710 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.3601710 3601710 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.3608763 3608763 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.3608763 3608763 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.3634336 3634336 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.3634336 3634336 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.3667135 3667135 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.3667135 3667135 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.3673223 3673223 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.3673223 3673223 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.3694374 3694374 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.3694374 3694374 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.3729277 3729277 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.3729277 3729277 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.3730116 3730116 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.3730116 3730116 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.3750808 3750808 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.3750808 3750808 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.3755366 3755366 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.3755366 3755366 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.3770665 3770665 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.3770665 3770665 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.3782420 3782420 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.3782420 3782420 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.3783779 3783779 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.3783779 3783779 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.3792454 3792454 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.3792454 3792454 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.3823344 3823344 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.3823344 3823344 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.3896890 3896890 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.3896890 3896890 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.3918152 3918152 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.3918152 3918152 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.3935826 3935826 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.3935826 3935826 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.3946978 3946978 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.3946978 3946978 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.3947052 3947052 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.3947052 3947052 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.3967433 3967433 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.3967433 3967433 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4022536 4022536 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4022536 4022536 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4029901 4029901 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4029901 4029901 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4067004 4067004 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4067004 4067004 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4084766 4084766 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4084766 4084766 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4091370 4091370 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4091370 4091370 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4169547 4169547 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4169547 4169547 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4173194 4173194 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4173194 4173194 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4200817 4200817 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4200817 4200817 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4210615 4210615 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4210615 4210615 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4215704 4215704 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4215704 4215704 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4234371 4234371 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4234371 4234371 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4236473 4236473 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4236473 4236473 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4239758 4239758 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4239758 4239758 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4251354 4251354 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4251354 4251354 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4256888 4256888 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4256888 4256888 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4260034 4260034 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4260034 4260034 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4271122 4271122 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4271122 4271122 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4279443 4279443 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4279443 4279443 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4291569 4291569 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4291569 4291569 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4317547 4317547 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4317547 4317547 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4322656 4322656 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4322656 4322656 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4336956 4336956 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4336956 4336956 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4370646 4370646 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4370646 4370646 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4371860 4371860 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4371860 4371860 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4372908 4372908 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4372908 4372908 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4382088 4382088 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4382088 4382088 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4400745 4400745 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4400745 4400745 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4411083 4411083 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4411083 4411083 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4435808 4435808 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4435808 4435808 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4448560 4448560 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4448560 4448560 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4490745 4490745 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4490745 4490745 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4492660 4492660 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4492660 4492660 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4493759 4493759 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4493759 4493759 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4532378 4532378 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4532378 4532378 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4543593 4543593 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4543593 4543593 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4579598 4579598 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4579598 4579598 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4584964 4584964 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4584964 4584964 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4611258 4611258 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4611258 4611258 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4625807 4625807 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4625807 4625807 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4634686 4634686 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4634686 4634686 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4641913 4641913 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4641913 4641913 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4660187 4660187 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4660187 4660187 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4690296 4690296 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4690296 4690296 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4690783 4690783 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4690783 4690783 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4705489 4705489 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4705489 4705489 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4721718 4721718 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4721718 4721718 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4745910 4745910 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4745910 4745910 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4746797 4746797 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4746797 4746797 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4789417 4789417 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4789417 4789417 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4792047 4792047 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4792047 4792047 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4807590 4807590 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4807590 4807590 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4818436 4818436 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4818436 4818436 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4829845 4829845 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4829845 4829845 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4832732 4832732 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4832732 4832732 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4860356 4860356 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4860356 4860356 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4865367 4865367 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4865367 4865367 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4868382 4868382 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4868382 4868382 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4880910 4880910 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4880910 4880910 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4885771 4885771 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4885771 4885771 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4903238 4903238 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4903238 4903238 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4905680 4905680 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4905680 4905680 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4907408 4907408 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4907408 4907408 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4958798 4958798 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4958798 4958798 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.4964709 4964709 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.4964709 4964709 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.5028738 5028738 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.5028738 5028738 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.5044440 5044440 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.5044440 5044440 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.5088137 5088137 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.5088137 5088137 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.5109968 5109968 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.5109968 5109968 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.5132111 5132111 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.5132111 5132111 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.5140067 5140067 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.5140067 5140067 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.5144790 5144790 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.5144790 5144790 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.5161297 5161297 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.5161297 5161297 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.5203287 5203287 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.5203287 5203287 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.5203968 5203968 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.5203968 5203968 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.5208480 5208480 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.5208480 5208480 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.5209805 5209805 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.5209805 5209805 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.5240738 5240738 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.5240738 5240738 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.5288280 5288280 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.5288280 5288280 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.5291530 5291530 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.5291530 5291530 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.5329391 5329391 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.5329391 5329391 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.5332695 5332695 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.5332695 5332695 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.5336133 5336133 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.5336133 5336133 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.5337757 5337757 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.5337757 5337757 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.5339184 5339184 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.5339184 5339184 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.5380947 5380947 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.5380947 5380947 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.5386903 5386903 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.5386903 5386903 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.5393966 5393966 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.5393966 5393966 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.5447723 5447723 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.5447723 5447723 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.5465771 5465771 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.5465771 5465771 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.5472688 5472688 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.5472688 5472688 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.5478743 5478743 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.5478743 5478743 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.5524670 5524670 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.5524670 5524670 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.5551147 5551147 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.5551147 5551147 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.5573589 5573589 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.5573589 5573589 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.5586755 5586755 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.5586755 5586755 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.5588831 5588831 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.5588831 5588831 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.5604335 5604335 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.5604335 5604335 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.5659293 5659293 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.5659293 5659293 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.5661681 5661681 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.5661681 5661681 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.5674495 5674495 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.5674495 5674495 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.5687345 5687345 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.5687345 5687345 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.5692008 5692008 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.5692008 5692008 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.5748331 5748331 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.5748331 5748331 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.5833411 5833411 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.5833411 5833411 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.5837072 5837072 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.5837072 5837072 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.5867733 5867733 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.5867733 5867733 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.5885233 5885233 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.5885233 5885233 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.5929604 5929604 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.5929604 5929604 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.5939821 5939821 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.5939821 5939821 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.5956229 5956229 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.5956229 5956229 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.5956588 5956588 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.5956588 5956588 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.6027155 6027155 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.6027155 6027155 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.6113312 6113312 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.6113312 6113312 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.6113531 6113531 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.6113531 6113531 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.6113715 6113715 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.6113715 6113715 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.6114151 6114151 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.6114151 6114151 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.6126007 6126007 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.6126007 6126007 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.6160619 6160619 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.6160619 6160619 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.6170958 6170958 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.6170958 6170958 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.6184316 6184316 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.6184316 6184316 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.6192023 6192023 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.6192023 6192023 length=1' because it was < 2 characters long
+Warning: skipping mate #2 of read 'SRR11916654.6198995 6198995 length=1' because length (1) <= # seed mismatches (0)
+Warning: skipping mate #2 of read 'SRR11916654.6198995 6198995 length=1' because it was < 2 characters long
+Error, fewer reads in file specified with -2 than in file specified with -1
+(ERR): hisat2-align died with signal 6 (ABRT) (core dumped)
+srun: error: p0580: task 0: Exited with exit code 1
+Finished SRR11916654 read alignment for s_meli into /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/s_meli/switch_seqs_delta1000-1000/alignment_20240930
