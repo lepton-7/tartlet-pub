@@ -1,0 +1,95 @@
+Making BAMs for:
+a_fischeri_ES114 a_kunk b_anth b_frag b_pseudo b_sub_168 b_theta b_xyla c_diff c_vibrioides d_vulg e_coli e_fae e_limo k_pneum m_smeg m_tuber n_gonorr p_cholor_aureo3084 p_fluor p_salmo s_coelicolor s_elon s_enter_typh s_epi s_meli s_sanguinis s_spcc6803 x_albi x_ory
+
+
+Starting SAM conversion for a_fischeri_ES114
+Finished SAM -> sorted BAM conversion within /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/a_fischeri_ES114/switch_seqs_delta1000-1000/alignment_20240930
+
+Starting SAM conversion for a_kunk
+Finished SAM -> sorted BAM conversion within /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/a_kunk/switch_seqs_delta1000-1000/alignment_20240930
+
+Starting SAM conversion for b_anth
+Finished SAM -> sorted BAM conversion within /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/b_anth/switch_seqs_delta1000-1000/alignment_20240930
+
+Starting SAM conversion for b_frag
+Finished SAM -> sorted BAM conversion within /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/b_frag/switch_seqs_delta1000-1000/alignment_20240930
+
+Starting SAM conversion for b_pseudo
+Finished SAM -> sorted BAM conversion within /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/b_pseudo/switch_seqs_delta1000-1000/alignment_20240930
+
+Starting SAM conversion for b_sub_168
+Finished SAM -> sorted BAM conversion within /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/b_sub_168/switch_seqs_delta1000-1000/alignment_20240930
+
+Starting SAM conversion for b_theta
+Finished SAM -> sorted BAM conversion within /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/b_theta/switch_seqs_delta1000-1000/alignment_20240930
+
+Starting SAM conversion for b_xyla
+Finished SAM -> sorted BAM conversion within /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/b_xyla/switch_seqs_delta1000-1000/alignment_20240930
+
+Starting SAM conversion for c_diff
+Finished SAM -> sorted BAM conversion within /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/c_diff/switch_seqs_delta1000-1000/alignment_20240930
+
+Starting SAM conversion for c_vibrioides
+Finished SAM -> sorted BAM conversion within /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/c_vibrioides/switch_seqs_delta1000-1000/alignment_20240930
+
+Starting SAM conversion for d_vulg
+Finished SAM -> sorted BAM conversion within /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/d_vulg/switch_seqs_delta1000-1000/alignment_20240930
+
+Starting SAM conversion for e_coli
+Finished SAM -> sorted BAM conversion within /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/e_coli/switch_seqs_delta1000-1000/alignment_20240930
+
+Starting SAM conversion for e_fae
+Finished SAM -> sorted BAM conversion within /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/e_fae/switch_seqs_delta1000-1000/alignment_20240930
+
+Starting SAM conversion for e_limo
+Finished SAM -> sorted BAM conversion within /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/e_limo/switch_seqs_delta1000-1000/alignment_20240930
+
+Starting SAM conversion for k_pneum
+Finished SAM -> sorted BAM conversion within /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/k_pneum/switch_seqs_delta1000-1000/alignment_20240930
+
+Starting SAM conversion for m_smeg
+Finished SAM -> sorted BAM conversion within /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/m_smeg/switch_seqs_delta1000-1000/alignment_20240930
+
+Starting SAM conversion for m_tuber
+Finished SAM -> sorted BAM conversion within /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/m_tuber/switch_seqs_delta1000-1000/alignment_20240930
+
+Starting SAM conversion for n_gonorr
+Finished SAM -> sorted BAM conversion within /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/n_gonorr/switch_seqs_delta1000-1000/alignment_20240930
+
+Starting SAM conversion for p_cholor_aureo3084
+Finished SAM -> sorted BAM conversion within /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/p_cholor_aureo3084/switch_seqs_delta1000-1000/alignment_20240930
+
+Starting SAM conversion for p_fluor
+Finished SAM -> sorted BAM conversion within /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/p_fluor/switch_seqs_delta1000-1000/alignment_20240930
+
+Starting SAM conversion for p_salmo
+Finished SAM -> sorted BAM conversion within /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/p_salmo/switch_seqs_delta1000-1000/alignment_20240930
+
+Starting SAM conversion for s_coelicolor
+Finished SAM -> sorted BAM conversion within /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/s_coelicolor/switch_seqs_delta1000-1000/alignment_20240930
+
+Starting SAM conversion for s_elon
+Finished SAM -> sorted BAM conversion within /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/s_elon/switch_seqs_delta1000-1000/alignment_20240930
+
+Starting SAM conversion for s_enter_typh
+Finished SAM -> sorted BAM conversion within /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/s_enter_typh/switch_seqs_delta1000-1000/alignment_20240930
+
+Starting SAM conversion for s_epi
+Finished SAM -> sorted BAM conversion within /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/s_epi/switch_seqs_delta1000-1000/alignment_20240930
+
+Starting SAM conversion for s_meli
+Finished SAM -> sorted BAM conversion within /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/s_meli/switch_seqs_delta1000-1000/alignment_20240930
+
+Starting SAM conversion for s_sanguinis
+Finished SAM -> sorted BAM conversion within /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/s_sanguinis/switch_seqs_delta1000-1000/alignment_20240930
+
+Starting SAM conversion for s_spcc6803
+Finished SAM -> sorted BAM conversion within /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/s_spcc6803/switch_seqs_delta1000-1000/alignment_20240930
+
+Starting SAM conversion for x_albi
+Finished SAM -> sorted BAM conversion within /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/x_albi/switch_seqs_delta1000-1000/alignment_20240930
+
+Starting SAM conversion for x_ory
+Finished SAM -> sorted BAM conversion within /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/x_ory/switch_seqs_delta1000-1000/alignment_20240930
+
+Done

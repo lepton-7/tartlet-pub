@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --time=00:20:00
+#SBATCH --time=01:00:00
 #SBATCH --nodes=3 --cpus-per-task=1
 
 #SBATCH --account=PDS0325
@@ -11,36 +11,36 @@
 
 set echo on
 
-RT="$HOME/packages/tart"
+RT="$HOME/tartlet-pub"
 
-DATECODE="20240328"
+DATECODE="20240930"
 
 DSETS=(
-    # "a_fischeri_ES114"
-    # "a_kunk"
-    # "b_anth"
-    # "b_frag"
-    # "b_pseudo"
-    # "b_sub_168"
-    # "b_theta"
-    # "b_xyla"
-    # "c_diff"
-    # "c_vibrioides"
-    # "d_vulg"
-    # "e_coli"
-    # "e_fae"
-    # "e_limo"
-    # "k_pneum"
-    # "m_smeg"
-    # "m_tuber"
-    # "n_gonorr"
-    # "p_cholor_aureo3084"
-    # "p_fluor"
-    # "p_salmo"
-    # "s_coelicolor"
-    # "s_elon"
-    # "s_enter_typh"
-    # "s_epi"
+    "a_fischeri_ES114"
+    "a_kunk"
+    "b_anth"
+    "b_frag"
+    "b_pseudo"
+    "b_sub_168"
+    "b_theta"
+    "b_xyla"
+    "c_diff"
+    "c_vibrioides"
+    "d_vulg"
+    "e_coli"
+    "e_fae"
+    "e_limo"
+    "k_pneum"
+    "m_smeg"
+    "m_tuber"
+    "n_gonorr"
+    "p_cholor_aureo3084"
+    "p_fluor"
+    "p_salmo"
+    "s_coelicolor"
+    "s_elon"
+    "s_enter_typh"
+    "s_epi"
     "s_meli"
     "s_sanguinis"
     "s_spcc6803"
