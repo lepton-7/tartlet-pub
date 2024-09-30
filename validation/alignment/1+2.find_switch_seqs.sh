@@ -11,7 +11,7 @@
 
 set echo on
 
-RT="$HOME/packages/tart"
+RT="$HOME/tartlet-pub"
 TABLE="$RT/validation/tables/inf_results.csv"
 GENOMES="$RT/validation/genomes"
 
