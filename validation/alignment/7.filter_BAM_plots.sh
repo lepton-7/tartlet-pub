@@ -9,10 +9,9 @@
 # RUN THIS TO LAUNCH JOB
 ## sbatch --output=jobs/7.all.filter_BAM_plots.out.$(date +"%Y-%m-%d_%H-%M-%S").%j 7.filter_BAM_plots.sh
 
-# set -x
 set echo on
 
-RT="$HOME/packages/tart"
+RT="$HOME/tartlet-pub"
 
 DSETS=(
     "a_fischeri_ES114"
@@ -60,8 +59,7 @@ for DSET in ${DSETS[@]}; do
     D_ROOT="$RT/validation/alignment/outputs/$DSET"
 
     PICKLE_ROOT="$D_ROOT/plots/picks.tar.gz"
-    SAVE_ROOT="$D_ROOT/p2/"
-    # SAVE_ROOT="$D_ROOT/plots/"
+    SAVE_ROOT="$D_ROOT/plots/"
 
     echo "Removing existing data"
     rm -r $SAVE_ROOT/*/ $SAVE_ROOT/*.csv
