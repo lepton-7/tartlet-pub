@@ -1,8 +1,0 @@
-Instance 22 starting alignment for b_theta from /fs/ess/PDS0325/Riboswitches/data/rna_seq/b_theta reads
-
-
-Warning: [Errno 2] No such file or directory: '/fs/ess/PDS0325/Riboswitches/data/rna_seq/b_theta/_1.fastq.gz'
-(ERR): Read file '/fs/ess/PDS0325/Riboswitches/data/rna_seq/b_theta/_1.fastq.gz' doesn't exist
-Exiting now ...
-srun: error: p0062: task 0: Exited with exit code 2
-Finished b_theta read alignment for b_theta into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/b_theta/switch_seqs_delta1000-1000/alignment_20240328

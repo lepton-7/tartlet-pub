@@ -1,8 +1,0 @@
-Instance 24 starting alignment for m_tuber from /fs/ess/PDS0325/Riboswitches/data/rna_seq/m_tuber reads
-
-
-Warning: [Errno 2] No such file or directory: '/fs/ess/PDS0325/Riboswitches/data/rna_seq/m_tuber/_1.fastq.gz'
-(ERR): Read file '/fs/ess/PDS0325/Riboswitches/data/rna_seq/m_tuber/_1.fastq.gz' doesn't exist
-Exiting now ...
-srun: error: p0138: task 0: Exited with exit code 2
-Finished m_tuber read alignment for m_tuber into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/m_tuber/switch_seqs_delta1000-1000/alignment_20240328

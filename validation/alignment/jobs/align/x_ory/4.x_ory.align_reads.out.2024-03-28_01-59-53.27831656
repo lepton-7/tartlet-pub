@@ -1,8 +1,0 @@
-Instance 6 starting alignment for x_ory from /fs/ess/PDS0325/Riboswitches/data/rna_seq/x_ory reads
-
-
-Warning: [Errno 2] No such file or directory: '/fs/ess/PDS0325/Riboswitches/data/rna_seq/x_ory/_1.fastq.gz'
-(ERR): Read file '/fs/ess/PDS0325/Riboswitches/data/rna_seq/x_ory/_1.fastq.gz' doesn't exist
-Exiting now ...
-srun: error: p0175: task 0: Exited with exit code 2
-Finished x_ory read alignment for x_ory into /users/PDS0325/sachitk26/packages/tart/validation/alignment/outputs/x_ory/switch_seqs_delta1000-1000/alignment_20240328
