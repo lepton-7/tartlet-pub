@@ -1,0 +1,410 @@
+Filtering output plots for:
+a_fischeri_ES114 a_kunk b_anth b_frag b_pseudo b_sub_168 b_theta b_xyla c_diff c_vibrioides d_vulg e_coli e_fae e_limo k_pneum m_smeg m_tuber n_gonorr p_cholor_aureo3084 p_fluor p_salmo s_coelicolor s_elon s_enter_typh s_epi s_meli s_sanguinis s_spcc6803 x_albi x_ory
+
+
+Removing existing data
+Filtering plots for a_fischeri_ES114
+Started 200 instances.
+Each instance running upto 1 iterations.
+Waiting on all instances to start gather.
+Completed gather.
+Finished filtering outputs for a_fischeri_ES114 into /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/a_fischeri_ES114/plots/
+----------------------------------------------------
+
+Removing existing data
+Filtering plots for a_kunk
+Started 200 instances.
+Each instance running upto 1 iterations.
+Waiting on all instances to start gather.
+Completed gather.
+Clustering broke. Skipping.
+Finished filtering outputs for a_kunk into /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/a_kunk/plots/
+----------------------------------------------------
+
+Removing existing data
+Filtering plots for b_anth
+Started 200 instances.
+Each instance running upto 6 iterations.
+Waiting on all instances to start gather.
+Completed gather.
+Finished filtering outputs for b_anth into /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/b_anth/plots/
+----------------------------------------------------
+
+Removing existing data
+Filtering plots for b_frag
+Started 200 instances.
+Each instance running upto 1 iterations.
+Waiting on all instances to start gather.
+Completed gather.
+Finished filtering outputs for b_frag into /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/b_frag/plots/
+----------------------------------------------------
+
+Removing existing data
+Filtering plots for b_pseudo
+Started 200 instances.
+Each instance running upto 2 iterations.
+Waiting on all instances to start gather.
+Completed gather.
+Finished filtering outputs for b_pseudo into /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/b_pseudo/plots/
+----------------------------------------------------
+
+Removing existing data
+Filtering plots for b_sub_168
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/core/fromnumeric.py:3504: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/lib/function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/core/_methods.py:121: RuntimeWarning: invalid value encountered in divide
+  ret = um.true_divide(
+/users/PDS0325/sachitk26/packages/tartlet/tartlet/utils/activity_inference.py:339: RuntimeWarning: Degrees of freedom <= 0 for slice
+  sd = np.cov(cov_nocand, rowvar=0)  # type: ignore
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/lib/function_base.py:2748: RuntimeWarning: divide by zero encountered in divide
+  c *= np.true_divide(1, fact)
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/lib/function_base.py:2748: RuntimeWarning: invalid value encountered in multiply
+  c *= np.true_divide(1, fact)
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/core/fromnumeric.py:3504: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/lib/function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/core/_methods.py:121: RuntimeWarning: invalid value encountered in divide
+  ret = um.true_divide(
+/users/PDS0325/sachitk26/packages/tartlet/tartlet/utils/activity_inference.py:339: RuntimeWarning: Degrees of freedom <= 0 for slice
+  sd = np.cov(cov_nocand, rowvar=0)  # type: ignore
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/lib/function_base.py:2748: RuntimeWarning: divide by zero encountered in divide
+  c *= np.true_divide(1, fact)
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/lib/function_base.py:2748: RuntimeWarning: invalid value encountered in multiply
+  c *= np.true_divide(1, fact)
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/core/fromnumeric.py:3504: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/lib/function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/core/_methods.py:121: RuntimeWarning: invalid value encountered in divide
+  ret = um.true_divide(
+/users/PDS0325/sachitk26/packages/tartlet/tartlet/utils/activity_inference.py:339: RuntimeWarning: Degrees of freedom <= 0 for slice
+  sd = np.cov(cov_nocand, rowvar=0)  # type: ignore
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/lib/function_base.py:2748: RuntimeWarning: divide by zero encountered in divide
+  c *= np.true_divide(1, fact)
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/lib/function_base.py:2748: RuntimeWarning: invalid value encountered in multiply
+  c *= np.true_divide(1, fact)
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/core/fromnumeric.py:3504: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/lib/function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/core/_methods.py:121: RuntimeWarning: invalid value encountered in divide
+  ret = um.true_divide(
+/users/PDS0325/sachitk26/packages/tartlet/tartlet/utils/activity_inference.py:339: RuntimeWarning: Degrees of freedom <= 0 for slice
+  sd = np.cov(cov_nocand, rowvar=0)  # type: ignore
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/lib/function_base.py:2748: RuntimeWarning: divide by zero encountered in divide
+  c *= np.true_divide(1, fact)
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/lib/function_base.py:2748: RuntimeWarning: invalid value encountered in multiply
+  c *= np.true_divide(1, fact)
+Started 200 instances.
+Each instance running upto 8 iterations.
+Waiting on all instances to start gather.
+Completed gather.
+Finished filtering outputs for b_sub_168 into /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/b_sub_168/plots/
+----------------------------------------------------
+
+Removing existing data
+Filtering plots for b_theta
+Started 200 instances.
+Each instance running upto 1 iterations.
+Waiting on all instances to start gather.
+Completed gather.
+Finished filtering outputs for b_theta into /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/b_theta/plots/
+----------------------------------------------------
+
+Removing existing data
+Filtering plots for b_xyla
+Started 200 instances.
+Each instance running upto 1 iterations.
+Waiting on all instances to start gather.
+Completed gather.
+Finished filtering outputs for b_xyla into /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/b_xyla/plots/
+----------------------------------------------------
+
+Removing existing data
+Filtering plots for c_diff
+Started 200 instances.
+Each instance running upto 1 iterations.
+Waiting on all instances to start gather.
+Completed gather.
+Clustering broke. Skipping.
+Clustering broke. Skipping.
+Finished filtering outputs for c_diff into /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/c_diff/plots/
+----------------------------------------------------
+
+Removing existing data
+Filtering plots for c_vibrioides
+Started 200 instances.
+Each instance running upto 3 iterations.
+Waiting on all instances to start gather.
+Completed gather.
+Finished filtering outputs for c_vibrioides into /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/c_vibrioides/plots/
+----------------------------------------------------
+
+Removing existing data
+Filtering plots for d_vulg
+Started 200 instances.
+Each instance running upto 1 iterations.
+Waiting on all instances to start gather.
+Completed gather.
+Finished filtering outputs for d_vulg into /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/d_vulg/plots/
+----------------------------------------------------
+
+Removing existing data
+Filtering plots for e_coli
+Started 200 instances.
+Each instance running upto 4 iterations.
+Waiting on all instances to start gather.
+Completed gather.
+Finished filtering outputs for e_coli into /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/e_coli/plots/
+----------------------------------------------------
+
+Removing existing data
+Filtering plots for e_fae
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/core/fromnumeric.py:3504: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/lib/function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/core/_methods.py:121: RuntimeWarning: invalid value encountered in divide
+  ret = um.true_divide(
+/users/PDS0325/sachitk26/packages/tartlet/tartlet/utils/activity_inference.py:339: RuntimeWarning: Degrees of freedom <= 0 for slice
+  sd = np.cov(cov_nocand, rowvar=0)  # type: ignore
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/lib/function_base.py:2748: RuntimeWarning: divide by zero encountered in divide
+  c *= np.true_divide(1, fact)
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/lib/function_base.py:2748: RuntimeWarning: invalid value encountered in multiply
+  c *= np.true_divide(1, fact)
+Started 200 instances.
+Each instance running upto 2 iterations.
+Waiting on all instances to start gather.
+Completed gather.
+Clustering broke. Skipping.
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/scipy/stats/_morestats.py:3189: RuntimeWarning: invalid value encountered in scalar divide
+  W = numer / denom
+Finished filtering outputs for e_fae into /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/e_fae/plots/
+----------------------------------------------------
+
+Removing existing data
+Filtering plots for e_limo
+Started 200 instances.
+Each instance running upto 1 iterations.
+Waiting on all instances to start gather.
+Completed gather.
+Clustering broke. Skipping.
+Clustering broke. Skipping.
+Clustering broke. Skipping.
+Clustering broke. Skipping.
+Clustering broke. Skipping.
+Finished filtering outputs for e_limo into /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/e_limo/plots/
+----------------------------------------------------
+
+Removing existing data
+Filtering plots for k_pneum
+Started 200 instances.
+Each instance running upto 1 iterations.
+Waiting on all instances to start gather.
+Completed gather.
+Clustering broke. Skipping.
+Finished filtering outputs for k_pneum into /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/k_pneum/plots/
+----------------------------------------------------
+
+Removing existing data
+Filtering plots for m_smeg
+Started 200 instances.
+Each instance running upto 1 iterations.
+Waiting on all instances to start gather.
+Completed gather.
+Clustering broke. Skipping.
+Clustering broke. Skipping.
+Clustering broke. Skipping.
+Clustering broke. Skipping.
+Finished filtering outputs for m_smeg into /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/m_smeg/plots/
+----------------------------------------------------
+
+Removing existing data
+Filtering plots for m_tuber
+Started 200 instances.
+Each instance running upto 2 iterations.
+Waiting on all instances to start gather.
+Completed gather.
+Finished filtering outputs for m_tuber into /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/m_tuber/plots/
+----------------------------------------------------
+
+Removing existing data
+Filtering plots for n_gonorr
+Started 200 instances.
+Each instance running upto 1 iterations.
+Waiting on all instances to start gather.
+Completed gather.
+Finished filtering outputs for n_gonorr into /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/n_gonorr/plots/
+----------------------------------------------------
+
+Removing existing data
+Filtering plots for p_cholor_aureo3084
+Started 200 instances.
+Each instance running upto 1 iterations.
+Waiting on all instances to start gather.
+Completed gather.
+Finished filtering outputs for p_cholor_aureo3084 into /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/p_cholor_aureo3084/plots/
+----------------------------------------------------
+
+Removing existing data
+Filtering plots for p_fluor
+Started 200 instances.
+Each instance running upto 2 iterations.
+Waiting on all instances to start gather.
+Completed gather.
+Finished filtering outputs for p_fluor into /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/p_fluor/plots/
+----------------------------------------------------
+
+Removing existing data
+rm: cannot remove ‘/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/p_salmo/plots//*/’: No such file or directory
+rm: cannot remove ‘/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/p_salmo/plots//*.csv’: No such file or directory
+Filtering plots for p_salmo
+Started 200 instances.
+Each instance running upto 0 iterations.
+Waiting on all instances to start gather.
+Completed gather.
+Df empty for clustering. Returning unmodified argument.
+Df empty for stats. Returning empty
+/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/p_salmo/plots/picks.tar.gz seems empty. No tables exported.
+Finished filtering outputs for p_salmo into /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/p_salmo/plots/
+----------------------------------------------------
+
+Removing existing data
+Filtering plots for s_coelicolor
+Started 200 instances.
+Each instance running upto 2 iterations.
+Waiting on all instances to start gather.
+Completed gather.
+Finished filtering outputs for s_coelicolor into /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/s_coelicolor/plots/
+----------------------------------------------------
+
+Removing existing data
+Filtering plots for s_elon
+Started 200 instances.
+Each instance running upto 1 iterations.
+Waiting on all instances to start gather.
+Completed gather.
+Clustering broke. Skipping.
+Finished filtering outputs for s_elon into /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/s_elon/plots/
+----------------------------------------------------
+
+Removing existing data
+Filtering plots for s_enter_typh
+Started 200 instances.
+Each instance running upto 1 iterations.
+Waiting on all instances to start gather.
+Completed gather.
+Finished filtering outputs for s_enter_typh into /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/s_enter_typh/plots/
+----------------------------------------------------
+
+Removing existing data
+Filtering plots for s_epi
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/core/fromnumeric.py:3504: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/lib/function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/core/_methods.py:121: RuntimeWarning: invalid value encountered in divide
+  ret = um.true_divide(
+/users/PDS0325/sachitk26/packages/tartlet/tartlet/utils/activity_inference.py:339: RuntimeWarning: Degrees of freedom <= 0 for slice
+  sd = np.cov(cov_nocand, rowvar=0)  # type: ignore
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/lib/function_base.py:2748: RuntimeWarning: divide by zero encountered in divide
+  c *= np.true_divide(1, fact)
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/lib/function_base.py:2748: RuntimeWarning: invalid value encountered in multiply
+  c *= np.true_divide(1, fact)
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/core/fromnumeric.py:3504: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/lib/function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/core/_methods.py:121: RuntimeWarning: invalid value encountered in divide
+  ret = um.true_divide(
+/users/PDS0325/sachitk26/packages/tartlet/tartlet/utils/activity_inference.py:339: RuntimeWarning: Degrees of freedom <= 0 for slice
+  sd = np.cov(cov_nocand, rowvar=0)  # type: ignore
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/lib/function_base.py:2748: RuntimeWarning: divide by zero encountered in divide
+  c *= np.true_divide(1, fact)
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/lib/function_base.py:2748: RuntimeWarning: invalid value encountered in multiply
+  c *= np.true_divide(1, fact)
+Started 200 instances.
+Each instance running upto 2 iterations.
+Waiting on all instances to start gather.
+Completed gather.
+Finished filtering outputs for s_epi into /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/s_epi/plots/
+----------------------------------------------------
+
+Removing existing data
+Filtering plots for s_meli
+Started 200 instances.
+Each instance running upto 1 iterations.
+Waiting on all instances to start gather.
+Completed gather.
+Clustering broke. Skipping.
+Finished filtering outputs for s_meli into /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/s_meli/plots/
+----------------------------------------------------
+
+Removing existing data
+Filtering plots for s_sanguinis
+Started 200 instances.
+Each instance running upto 1 iterations.
+Waiting on all instances to start gather.
+Completed gather.
+Finished filtering outputs for s_sanguinis into /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/s_sanguinis/plots/
+----------------------------------------------------
+
+Removing existing data
+Filtering plots for s_spcc6803
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/core/fromnumeric.py:3504: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/lib/function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/core/_methods.py:121: RuntimeWarning: invalid value encountered in divide
+  ret = um.true_divide(
+/users/PDS0325/sachitk26/packages/tartlet/tartlet/utils/activity_inference.py:339: RuntimeWarning: Degrees of freedom <= 0 for slice
+  sd = np.cov(cov_nocand, rowvar=0)  # type: ignore
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/lib/function_base.py:2748: RuntimeWarning: divide by zero encountered in divide
+  c *= np.true_divide(1, fact)
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/lib/function_base.py:2748: RuntimeWarning: invalid value encountered in multiply
+  c *= np.true_divide(1, fact)
+Started 200 instances.
+Each instance running upto 1 iterations.
+Waiting on all instances to start gather.
+Completed gather.
+Finished filtering outputs for s_spcc6803 into /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/s_spcc6803/plots/
+----------------------------------------------------
+
+Removing existing data
+Filtering plots for x_albi
+Started 200 instances.
+Each instance running upto 1 iterations.
+Waiting on all instances to start gather.
+Completed gather.
+Finished filtering outputs for x_albi into /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/x_albi/plots/
+----------------------------------------------------
+
+Removing existing data
+Filtering plots for x_ory
+Started 200 instances.
+Each instance running upto 1 iterations.
+Waiting on all instances to start gather.
+Completed gather.
+Finished filtering outputs for x_ory into /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/x_ory/plots/
+----------------------------------------------------
+
+Done
