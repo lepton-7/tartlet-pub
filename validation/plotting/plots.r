@@ -494,7 +494,7 @@
         layout <- c(
             area(t = 1, l = 1, b = 10, r = 5 * xsc), # tree
             area(t = 1, l = 5 * xsc - 8, b = 10, r = 10 * xsc), # pie plot
-            area(t = 1, l = (10 * xsc) - 5, b = 3, r = 10 * xsc + 5) # leg
+            area(t = 1, l = (10 * xsc) - 4, b = 3, r = 10 * xsc + 5) # leg
         )
         tag_y <- 0.98
         patched <- tax_tree + test_pie + leg +
@@ -510,7 +510,7 @@
 
 
 {
-    wbyr <- 2.1
+    wbyr <- 2.25
     h <- 4000
     alph <- 1
     save_path <- str_glue("plots/big_fig_withvalleg_lat-estall.png")
