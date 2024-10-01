@@ -45,7 +45,7 @@ b_sub_168,Cobalamin,0,1,60,0,0,0,0
 b_sub_168,ydaO-yuaA,1,2,60,0,0,0,0
 b_sub_168,FMN,0,2,60,0,0,0,1
 b_sub_168,Lysine,1,2,60,1,0,0,0
-b_sub_168,glmS,0,1,60,0,0,0,0
+b_sub_168,glmS,0,1,60,0,1,0,0
 b_sub_168,M-box,0,1,60,1,0,0,0
 b_theta,Fluoride,0,1,22,0,0,0,0
 b_theta,TPP,0,3,22,0,0,0,0

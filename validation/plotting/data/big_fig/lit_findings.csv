@@ -1,8 +1,9 @@
 microbe,rowid,target_name,lit_active,lit_incon,note
 b_anth,TPP#AE017334.2#752099#752211#+,TPP,1,0,upstream tandem
 b_anth,TPP#AE017334.2#752272#752375#+,TPP,1,0,downstream tandem; upstream of tenA
-b_sub_168,Glycine#NC_000964.3#2549606#2549505#-,Glycine,1,0,upstream of gcvT 
 b_sub_168,FMN#NC_000964.3#2431617#2431473#-,FMN,1,0,upstream of ribD
+b_sub_168,glmS#NC_000964.3#200017#200187#+,glmS,0,1,Upstream of glmS
+b_sub_168,Glycine#NC_000964.3#2549606#2549505#-,Glycine,1,0,upstream of gcvT 
 b_sub_168,Lysine#NC_000964.3#2911051#2910872#-,Lysine,1,0,upstream of lysCB subunit
 b_sub_168,M-box#NC_000964.3#1395616#1395781#+,M-box,1,0,upstream of mgtE
 b_sub_168,Purine#NC_000964.3#2320213#2320114#-,Purine,1,0,upstream of xpt
