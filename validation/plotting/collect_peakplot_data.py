@@ -21,15 +21,17 @@ var_t = 0.05
 # %%
 # Find all cluster stats files
 cluster_paths = [
-    # Path(x) for x in glob("../alignment/outputs/*/plots/cluster_stats.csv")
     Path(x)
-    for x in glob("../alignment/outputs/*/p2/cluster_stats.csv")
+    for x in glob("../alignment/outputs/*/plots/cluster_stats.csv")
+    # Path(x)
+    # for x in glob("../alignment/outputs/*/p2/cluster_stats.csv")
 ]
 
 peak_paths = [
-    # Path(x) for x in glob("../alignment/outputs/*/plots/peak_log.csv")
     Path(x)
-    for x in glob("../alignment/outputs/*/p2/peak_log.csv")
+    for x in glob("../alignment/outputs/*/plots/peak_log.csv")
+    # Path(x)
+    # for x in glob("../alignment/outputs/*/p2/peak_log.csv")
 ]
 
 # Ingest the table with literature evidence.
@@ -38,6 +40,7 @@ lit_table = pd.read_csv(lit_table_path)
 
 
 # %%
+
 
 def lit_agreement(rowid: str, tartres: int):
     subdf = lit_table[lit_table["rowid"] == rowid]
@@ -166,3 +169,5 @@ big_tab_sum = pd.DataFrame(sum_list)
 
 # %%
 big_tab_sum.to_csv("./data/big_fig/locus_inferences_sum.csv", index=False)
+
+# %%

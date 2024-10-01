@@ -442,10 +442,6 @@
             ) +
             scale_colour_manual(name = "d", values = c("black")) +
             scale_fill_manual(name = "Transcriptional activity:", values = active_pie_pal) +
-            # labels = c(
-            #     "nov" = "Inconclusive results", "act" = "Condition-dependent transcription efficiency", "act_ag" = "Active in agreement with lit",
-            #     "act_dis" = "Active but inconclusive in literature", "incon_ag" = "Inconclusive in results and literature", "incon_dis" = "Inconclusive but active in literature"
-            # )) +
             coord_fixed(clip = "off") +
             scale_x_continuous(breaks = c(seq_along(levels(inf_df$target_name))), labels = levels(inf_df$target_name)) +
             guides(colour = "none", fill = "none")
@@ -498,7 +494,7 @@
         layout <- c(
             area(t = 1, l = 1, b = 10, r = 5 * xsc), # tree
             area(t = 1, l = 5 * xsc - 8, b = 10, r = 10 * xsc), # pie plot
-            area(t = 1, l = (10 * xsc)-5, b = 3, r = 10 * xsc + 5) # leg
+            area(t = 1, l = (10 * xsc) - 5, b = 3, r = 10 * xsc + 5) # leg
         )
         tag_y <- 0.98
         patched <- tax_tree + test_pie + leg +
@@ -509,15 +505,15 @@
         patched
     }
 
-    # patched
-    # }
+    patched
+}
 
 
-    # {
-    wbyr <- 2.05
+{
+    wbyr <- 2.1
     h <- 4000
     alph <- 1
-    save_path <- str_glue("plots/big_fig_withvalleg.png")
+    save_path <- str_glue("plots/big_fig_withvalleg_latest.png")
     ggsave(save_path, plot = patched, dpi = 320 * alph, units = "px", width = h * wbyr * alph, height = h * alph)
 }
 
