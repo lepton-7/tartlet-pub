@@ -178,8 +178,8 @@
 # Compare fragment size distributions across SRAs
 
 {
-    dset <- "b_sub_168"
-    read_sizes <- read.csv("data/b_sub_168_fragment_sizes.csv")
+    dset <- "e_coli"
+    read_sizes <- read.csv("data/e_coli_fragment_sizes.csv")
 
     melt_sizes <- melt(read_sizes, id = c("size"), value.name = "freq", variable.name = "sra", na.rm = TRUE)
     melt_sizes$freq <- as.numeric(melt_sizes$freq)
@@ -197,6 +197,9 @@
         facet_wrap(~sra) +
         guides(alpha = "none") +
         def_theme +
+        theme(
+            panel.background = element_blank()
+        ) +
         labs(
             x = "Fragment size (nt)",
             y = "Density"
