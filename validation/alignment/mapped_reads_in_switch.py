@@ -5,20 +5,20 @@ from collections import defaultdict
 
 # %%
 rt = "../.."
-file_list = [
-    Path(
-        f"{rt}/validation/alignment/jobs/6.all.parse_BAMs.out.2024-09-30_10-48-10.31786767"
-    ),
-    Path(
-        f"{rt}/validation/alignment/jobs/6.all.parse_BAMs.out.2024-09-30_10-50-17.31786806"
-    ),
-    Path(
-        f"{rt}/validation/alignment/jobs/6.all.parse_BAMs.out.2024-09-30_10-50-29.31786821"
-    ),
-    Path(
-        f"{rt}/validation/alignment/jobs/6.all.parse_BAMs.out.2024-09-30_10-50-43.31786822"
-    ),
+unsoft_list = [
+    "validation/alignment/jobs/6.all.parse_BAMs.out.2024-09-30_10-48-10.31786767",
+    "validation/alignment/jobs/6.all.parse_BAMs.out.2024-09-30_10-50-17.31786806",
+    "validation/alignment/jobs/6.all.parse_BAMs.out.2024-09-30_10-50-29.31786821",
+    "validation/alignment/jobs/6.all.parse_BAMs.out.2024-09-30_10-50-43.31786822",
 ]
+soft_list = [
+    "validation/alignment/jobs/6.all.parse_BAMs.out.2024-10-01_00-37-04.31801983",
+    "validation/alignment/jobs/6.all.parse_BAMs.out.2024-10-01_00-37-20.31801984",
+    "validation/alignment/jobs/6.all.parse_BAMs.out.2024-10-01_00-37-33.31801985",
+    "validation/alignment/jobs/6.all.parse_BAMs.out.2024-10-01_00-37-55.31801991",
+]
+
+file_list = [Path(f"{rt}/{relpath}") for relpath in soft_list]
 
 
 def get_mapped_rates(f: TextIOWrapper):
