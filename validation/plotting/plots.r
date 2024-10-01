@@ -513,7 +513,7 @@
     wbyr <- 2.1
     h <- 4000
     alph <- 1
-    save_path <- str_glue("plots/big_fig_withvalleg_latest.png")
+    save_path <- str_glue("plots/big_fig_withvalleg_lat-estall.png")
     ggsave(save_path, plot = patched, dpi = 320 * alph, units = "px", width = h * wbyr * alph, height = h * alph)
 }
 

@@ -38,8 +38,12 @@ peak_paths = [
 lit_table_path = "./data/big_fig/lit_findings.csv"
 lit_table = pd.read_csv(lit_table_path)
 
+switch_table_path = "../tables/inf_results.csv"
+
 
 # %%
+def make_rowid(r: pd.Series):
+    return f'{r["target_name"]}#{r["query_name"]}#{r["seq_from"]}#{r["seq_to"]}#{r["strand"]}'
 
 
 def lit_agreement(rowid: str, tartres: int):
@@ -84,14 +88,16 @@ sum_act_agree = defaultdict(int)
 sum_incon_agree = defaultdict(int)
 sum_act_disagree = defaultdict(int)
 sum_incon_disagree = defaultdict(int)
+
 for clpath in cluster_paths:
     dset = clpath.parent.parent.stem
 
     df = pd.read_csv(clpath)
 
     act_tally = {}
-    for rid in pd.unique(df["rowid"]):
-        act_tally[rid] = 0
+    for _, r in pd.read_csv(switch_table_path).iterrows():
+        if r["dataset"] == dset:
+            act_tally[make_rowid(r)] = 0
 
     for _, r in df.iterrows():
         this = r["rowid"]
