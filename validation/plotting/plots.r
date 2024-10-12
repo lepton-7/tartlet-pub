@@ -179,7 +179,7 @@
 
 {
     dset <- "e_coli"
-    read_sizes <- read.csv("data/e_coli_fragment_sizes.csv")
+    read_sizes <- read.csv("data/e_coli_fragment_sizes_2.csv")
 
     melt_sizes <- melt(read_sizes, id = c("size"), value.name = "freq", variable.name = "sra", na.rm = TRUE)
     melt_sizes$freq <- as.numeric(melt_sizes$freq)
