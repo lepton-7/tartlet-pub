@@ -408,7 +408,7 @@
     {
         active_pie_pal <- c(
             "nov" = "#8b8b8b", "act" = "#FFEF20", "act_ag" = "#10fb10",
-            "act_dis" = "#FF4F39", "incon_ag" = "#cb0000", "incon_dis" = "#00d1e0"
+            "act_dis" = "#FF4F39", "incon_ag" = "#970000", "incon_dis" = "#00d1e0"
         )
 
         test_pie <- ggtreeplot(tax_tree, inf_df, aes(x = x_)) +
@@ -482,9 +482,9 @@
                 "NA" = "Inconclusive"
             )) +
             scale_y_discrete(labels = c(
-                "Y" = "Atleast \nTranscri-\nptional",
-                "Trans" = "Only \nTransla-\ntional",
-                "NA" = "No \nEvidence"
+                "Y" = "At least \ntranscri-\nptional",
+                "Trans" = "Only \ntransla-\ntional",
+                "NA" = "No \nevidence"
             ), position = "right") +
             guides(fill = "none") +
             plot_layout(tag_level = "new")
