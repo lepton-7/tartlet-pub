@@ -6,7 +6,7 @@ from glob import glob
 from pathlib import Path
 from collections import defaultdict
 from argparse import ArgumentParser
-from tart.utils.mpi_context import BasicMPIContext
+from tartlet.utils.mpi_context import BasicMPIContext
 
 flagmask = 1 + 2 + 64
 failmask = 3328

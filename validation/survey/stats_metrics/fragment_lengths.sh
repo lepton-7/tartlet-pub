@@ -12,10 +12,10 @@
 set echo on
 
 SCR="/fs/scratch/PDS0325"
-RT="$HOME/packages/tart"
+RT="$HOME/tartlet-pub"
 
-INPUT_DIR="$RT/validation/survey/alignment/b_sub_168_alignment_20231113"
-OUTPUT_PATH="b_sub_168_fragment_sizes.csv"
+INPUT_DIR="/fs/scratch/PDS0325/e_coli_alignment_20241011"
+OUTPUT_PATH="e_coli_fragment_sizes_2.csv"
 
 echo "Initialising."
 

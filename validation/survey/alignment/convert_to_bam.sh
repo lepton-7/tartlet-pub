@@ -1,4 +1,4 @@
-DIR="/users/PDS0325/sachitk26/packages/tart/validation/survey/alignment/b_sub_168_alignment_20231113"
+DIR="/fs/scratch/PDS0325/e_coli_alignment_20241011"
 
 cd $DIR
 

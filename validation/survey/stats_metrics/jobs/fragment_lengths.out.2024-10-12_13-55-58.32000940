@@ -1,0 +1,324 @@
+Initialising.
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+    from tart.utils.mpi_context import BasicMPIContext
+ModuleNotFoundError: No module named 'tart'
+    from tart.utils.mpi_context import BasicMPIContext
+    from tart.utils.mpi_context import BasicMPIContext
+ModuleNotFoundError: No module named 'tart'
+ModuleNotFoundError: No module named 'tart'
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+    from tart.utils.mpi_context import BasicMPIContext
+ModuleNotFoundError: No module named 'tart'
+    from tart.utils.mpi_context import BasicMPIContext
+ModuleNotFoundError: No module named 'tart'
+    from tart.utils.mpi_context import BasicMPIContext
+ModuleNotFoundError: No module named 'tart'
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+    from tart.utils.mpi_context import BasicMPIContext
+ModuleNotFoundError: No module named 'tart'
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+    from tart.utils.mpi_context import BasicMPIContext
+ModuleNotFoundError: No module named 'tart'
+    from tart.utils.mpi_context import BasicMPIContext
+ModuleNotFoundError: No module named 'tart'
+    from tart.utils.mpi_context import BasicMPIContext
+ModuleNotFoundError: No module named 'tart'
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+    from tart.utils.mpi_context import BasicMPIContext
+ModuleNotFoundError: No module named 'tart'
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+    from tart.utils.mpi_context import BasicMPIContext
+ModuleNotFoundError: No module named 'tart'
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+    from tart.utils.mpi_context import BasicMPIContext
+ModuleNotFoundError: No module named 'tart'
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+    from tart.utils.mpi_context import BasicMPIContext
+ModuleNotFoundError: No module named 'tart'
+    from tart.utils.mpi_context import BasicMPIContext
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+ModuleNotFoundError: No module named 'tart'
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+    from tart.utils.mpi_context import BasicMPIContext
+ModuleNotFoundError: No module named 'tart'
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+    from tart.utils.mpi_context import BasicMPIContext
+ModuleNotFoundError: No module named 'tart'
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+    from tart.utils.mpi_context import BasicMPIContext
+ModuleNotFoundError: No module named 'tart'
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+    from tart.utils.mpi_context import BasicMPIContext
+ModuleNotFoundError: No module named 'tart'
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+    from tart.utils.mpi_context import BasicMPIContext
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+    from tart.utils.mpi_context import BasicMPIContext
+ModuleNotFoundError: No module named 'tart'
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+ModuleNotFoundError: No module named 'tart'
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+    from tart.utils.mpi_context import BasicMPIContext
+ModuleNotFoundError: No module named 'tart'
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+Traceback (most recent call last):
+    from tart.utils.mpi_context import BasicMPIContext
+ModuleNotFoundError: No module named 'tart'
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+    from tart.utils.mpi_context import BasicMPIContext
+ModuleNotFoundError: No module named 'tart'
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+    from tart.utils.mpi_context import BasicMPIContext
+    from tart.utils.mpi_context import BasicMPIContext
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+ModuleNotFoundError: No module named 'tart'
+ModuleNotFoundError: No module named 'tart'
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+    from tart.utils.mpi_context import BasicMPIContext
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+    from tart.utils.mpi_context import BasicMPIContext
+ModuleNotFoundError: No module named 'tart'
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+ModuleNotFoundError: No module named 'tart'
+    from tart.utils.mpi_context import BasicMPIContext
+ModuleNotFoundError: No module named 'tart'
+Traceback (most recent call last):
+    from tart.utils.mpi_context import BasicMPIContext
+    from tart.utils.mpi_context import BasicMPIContext
+ModuleNotFoundError: No module named 'tart'
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+Traceback (most recent call last):
+ModuleNotFoundError: No module named 'tart'
+    from tart.utils.mpi_context import BasicMPIContext
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+    from tart.utils.mpi_context import BasicMPIContext
+ModuleNotFoundError: No module named 'tart'
+ModuleNotFoundError: No module named 'tart'
+    from tart.utils.mpi_context import BasicMPIContext
+    from tart.utils.mpi_context import BasicMPIContext
+    from tart.utils.mpi_context import BasicMPIContext
+ModuleNotFoundError: No module named 'tart'
+    from tart.utils.mpi_context import BasicMPIContext
+ModuleNotFoundError: No module named 'tart'
+ModuleNotFoundError: No module named 'tart'
+    from tart.utils.mpi_context import BasicMPIContext
+ModuleNotFoundError: No module named 'tart'
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+ModuleNotFoundError: No module named 'tart'
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+    from tart.utils.mpi_context import BasicMPIContext
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+ModuleNotFoundError: No module named 'tart'
+    from tart.utils.mpi_context import BasicMPIContext
+    from tart.utils.mpi_context import BasicMPIContext
+    from tart.utils.mpi_context import BasicMPIContext
+ModuleNotFoundError: No module named 'tart'
+    from tart.utils.mpi_context import BasicMPIContext
+ModuleNotFoundError: No module named 'tart'
+ModuleNotFoundError: No module named 'tart'
+ModuleNotFoundError: No module named 'tart'
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+    from tart.utils.mpi_context import BasicMPIContext
+    from tart.utils.mpi_context import BasicMPIContext
+    from tart.utils.mpi_context import BasicMPIContext
+ModuleNotFoundError: No module named 'tart'
+ModuleNotFoundError: No module named 'tart'
+    from tart.utils.mpi_context import BasicMPIContext
+ModuleNotFoundError: No module named 'tart'
+ModuleNotFoundError: No module named 'tart'
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+    from tart.utils.mpi_context import BasicMPIContext
+    from tart.utils.mpi_context import BasicMPIContext
+ModuleNotFoundError: No module named 'tart'
+    from tart.utils.mpi_context import BasicMPIContext
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+    from tart.utils.mpi_context import BasicMPIContext
+ModuleNotFoundError: No module named 'tart'
+    from tart.utils.mpi_context import BasicMPIContext
+ModuleNotFoundError: No module named 'tart'
+    from tart.utils.mpi_context import BasicMPIContext
+ModuleNotFoundError: No module named 'tart'
+ModuleNotFoundError: No module named 'tart'
+ModuleNotFoundError: No module named 'tart'
+    from tart.utils.mpi_context import BasicMPIContext
+ModuleNotFoundError: No module named 'tart'
+    from tart.utils.mpi_context import BasicMPIContext
+ModuleNotFoundError: No module named 'tart'
+    from tart.utils.mpi_context import BasicMPIContext
+Traceback (most recent call last):
+    from tart.utils.mpi_context import BasicMPIContext
+ModuleNotFoundError: No module named 'tart'
+    from tart.utils.mpi_context import BasicMPIContext
+ModuleNotFoundError: No module named 'tart'
+ModuleNotFoundError: No module named 'tart'
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+    from tart.utils.mpi_context import BasicMPIContext
+    from tart.utils.mpi_context import BasicMPIContext
+    from tart.utils.mpi_context import BasicMPIContext
+ModuleNotFoundError: No module named 'tart'
+ModuleNotFoundError: No module named 'tart'
+ModuleNotFoundError: No module named 'tart'
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+    from tart.utils.mpi_context import BasicMPIContext
+ModuleNotFoundError: No module named 'tart'
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+    from tart.utils.mpi_context import BasicMPIContext
+ModuleNotFoundError: No module named 'tart'
+    from tart.utils.mpi_context import BasicMPIContext
+    from tart.utils.mpi_context import BasicMPIContext
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+ModuleNotFoundError: No module named 'tart'
+ModuleNotFoundError: No module named 'tart'
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+    from tart.utils.mpi_context import BasicMPIContext
+    from tart.utils.mpi_context import BasicMPIContext
+ModuleNotFoundError: No module named 'tart'
+ModuleNotFoundError: No module named 'tart'
+    from tart.utils.mpi_context import BasicMPIContext
+ModuleNotFoundError: No module named 'tart'
+    from tart.utils.mpi_context import BasicMPIContext
+    from tart.utils.mpi_context import BasicMPIContext
+ModuleNotFoundError: No module named 'tart'
+    from tart.utils.mpi_context import BasicMPIContext
+ModuleNotFoundError: No module named 'tart'
+    from tart.utils.mpi_context import BasicMPIContext
+ModuleNotFoundError: No module named 'tart'
+ModuleNotFoundError: No module named 'tart'
+    from tart.utils.mpi_context import BasicMPIContext
+ModuleNotFoundError: No module named 'tart'
+    from tart.utils.mpi_context import BasicMPIContext
+    from tart.utils.mpi_context import BasicMPIContext
+ModuleNotFoundError: No module named 'tart'
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+ModuleNotFoundError: No module named 'tart'
+    from tart.utils.mpi_context import BasicMPIContext
+    from tart.utils.mpi_context import BasicMPIContext
+ModuleNotFoundError: No module named 'tart'
+ModuleNotFoundError: No module named 'tart'
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+    from tart.utils.mpi_context import BasicMPIContext
+    from tart.utils.mpi_context import BasicMPIContext
+ModuleNotFoundError: No module named 'tart'
+ModuleNotFoundError: No module named 'tart'
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/tartlet-pub/validation/survey/stats_metrics/fragment_lengths.py", line 9, in <module>
+    from tart.utils.mpi_context import BasicMPIContext
+ModuleNotFoundError: No module named 'tart'
+
+
+Done

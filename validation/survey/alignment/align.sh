@@ -14,21 +14,21 @@
 # RUN THIS TO LAUNCH JOB
 ## DATECODE="$(date +"%Y-%m-%d_%H-%M-%S")"; sbatch --output=../jobs/e_coli.align.out.$DATECODE.%j align.sh
 
-# set -x
 set echo on
 
 IDX=$((SLURM_ARRAY_TASK_ID))
 
-DATECODE="20231113"
+DATECODE="20241011"
 DSET="e_coli"
 
-RT="$HOME/packages/tart"
+RT="$HOME/tartlet-pub"
 
 RUN_DIR="$RT/validation/survey/alignment"
 IDX_DIR="$RT/validation/survey/${DSET}_index"
 SEQ_DIR="/fs/ess/PDS0325/Riboswitches/data/rna_seq/$DSET"
 
-ALIGN_DIR="$RUN_DIR/${DSET}_alignment_$DATECODE"
+# ALIGN_DIR="$RUN_DIR/${DSET}_alignment_$DATECODE"
+ALIGN_DIR="/fs/scratch/PDS0325/${DSET}_alignment_$DATECODE"
 
 mkdir -p $ALIGN_DIR
 
