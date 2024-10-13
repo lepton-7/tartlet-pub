@@ -368,7 +368,7 @@
         tree <- drop.tip(tree, to_drop)
         tax_tree <- ggtree(tree, size = 0.8, layout = "rectangular", ladderize = FALSE) +
             # ggtitle("Validation set tax tree") +
-            geom_tiplab(size = 7, linesize = .5, align = TRUE, as_ylab = FALSE) +
+            geom_tiplab(size = 7, linesize = .5, align = TRUE, as_ylab = FALSE, fontface = 3) +
             xlim_tree(2.5)
 
         for (i in seq_along(tree$tip.label)) {
