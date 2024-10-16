@@ -1,10 +1,10 @@
-# Transcriptionally-active Riboswitch Tracer (TaRT)
+# Transcriptionally-active Riboswitch Tracer Leveraging Edge deTection (TaRTLEt)
 
 Finds transcriptional riboswitch activity in RNA-seq data.
 
 ## Transcriptomes
 
-TaRT is validated on published transcriptomic and metatranscriptomic datasets. Datasets are downloaded with  `validation/rna_seq/download_SRAs.sh` using compilation lists of SRA run IDs.
+TaRTLEt is validated on published transcriptomic and metatranscriptomic datasets. Datasets are downloaded with  `validation/rna_seq/download_SRAs.sh` using compilation lists of SRA run IDs.
 
 ### RNA-Seq data description
 
