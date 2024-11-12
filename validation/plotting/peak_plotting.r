@@ -12,9 +12,9 @@
 {
     def_theme <- theme_classic() +
         theme(
-            axis.text.x = element_text(size = 13, angle = 0, colour = "black"),
-            axis.text.y = element_text(size = 13, colour = "black"),
-            axis.title = element_text(size = 18),
+            axis.text.x = element_text(size = 18, angle = 0, colour = "black"),
+            axis.text.y = element_text(size = 18, colour = "black"),
+            axis.title = element_text(size = 26),
         )
 }
 
@@ -33,6 +33,40 @@
         return(tt)
     }
 }
+
+dset_map <- c(
+    "a_baum" = "A. baumannii",
+    "a_fischeri_ES114" = "A. fischeri",
+    "a_kunk" = "A. kunkeei",
+    "b_anth" = "B. anthracis",
+    "b_sub_168" = "B. subtilis",
+    "b_frag" = "B. fragilis",
+    "b_theta" = "B. thetaiotaomicron",
+    "b_xyla" = "B. xylanisolvens",
+    "b_pseudo" = "B. pseudomallei",
+    "c_vibrioides" = "C. vibrioides",
+    "c_diff" = "C. difficile",
+    "d_vulg" = "D. vulgaris",
+    "e_fae" = "E. faecalis",
+    "e_coli" = "E. coli",
+    "e_limo" = "E. limosum",
+    "k_pneum" = "K. pneumoniae",
+    "m_tuber" = "M. tuberculosis",
+    "m_smeg" = "M. smegmatis",
+    "n_gonorr" = "N. gonorrhoeae",
+    "p_salmo" = "P. salmonis",
+    "p_cholor_aureo3084" = "P. chlororaphis",
+    "p_fluor" = "P. fluorescens",
+    "s_enter_typh" = "S. enterica",
+    "s_meli" = "S. meliloti",
+    "s_epi" = "S. epidermidis",
+    "s_sanguinis" = "S. sanguinis",
+    "s_coelicolor" = "S. coelicolor",
+    "s_elon" = "S. elongatus",
+    "s_spcc6803" = "Synechococcus sp.",
+    "x_albi" = "X. albilineans",
+    "x_ory" = "X. oryzae"
+)
 
 peakplotmaker <- function(dset) {
     df <- read.csv(str_glue("../alignment/outputs/{dset}/plots/peak_log.csv"))
@@ -59,15 +93,15 @@ peakplotmaker <- function(dset) {
         facet_wrap(~rowid, scales = "fixed") +
         geom_mark_ellipse(aes(fill = as.factor(cluster)), expand = unit(0.5, "mm")) +
         labs(
-            title = str_glue("{dset} riboswitches across all available conditions"),
+            title = str_glue("{dset_map[dset]} riboswitches across all available conditions"),
             y = "Fractional coverage change",
             x = "Position relative to riboswitch 3′ end as a fraction of riboswitch length"
         ) +
         def_theme +
         theme(
-            plot.title = element_text(size = 14),
+            plot.title = element_text(size = 24),
             legend.position = "none",
-            strip.text = element_text(size = 12),
+            strip.text = element_text(size = 20),
             strip.background = element_rect(fill = "#cdcdcd", linewidth = 0),
         ) +
         coord_cartesian(ylim = c(-1.2, 0.5)) +
