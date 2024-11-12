@@ -29,8 +29,8 @@
     def_theme <- theme(
         axis.text.x = element_text(size = 13, angle = 0, colour = "black"),
         axis.text.y = element_text(size = 13, face = "bold"),
-        axis.title = element_text(size = 18, face = "bold"),
-        plot.title = element_blank()
+        axis.title = element_text(size = 18, face = "bold")
+        # plot.title = element_blank()
     )
 }
 
@@ -368,8 +368,12 @@
         tree <- drop.tip(tree, to_drop)
         tax_tree <- ggtree(tree, size = 0.8, layout = "rectangular", ladderize = FALSE) +
             # ggtitle("Validation set tax tree") +
-            geom_tiplab(size = 7, linesize = .5, align = TRUE, as_ylab = FALSE, fontface = 3) +
-            xlim_tree(2.5)
+            geom_tiplab(size = 9, linesize = .5, align = TRUE, as_ylab = FALSE, fontface = 3) +
+            xlim_tree(2.5) +
+            ggtitle("a") +
+            theme(
+                plot.title = element_text(size = 34, face = "bold")
+            )
 
         for (i in seq_along(tree$tip.label)) {
             tax_tree$data$label[i] <- phylo_dict[[tax_tree$data$label[i]]][3]
@@ -414,7 +418,7 @@
         test_pie <- ggtreeplot(tax_tree, inf_df, aes(x = x_)) +
             def_theme +
             theme(
-                axis.text.x = element_text(size = 13, angle = 70, hjust = 1, colour = "black"),
+                axis.text.x = element_text(size = 18, angle = 50, hjust = 1, colour = "black"),
                 axis.ticks.y = element_blank(),
                 # axis.text.y = element_text(size = 13, hjust = 1, colour = "black"),
                 axis.text.y = element_blank(),
@@ -425,6 +429,7 @@
                 panel.background = element_rect(fill = "transparent"),
                 plot.background = element_rect(fill = "transparent", color = NA),
                 legend.position = "top",
+                plot.title = element_text(size = 34, face = "bold")
             ) +
             geom_polygon(
                 data = polydf,
@@ -441,13 +446,14 @@
                     label = sras,
                     hjust = 1
                 ),
-                size = 7
+                size = 9
             ) +
             scale_colour_manual(name = "d", values = c("black")) +
             scale_fill_manual(name = "Transcriptional activity:", values = active_pie_pal) +
             coord_fixed(clip = "off") +
             scale_x_continuous(breaks = c(seq_along(levels(inf_df$target_name))), labels = levels(inf_df$target_name)) +
-            guides(colour = "none", fill = "none")
+            guides(colour = "none", fill = "none") +
+            ggtitle("        b")
 
         test_pie
     }
@@ -464,7 +470,8 @@
             geom_tile() +
             def_theme +
             theme(
-                axis.text.x = element_text(angle = 75, hjust = 1, vjust = 1),
+                axis.text.x = element_text(size = 20),
+                axis.text.y = element_text(size = 20),
                 axis.ticks.y = element_blank(),
                 axis.ticks.x = element_blank(),
                 axis.line = element_blank(),
@@ -475,16 +482,16 @@
             scale_fill_manual(values = active_pie_pal) +
             labs(
                 x = "TaRTLEt \nResult",
-                y = "Literature evidence"
+                y = "Literature evidence\n"
             ) +
             scale_x_discrete(labels = c(
-                "Y" = "Positive",
-                "NA" = "Inconclusive"
+                "Y" = "+",
+                "NA" = "?"
             )) +
             scale_y_discrete(labels = c(
-                "Y" = "At least \ntranscri-\nptional",
-                "Trans" = "Only \ntransla-\ntional",
-                "NA" = "No \nevidence"
+                "Y" = "≥Trx",
+                "Trans" = "Trl\nonly",
+                "NA" = "nr"
             ), position = "right") +
             guides(fill = "none") +
             plot_layout(tag_level = "new")
@@ -502,17 +509,14 @@
         tag_y <- 0.98
         patched <- tax_tree + test_pie + leg +
             plot_layout(design = layout) +
-            # theme(plot.tag.position = c(0, tag_y)) +
-            plot_annotation(tag_levels = "a") &
-            theme(plot.tag = element_text(size = 30, face = "bold"))
-        patched
+            # theme(plot.tag.position = c(1, tag_y)) +
+            # plot_annotation(tag_levels = "a") &
+            # theme(plot.tag = element_text(size = 30, face = "bold"))
+            patched
     }
 
     patched
-}
 
-
-{
     wbyr <- 2.25
     h <- 4000
     alph <- 1
