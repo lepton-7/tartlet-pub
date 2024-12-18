@@ -508,7 +508,7 @@
         )
         tag_y <- 0.98
         patched <- tax_tree + test_pie + leg +
-            plot_layout(design = layout) +
+            plot_layout(design = layout)
             # theme(plot.tag.position = c(1, tag_y)) +
             # plot_annotation(tag_levels = "a") &
             # theme(plot.tag = element_text(size = 30, face = "bold"))

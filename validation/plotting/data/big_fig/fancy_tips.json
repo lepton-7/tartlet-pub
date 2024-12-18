@@ -27,7 +27,7 @@
     "'s__Streptococcus sanguinis_H'": ["Streptococcus sanguinis", "s_sanguinis", "S. sanguinis"],
     "'s__Streptomyces anthocyanicus'": ["Streptomyces coelicolor", "s_coelicolor", "S. coelicolor"],
     "'s__Synechococcus elongatus'": ["Synechococcus elongatus", "s_elon", "S. elongatus"],
-    "'s__Synechocystis sp000284455'": ["Synechocystis sp.", "s_spcc6803", "Synechococcus sp."],
+    "'s__Synechocystis sp000284455'": ["Synechocystis sp.", "s_spcc6803", "Synechocystis sp."],
     "'s__Xanthomonas_A albilineans'": ["Xanthomonas albilineans", "x_albi", "X. albilineans"],
     "'s__Xanthomonas oryzae'": ["Xanthomonas oryzae", "x_ory", "X. oryzae"]
 }
