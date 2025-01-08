@@ -38,7 +38,7 @@ tartlet-utils find-orfs -o validation/orfs/calls validation/genomes/*.fna
 Then call
 
 ```bash
-tart-utils record-downstream --ledger validation/tables/inf_results_test.csv -i validation/orfs/calls
+tartlet-utils record-downstream --ledger validation/tables/inf_results_test.csv -i validation/orfs/calls
 ```
 
 to add downstream ORFs to the infernal results table.
@@ -100,10 +100,10 @@ tartlet-targeted convert-sam -i validation/alignment/outputs/b_sub_168/switch_se
 
 ## Process alignment results
 
-TaRTLEt `parse-bam` uses the sorted BAM files to produce its locus plots, compute the signed sum of read termini, and run convolution to identify candidate transcription-termination events. `parse-bam` also performs the first stage of significance testing, to identify which candidate events are above background biological and sequencing noise. This analysis is performed at the level of individual riboswitch loci, one experimental condition at a time. To process alignment results, call
+TaRTLEt `parse-bam` extracts subsets of sorted BAM files containing just those reads that map to each riboswitch locus.  To process alignment results, call
 
 ```bash
-tart-targeted parse-bam -i validation/alignment/outputs/b_sub_168/switch_seqs_delta1000-1000/alignment_final \
+tartlet-targeted parse-bam -i validation/alignment/outputs/b_sub_168/switch_seqs_delta1000-1000/alignment_final \
         -o validation/alignment/outputs/b_sub_168/plots/picks \
         --bounds-file validation/alignment/outputs/b_sub_168/switch_seqs_delta1000-1000/rowid_to_bounds.json \
         --allow-single-reads \
@@ -111,30 +111,42 @@ tart-targeted parse-bam -i validation/alignment/outputs/b_sub_168/switch_seqs_de
         --picks
 ```
 
-This step generates many outputs:
+This step generates a gzipped file `picks/picks.tar.gz`.  In the archive, loci are grouped by riboswitch family (e.g., `picks/TPP/`); each of these subdirectories contains a subdirectory for every SRA accession number (of the form `picks/riboswitch_family/SRA_accession.sorted.bam/`). The files in each subdirectory contain that condition's read-mapping results for each riboswitch locus in the family. The subsetted BAM files in `picks/` are not human-readable, but they're needed for the next step.
 
-- In the `fail/` subdirectory, one locus plot per riboswitch locus per condition for every case in which TaRTLEt detected no above-background transcription termination events. Locus plot filenames take the form `riboswitch_class#genome_accession_number#riboswitch_locus_start#riboswitch_locus_end#-#SRA_accession.sorted.bam.png`.
-- In the `pass/` subdirectory, one locus plot per riboswitch locus per condition for every case in which TaRTLEt *did* detect above-background transcription termination event(s). Locus plot filenames take the form `riboswitch_class#genome_accession_number#riboswitch_locus_start#riboswitch_locus_end#-#SRA_accession.sorted.bam.png`.
-- In the `picks/` subdirectory, extracted subsets of sorted BAM files. Loci are grouped by riboswitch family (e.g., `picks/TPP/`); each of these subdirectories contains a subdirectory for every SRA accession number (of the form `picks/riboswitch_family/SRA_accession.sorted.bam/`). The files in each subdirectory contain that condition's read-mapping results for each riboswitch locus in the family.
+## Test for condition-dependent transcription termination
 
-It can be helpful to inspect the `fail/` and `pass/` locus plots to convince yourself that these per-condition calls look reasonable for your dataset. The subsetted BAM files in `picks/` are not human-readable, but they're needed for the next step.
+The core of the TaRTLEt algorithm is `filter`. This command
 
-## Cluster peaks across conditions and test for condition-dependent transcription termination
+- uses the sorted BAM files to produce locus plots
+- computes the signed sum of read termini
+- runs convolution to identify candidate transcription-termination events
+- performs the first stage of significance testing, to identify which candidate events (per riboswitch locus, per experimental condition) are above background biological and sequencing noise
+- calculates fractional coverage change across each peak in the convolution (per-locus, per-condition)
+- clusters peaks by x-position within the riboswitch region of interest (user-definable with `--ext-prop`) across experimental conditions
+- asks, for each cluster, whether the mean change in coverage across the cluster is significantly more negative than expected by chance (Mann-Whitney one-tailed U-test), and finally 
+- asks, for each cluster, whether the variance in coverage change is significantly larger than expected by chance (two-tailed Levene's test).
 
-TaRTLEt `filter` next compares read-mapping data across experimental conditions. The fractional coverage change across each peak in the convolution (per-locus, per-condition) is calculated, and peaks within the riboswitch region of interest (user-definable with `--ext-prop`) are clustered by x-position (per-locus, across-condition). Then for each cluster TaRTLEt asks (1) whether the mean change in coverage across the cluster is significantly more negative than expected by chance (Mann-Whitney one-tailed U-test) and (2) whether the variance in coverage change is significantly larger than expected by chance (Levene's test). You can set a minimum coverage depth threshold using `--min-cov-depth` and specify an output directory with `-o`. Here, we invoke `filter` as follows:
+When you invoke `filter`, you can set a minimum coverage depth threshold using `--min-cov-depth` and specify an output directory with `-o`. Here, we call `filter` with
 
 ```bash
-tart-targeted filter -i  validation/alignment/outputs/b_sub_168/plots/picks.tar.gz \
+tartlet-targeted filter -i  validation/alignment/outputs/b_sub_168/plots/picks.tar.gz \
         -o validation/alignment/outputs/b_sub_168/plots/ \
         --ext-prop -0.3 1.0 \
         --conv \
         --min-cov-depth 15
 ```
 
-This step generates two key outputs per riboswitch locus:
+This step generates four key outputs per riboswitch locus:
 
-- `cluster_stats.csv` reports details on statistical tests of each cluster's fractional coverage change mean and variance.
-- `peak_log.csv` reports peak-by-peak details, including the "noise sets" used for statistical comparisons.
+- In the `fail/` subdirectory, one locus plot per riboswitch locus per condition for every case in which TaRTLEt detected no above-background transcription termination events. Locus plot filenames take the form `riboswitch_class#genome_accession_number#riboswitch_locus_start#riboswitch_locus_end#-#SRA_accession.sorted.bam.png`.
+- In the `pass/` subdirectory, one locus plot per riboswitch locus per condition for every case in which TaRTLEt *did* detect above-background transcription termination event(s). Locus plot filenames take the form `riboswitch_class#genome_accession_number#riboswitch_locus_start#riboswitch_locus_end#-#SRA_accession.sorted.bam.png`.
+- `cluster_stats.csv` reports details on statistical tests of each cluster's fractional coverage change mean and variance.  Note that a cluster must meet three criteria to be called significant:
+  - delta_mean_pval < 0.05
+  - delta_variance_pval < 0.05
+  - delta_variance > noiseset_delta_variance
+- `peak_log.csv` reports peak-by-peak details used to generate peak plots that correctly connect same-condition points.
+
+It can be helpful to inspect the `fail/` and `pass/` locus plots to convince yourself that these per-condition calls look reasonable for your dataset. 
 
 ## Plotting results (outside tool scope)
 
