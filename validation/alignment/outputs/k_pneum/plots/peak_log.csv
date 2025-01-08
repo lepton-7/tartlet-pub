@@ -1,4 +1,4 @@
-rowid,transcriptome,decision,coverage_delta_absolute,coverage_delta_pval,peak_summit,peak_width,coverage_delta_stable_relative,coverage_delta_noiseset,from_riboswith_end,from_riboswith_end_relative,decision_note,cluster
+rowid,transcriptome,decision,coverage_delta_absolute,coverage_delta_pval,peak_summit,peak_width,coverage_delta_stable_relative,coverage_delta_noiseset,from_riboswitch_end,from_riboswitch_end_relative,decision_note,cluster
 AAC_AAD_leader#CP003225.1#42004#41926#-,SRR24188258.sorted.bam,fail,-2.0,0.23656927076782228,1073.0,5.0,-0.08576140736668499,"[[-8.0, 10]]",-5.0,-0.0641025641025641,Drop not significant (0.24 >= 0.05);Small drop (-0.09 > -0.2),1.0
 AAC_AAD_leader#CP003225.1#42004#41926#-,SRR24188259.sorted.bam,fail,-2.0,0.0,1066.0,5.0,-0.052296345960442504,"[[-1.0, 5], [-1.0, 5], [-14.0, 10]]",-12.0,-0.15384615384615385,Small drop (-0.05 > -0.2),2.0
 AAC_AAD_leader#CP003225.1#42004#41926#-,SRR24188259.sorted.bam,fail,-1.0,0.024399013331020868,1058.0,5.0,-0.026148172980221252,"[[-2.0, 5], [-1.0, 5], [-14.0, 10]]",-20.0,-0.2564102564102564,Small drop (-0.03 > -0.2),3.0
