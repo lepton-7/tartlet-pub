@@ -67,7 +67,7 @@ for DSET in ${DSETS[@]}; do
 
     rm $SAVE_DIR/picks.tar.gz
 
-    mpiexec tart-targeted parse-bam -i $BAM_DIR \
+    mpiexec tartlet-targeted parse-bam -i $BAM_DIR \
         -o $SAVE_ROOT \
         --bounds-file $BOUNDS_PATH \
         --allow-single-reads \

@@ -67,7 +67,7 @@ for DSET in ${DSETS[@]}; do
 
     echo "Starting SAM conversion for $DSET"
 
-    mpiexec tart-targeted convert-sam -i $SAM_DIR &&
+    mpiexec tartlet-targeted convert-sam -i $SAM_DIR &&
         wait
 
     echo "Finished SAM -> sorted BAM conversion within $SAM_DIR"

@@ -61,7 +61,7 @@ echo
 for DSET in ${DSETS[@]}; do
     OUT_DIR="$RT/validation/alignment/outputs/$DSET/switch_seqs_delta$PRE_DEL-$POST_DEL"
 
-    mpiexec tart-targeted reference-gen \
+    mpiexec tartlet-targeted reference-gen \
         --ledger $TABLE \
         --out-dir $OUT_DIR \
         --genome $GENOMES \
@@ -73,7 +73,7 @@ for DSET in ${DSETS[@]}; do
 
     echo "Finished reference generation for $DSET into $OUT_DIR"
 
-    mpiexec tart-targeted bounds --ledger $TABLE \
+    mpiexec tartlet-targeted bounds --ledger $TABLE \
         --out-dir $OUT_DIR \
         --genome $GENOMES \
         --dset $DSET \

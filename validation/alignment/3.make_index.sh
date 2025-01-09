@@ -52,7 +52,7 @@ for DSET in ${DSETS[@]}; do
 
     REF_DIR="$RT/validation/alignment/outputs/$DSET/switch_seqs_delta1000-1000"
 
-    srun -n 1 tart-targeted index -i $REF_DIR -p 44
+    srun -n 1 tartlet-targeted index -i $REF_DIR -p 44
 
     echo "Finished index generation for $DSET from $REF_DIR"
     echo
