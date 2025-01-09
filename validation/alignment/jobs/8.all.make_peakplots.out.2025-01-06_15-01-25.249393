@@ -1,0 +1,1108 @@
++ RT=/users/PDS0325/sachitk26/tartlet-pub
++ DSETS=("a_fischeri_ES114" "a_kunk" "b_anth" "b_frag" "b_pseudo" "b_sub_168" "b_theta" "b_xyla" "c_diff" "c_vibrioides" "d_vulg" "e_coli" "e_fae" "e_limo" "k_pneum" "m_smeg" "m_tuber" "n_gonorr" "p_cholor_aureo3084" "p_fluor" "p_salmo" "s_coelicolor" "s_elon" "s_enter_typh" "s_epi" "s_meli" "s_sanguinis" "s_spcc6803" "x_albi" "x_ory")
++ echo 'Filtering output plots for:'
+Filtering output plots for:
++ echo 'a_fischeri_ES114 a_kunk b_anth b_frag b_pseudo b_sub_168 b_theta b_xyla c_diff c_vibrioides d_vulg e_coli e_fae e_limo k_pneum m_smeg m_tuber n_gonorr p_cholor_aureo3084 p_fluor p_salmo s_coelicolor s_elon s_enter_typh s_epi s_meli s_sanguinis s_spcc6803 x_albi x_ory'
+a_fischeri_ES114 a_kunk b_anth b_frag b_pseudo b_sub_168 b_theta b_xyla c_diff c_vibrioides d_vulg e_coli e_fae e_limo k_pneum m_smeg m_tuber n_gonorr p_cholor_aureo3084 p_fluor p_salmo s_coelicolor s_elon s_enter_typh s_epi s_meli s_sanguinis s_spcc6803 x_albi x_ory
++ echo
+
++ echo
+
++ for DSET in ${DSETS[@]}
++ D_ROOT=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/a_fischeri_ES114
++ PPATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/a_fischeri_ES114/plots/peak_log.csv
++ CPATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/a_fischeri_ES114/plots/cluster_stats.csv
++ SAVE_PATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/a_fischeri_ES114.png
++ echo 'Peakplot for a_fischeri_ES114'
+Peakplot for a_fischeri_ES114
++ tartlet-targeted plot -p /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/a_fischeri_ES114/plots/peak_log.csv -c /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/a_fischeri_ES114/plots/cluster_stats.csv -o /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/a_fischeri_ES114.png --name a_fischeri_ES114
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+R[write to console]: 
+Attaching package: ‘reshape2’
+
+
+R[write to console]: The following object is masked from ‘package:tidyr’:
+
+    smiths
+
+
+Saving plot: a_fischeri_ES114
+Saved peak plot for a_fischeri_ES114 to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/a_fischeri_ES114.png
++ echo 'Finished plotting a_fischeri_ES114 as /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/a_fischeri_ES114.png'
+Finished plotting a_fischeri_ES114 as /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/a_fischeri_ES114.png
++ echo ----------------------------------------------------
+----------------------------------------------------
++ echo
+
++ for DSET in ${DSETS[@]}
++ D_ROOT=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/a_kunk
++ PPATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/a_kunk/plots/peak_log.csv
++ CPATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/a_kunk/plots/cluster_stats.csv
++ SAVE_PATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/a_kunk.png
++ echo 'Peakplot for a_kunk'
+Peakplot for a_kunk
++ tartlet-targeted plot -p /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/a_kunk/plots/peak_log.csv -c /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/a_kunk/plots/cluster_stats.csv -o /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/a_kunk.png --name a_kunk
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+R[write to console]: 
+Attaching package: ‘reshape2’
+
+
+R[write to console]: The following object is masked from ‘package:tidyr’:
+
+    smiths
+
+
+Saving plot: a_kunk
+Saved peak plot for a_kunk to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/a_kunk.png
++ echo 'Finished plotting a_kunk as /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/a_kunk.png'
+Finished plotting a_kunk as /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/a_kunk.png
++ echo ----------------------------------------------------
+----------------------------------------------------
++ echo
+
++ for DSET in ${DSETS[@]}
++ D_ROOT=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/b_anth
++ PPATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/b_anth/plots/peak_log.csv
++ CPATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/b_anth/plots/cluster_stats.csv
++ SAVE_PATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/b_anth.png
++ echo 'Peakplot for b_anth'
+Peakplot for b_anth
++ tartlet-targeted plot -p /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/b_anth/plots/peak_log.csv -c /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/b_anth/plots/cluster_stats.csv -o /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/b_anth.png --name b_anth
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+R[write to console]: 
+Attaching package: ‘reshape2’
+
+
+R[write to console]: The following object is masked from ‘package:tidyr’:
+
+    smiths
+
+
+Saving plot: b_anth
+Saved peak plot for b_anth to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/b_anth.png
++ echo 'Finished plotting b_anth as /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/b_anth.png'
+Finished plotting b_anth as /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/b_anth.png
++ echo ----------------------------------------------------
+----------------------------------------------------
++ echo
+
++ for DSET in ${DSETS[@]}
++ D_ROOT=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/b_frag
++ PPATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/b_frag/plots/peak_log.csv
++ CPATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/b_frag/plots/cluster_stats.csv
++ SAVE_PATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/b_frag.png
++ echo 'Peakplot for b_frag'
+Peakplot for b_frag
++ tartlet-targeted plot -p /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/b_frag/plots/peak_log.csv -c /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/b_frag/plots/cluster_stats.csv -o /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/b_frag.png --name b_frag
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+R[write to console]: 
+Attaching package: ‘reshape2’
+
+
+R[write to console]: The following object is masked from ‘package:tidyr’:
+
+    smiths
+
+
+Saving plot: b_frag
+Saved peak plot for b_frag to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/b_frag.png
++ echo 'Finished plotting b_frag as /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/b_frag.png'
+Finished plotting b_frag as /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/b_frag.png
++ echo ----------------------------------------------------
+----------------------------------------------------
++ echo
+
++ for DSET in ${DSETS[@]}
++ D_ROOT=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/b_pseudo
++ PPATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/b_pseudo/plots/peak_log.csv
++ CPATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/b_pseudo/plots/cluster_stats.csv
++ SAVE_PATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/b_pseudo.png
++ echo 'Peakplot for b_pseudo'
+Peakplot for b_pseudo
++ tartlet-targeted plot -p /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/b_pseudo/plots/peak_log.csv -c /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/b_pseudo/plots/cluster_stats.csv -o /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/b_pseudo.png --name b_pseudo
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+R[write to console]: 
+Attaching package: ‘reshape2’
+
+
+R[write to console]: The following object is masked from ‘package:tidyr’:
+
+    smiths
+
+
+Saving plot: b_pseudo
+Saved peak plot for b_pseudo to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/b_pseudo.png
++ echo 'Finished plotting b_pseudo as /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/b_pseudo.png'
+Finished plotting b_pseudo as /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/b_pseudo.png
++ echo ----------------------------------------------------
+----------------------------------------------------
++ echo
+
++ for DSET in ${DSETS[@]}
++ D_ROOT=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/b_sub_168
++ PPATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/b_sub_168/plots/peak_log.csv
++ CPATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/b_sub_168/plots/cluster_stats.csv
++ SAVE_PATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/b_sub_168.png
++ echo 'Peakplot for b_sub_168'
+Peakplot for b_sub_168
++ tartlet-targeted plot -p /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/b_sub_168/plots/peak_log.csv -c /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/b_sub_168/plots/cluster_stats.csv -o /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/b_sub_168.png --name b_sub_168
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+R[write to console]: 
+Attaching package: ‘reshape2’
+
+
+R[write to console]: The following object is masked from ‘package:tidyr’:
+
+    smiths
+
+
+Saving plot: b_sub_168
+Saved peak plot for b_sub_168 to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/b_sub_168.png
++ echo 'Finished plotting b_sub_168 as /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/b_sub_168.png'
+Finished plotting b_sub_168 as /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/b_sub_168.png
++ echo ----------------------------------------------------
+----------------------------------------------------
++ echo
+
++ for DSET in ${DSETS[@]}
++ D_ROOT=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/b_theta
++ PPATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/b_theta/plots/peak_log.csv
++ CPATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/b_theta/plots/cluster_stats.csv
++ SAVE_PATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/b_theta.png
++ echo 'Peakplot for b_theta'
+Peakplot for b_theta
++ tartlet-targeted plot -p /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/b_theta/plots/peak_log.csv -c /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/b_theta/plots/cluster_stats.csv -o /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/b_theta.png --name b_theta
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+R[write to console]: 
+Attaching package: ‘reshape2’
+
+
+R[write to console]: The following object is masked from ‘package:tidyr’:
+
+    smiths
+
+
+Saving plot: b_theta
+Saved peak plot for b_theta to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/b_theta.png
++ echo 'Finished plotting b_theta as /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/b_theta.png'
+Finished plotting b_theta as /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/b_theta.png
++ echo ----------------------------------------------------
+----------------------------------------------------
++ echo
+
++ for DSET in ${DSETS[@]}
++ D_ROOT=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/b_xyla
++ PPATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/b_xyla/plots/peak_log.csv
++ CPATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/b_xyla/plots/cluster_stats.csv
++ SAVE_PATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/b_xyla.png
++ echo 'Peakplot for b_xyla'
+Peakplot for b_xyla
++ tartlet-targeted plot -p /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/b_xyla/plots/peak_log.csv -c /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/b_xyla/plots/cluster_stats.csv -o /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/b_xyla.png --name b_xyla
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+R[write to console]: 
+Attaching package: ‘reshape2’
+
+
+R[write to console]: The following object is masked from ‘package:tidyr’:
+
+    smiths
+
+
+Saving plot: b_xyla
+Saved peak plot for b_xyla to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/b_xyla.png
++ echo 'Finished plotting b_xyla as /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/b_xyla.png'
+Finished plotting b_xyla as /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/b_xyla.png
++ echo ----------------------------------------------------
+----------------------------------------------------
++ echo
+
++ for DSET in ${DSETS[@]}
++ D_ROOT=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/c_diff
++ PPATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/c_diff/plots/peak_log.csv
++ CPATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/c_diff/plots/cluster_stats.csv
++ SAVE_PATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/c_diff.png
++ echo 'Peakplot for c_diff'
+Peakplot for c_diff
++ tartlet-targeted plot -p /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/c_diff/plots/peak_log.csv -c /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/c_diff/plots/cluster_stats.csv -o /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/c_diff.png --name c_diff
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+R[write to console]: 
+Attaching package: ‘reshape2’
+
+
+R[write to console]: The following object is masked from ‘package:tidyr’:
+
+    smiths
+
+
+Saving plot: c_diff
+Saved peak plot for c_diff to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/c_diff.png
++ echo 'Finished plotting c_diff as /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/c_diff.png'
+Finished plotting c_diff as /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/c_diff.png
++ echo ----------------------------------------------------
+----------------------------------------------------
++ echo
+
++ for DSET in ${DSETS[@]}
++ D_ROOT=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/c_vibrioides
++ PPATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/c_vibrioides/plots/peak_log.csv
++ CPATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/c_vibrioides/plots/cluster_stats.csv
++ SAVE_PATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/c_vibrioides.png
++ echo 'Peakplot for c_vibrioides'
+Peakplot for c_vibrioides
++ tartlet-targeted plot -p /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/c_vibrioides/plots/peak_log.csv -c /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/c_vibrioides/plots/cluster_stats.csv -o /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/c_vibrioides.png --name c_vibrioides
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+R[write to console]: 
+Attaching package: ‘reshape2’
+
+
+R[write to console]: The following object is masked from ‘package:tidyr’:
+
+    smiths
+
+
+Saving plot: c_vibrioides
+Saved peak plot for c_vibrioides to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/c_vibrioides.png
++ echo 'Finished plotting c_vibrioides as /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/c_vibrioides.png'
+Finished plotting c_vibrioides as /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/c_vibrioides.png
++ echo ----------------------------------------------------
+----------------------------------------------------
++ echo
+
++ for DSET in ${DSETS[@]}
++ D_ROOT=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/d_vulg
++ PPATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/d_vulg/plots/peak_log.csv
++ CPATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/d_vulg/plots/cluster_stats.csv
++ SAVE_PATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/d_vulg.png
++ echo 'Peakplot for d_vulg'
+Peakplot for d_vulg
++ tartlet-targeted plot -p /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/d_vulg/plots/peak_log.csv -c /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/d_vulg/plots/cluster_stats.csv -o /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/d_vulg.png --name d_vulg
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+R[write to console]: 
+Attaching package: ‘reshape2’
+
+
+R[write to console]: The following object is masked from ‘package:tidyr’:
+
+    smiths
+
+
+Saving plot: d_vulg
+Saved peak plot for d_vulg to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/d_vulg.png
++ echo 'Finished plotting d_vulg as /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/d_vulg.png'
+Finished plotting d_vulg as /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/d_vulg.png
++ echo ----------------------------------------------------
+----------------------------------------------------
++ echo
+
++ for DSET in ${DSETS[@]}
++ D_ROOT=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/e_coli
++ PPATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/e_coli/plots/peak_log.csv
++ CPATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/e_coli/plots/cluster_stats.csv
++ SAVE_PATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/e_coli.png
++ echo 'Peakplot for e_coli'
+Peakplot for e_coli
++ tartlet-targeted plot -p /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/e_coli/plots/peak_log.csv -c /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/e_coli/plots/cluster_stats.csv -o /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/e_coli.png --name e_coli
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+R[write to console]: 
+Attaching package: ‘reshape2’
+
+
+R[write to console]: The following object is masked from ‘package:tidyr’:
+
+    smiths
+
+
+Saving plot: e_coli
+Saved peak plot for e_coli to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/e_coli.png
++ echo 'Finished plotting e_coli as /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/e_coli.png'
+Finished plotting e_coli as /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/e_coli.png
++ echo ----------------------------------------------------
+----------------------------------------------------
++ echo
+
++ for DSET in ${DSETS[@]}
++ D_ROOT=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/e_fae
++ PPATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/e_fae/plots/peak_log.csv
++ CPATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/e_fae/plots/cluster_stats.csv
++ SAVE_PATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/e_fae.png
++ echo 'Peakplot for e_fae'
+Peakplot for e_fae
++ tartlet-targeted plot -p /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/e_fae/plots/peak_log.csv -c /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/e_fae/plots/cluster_stats.csv -o /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/e_fae.png --name e_fae
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+R[write to console]: 
+Attaching package: ‘reshape2’
+
+
+R[write to console]: The following object is masked from ‘package:tidyr’:
+
+    smiths
+
+
+Saving plot: e_fae
+Saved peak plot for e_fae to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/e_fae.png
++ echo 'Finished plotting e_fae as /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/e_fae.png'
+Finished plotting e_fae as /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/e_fae.png
++ echo ----------------------------------------------------
+----------------------------------------------------
++ echo
+
++ for DSET in ${DSETS[@]}
++ D_ROOT=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/e_limo
++ PPATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/e_limo/plots/peak_log.csv
++ CPATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/e_limo/plots/cluster_stats.csv
++ SAVE_PATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/e_limo.png
++ echo 'Peakplot for e_limo'
+Peakplot for e_limo
++ tartlet-targeted plot -p /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/e_limo/plots/peak_log.csv -c /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/e_limo/plots/cluster_stats.csv -o /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/e_limo.png --name e_limo
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+R[write to console]: 
+Attaching package: ‘reshape2’
+
+
+R[write to console]: The following object is masked from ‘package:tidyr’:
+
+    smiths
+
+
+Saving plot: e_limo
+Saved peak plot for e_limo to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/e_limo.png
++ echo 'Finished plotting e_limo as /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/e_limo.png'
+Finished plotting e_limo as /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/e_limo.png
++ echo ----------------------------------------------------
+----------------------------------------------------
++ echo
+
++ for DSET in ${DSETS[@]}
++ D_ROOT=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/k_pneum
++ PPATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/k_pneum/plots/peak_log.csv
++ CPATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/k_pneum/plots/cluster_stats.csv
++ SAVE_PATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/k_pneum.png
++ echo 'Peakplot for k_pneum'
+Peakplot for k_pneum
++ tartlet-targeted plot -p /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/k_pneum/plots/peak_log.csv -c /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/k_pneum/plots/cluster_stats.csv -o /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/k_pneum.png --name k_pneum
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+R[write to console]: 
+Attaching package: ‘reshape2’
+
+
+R[write to console]: The following object is masked from ‘package:tidyr’:
+
+    smiths
+
+
+Saving plot: k_pneum
+Saved peak plot for k_pneum to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/k_pneum.png
++ echo 'Finished plotting k_pneum as /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/k_pneum.png'
+Finished plotting k_pneum as /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/k_pneum.png
++ echo ----------------------------------------------------
+----------------------------------------------------
++ echo
+
++ for DSET in ${DSETS[@]}
++ D_ROOT=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/m_smeg
++ PPATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/m_smeg/plots/peak_log.csv
++ CPATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/m_smeg/plots/cluster_stats.csv
++ SAVE_PATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/m_smeg.png
++ echo 'Peakplot for m_smeg'
+Peakplot for m_smeg
++ tartlet-targeted plot -p /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/m_smeg/plots/peak_log.csv -c /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/m_smeg/plots/cluster_stats.csv -o /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/m_smeg.png --name m_smeg
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+R[write to console]: 
+Attaching package: ‘reshape2’
+
+
+R[write to console]: The following object is masked from ‘package:tidyr’:
+
+    smiths
+
+
+Saving plot: m_smeg
+Saved peak plot for m_smeg to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/m_smeg.png
++ echo 'Finished plotting m_smeg as /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/m_smeg.png'
+Finished plotting m_smeg as /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/m_smeg.png
++ echo ----------------------------------------------------
+----------------------------------------------------
++ echo
+
++ for DSET in ${DSETS[@]}
++ D_ROOT=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/m_tuber
++ PPATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/m_tuber/plots/peak_log.csv
++ CPATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/m_tuber/plots/cluster_stats.csv
++ SAVE_PATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/m_tuber.png
++ echo 'Peakplot for m_tuber'
+Peakplot for m_tuber
++ tartlet-targeted plot -p /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/m_tuber/plots/peak_log.csv -c /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/m_tuber/plots/cluster_stats.csv -o /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/m_tuber.png --name m_tuber
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+R[write to console]: 
+Attaching package: ‘reshape2’
+
+
+R[write to console]: The following object is masked from ‘package:tidyr’:
+
+    smiths
+
+
+Saving plot: m_tuber
+Saved peak plot for m_tuber to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/m_tuber.png
++ echo 'Finished plotting m_tuber as /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/m_tuber.png'
+Finished plotting m_tuber as /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/m_tuber.png
++ echo ----------------------------------------------------
+----------------------------------------------------
++ echo
+
++ for DSET in ${DSETS[@]}
++ D_ROOT=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/n_gonorr
++ PPATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/n_gonorr/plots/peak_log.csv
++ CPATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/n_gonorr/plots/cluster_stats.csv
++ SAVE_PATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/n_gonorr.png
++ echo 'Peakplot for n_gonorr'
+Peakplot for n_gonorr
++ tartlet-targeted plot -p /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/n_gonorr/plots/peak_log.csv -c /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/n_gonorr/plots/cluster_stats.csv -o /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/n_gonorr.png --name n_gonorr
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+R[write to console]: 
+Attaching package: ‘reshape2’
+
+
+R[write to console]: The following object is masked from ‘package:tidyr’:
+
+    smiths
+
+
+Saving plot: n_gonorr
+Saved peak plot for n_gonorr to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/n_gonorr.png
++ echo 'Finished plotting n_gonorr as /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/n_gonorr.png'
+Finished plotting n_gonorr as /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/n_gonorr.png
++ echo ----------------------------------------------------
+----------------------------------------------------
++ echo
+
++ for DSET in ${DSETS[@]}
++ D_ROOT=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/p_cholor_aureo3084
++ PPATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/p_cholor_aureo3084/plots/peak_log.csv
++ CPATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/p_cholor_aureo3084/plots/cluster_stats.csv
++ SAVE_PATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/p_cholor_aureo3084.png
++ echo 'Peakplot for p_cholor_aureo3084'
+Peakplot for p_cholor_aureo3084
++ tartlet-targeted plot -p /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/p_cholor_aureo3084/plots/peak_log.csv -c /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/p_cholor_aureo3084/plots/cluster_stats.csv -o /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/p_cholor_aureo3084.png --name p_cholor_aureo3084
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+R[write to console]: 
+Attaching package: ‘reshape2’
+
+
+R[write to console]: The following object is masked from ‘package:tidyr’:
+
+    smiths
+
+
+Saving plot: p_cholor_aureo3084
+Saved peak plot for p_cholor_aureo3084 to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/p_cholor_aureo3084.png
++ echo 'Finished plotting p_cholor_aureo3084 as /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/p_cholor_aureo3084.png'
+Finished plotting p_cholor_aureo3084 as /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/p_cholor_aureo3084.png
++ echo ----------------------------------------------------
+----------------------------------------------------
++ echo
+
++ for DSET in ${DSETS[@]}
++ D_ROOT=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/p_fluor
++ PPATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/p_fluor/plots/peak_log.csv
++ CPATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/p_fluor/plots/cluster_stats.csv
++ SAVE_PATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/p_fluor.png
++ echo 'Peakplot for p_fluor'
+Peakplot for p_fluor
++ tartlet-targeted plot -p /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/p_fluor/plots/peak_log.csv -c /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/p_fluor/plots/cluster_stats.csv -o /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/p_fluor.png --name p_fluor
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+R[write to console]: 
+Attaching package: ‘reshape2’
+
+
+R[write to console]: The following object is masked from ‘package:tidyr’:
+
+    smiths
+
+
+Saving plot: p_fluor
+Saved peak plot for p_fluor to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/p_fluor.png
++ echo 'Finished plotting p_fluor as /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/p_fluor.png'
+Finished plotting p_fluor as /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/p_fluor.png
++ echo ----------------------------------------------------
+----------------------------------------------------
++ echo
+
++ for DSET in ${DSETS[@]}
++ D_ROOT=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/p_salmo
++ PPATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/p_salmo/plots/peak_log.csv
++ CPATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/p_salmo/plots/cluster_stats.csv
++ SAVE_PATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/p_salmo.png
++ echo 'Peakplot for p_salmo'
+Peakplot for p_salmo
++ tartlet-targeted plot -p /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/p_salmo/plots/peak_log.csv -c /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/p_salmo/plots/cluster_stats.csv -o /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/p_salmo.png --name p_salmo
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+R[write to console]: 
+Attaching package: ‘reshape2’
+
+
+R[write to console]: The following object is masked from ‘package:tidyr’:
+
+    smiths
+
+
+R[write to console]: Error in file(file, "rt") : cannot open the connection
+
+R[write to console]: In addition: 
+R[write to console]: Warning message:
+
+R[write to console]: In file(file, "rt") :
+R[write to console]: 
+ 
+R[write to console]:  cannot open file '/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/p_salmo/plots/peak_log.csv': No such file or directory
+
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tartlet-targeted", line 33, in <module>
+    sys.exit(load_entry_point('tartlet', 'console_scripts', 'tartlet-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tartlet/tartlet/targeted/plot_results.py", line 34, in main
+    plotting.PeakPlot(plotting.__file__, peak_log, cluster_stats, output_path, name)
+  File "/users/PDS0325/sachitk26/packages/tartlet/tartlet/utils/plotting.py", line 40, in __init__
+    self._make_peak_plot()
+  File "/users/PDS0325/sachitk26/packages/tartlet/tartlet/utils/plotting.py", line 43, in _make_peak_plot
+    self.peakplotmaker_r(
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/rpy2/robjects/functions.py", line 208, in __call__
+    return (super(SignatureTranslatedFunction, self)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/rpy2/robjects/functions.py", line 131, in __call__
+    res = super(Function, self).__call__(*new_args, **new_kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/rpy2/rinterface_lib/conversion.py", line 45, in _
+    cdata = function(*args, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/rpy2/rinterface.py", line 890, in __call__
+    raise embedded.RRuntimeError(_rinterface._geterrmessage())
+rpy2.rinterface_lib.embedded.RRuntimeError: Error in file(file, "rt") : cannot open the connection
+
++ echo 'Finished plotting p_salmo as /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/p_salmo.png'
+Finished plotting p_salmo as /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/p_salmo.png
++ echo ----------------------------------------------------
+----------------------------------------------------
++ echo
+
++ for DSET in ${DSETS[@]}
++ D_ROOT=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/s_coelicolor
++ PPATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/s_coelicolor/plots/peak_log.csv
++ CPATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/s_coelicolor/plots/cluster_stats.csv
++ SAVE_PATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/s_coelicolor.png
++ echo 'Peakplot for s_coelicolor'
+Peakplot for s_coelicolor
++ tartlet-targeted plot -p /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/s_coelicolor/plots/peak_log.csv -c /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/s_coelicolor/plots/cluster_stats.csv -o /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/s_coelicolor.png --name s_coelicolor
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+R[write to console]: 
+Attaching package: ‘reshape2’
+
+
+R[write to console]: The following object is masked from ‘package:tidyr’:
+
+    smiths
+
+
+Saving plot: s_coelicolor
+Saved peak plot for s_coelicolor to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/s_coelicolor.png
++ echo 'Finished plotting s_coelicolor as /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/s_coelicolor.png'
+Finished plotting s_coelicolor as /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/s_coelicolor.png
++ echo ----------------------------------------------------
+----------------------------------------------------
++ echo
+
++ for DSET in ${DSETS[@]}
++ D_ROOT=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/s_elon
++ PPATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/s_elon/plots/peak_log.csv
++ CPATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/s_elon/plots/cluster_stats.csv
++ SAVE_PATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/s_elon.png
++ echo 'Peakplot for s_elon'
+Peakplot for s_elon
++ tartlet-targeted plot -p /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/s_elon/plots/peak_log.csv -c /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/s_elon/plots/cluster_stats.csv -o /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/s_elon.png --name s_elon
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+R[write to console]: 
+Attaching package: ‘reshape2’
+
+
+R[write to console]: The following object is masked from ‘package:tidyr’:
+
+    smiths
+
+
+Saving plot: s_elon
+Saved peak plot for s_elon to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/s_elon.png
++ echo 'Finished plotting s_elon as /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/s_elon.png'
+Finished plotting s_elon as /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/s_elon.png
++ echo ----------------------------------------------------
+----------------------------------------------------
++ echo
+
++ for DSET in ${DSETS[@]}
++ D_ROOT=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/s_enter_typh
++ PPATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/s_enter_typh/plots/peak_log.csv
++ CPATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/s_enter_typh/plots/cluster_stats.csv
++ SAVE_PATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/s_enter_typh.png
++ echo 'Peakplot for s_enter_typh'
+Peakplot for s_enter_typh
++ tartlet-targeted plot -p /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/s_enter_typh/plots/peak_log.csv -c /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/s_enter_typh/plots/cluster_stats.csv -o /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/s_enter_typh.png --name s_enter_typh
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+R[write to console]: 
+Attaching package: ‘reshape2’
+
+
+R[write to console]: The following object is masked from ‘package:tidyr’:
+
+    smiths
+
+
+Saving plot: s_enter_typh
+Saved peak plot for s_enter_typh to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/s_enter_typh.png
++ echo 'Finished plotting s_enter_typh as /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/s_enter_typh.png'
+Finished plotting s_enter_typh as /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/s_enter_typh.png
++ echo ----------------------------------------------------
+----------------------------------------------------
++ echo
+
++ for DSET in ${DSETS[@]}
++ D_ROOT=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/s_epi
++ PPATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/s_epi/plots/peak_log.csv
++ CPATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/s_epi/plots/cluster_stats.csv
++ SAVE_PATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/s_epi.png
++ echo 'Peakplot for s_epi'
+Peakplot for s_epi
++ tartlet-targeted plot -p /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/s_epi/plots/peak_log.csv -c /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/s_epi/plots/cluster_stats.csv -o /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/s_epi.png --name s_epi
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+R[write to console]: 
+Attaching package: ‘reshape2’
+
+
+R[write to console]: The following object is masked from ‘package:tidyr’:
+
+    smiths
+
+
+Saving plot: s_epi
+Saved peak plot for s_epi to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/s_epi.png
++ echo 'Finished plotting s_epi as /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/s_epi.png'
+Finished plotting s_epi as /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/s_epi.png
++ echo ----------------------------------------------------
+----------------------------------------------------
++ echo
+
++ for DSET in ${DSETS[@]}
++ D_ROOT=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/s_meli
++ PPATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/s_meli/plots/peak_log.csv
++ CPATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/s_meli/plots/cluster_stats.csv
++ SAVE_PATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/s_meli.png
++ echo 'Peakplot for s_meli'
+Peakplot for s_meli
++ tartlet-targeted plot -p /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/s_meli/plots/peak_log.csv -c /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/s_meli/plots/cluster_stats.csv -o /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/s_meli.png --name s_meli
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+R[write to console]: 
+Attaching package: ‘reshape2’
+
+
+R[write to console]: The following object is masked from ‘package:tidyr’:
+
+    smiths
+
+
+Saving plot: s_meli
+Saved peak plot for s_meli to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/s_meli.png
++ echo 'Finished plotting s_meli as /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/s_meli.png'
+Finished plotting s_meli as /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/s_meli.png
++ echo ----------------------------------------------------
+----------------------------------------------------
++ echo
+
++ for DSET in ${DSETS[@]}
++ D_ROOT=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/s_sanguinis
++ PPATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/s_sanguinis/plots/peak_log.csv
++ CPATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/s_sanguinis/plots/cluster_stats.csv
++ SAVE_PATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/s_sanguinis.png
++ echo 'Peakplot for s_sanguinis'
+Peakplot for s_sanguinis
++ tartlet-targeted plot -p /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/s_sanguinis/plots/peak_log.csv -c /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/s_sanguinis/plots/cluster_stats.csv -o /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/s_sanguinis.png --name s_sanguinis
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+R[write to console]: 
+Attaching package: ‘reshape2’
+
+
+R[write to console]: The following object is masked from ‘package:tidyr’:
+
+    smiths
+
+
+Saving plot: s_sanguinis
+Saved peak plot for s_sanguinis to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/s_sanguinis.png
++ echo 'Finished plotting s_sanguinis as /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/s_sanguinis.png'
+Finished plotting s_sanguinis as /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/s_sanguinis.png
++ echo ----------------------------------------------------
+----------------------------------------------------
++ echo
+
++ for DSET in ${DSETS[@]}
++ D_ROOT=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/s_spcc6803
++ PPATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/s_spcc6803/plots/peak_log.csv
++ CPATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/s_spcc6803/plots/cluster_stats.csv
++ SAVE_PATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/s_spcc6803.png
++ echo 'Peakplot for s_spcc6803'
+Peakplot for s_spcc6803
++ tartlet-targeted plot -p /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/s_spcc6803/plots/peak_log.csv -c /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/s_spcc6803/plots/cluster_stats.csv -o /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/s_spcc6803.png --name s_spcc6803
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+R[write to console]: 
+Attaching package: ‘reshape2’
+
+
+R[write to console]: The following object is masked from ‘package:tidyr’:
+
+    smiths
+
+
+Saving plot: s_spcc6803
+Saved peak plot for s_spcc6803 to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/s_spcc6803.png
++ echo 'Finished plotting s_spcc6803 as /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/s_spcc6803.png'
+Finished plotting s_spcc6803 as /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/s_spcc6803.png
++ echo ----------------------------------------------------
+----------------------------------------------------
++ echo
+
++ for DSET in ${DSETS[@]}
++ D_ROOT=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/x_albi
++ PPATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/x_albi/plots/peak_log.csv
++ CPATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/x_albi/plots/cluster_stats.csv
++ SAVE_PATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/x_albi.png
++ echo 'Peakplot for x_albi'
+Peakplot for x_albi
++ tartlet-targeted plot -p /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/x_albi/plots/peak_log.csv -c /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/x_albi/plots/cluster_stats.csv -o /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/x_albi.png --name x_albi
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+R[write to console]: 
+Attaching package: ‘reshape2’
+
+
+R[write to console]: The following object is masked from ‘package:tidyr’:
+
+    smiths
+
+
+Saving plot: x_albi
+Saved peak plot for x_albi to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/x_albi.png
++ echo 'Finished plotting x_albi as /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/x_albi.png'
+Finished plotting x_albi as /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/x_albi.png
++ echo ----------------------------------------------------
+----------------------------------------------------
++ echo
+
++ for DSET in ${DSETS[@]}
++ D_ROOT=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/x_ory
++ PPATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/x_ory/plots/peak_log.csv
++ CPATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/x_ory/plots/cluster_stats.csv
++ SAVE_PATH=/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/x_ory.png
++ echo 'Peakplot for x_ory'
+Peakplot for x_ory
++ tartlet-targeted plot -p /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/x_ory/plots/peak_log.csv -c /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/x_ory/plots/cluster_stats.csv -o /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/x_ory.png --name x_ory
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+R[write to console]: 
+Attaching package: ‘reshape2’
+
+
+R[write to console]: The following object is masked from ‘package:tidyr’:
+
+    smiths
+
+
+Saving plot: x_ory
+Saved peak plot for x_ory to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/x_ory.png
++ echo 'Finished plotting x_ory as /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/x_ory.png'
+Finished plotting x_ory as /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/x_ory.png
++ echo ----------------------------------------------------
+----------------------------------------------------
++ echo
+
++ echo Done
+Done

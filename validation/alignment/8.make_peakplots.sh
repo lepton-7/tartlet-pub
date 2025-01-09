@@ -1,13 +1,13 @@
 #!/bin/bash
 
-#SBATCH --time=02:00:00
-#SBATCH --nodes=5 --cpus-per-task=1
+#SBATCH --time=00:10:00
+#SBATCH --nodes=1 --cpus-per-task=1
 
 #SBATCH --account=PDS0325
 #SBATCH --mail-type=BEGIN,END,FAIL
 
 # RUN THIS TO LAUNCH JOB
-## sbatch --output=jobs/7.all.filter_BAM_plots.out.$(date +"%Y-%m-%d_%H-%M-%S").%j 7.filter_BAM_plots.sh
+## sbatch --output=jobs/8.all.make_peakplots.out.$(date +"%Y-%m-%d_%H-%M-%S").%j 8.make_peakplots.sh
 
 set echo on
 
@@ -49,7 +49,7 @@ DSETS=(
 #   "c_basil"
 #   "p_aeru"
 
-echo "Filtering output plots for:"
+echo "Plotting output for:"
 echo "${DSETS[*]}"
 echo
 echo
@@ -58,23 +58,18 @@ for DSET in ${DSETS[@]}; do
 
     D_ROOT="$RT/validation/alignment/outputs/$DSET"
 
-    PICKLE_ROOT="$D_ROOT/plots/picks.tar.gz"
-    SAVE_ROOT="$D_ROOT/plots/"
+    PPATH="$D_ROOT/plots/peak_log.csv"
+    CPATH="$D_ROOT/plots/cluster_stats.csv"
+    SAVE_PATH="$RT/validation/alignment/peak_plots/$DSET.png"
 
-    echo "Removing existing data"
-    rm -r $SAVE_ROOT/*/ $SAVE_ROOT/*.csv
+    echo "Peakplot for $DSET"
 
-    echo "Filtering plots for $DSET"
+    tartlet-targeted plot -p $PPATH \
+        -c $CPATH \
+        -o $SAVE_PATH \
+        --name $DSET
 
-    mpiexec tartlet-targeted filter -i $PICKLE_ROOT \
-        -o $SAVE_ROOT \
-        --ext-prop -0.3 1.0 \
-        --conv \
-        --min-cov-depth 15
-        # --noplots \
-    # --statplot \
-
-    echo "Finished filtering outputs for $DSET into $SAVE_ROOT"
+    echo "Finished plotting $DSET as $SAVE_PATH"
     echo "----------------------------------------------------"
     echo
 done
