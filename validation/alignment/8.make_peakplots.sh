@@ -62,14 +62,11 @@ for DSET in ${DSETS[@]}; do
     CPATH="$D_ROOT/plots/cluster_stats.csv"
     SAVE_PATH="$RT/validation/alignment/peak_plots/$DSET.png"
 
-    echo "Peakplot for $DSET"
-
     tartlet-targeted plot -p $PPATH \
         -c $CPATH \
         -o $SAVE_PATH \
         --name $DSET
 
-    echo "Finished plotting $DSET as $SAVE_PATH"
     echo "----------------------------------------------------"
     echo
 done
