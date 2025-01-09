@@ -1,4 +1,4 @@
-rowid,transcriptome,decision_note,decision,coverage_delta_absolute,coverage_delta_pval,peak_summit,peak_width,coverage_delta_stable_relative,coverage_delta_noiseset,from_riboswith_end,from_riboswith_end_relative,cluster
+rowid,transcriptome,decision_note,decision,coverage_delta_absolute,coverage_delta_pval,peak_summit,peak_width,coverage_delta_stable_relative,coverage_delta_noiseset,from_riboswitch_end,from_riboswitch_end_relative,cluster
 Cobalamin#CP073017.1#1260133#1260273#+,SRR9208983.sorted.bam,Minimum coverage not reached (11.0 < 15),,,,,,,,,,
 Cobalamin#CP073017.1#1260133#1260273#+,SRR9208985.sorted.bam,Minimum coverage not reached (12.0 < 15),,,,,,,,,,
 Cobalamin#CP073017.1#1260133#1260273#+,SRR9208995.sorted.bam,,pass,-7.0,0.0012912100515531898,1134.0,10.0,-0.43691484618814086,"[[2.0, 4], [-3.0, 4], [-2.0, 5], [3.0, 7], [4.0, 8], [-1.0, 5], [5.0, 6], [1.0, 4], [2.0, 5]]",-6.0,-0.04285714285714286,3.0
