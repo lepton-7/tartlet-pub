@@ -365,12 +365,18 @@
             "'s__Acinetobacter baumannii'"
         )
 
+        hlt_alph <- 0.45
+
         tree <- drop.tip(tree, to_drop)
         tax_tree <- ggtree(tree, size = 0.8, layout = "rectangular", ladderize = FALSE) +
             # ggtitle("Validation set tax tree") +
             geom_tiplab(size = 9, linesize = .5, align = TRUE, as_ylab = FALSE, fontface = 3) +
             xlim_tree(2.5) +
             ggtitle("a") +
+            # geom_text(aes(label = node), hjust = -.3) +
+            geom_hilight(node = 55, fill = "pink", alpha = hlt_alph, extendto = 1.858) + # cyanobacs
+            geom_hilight(node = 30, fill = "pink", alpha = hlt_alph, extendto = 1.858) + # big g- section
+            geom_hilight(node = 45, fill = "steelblue", alpha = hlt_alph, extendto = 1.858) + # big g+ section
             theme(
                 plot.title = element_text(size = 34, face = "bold")
             )
@@ -509,10 +515,10 @@
         tag_y <- 0.98
         patched <- tax_tree + test_pie + leg +
             plot_layout(design = layout)
-            # theme(plot.tag.position = c(1, tag_y)) +
-            # plot_annotation(tag_levels = "a") &
-            # theme(plot.tag = element_text(size = 30, face = "bold"))
-            patched
+        # theme(plot.tag.position = c(1, tag_y)) +
+        # plot_annotation(tag_levels = "a") &
+        # theme(plot.tag = element_text(size = 30, face = "bold"))
+        patched
     }
 
     patched
