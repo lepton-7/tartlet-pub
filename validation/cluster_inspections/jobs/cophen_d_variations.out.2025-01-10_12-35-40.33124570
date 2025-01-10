@@ -1,0 +1,188 @@
+Started 240 instances.
+Each instance running upto 7 iterations.
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/core/fromnumeric.py:3504: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/lib/function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/core/_methods.py:121: RuntimeWarning: invalid value encountered in divide
+  ret = um.true_divide(
+/users/PDS0325/sachitk26/packages/tartlet/tartlet/utils/activity_inference.py:339: RuntimeWarning: Degrees of freedom <= 0 for slice
+  sd = np.cov(cov_nocand, rowvar=0)  # type: ignore
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/lib/function_base.py:2748: RuntimeWarning: divide by zero encountered in divide
+  c *= np.true_divide(1, fact)
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/lib/function_base.py:2748: RuntimeWarning: invalid value encountered in multiply
+  c *= np.true_divide(1, fact)
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/core/fromnumeric.py:3504: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/lib/function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/core/_methods.py:121: RuntimeWarning: invalid value encountered in divide
+  ret = um.true_divide(
+/users/PDS0325/sachitk26/packages/tartlet/tartlet/utils/activity_inference.py:339: RuntimeWarning: Degrees of freedom <= 0 for slice
+  sd = np.cov(cov_nocand, rowvar=0)  # type: ignore
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/lib/function_base.py:2748: RuntimeWarning: divide by zero encountered in divide
+  c *= np.true_divide(1, fact)
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/lib/function_base.py:2748: RuntimeWarning: invalid value encountered in multiply
+  c *= np.true_divide(1, fact)
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/core/fromnumeric.py:3504: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/lib/function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/core/_methods.py:121: RuntimeWarning: invalid value encountered in divide
+  ret = um.true_divide(
+/users/PDS0325/sachitk26/packages/tartlet/tartlet/utils/activity_inference.py:339: RuntimeWarning: Degrees of freedom <= 0 for slice
+  sd = np.cov(cov_nocand, rowvar=0)  # type: ignore
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/lib/function_base.py:2748: RuntimeWarning: divide by zero encountered in divide
+  c *= np.true_divide(1, fact)
+/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/numpy/lib/function_base.py:2748: RuntimeWarning: invalid value encountered in multiply
+  c *= np.true_divide(1, fact)
+Waiting on all instances to start gather.
+Completed gather.
+Generated outputs for b_sub_168 clustering distance threshold = 0.01
+Started 240 instances.
+Each instance running upto 7 iterations.
+Waiting on all instances to start gather.
+Completed gather.
+Generated outputs for b_sub_168 clustering distance threshold = 0.02
+Started 240 instances.
+Each instance running upto 7 iterations.
+Waiting on all instances to start gather.
+Completed gather.
+Generated outputs for b_sub_168 clustering distance threshold = 0.03
+Started 240 instances.
+Each instance running upto 7 iterations.
+Waiting on all instances to start gather.
+Completed gather.
+Generated outputs for b_sub_168 clustering distance threshold = 0.04
+Started 240 instances.
+Each instance running upto 7 iterations.
+Waiting on all instances to start gather.
+Completed gather.
+Generated outputs for b_sub_168 clustering distance threshold = 0.05
+Started 240 instances.
+Each instance running upto 7 iterations.
+Waiting on all instances to start gather.
+Completed gather.
+Generated outputs for b_sub_168 clustering distance threshold = 0.06
+Started 240 instances.
+Each instance running upto 7 iterations.
+Waiting on all instances to start gather.
+Completed gather.
+Generated outputs for b_sub_168 clustering distance threshold = 0.07
+Started 240 instances.
+Each instance running upto 7 iterations.
+Waiting on all instances to start gather.
+Completed gather.
+Generated outputs for b_sub_168 clustering distance threshold = 0.08
+Started 240 instances.
+Each instance running upto 7 iterations.
+Waiting on all instances to start gather.
+Completed gather.
+Generated outputs for b_sub_168 clustering distance threshold = 0.09
+Started 240 instances.
+Each instance running upto 7 iterations.
+Waiting on all instances to start gather.
+Completed gather.
+Generated outputs for b_sub_168 clustering distance threshold = 0.10
+Started 240 instances.
+Each instance running upto 7 iterations.
+Waiting on all instances to start gather.
+Completed gather.
+Generated outputs for b_sub_168 clustering distance threshold = 0.11
+Started 240 instances.
+Each instance running upto 7 iterations.
+Waiting on all instances to start gather.
+Completed gather.
+Generated outputs for b_sub_168 clustering distance threshold = 0.12
+Started 240 instances.
+Each instance running upto 7 iterations.
+Waiting on all instances to start gather.
+Completed gather.
+Generated outputs for b_sub_168 clustering distance threshold = 0.13
+Started 240 instances.
+Each instance running upto 7 iterations.
+Waiting on all instances to start gather.
+Completed gather.
+Generated outputs for b_sub_168 clustering distance threshold = 0.14
+Started 240 instances.
+Each instance running upto 7 iterations.
+Waiting on all instances to start gather.
+Completed gather.
+Generated outputs for b_sub_168 clustering distance threshold = 0.15
+Started 240 instances.
+Each instance running upto 7 iterations.
+Waiting on all instances to start gather.
+Completed gather.
+Generated outputs for b_sub_168 clustering distance threshold = 0.16
+Started 240 instances.
+Each instance running upto 7 iterations.
+Waiting on all instances to start gather.
+Completed gather.
+Generated outputs for b_sub_168 clustering distance threshold = 0.17
+Started 240 instances.
+Each instance running upto 7 iterations.
+Waiting on all instances to start gather.
+Completed gather.
+Generated outputs for b_sub_168 clustering distance threshold = 0.18
+Started 240 instances.
+Each instance running upto 7 iterations.
+Waiting on all instances to start gather.
+Completed gather.
+Generated outputs for b_sub_168 clustering distance threshold = 0.19
+Started 240 instances.
+Each instance running upto 7 iterations.
+Waiting on all instances to start gather.
+Completed gather.
+Generated outputs for b_sub_168 clustering distance threshold = 0.20
+Started 240 instances.
+Each instance running upto 7 iterations.
+Waiting on all instances to start gather.
+Completed gather.
+Generated outputs for b_sub_168 clustering distance threshold = 0.21
+Started 240 instances.
+Each instance running upto 7 iterations.
+Waiting on all instances to start gather.
+Completed gather.
+Generated outputs for b_sub_168 clustering distance threshold = 0.22
+Started 240 instances.
+Each instance running upto 7 iterations.
+Waiting on all instances to start gather.
+Completed gather.
+Generated outputs for b_sub_168 clustering distance threshold = 0.23
+Started 240 instances.
+Each instance running upto 7 iterations.
+Waiting on all instances to start gather.
+Completed gather.
+Generated outputs for b_sub_168 clustering distance threshold = 0.24
+Started 240 instances.
+Each instance running upto 7 iterations.
+Waiting on all instances to start gather.
+Completed gather.
+Generated outputs for b_sub_168 clustering distance threshold = 0.25
+Started 240 instances.
+Each instance running upto 7 iterations.
+Waiting on all instances to start gather.
+Completed gather.
+Generated outputs for b_sub_168 clustering distance threshold = 0.26
+Started 240 instances.
+Each instance running upto 7 iterations.
+Waiting on all instances to start gather.
+Completed gather.
+Generated outputs for b_sub_168 clustering distance threshold = 0.27
+Started 240 instances.
+Each instance running upto 7 iterations.
+Waiting on all instances to start gather.
+Completed gather.
+Generated outputs for b_sub_168 clustering distance threshold = 0.28
+Started 240 instances.
+Each instance running upto 7 iterations.
+Waiting on all instances to start gather.
+Completed gather.
+Generated outputs for b_sub_168 clustering distance threshold = 0.29
+Done
