@@ -78,7 +78,7 @@ TaRTLEt uses HISAT2 for read alignment. First, index the riboswitch sequences by
 tartlet-targeted index -i validation/alignment/outputs/b_sub_168/switch_seqs_delta1000-1000 -p 44
 ```
 
-(That is,  the `reference-gen` output directory is the input directory for indexing.) Then call HISAT to align reads:
+(That is, the `reference-gen` output directory is the input directory for indexing.) Then call HISAT to align reads:
 
 ```bash
 hisat2 \
@@ -123,7 +123,7 @@ The core of the TaRTLEt algorithm is `filter`. This command
 - performs the first stage of significance testing, to identify which candidate events (per riboswitch locus, per experimental condition) are above background biological and sequencing noise
 - calculates fractional coverage change across each peak in the convolution (per-locus, per-condition)
 - clusters peaks by x-position within the riboswitch region of interest (user-definable with `--ext-prop`) across experimental conditions
-- asks, for each cluster, whether the mean change in coverage across the cluster is significantly more negative than expected by chance (Mann-Whitney one-tailed U-test), and finally 
+- asks, for each cluster, whether the mean change in coverage across the cluster is significantly more negative than expected by chance (Mann-Whitney one-tailed U-test), and finally
 - asks, for each cluster, whether the variance in coverage change is significantly larger than expected by chance (two-tailed Levene's test).
 
 When you invoke `filter`, you can set a minimum coverage depth threshold using `--min-cov-depth` and specify an output directory with `-o`. Here, we call `filter` with
@@ -146,8 +146,17 @@ This step generates four key outputs per riboswitch locus:
   - delta_variance > noiseset_delta_variance
 - `peak_log.csv` reports peak-by-peak details used to generate peak plots that correctly connect same-condition points.
 
-It can be helpful to inspect the `fail/` and `pass/` locus plots to convince yourself that these per-condition calls look reasonable for your dataset. 
+It can be helpful to inspect the `fail/` and `pass/` locus plots to convince yourself that these per-condition calls look reasonable for your dataset.
 
-## Plotting results (outside tool scope)
+## Plotting results
 
-Currently, peak plots from the manuscript (Fig. 5) cannot be generated directly through the tool. The R script used to generate all the peak plots included in the manuscript and the supplement is located at `validation/plotting/peak_plotting.r`. The inputs to this script are the `cluster_stats` and `peak_log` files.
+The main tool to visualise whether a riboswitch locus shows evidence for condition-dependent transcription termination is the "peak plot" (Fig. 5 from the manuscript). The inputs to generating a peak plot are the `peak_log.csv` and the `cluster_stats.csv` files. To generate a peak plot for the sample data, call
+
+```bash
+tartlet-targeted plot -p validation/alignment/outputs/b_sub_168/plots/peak_log.csv \
+        -c validation/alignment/outputs/b_sub_168/plots/cluster_stats.csv \
+        -o validation/alignment/peak_plots/b_sub_168_test.png \
+        --name b_sub_168
+```
+
+The output is an image file at the path specified by the `-o` option.
