@@ -15,3 +15,4 @@ e_coli,Lysine#NC_000913.3#4233521#4233325#-,Lysine,0,1,uptream of lysC
 e_coli,TPP#NC_000913.3#2185432#2185336#-,TPP,1,0,upstream of thiM
 e_coli,TPP#NC_000913.3#4196280#4196180#-,TPP,1,0,upstream of thiC; translation and transcription mod but the termination site is supposedly near the start codon -- I did not see anything noteworthy in the locus plot
 e_fae,SMK_box_riboswitch#KB944666.1#866904#866999#+,SMK_box_riboswitch,0,1,upstream of metK SAM synthase; only found evidence for translation mod in lit
+s_enter_typh,Mg_sensor#AE006468.2#4699497#4699609#+,Mg_sensor,1,0,"upstream of mgtA, trx mod based on https://doi.org/10.1016/j.cell.2006.01.043"
