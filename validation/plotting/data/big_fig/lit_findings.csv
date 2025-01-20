@@ -1,6 +1,6 @@
 microbe,rowid,target_name,lit_active,lit_incon,note,doi
-b_anth,TPP#AE017334.2#752099#752211#+,TPP,1,0,upstream tandem,
-b_anth,TPP#AE017334.2#752272#752375#+,TPP,1,0,downstream tandem; upstream of tenA,
+b_anth,TPP#AE017334.2#752099#752211#+,TPP,1,0,upstream tandem,https://doi.org/10.1261/rna.407707
+b_anth,TPP#AE017334.2#752272#752375#+,TPP,1,0,downstream tandem; upstream of tenA,https://doi.org/10.1261/rna.407707
 b_sub_168,FMN#NC_000964.3#2431617#2431473#-,FMN,1,0,upstream of ribD,
 b_sub_168,glmS#NC_000964.3#200017#200187#+,glmS,0,1,Upstream of glmS,
 b_sub_168,Glycine#NC_000964.3#2549606#2549505#-,Glycine,1,0,upstream of gcvT ,
@@ -8,7 +8,10 @@ b_sub_168,Lysine#NC_000964.3#2911051#2910872#-,Lysine,1,0,upstream of lysCB subu
 b_sub_168,M-box#NC_000964.3#1395616#1395781#+,M-box,1,0,upstream of mgtE,
 b_sub_168,Purine#NC_000964.3#2320213#2320114#-,Purine,1,0,upstream of xpt,
 b_sub_168,Purine#NC_000964.3#626446#626347#-,Purine,1,0,upstream of pbuE,
-b_sub_168,SAM#NC_000964.3#1180802#1180685#-,SAM,1,0,upstream of samT/yitJ,
+b_sub_168,SAM#NC_000964.3#1180802#1180685#-,SAM,1,0,"upstream of samT/yitJ, fig 5 shows trx termination",https://doi.org/10.1038/nsb967
+b_sub_168,SAM#NC_000964.3#2025251#2025160#-,SAM,1,0,"upstream of yoaD, fig 5 shows trx termination",https://doi.org/10.1038/nsb967
+b_sub_168,SAM#NC_000964.3#1258304#1258424#+,SAM,1,0,"upstream of metI, fig 5 shows trx termination",https://doi.org/10.1038/nsb967
+b_sub_168,SAM#NC_000964.3#3129333#3129195#-,SAM,1,0,"upstream of metK, fig 5 shows trx termination",https://doi.org/10.1038/nsb967
 e_coli,Cobalamin#NC_000913.3#4163384#4163573#+,Cobalamin,1,0,upstream of btuB; shown to be both translational and transcriptional ,https://doi.org/10.1128/jb.180.24.6719-6728.1998
 e_coli,FMN#NC_000913.3#3184718#3184570#-,FMN,1,0,upstream of ribB,
 e_coli,Lysine#NC_000913.3#4233521#4233325#-,Lysine,0,1,uptream of lysC,
