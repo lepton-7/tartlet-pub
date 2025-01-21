@@ -470,10 +470,12 @@
         leg_df <- data.frame(
             tool = c("Y", "Y", "Y", "NA", "NA", "NA"),
             litresult = c("Y", "Trans", "NA", "Y", "Trans", "NA"),
-            colkey = c("act_ag", "act_dis", "act", "incon_dis", "incon_ag", "nov")
+            colkey = c("act_ag", "act_dis", "act", "incon_dis", "incon_ag", "nov"),
+            keycounts = c(sum(inf_df$active_agree), sum(inf_df$active_disagree), sum(inf_df$active), sum(inf_df$incon_disagree), sum(inf_df$incon_agree), sum(inf_df$inactive))
         )
         leg <- ggplot(leg_df, aes(x = tool, y = litresult, fill = colkey)) +
             geom_tile() +
+            geom_text(aes(label=keycounts)) +
             def_theme +
             theme(
                 axis.text.x = element_text(size = 20),
