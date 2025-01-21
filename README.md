@@ -25,7 +25,7 @@ This runs Infernal on the input genomes, generating a text table. To convert the
 tartlet-utils make-table -i validation/infernal/results -o validation/tables/inf_results_test.csv
 ```
 
-(Note that the format of the output's `dataset` column will differ slightly from that shown in `validation/tables/inf_results.csv`, where for concise presentation of the full validation dataset we used a secondary reformatting script.)
+(Note that the format of the output's `dataset` column will differ slightly from that shown in `validation/tables/inf_results.csv`, as for concise presentation of the full validation dataset in the manuscript, we reformatted this column with `validation/tables/reformat_dsets.py`.)
 
 ## Identify downstream ORFs
 
