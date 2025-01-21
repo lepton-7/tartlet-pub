@@ -231,7 +231,7 @@
     }
 
     # overwrite the default expand for continuous scales
-    scale_y_tree <- function(expand = expand_scale(0, 0.6), ...) {
+    scale_y_tree <- function(expand = expand_scale(0, 0), ...) {
         scale_y_continuous(expand = expand, ...)
     }
 
@@ -246,7 +246,7 @@
 
     # plot data next to a ggtree aligned by shared labels
     ggtreeplot <- function(ggtree, data = NULL, mapping = aes(), flip = FALSE,
-                           expand_limits = expand_scale(0, .6), ...) {
+                           expand_limits = expand_scale(0, 1), ...) { # change the expand_scale from 1 to 0.6 if not using geom_hilight
         if (!inherits(ggtree, "ggtree")) {
             stop("not a ggtree object")
         }
@@ -378,7 +378,7 @@
             geom_hilight(node = 30, fill = "pink", alpha = hlt_alph, extendto = 1.858) + # big g- section
             geom_hilight(node = 45, fill = "steelblue", alpha = hlt_alph, extendto = 1.858) + # big g+ section
             theme(
-                plot.title = element_text(size = 34, face = "bold")
+                plot.title = element_text(size = 34, face = "bold"),
             )
 
         for (i in seq_along(tree$tip.label)) {
@@ -523,11 +523,19 @@
 
     patched
 
-    wbyr <- 2.25
-    h <- 4000
-    alph <- 1
-    save_path <- str_glue("plots/big_fig_withvalleg_lat-estall.png")
-    ggsave(save_path, plot = patched, dpi = 320 * alph, units = "px", width = h * wbyr * alph, height = h * alph)
+    {
+        wbyr <- 2.25
+        h <- 4000
+        alph <- 1
+        save_path <- str_glue("plots/big_fig_withvalleg_lat-estall_morevalid.png")
+        ggsave(save_path, plot = patched, dpi = 320 * alph, units = "px", width = h * wbyr * alph, height = h * alph)
+    }
+
+    # -----------------------------
+    #  //
+    #   ENSURE locus_inferences_sum is updated
+    #  //
+    # -----------------------------
 }
 
 # -----------------------------------------------------------------------
