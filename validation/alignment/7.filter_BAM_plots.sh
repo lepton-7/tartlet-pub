@@ -61,8 +61,9 @@ for DSET in ${DSETS[@]}; do
     PICKLE_ROOT="$D_ROOT/plots/picks.tar.gz"
     SAVE_ROOT="$D_ROOT/plots/"
 
-    echo "Removing existing data"
-    rm -r $SAVE_ROOT/*/ $SAVE_ROOT/*.csv
+    # echo "Removing existing data"
+    # rm -r $SAVE_ROOT/*/ $SAVE_ROOT/*.csv
+    rm -r $SAVE_ROOT/*.csv
 
     echo "Filtering plots for $DSET"
 
@@ -70,8 +71,9 @@ for DSET in ${DSETS[@]}; do
         -o $SAVE_ROOT \
         --ext-prop -0.3 1.0 \
         --conv \
-        --min-cov-depth 15
-        # --noplots \
+        --min-cov-depth 15 \
+        --cophen-dist-thresh 0.04 \
+        --noplots \
     # --statplot \
 
     echo "Finished filtering outputs for $DSET into $SAVE_ROOT"

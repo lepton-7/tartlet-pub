@@ -1,0 +1,173 @@
+Plotting output for:
+a_fischeri_ES114 a_kunk b_anth b_frag b_pseudo b_sub_168 b_theta b_xyla c_diff c_vibrioides d_vulg e_coli e_fae e_limo k_pneum m_smeg m_tuber n_gonorr p_cholor_aureo3084 p_fluor p_salmo s_coelicolor s_elon s_enter_typh s_epi s_meli s_sanguinis s_spcc6803 x_albi x_ory
+
+
+Saving plot: a_fischeri_ES114
+Saved peak plot for a_fischeri_ES114 to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/a_fischeri_ES114.png
+----------------------------------------------------
+
+Saving plot: a_kunk
+Saved peak plot for a_kunk to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/a_kunk.png
+----------------------------------------------------
+
+Saving plot: b_anth
+Saved peak plot for b_anth to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/b_anth.png
+----------------------------------------------------
+
+Saving plot: b_frag
+Saved peak plot for b_frag to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/b_frag.png
+----------------------------------------------------
+
+Saving plot: b_pseudo
+Saved peak plot for b_pseudo to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/b_pseudo.png
+----------------------------------------------------
+
+Saving plot: b_sub_168
+Saved peak plot for b_sub_168 to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/b_sub_168.png
+----------------------------------------------------
+
+Saving plot: b_theta
+Saved peak plot for b_theta to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/b_theta.png
+----------------------------------------------------
+
+Saving plot: b_xyla
+Saved peak plot for b_xyla to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/b_xyla.png
+----------------------------------------------------
+
+Saving plot: c_diff
+Saved peak plot for c_diff to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/c_diff.png
+----------------------------------------------------
+
+Saving plot: c_vibrioides
+Saved peak plot for c_vibrioides to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/c_vibrioides.png
+----------------------------------------------------
+
+Saving plot: d_vulg
+Saved peak plot for d_vulg to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/d_vulg.png
+----------------------------------------------------
+
+Saving plot: e_coli
+Saved peak plot for e_coli to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/e_coli.png
+----------------------------------------------------
+
+Saving plot: e_fae
+Saved peak plot for e_fae to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/e_fae.png
+----------------------------------------------------
+
+Saving plot: e_limo
+Saved peak plot for e_limo to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/e_limo.png
+----------------------------------------------------
+
+Saving plot: k_pneum
+Saved peak plot for k_pneum to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/k_pneum.png
+----------------------------------------------------
+
+Saving plot: m_smeg
+Saved peak plot for m_smeg to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/m_smeg.png
+----------------------------------------------------
+
+Saving plot: m_tuber
+Saved peak plot for m_tuber to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/m_tuber.png
+----------------------------------------------------
+
+Saving plot: n_gonorr
+Saved peak plot for n_gonorr to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/n_gonorr.png
+----------------------------------------------------
+
+Saving plot: p_cholor_aureo3084
+Saved peak plot for p_cholor_aureo3084 to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/p_cholor_aureo3084.png
+----------------------------------------------------
+
+Saving plot: p_fluor
+Saved peak plot for p_fluor to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/p_fluor.png
+----------------------------------------------------
+
+R[write to console]: Error in file(file, "rt") : cannot open the connection
+
+R[write to console]: In addition: 
+R[write to console]: Warning message:
+
+R[write to console]: In file(file, "rt") :
+R[write to console]: 
+ 
+R[write to console]:  cannot open file '/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/p_salmo/plots/peak_log.csv': No such file or directory
+
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tartlet-targeted", line 33, in <module>
+    sys.exit(load_entry_point('tartlet', 'console_scripts', 'tartlet-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tartlet/tartlet/targeted/plot_results.py", line 34, in exec_main
+    main(peak_log, cluster_stats, name, output_path)
+  File "/users/PDS0325/sachitk26/packages/tartlet/tartlet/targeted/plot_results.py", line 38, in main
+    plotting.PeakPlot(plotting.__file__, peak_log, cluster_stats, output_path, name)
+  File "/users/PDS0325/sachitk26/packages/tartlet/tartlet/utils/plotting.py", line 40, in __init__
+    self._make_peak_plot()
+  File "/users/PDS0325/sachitk26/packages/tartlet/tartlet/utils/plotting.py", line 43, in _make_peak_plot
+    self.peakplotmaker_r(
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/rpy2/robjects/functions.py", line 208, in __call__
+    return (super(SignatureTranslatedFunction, self)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/rpy2/robjects/functions.py", line 131, in __call__
+    res = super(Function, self).__call__(*new_args, **new_kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/rpy2/rinterface_lib/conversion.py", line 45, in _
+    cdata = function(*args, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/rpy2/rinterface.py", line 890, in __call__
+    raise embedded.RRuntimeError(_rinterface._geterrmessage())
+rpy2.rinterface_lib.embedded.RRuntimeError: Error in file(file, "rt") : cannot open the connection
+
+----------------------------------------------------
+
+Saving plot: s_coelicolor
+Saved peak plot for s_coelicolor to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/s_coelicolor.png
+----------------------------------------------------
+
+Saving plot: s_elon
+Saved peak plot for s_elon to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/s_elon.png
+----------------------------------------------------
+
+Saving plot: s_enter_typh
+Saved peak plot for s_enter_typh to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/s_enter_typh.png
+----------------------------------------------------
+
+Saving plot: s_epi
+Saved peak plot for s_epi to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/s_epi.png
+----------------------------------------------------
+
+Saving plot: s_meli
+Saved peak plot for s_meli to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/s_meli.png
+----------------------------------------------------
+
+Saving plot: s_sanguinis
+Saved peak plot for s_sanguinis to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/s_sanguinis.png
+----------------------------------------------------
+
+Saving plot: s_spcc6803
+Saved peak plot for s_spcc6803 to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/s_spcc6803.png
+----------------------------------------------------
+
+Saving plot: x_albi
+Saved peak plot for x_albi to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/x_albi.png
+----------------------------------------------------
+
+Saving plot: x_ory
+Saved peak plot for x_ory to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/x_ory.png
+----------------------------------------------------
+
+Done
