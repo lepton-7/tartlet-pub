@@ -466,7 +466,7 @@
 
     {
         # This is the legend for panel b
-        sum_neg_nr <- sum(inf_df$inactive) - sum(inf_df$incon_disagree) - sum(inf_df$incon_agree)
+        sum_neg_nr <- sum(inf_df$inactive) - sum(inf_df$incon_disagree) - sum(inf_df$incon_agree) - sum(inf_df$active_agree)
 
         leg_df <- data.frame(
             tool = c("Y", "Y", "Y", "NA", "NA", "NA"),
