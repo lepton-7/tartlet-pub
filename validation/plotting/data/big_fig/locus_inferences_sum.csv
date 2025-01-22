@@ -138,12 +138,6 @@ p_cholor_aureo3084,yybP-ykoY,0,1,8,0,0,0,0
 p_cholor_aureo3084,TPP,0,1,8,0,0,0,0
 p_cholor_aureo3084,FMN,0,1,8,0,0,0,0
 p_cholor_aureo3084,Cobalamin,0,3,8,0,0,0,0
-p_fluor,yybP-ykoY,0,2,40,0,0,0,0
-p_fluor,SAH_riboswitch,0,1,40,0,0,0,0
-p_fluor,TPP,0,1,40,0,0,0,0
-p_fluor,ykkC-yxkD,0,1,40,0,0,0,0
-p_fluor,FMN,0,1,40,0,0,0,0
-p_fluor,Cobalamin,1,4,40,0,0,0,0
 s_coelicolor,ZMP-ZTP,0,1,12,0,0,0,0
 s_coelicolor,Cobalamin,0,9,12,0,0,0,0
 s_coelicolor,TPP,0,2,12,0,0,0,0

@@ -19,19 +19,29 @@ mean_t = 0.05
 var_t = 0.05
 
 # %%
+
+# -----------------------------------------------
+# Exclude these datasets
+# -----------------------------------------------
+excluded_dsets = [
+    "a_baum",
+    "c_basil",
+    "p_fluor",
+    "p_aeru",
+    "p_salmonis",
+]
+
 # Find all cluster stats files
 cluster_paths = [
     Path(x)
     for x in glob("../alignment/outputs/*/plots/cluster_stats.csv")
-    # Path(x)
-    # for x in glob("../alignment/outputs/*/p2/cluster_stats.csv")
+    if Path(x).parent.parent.stem not in excluded_dsets
 ]
 
 peak_paths = [
     Path(x)
     for x in glob("../alignment/outputs/*/plots/peak_log.csv")
-    # Path(x)
-    # for x in glob("../alignment/outputs/*/p2/peak_log.csv")
+    if Path(x).parent.parent.stem not in excluded_dsets
 ]
 
 # Ingest the table with literature evidence.
