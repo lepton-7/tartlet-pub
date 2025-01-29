@@ -40,6 +40,9 @@ for ppath in peak_paths:
             continue
         peak_dict[rid] = r["decision"]
 
+peak_dec_df = pd.DataFrame(peak_dict, index=["dec"]).T
+passing_peak_loci = list(peak_dec_df[peak_dec_df["dec"] == "pass"].index)
+
 pcount = 0  # Pass decision counter
 nacount = 0  # This indicates how many failed because of insufficient coverage
 failcount = 0  # Fail decision counter
@@ -112,3 +115,7 @@ for i in passlist:
         print(f"{i}")
 
 # %%
+# Check for which loci failed the locus plot decision but passed both cluster mean and variance tests
+for k in list(both_dict.keys()):
+    if k not in passing_peak_loci:
+        print(k)
