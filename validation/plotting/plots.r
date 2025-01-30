@@ -499,7 +499,7 @@
             )) +
             scale_y_discrete(labels = c(
                 "Y" = "≥Trx",
-                "Trans" = "Trl\nonly",
+                "Trans" = "Non\ntrx",
                 "NA" = "nr"
             ), position = "right") +
             guides(fill = "none") +
