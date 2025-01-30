@@ -71,6 +71,7 @@ for cpath in cluster_paths:
         varp = float(r["delta_variance_pval"])
         varval = float(r["delta_variance"])
         noisevar = float(r["noiseset_delta_variance"])
+        sigpeak_here = bool(r["sig_peak_in_cluster"])
 
         if mp < 0.05 and mval < 0:
             mean_dict[rid] = "pass"
@@ -78,7 +79,13 @@ for cpath in cluster_paths:
         if varp < 0.05 and varval > noisevar:
             var_dict[rid] = "pass"
 
-        if mp < 0.05 and mval < 0 and varp < 0.05 and varval > noisevar:
+        if (
+            mp < 0.05
+            and mval < 0
+            and varp < 0.05
+            and varval > noisevar
+            and sigpeak_here
+        ):
             both_dict[rid] = "pass"
 
 

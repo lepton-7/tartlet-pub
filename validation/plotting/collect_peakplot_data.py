@@ -113,12 +113,20 @@ for clpath in cluster_paths:
         this = r["rowid"]
 
         mp = r["delta_mean_pval"]
+        mval = r["delta_mean"]
         vp = r["delta_variance_pval"]
 
         del_var = r["delta_variance"]
         noise_del_var = r["noiseset_delta_variance"]
+        sigpeak_here = bool(r["sig_peak_in_cluster"])
 
-        if mp < mean_t and vp < var_t and del_var > noise_del_var:
+        if (
+            mval < 0
+            and mp < mean_t
+            and vp < var_t
+            and del_var > noise_del_var
+            and sigpeak_here
+        ):
             act_tally[this] += 1
 
     big_tab_list.extend(
