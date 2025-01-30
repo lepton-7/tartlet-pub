@@ -13,37 +13,37 @@ set echo on
 
 RT="$HOME/tartlet-pub"
 
-DSETS=(
-    "a_fischeri_ES114"
-    "a_kunk"
-    "b_anth"
-    "b_frag"
-    "b_pseudo"
-    "b_sub_168"
-    "b_theta"
-    "b_xyla"
-    "c_diff"
-    "c_vibrioides"
-    "d_vulg"
-    "e_coli"
-    "e_fae"
-    "e_limo"
-    "k_pneum"
-    "m_smeg"
-    "m_tuber"
-    "n_gonorr"
-    "p_cholor_aureo3084"
-    "p_fluor"
-    "p_salmo"
-    "s_coelicolor"
-    "s_elon"
-    "s_enter_typh"
-    "s_epi"
-    "s_meli"
-    "s_sanguinis"
-    "s_spcc6803"
-    "x_albi"
-    "x_ory"
+declare -A DSETS=(
+    ["a_fischeri_ES114"]="A. fischeri"
+    ["a_kunk"]="A. kunkeei"
+    ["b_anth"]="B. anthracis"
+    ["b_frag"]="B. fragilis"
+    ["b_pseudo"]="B. pseudomallei"
+    ["b_sub_168"]="B. subtilis"
+    ["b_theta"]="B. thetaiotaomicron"
+    ["b_xyla"]="B. xylanisolvens"
+    ["c_diff"]="C. difficile"
+    ["c_vibrioides"]="C. vibrioides"
+    ["d_vulg"]="D. vulgaris"
+    ["e_coli"]="E. coli"
+    ["e_fae"]="E. faecalis"
+    ["e_limo"]="E. limosum"
+    ["k_pneum"]="K. pneumoniae"
+    ["m_smeg"]="M. smegmatis"
+    ["m_tuber"]="M. tuberculosis"
+    ["n_gonorr"]="N. gonorrhoeae"
+    ["p_cholor_aureo3084"]="P. chlororaphis"
+    ["p_fluor"]="P. fluorescens"
+    ["p_salmo"]="P. salmonis"
+    ["s_coelicolor"]="S. coelicolor"
+    ["s_elon"]="S. elongatus"
+    ["s_enter_typh"]="S. enterica"
+    ["s_epi"]="S. epidermidis"
+    ["s_meli"]="S. meliloti"
+    ["s_sanguinis"]="S. sanguinis"
+    ["s_spcc6803"]="Synechococcus sp."
+    ["x_albi"]="X. albilineans"
+    ["x_ory"]="X. oryzae"
 )
 # These were removed from ^
 #   "c_basil"
@@ -54,18 +54,18 @@ echo "${DSETS[*]}"
 echo
 echo
 
-for DSET in ${DSETS[@]}; do
+for DSET in ${!DSETS[@]}; do
 
     D_ROOT="$RT/validation/alignment/outputs/$DSET"
 
     PPATH="$D_ROOT/plots/peak_log.csv"
     CPATH="$D_ROOT/plots/cluster_stats.csv"
-    SAVE_PATH="$RT/validation/alignment/peak_plots/${DSET}_60.png"
+    SAVE_PATH="$RT/validation/alignment/peak_plots/${DSET}.png"
 
     tartlet-targeted plot -p $PPATH \
         -c $CPATH \
         -o $SAVE_PATH \
-        --name $DSET
+        --name "${DSETS[$DSET]}"
 
     echo "----------------------------------------------------"
     echo

@@ -1,0 +1,173 @@
+Plotting output for:
+S. epidermidis A. fischeri S. coelicolor C. vibrioides B. pseudomallei A. kunkeei B. anthracis B. fragilis S. elongatus M. smegmatis P. chlororaphis E. coli K. pneumoniae S. meliloti M. tuberculosis N. gonorrhoeae P. salmonis B. subtilis X. oryzae D. vulgaris Synechococcus sp. B. thetaiotaomicron X. albilineans S. enterica E. faecalis C. difficile B. xylanisolvens P. fluorescens S. sanguinis E. limosum
+
+
+Saving plot: S. epidermidis
+Saved peak plot for S. epidermidis to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/s_epi.png
+----------------------------------------------------
+
+Saving plot: A. fischeri
+Saved peak plot for A. fischeri to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/a_fischeri_ES114.png
+----------------------------------------------------
+
+Saving plot: S. coelicolor
+Saved peak plot for S. coelicolor to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/s_coelicolor.png
+----------------------------------------------------
+
+Saving plot: C. vibrioides
+Saved peak plot for C. vibrioides to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/c_vibrioides.png
+----------------------------------------------------
+
+Saving plot: B. pseudomallei
+Saved peak plot for B. pseudomallei to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/b_pseudo.png
+----------------------------------------------------
+
+Saving plot: A. kunkeei
+Saved peak plot for A. kunkeei to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/a_kunk.png
+----------------------------------------------------
+
+Saving plot: B. anthracis
+Saved peak plot for B. anthracis to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/b_anth.png
+----------------------------------------------------
+
+Saving plot: B. fragilis
+Saved peak plot for B. fragilis to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/b_frag.png
+----------------------------------------------------
+
+Saving plot: S. elongatus
+Saved peak plot for S. elongatus to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/s_elon.png
+----------------------------------------------------
+
+Saving plot: M. smegmatis
+Saved peak plot for M. smegmatis to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/m_smeg.png
+----------------------------------------------------
+
+Saving plot: P. chlororaphis
+Saved peak plot for P. chlororaphis to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/p_cholor_aureo3084.png
+----------------------------------------------------
+
+Saving plot: E. coli
+Saved peak plot for E. coli to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/e_coli.png
+----------------------------------------------------
+
+Saving plot: K. pneumoniae
+Saved peak plot for K. pneumoniae to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/k_pneum.png
+----------------------------------------------------
+
+Saving plot: S. meliloti
+Saved peak plot for S. meliloti to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/s_meli.png
+----------------------------------------------------
+
+Saving plot: M. tuberculosis
+Saved peak plot for M. tuberculosis to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/m_tuber.png
+----------------------------------------------------
+
+Saving plot: N. gonorrhoeae
+Saved peak plot for N. gonorrhoeae to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/n_gonorr.png
+----------------------------------------------------
+
+R[write to console]: Error in file(file, "rt") : cannot open the connection
+
+R[write to console]: In addition: 
+R[write to console]: Warning message:
+
+R[write to console]: In file(file, "rt") :
+R[write to console]: 
+ 
+R[write to console]:  cannot open file '/users/PDS0325/sachitk26/tartlet-pub/validation/alignment/outputs/p_salmo/plots/peak_log.csv': No such file or directory
+
+Traceback (most recent call last):
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/bin/tartlet-targeted", line 33, in <module>
+    sys.exit(load_entry_point('tartlet', 'console_scripts', 'tartlet-targeted')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/packages/tartlet/tartlet/targeted/plot_results.py", line 46, in exec_main
+    main(peak_log, cluster_stats, name, output_path, low_lim, up_lim)
+  File "/users/PDS0325/sachitk26/packages/tartlet/tartlet/targeted/plot_results.py", line 50, in main
+    plotting.PeakPlot(
+  File "/users/PDS0325/sachitk26/packages/tartlet/tartlet/utils/plotting.py", line 44, in __init__
+    self._make_peak_plot()
+  File "/users/PDS0325/sachitk26/packages/tartlet/tartlet/utils/plotting.py", line 47, in _make_peak_plot
+    self.peakplotmaker_r(
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/rpy2/robjects/functions.py", line 208, in __call__
+    return (super(SignatureTranslatedFunction, self)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/rpy2/robjects/functions.py", line 131, in __call__
+    res = super(Function, self).__call__(*new_args, **new_kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/rpy2/rinterface_lib/conversion.py", line 45, in _
+    cdata = function(*args, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/PDS0325/sachitk26/.conda/envs/tart/lib/python3.11/site-packages/rpy2/rinterface.py", line 890, in __call__
+    raise embedded.RRuntimeError(_rinterface._geterrmessage())
+rpy2.rinterface_lib.embedded.RRuntimeError: Error in file(file, "rt") : cannot open the connection
+
+----------------------------------------------------
+
+Saving plot: B. subtilis
+Saved peak plot for B. subtilis to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/b_sub_168.png
+----------------------------------------------------
+
+Saving plot: X. oryzae
+Saved peak plot for X. oryzae to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/x_ory.png
+----------------------------------------------------
+
+Saving plot: D. vulgaris
+Saved peak plot for D. vulgaris to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/d_vulg.png
+----------------------------------------------------
+
+Saving plot: Synechococcus sp.
+Saved peak plot for Synechococcus sp. to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/s_spcc6803.png
+----------------------------------------------------
+
+Saving plot: B. thetaiotaomicron
+Saved peak plot for B. thetaiotaomicron to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/b_theta.png
+----------------------------------------------------
+
+Saving plot: X. albilineans
+Saved peak plot for X. albilineans to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/x_albi.png
+----------------------------------------------------
+
+Saving plot: S. enterica
+Saved peak plot for S. enterica to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/s_enter_typh.png
+----------------------------------------------------
+
+Saving plot: E. faecalis
+Saved peak plot for E. faecalis to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/e_fae.png
+----------------------------------------------------
+
+Saving plot: C. difficile
+Saved peak plot for C. difficile to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/c_diff.png
+----------------------------------------------------
+
+Saving plot: B. xylanisolvens
+Saved peak plot for B. xylanisolvens to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/b_xyla.png
+----------------------------------------------------
+
+Saving plot: P. fluorescens
+Saved peak plot for P. fluorescens to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/p_fluor.png
+----------------------------------------------------
+
+Saving plot: S. sanguinis
+Saved peak plot for S. sanguinis to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/s_sanguinis.png
+----------------------------------------------------
+
+Saving plot: E. limosum
+Saved peak plot for E. limosum to /users/PDS0325/sachitk26/tartlet-pub/validation/alignment/peak_plots/e_limo.png
+----------------------------------------------------
+
+Done
