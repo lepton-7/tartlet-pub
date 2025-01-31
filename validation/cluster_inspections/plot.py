@@ -12,7 +12,7 @@ mp_con = BasicMPIContext()
 comm = mp_con.comm
 rank = mp_con.rank
 
-dset = "b_sub_168"
+dset = "e_coli"
 
 # %%
 for cophen in cophens:
@@ -21,9 +21,18 @@ for cophen in cophens:
 
     outpath = Path(f"plots/{dset}_{cophen:.2f}.png")
 
-    main(str(ppath), str(cpath), f"{dset}_d={cophen:.2f}", str(outpath))
+    main(
+        peak_log=str(ppath),
+        cluster_stats=str(cpath),
+        name=f"{dset}_d={cophen:.2f}",
+        output_path=str(outpath),
+        low_lim=-1.2,
+        up_lim=0.5,
+    )
 
     if rank == 0:
-        print(f"Generated {dset} peak plots for clustering distance threshold = {cophen:.2f}")
+        print(
+            f"Generated {dset} peak plots for clustering distance threshold = {cophen:.2f}"
+        )
 
 # %%

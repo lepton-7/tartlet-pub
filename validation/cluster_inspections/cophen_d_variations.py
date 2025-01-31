@@ -12,7 +12,7 @@ mp_con = BasicMPIContext()
 comm = mp_con.comm
 rank = mp_con.rank
 
-dset = "e_coli"
+dset = "b_sub_168"
 
 # %%
 for cophen in cophens:
@@ -29,8 +29,11 @@ for cophen in cophens:
         min_cov_depth=15,
         conv=True,
         statplot=False,
+        rel_cov_change_sig_thresh=-0.2,
     )
     if rank == 0:
-        print(f"Generated outputs for {dset} clustering distance threshold = {cophen:.2f}")
+        print(
+            f"Generated outputs for {dset} clustering distance threshold = {cophen:.2f}"
+        )
 
 # %%
