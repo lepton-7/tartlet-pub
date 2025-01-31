@@ -212,8 +212,10 @@
 
 {
     alph <- 2
-    save_path <- str_glue("plots/{dset}_fragment_sizes.png")
-    ggsave(save_path, dpi = 320 * alph, units = "px", width = 5000 * alph, height = 3500 * alph)
+    # save_path <- str_glue("plots/{dset}_fragment_sizes.png")
+    save_path <- str_glue("plots/{dset}_fragment_sizes.pdf")
+    # ggsave(save_path, dpi = 320 * alph, units = "px", width = 5000 * alph, height = 3500 * alph)
+    ggsave(save_path, dpi = 320 * alph, units = "px", width = 5000 * alph, height = 3500 * alph, device = cairo_pdf)
 }
 
 # -----------------------------------------------------------------------
