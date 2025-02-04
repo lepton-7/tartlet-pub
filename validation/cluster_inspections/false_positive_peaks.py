@@ -41,7 +41,9 @@ for ppath in ppaths:
     c_sub = c[
         (c["delta_mean_pval"] < 0.05)
         & (c["delta_variance_pval"] < 0.05)
+        & (c["delta_mean"] < 0)
         & (c["delta_variance"] > c["noiseset_delta_variance"])
+        & (c["sig_peak_in_cluster"] == True)
     ]
 
     for _, r in c_sub.iterrows():
@@ -52,7 +54,14 @@ for ppath in ppaths:
         tot_pass_in_sig_clust += sig_clust_map[f"{r['rowid']}#{r['cluster']}"]
 
 print(
-    f"{tot_peaks} peaks in total; {tot_pass_peaks} passing peaks; {tot_pass_in_sig_clust} in sig clusters"
+    f"{tot_peaks} peaks in total; {tot_pass_peaks} passing peaks; {tot_pass_in_sig_clust} in {sum(sig_clust_map.values())} sig clusters"
 )
+
+# %%
+
+sigrid_list = [
+    "#".join(k.split("#")[:-1]) for k in sig_clust_map.keys() if sig_clust_map[k] > 0
+]
+sigrid_list = list(pd.unique(sigrid_list))
 
 # %%
