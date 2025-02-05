@@ -42,6 +42,7 @@ for ppath in peak_paths:
 
 peak_dec_df = pd.DataFrame(peak_dict, index=["dec"]).T
 passing_peak_loci = list(peak_dec_df[peak_dec_df["dec"] == "pass"].index)
+failing_peak_loci = list(peak_dec_df[peak_dec_df["dec"] == "fail"].index)
 
 pcount = 0  # Pass decision counter
 nacount = 0  # This indicates how many failed because of insufficient coverage
@@ -62,6 +63,7 @@ var_dict = defaultdict(str)
 both_dict = defaultdict(str)
 cl_sigpeak_dict = defaultdict(str)
 both_pass_clsig_fail_dict = defaultdict(str)
+cldf = pd.DataFrame()
 
 for cpath in cluster_paths:
     df = pd.read_csv(cpath)
@@ -102,6 +104,40 @@ for cpath in cluster_paths:
             and not sigpeak_here
         ):
             both_pass_clsig_fail_dict[rid] = "fail"
+
+    cldf = pd.concat([cldf, df])
+
+cldf["sigcl"] = (
+    (cldf["delta_mean_pval"] < 0.05)
+    & (cldf["delta_mean"] < 0)
+    & (cldf["delta_variance"] > cldf["noiseset_delta_variance"])
+    & (cldf["sig_peak_in_cluster"])
+    & (cldf["delta_variance_pval"] < 0.05)
+)
+
+cldf["meanpass"] = (cldf["delta_mean_pval"] < 0.05) & (cldf["delta_mean"] < 0)
+
+cldf["varpass"] = (cldf["delta_variance"] > cldf["noiseset_delta_variance"]) & (
+    cldf["delta_variance_pval"] < 0.05
+)
+
+# passing_rids = list(pd.unique(cldf[cldf["sigcl"]]["rowid"]))
+# onlyfailsmid = cldf[~cldf["rowid"].isin(passing_rids)]
+# onlyfails = onlyfailsmid[onlyfailsmid["rowid"].isin(passing_peak_loci)]
+
+# onlymeanfails = onlyfails[
+#     ~onlyfails["rowid"].isin(list(pd.unique(onlyfails[onlyfails["meanpass"]]["rowid"])))
+# ]
+
+# meanpassvarfails = onlyfails[
+#     ~onlyfails["rowid"].isin(
+#         list(
+#             pd.unique(onlyfails[onlyfails["meanpass"] & onlyfails["varpass"]]["rowid"])
+#         )
+#     )
+#     & onlyfails["meanpass"]
+#     & ~onlyfails["varpass"]
+# ]
 
 mean_dict_df = pd.DataFrame(mean_dict, index=["dec"]).T
 var_dict_df = pd.DataFrame(var_dict, index=["dec"]).T
@@ -171,6 +207,7 @@ for r in list(mean_dict.keys()):
 #         print(k)
 
 # %%
+mean_var_list = [k for k in mean_dict.keys() if var_dict[k] == "pass"]
 sig_loc_list = [
     "Lysine#CP001139.1#1859200#1859017#-",
     "Lysine#CP080568.1#1148715#1148536#-",
@@ -252,3 +289,39 @@ sig_loc_list = [
     "M-box#CP000387.1#1721468#1721312#-",
     "Cobalamin#CP046570.1#3179709#3179931#+",
 ]
+
+# %%
+# Previously characterised loci -- only the false neg results
+falneg = [
+    "Glycine#NC_000964.3#2549606#2549505#-",
+    "SAM#NC_000964.3#1258304#1258424#+",
+    "Lysine#NC_000913.3#4233521#4233325#-",
+    "AdoCbl_riboswitch#KB944666.1#1710869#1710720#-",
+    "Purine#NC_000964.3#626446#626347#-",
+    "SAM#NC_000964.3#2025251#2025160#-",
+    "TPP#NC_000913.3#4196280#4196180#-",
+    "TPP#AE017334.2#752272#752375#+",
+    "FMN#NC_000964.3#2431617#2431473#-",
+    "Mg_sensor#AE006468.2#4699497#4699609#+",
+]
+
+# negdf = cldf[cldf["rowid"].isin(falneg)]
+
+# pd.unique(negdf[negdf["sig_peak_in_cluster"]]["rowid"])
+# pd.unique(negdf[negdf["sig_peak_in_cluster"] & negdf["meanpass"]]["rowid"])
+# pd.unique(negdf[negdf["sig_peak_in_cluster"] & negdf["varpass"]]["rowid"])
+# %%
+
+non_sig_rids = [rid for rid in passing_peak_loci if rid not in list(both_dict.keys())]
+
+union_fails_loci = [
+    *sspeak_pass_mean_fail_loci,
+    *sspeak_mean_pass_var_fail_loci,
+    *list(both_pass_clsig_fail_dict.keys()),
+]
+
+peak_pass_but_allfails_loci = list(pd.unique(union_fails_loci))
+
+supposed_sigcls = [k for k in passing_peak_loci if k not in union_fails_loci]
+uncounted_fails = [k for k in supposed_sigcls if k in non_sig_rids]
+# %%
