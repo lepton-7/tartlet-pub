@@ -90,15 +90,15 @@ cldf_ppassing_loci = cldf[cldf["rowid"].isin(ppas_rowids)]
 ppass_rowids_count = len(pd.unique(cldf_ppassing_loci["rowid"]))
 print(f"Loci that have no sig peaks: {tot_rowid_in_cstats-ppass_rowids_count}\n")
 print(
-    f"Therefore, loci that have at least one sig peak: {ppass_rowids_count}\nWithout gating on this condition:\n"
+    f"Therefore, loci that have at least one sig peak: {ppass_rowids_count}\nGating on this condition:\n"
 )
 
 
-meandf = cldf[cldf["meanpass"]]
+meandf = cldf_ppassing_loci[cldf_ppassing_loci["meanpass"]]
 meanpassing_loc = len(pd.unique(meandf["rowid"]))
 print(f"Loci with atleast one cl passing mean test: {meanpassing_loc}")
 print(
-    f"Therefore, loci that have no mean passing cls: {tot_rowid_in_cstats - meanpassing_loc}\n"
+    f"Therefore, loci that have no mean passing cls: {ppass_rowids_count - meanpassing_loc}\n"
 )
 
 mean_var_df = meandf[meandf["varpass"]]
