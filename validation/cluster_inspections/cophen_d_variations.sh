@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #SBATCH --time=02:00:00
-#SBATCH --nodes=5 --cpus-per-task=1
+#SBATCH --nodes=6 --cpus-per-task=1
 
 #SBATCH --account=PDS0325
 #SBATCH --mail-type=BEGIN,END,FAIL

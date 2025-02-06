@@ -6,13 +6,13 @@ from tartlet.utils.mpi_context import BasicMPIContext
 
 rt = "../.."
 # %%
-cophens = [x / 100 for x in range(1, 30)]
+cophens = [x / 100 for x in range(1, 10)]
 
 mp_con = BasicMPIContext()
 comm = mp_con.comm
 rank = mp_con.rank
 
-dset = "b_sub_168"
+dset = "e_coli"
 
 # %%
 for cophen in cophens:
@@ -23,6 +23,7 @@ for cophen in cophens:
         pick_root=f"{rt}/validation/alignment/outputs/{dset}/plots/picks.tar.gz",
         out_dir=odir,
         ext_prop=(-0.3, 1.0),
+        roi_val=0.5,
         noplots=True,
         cophen_dist_thresh=cophen,
         bin_size=10,

@@ -6,7 +6,7 @@ from tartlet.utils.mpi_context import BasicMPIContext
 
 rt = "../.."
 # %%
-cophens = [x / 100 for x in range(1, 30)]
+cophens = [x / 100 for x in range(1, 10)]
 
 mp_con = BasicMPIContext()
 comm = mp_con.comm
