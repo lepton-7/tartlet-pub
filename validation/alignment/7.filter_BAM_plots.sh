@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #SBATCH --time=02:00:00
-#SBATCH --nodes=5 --cpus-per-task=1
+#SBATCH --nodes=6 --cpus-per-task=1
 
 #SBATCH --account=PDS0325
 #SBATCH --mail-type=BEGIN,END,FAIL
@@ -62,8 +62,8 @@ for DSET in ${DSETS[@]}; do
     SAVE_ROOT="$D_ROOT/plots/"
 
     # echo "Removing existing data"
-    # rm -r $SAVE_ROOT/*/ $SAVE_ROOT/*.csv
-    rm -r $SAVE_ROOT/*.csv
+    rm -r $SAVE_ROOT/*/ $SAVE_ROOT/*.csv
+    # rm -r $SAVE_ROOT/*.csv
 
     echo "Filtering plots for $DSET"
 
@@ -72,8 +72,9 @@ for DSET in ${DSETS[@]}; do
         --ext-prop -0.3 1.0 \
         --conv \
         --min-cov-depth 15 \
-        --cophen-dist-thresh 0.04 \
-        --noplots \
+        --roi 0.5 \
+        --cophen-dist-thresh 0.04
+    # --noplots \
     # --statplot \
 
     echo "Finished filtering outputs for $DSET into $SAVE_ROOT"
