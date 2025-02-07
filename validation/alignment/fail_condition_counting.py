@@ -94,27 +94,22 @@ print(
 )
 
 
-meandf = cldf_ppassing_loci[cldf_ppassing_loci["meanpass"]]
+meandf = cldf_ppassing_loci[
+    cldf_ppassing_loci["meanpass"] & cldf_ppassing_loci["sig_peak_in_cluster"]
+]
 meanpassing_loc = len(pd.unique(meandf["rowid"]))
-print(f"Loci with atleast one cl passing mean test: {meanpassing_loc}")
+print(f"Loci with atleast one sig-peak cl passing mean test: {meanpassing_loc}")
 print(
-    f"Therefore, loci that have no mean passing cls: {ppass_rowids_count - meanpassing_loc}\n"
+    f"Therefore, loci that have no sig-peak cls that are mean passing: {ppass_rowids_count - meanpassing_loc}\n"
 )
 
 mean_var_df = meandf[meandf["varpass"]]
 meanvarpassing_loc = len(pd.unique(mean_var_df["rowid"]))
-print(f"Loci with atleast one cl passing mean and var test: {meanvarpassing_loc}")
 print(
-    f"Therefore, loci that have no cls that pass both mean+var: {meanpassing_loc - meanvarpassing_loc}\n"
-)
-
-mean_var_sigpeak_df = mean_var_df[mean_var_df["sig_peak_in_cluster"]]
-meanvarpassingsigpeak_loc = len(pd.unique(mean_var_sigpeak_df["rowid"]))
-print(
-    f"Loci with atleast one cl passing mean and var test with sig peak: {meanvarpassingsigpeak_loc}"
+    f"Loci with atleast one sig-peak cl passing mean and var test: {meanvarpassing_loc}"
 )
 print(
-    f"Therefore, loci that have no cls that pass both mean+var and has a sig peak: {meanvarpassing_loc - meanvarpassingsigpeak_loc}\n"
+    f"Therefore, loci that have no sig-peak cls that pass both mean+var: {meanpassing_loc - meanvarpassing_loc}\n"
 )
 
 # %%
