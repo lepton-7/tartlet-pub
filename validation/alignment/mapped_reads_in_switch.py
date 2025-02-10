@@ -56,8 +56,18 @@ for filepath in file_list:
 # %%
 total_mapped = 0
 total_unmapped = 0
+excluded_dsets = [
+    "a_baum",
+    "c_basil",
+    "p_fluor",
+    "p_aeru",
+    "p_salmo",
+]
 
 for k, vlist in rates_dict.items():
+    if k in excluded_dsets:
+        print(f"Excluding {k} from total counts")
+        continue
     total_mapped += vlist[0]
     total_unmapped += vlist[1]
 
