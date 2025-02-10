@@ -62,8 +62,8 @@ for DSET in ${DSETS[@]}; do
     SAVE_ROOT="$D_ROOT/plots/"
 
     # echo "Removing existing data"
-    rm -r $SAVE_ROOT/*/ $SAVE_ROOT/*.csv
-    # rm -r $SAVE_ROOT/*.csv
+    # rm -r $SAVE_ROOT/*/ $SAVE_ROOT/*.csv
+    rm -r $SAVE_ROOT/*.csv
 
     echo "Filtering plots for $DSET"
 
@@ -73,8 +73,8 @@ for DSET in ${DSETS[@]}; do
         --conv \
         --min-cov-depth 15 \
         --roi 0.5 \
+        --noplots \
         --cophen-dist-thresh 0.04
-    # --noplots \
     # --statplot \
 
     echo "Finished filtering outputs for $DSET into $SAVE_ROOT"
