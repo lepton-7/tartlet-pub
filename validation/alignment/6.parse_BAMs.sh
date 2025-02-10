@@ -71,6 +71,7 @@ for DSET in ${DSETS[@]}; do
         -o $SAVE_ROOT \
         --bounds-file $BOUNDS_PATH \
         --allow-single-reads \
+        --roi 0.5 \
         --allow-soft-clips \
         --picks &&
         wait
