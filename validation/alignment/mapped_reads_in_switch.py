@@ -12,10 +12,10 @@ unsoft_list = [
     "validation/alignment/jobs/6.all.parse_BAMs.out.2024-09-30_10-50-43.31786822",
 ]
 soft_list = [
-    "validation/alignment/jobs/6.all.parse_BAMs.out.2024-10-01_00-37-04.31801983",
-    "validation/alignment/jobs/6.all.parse_BAMs.out.2024-10-01_00-37-20.31801984",
-    "validation/alignment/jobs/6.all.parse_BAMs.out.2024-10-01_00-37-33.31801985",
-    "validation/alignment/jobs/6.all.parse_BAMs.out.2024-10-01_00-37-55.31801991",
+    "validation/alignment/jobs/6.all.parse_BAMs.out.2025-02-09_21-57-34.33636910",
+    "validation/alignment/jobs/6.all.parse_BAMs.out.2025-02-09_22-00-16.33636918",
+    "validation/alignment/jobs/6.all.parse_BAMs.out.2025-02-09_22-00-35.33636924",
+    "validation/alignment/jobs/6.all.parse_BAMs.out.2025-02-09_22-00-47.33636932",
 ]
 
 file_list = [Path(f"{rt}/{relpath}") for relpath in soft_list]
