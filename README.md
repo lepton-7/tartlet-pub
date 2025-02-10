@@ -1,14 +1,15 @@
 # TaRTLEt Walkthrough
 
-This is a step-by-step tutorial for running TaRTLEt on paired-end RNA-seq data to identify riboswitch loci showing evidence of condition-dependent transcription termination. In the tutorial, we'll use the *B. subtilis* subset of the validation dataset from our paper (Kshatriya and Bagby, "TaRTLEt: Transcriptionally-active Riboswitch Tracer Leveraging Edge deTection").
+This is a step-by-step tutorial for running TaRTLEt on paired-end RNA-seq data to identify riboswitch loci showing evidence of condition-dependent transcription termination. In the tutorial, we'll use the *B. anthracis* subset of the validation dataset from our paper (Kshatriya and Bagby, "TaRTLEt: Transcriptionally-active Riboswitch Tracer Leveraging Edge deTection").
 
 All paths given below are relative to the repository root. Function options and argument details may be accessed using the `--help` option.
 
 ## Download sample data
 
-Due to size constraints, the paired-end reads and alignment files are not included in this repository. All the Sequence Run Archive (SRA) accessions used for this work are recorded in the `validation/rna_seq/acc_lists` directory. You can use the `validation/rna_seq/download_SRAs.sh` convenience script to download each dataset of interest. To download just the *B. subtilis* data, call
+Due to size constraints, the paired-end reads and alignment files are not included in this repository. All the Sequence Run Archive (SRA) accessions used for this work are recorded in the `validation/rna_seq/acc_lists` directory. You can use the `validation/rna_seq/download_SRAs.sh` convenience script to download each dataset of interest. To download just the *B. anthracis* data, call
 
 ```bash
+tartlet-utils download-sras -i validation/rna_seq/acc_lists/b_anth_corsi2020_acc.txt -o validation/rna_seq/b_anth -t validation/b_anth_seq_temp
 ```
 
 ## Identify riboswitches
@@ -50,9 +51,9 @@ TaRTLEt `reference-gen` uses the Infernal results table to extract riboswitch se
 ```bash
 tartlet-targeted reference-gen \ 
         --ledger validation/tables/inf_results.csv \
-        --out-dir validation/alignment/outputs/b_sub_168/switch_seqs_delta1000-1000 \
+        --out-dir validation/alignment/outputs/b_anth/switch_seqs_delta1000-1000 \
         --genome validation/genomes \
-        --dset b_sub_168 \
+        --dset b_anth \
         --unify \
         --pre-del 1000 \
         --post-del 1000
@@ -63,9 +64,9 @@ Next, to support proper location indexing during the next steps, call `bounds`:
 ```bash
 tartlet-targeted bounds \
         --ledger validation/tables/inf_results.csv \
-        --out-dir validation/alignment/outputs/b_sub_168/switch_seqs_delta1000-1000 \
+        --out-dir validation/alignment/outputs/b_anth/switch_seqs_delta1000-1000 \
         --genome validation/genomes \
-        --dset b_sub_168 \
+        --dset b_anth \
         --pre-del 1000 \
         --post-del 1000
 ```
@@ -75,17 +76,17 @@ tartlet-targeted bounds \
 TaRTLEt uses HISAT2 for read alignment. First, index the riboswitch sequences by calling
 
 ```bash
-tartlet-targeted index -i validation/alignment/outputs/b_sub_168/switch_seqs_delta1000-1000 -p 44
+tartlet-targeted index -i validation/alignment/outputs/b_anth/switch_seqs_delta1000-1000 -p 44
 ```
 
 (That is, the `reference-gen` output directory is the input directory for indexing.) Then call HISAT to align reads:
 
 ```bash
 hisat2 \
-    -x validation/alignment/outputs/b_sub_168/switch_seqs_delta1000-1000/unified_index/unified_index \
+    -x validation/alignment/outputs/b_anth/switch_seqs_delta1000-1000/unified_index/unified_index \
     -1 <sequencing dir>/mate_1.fastq.gz \
     -2 <sequencing dir>/mate_2.fastq.gz \
-    -S validation/alignment/outputs/b_sub_168/switch_seqs_delta1000-1000/alignment_final/unified/alignment.sam \
+    -S validation/alignment/outputs/b_anth/switch_seqs_delta1000-1000/alignment_final/unified/alignment.sam \
     -t \
     --no-unal \
     --score-min L,0,-0.4 \
@@ -95,7 +96,7 @@ hisat2 \
 Next, use TaRTLEt's `convert-sam` (a wrapper for HISAT2's SAM-to-sorted-BAM conversion function) to produce a sorted BAM file:
 
 ```bash
-tartlet-targeted convert-sam -i validation/alignment/outputs/b_sub_168/switch_seqs_delta1000-1000/alignment_final
+tartlet-targeted convert-sam -i validation/alignment/outputs/b_anth/switch_seqs_delta1000-1000/alignment_final
 ```
 
 ## Process alignment results
@@ -103,9 +104,9 @@ tartlet-targeted convert-sam -i validation/alignment/outputs/b_sub_168/switch_se
 TaRTLEt `parse-bam` extracts subsets of sorted BAM files containing just those reads that map to each riboswitch locus.  To process alignment results, call
 
 ```bash
-tartlet-targeted parse-bam -i validation/alignment/outputs/b_sub_168/switch_seqs_delta1000-1000/alignment_final \
-        -o validation/alignment/outputs/b_sub_168/plots/picks \
-        --bounds-file validation/alignment/outputs/b_sub_168/switch_seqs_delta1000-1000/rowid_to_bounds.json \
+tartlet-targeted parse-bam -i validation/alignment/outputs/b_anth/switch_seqs_delta1000-1000/alignment_final \
+        -o validation/alignment/outputs/b_anth/plots/picks \
+        --bounds-file validation/alignment/outputs/b_anth/switch_seqs_delta1000-1000/rowid_to_bounds.json \
         --allow-single-reads \
         --allow-soft-clips \
         --picks
@@ -129,8 +130,8 @@ The core of the TaRTLEt algorithm is `filter`. This command
 When you invoke `filter`, you can set a minimum coverage depth threshold using `--min-cov-depth` and specify an output directory with `-o`. Here, we call `filter` with
 
 ```bash
-tartlet-targeted filter -i  validation/alignment/outputs/b_sub_168/plots/picks.tar.gz \
-        -o validation/alignment/outputs/b_sub_168/plots/ \
+tartlet-targeted filter -i  validation/alignment/outputs/b_anth/plots/picks.tar.gz \
+        -o validation/alignment/outputs/b_anth/plots/ \
         --ext-prop -0.3 1.0 \
         --conv \
         --min-cov-depth 15
@@ -153,10 +154,10 @@ It can be helpful to inspect the `fail/` and `pass/` locus plots to convince you
 The main tool to visualise whether a riboswitch locus shows evidence for condition-dependent transcription termination is the "peak plot" (Fig. 5 from the manuscript). The inputs to generating a peak plot are the `peak_log.csv` and the `cluster_stats.csv` files. To generate a peak plot for the sample data, call
 
 ```bash
-tartlet-targeted plot -p validation/alignment/outputs/b_sub_168/plots/peak_log.csv \
-        -c validation/alignment/outputs/b_sub_168/plots/cluster_stats.csv \
-        -o validation/alignment/peak_plots/b_sub_168_test.png \
-        --name b_sub_168
+tartlet-targeted plot -p validation/alignment/outputs/b_anth/plots/peak_log.csv \
+        -c validation/alignment/outputs/b_anth/plots/cluster_stats.csv \
+        -o validation/alignment/peak_plots/b_anth_test.png \
+        --name b_anth
 ```
 
 The output is an image file at the path specified by the `-o` option.
