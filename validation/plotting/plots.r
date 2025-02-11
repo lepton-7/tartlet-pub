@@ -10,6 +10,7 @@
     library(ggforce)
     library(treeio)
     library(magick)
+    library("tools")
     setwd("validation/plotting")
 }
 
@@ -533,7 +534,11 @@
         h <- 4000
         alph <- 1
         save_path <- str_glue("plots/big_fig_withvalleg_lat-estall_morevalid_60reps_roi05.pdf")
-        ggsave(save_path, plot = patched, dpi = 320 * alph, units = "px", width = h * wbyr * alph, height = h * alph, device = cairo_pdf)
+        if (file_ext(save_path) == "pdf") {
+            ggsave(save_path, plot = patched, dpi = 320 * alph, units = "px", width = h * wbyr * alph, height = h * alph, device = cairo_pdf)
+        } else {
+            ggsave(save_path, plot = patched, dpi = 320 * alph, units = "px", width = h * wbyr * alph, height = h * alph)
+        }
     }
 
     # -----------------------------
