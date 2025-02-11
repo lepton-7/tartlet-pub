@@ -60,7 +60,7 @@ for DSET in ${!DSETS[@]}; do
 
     PPATH="$D_ROOT/plots/peak_log.csv"
     CPATH="$D_ROOT/plots/cluster_stats.csv"
-    SAVE_PATH="$RT/validation/alignment/peak_plots/${DSET}.png"
+    SAVE_PATH="$RT/validation/alignment/peak_plots/${DSET}.pdf"
 
     tartlet-targeted plot -p $PPATH \
         -c $CPATH \
