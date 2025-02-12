@@ -141,7 +141,7 @@ This step generates four key outputs per riboswitch locus:
 
 - In the `fail/` subdirectory, one locus plot per riboswitch locus per condition for every case in which TaRTLEt detected no above-background transcription termination events. Locus plot filenames take the form `riboswitch_class#genome_accession_number#riboswitch_locus_start#riboswitch_locus_end#-#SRA_accession.sorted.bam.png`.
 - In the `pass/` subdirectory, one locus plot per riboswitch locus per condition for every case in which TaRTLEt *did* detect above-background transcription termination event(s). Locus plot filenames take the form `riboswitch_class#genome_accession_number#riboswitch_locus_start#riboswitch_locus_end#-#SRA_accession.sorted.bam.png`.
-- `cluster_stats.csv` reports details on statistical tests of each cluster's fractional coverage change mean and variance.  Note that a cluster must meet three criteria to be called significant:
+- `cluster_stats.csv` reports details on statistical tests of each cluster's fractional coverage change mean and variance.  Note that the sampling procedure used for variance testing uses a random seed, so precise values of delta_variance_pval and noiseset_delta_variance may differ slightly from run to run.  A cluster must meet three criteria to be called significant:
   - delta_mean_pval < 0.05
   - delta_variance_pval < 0.05
   - delta_variance > noiseset_delta_variance
